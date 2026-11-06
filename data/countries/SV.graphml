@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SV" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SV-AH"><data key="name">Ahuachapán</data><data key="code">SV-AH</data><data key="wikidata">Q572993</data><data key="lon">-89.93375</data><data key="lat">13.86521</data></node>
+    <node id="SV-CA"><data key="name">Cabañas</data><data key="code">SV-CA</data><data key="wikidata">Q914058</data><data key="lon">-88.73122</data><data key="lat">13.88302</data></node>
+    <node id="SV-CH"><data key="name">Chalatenango</data><data key="code">SV-CH</data><data key="wikidata">Q522221</data><data key="lon">-89.10278</data><data key="lat">14.1804</data></node>
+    <node id="SV-CU"><data key="name">Cuscatlán</data><data key="code">SV-CU</data><data key="wikidata">Q1130677</data><data key="lon">-89.04171</data><data key="lat">13.85983</data></node>
+    <node id="SV-LI"><data key="name">La Libertad</data><data key="code">SV-LI</data><data key="wikidata">Q930820</data><data key="lon">-89.35621</data><data key="lat">13.74417</data></node>
+    <node id="SV-MO"><data key="name">Morazán</data><data key="code">SV-MO</data><data key="wikidata">Q1122836</data><data key="lon">-88.07959</data><data key="lat">13.76837</data></node>
+    <node id="SV-PA"><data key="name">La Paz</data><data key="code">SV-PA</data><data key="wikidata">Q1129788</data><data key="lon">-88.98138</data><data key="lat">13.47095</data></node>
+    <node id="SV-SA"><data key="name">Santa Ana</data><data key="code">SV-SA</data><data key="wikidata">Q671158</data><data key="lon">-89.57628</data><data key="lat">14.10493</data></node>
+    <node id="SV-SM"><data key="name">San Miguel</data><data key="code">SV-SM</data><data key="wikidata">Q930804</data><data key="lon">-88.23011</data><data key="lat">13.54481</data></node>
+    <node id="SV-SO"><data key="name">Sonsonate</data><data key="code">SV-SO</data><data key="wikidata">Q212540</data><data key="lon">-89.65095</data><data key="lat">13.71052</data></node>
+    <node id="SV-SS"><data key="name">San Salvador</data><data key="code">SV-SS</data><data key="wikidata">Q1543219</data><data key="lon">-89.15013</data><data key="lat">13.78006</data></node>
+    <node id="SV-SV"><data key="name">San Vicente</data><data key="code">SV-SV</data><data key="wikidata">Q1130180</data><data key="lon">-88.73752</data><data key="lat">13.53311</data></node>
+    <node id="SV-UN"><data key="name">La Unión</data><data key="code">SV-UN</data><data key="wikidata">Q1130688</data><data key="lon">-87.90239</data><data key="lat">13.53784</data></node>
+    <node id="SV-US"><data key="name">Usulután</data><data key="code">SV-US</data><data key="wikidata">Q1122748</data><data key="lon">-88.5445</data><data key="lat">13.43364</data></node>
+    <edge source="SV-AH" target="SV-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-AH" target="SV-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CA" target="SV-CH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CA" target="SV-CU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CA" target="SV-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CA" target="SV-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CH" target="SV-CU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CH" target="SV-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CH" target="SV-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CH" target="SV-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CU" target="SV-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CU" target="SV-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-CU" target="SV-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-LI" target="SV-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-LI" target="SV-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-LI" target="SV-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-LI" target="SV-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-MO" target="SV-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-MO" target="SV-UN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-PA" target="SV-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-PA" target="SV-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-SA" target="SV-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-SM" target="SV-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-SM" target="SV-UN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-SM" target="SV-US"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SV-SV" target="SV-US"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

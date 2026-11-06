@@ -1,0 +1,68 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AS",
+ "kind": "country",
+ "name": "American Samoa",
+ "level": null,
+ "n": 5,
+ "m": 1,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AS-X01~",
+   "name": "Eastern",
+   "wikidata": null,
+   "lon": -170.68364,
+   "lat": -14.28297
+  },
+  {
+   "code": "AS-X02~",
+   "name": "Manu's",
+   "wikidata": null,
+   "lon": -169.48593,
+   "lat": -14.24704
+  },
+  {
+   "code": "AS-X03~",
+   "name": "Rose Atoll",
+   "wikidata": null,
+   "lon": -168.16424,
+   "lat": -14.52829
+  },
+  {
+   "code": "AS-X04~",
+   "name": "Swain's Island",
+   "wikidata": null,
+   "lon": -171.07962,
+   "lat": -11.05641
+  },
+  {
+   "code": "AS-X05~",
+   "name": "Western",
+   "wikidata": null,
+   "lon": -170.75813,
+   "lat": -14.33335
+  }
+ ],
+ "edges": [
+  {
+   "u": "AS-X01~",
+   "v": "AS-X05~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5320
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ASM-ADM3-99443796",
+  "level": "ADM3",
+  "year": "2021",
+  "license": "Public Domain"
+ }
+}

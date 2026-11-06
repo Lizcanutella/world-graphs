@@ -1,0 +1,911 @@
+iso,unit,flags,matched_by,iou,area_ratio,quality,rows,orphans_held
+AD,AD-07,area;shape,code,0.223,1.751,1.0,[],
+AE,AE-AJ,area,code,0.524,1.645,1.0,[],
+AE,AE-X01~,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159309257"", ""name"": ""Neutral Zone"", ""gb_code"": ""AE-SH"", ""gb_name"": ""Sharjah"", ""share"": 1.0}]",
+AE,AE-X02~,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159309261"", ""name"": ""Neutral Zone"", ""gb_code"": ""AE-AJ"", ""gb_name"": ""Ajman"", ""share"": 0.642}]",
+AF,AF-BDS,code,area,0.911,1.04,0.935,"[{""ne_id"": ""1159312075"", ""name"": ""Badakhshan"", ""gb_code"": ""AF-BDN"", ""gb_name"": ""Badakhshan"", ""share"": 0.972}]",AF-BDN Badakhshan
+AF,AF-KAN,code,area,0.926,1.01,0.957,"[{""ne_id"": ""1159312065"", ""name"": ""Kandahar"", ""gb_code"": ""AF_KAN"", ""gb_name"": ""Kandahar"", ""share"": 0.966}]",AF_KAN Kandahar
+AG,AG-03,shape,code,0.322,0.905,1.0,[],
+AG,AG-07,shape,code,0.384,1.059,1.0,[],
+AG,AG-11,area,code,0.552,1.603,1.0,[],
+AO,AO-BGO,label;area;shape,code,0.432,0.607,1.0,"[{""ne_id"": ""1159311253"", ""name"": ""Bengo"", ""gb_code"": ""AO-LUA"", ""gb_name"": ""Luanda"", ""share"": 0.509}]",
+AO,AO-LUA,area;shape,code,0.109,7.04,1.0,[],
+AR,AR-C,area;shape,code,0.17,2.517,1.0,[],
+AR,AR-E,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159309789"", ""name"": ""Entre Ríos"", ""gb_code"": ""AR-B"", ""gb_name"": ""Buenos Aires"", ""share"": 0.986}]",
+AS,AS-X01~,unidentified,area,0.574,1.214,0.665,[],
+AS,AS-X02~,unidentified,area,0.403,1.161,0.534,[],
+AS,AS-X03~,unidentified,,0.0,,0.0,[],
+AS,AS-X04~,unidentified,area,0.48,1.94,0.491,[],
+AU,AU-NSW:Lord Howe Island,unidentified,,0.0,,0.0,[],
+AU,AU-X02~,unidentified,area,0.195,3.511,0.209,[],
+AU,AU-X03~,unidentified,,0.0,,0.0,[],
+AU,AU-X04~,unidentified,,0.0,,0.0,[],
+AZ,AZ-ABS,code,area,0.795,0.977,0.875,"[{""ne_id"": ""1159312243"", ""name"": ""Abşeron"", ""gb_code"": ""AZE"", ""gb_name"": ""Absheron District"", ""share"": 0.875}]",AZE Absheron District
+AZ,AZ-AGA,code,area,0.842,1.13,0.862,"[{""ne_id"": ""1159312215"", ""name"": ""Ağstafa"", ""gb_code"": ""AZE"", ""gb_name"": ""Agstafa District"", ""share"": 0.974}]",AZE Agstafa District
+AZ,AZ-AGC,label,area,0.813,0.936,0.869,"[{""ne_id"": ""1159312309"", ""name"": ""Ağcabədi"", ""gb_code"": ""AZE"", ""gb_name"": ""Aghjabadi District"", ""share"": 0.869}]",AZE Aghjabadi District
+AZ,AZ-AGM,code,area,0.692,0.979,0.809,"[{""ne_id"": ""1159312139"", ""name"": ""Ağdam"", ""gb_code"": ""AZE"", ""gb_name"": ""Agdam District"", ""share"": 0.809}]",AZE Agdam District
+AZ,AZ-AGS,code;unidentified,area,0.728,1.13,0.794,"[{""ne_id"": ""1159312245"", ""name"": ""Ağdaş"", ""gb_code"": ""AZE"", ""gb_name"": ""Agdash District"", ""share"": 0.898}]",AZE Agdash District
+AZ,AZ-AGU,code,area,0.713,0.958,0.815,"[{""ne_id"": ""1159312247"", ""name"": ""Ağsu"", ""gb_code"": ""AZE"", ""gb_name"": ""Agsu District"", ""share"": 0.815}]",AZE Agsu District
+AZ,AZ-AST,code;unidentified,area,0.696,1.35,0.715,"[{""ne_id"": ""1159312251"", ""name"": ""Astara"", ""gb_code"": ""AZE"", ""gb_name"": ""Astara District"", ""share"": 0.964}]",AZE Astara District
+AZ,AZ-BA,code,area,0.808,0.894,0.846,"[{""ne_id"": ""1159312135"", ""name"": ""Bakı"", ""gb_code"": ""AZE"", ""gb_name"": ""Baku City"", ""share"": 0.846}]",AZE Baku City
+AZ,AZ-BAB,code;unidentified,area,0.655,1.115,0.75,"[{""ne_id"": ""1159312125"", ""name"": ""Babək"", ""gb_code"": ""AZE"", ""gb_name"": ""Babek District"", ""share"": 0.837}]",AZE Babek District
+AZ,AZ-BAL,code,area,0.783,1.104,0.837,"[{""ne_id"": ""1159312313"", ""name"": ""Balakən"", ""gb_code"": ""AZE"", ""gb_name"": ""Balakan District"", ""share"": 0.924}]",AZE Balakan District
+AZ,AZ-BAR,label;unidentified,area,0.775,0.814,0.792,"[{""ne_id"": ""1159312253"", ""name"": ""Bərdə"", ""gb_code"": ""AZE"", ""gb_name"": ""Barda District"", ""share"": 0.792}]",AZE Barda District
+AZ,AZ-BEY,code,area,0.69,0.999,0.816,"[{""ne_id"": ""1159312255"", ""name"": ""Beyləqan"", ""gb_code"": ""AZE"", ""gb_name"": ""Beylagan District"", ""share"": 0.816}]",AZE Beylagan District
+AZ,AZ-BIL,code,area,0.691,0.988,0.812,"[{""ne_id"": ""1159312259"", ""name"": ""Biləsuvar"", ""gb_code"": ""AZE"", ""gb_name"": ""Bilasuvar District"", ""share"": 0.812}]",AZE Bilasuvar District
+AZ,AZ-CAB,label;unidentified,area,0.643,1.244,0.706,"[{""ne_id"": ""1159312141"", ""name"": ""Cəbrayıl"", ""gb_code"": ""AZE"", ""gb_name"": ""Jabrayil District"", ""share"": 0.879}]",AZE Jabrayil District
+AZ,AZ-CAL,code,area,0.755,0.903,0.819,"[{""ne_id"": ""1159312261"", ""name"": ""Cəlilabad"", ""gb_code"": ""AZE"", ""gb_name"": ""Jalilabad District"", ""share"": 0.819}]",AZE Jalilabad District
+AZ,AZ-CUL,code,area,0.785,1.032,0.866,"[{""ne_id"": ""1159312127"", ""name"": ""Culfa"", ""gb_code"": ""AZE"", ""gb_name"": ""Julfa District"", ""share"": 0.893}]",AZE Julfa District
+AZ,AZ-DAS,code,area,0.807,0.987,0.887,"[{""ne_id"": ""1159312217"", ""name"": ""Daşkəsən"", ""gb_code"": ""AZE"", ""gb_name"": ""Dashkasan District"", ""share"": 0.887}]",AZE Dashkasan District
+AZ,AZ-FUZ,code;unidentified,area,0.728,1.13,0.795,"[{""ne_id"": ""1159312265"", ""name"": ""Füzuli"", ""gb_code"": ""AZE"", ""gb_name"": ""Fuzuli District"", ""share"": 0.897}]",AZE Fuzuli District
+AZ,AZ-GA,label;unidentified,area,0.508,0.527,0.514,"[{""ne_id"": ""1159312223"", ""name"": ""Gəncə"", ""gb_code"": ""AZE"", ""gb_name"": ""Ganja City"", ""share"": 0.514}]",AZE Ganja City
+AZ,AZ-GAD,label,area,0.796,1.008,0.882,"[{""ne_id"": ""1159312219"", ""name"": ""Gədəbəy"", ""gb_code"": ""AZE"", ""gb_name"": ""Gadabay District"", ""share"": 0.89}]",AZE Gadabay District
+AZ,AZ-GOR,code,area,0.832,1.001,0.908,"[{""ne_id"": ""1159312227"", ""name"": ""Goranboy"", ""gb_code"": ""AZE"", ""gb_name"": ""Goranboy District"", ""share"": 0.887}]",AZE Naftalan City;AZE Goranboy District
+AZ,AZ-GOY,code;unidentified,area,0.661,0.972,0.785,"[{""ne_id"": ""1159312267"", ""name"": ""Göyçay"", ""gb_code"": ""AZE"", ""gb_name"": ""Goychay District"", ""share"": 0.785}]",AZE Goychay District
+AZ,AZ-GYG,label,area,0.736,1.016,0.841,"[{""ne_id"": ""1159312225"", ""name"": ""Xanlar"", ""gb_code"": ""AZE"", ""gb_name"": ""Goygol District"", ""share"": 0.854}]",AZE Goygol District
+AZ,AZ-HAC,code,area,0.761,0.991,0.861,"[{""ne_id"": ""1159312249"", ""name"": ""Hajigabul"", ""gb_code"": ""AZE"", ""gb_name"": ""Hajigabul District"", ""share"": 0.861}]",AZE Hajigabul District
+AZ,AZ-IMI,code,area,0.779,0.965,0.86,"[{""ne_id"": ""1159312269"", ""name"": ""İmişli"", ""gb_code"": ""AZE"", ""gb_name"": ""Imishli District"", ""share"": 0.86}]",AZE Imishli District
+AZ,AZ-ISM,code,area,0.802,0.994,0.887,"[{""ne_id"": ""1159312271"", ""name"": ""İsmayıllı"", ""gb_code"": ""AZE"", ""gb_name"": ""Ismailli District"", ""share"": 0.887}]",AZE Ismailli District
+AZ,AZ-KAL,label,area,0.881,1.032,0.922,"[{""ne_id"": ""1159312137"", ""name"": ""Kəlbəcər"", ""gb_code"": ""AZE"", ""gb_name"": ""Kalbajar District"", ""share"": 0.952}]",AZE Kalbajar District
+AZ,AZ-KAN,code;unidentified,area,0.404,1.377,0.496,"[{""ne_id"": ""1159317291"", ""name"": ""Kangarli"", ""gb_code"": ""AZE"", ""gb_name"": ""Kangarli District"", ""share"": 0.684}]",AZE Kangarli District
+AZ,AZ-KUR,code,area,0.783,1.049,0.858,"[{""ne_id"": ""1159312273"", ""name"": ""Kürdəmir"", ""gb_code"": ""AZE"", ""gb_name"": ""Kurdamir District"", ""share"": 0.9}]",AZE Kurdamir District
+AZ,AZ-LA,code;unidentified,area,0.567,1.162,0.673,"[{""ne_id"": ""1159312277"", ""name"": ""Lankaran"", ""gb_code"": ""AZE"", ""gb_name"": ""Lankaran District"", ""share"": 0.436}, {""ne_id"": ""1159317287"", ""name"": ""Lankaran"", ""gb_code"": ""AZE"", ""gb_name"": ""Lankaran City"", ""share"": 0.625}]",AZE Lankaran City;AZE Lankaran District;AZE Lankaran District
+AZ,AZ-LAN,label,area,0.81,1.013,0.889,"[{""ne_id"": ""1159309399"", ""name"": ""Lankaran"", ""gb_code"": ""AZE"", ""gb_name"": ""Lachin District"", ""share"": 0.901}]",AZE Lachin District
+AZ,AZ-LER,code,area,0.689,0.969,0.803,"[{""ne_id"": ""1159312281"", ""name"": ""Lerik"", ""gb_code"": ""AZE"", ""gb_name"": ""Lerik District"", ""share"": 0.803}]",AZE Lerik District
+AZ,AZ-MAS,code;unidentified,area,0.645,0.966,0.771,"[{""ne_id"": ""1159312279"", ""name"": ""Masallı"", ""gb_code"": ""AZE"", ""gb_name"": ""Masally District"", ""share"": 0.771}]",AZE Masally District
+AZ,AZ-MI,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159312229"", ""name"": ""Mingəçevir"", ""gb_code"": ""AZE"", ""gb_name"": ""Yevlakh District"", ""share"": 0.58}]",
+AZ,AZ-NA,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317283"", ""name"": ""Naftalan"", ""gb_code"": ""AZE"", ""gb_name"": ""Goranboy District"", ""share"": 1.0}]",
+AZ,AZ-NEF,code;unidentified,area,0.715,1.13,0.786,"[{""ne_id"": ""1159312283"", ""name"": ""Neftçala"", ""gb_code"": ""AZE"", ""gb_name"": ""Neftchala District"", ""share"": 0.888}]",AZE Neftchala District
+AZ,AZ-NX,label;unidentified,area,0.32,0.32,0.32,"[{""ne_id"": ""1159312129"", ""name"": ""Naxçıvan"", ""gb_code"": ""AZE"", ""gb_name"": ""Babek District"", ""share"": 0.68}]",AZE Nakhchivan City
+AZ,AZ-OGU,code,area,0.719,0.97,0.824,"[{""ne_id"": ""1159309425"", ""name"": ""Oğuz"", ""gb_code"": ""AZE"", ""gb_name"": ""Oghuz District"", ""share"": 0.824}]",AZE Oghuz District
+AZ,AZ-ORD,code,area,0.749,1.14,0.804,"[{""ne_id"": ""1159312121"", ""name"": ""Ordubad"", ""gb_code"": ""AZE"", ""gb_name"": ""Ordubad District"", ""share"": 0.916}]",AZE Ordubad District
+AZ,AZ-QAB,label,area,0.739,0.993,0.847,"[{""ne_id"": ""1159312315"", ""name"": ""Qəbələ"", ""gb_code"": ""AZE"", ""gb_name"": ""Qabala District"", ""share"": 0.847}]",AZE Qabala District
+AZ,AZ-QAX,label,area,0.741,1.009,0.848,"[{""ne_id"": ""1159309427"", ""name"": ""Qax"", ""gb_code"": ""AZE"", ""gb_name"": ""Qakh District"", ""share"": 0.855}]",AZE Qakh District
+AZ,AZ-QAZ,label,area,0.783,0.911,0.839,"[{""ne_id"": ""1159312231"", ""name"": ""Qazax"", ""gb_code"": ""AZE"", ""gb_name"": ""Qazakh District"", ""share"": 0.839}]",AZE Qazakh District
+AZ,AZ-QBA,code,area,0.783,1.004,0.877,"[{""ne_id"": ""1159309433"", ""name"": ""Quba"", ""gb_code"": ""AZE"", ""gb_name"": ""Quba District"", ""share"": 0.88}]",AZE Quba District
+AZ,AZ-QBI,code,area,0.762,1.152,0.807,"[{""ne_id"": ""1159309401"", ""name"": ""Qubadli"", ""gb_code"": ""AZE"", ""gb_name"": ""Qubadli District"", ""share"": 0.931}]",AZE Qubadli District
+AZ,AZ-QOB,code,area,0.799,0.982,0.88,"[{""ne_id"": ""1159312285"", ""name"": ""Qobustan"", ""gb_code"": ""AZE"", ""gb_name"": ""Gobustan District"", ""share"": 0.88}]",AZE Gobustan District
+AZ,AZ-QUS,code;unidentified,area,0.72,1.285,0.744,"[{""ne_id"": ""1159309435"", ""name"": ""Qusar"", ""gb_code"": ""AZE"", ""gb_name"": ""Qusar District"", ""share"": 0.957}]",AZE Qusar District
+AZ,AZ-SA,label,area,0.782,0.976,0.867,"[{""ne_id"": ""1159309429"", ""name"": ""Şəki"", ""gb_code"": ""AZE"", ""gb_name"": ""Shaki District"", ""share"": 0.862}, {""ne_id"": ""1159317281"", ""name"": ""Şəki"", ""gb_code"": ""AZE"", ""gb_name"": ""Shaki City"", ""share"": 0.572}]",AZE Shaki City;AZE Shaki District
+AZ,AZ-SAB,code,area,0.726,0.903,0.8,"[{""ne_id"": ""1159312291"", ""name"": ""Sabirabad"", ""gb_code"": ""AZE"", ""gb_name"": ""Sabirabad District"", ""share"": 0.8}]",AZE Sabirabad District
+AZ,AZ-SAD,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159312119"", ""name"": ""Sədərək"", ""gb_code"": ""AZE"", ""gb_name"": ""Sadarak District"", ""share"": 0.876}]",
+AZ,AZ-SAH,code,area,0.768,1.131,0.818,"[{""ne_id"": ""1159312133"", ""name"": ""Şahbuz"", ""gb_code"": ""AZE"", ""gb_name"": ""Shahbuz District"", ""share"": 0.926}]",AZE Shahbuz District
+AZ,AZ-SAL,code,area,0.782,1.026,0.866,"[{""ne_id"": ""1159312295"", ""name"": ""Salyan"", ""gb_code"": ""AZE"", ""gb_name"": ""Salyan District"", ""share"": 0.889}]",AZE Salyan District
+AZ,AZ-SAR,code;unidentified,area,0.662,1.482,0.667,"[{""ne_id"": ""1159312123"", ""name"": ""Şərur"", ""gb_code"": ""AZE"", ""gb_name"": ""Sharur District"", ""share"": 0.849}]",AZE Sharur District;AZE Sadarak District
+AZ,AZ-SAT,code,area,0.735,0.959,0.83,"[{""ne_id"": ""1159312289"", ""name"": ""Saatlı"", ""gb_code"": ""AZE"", ""gb_name"": ""Saatly District"", ""share"": 0.83}]",AZE Saatly District
+AZ,AZ-SBN,label;unidentified,area,0.684,0.899,0.771,"[{""ne_id"": ""1159312263"", ""name"": ""Dəvəçi"", ""gb_code"": ""AZE"", ""gb_name"": ""Shabran District"", ""share"": 0.771}]",AZE Shabran District
+AZ,AZ-SIY,label;unidentified,area,0.72,0.801,0.754,"[{""ne_id"": ""1159312287"", ""name"": ""Siyəzən"", ""gb_code"": ""AZE"", ""gb_name"": ""Siazan District"", ""share"": 0.754}]",AZE Siazan District
+AZ,AZ-SKR,code,area,0.822,0.971,0.889,"[{""ne_id"": ""1159312233"", ""name"": ""Şəmkir"", ""gb_code"": ""AZE"", ""gb_name"": ""Shamkir District"", ""share"": 0.889}]",AZE Shamkir District
+AZ,AZ-SM,code;unidentified,area,0.577,0.667,0.61,"[{""ne_id"": ""1159312299"", ""name"": ""Sumqayıt"", ""gb_code"": ""AZE"", ""gb_name"": ""Sumqayit City"", ""share"": 0.61}]",AZE Sumqayit City
+AZ,AZ-SMI,label;unidentified,area,0.65,0.976,0.778,"[{""ne_id"": ""1159312297"", ""name"": ""Şamaxı"", ""gb_code"": ""AZE"", ""gb_name"": ""Shamakhi District"", ""share"": 0.778}]",AZE Shamakhi District
+AZ,AZ-SMX,label,area,0.701,1.044,0.807,"[{""ne_id"": ""1159312235"", ""name"": ""Samux"", ""gb_code"": ""AZE"", ""gb_name"": ""Samukh District"", ""share"": 0.641}]",AZE Samukh District
+AZ,AZ-SR,unidentified,area,0.306,0.575,0.369,[],AZE Shirvan City
+AZ,AZ-SUS,code;unidentified,area,0.699,0.865,0.767,"[{""ne_id"": ""1159312143"", ""name"": ""Şuşa"", ""gb_code"": ""AZE"", ""gb_name"": ""Shusha District"", ""share"": 0.741}]",AZE Shusha City;AZE Shusha District
+AZ,AZ-TAR,code,area,0.757,0.998,0.86,"[{""ne_id"": ""1159312145"", ""name"": ""Tərtər"", ""gb_code"": ""AZE"", ""gb_name"": ""Tartar District"", ""share"": 0.86}]",AZE Tartar District
+AZ,AZ-TOV,code,area,0.839,1.061,0.886,"[{""ne_id"": ""1159312237"", ""name"": ""Tovuz"", ""gb_code"": ""AZE"", ""gb_name"": ""Tovuz District"", ""share"": 0.94}]",AZE Tovuz District
+AZ,AZ-UCA,label;unidentified,area,0.664,1.004,0.797,"[{""ne_id"": ""1159312301"", ""name"": ""Ucar"", ""gb_code"": ""AZE"", ""gb_name"": ""Ujar District"", ""share"": 0.8}]",AZE Ujar District
+AZ,AZ-X01~,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317285"", ""name"": ""Şuşa"", ""gb_code"": ""AZE"", ""gb_name"": ""Khojaly District"", ""share"": 0.587}]",
+AZ,AZ-XA,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159315903"", ""name"": ""Stepanakert"", ""gb_code"": ""AZE"", ""gb_name"": ""Khankendi City"", ""share"": 0.506}]",
+AZ,AZ-XAC,label;unidentified,area,0.737,0.785,0.758,"[{""ne_id"": ""1159309437"", ""name"": ""Xaçmaz"", ""gb_code"": ""AZE"", ""gb_name"": ""Khachmaz District"", ""share"": 0.758}]",AZE Khachmaz District
+AZ,AZ-XCI,label,area,0.719,1.067,0.81,"[{""ne_id"": ""1159312147"", ""name"": ""Xocalı"", ""gb_code"": ""AZE"", ""gb_name"": ""Khojaly District"", ""share"": 0.845}]",AZE Khankendi City;AZE Khojaly District
+AZ,AZ-XIZ,label,area,0.836,0.952,0.889,"[{""ne_id"": ""1159312303"", ""name"": ""Xizı"", ""gb_code"": ""AZE"", ""gb_name"": ""Khizi District"", ""share"": 0.889}]",AZE Khizi District
+AZ,AZ-XVD,label,area,0.715,0.965,0.82,"[{""ne_id"": ""1159309397"", ""name"": ""Xocavənd"", ""gb_code"": ""AZE"", ""gb_name"": ""Khojavend District"", ""share"": 0.82}]",AZE Khojavend District
+AZ,AZ-YAR,code;unidentified,area,0.684,0.791,0.728,"[{""ne_id"": ""1159312305"", ""name"": ""Yardımlı"", ""gb_code"": ""AZE"", ""gb_name"": ""Yardymli District"", ""share"": 0.728}]",AZE Yardymli District
+AZ,AZ-YEV:Yevlakh,code;unidentified,area,0.351,0.462,0.38,"[{""ne_id"": ""1159316489"", ""name"": ""Yevlakh"", ""gb_code"": ""AZE"", ""gb_name"": ""Yevlakh District"", ""share"": 0.62}]",AZE Yevlakh City
+AZ,AZ-YEV:Yevlakh Rayon,code;unidentified,area,0.643,1.043,0.766,"[{""ne_id"": ""1159312241"", ""name"": ""Yevlakh Rayon"", ""gb_code"": ""AZE"", ""gb_name"": ""Yevlakh District"", ""share"": 0.675}]",AZE Mingachevir City;AZE Yevlakh District
+AZ,AZ-ZAN,code,area,0.695,1.03,0.808,"[{""ne_id"": ""1159312151"", ""name"": ""Zəngilan"", ""gb_code"": ""AZE"", ""gb_name"": ""Zangilan District"", ""share"": 0.833}]",AZE Zangilan District
+AZ,AZ-ZAQ,code,area,0.852,0.987,0.914,"[{""ne_id"": ""1159309439"", ""name"": ""Zaqatala"", ""gb_code"": ""AZE"", ""gb_name"": ""Zaqatala District"", ""share"": 0.914}]",AZE Zaqatala District
+AZ,AZ-ZAR,code;unidentified,area,0.748,1.224,0.777,"[{""ne_id"": ""1159312307"", ""name"": ""Zərdab"", ""gb_code"": ""AZE"", ""gb_name"": ""Zardab District"", ""share"": 0.951}]",AZE Zardab District
+BA,BA-BIH:Bosnian Podrinje,unidentified,area,0.697,0.837,0.755,[],
+BA,BA-BRC,unidentified,,0.0,,0.0,[],
+BA,BA-SRP,unidentified,area,0.588,0.725,0.639,[],
+BF,BF-IOB,unidentified,area,0.751,1.214,0.782,[],
+BF,BF-NOU,unidentified,area,0.76,1.206,0.79,[],
+BH,BH-13,area;shape,code,0.38,2.016,1.0,[],
+BH,BH-15,area;shape,code,0.468,1.874,1.0,[],
+BH,BH-16,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316085"", ""name"": ""Al Wusţá"", ""gb_code"": ""BH-14"", ""gb_name"": ""Southern Governorate"", ""share"": 0.527}]",
+BI,BI-BM,area,code,0.531,0.665,1.0,[],
+BJ,BJ-LI,area;shape,code,0.306,3.266,1.0,[],
+BS,BS-BI,area;shape,code,0.411,1.57,1.0,[],
+BS,BS-BP,unidentified,area,0.15,0.828,0.238,[],
+BS,BS-BY,area;shape,code,0.268,2.392,1.0,[],
+BS,BS-CE,area;shape,code,0.466,0.5,1.0,[],
+BS,BS-EX,area;shape,code,0.478,1.602,1.0,[],
+BS,BS-FP,area;shape,code,0.498,1.776,1.0,[],
+BS,BS-MI,area,code,0.518,1.51,1.0,[],
+BS,BS-NO,shape,code,0.497,0.862,1.0,[],
+BS,BS-RI,area;shape,code,0.311,2.668,1.0,[],
+BS,BS-SW,unidentified,area,0.102,0.432,0.133,[],
+BS,BS-X01~,code;unidentified,area,0.67,1.192,0.738,"[{""ne_id"": ""1159308283"", ""name"": ""New Providence"", ""gb_code"": ""BS-NP"", ""gb_name"": ""New Providence"", ""share"": 0.88}]",BS-NP New Providence
+BT,BT-15,shape,code,0.442,0.919,1.0,[],
+BT,BT-23,area;shape,code,0.463,0.618,1.0,[],
+BW,BW-FR,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317151"", ""name"": ""Francistown"", ""gb_code"": ""BW-NE"", ""gb_name"": ""North-East District"", ""share"": 1.0}]",
+BW,BW-GA,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317149"", ""name"": ""Gaborone"", ""gb_code"": ""BW-SE"", ""gb_name"": ""South-East District"", ""share"": 0.836}]",
+BW,BW-JW,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317157"", ""name"": ""Jwaneng"", ""gb_code"": ""BW-SO"", ""gb_name"": ""Southern District"", ""share"": 0.999}]",
+BW,BW-LO,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317155"", ""name"": ""Lobatse"", ""gb_code"": ""BW-SE"", ""gb_name"": ""South-East District"", ""share"": 1.0}]",
+BW,BW-SP,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317161"", ""name"": ""Selebi-Phikwe"", ""gb_code"": ""BW-CE"", ""gb_name"": ""Central District"", ""share"": 1.0}]",
+BW,BW-ST,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317159"", ""name"": ""Sowa"", ""gb_code"": ""BW-CE"", ""gb_name"": ""Central District"", ""share"": 1.0}]",
+BY,BY-HM,code;area;shape,code,0.359,0.359,1.0,"[{""ne_id"": ""1159315869"", ""name"": ""City of Minsk"", ""gb_code"": ""BY-MI"", ""gb_name"": ""Minsk"", ""share"": 0.641}]",
+CA,CA-QC,code,area,0.99,1.002,0.994,"[{""ne_id"": ""1159308703"", ""name"": ""Québec"", ""gb_code"": ""CA-QB"", ""gb_name"": ""Quebec"", ""share"": 0.979}]",CA-QB Quebec
+CD,CD-KE,label,code,0.968,1.003,1.0,"[{""ne_id"": ""1159311343"", ""name"": ""Kasaï-Oriental"", ""gb_code"": ""CD-SA"", ""gb_name"": ""Sankuru"", ""share"": 0.616}]",CD-SA Sankuru;CD-LO Lomami
+CD,CD-KW,code,area,0.967,1.003,0.982,"[{""ne_id"": ""1159311351"", ""name"": ""Kasaï-Occidental"", ""gb_code"": ""CD-KS"", ""gb_name"": ""Kasai"", ""share"": 0.621}]",CD-KS Kasai;CD-KC Central Kasai
+CF,CF-BGF,area;shape,code,0.321,2.875,1.0,[],
+CF,CF-OP,code,area,0.961,1.01,0.976,"[{""ne_id"": ""1159308949"", ""name"": ""Ouham-Pendé"", ""gb_code"": ""CF=OP"", ""gb_name"": ""Ouham-Pendé"", ""share"": 0.985}]",CF=OP Ouham-Pendé
+CF,CF-SE,code,area,0.935,1.022,0.956,"[{""ne_id"": ""1159308943"", ""name"": ""Sangha-Mbaéré"", ""gb_code"": ""CF-HS"", ""gb_name"": ""Sangha-Mbaéré"", ""share"": 0.977}]",
+CG,CG-2,code,area,0.989,1.004,0.992,"[{""ne_id"": ""1159315055"", ""name"": ""Lékoumou"", ""gb_code"": ""CG-7"", ""gb_name"": ""Lékoumou"", ""share"": 0.996}]",
+CG,CG-7,code,area,0.983,0.992,0.987,"[{""ne_id"": ""1159313651"", ""name"": ""Likouala"", ""gb_code"": ""CG-2"", ""gb_name"": ""Likouala"", ""share"": 0.987}]",
+CH,CH-BS,shape,code,0.477,0.925,1.0,[],
+CI,CI-01,unidentified,area,0.524,1.08,0.663,[],
+CI,CI-13,unidentified,area,0.73,1.263,0.756,[],
+CI,CI-15,unidentified,area,0.751,0.815,0.778,[],
+CI,CI-16,unidentified,area,0.42,0.88,0.556,[],
+CI,CI-19,unidentified,area,0.759,0.79,0.772,[],
+CL,CL-AI,label,area,0.839,1.025,0.902,"[{""ne_id"": ""1159313253"", ""name"": ""Aisén del General Carlos Ibáñez del Campo"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de AysÃ©n del Gral.IbaÃ±ez del Campo"", ""share"": 0.91}]",CHL RegiÃ³n de AysÃ©n del Gral.IbaÃ±ez del Campo
+CL,CL-AN,code,area,0.958,1.027,0.966,"[{""ne_id"": ""1159313649"", ""name"": ""Antofagasta"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Antofagasta"", ""share"": 0.992}]",CHL RegiÃ³n de Antofagasta
+CL,CL-AP,code,area,0.932,1.037,0.947,"[{""ne_id"": ""1159313647"", ""name"": ""Arica y Parinacota"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Arica y Parinacota"", ""share"": 0.982}]",CHL RegiÃ³n de Arica y Parinacota
+CL,CL-AR,label,area,0.9,0.938,0.918,"[{""ne_id"": ""1159313623"", ""name"": ""La Araucanía"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de La AraucanÃ­a"", ""share"": 0.918}]",CHL RegiÃ³n de La AraucanÃ­a
+CL,CL-AT,code,area,0.919,0.954,0.936,"[{""ne_id"": ""1159313627"", ""name"": ""Atacama"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Atacama"", ""share"": 0.936}]",CHL RegiÃ³n de Atacama
+CL,CL-BI,label,area,0.944,0.991,0.966,"[{""ne_id"": ""1159313637"", ""name"": ""Bío-Bío"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n del BÃ­o-BÃ­o"", ""share"": 0.966}]",CHL RegiÃ³n del BÃ­o-BÃ­o
+CL,CL-CO,code,area,0.912,1.085,0.917,"[{""ne_id"": ""1159313629"", ""name"": ""Coquimbo"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Coquimbo"", ""share"": 0.994}]",CHL RegiÃ³n de Coquimbo
+CL,CL-LI,label,area,0.906,0.982,0.943,"[{""ne_id"": ""1159313639"", ""name"": ""Libertador General Bernardo O'Higgins"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n del Libertador Bernardo O'Higgins"", ""share"": 0.943}]",CHL RegiÃ³n del Libertador Bernardo O'Higgins
+CL,CL-LL,code,area,0.907,1.02,0.942,"[{""ne_id"": ""1159313621"", ""name"": ""Los Lagos"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Los Lagos"", ""share"": 0.943}]",CHL RegiÃ³n de Los Lagos
+CL,CL-LR,label,area,0.835,1.12,0.861,"[{""ne_id"": ""1159313635"", ""name"": ""Los Ríos"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Los RÃ­os"", ""share"": 0.965}]",CHL RegiÃ³n de Los RÃ­os
+CL,CL-MA,code,area,0.795,1.091,0.849,"[{""ne_id"": ""1159313251"", ""name"": ""Magallanes y Antártica Chilena"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Magallanes y AntÃ¡rtica Chilena"", ""share"": 0.926}]",CHL RegiÃ³n de Magallanes y AntÃ¡rtica Chilena
+CL,CL-ML,code,area,0.935,1.048,0.944,"[{""ne_id"": ""1159313641"", ""name"": ""Maule"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n del Maule"", ""share"": 0.99}]",CHL RegiÃ³n del Maule
+CL,CL-NB,label,area,0.921,0.967,0.943,"[{""ne_id"": ""1730006243"", ""name"": ""Ñuble"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de Ãuble"", ""share"": 0.943}]",CHL RegiÃ³n de Ãuble
+CL,CL-RM,code,area,0.881,0.957,0.917,"[{""ne_id"": ""1159313631"", ""name"": ""Región Metropolitana de Santiago"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n Metropolitana de Santiago"", ""share"": 0.917}]",CHL RegiÃ³n Metropolitana de Santiago
+CL,CL-TA,code,area,0.954,1.025,0.965,"[{""ne_id"": ""1159313645"", ""name"": ""Tarapacá"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de TarapacÃ¡"", ""share"": 0.988}]",CHL RegiÃ³n de TarapacÃ¡
+CL,CL-VS,label,area,0.841,0.965,0.898,"[{""ne_id"": ""1159313633"", ""name"": ""Valparaíso"", ""gb_code"": ""CHL"", ""gb_name"": ""RegiÃ³n de ValparaÃ­so"", ""share"": 0.898}]",CHL RegiÃ³n de ValparaÃ­so
+CN,CN-AH,code,area,0.852,0.991,0.916,"[{""ne_id"": ""1159310971"", ""name"": ""Anhui"", ""gb_code"": ""CHN"", ""gb_name"": ""Anhui Province"", ""share"": 0.908}]",CHN Anhui Province
+CN,CN-BJ,code,area,0.732,1.004,0.843,"[{""ne_id"": ""1159310969"", ""name"": ""Beijing"", ""gb_code"": ""CHN"", ""gb_name"": ""Beijing Municipality"", ""share"": 0.847}]",CHN Beijing Municipality
+CN,CN-CQ,code,area,0.75,0.974,0.846,"[{""ne_id"": ""1159310931"", ""name"": ""Chongqing"", ""gb_code"": ""CHN"", ""gb_name"": ""Chongqing Municipality"", ""share"": 0.846}]",CHN Chongqing Municipality
+CN,CN-FJ,code,area,0.906,1.004,0.949,"[{""ne_id"": ""1159315795"", ""name"": ""Fujian"", ""gb_code"": ""CHN"", ""gb_name"": ""Fujian Province"", ""share"": 0.952}]",CHN Fujian Province
+CN,CN-GD,label,area,0.908,1.033,0.937,"[{""ne_id"": ""1159310335"", ""name"": ""Guangdong"", ""gb_code"": ""CHN"", ""gb_name"": ""Guangzhou Province"", ""share"": 0.967}]",CHN Macau Special Administrative Region;CHN Hong Kong Special Administrative Region;CHN Guangzhou Province
+CN,CN-GS,code,area,0.82,1.041,0.884,"[{""ne_id"": ""1159310923"", ""name"": ""Gansu"", ""gb_code"": ""CHN"", ""gb_name"": ""Gansu Province"", ""share"": 0.92}]",CHN Gansu Province
+CN,CN-GX,code,area,0.922,1.012,0.954,"[{""ne_id"": ""1159310341"", ""name"": ""Guangxi"", ""gb_code"": ""CHN"", ""gb_name"": ""Guangxi Zhuang Autonomous Region"", ""share"": 0.965}]",CHN Guangxi Zhuang Autonomous Region
+CN,CN-GZ,code,area,0.881,1.014,0.93,"[{""ne_id"": ""1159310929"", ""name"": ""Guizhou"", ""gb_code"": ""CHN"", ""gb_name"": ""Guizhou Province"", ""share"": 0.943}]",CHN Guizhou Province
+CN,CN-HA,code,area,0.858,1.003,0.922,"[{""ne_id"": ""1159312749"", ""name"": ""Henan"", ""gb_code"": ""CHN"", ""gb_name"": ""Henan Province"", ""share"": 0.923}]",CHN Henan Province
+CN,CN-HB,code,area,0.85,1.004,0.917,"[{""ne_id"": ""1159312741"", ""name"": ""Hubei"", ""gb_code"": ""CHN"", ""gb_name"": ""Hubei Province"", ""share"": 0.919}]",CHN Hubei Province
+CN,CN-HE,code,area,0.86,0.985,0.918,"[{""ne_id"": ""1159312747"", ""name"": ""Hebei"", ""gb_code"": ""CHN"", ""gb_name"": ""Hebei Province"", ""share"": 0.918}]",CHN Hebei Province
+CN,CN-HI,code,area,0.93,1.043,0.944,"[{""ne_id"": ""1159311749"", ""name"": ""Hainan"", ""gb_code"": ""CHN"", ""gb_name"": ""Hainan Province"", ""share"": 0.985}]",CHN Hainan Province
+CN,CN-HL,code,area,0.953,0.985,0.968,"[{""ne_id"": ""1159312759"", ""name"": ""Heilongjiang"", ""gb_code"": ""CHN"", ""gb_name"": ""Heilongjiang Province"", ""share"": 0.966}]",CHN Heilongjiang Province
+CN,CN-HN,code,area,0.897,1.006,0.943,"[{""ne_id"": ""1159312745"", ""name"": ""Hunan"", ""gb_code"": ""CHN"", ""gb_name"": ""Hunan Province"", ""share"": 0.945}]",CHN Hunan Province
+CN,CN-JL,code,area,0.914,1.003,0.954,"[{""ne_id"": ""1159312755"", ""name"": ""Jilin"", ""gb_code"": ""CHN"", ""gb_name"": ""Jilin Province"", ""share"": 0.957}]",CHN Jilin Province
+CN,CN-JS,code,area,0.848,0.987,0.912,"[{""ne_id"": ""1159311859"", ""name"": ""Jiangsu"", ""gb_code"": ""CHN"", ""gb_name"": ""Jiangsu Province"", ""share"": 0.863}]",CHN Jiangsu Province
+CN,CN-JX,code,area,0.911,1.004,0.951,"[{""ne_id"": ""1159312753"", ""name"": ""Jiangxi"", ""gb_code"": ""CHN"", ""gb_name"": ""Jiangxi Province"", ""share"": 0.943}]",CHN Jiangxi Province
+CN,CN-LN,code,area,0.911,1.019,0.945,"[{""ne_id"": ""1159312117"", ""name"": ""Liaoning"", ""gb_code"": ""CHN"", ""gb_name"": ""Liaoning Province"", ""share"": 0.962}]",CHN Liaoning Province
+CN,CN-NM,code,area,0.944,0.991,0.967,"[{""ne_id"": ""1159312757"", ""name"": ""Inner Mongol"", ""gb_code"": ""CHN"", ""gb_name"": ""Inner Mongolia Autonomous Region"", ""share"": 0.965}]",CHN Inner Mongolia Autonomous Region
+CN,CN-NX,code,area,0.809,1.022,0.885,"[{""ne_id"": ""1159312659"", ""name"": ""Ningxia"", ""gb_code"": ""CHN"", ""gb_name"": ""Ningxia Ningxia Hui Autonomous Region"", ""share"": 0.904}]",CHN Ningxia Ningxia Hui Autonomous Region
+CN,CN-QH,code,area,0.901,0.982,0.939,"[{""ne_id"": ""1159310927"", ""name"": ""Qinghai"", ""gb_code"": ""CHN"", ""gb_name"": ""Qinghai Province"", ""share"": 0.932}]",CHN Qinghai Province
+CN,CN-SC,code,area,0.896,0.997,0.944,"[{""ne_id"": ""1159312663"", ""name"": ""Sichuan"", ""gb_code"": ""CHN"", ""gb_name"": ""Sichuan Province"", ""share"": 0.944}]",CHN Sichuan Province
+CN,CN-SD,code,area,0.908,0.97,0.937,"[{""ne_id"": ""1159312031"", ""name"": ""Shandong"", ""gb_code"": ""CHN"", ""gb_name"": ""Shandong Province"", ""share"": 0.937}]",CHN Shandong Province
+CN,CN-SH,code;unidentified,area,0.706,0.922,0.796,"[{""ne_id"": ""1159311855"", ""name"": ""Shanghai"", ""gb_code"": ""CHN"", ""gb_name"": ""Shanghai Municipality"", ""share"": 0.796}]",CHN Shanghai Municipality
+CN,CN-SN,code,area,0.865,0.987,0.921,"[{""ne_id"": ""1159312661"", ""name"": ""Shaanxi"", ""gb_code"": ""CHN"", ""gb_name"": ""Shaanxi Province"", ""share"": 0.921}]",CHN Shaanxi Province
+CN,CN-SX,code,area,0.914,1.006,0.952,"[{""ne_id"": ""1159312739"", ""name"": ""Shanxi"", ""gb_code"": ""CHN"", ""gb_name"": ""Shanxi Province"", ""share"": 0.958}]",CHN Shanxi Province
+CN,CN-TJ,code;unidentified,area,0.674,1.026,0.795,"[{""ne_id"": ""1159312751"", ""name"": ""Tianjin"", ""gb_code"": ""CHN"", ""gb_name"": ""Tianjin Municipality"", ""share"": 0.816}]",CHN Tianjin Municipality
+CN,CN-X01~,unidentified,,0.0,,0.0,[],
+CN,CN-XJ,code,area,0.978,0.997,0.987,"[{""ne_id"": ""1159312657"", ""name"": ""Xinjiang"", ""gb_code"": ""CHN"", ""gb_name"": ""Xinjiang Uyghur Autonomous Region"", ""share"": 0.986}]",CHN Xinjiang Uyghur Autonomous Region
+CN,CN-XZ,label,area,0.914,1.078,0.921,"[{""ne_id"": ""1159312655"", ""name"": ""Xizang"", ""gb_code"": ""CHN"", ""gb_name"": ""Tibet Autonomous Region"", ""share"": 0.987}]",CHN Tibet Autonomous Region
+CN,CN-YN,code,area,0.925,1.015,0.954,"[{""ne_id"": ""1159312665"", ""name"": ""Yunnan"", ""gb_code"": ""CHN"", ""gb_name"": ""Yunnan Province"", ""share"": 0.968}]",CHN Yunnan Province
+CN,CN-ZJ,code,area,0.883,0.983,0.93,"[{""ne_id"": ""1159311795"", ""name"": ""Zhejiang"", ""gb_code"": ""CHN"", ""gb_name"": ""Zhejiang Province"", ""share"": 0.924}]",CHN Zhejiang Province
+CO,CO-SAP,shape,code,0.349,1.279,1.0,[],
+CU,CU-15,area;shape,code,0.464,1.997,1.0,[],
+CV,CV-CF,area;shape,code,0.388,2.132,1.0,[],
+CV,CV-PR,area,code,0.553,1.801,1.0,[],
+CV,CV-SO,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316321"", ""name"": ""São Lourenço dos Órgãos"", ""gb_code"": ""CV-SD"", ""gb_name"": ""São Domingos"", ""share"": 0.576}]",
+CV,CV-SS,label;area,code,0.571,1.587,1.0,"[{""ne_id"": ""1159316319"", ""name"": ""São Salvador do Mundo"", ""gb_code"": ""CV-S0"", ""gb_name"": ""São Lourenço dos Órgãos"", ""share"": 0.604}]",CV-S0 São Lourenço dos Órgãos
+CV,CV-TS,area;shape,code,0.498,1.533,1.0,[],
+CY,CY-04,area;shape,code,0.093,9.949,1.0,[],
+CZ,CZ-JC,code,area,0.957,1.008,0.974,"[{""ne_id"": ""1159312673"", ""name"": ""Jihočeský"", ""gb_code"": ""CZ-31"", ""gb_name"": ""Jihočeský kraj"", ""share"": 0.982}]",CZ-31 Jihočeský kraj
+CZ,CZ-JM,code,area,0.941,1.014,0.963,"[{""ne_id"": ""1159315777"", ""name"": ""Jihomoravský"", ""gb_code"": ""CZ-64"", ""gb_name"": ""Jihomoravský kraj"", ""share"": 0.976}]",CZ-64 Jihomoravský kraj
+CZ,CZ-KA,code,area,0.91,1.008,0.949,"[{""ne_id"": ""1159312669"", ""name"": ""Karlovarský"", ""gb_code"": ""CZ-41"", ""gb_name"": ""Karlovarský kraj"", ""share"": 0.957}]",CZ-41 Karlovarský kraj
+CZ,CZ-KR,code,area,0.917,1.0,0.956,"[{""ne_id"": ""1159312683"", ""name"": ""Královéhradecký"", ""gb_code"": ""CZ-52"", ""gb_name"": ""Královéhradecký kraj"", ""share"": 0.956}]",CZ-52 Královéhradecký kraj
+CZ,CZ-LI,code,area,0.917,0.989,0.951,"[{""ne_id"": ""1159312681"", ""name"": ""Liberecký"", ""gb_code"": ""CZ-51"", ""gb_name"": ""Liberecký kraj"", ""share"": 0.951}]",CZ-51 Liberecký kraj
+CZ,CZ-MO,code,area,0.889,0.967,0.925,"[{""ne_id"": ""1159312685"", ""name"": ""Moravskoslezský"", ""gb_code"": ""CZ-80"", ""gb_name"": ""Moravskoslezský kraj"", ""share"": 0.925}]",CZ-80 Moravskoslezský kraj
+CZ,CZ-OL,code,area,0.897,1.064,0.917,"[{""ne_id"": ""1159315781"", ""name"": ""Olomoucký"", ""gb_code"": ""CZ-71"", ""gb_name"": ""Olomoucký kraj"", ""share"": 0.976}]",CZ-71 Olomoucký kraj
+CZ,CZ-PA,code,area,0.935,1.031,0.952,"[{""ne_id"": ""1159315783"", ""name"": ""Pardubický"", ""gb_code"": ""CZ-53"", ""gb_name"": ""Pardubický kraj"", ""share"": 0.981}]",CZ-53 Pardubický kraj
+CZ,CZ-PL,code,area,0.943,0.974,0.958,"[{""ne_id"": ""1159315775"", ""name"": ""Plzeňský"", ""gb_code"": ""CZ-32"", ""gb_name"": ""Plzeňský kraj"", ""share"": 0.958}]",CZ-32 Plzeňský kraj
+CZ,CZ-PR,label,area,0.862,0.96,0.907,"[{""ne_id"": ""1159312677"", ""name"": ""Prague"", ""gb_code"": ""CZ-10"", ""gb_name"": ""Hlavní město Praha"", ""share"": 0.907}]",CZ-10 Hlavní město Praha
+CZ,CZ-ST,code,area,0.952,1.002,0.974,"[{""ne_id"": ""1159312679"", ""name"": ""Středočeský"", ""gb_code"": ""CZ-20"", ""gb_name"": ""Středočeský kraj"", ""share"": 0.976}]",CZ-20 Středočeský kraj
+CZ,CZ-US,code,area,0.939,1.004,0.966,"[{""ne_id"": ""1159315773"", ""name"": ""Ústecký"", ""gb_code"": ""CZ-42"", ""gb_name"": ""Ústecký kraj"", ""share"": 0.97}]",CZ-42 Ústecký kraj
+CZ,CZ-VY,code,area,0.946,0.977,0.961,"[{""ne_id"": ""1159312675"", ""name"": ""Vysočina"", ""gb_code"": ""CZ-63"", ""gb_name"": ""Kraj Vysočina"", ""share"": 0.961}]",CZ-63 Kraj Vysočina
+CZ,CZ-ZL,code,area,0.944,1.008,0.968,"[{""ne_id"": ""1159315779"", ""name"": ""Zlínský"", ""gb_code"": ""CZ-72"", ""gb_name"": ""Zlínský kraj"", ""share"": 0.975}]",CZ-72 Zlínský kraj
+DM,DM-07,area;shape,code,0.404,2.284,1.0,[],
+DM,DM-08,shape,code,0.345,0.998,1.0,[],
+DZ,DZ-16,area;shape,code,0.243,3.964,1.0,[],
+EC,EC-D,code,area,0.946,1.011,0.967,"[{""ne_id"": ""1159309995"", ""name"": ""Orellana"", ""gb_code"": ""EC-D*"", ""gb_name"": ""Orellana"", ""share"": 0.977}]",EC-D* Orellana
+EC,EC-SD,code,area,0.842,1.045,0.895,"[{""ne_id"": ""1159317165"", ""name"": ""Santo Domingo de los Tsáchilas"", ""gb_code"": ""EC-SD*"", ""gb_name"": ""Santo Domingo de los Tsáchilas"", ""share"": 0.935}]",EC-SD* Santo Domingo de los Tsáchilas
+EC,EC-SE,code,area,0.893,0.913,0.902,"[{""ne_id"": ""1159317163"", ""name"": ""Santa Elena"", ""gb_code"": ""EC-SE*"", ""gb_name"": ""Santa Elena"", ""share"": 0.902}]",EC-SE* Santa Elena
+EC,EC-X,code,area,0.956,1.005,0.975,"[{""ne_id"": ""1159309983"", ""name"": ""Cotopaxi"", ""gb_code"": ""EC-H"", ""gb_name"": ""Cotopaxi"", ""share"": 0.98}]",
+EG,EG-ASN,area;shape,code,0.231,4.319,1.0,[],
+EG,EG-AST,area;shape,code,0.136,5.356,1.0,[],
+EG,EG-BNS,area;shape,code,0.391,2.296,1.0,[],
+EG,EG-DT,area;shape,code,0.496,1.515,1.0,[],
+EG,EG-KN,unidentified,,0.0,,0.0,[],
+EG,EG-LX,area;shape,code,0.007,153.668,1.0,[],
+EG,EG-MN,area,code,0.571,1.503,1.0,[],
+EG,EG-PTS,area;shape,code,0.237,3.503,1.0,[],
+EG,EG-SHG,area;shape,code,0.189,3.848,1.0,[],
+ES,ES-CE,unidentified,area,0.42,0.451,0.429,[],
+ES,ES-ML,unidentified,area,0.541,0.732,0.608,[],
+FJ,FJ-E,shape,code,0.481,1.147,1.0,[],
+FJ,FJ-R,unidentified,,0.0,,0.0,[],
+FM,FM-TRK,unidentified,area,0.163,1.503,0.234,[],
+FM,FM-YAP,unidentified,area,0.231,1.127,0.355,[],
+FR,FR-75,unidentified,area,0.775,0.815,0.792,[],
+FR,FR-GF,unidentified,,0.0,,0.0,[],
+FR,FR-GP,unidentified,,0.0,,0.0,[],
+FR,FR-MQ,unidentified,,0.0,,0.0,[],
+FR,FR-RE,unidentified,,0.0,,0.0,[],
+FR,FR-YT,unidentified,,0.0,,0.0,[],
+GB,GB-ABE,unidentified,area,0.734,0.824,0.772,[],
+GB,GB-ANT,unidentified,area,0.738,1.301,0.751,[],
+GB,GB-ARD,unidentified,area,0.646,1.439,0.665,[],
+GB,GB-ARM,unidentified,area,0.45,2.167,0.454,[],
+GB,GB-BDG,unidentified,area,0.699,0.876,0.772,[],
+GB,GB-BFS,unidentified,area,0.602,1.256,0.675,[],
+GB,GB-BLA,unidentified,area,0.57,1.649,0.583,[],
+GB,GB-BLY,unidentified,,0.0,,0.0,[],
+GB,GB-BMH,unidentified,,0.0,,0.0,[],
+GB,GB-BNB,unidentified,,0.0,,0.0,[],
+GB,GB-BOL,unidentified,area,0.664,1.209,0.729,[],
+GB,GB-BPL,unidentified,area,0.316,0.327,0.319,[],
+GB,GB-BRC,unidentified,area,0.621,0.952,0.748,[],
+GB,GB-BRD,unidentified,area,0.64,1.211,0.713,[],
+GB,GB-BST,unidentified,area,0.649,0.904,0.749,[],
+GB,GB-CGV,unidentified,,0.0,,0.0,[],
+GB,GB-CKF,unidentified,,0.0,,0.0,[],
+GB,GB-CKT,unidentified,,0.0,,0.0,[],
+GB,GB-CLD,unidentified,area,0.714,0.87,0.779,[],
+GB,GB-CLR,unidentified,,0.0,,0.0,[],
+GB,GB-CMD,unidentified,area,0.585,0.892,0.698,[],
+GB,GB-COV,unidentified,area,0.604,0.911,0.719,[],
+GB,GB-CRF,unidentified,area,0.72,1.306,0.739,[],
+GB,GB-CSR,unidentified,,0.0,,0.0,[],
+GB,GB-DAL,unidentified,area,0.695,1.149,0.767,[],
+GB,GB-DER,unidentified,area,0.482,1.026,0.642,[],
+GB,GB-DGN,unidentified,area,0.359,2.564,0.367,[],
+GB,GB-DND,unidentified,area,0.622,0.729,0.663,[],
+GB,GB-DOW,unidentified,,0.0,,0.0,[],
+GB,GB-DRY,unidentified,,0.0,,0.0,[],
+GB,GB-DUD,unidentified,area,0.654,1.075,0.763,[],
+GB,GB-EAL,unidentified,area,0.663,1.017,0.791,[],
+GB,GB-ERW,unidentified,area,0.707,1.172,0.768,[],
+GB,GB-FER,unidentified,area,0.602,1.592,0.612,[],
+GB,GB-GAT,unidentified,area,0.711,0.883,0.783,[],
+GB,GB-GLG,unidentified,area,0.682,1.108,0.772,[],
+GB,GB-HAL,unidentified,area,0.551,0.909,0.678,[],
+GB,GB-HCK,unidentified,area,0.65,1.01,0.784,[],
+GB,GB-HMF,unidentified,area,0.542,1.228,0.638,[],
+GB,GB-HNS,unidentified,area,0.66,1.037,0.781,[],
+GB,GB-HPL,unidentified,area,0.668,0.847,0.739,[],
+GB,GB-HRY,unidentified,area,0.674,0.978,0.797,[],
+GB,GB-IOS,unidentified,area,0.324,2.448,0.345,[],
+GB,GB-ISL,unidentified,area,0.553,1.294,0.631,[],
+GB,GB-KEC,unidentified,area,0.517,1.047,0.666,[],
+GB,GB-KHL,unidentified,area,0.444,1.255,0.553,[],
+GB,GB-KTT,unidentified,area,0.546,0.947,0.688,[],
+GB,GB-KWL,unidentified,area,0.538,0.626,0.569,[],
+GB,GB-LBH,unidentified,area,0.604,0.915,0.721,[],
+GB,GB-LCE,unidentified,area,0.461,1.126,0.596,[],
+GB,GB-LEW,unidentified,area,0.693,1.051,0.799,[],
+GB,GB-LIV,unidentified,area,0.568,1.019,0.718,[],
+GB,GB-LMV,unidentified,area,0.292,3.245,0.295,[],
+GB,GB-LND,unidentified,area,0.316,0.804,0.433,[],
+GB,GB-LRN,unidentified,,0.0,,0.0,[],
+GB,GB-LUT,unidentified,area,0.451,0.641,0.51,[],
+GB,GB-MAN,unidentified,area,0.469,0.917,0.612,[],
+GB,GB-MDB,unidentified,area,0.46,1.103,0.6,[],
+GB,GB-MDW,unidentified,area,0.613,0.97,0.748,[],
+GB,GB-MFT,unidentified,,0.0,,0.0,[],
+GB,GB-MYL,unidentified,,0.0,,0.0,[],
+GB,GB-NAY,unidentified,,0.0,,0.0,[],
+GB,GB-NDN,unidentified,,0.0,,0.0,[],
+GB,GB-NET,unidentified,area,0.631,1.172,0.717,[],
+GB,GB-NGM,unidentified,area,0.499,0.926,0.641,[],
+GB,GB-NTA,unidentified,,0.0,,0.0,[],
+GB,GB-NYM,unidentified,area,0.515,1.837,0.525,[],
+GB,GB-OLD,unidentified,area,0.678,0.782,0.72,[],
+GB,GB-OMH,unidentified,,0.0,,0.0,[],
+GB,GB-PLY,unidentified,area,0.677,1.335,0.706,[],
+GB,GB-POL,unidentified,,0.0,,0.0,[],
+GB,GB-POR,unidentified,area,0.444,0.817,0.559,[],
+GB,GB-RCH,unidentified,area,0.762,0.818,0.787,[],
+GB,GB-RDG,unidentified,area,0.222,0.907,0.346,[],
+GB,GB-ROT,unidentified,area,0.596,1.04,0.732,[],
+GB,GB-SAW,unidentified,area,0.695,0.862,0.763,[],
+GB,GB-SFT,unidentified,area,0.66,1.126,0.75,[],
+GB,GB-SKP,unidentified,area,0.631,1.041,0.759,[],
+GB,GB-SLF,unidentified,area,0.482,0.762,0.573,[],
+GB,GB-SLG,unidentified,area,0.365,0.625,0.434,[],
+GB,GB-SND,unidentified,area,0.669,0.967,0.788,[],
+GB,GB-SOL,unidentified,area,0.616,1.219,0.694,[],
+GB,GB-STB,unidentified,area,0.651,1.434,0.669,[],
+GB,GB-STE,unidentified,area,0.684,0.895,0.769,[],
+GB,GB-STH,unidentified,area,0.568,0.898,0.687,[],
+GB,GB-STT,unidentified,area,0.649,1.418,0.671,[],
+GB,GB-STY,unidentified,area,0.649,0.779,0.7,[],
+GB,GB-SWD,unidentified,area,0.662,0.892,0.754,[],
+GB,GB-SWK,unidentified,area,0.638,0.978,0.771,[],
+GB,GB-TAM,unidentified,area,0.475,0.814,0.584,[],
+GB,GB-TOB,unidentified,area,0.548,0.609,0.569,[],
+GB,GB-TRF,unidentified,area,0.614,1.396,0.653,[],
+GB,GB-TWH,unidentified,area,0.569,0.87,0.678,[],
+GB,GB-WDU,unidentified,area,0.721,0.89,0.792,[],
+GB,GB-WGN,unidentified,area,0.606,0.926,0.727,[],
+GB,GB-WLV,unidentified,area,0.689,1.074,0.788,[],
+GB,GB-WND,unidentified,area,0.673,0.935,0.778,[],
+GB,GB-WRX,unidentified,area,0.695,0.773,0.727,[],
+GB,GB-WSM,unidentified,area,0.681,1.289,0.72,[],
+GD,GD-02,shape,code,0.459,0.97,1.0,[],
+GD,GD-05,shape,code,0.445,0.985,1.0,[],
+GH,GH-BA,label,area,0.957,1.004,0.976,"[{""ne_id"": ""1159311459"", ""name"": ""Brong Ahafo"", ""gb_code"": ""GH-BE"", ""gb_name"": ""Bono East Region"", ""share"": 0.524}]",GH-AF Ahafo Region;GH-BE Bono East Region;GH-BO Bono Region
+GL,GL-QA,label,area,0.904,0.919,0.911,"[{""ne_id"": ""1159313619"", ""name"": ""Qaasuitsup Kommunia"", ""gb_code"": ""GL-AV"", ""gb_name"": ""Avannaata"", ""share"": 0.84}]",GL-AV Avannaata;GL-QT Qeqertalik
+GL,GL-UO:Pituffik,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159314875"", ""name"": ""Pituffik"", ""gb_code"": ""GL-AV"", ""gb_name"": ""Avannaata"", ""share"": 0.981}]",
+GM,GM-B,area;shape,code,0.267,0.299,1.0,[],
+GN,GN-C,unidentified,,0.0,,0.0,[],
+GN,GN-CO,unidentified,area,0.657,0.799,0.713,[],
+GN,GN-DB,unidentified,area,0.583,0.863,0.686,[],
+GN,GN-DL,unidentified,area,0.661,0.806,0.719,[],
+GN,GN-DU,unidentified,area,0.72,1.21,0.765,[],
+GN,GN-FR,unidentified,area,0.511,0.669,0.564,[],
+GN,GN-KB,unidentified,,0.0,,0.0,[],
+GN,GN-KE,unidentified,area,0.488,1.639,0.528,[],
+GN,GN-KS,unidentified,area,0.621,0.685,0.645,[],
+GN,GN-LE,unidentified,area,0.681,1.158,0.755,[],
+GN,GN-LO,unidentified,area,0.621,1.58,0.626,[],
+GN,GN-MM,unidentified,area,0.72,1.282,0.745,[],
+GN,GN-NZ,unidentified,area,0.693,1.071,0.792,[],
+GN,GN-TO,unidentified,area,0.7,1.338,0.72,[],
+GN,GN-YO,unidentified,area,0.76,0.789,0.772,[],
+GQ,GQ-AN,shape,code,0.441,1.428,1.0,[],
+GW,GW-BS,shape,code,0.319,1.474,1.0,[],
+HR,HR-13,area;shape,code,0.493,0.598,1.0,[],
+HR,HR-15,area,code,0.565,1.688,1.0,[],
+HU,HU-BC,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316067"", ""name"": ""Békéscsaba"", ""gb_code"": ""HU-BE"", ""gb_name"": ""Békés"", ""share"": 1.0}]",
+HU,HU-BU,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159314635"", ""name"": ""Budapest"", ""gb_code"": ""HU-PE"", ""gb_name"": ""Pest"", ""share"": 1.0}]",
+HU,HU-DE,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316079"", ""name"": ""Debrecen"", ""gb_code"": ""HU-HB"", ""gb_name"": ""Hajdú-Bihar"", ""share"": 0.996}]",
+HU,HU-DU,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316081"", ""name"": ""Dunaújváros"", ""gb_code"": ""HU-FE"", ""gb_name"": ""Fejér"", ""share"": 0.993}]",
+HU,HU-ED,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316041"", ""name"": ""Érd"", ""gb_code"": ""HU-PE"", ""gb_name"": ""Pest"", ""share"": 1.0}]",
+HU,HU-EG,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316069"", ""name"": ""Eger"", ""gb_code"": ""HU-HE"", ""gb_name"": ""Heves"", ""share"": 0.947}]",
+HU,HU-GY,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316035"", ""name"": ""Gyôr"", ""gb_code"": ""HU-GS"", ""gb_name"": ""Győr-Moson-Sopron"", ""share"": 1.0}]",
+HU,HU-HV,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316063"", ""name"": ""Hódmezôvásárhely"", ""gb_code"": ""HU-CS"", ""gb_name"": ""Csongrád-Csanád"", ""share"": 0.958}]",
+HU,HU-KM,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316059"", ""name"": ""Kecskemét"", ""gb_code"": ""HU-BK"", ""gb_name"": ""Bács-Kiskun"", ""share"": 0.765}]",
+HU,HU-KV,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316051"", ""name"": ""Kaposvár"", ""gb_code"": ""HU-SO"", ""gb_name"": ""Somogy"", ""share"": 1.0}]",
+HU,HU-MI,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316075"", ""name"": ""Miskolc"", ""gb_code"": ""HU-BZ"", ""gb_name"": ""Borsod-Abaúj-Zemplén"", ""share"": 1.0}]",
+HU,HU-NK,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316049"", ""name"": ""Nagykanizsa"", ""gb_code"": ""HU-ZA"", ""gb_name"": ""Zala"", ""share"": 1.0}]",
+HU,HU-NY,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316077"", ""name"": ""Nyíregyháza"", ""gb_code"": ""HU-SZ"", ""gb_name"": ""Szabolcs-Szatmár-Bereg"", ""share"": 1.0}]",
+HU,HU-PS,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316053"", ""name"": ""Pécs"", ""gb_code"": ""HU-BA"", ""gb_name"": ""Baranya"", ""share"": 1.0}]",
+HU,HU-SD,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316061"", ""name"": ""Szeged"", ""gb_code"": ""HU-CS"", ""gb_name"": ""Csongrád-Csanád"", ""share"": 0.972}]",
+HU,HU-SF,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316043"", ""name"": ""Székesfehérvár"", ""gb_code"": ""HU-FE"", ""gb_name"": ""Fejér"", ""share"": 1.0}]",
+HU,HU-SH,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316031"", ""name"": ""Szombathely"", ""gb_code"": ""HU-VA"", ""gb_name"": ""Vas"", ""share"": 1.0}]",
+HU,HU-SK,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316065"", ""name"": ""Szolnok"", ""gb_code"": ""HU-JN"", ""gb_name"": ""Jász-Nagykun-Szolnok"", ""share"": 0.998}]",
+HU,HU-SN,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316033"", ""name"": ""Sopron"", ""gb_code"": ""HU-GS"", ""gb_name"": ""Győr-Moson-Sopron"", ""share"": 0.899}]",
+HU,HU-SS,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316057"", ""name"": ""Szekszárd"", ""gb_code"": ""HU-TO"", ""gb_name"": ""Tolna"", ""share"": 1.0}]",
+HU,HU-ST,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316071"", ""name"": ""Salgótarján"", ""gb_code"": ""HU-NO"", ""gb_name"": ""Nógrád"", ""share"": 0.996}]",
+HU,HU-TB,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316039"", ""name"": ""Tatabánya"", ""gb_code"": ""HU-KE"", ""gb_name"": ""Komárom-Esztergom"", ""share"": 0.998}]",
+HU,HU-VM,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316045"", ""name"": ""Veszprém"", ""gb_code"": ""HU-VE"", ""gb_name"": ""Veszprém"", ""share"": 1.0}]",
+HU,HU-ZE,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316047"", ""name"": ""Zalaegerszeg"", ""gb_code"": ""HU-ZA"", ""gb_name"": ""Zala"", ""share"": 1.0}]",
+IN,IN-DH,shape,code,0.486,1.022,1.0,[],
+IN,IN-LA,area;shape,code,0.377,2.611,1.0,[],
+IN,IN-LD,unidentified,area,0.124,0.874,0.207,[],
+IN,IN-PY,unidentified,area,0.318,0.952,0.471,[],
+IQ,IQ-BG,shape,code,0.405,1.387,1.0,[],
+IQ,IQ-TS,label,area,0.862,1.013,0.92,"[{""ne_id"": ""1159314221"", ""name"": ""At-Ta'mim"", ""gb_code"": ""IQ-KI"", ""gb_name"": ""Kirkuk"", ""share"": 0.932}]",IQ-KI Kirkuk
+IR,IR-07:Alborz,code,area,0.754,1.124,0.813,"[{""ne_id"": ""1159317125"", ""name"": ""Alborz"", ""gb_code"": ""IR-09"", ""gb_name"": ""Alborz"", ""share"": 0.913}]",IR-09 Alborz
+IR,IR-25,area;shape,code,0.469,0.578,1.0,[],
+IR,IR-29,area;shape,code,0.467,1.798,1.0,[],
+IS,IS-0,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316485"", ""name"": ""Reykjavík"", ""gb_code"": ""IS-1"", ""gb_name"": ""Capital Region"", ""share"": 0.911}]",
+IS,IS-1,area,code,0.546,1.577,1.0,[],
+IT,IT-CA,unidentified,area,0.574,1.724,0.576,[],
+IT,IT-CI,unidentified,,0.0,,0.0,[],
+IT,IT-GO,unidentified,area,0.702,1.319,0.725,[],
+IT,IT-NU,unidentified,area,0.681,1.433,0.688,[],
+IT,IT-OG,unidentified,,0.0,,0.0,[],
+IT,IT-OT,unidentified,,0.0,,0.0,[],
+IT,IT-SS,unidentified,area,0.546,1.782,0.551,[],
+IT,IT-TS,unidentified,area,0.76,1.203,0.791,[],
+IT,IT-VS,unidentified,,0.0,,0.0,[],
+JM,JM-01,area;shape,code,0.491,0.551,1.0,[],
+KE,KE-110,code,area,0.759,0.924,0.83,"[{""ne_id"": ""1159310039"", ""name"": ""Nairobi"", ""gb_code"": ""KE-30"", ""gb_name"": ""Nairobi"", ""share"": 0.83}]",KE-30 Nairobi
+KG,KG-GB,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159309459"", ""name"": ""Bishkek"", ""gb_code"": ""KG-C"", ""gb_name"": ""Chuy Region"", ""share"": 1.0}]",
+KH,KH-12,area,code,0.552,1.714,1.0,[],
+KH,KH-18,area;shape,code,0.476,1.915,1.0,[],
+KH,KH-22,area,code,0.535,1.809,1.0,[],
+KH,KH-3,label,code,0.946,1.017,1.0,"[{""ne_id"": ""1159311563"", ""name"": ""Kâmpóng Cham"", ""gb_code"": ""KH-25"", ""gb_name"": ""Tbong Khmum"", ""share"": 0.503}]",KH-25 Tbong Khmum
+KN,KN-02,shape,code,0.416,0.785,1.0,[],
+KN,KN-03,shape,code,0.479,0.836,1.0,[],
+KN,KN-07,shape,code,0.494,1.323,1.0,[],
+KN,KN-08,area;shape,code,0.436,1.501,1.0,[],
+KN,KN-10,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316425"", ""name"": ""Saint Paul Charlestown"", ""gb_code"": ""KN-07"", ""gb_name"": ""Saint John Figtree"", ""share"": 0.754}]",
+KN,KN-11,shape,code,0.491,1.281,1.0,[],
+KN,KN-14,unidentified,,0.0,,0.0,[],
+KP,KP-01,code;unidentified,area,0.631,0.65,0.638,"[{""ne_id"": ""1159315275"", ""name"": ""P'yŏngyang"", ""gb_code"": ""KP10"", ""gb_name"": ""Pyongyang"", ""share"": 0.638}]",KP10 Pyongyang
+KP,KP-02,label,area,0.978,1.007,0.985,"[{""ne_id"": ""1159315287"", ""name"": ""P'yŏngan-namdo"", ""gb_code"": ""KP07"", ""gb_name"": ""South Pyongan"", ""share"": 0.906}]",KP11 Nampo;KP07 South Pyongan
+KP,KP-03,label,area,0.968,1.017,0.976,"[{""ne_id"": ""1159315269"", ""name"": ""P'yŏngan-bukto"", ""gb_code"": ""KP06"", ""gb_name"": ""North Pyongan"", ""share"": 0.992}]",KP06 North Pyongan
+KP,KP-04,label,area,0.93,1.057,0.937,"[{""ne_id"": ""1159315283"", ""name"": ""Chagang-do"", ""gb_code"": ""KP05"", ""gb_name"": ""Jagang"", ""share"": 0.991}]",KP05 Jagang
+KP,KP-05,label,area,0.934,1.009,0.962,"[{""ne_id"": ""1159315261"", ""name"": ""Hwanghae-namdo"", ""gb_code"": ""KP09"", ""gb_name"": ""South Hwanghae"", ""share"": 0.97}]",KP09 South Hwanghae
+KP,KP-06,label,area,0.889,1.115,0.893,"[{""ne_id"": ""1159315273"", ""name"": ""Hwanghae-bukto"", ""gb_code"": ""KP08"", ""gb_name"": ""North Hwanghae"", ""share"": 0.995}]",KP08 North Hwanghae
+KP,KP-07,code,area,0.966,0.991,0.978,"[{""ne_id"": ""1159315279"", ""name"": ""Kangwŏn-do"", ""gb_code"": ""KP04"", ""gb_name"": ""Kangwon"", ""share"": 0.978}]",KP04 Kangwon
+KP,KP-08,label,area,0.919,1.008,0.954,"[{""ne_id"": ""1159315285"", ""name"": ""Hamgyŏng-namdo"", ""gb_code"": ""KP03"", ""gb_name"": ""South Hamgyong"", ""share"": 0.962}]",KP03 South Hamgyong
+KP,KP-09,label,area,0.877,0.97,0.921,"[{""ne_id"": ""1159315277"", ""name"": ""Hamgyŏng-bukto"", ""gb_code"": ""KP02"", ""gb_name"": ""North Hamgyong"", ""share"": 0.921}]",KP02 North Hamgyong
+KP,KP-10,code,area,0.802,1.0,0.89,"[{""ne_id"": ""1159315289"", ""name"": ""Ryanggang"", ""gb_code"": ""KP01"", ""gb_name"": ""Ryanggang"", ""share"": 0.89}]",KP01 Ryanggang
+KP,KP-13,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317137"", ""name"": ""Rasŏn"", ""gb_code"": ""KP02"", ""gb_name"": ""North Hamgyong"", ""share"": 0.963}]",
+KW,KW-HA,shape,code,0.44,1.405,1.0,[],
+KW,KW-KU,area;shape,code,0.466,1.548,1.0,[],
+KW,KW-MU,shape,code,0.319,1.452,1.0,[],
+KZ,KZ-ALA,area;shape,code,0.377,2.386,1.0,[],
+LB,LB-BI,label,code,0.905,1.047,1.0,"[{""ne_id"": ""1159314197"", ""name"": ""Beqaa"", ""gb_code"": ""LB-BH"", ""gb_name"": ""Baalbek-Hermel"", ""share"": 0.654}]",LB-BH Baalbek-Hermel
+LC,LC-03,shape,code,0.485,0.704,1.0,[],
+LC,LC-04,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316375"", ""name"": ""Dauphin"", ""gb_code"": ""LC-06"", ""gb_name"": ""Gros Islet"", ""share"": 0.957}]",
+LC,LC-06,area;shape,code,0.373,2.174,1.0,[],
+LC,LC-07,label;unidentified,area,0.322,0.976,0.482,"[{""ne_id"": ""1159316387"", ""name"": ""Laborie"", ""gb_code"": ""LC-11"", ""gb_name"": ""Vieux Fort"", ""share"": 0.508}]",
+LC,LC-08,area;shape,code,0.319,3.121,1.0,[],
+LC,LC-09,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316381"", ""name"": ""Praslin"", ""gb_code"": ""LC-08"", ""gb_name"": ""Micoud"", ""share"": 0.736}]",
+LC,LC-10,area,code,0.624,0.649,1.0,[],
+LC,LC-11,shape,code,0.404,1.221,1.0,[],
+LI,LI-01,unidentified,area,0.269,1.052,0.413,[],
+LI,LI-02,shape,code,0.437,1.367,1.0,[],
+LI,LI-03,unidentified,area,0.271,0.874,0.4,[],
+LI,LI-04,unidentified,area,0.149,3.125,0.171,[],
+LI,LI-05,unidentified,area,0.138,0.905,0.232,[],
+LI,LI-06,unidentified,,0.0,,0.0,[],
+LI,LI-07,shape,code,0.491,1.083,1.0,[],
+LI,LI-08,label;unidentified,area,0.282,2.818,0.298,"[{""ne_id"": ""1159316023"", ""name"": ""Schellenberg"", ""gb_code"": ""LI-06"", ""gb_name"": ""Ruggell"", ""share"": 0.84}]",
+LI,LI-10,shape,code,0.433,1.41,1.0,[],
+LI,LI-11,shape,code,0.42,1.217,1.0,[],
+LR,LR-RI,code,area,0.845,1.049,0.895,"[{""ne_id"": ""1159308935"", ""name"": ""River Cess"", ""gb_code"": ""LR-RG"", ""gb_name"": ""Rivercess"", ""share"": 0.938}]",LR-RG Rivercess
+LR,LR-X1~,code,area,0.83,1.001,0.907,"[{""ne_id"": ""1159310089"", ""name"": ""Gbapolu"", ""gb_code"": ""LR-GP"", ""gb_name"": ""Gbarpolu"", ""share"": 0.908}]",LR-GP Gbarpolu
+LR,LR-X2~,code,area,0.723,1.006,0.837,"[{""ne_id"": ""1159310087"", ""name"": ""River Gee"", ""gb_code"": ""LR-RI"", ""gb_name"": ""River Gee"", ""share"": 0.842}]",
+LV,LV-014,unidentified,area,0.617,0.999,0.763,[],
+LV,LV-035,unidentified,area,0.745,1.182,0.788,[],
+LV,LV-079,unidentified,area,0.718,0.854,0.775,[],
+LV,LV-087,unidentified,area,0.699,0.934,0.796,[],
+LV,LV-095,unidentified,area,0.598,1.484,0.626,[],
+LV,LV-JUR,unidentified,area,0.753,0.859,0.799,[],
+LV,LV-LPX,unidentified,area,0.602,1.145,0.704,[],
+LV,LV-REZ:Rezekne,unidentified,area,0.368,0.472,0.396,[],
+LV,LV-VMR,unidentified,area,0.654,0.83,0.723,[],
+LY,LY-AJ,code,area,1.0,1.0,1.0,"[{""ne_id"": ""1159314143"", ""name"": ""Ajdabiya"", ""gb_code"": ""LY-WA"", ""gb_name"": ""Ajdabiya"", ""share"": 1.0}]",LY-WA Ajdabiya
+LY,LY-GD,code,area,1.0,1.0,1.0,"[{""ne_id"": ""1159314107"", ""name"": ""Ghadamis"", ""gb_code"": ""LY-NL"", ""gb_name"": ""Ghadamis"", ""share"": 1.0}]",LY-NL Ghadamis
+LY,LY-JU,code,area,1.0,1.0,1.0,"[{""ne_id"": ""1159314109"", ""name"": ""Al Jufrah"", ""gb_code"": ""LY-JUU"", ""gb_name"": ""Al Jufrah"", ""share"": 1.0}]",LY-JUU Al Jufrah
+LY,LY-MZ,code,area,1.0,1.0,1.0,"[{""ne_id"": ""1159314135"", ""name"": ""Mizdah"", ""gb_code"": ""LY-JG"", ""gb_name"": ""Mizdah"", ""share"": 1.0}]",LY-JG Mizdah
+LY,LY-QB,code,area,1.0,1.0,1.0,"[{""ne_id"": ""1159314151"", ""name"": ""Al Qubbah"", ""gb_code"": ""LY-DR"", ""gb_name"": ""Al Qubbah"", ""share"": 1.0}]",LY-DR Al Qubbah
+LY,LY-TN,code,area,1.0,1.0,1.0,"[{""ne_id"": ""1159314137"", ""name"": ""Tajura' wa an Nawahi al Arba"", ""gb_code"": ""LY-TB"", ""gb_name"": ""Tajura' wa an Nawahi al Arba"", ""share"": 1.0}]",LY-TB Tajura' wa an Nawahi al Arba
+MA,MA-08,unidentified,area,0.481,0.543,0.501,[],
+MA,MA-14,unidentified,area,0.744,1.311,0.752,[],
+MA,MA-16,unidentified,area,0.582,1.702,0.584,[],
+MD,MD-BA,shape,code,0.355,0.767,1.0,[],
+MD,MD-BD,label;area;shape,code,0.226,3.676,1.0,"[{""ne_id"": ""1159311151"", ""name"": ""Bender"", ""gb_code"": ""MD-SN"", ""gb_name"": ""Transnistria"", ""share"": 0.842}]",
+MD,MD-BS,area;shape,code,0.391,0.643,1.0,[],
+MD,MD-CAM,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159311153"", ""name"": ""Camenca"", ""gb_code"": ""MD-SN"", ""gb_name"": ""Transnistria"", ""share"": 0.526}]",
+MD,MD-CU,area;shape,code,0.282,3.234,1.0,[],
+MD,MD-GRI,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159311145"", ""name"": ""Grigoriopol"", ""gb_code"": ""MD-SN"", ""gb_name"": ""Transnistria"", ""share"": 0.971}]",
+MD,MD-IA,shape,code,0.436,1.213,1.0,[],
+MD,MD-RE,label;merged;area;shape,code,0.408,0.446,1.0,"[{""ne_id"": ""1159311149"", ""name"": ""Rezina"", ""gb_code"": ""MD-SN"", ""gb_name"": ""Transnistria"", ""share"": 0.978}, {""ne_id"": ""1159312619"", ""name"": ""Rezina"", ""gb_code"": ""MD-RE"", ""gb_name"": ""Rezina"", ""share"": 0.88}]",
+MD,MD-SN:Stîngă Nistrului,unidentified,area,0.476,0.531,0.494,[],MD-DU Dubasari
+MD,MD-SN:Transnistria,unidentified,,0.0,,0.0,[],
+MH,MH-L,unidentified,area,0.069,0.628,0.105,[],MH-KWA Kwajalein;MH-KIL Kili;MH-RON Rongelap;MH-ALL Ailinglaplap;MH-EBO Ebon;MH-NMK Namdrik;MH-JAL Jaluit
+MH,MH-T,unidentified,area,0.036,0.585,0.054,[],MH-ARN Arno;MH-MAJ Majuro;MH-MIL Mili;MH-MAL Maloelap;MH-WTJ Wotje
+MK,MK-01,unidentified,area,0.47,1.589,0.521,[],
+MK,MK-02,unidentified,area,0.349,0.936,0.501,[],
+MK,MK-06,unidentified,area,0.608,1.017,0.75,[],
+MK,MK-08,unidentified,area,0.64,1.026,0.77,[],
+MK,MK-09,unidentified,area,0.507,0.977,0.665,[],
+MK,MK-11,unidentified,area,0.685,1.054,0.792,[],
+MK,MK-12,unidentified,area,0.44,0.61,0.492,[],
+MK,MK-15,unidentified,area,0.675,0.961,0.791,[],
+MK,MK-17,unidentified,area,0.671,1.28,0.715,[],
+MK,MK-20,unidentified,area,0.688,0.837,0.749,[],
+MK,MK-21,unidentified,area,0.672,0.963,0.789,[],
+MK,MK-26,unidentified,area,0.643,0.939,0.759,[],
+MK,MK-29,unidentified,area,0.572,1.014,0.723,[],
+MK,MK-30,unidentified,area,0.664,1.029,0.787,[],
+MK,MK-33,unidentified,area,0.41,1.135,0.547,[],
+MK,MK-34,unidentified,area,0.552,1.016,0.706,[],
+MK,MK-35,unidentified,area,0.607,0.961,0.74,[],
+MK,MK-37,unidentified,area,0.586,1.004,0.737,[],
+MK,MK-38,unidentified,area,0.392,1.117,0.534,[],
+MK,MK-39,unidentified,,0.0,,0.0,[],
+MK,MK-40,unidentified,area,0.637,0.996,0.777,[],
+MK,MK-42,unidentified,area,0.663,1.07,0.771,[],
+MK,MK-43,unidentified,area,0.605,1.065,0.731,[],
+MK,MK-49,unidentified,area,0.633,1.034,0.763,[],
+MK,MK-51,unidentified,area,0.608,0.901,0.719,[],
+MK,MK-54,unidentified,area,0.716,1.175,0.772,[],
+MK,MK-58,unidentified,area,0.58,0.666,0.611,[],
+MK,MK-60,unidentified,area,0.631,0.975,0.764,[],
+MK,MK-61,unidentified,area,0.638,0.877,0.732,[],
+MK,MK-63,unidentified,area,0.673,1.04,0.79,[],
+MK,MK-65,unidentified,area,0.679,0.889,0.763,[],
+MK,MK-66,unidentified,area,0.67,0.724,0.692,[],
+MK,MK-70,unidentified,area,0.661,1.036,0.782,[],
+MK,MK-75,unidentified,area,0.686,0.906,0.776,[],
+MK,MK-76,unidentified,area,0.728,0.862,0.784,[],
+MK,MK-77,unidentified,,0.0,,0.0,[],
+MK,MK-78,unidentified,area,0.644,0.696,0.664,[],
+MK,MK-79,unidentified,,0.0,,0.0,[],
+MK,MK-81,unidentified,area,0.513,0.967,0.667,[],
+MK,MK-84,unidentified,,0.0,,0.0,[],
+MK,MK-85,unidentified,area,0.623,1.027,0.758,[],
+MN,MN-064,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159315431"", ""name"": ""Govĭ-Sümber"", ""gb_code"": ""MN-1"", ""gb_name"": ""Ulaanbaatar"", ""share"": 0.887}]",
+MP,MP-X02~,unidentified,area,0.65,0.994,0.785,[],
+MP,MP-X03~,unidentified,area,0.684,0.898,0.771,[],
+MP,MP-X04~,unidentified,area,0.45,0.668,0.518,[],
+MR,MR-01,code,area,0.991,1.008,0.992,"[{""ne_id"": ""1159314033"", ""name"": ""Hodh ech Chargui"", ""gb_code"": ""MR-HC"", ""gb_name"": ""Hodh ech Chargui"", ""share"": 0.999}]",MR-HC Hodh ech Chargui
+MR,MR-02,code,area,0.995,1.002,0.996,"[{""ne_id"": ""1159314035"", ""name"": ""Hodh el Gharbi"", ""gb_code"": ""MR-HG"", ""gb_name"": ""Hodh el Gharbi"", ""share"": 0.999}]",MR-HG Hodh el Gharbi
+MR,MR-03,code,area,0.986,1.0,0.993,"[{""ne_id"": ""1159314025"", ""name"": ""Assaba"", ""gb_code"": ""MR-AS"", ""gb_name"": ""Assaba"", ""share"": 0.993}]",MR-AS Assaba
+MR,MR-04,code,area,0.978,1.008,0.985,"[{""ne_id"": ""1159314029"", ""name"": ""Gorgol"", ""gb_code"": ""MR-GO"", ""gb_name"": ""Gorgol"", ""share"": 0.993}]",MR-GO Gorgol
+MR,MR-05,code,area,0.993,1.002,0.995,"[{""ne_id"": ""1159314015"", ""name"": ""Brakna"", ""gb_code"": ""MR-BR"", ""gb_name"": ""Brakna"", ""share"": 0.998}]",MR-BR Brakna
+MR,MR-06,code,area,0.991,0.996,0.993,"[{""ne_id"": ""1159314023"", ""name"": ""Trarza"", ""gb_code"": ""MR-TR"", ""gb_name"": ""Trarza"", ""share"": 0.993}]",MR-TR Trarza
+MR,MR-07,code,area,0.998,1.001,0.998,"[{""ne_id"": ""1159314031"", ""name"": ""Adrar"", ""gb_code"": ""MR-AD"", ""gb_name"": ""Adrar"", ""share"": 1.0}]",MR-AD Adrar
+MR,MR-08,code,area,0.96,1.023,0.968,"[{""ne_id"": ""1159313977"", ""name"": ""Dakhlet Nouadhibou"", ""gb_code"": ""MR-DN"", ""gb_name"": ""Dakhlet Nouadhibou"", ""share"": 0.991}]",MR-DN Dakhlet Nouadhibou
+MR,MR-09,code,area,0.998,1.0,0.999,"[{""ne_id"": ""1159314037"", ""name"": ""Tagant"", ""gb_code"": ""MR-TG"", ""gb_name"": ""Tagant"", ""share"": 0.999}]",MR-TG Tagant
+MR,MR-10,code,area,0.971,1.021,0.975,"[{""ne_id"": ""1159314027"", ""name"": ""Guidimaka"", ""gb_code"": ""MR-GD"", ""gb_name"": ""Guidimaka"", ""share"": 0.995}]",MR-GD Guidimaka
+MR,MR-11,code,area,0.986,1.009,0.988,"[{""ne_id"": ""1159314013"", ""name"": ""Tiris Zemmour"", ""gb_code"": ""MR-TZ"", ""gb_name"": ""Tiris Zemmour"", ""share"": 0.998}]",MR-TZ Tiris Zemmour
+MR,MR-12,code,area,0.998,1.001,0.999,"[{""ne_id"": ""1159314017"", ""name"": ""Inchiri"", ""gb_code"": ""MR-IN"", ""gb_name"": ""Inchiri"", ""share"": 1.0}]",MR-IN Inchiri
+MR,MR-NKC,code,area,0.976,0.982,0.979,"[{""ne_id"": ""1159314019"", ""name"": ""Nouakchott"", ""gb_code"": ""MR-NO"", ""gb_name"": ""Nouakchott"", ""share"": 0.979}]",MR-NO Nouakchott
+MT,MT-02,shape,code,0.452,0.96,1.0,[],
+MT,MT-06,area,code,0.568,0.589,1.0,[],
+MT,MT-08,shape,code,0.488,0.896,1.0,[],
+MT,MT-09,shape,code,0.429,0.764,1.0,[],
+MT,MT-10,unidentified,area,0.248,0.857,0.369,[],
+MT,MT-12,unidentified,area,0.398,1.083,0.548,[],
+MT,MT-13,area;shape,code,0.334,2.923,1.0,[],
+MT,MT-14,shape,code,0.442,1.292,1.0,[],
+MT,MT-16,shape,code,0.471,1.23,1.0,[],
+MT,MT-18,shape,code,0.39,0.95,1.0,[],
+MT,MT-20,area;shape,code,0.157,0.193,1.0,[],
+MT,MT-24,shape,code,0.456,1.131,1.0,[],
+MT,MT-28,shape,code,0.466,1.255,1.0,[],
+MT,MT-29,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159317979"", ""name"": ""Mdina"", ""gb_code"": ""MT-46"", ""gb_name"": ""Rabat Malta"", ""share"": 0.566}]",
+MT,MT-30,unidentified,area,0.712,0.865,0.776,[],
+MT,MT-31,code,area,0.75,1.041,0.84,"[{""ne_id"": ""1159317987"", ""name"": ""Mġarr"", ""gb_code"": ""MT-30"", ""gb_name"": ""Mġarr"", ""share"": 0.875}]",
+MT,MT-34,shape,code,0.456,1.201,1.0,[],
+MT,MT-40,area;shape,code,0.483,0.513,1.0,[],
+MT,MT-41,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159318027"", ""name"": ""Pietà"", ""gb_code"": ""MT-18"", ""gb_name"": ""Ħamrun"", ""share"": 0.638}]",
+MT,MT-42,area,code,0.562,1.581,1.0,[],
+MT,MT-48,area;shape,code,0.366,0.561,1.0,[],
+MT,MT-53,shape,code,0.388,1.041,1.0,[],
+MT,MT-54,shape,code,0.379,1.067,1.0,[],
+MT,MT-56,area;shape,code,0.37,0.449,1.0,[],
+MT,MT-57,shape,code,0.462,1.13,1.0,[],
+MT,MT-58,label;unidentified,area,0.421,0.734,0.514,"[{""ne_id"": ""1159318025"", ""name"": ""Ta' Xbiex"", ""gb_code"": ""MT-41"", ""gb_name"": ""Pietà"", ""share"": 0.514}]",
+MT,MT-60,shape,code,0.414,0.698,1.0,[],
+MT,MT-61,label;unidentified,area,0.559,0.824,0.654,"[{""ne_id"": ""1159317957"", ""name"": ""Xagħra"", ""gb_code"": ""MT-63"", ""gb_name"": ""Xgħajra"", ""share"": 0.654}]",
+MT,MT-62,shape,code,0.447,0.986,1.0,[],
+MT,MT-63,label;unidentified,area,0.453,0.82,0.568,"[{""ne_id"": ""1159318049"", ""name"": ""Xgħajra"", ""gb_code"": ""MT-61"", ""gb_name"": ""Xagħra"", ""share"": 0.568}]",
+MU,MU-AG,unidentified,,0.0,,0.0,[],
+MU,MU-BR,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316593"", ""name"": ""Beau Bassin-Rose Hill"", ""gb_code"": ""MU-PW"", ""gb_name"": ""Plaines Wilhems"", ""share"": 0.94}]",
+MU,MU-CU,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316597"", ""name"": ""Curepipe"", ""gb_code"": ""MU-PW"", ""gb_name"": ""Plaines Wilhems"", ""share"": 1.0}]",
+MU,MU-PL,code;unidentified,area,0.508,1.021,0.667,"[{""ne_id"": ""1159307843"", ""name"": ""Port Louis"", ""gb_code"": ""MU-PU"", ""gb_name"": ""Port Louis"", ""share"": 0.681}]",MU-PU Port Louis
+MU,MU-PL:Port Louis city,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316591"", ""name"": ""Port Louis city"", ""gb_code"": ""MU-PU"", ""gb_name"": ""Port Louis"", ""share"": 0.644}]",
+MU,MU-PW,shape,code,0.395,1.389,1.0,[],
+MU,MU-QB,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316599"", ""name"": ""Quatre Bornes"", ""gb_code"": ""MU-PW"", ""gb_name"": ""Plaines Wilhems"", ""share"": 1.0}]",
+MU,MU-VP,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316601"", ""name"": ""Vacoas-Phoenix"", ""gb_code"": ""MU-PW"", ""gb_name"": ""Plaines Wilhems"", ""share"": 1.0}]",
+MV,MV-00,unidentified,,0.0,,0.0,[],
+MV,MV-01,unidentified,area,0.0,0.972,0.0,[],
+MV,MV-02,unidentified,area,0.032,0.639,0.05,[],
+MV,MV-03,area;shape,code,0.001,1008.982,1.0,[],
+MV,MV-04,area;shape,code,0.0,33505.891,1.0,[],
+MV,MV-05,unidentified,area,0.03,2.19,0.043,[],
+MV,MV-07,unidentified,,0.0,,0.0,[],
+MV,MV-08,area;shape,code,0.001,1441.187,1.0,[],
+MV,MV-12:Malé,unidentified,area,0.16,0.255,0.173,[],MV-MLE Malé
+MV,MV-12:Meemu,unidentified,,0.0,,0.0,[],
+MV,MV-13,area;shape,code,0.0,2320.01,1.0,[],
+MV,MV-14,area;shape,code,0.001,1790.645,1.0,[],
+MV,MV-17,area;shape,code,0.001,1830.743,1.0,[],
+MV,MV-20,unidentified,,0.0,,0.0,[],
+MV,MV-23,unidentified,,0.0,,0.0,[],
+MV,MV-24,unidentified,,0.0,,0.0,[],
+MV,MV-25,unidentified,,0.0,,0.0,[],
+MV,MV-26,unidentified,,0.0,,0.0,[],
+MV,MV-27,unidentified,,0.0,,0.0,[],
+MV,MV-28,unidentified,,0.0,,0.0,[],
+MV,MV-29,unidentified,,0.0,,0.0,[],
+MW,MW-LK,unidentified,area,0.692,0.692,0.692,[],
+MW,MW-MW,unidentified,area,0.466,0.785,0.568,[],
+MW,MW-NE,unidentified,area,0.646,0.947,0.764,[],
+MX,MX-DIF,code,area,0.855,1.087,0.885,"[{""ne_id"": ""1159314087"", ""name"": ""Distrito Federal"", ""gb_code"": ""MX-MEX"", ""gb_name"": ""Distrito Federal"", ""share"": 0.962}]",
+NE,NE-8,unidentified,area,0.61,0.839,0.697,[],
+NL,NL-BQ1,unidentified,,0.0,,0.0,[],
+NL,NL-BQ2,unidentified,,0.0,,0.0,[],
+NL,NL-BQ3,unidentified,,0.0,,0.0,[],
+NL,NL-FR,area,code,0.661,1.501,1.0,[],
+NL,NL-ZE,area,code,0.616,1.546,1.0,[],
+NO,NO-21,unidentified,,0.0,,0.0,[],
+NO,NO-X01~,unidentified,,0.0,,0.0,[],
+NR,NR-01,shape,code,0.336,1.03,1.0,[],
+NR,NR-02,unidentified,,0.0,,0.0,[],
+NR,NR-03,unidentified,,0.0,,0.0,[],
+NR,NR-05,unidentified,area,0.185,0.72,0.269,[],
+NR,NR-06,unidentified,area,0.233,0.671,0.315,[],
+NR,NR-07,unidentified,area,0.49,1.895,0.502,[],
+NR,NR-08,unidentified,,0.0,,0.0,[],
+NR,NR-09,unidentified,,0.0,,0.0,[],
+NR,NR-10,unidentified,,0.0,,0.0,[],
+NR,NR-11,shape,code,0.421,0.687,1.0,[],
+NR,NR-12,unidentified,area,0.179,0.243,0.189,[],
+NR,NR-13,unidentified,area,0.224,0.985,0.363,[],
+NR,NR-14,shape,code,0.354,0.982,1.0,[],
+NZ,NZ-NSN,code,area,0.829,1.086,0.87,"[{""ne_id"": ""1159314913"", ""name"": ""Nelson City"", ""gb_code"": ""NZ-NLS"", ""gb_name"": ""Nelson Region"", ""share"": 0.946}]",NZ-NLS Nelson Region
+NZ,NZ-X01~,unidentified,,0.0,,0.0,[],
+NZ,NZ-X03~,unidentified,,0.0,,0.0,[],
+NZ,NZ-X04~,unidentified,,0.0,,0.0,[],
+NZ,NZ-X05~,unidentified,,0.0,,0.0,[],
+NZ,NZ-X06~,unidentified,,0.0,,0.0,[],
+NZ,NZ-X07~,unidentified,,0.0,,0.0,[],
+OM,OM-BJ,unidentified,area,0.696,1.237,0.742,[],
+OM,OM-BU,unidentified,area,0.654,1.32,0.695,[],
+OM,OM-DA,unidentified,area,0.573,1.011,0.724,[],
+OM,OM-MA,unidentified,area,0.702,1.182,0.762,[],
+OM,OM-SH,unidentified,area,0.46,0.52,0.479,[],
+OM,OM-SS,unidentified,area,0.632,1.404,0.663,[],
+OM,OM-WU,unidentified,area,0.55,1.163,0.66,[],
+OM,OM-ZA,unidentified,area,0.653,1.241,0.713,[],
+PE,PE-CAL,area;shape,code,0.168,3.07,1.0,[],
+PE,PE-LIM:Lima Province,code,area,0.803,1.004,0.889,"[{""ne_id"": ""1159307965"", ""name"": ""Lima Province"", ""gb_code"": ""PE-LMA*"", ""gb_name"": ""Municipalidad Metropolitana de Lima"", ""share"": 0.893}]",PE-LMA* Municipalidad Metropolitana de Lima
+PG,PG-WHM,label,area,0.92,1.039,0.94,"[{""ne_id"": ""1159309919"", ""name"": ""Western Highlands"", ""gb_code"": ""PG-JWK*"", ""gb_name"": ""Jiwaka Province"", ""share"": 0.536}]",PG-JWK* Jiwaka Province
+PG,PG-WPD,code,area,0.959,0.983,0.971,"[{""ne_id"": ""1159309867"", ""name"": ""Western"", ""gb_code"": ""PG-WHM"", ""gb_name"": ""Western Province"", ""share"": 0.971}]",
+PH,PH-AGN,unidentified,area,0.638,0.822,0.71,[],
+PH,PH-AGN:Butuan,unidentified,area,0.667,1.166,0.743,[],
+PH,PH-BAS,unidentified,area,0.701,1.226,0.749,[],
+PH,PH-BCD,unidentified,area,0.564,1.073,0.696,[],
+PH,PH-BEN:Baguio,unidentified,area,0.61,0.866,0.707,[],
+PH,PH-CAS:Naga,unidentified,area,0.396,0.897,0.538,[],
+PH,PH-ISA:Santiago,unidentified,area,0.638,1.408,0.666,[],
+PH,PH-LAN:Iligan,unidentified,area,0.529,0.848,0.639,[],
+PH,PH-LAP,unidentified,area,0.641,1.39,0.671,[],
+PH,PH-LEY:Ormoc,unidentified,,0.0,,0.0,[],
+PH,PH-LEY:Tacloban,unidentified,area,0.529,0.988,0.688,[],
+PH,PH-MDE,unidentified,area,0.6,0.701,0.638,[],
+PH,PH-MNL:Caloocan,unidentified,area,0.249,0.989,0.397,[],
+PH,PH-MNL:Las Pinas,unidentified,area,0.498,0.91,0.635,[],
+PH,PH-MNL:Makati,unidentified,area,0.545,1.121,0.667,[],
+PH,PH-MNL:Malabon,unidentified,area,0.443,0.947,0.597,[],
+PH,PH-MNL:Mandaluyong City,unidentified,area,0.339,1.013,0.503,[],
+PH,PH-MNL:Manila,unidentified,area,0.586,0.759,0.65,[],
+PH,PH-MNL:Marikina,unidentified,,0.0,,0.0,[],
+PH,PH-MNL:Muntinlupa,unidentified,area,0.572,1.107,0.692,[],
+PH,PH-MNL:Navotas,unidentified,area,0.461,0.874,0.591,[],
+PH,PH-MNL:Paranaque,unidentified,area,0.672,0.889,0.759,[],
+PH,PH-MNL:Pasay,unidentified,area,0.585,1.008,0.735,[],
+PH,PH-MNL:Pasig,unidentified,area,0.547,1.539,0.583,[],
+PH,PH-MNL:Pateros,unidentified,,0.0,,0.0,[],
+PH,PH-MNL:Quezon City,unidentified,area,0.622,1.165,0.712,[],
+PH,PH-MNL:San Juan,unidentified,,0.0,,0.0,[],
+PH,PH-MNL:Taguig,unidentified,area,0.519,1.069,0.661,[],
+PH,PH-MNL:Valenzuela,unidentified,area,0.486,1.039,0.642,[],
+PH,PH-MSR:Cagayan de Oro,unidentified,area,0.621,1.276,0.684,[],
+PH,PH-PAM:Angeles,unidentified,,0.0,,0.0,[],
+PH,PH-PAN:Dagupan,unidentified,area,0.283,0.447,0.319,[],
+PH,PH-QUE:Lucena,unidentified,area,0.288,0.765,0.394,[],
+PH,PH-SCO:General Santos,unidentified,area,0.71,0.881,0.781,[],
+PH,PH-SLU,unidentified,area,0.7,1.184,0.76,[],
+PH,PH-TAW,unidentified,area,0.692,1.277,0.73,[],
+PH,PH-ZMB:Olongapo,unidentified,area,0.287,0.74,0.388,[],
+PK,PK-TA,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159309347"", ""name"": ""F.A.T.A."", ""gb_code"": ""PK-KP"", ""gb_name"": ""Khyber Pakhtunkhwa"", ""share"": 0.952}]",
+PW,PW-002,shape,code,0.497,1.035,1.0,[],
+PW,PW-010,unidentified,area,0.115,0.458,0.151,[],
+PW,PW-050,area;shape,code,0.032,25.674,1.0,[],
+PW,PW-100,area;shape,code,0.091,0.091,1.0,[],
+PW,PW-150,unidentified,area,0.203,0.776,0.3,[],
+PW,PW-212,area;shape,code,0.448,1.51,1.0,[],
+PW,PW-214,unidentified,,0.0,,0.0,[],
+PW,PW-218,unidentified,area,0.233,0.838,0.347,[],
+PW,PW-222,area;shape,code,0.426,2.018,1.0,[],
+PW,PW-224,unidentified,area,0.257,0.809,0.37,[],
+PW,PW-226,shape,code,0.495,1.335,1.0,[],
+PW,PW-227,shape,code,0.451,0.942,1.0,[],
+PW,PW-228,shape,code,0.31,0.729,1.0,[],
+PW,PW-350,shape,code,0.39,0.974,1.0,[],
+PW,PW-370,unidentified,,0.0,,0.0,[],
+QA,QA-RA,label,code,0.838,0.903,1.0,"[{""ne_id"": ""1159310427"", ""name"": ""Ar Rayyān"", ""gb_code"": ""QA-SH"", ""gb_name"": ""Al Sheehaniya"", ""share"": 0.512}]",QA-SH Al Sheehaniya
+QA,QA-WA,area,code,0.615,1.556,1.0,[],
+RU,UA-40,unidentified,,0.0,,0.0,[],
+RU,UA-43,unidentified,,0.0,,0.0,[],
+SC,SC-01,unidentified,,0.0,,0.0,[],
+SC,SC-02,unidentified,area,0.733,0.867,0.79,[],
+SC,SC-03,unidentified,area,0.582,0.961,0.721,[],
+SC,SC-05,unidentified,area,0.574,0.841,0.671,[],
+SC,SC-06,unidentified,area,0.698,0.873,0.77,[],
+SC,SC-07,unidentified,area,0.586,1.116,0.701,[],
+SC,SC-08,unidentified,area,0.354,0.75,0.457,[],
+SC,SC-09,unidentified,area,0.565,1.069,0.699,[],
+SC,SC-11,unidentified,area,0.342,1.922,0.387,[],
+SC,SC-12,unidentified,area,0.611,1.226,0.689,[],
+SC,SC-13,unidentified,area,0.615,0.928,0.734,[],
+SC,SC-14,unidentified,area,0.676,0.724,0.695,[],
+SC,SC-15,unidentified,area,0.43,1.009,0.599,[],
+SC,SC-16,unidentified,area,0.337,0.458,0.368,[],
+SC,SC-17,unidentified,area,0.378,0.918,0.526,[],
+SC,SC-18,unidentified,area,0.546,1.123,0.667,[],
+SC,SC-19,unidentified,area,0.333,0.459,0.364,[],
+SC,SC-20,unidentified,area,0.318,2.323,0.345,[],
+SC,SC-22,unidentified,area,0.505,0.809,0.607,[],
+SC,SC-23,unidentified,area,0.633,1.301,0.685,[],
+SC,SC-24,unidentified,,0.0,,0.0,[],
+SC,SC-25,unidentified,,0.0,,0.0,[],
+SC,SC-X02~,unidentified,area,0.065,1.21,0.112,[],
+SD,SD-DW,area;shape,code,0.472,0.48,1.0,[],
+SD,SD-KS,area,code,0.616,0.647,1.0,[],N/A Abyei PCA
+SG,SG-01,unidentified,area,0.359,2.508,0.369,[],
+SG,SG-02,unidentified,,0.0,,0.0,[],
+SG,SG-03,unidentified,area,0.516,1.458,0.573,[],
+SG,SG-04,unidentified,area,0.437,1.438,0.515,[],
+SG,SG-05,unidentified,area,0.467,1.284,0.566,[],
+SI,SI-009,unidentified,area,0.625,1.356,0.668,[],
+SI,SI-015,unidentified,area,0.674,1.132,0.758,[],
+SI,SI-024,unidentified,area,0.657,1.021,0.785,[],
+SI,SI-028,unidentified,area,0.594,0.839,0.685,[],
+SI,SI-033,unidentified,area,0.683,1.37,0.702,[],
+SI,SI-040,unidentified,area,0.212,4.237,0.216,[],
+SI,SI-041,unidentified,area,0.758,1.257,0.774,[],
+SI,SI-047,unidentified,area,0.52,1.919,0.521,[],
+SI,SI-05,unidentified,area,0.738,1.219,0.773,[],
+SI,SI-050,unidentified,area,0.725,1.179,0.777,[],
+SI,SI-054:Krsko,unidentified,,0.0,,0.0,[],
+SI,SI-056,unidentified,area,0.683,1.234,0.734,[],
+SI,SI-059,unidentified,area,0.595,1.557,0.612,[],
+SI,SI-073,unidentified,area,0.465,1.943,0.481,[],
+SI,SI-074,unidentified,area,0.628,0.826,0.704,[],
+SI,SI-081,unidentified,area,0.674,1.399,0.69,[],
+SI,SI-086,unidentified,area,0.564,1.092,0.691,[],
+SI,SI-090,unidentified,area,0.237,3.245,0.251,[],
+SI,SI-092,unidentified,area,0.512,1.759,0.531,[],
+SI,SI-100,unidentified,area,0.674,0.883,0.758,[],
+SI,SI-107,unidentified,area,0.613,1.115,0.721,[],
+SI,SI-119,unidentified,area,0.662,0.922,0.766,[],
+SI,SI-121,unidentified,area,0.682,1.043,0.794,[],
+SI,SI-129,unidentified,area,0.609,0.648,0.623,[],
+SI,SI-135,unidentified,area,0.68,0.887,0.764,[],
+SI,SI-143,unidentified,area,0.355,1.547,0.431,[],
+SI,SI-148,unidentified,area,0.691,1.063,0.793,[],
+SI,SI-149,unidentified,area,0.42,1.642,0.476,[],
+SI,SI-152,unidentified,area,0.659,0.815,0.721,[],
+SI,SI-153,unidentified,area,0.677,1.205,0.739,[],
+SI,SI-154,unidentified,area,0.652,1.128,0.744,[],
+SI,SI-156,unidentified,area,0.716,1.168,0.775,[],
+SI,SI-159,unidentified,area,0.66,1.051,0.776,[],
+SI,SI-161,unidentified,area,0.323,2.277,0.351,[],
+SI,SI-163,unidentified,area,0.742,1.247,0.767,[],
+SI,SI-165,unidentified,area,0.589,0.806,0.67,[],
+SI,SI-166,unidentified,area,0.718,0.881,0.786,[],
+SI,SI-168,unidentified,area,0.68,1.088,0.777,[],
+SI,SI-169,unidentified,area,0.649,1.143,0.738,[],
+SI,SI-172,unidentified,area,0.7,0.91,0.787,[],
+SI,SI-175,unidentified,area,0.714,0.903,0.793,[],
+SI,SI-176,unidentified,,0.0,,0.0,[],
+SI,SI-182,unidentified,area,0.634,1.002,0.775,[],
+SI,SI-183,unidentified,area,0.607,0.691,0.639,[],
+SI,SI-186,unidentified,area,0.713,0.83,0.762,[],
+SI,SI-188,unidentified,area,0.506,0.66,0.557,[],
+SI,SI-191,unidentified,area,0.694,0.869,0.765,[],
+SI,SI-194,unidentified,area,0.722,0.884,0.79,[],
+SM,SM-01,shape,code,0.258,0.671,1.0,[],
+SM,SM-02,unidentified,,0.0,,0.0,[],
+SM,SM-03,area;shape,code,0.414,2.154,1.0,[],
+SM,SM-04,label;unidentified,area,0.139,2.078,0.181,"[{""ne_id"": ""1159315999"", ""name"": ""Faetano"", ""gb_code"": ""SM-06"", ""gb_name"": ""Borgo Maggiore"", ""share"": 0.531}]",
+SM,SM-05,shape,code,0.478,1.322,1.0,[],
+SM,SM-06,unidentified,area,0.314,0.561,0.373,[],
+SM,SM-07,unidentified,area,0.387,0.663,0.464,[],
+SM,SM-08,label;unidentified,area,0.028,1.783,0.043,"[{""ne_id"": ""1159316003"", ""name"": ""Montegiardino"", ""gb_code"": ""SM-05"", ""gb_name"": ""Fiorentino"", ""share"": 0.822}]",
+SM,SM-09,shape,code,0.321,1.096,1.0,[],
+SO,SO-BR,area,code,0.57,1.742,1.0,[],SO-SA Sanaag
+SO,SO-NU,area;shape,code,0.456,2.182,1.0,[],SO-SO Sool
+SY,SY-DI,code,area,0.784,1.005,0.877,"[{""ne_id"": ""1159315915"", ""name"": ""Damascus"", ""gb_code"": ""SYR-DI"", ""gb_name"": ""Damascus"", ""share"": 0.881}]",SYR-DI Damascus
+SY,SY-DR,code,area,0.892,0.969,0.929,"[{""ne_id"": ""1159308451"", ""name"": ""Dar`a"", ""gb_code"": ""SYR-DR"", ""gb_name"": ""Dar'a"", ""share"": 0.929}]",SYR-DR Dar'a
+SY,SY-DY,label,area,0.889,0.941,0.914,"[{""ne_id"": ""1159308443"", ""name"": ""Dayr Az Zawr"", ""gb_code"": ""SYR-DY"", ""gb_name"": ""Deir-ez-Zor"", ""share"": 0.914}]",SYR-DY Deir-ez-Zor
+SY,SY-HA,label,area,0.945,1.036,0.955,"[{""ne_id"": ""1159308439"", ""name"": ""Hasaka (Al Haksa)"", ""gb_code"": ""SYR-HA"", ""gb_name"": ""Al-Hasakeh"", ""share"": 0.989}]",SYR-HA Al-Hasakeh
+SY,SY-HI,code,area,0.784,0.863,0.819,"[{""ne_id"": ""1159308435"", ""name"": ""Homs (Hims)"", ""gb_code"": ""SYR-HI"", ""gb_name"": ""Homs"", ""share"": 0.819}]",SYR-HI Homs
+SY,SY-HL,code,area,0.911,1.051,0.93,"[{""ne_id"": ""1159308431"", ""name"": ""Aleppo"", ""gb_code"": ""SYR-HL"", ""gb_name"": ""Aleppo"", ""share"": 0.969}]",SYR-HL Aleppo
+SY,SY-HM,code,area,0.857,1.087,0.886,"[{""ne_id"": ""1159308433"", ""name"": ""Hamah"", ""gb_code"": ""SYR-HM"", ""gb_name"": ""Hama"", ""share"": 0.963}]",SYR-HM Hama
+SY,SY-ID,code,area,0.893,0.961,0.925,"[{""ne_id"": ""1159308437"", ""name"": ""Idlib"", ""gb_code"": ""SYR-ID"", ""gb_name"": ""Idleb"", ""share"": 0.925}]",SYR-ID Idleb
+SY,SY-LA,code,area,0.917,0.992,0.953,"[{""ne_id"": ""1159308425"", ""name"": ""Lattakia"", ""gb_code"": ""SYR-LA"", ""gb_name"": ""Lattakia"", ""share"": 0.953}]",SYR-LA Lattakia
+SY,SY-QU,code;unidentified,area,0.174,5.592,0.175,"[{""ne_id"": ""1159308449"", ""name"": ""Quneitra"", ""gb_code"": ""SYR-QU"", ""gb_name"": ""Quneitra"", ""share"": 0.979}]",SYR-QU Quneitra
+SY,SY-RA,code,area,0.884,0.964,0.921,"[{""ne_id"": ""1159308429"", ""name"": ""Ar Raqqah"", ""gb_code"": ""SYR-RA"", ""gb_name"": ""Ar-Raqqa"", ""share"": 0.896}]",SYR-RA Ar-Raqqa
+SY,SY-RD,label;unidentified,area,0.66,1.446,0.672,"[{""ne_id"": ""1159308447"", ""name"": ""Rif Dimashq"", ""gb_code"": ""SYR-RD"", ""gb_name"": ""Rural Damascus"", ""share"": 0.972}]",SYR-RD Rural Damascus
+SY,SY-SU,label,area,0.906,0.959,0.931,"[{""ne_id"": ""1159308445"", ""name"": ""As Suwayda'"", ""gb_code"": ""SYR-SU"", ""gb_name"": ""As-Sweida"", ""share"": 0.931}]",SYR-SU As-Sweida
+SY,SY-TA,code,area,0.926,0.998,0.96,"[{""ne_id"": ""1159308427"", ""name"": ""Tartus"", ""gb_code"": ""SYR-TA"", ""gb_name"": ""Tartous"", ""share"": 0.96}]",SYR-TA Tartous
+SY,SY-X01~,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159315665"", ""name"": ""UNDOF"", ""gb_code"": ""SYR-QU"", ""gb_name"": ""Quneitra"", ""share"": 0.896}]",
+TD,TD-BO,area,code,0.557,0.605,1.0,[],
+TD,TD-ND,area;shape,code,0.289,3.225,1.0,[],
+TD,TD-TI,area,code,0.546,1.811,1.0,[],
+TD,TD-X01~,code,area,0.884,1.08,0.904,"[{""ne_id"": ""1159317313"", ""name"": ""Ennedi"", ""gb_code"": ""TD-EO"", ""gb_name"": ""Ennedi-Ouest"", ""share"": 0.553}]",TD-EO Ennedi-Ouest;TD-EE Ennedi-Est
+TJ,TJ-DU,area;shape,code,0.36,2.693,1.0,[],
+TJ,TJ-X01~,label,area,0.968,0.987,0.977,"[{""ne_id"": ""1159308473"", ""name"": ""Tadzhikistan Territories"", ""gb_code"": ""TJ-RA"", ""gb_name"": ""Districts of Republican Subordination"", ""share"": 0.977}]",TJ-RA Districts of Republican Subordination
+TL,TL-CO,area,code,0.564,0.638,1.0,[],
+TO,TO-02,shape,code,0.279,1.324,1.0,[],
+TO,TO-03,shape,code,0.361,1.255,1.0,[],
+TT,TT-ARI,label;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159308043"", ""name"": ""Arima"", ""gb_code"": ""TT-TUP"", ""gb_name"": ""Tunapuna-Piarco"", ""share"": 1.0}]",
+TT,TT-ETO,code;unidentified,area,0.46,1.992,0.473,"[{""ne_id"": ""1159308073"", ""name"": ""Eastern Tobago"", ""gb_code"": ""TT-TOB"", ""gb_name"": ""Tobago"", ""share"": 0.943}]",TT-TOB Tobago
+TT,TT-RCM,code,area,0.888,0.91,0.898,"[{""ne_id"": ""1159308049"", ""name"": ""Rio Claro-Mayaro"", ""gb_code"": ""TT-MRC"", ""gb_name"": ""Rio Claro-Mayaro"", ""share"": 0.898}]",TT-MRC Rio Claro-Mayaro
+TT,TT-WTO,code;unidentified,,0.0,,0.0,"[{""ne_id"": ""1159316403"", ""name"": ""Western Tobago"", ""gb_code"": ""TT-TOB"", ""gb_name"": ""Tobago"", ""share"": 0.847}]",
+TW,TW-PEN,unidentified,area,0.268,1.229,0.383,[],
+TW,TW-TPQ,code,area,0.878,1.066,0.906,"[{""ne_id"": ""1159310407"", ""name"": ""New Taipei City"", ""gb_code"": ""TW-NWT"", ""gb_name"": ""New Taipei"", ""share"": 0.966}]",TW-NWT New Taipei
+UA,UA-30,label;area;shape,code,0.479,0.503,1.0,"[{""ne_id"": ""1159315871"", ""name"": ""Kiev City"", ""gb_code"": ""UA-32"", ""gb_name"": ""Kyiv Oblast"", ""share"": 0.513}]",
+UA,UA-65,area;shape,code,0.335,2.956,1.0,[],UA-43 Autonomous Republic of Crimea
+UG,UG-108,unidentified,area,0.704,0.857,0.767,[],
+UG,UG-116,unidentified,area,0.722,0.813,0.76,[],
+UG,UG-117,unidentified,area,0.495,1.594,0.539,[],
+UG,UG-118,unidentified,area,0.642,1.316,0.688,[],
+UG,UG-119,unidentified,area,0.497,0.878,0.623,[],
+UG,UG-120,unidentified,area,0.641,0.641,0.641,[],
+UG,UG-124,unidentified,area,0.599,0.743,0.653,[],
+UG,UG-203,unidentified,area,0.679,1.423,0.689,[],
+UG,UG-204,unidentified,area,0.615,1.326,0.668,[],
+UG,UG-206,unidentified,area,0.595,0.739,0.649,[],
+UG,UG-214,unidentified,,0.0,,0.0,[],
+UG,UG-217,unidentified,area,0.666,0.693,0.677,[],
+UG,UG-223,unidentified,area,0.67,1.449,0.678,[],
+UG,UG-227,unidentified,area,0.654,1.359,0.686,[],
+UG,UG-228,unidentified,area,0.73,1.167,0.783,[],
+UG,UG-229,unidentified,area,0.635,0.706,0.663,[],
+UG,UG-307,unidentified,area,0.608,0.941,0.734,[],
+UG,UG-308,unidentified,area,0.537,1.539,0.577,[],
+UG,UG-316,unidentified,area,0.694,1.143,0.768,[],
+UG,UG-319,unidentified,area,0.731,1.184,0.779,[],
+UG,UG-320,unidentified,area,0.712,0.902,0.791,[],
+UG,UG-322,unidentified,area,0.744,1.206,0.78,[],
+UG,UG-325,unidentified,area,0.49,0.861,0.612,[],
+UG,UG-326,unidentified,area,0.555,1.379,0.616,[],
+UG,UG-328,unidentified,area,0.703,0.805,0.745,[],
+UG,UG-331,unidentified,area,0.644,0.823,0.714,[],
+UG,UG-401,unidentified,area,0.584,0.713,0.632,[],
+UG,UG-402,unidentified,area,0.428,1.259,0.538,[],
+UG,UG-405,unidentified,area,0.635,0.924,0.747,[],
+UG,UG-409,unidentified,area,0.673,0.747,0.703,[],
+UG,UG-413,unidentified,area,0.631,0.938,0.75,[],
+UG,UG-414,unidentified,area,0.7,0.839,0.757,[],
+UG,UG-415,unidentified,area,0.759,0.808,0.78,[],
+UG,UG-416,unidentified,area,0.666,1.032,0.787,[],
+UG,UG-419,unidentified,area,0.499,1.932,0.505,[],
+UG,UG-421,unidentified,area,0.723,1.188,0.773,[],
+UG,UG-422,unidentified,area,0.543,1.1,0.672,[],
+UG,UG-423,unidentified,area,0.675,0.725,0.695,[],
+UG,UG-424,unidentified,area,0.668,0.792,0.717,[],
+UG,UG-425,unidentified,area,0.701,1.291,0.731,[],
+US,US-SD,code,area,0.996,1.002,0.997,"[{""ne_id"": ""1159315367"", ""name"": ""South Dakota"", ""gb_code"": ""SU-SD"", ""gb_name"": ""South Dakota"", ""share"": 0.991}]",SU-SD South Dakota
+VC,VC-06,shape,code,0.479,1.121,1.0,[],
+VI,VI-X03~,unidentified,area,0.741,0.857,0.79,[],
+VN,VN-01,area,code,0.59,1.562,1.0,[],
+VN,VN-73,area,code,0.566,0.595,1.0,[],
+VN,VN-CT,shape,code,0.33,1.095,1.0,[],
+VN,VN-HP,area;shape,code,0.35,1.569,1.0,[],
+VU,VU-TOB,shape,code,0.499,1.055,1.0,[],
+WS,WS-AA,unidentified,area,0.456,0.771,0.555,[],
+WS,WS-AL,unidentified,,0.0,,0.0,[],
+WS,WS-AT,unidentified,area,0.577,1.535,0.604,[],
+WS,WS-GE,unidentified,area,0.641,0.926,0.752,[],
+WS,WS-TU,unidentified,area,0.52,1.004,0.683,[],
+WS,WS-VF,unidentified,area,0.362,0.65,0.439,[],
+WS,WS-VS,unidentified,area,0.665,1.309,0.705,[],
+XK,XK-X09~,unidentified,area,0.569,0.93,0.7,[],
+XK,XK-X13~,unidentified,area,0.627,0.846,0.712,[],
+XK,XK-X15~,unidentified,area,0.491,0.979,0.652,[],
+XK,XK-X16~,unidentified,area,0.576,0.914,0.7,[],
+XK,XK-X19~,unidentified,area,0.674,1.093,0.771,[],
+XK,XK-X20~,unidentified,area,0.741,1.159,0.793,[],
+XK,XK-X23~,unidentified,area,0.518,1.071,0.66,[],
+XK,XK-X27~,unidentified,area,0.649,0.964,0.773,[],
+XK,XK-X30~,unidentified,area,0.521,1.011,0.682,[],
+ZA,ZA-EC,code,area,0.987,0.998,0.993,"[{""ne_id"": ""1159311157"", ""name"": ""Eastern Cape"", ""gb_code"": ""EC"", ""gb_name"": ""Eastern Cape"", ""share"": 0.993}]",EC Eastern Cape
+ZA,ZA-FS,code,area,0.987,1.001,0.993,"[{""ne_id"": ""1159309739"", ""name"": ""Free State"", ""gb_code"": ""FS"", ""gb_name"": ""Free State"", ""share"": 0.994}]",FS Free State
+ZA,ZA-GT,code,area,0.971,0.998,0.984,"[{""ne_id"": ""1159309741"", ""name"": ""Gauteng"", ""gb_code"": ""GT"", ""gb_name"": ""Gauteng"", ""share"": 0.984}]",GT Gauteng
+ZA,ZA-LP,code,area,0.986,1.001,0.993,"[{""ne_id"": ""1159309745"", ""name"": ""Limpopo"", ""gb_code"": ""LI"", ""gb_name"": ""Limpopo"", ""share"": 0.993}]",LI Limpopo
+ZA,ZA-MP,code,area,0.974,1.013,0.98,"[{""ne_id"": ""1159309743"", ""name"": ""Mpumalanga"", ""gb_code"": ""MP"", ""gb_name"": ""Mpumalanga"", ""share"": 0.993}]",MP Mpumalanga
+ZA,ZA-NC,code,area,0.988,1.001,0.993,"[{""ne_id"": ""1159309731"", ""name"": ""Northern Cape"", ""gb_code"": ""NC"", ""gb_name"": ""Nothern Cape"", ""share"": 0.994}]",NC Nothern Cape
+ZA,ZA-NL,code,area,0.974,1.004,0.985,"[{""ne_id"": ""1159309747"", ""name"": ""KwaZulu-Natal"", ""gb_code"": ""KZ"", ""gb_name"": ""KwaZulu-Natal"", ""share"": 0.989}]",KZ KwaZulu-Natal
+ZA,ZA-NW,code,area,0.982,0.998,0.99,"[{""ne_id"": ""1159309735"", ""name"": ""North West"", ""gb_code"": ""NW"", ""gb_name"": ""North West"", ""share"": 0.99}]",NW North West
+ZA,ZA-WC,code,area,0.972,0.998,0.985,"[{""ne_id"": ""1159309733"", ""name"": ""Western Cape"", ""gb_code"": ""WC"", ""gb_name"": ""Western Cape"", ""share"": 0.985}]",WC Western Cape
+ZW,ZW-BU,code;unidentified,area,0.736,1.193,0.779,"[{""ne_id"": ""1159307833"", ""name"": ""Bulawayo"", ""gb_code"": ""ZW10"", ""gb_name"": ""Bulawayo"", ""share"": 0.93}]",ZW10 Bulawayo
+ZW,ZW-HA,code,area,0.852,1.012,0.915,"[{""ne_id"": ""1159307819"", ""name"": ""Harare"", ""gb_code"": ""ZW19"", ""gb_name"": ""Harare"", ""share"": 0.926}]",ZW19 Harare
+ZW,ZW-MA,code,area,0.95,1.031,0.96,"[{""ne_id"": ""1159307827"", ""name"": ""Manicaland"", ""gb_code"": ""ZW11"", ""gb_name"": ""Manicaland"", ""share"": 0.99}]",ZW11 Manicaland
+ZW,ZW-MC,code,area,0.96,1.018,0.971,"[{""ne_id"": ""1159307817"", ""name"": ""Mashonaland Central"", ""gb_code"": ""ZW12"", ""gb_name"": ""Mashonaland Central"", ""share"": 0.988}]",ZW12 Mashonaland Central
+ZW,ZW-ME,code,area,0.952,0.986,0.969,"[{""ne_id"": ""1159307825"", ""name"": ""Mashonaland East"", ""gb_code"": ""ZW13"", ""gb_name"": ""Mashonaland East"", ""share"": 0.969}]",ZW13 Mashonaland East
+ZW,ZW-MI,code,area,0.972,1.008,0.982,"[{""ne_id"": ""1159307823"", ""name"": ""Midlands"", ""gb_code"": ""ZW17"", ""gb_name"": ""Midlands"", ""share"": 0.99}]",ZW17 Midlands
+ZW,ZW-MN,code,area,0.981,0.993,0.987,"[{""ne_id"": ""1159307821"", ""name"": ""Matabeleland North"", ""gb_code"": ""ZW15"", ""gb_name"": ""Matabeleland North"", ""share"": 0.973}]",ZW15 Matabeleland North
+ZW,ZW-MS,code,area,0.976,0.993,0.984,"[{""ne_id"": ""1159307831"", ""name"": ""Matabeleland South"", ""gb_code"": ""ZW16"", ""gb_name"": ""Matabeleland South"", ""share"": 0.984}]",ZW16 Matabeleland South
+ZW,ZW-MV,code,area,0.98,1.01,0.985,"[{""ne_id"": ""1159307835"", ""name"": ""Masvingo"", ""gb_code"": ""ZW18"", ""gb_name"": ""Masvingo"", ""share"": 0.995}]",ZW18 Masvingo
+ZW,ZW-MW,code,area,0.974,1.006,0.984,"[{""ne_id"": ""1159307837"", ""name"": ""Mashonaland West"", ""gb_code"": ""ZW14"", ""gb_name"": ""Mashonaland West"", ""share"": 0.964}]",ZW14 Mashonaland West

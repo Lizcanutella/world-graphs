@@ -1,0 +1,719 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SC",
+ "kind": "country",
+ "name": "Seychelles",
+ "level": "districts",
+ "n": 26,
+ "m": 41,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SC-01",
+   "name": "Anse aux Pins",
+   "wikidata": "Q569458",
+   "lon": 55.52123,
+   "lat": -4.68502
+  },
+  {
+   "code": "SC-02",
+   "name": "Anse Boileau",
+   "wikidata": "Q569453",
+   "lon": 55.4923,
+   "lat": -4.70968
+  },
+  {
+   "code": "SC-03",
+   "name": "Anse Etoile",
+   "wikidata": "Q387293",
+   "lon": 55.45098,
+   "lat": -4.59182
+  },
+  {
+   "code": "SC-04",
+   "name": "Au Cap",
+   "wikidata": "Q2667004",
+   "lon": 55.51425,
+   "lat": -4.71085
+  },
+  {
+   "code": "SC-05",
+   "name": "Anse Royale",
+   "wikidata": "Q3241674",
+   "lon": 55.51121,
+   "lat": -4.74683
+  },
+  {
+   "code": "SC-06",
+   "name": "Baie Lazare",
+   "wikidata": "Q2494551",
+   "lon": 55.48535,
+   "lat": -4.75104
+  },
+  {
+   "code": "SC-07",
+   "name": "Baie Sainte Anne",
+   "wikidata": "Q803716",
+   "lon": 55.73941,
+   "lat": -4.31979
+  },
+  {
+   "code": "SC-08",
+   "name": "Beau Vallon",
+   "wikidata": "Q7479348",
+   "lon": 55.42941,
+   "lat": -4.60649
+  },
+  {
+   "code": "SC-09",
+   "name": "Bel Air",
+   "wikidata": "Q815077",
+   "lon": 55.45187,
+   "lat": -4.64162
+  },
+  {
+   "code": "SC-10",
+   "name": "Bel Ombre",
+   "wikidata": "Q3245439",
+   "lon": 55.40471,
+   "lat": -4.62551
+  },
+  {
+   "code": "SC-11",
+   "name": "Cascade",
+   "wikidata": "Q1928685",
+   "lon": 55.49752,
+   "lat": -4.66421
+  },
+  {
+   "code": "SC-12",
+   "name": "Glacis",
+   "wikidata": "Q3241696",
+   "lon": 55.44831,
+   "lat": -4.5728
+  },
+  {
+   "code": "SC-13",
+   "name": "Grand'Anse",
+   "wikidata": "Q3241690",
+   "lon": 55.47308,
+   "lat": -4.68311
+  },
+  {
+   "code": "SC-14",
+   "name": "Grand'Anse Praslin",
+   "wikidata": "Q1231388",
+   "lon": 55.71783,
+   "lat": -4.32708
+  },
+  {
+   "code": "SC-15",
+   "name": "La Digue and Inner Islands",
+   "wikidata": "Q1094917",
+   "lon": 55.24422,
+   "lat": -4.47182
+  },
+  {
+   "code": "SC-16",
+   "name": "English River",
+   "wikidata": "Q1819963",
+   "lon": 55.45263,
+   "lat": -4.60967
+  },
+  {
+   "code": "SC-17",
+   "name": "Mont Buxton",
+   "wikidata": "Q3241682",
+   "lon": 55.44168,
+   "lat": -4.61066
+  },
+  {
+   "code": "SC-18",
+   "name": "Mont Fleuri",
+   "wikidata": "Q1945413",
+   "lon": 55.50452,
+   "lat": -4.60559
+  },
+  {
+   "code": "SC-19",
+   "name": "Plaisance",
+   "wikidata": "Q2199897",
+   "lon": 55.46802,
+   "lat": -4.65391
+  },
+  {
+   "code": "SC-20",
+   "name": "Pointe La Rue",
+   "wikidata": "Q2877260",
+   "lon": 55.51521,
+   "lat": -4.67269
+  },
+  {
+   "code": "SC-21",
+   "name": "Port Glaud",
+   "wikidata": "Q1808165",
+   "lon": 55.42329,
+   "lat": -4.65178
+  },
+  {
+   "code": "SC-22",
+   "name": "Saint Louis",
+   "wikidata": "Q2278695",
+   "lon": 55.43906,
+   "lat": -4.6223
+  },
+  {
+   "code": "SC-23",
+   "name": "Takamaka",
+   "wikidata": "Q2287379",
+   "lon": 55.51498,
+   "lat": -4.78676
+  },
+  {
+   "code": "SC-24",
+   "name": "Les Mamelles",
+   "wikidata": "Q2280357",
+   "lon": 55.48093,
+   "lat": -4.65676
+  },
+  {
+   "code": "SC-25",
+   "name": "Roche Caïman",
+   "wikidata": "Q2718315",
+   "lon": 55.48341,
+   "lat": -4.64949
+  },
+  {
+   "code": "SC-X02~",
+   "name": "Outer Islands",
+   "wikidata": null,
+   "lon": 46.3496,
+   "lat": -9.34161
+  }
+ ],
+ "edges": [
+  {
+   "u": "SC-01",
+   "v": "SC-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2638
+  },
+  {
+   "u": "SC-01",
+   "v": "SC-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 471
+  },
+  {
+   "u": "SC-01",
+   "v": "SC-20",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2489
+  },
+  {
+   "u": "SC-02",
+   "v": "SC-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4550
+  },
+  {
+   "u": "SC-02",
+   "v": "SC-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2154
+  },
+  {
+   "u": "SC-02",
+   "v": "SC-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1523
+  },
+  {
+   "u": "SC-02",
+   "v": "SC-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 588
+  },
+  {
+   "u": "SC-02",
+   "v": "SC-13",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3852
+  },
+  {
+   "u": "SC-03",
+   "v": "SC-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1964
+  },
+  {
+   "u": "SC-03",
+   "v": "SC-12",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3711
+  },
+  {
+   "u": "SC-03",
+   "v": "SC-16",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2329
+  },
+  {
+   "u": "SC-04",
+   "v": "SC-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3040
+  },
+  {
+   "u": "SC-04",
+   "v": "SC-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 444
+  },
+  {
+   "u": "SC-05",
+   "v": "SC-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3661
+  },
+  {
+   "u": "SC-05",
+   "v": "SC-23",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1789
+  },
+  {
+   "u": "SC-06",
+   "v": "SC-23",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2559
+  },
+  {
+   "u": "SC-07",
+   "v": "SC-14",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11413
+  },
+  {
+   "u": "SC-08",
+   "v": "SC-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2855
+  },
+  {
+   "u": "SC-08",
+   "v": "SC-12",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 894
+  },
+  {
+   "u": "SC-08",
+   "v": "SC-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1476
+  },
+  {
+   "u": "SC-08",
+   "v": "SC-22",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1245
+  },
+  {
+   "u": "SC-09",
+   "v": "SC-16",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1311
+  },
+  {
+   "u": "SC-09",
+   "v": "SC-18",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3059
+  },
+  {
+   "u": "SC-09",
+   "v": "SC-19",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1304
+  },
+  {
+   "u": "SC-09",
+   "v": "SC-21",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4332
+  },
+  {
+   "u": "SC-09",
+   "v": "SC-22",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1732
+  },
+  {
+   "u": "SC-10",
+   "v": "SC-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7300
+  },
+  {
+   "u": "SC-11",
+   "v": "SC-13",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2209
+  },
+  {
+   "u": "SC-11",
+   "v": "SC-20",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1480
+  },
+  {
+   "u": "SC-11",
+   "v": "SC-24",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 855
+  },
+  {
+   "u": "SC-11",
+   "v": "SC-25",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 834
+  },
+  {
+   "u": "SC-13",
+   "v": "SC-19",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3608
+  },
+  {
+   "u": "SC-13",
+   "v": "SC-21",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3421
+  },
+  {
+   "u": "SC-13",
+   "v": "SC-24",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 663
+  },
+  {
+   "u": "SC-16",
+   "v": "SC-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2159
+  },
+  {
+   "u": "SC-17",
+   "v": "SC-22",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1161
+  },
+  {
+   "u": "SC-18",
+   "v": "SC-19",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1577
+  },
+  {
+   "u": "SC-19",
+   "v": "SC-24",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2084
+  },
+  {
+   "u": "SC-19",
+   "v": "SC-25",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 844,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Roche_Caiman"
+    }
+   ]
+  },
+  {
+   "u": "SC-21",
+   "v": "SC-22",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 826
+  },
+  {
+   "u": "SC-24",
+   "v": "SC-25",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2014,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Roche_Caiman"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "SYC-ADM1-4304713",
+  "level": "ADM1",
+  "year": "2018",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 Unported"
+ }
+}

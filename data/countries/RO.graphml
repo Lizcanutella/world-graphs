@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="RO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="RO-AB"><data key="name">Alba</data><data key="code">RO-AB</data><data key="wikidata">Q45868</data><data key="lon">23.53103</data><data key="lat">46.00697</data></node>
+    <node id="RO-AG"><data key="name">Arges</data><data key="code">RO-AG</data><data key="wikidata">Q179567</data><data key="lon">24.85914</data><data key="lat">44.98948</data></node>
+    <node id="RO-AR"><data key="name">Arad</data><data key="code">RO-AR</data><data key="wikidata">Q179559</data><data key="lon">21.88523</data><data key="lat">46.27503</data></node>
+    <node id="RO-B"><data key="name">Bucharest</data><data key="code">RO-B</data><data key="wikidata">Q19660</data><data key="lon">26.0824</data><data key="lat">44.44754</data></node>
+    <node id="RO-BC"><data key="name">Bacau</data><data key="code">RO-BC</data><data key="wikidata">Q179779</data><data key="lon">26.75224</data><data key="lat">46.40798</data></node>
+    <node id="RO-BH"><data key="name">Bihor</data><data key="code">RO-BH</data><data key="wikidata">Q179588</data><data key="lon">22.18942</data><data key="lat">46.98587</data></node>
+    <node id="RO-BN"><data key="name">Bistrita-Nasaud</data><data key="code">RO-BN</data><data key="wikidata">Q181513</data><data key="lon">24.50853</data><data key="lat">47.16166</data></node>
+    <node id="RO-BR"><data key="name">Braila</data><data key="code">RO-BR</data><data key="wikidata">Q188503</data><data key="lon">27.67451</data><data key="lat">45.1238</data></node>
+    <node id="RO-BT"><data key="name">Botosani</data><data key="code">RO-BT</data><data key="wikidata">Q178861</data><data key="lon">26.72468</data><data key="lat">47.85103</data></node>
+    <node id="RO-BV"><data key="name">Brasov</data><data key="code">RO-BV</data><data key="wikidata">Q182614</data><data key="lon">25.16043</data><data key="lat">45.78093</data></node>
+    <node id="RO-BZ"><data key="name">Buzau</data><data key="code">RO-BZ</data><data key="wikidata">Q185309</data><data key="lon">26.76161</data><data key="lat">45.27964</data></node>
+    <node id="RO-CJ"><data key="name">Cluj</data><data key="code">RO-CJ</data><data key="wikidata">Q182624</data><data key="lon">23.49628</data><data key="lat">46.86745</data></node>
+    <node id="RO-CL"><data key="name">Calarasi</data><data key="code">RO-CL</data><data key="wikidata">Q188948</data><data key="lon">27.14427</data><data key="lat">44.31294</data></node>
+    <node id="RO-CS"><data key="name">Caras-Severin</data><data key="code">RO-CS</data><data key="wikidata">Q187925</data><data key="lon">22.06335</data><data key="lat">45.12859</data></node>
+    <node id="RO-CT"><data key="name">Constanta</data><data key="code">RO-CT</data><data key="wikidata">Q188505</data><data key="lon">28.26179</data><data key="lat">44.25819</data></node>
+    <node id="RO-CV"><data key="name">Covasna</data><data key="code">RO-CV</data><data key="wikidata">Q188959</data><data key="lon">25.98091</data><data key="lat">45.92622</data></node>
+    <node id="RO-DB"><data key="name">Dâmbovita</data><data key="code">RO-DB</data><data key="wikidata">Q188797</data><data key="lon">25.49617</data><data key="lat">44.94085</data></node>
+    <node id="RO-DJ"><data key="name">Dolj</data><data key="code">RO-DJ</data><data key="wikidata">Q191065</data><data key="lon">23.67073</data><data key="lat">44.24329</data></node>
+    <node id="RO-GJ"><data key="name">Gorj</data><data key="code">RO-GJ</data><data key="wikidata">Q190406</data><data key="lon">23.3498</data><data key="lat">44.95177</data></node>
+    <node id="RO-GL"><data key="name">Galati</data><data key="code">RO-GL</data><data key="wikidata">Q188796</data><data key="lon">27.7596</data><data key="lat">45.75834</data></node>
+    <node id="RO-GR"><data key="name">Giurgiu</data><data key="code">RO-GR</data><data key="wikidata">Q193055</data><data key="lon">26.06432</data><data key="lat">44.14002</data></node>
+    <node id="RO-HD"><data key="name">Hunedoara</data><data key="code">RO-HD</data><data key="wikidata">Q191071</data><data key="lon">22.91347</data><data key="lat">45.79302</data></node>
+    <node id="RO-HR"><data key="name">Harghita</data><data key="code">RO-HR</data><data key="wikidata">Q190702</data><data key="lon">25.61525</data><data key="lat">46.62542</data></node>
+    <node id="RO-IF"><data key="name">Ilfov</data><data key="code">RO-IF</data><data key="wikidata">Q191670</data><data key="lon">26.29952</data><data key="lat">44.5132</data></node>
+    <node id="RO-IL"><data key="name">Ialomita</data><data key="code">RO-IL</data><data key="wikidata">Q193044</data><data key="lon">27.22098</data><data key="lat">44.61278</data></node>
+    <node id="RO-IS"><data key="name">Iasi</data><data key="code">RO-IS</data><data key="wikidata">Q182888</data><data key="lon">27.18132</data><data key="lat">47.19062</data></node>
+    <node id="RO-MH"><data key="name">Mehedinti</data><data key="code">RO-MH</data><data key="wikidata">Q191717</data><data key="lon">23.09765</data><data key="lat">44.59636</data></node>
+    <node id="RO-MM"><data key="name">Maramures</data><data key="code">RO-MM</data><data key="wikidata">Q188813</data><data key="lon">24.17352</data><data key="lat">47.65854</data></node>
+    <node id="RO-MS"><data key="name">Mures</data><data key="code">RO-MS</data><data key="wikidata">Q190711</data><data key="lon">24.60175</data><data key="lat">46.58313</data></node>
+    <node id="RO-NT"><data key="name">Neamt</data><data key="code">RO-NT</data><data key="wikidata">Q188661</data><data key="lon">26.47784</data><data key="lat">46.95908</data></node>
+    <node id="RO-OT"><data key="name">Olt</data><data key="code">RO-OT</data><data key="wikidata">Q188945</data><data key="lon">24.46051</data><data key="lat">44.33554</data></node>
+    <node id="RO-PH"><data key="name">Prahova</data><data key="code">RO-PH</data><data key="wikidata">Q188665</data><data key="lon">26.03909</data><data key="lat">45.1227</data></node>
+    <node id="RO-SB"><data key="name">Sibiu</data><data key="code">RO-SB</data><data key="wikidata">Q184797</data><data key="lon">24.24955</data><data key="lat">45.85911</data></node>
+    <node id="RO-SJ"><data key="name">Salaj</data><data key="code">RO-SJ</data><data key="wikidata">Q190690</data><data key="lon">23.04378</data><data key="lat">47.1442</data></node>
+    <node id="RO-SM"><data key="name">Satu Mare</data><data key="code">RO-SM</data><data key="wikidata">Q165459</data><data key="lon">22.75177</data><data key="lat">47.70435</data></node>
+    <node id="RO-SV"><data key="name">Suceava</data><data key="code">RO-SV</data><data key="wikidata">Q181209</data><data key="lon">25.815</data><data key="lat">47.51211</data></node>
+    <node id="RO-TL"><data key="name">Tulcea</data><data key="code">RO-TL</data><data key="wikidata">Q191078</data><data key="lon">28.89741</data><data key="lat">45.07275</data></node>
+    <node id="RO-TM"><data key="name">Timis</data><data key="code">RO-TM</data><data key="wikidata">Q185586</data><data key="lon">21.61403</data><data key="lat">45.66424</data></node>
+    <node id="RO-TR"><data key="name">Teleorman</data><data key="code">RO-TR</data><data key="wikidata">Q191653</data><data key="lon">25.20976</data><data key="lat">44.08976</data></node>
+    <node id="RO-VL"><data key="name">Vâlcea</data><data key="code">RO-VL</data><data key="wikidata">Q186838</data><data key="lon">24.15347</data><data key="lat">45.02242</data></node>
+    <node id="RO-VN"><data key="name">Vrancea</data><data key="code">RO-VN</data><data key="wikidata">Q182778</data><data key="lon">26.87478</data><data key="lat">45.78806</data></node>
+    <node id="RO-VS"><data key="name">Vaslui</data><data key="code">RO-VS</data><data key="wikidata">Q167199</data><data key="lon">27.82319</data><data key="lat">46.48692</data></node>
+    <edge source="RO-AB" target="RO-AR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AB" target="RO-BH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AB" target="RO-CJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AB" target="RO-HD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AB" target="RO-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AB" target="RO-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AB" target="RO-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AG" target="RO-BV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AG" target="RO-DB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AG" target="RO-OT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AG" target="RO-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AG" target="RO-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AG" target="RO-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AR" target="RO-BH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AR" target="RO-HD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-AR" target="RO-TM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-B" target="RO-IF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BC" target="RO-CV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BC" target="RO-HR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BC" target="RO-NT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BC" target="RO-VN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BC" target="RO-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BH" target="RO-CJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BH" target="RO-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BH" target="RO-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BN" target="RO-CJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BN" target="RO-MM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BN" target="RO-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BN" target="RO-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BR" target="RO-BZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BR" target="RO-CT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BR" target="RO-GL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BR" target="RO-IL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BR" target="RO-TL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BR" target="RO-VN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BT" target="RO-IS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BT" target="RO-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BV" target="RO-BZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BV" target="RO-CV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BV" target="RO-DB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BV" target="RO-HR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BV" target="RO-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BV" target="RO-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BV" target="RO-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BZ" target="RO-CV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BZ" target="RO-IL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BZ" target="RO-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-BZ" target="RO-VN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CJ" target="RO-MM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CJ" target="RO-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CJ" target="RO-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CL" target="RO-CT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CL" target="RO-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CL" target="RO-IF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CL" target="RO-IL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CS" target="RO-GJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CS" target="RO-HD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CS" target="RO-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CS" target="RO-TM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CT" target="RO-IL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CT" target="RO-TL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CV" target="RO-HR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-CV" target="RO-VN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DB" target="RO-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DB" target="RO-IF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DB" target="RO-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DB" target="RO-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DJ" target="RO-GJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DJ" target="RO-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DJ" target="RO-OT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-DJ" target="RO-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GJ" target="RO-HD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GJ" target="RO-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GJ" target="RO-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GL" target="RO-TL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GL" target="RO-VN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GL" target="RO-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GR" target="RO-IF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-GR" target="RO-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-HD" target="RO-TM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-HD" target="RO-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-HR" target="RO-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-HR" target="RO-NT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-HR" target="RO-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-IF" target="RO-IL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-IF" target="RO-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-IL" target="RO-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-IS" target="RO-NT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-IS" target="RO-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-IS" target="RO-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-MM" target="RO-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-MM" target="RO-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-MM" target="RO-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-MS" target="RO-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-MS" target="RO-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-NT" target="RO-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-NT" target="RO-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-OT" target="RO-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-OT" target="RO-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-SB" target="RO-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-SJ" target="RO-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RO-VN" target="RO-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

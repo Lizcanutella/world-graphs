@@ -1,0 +1,583 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MU",
+ "kind": "country",
+ "name": "Mauritius",
+ "level": "districts",
+ "n": 16,
+ "m": 30,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MU-AG",
+   "name": "Agaléga",
+   "wikidata": "Q196042",
+   "lon": 56.54778,
+   "lat": -10.36749
+  },
+  {
+   "code": "MU-BL",
+   "name": "Rivière Noire",
+   "wikidata": "Q873740",
+   "lon": 57.41803,
+   "lat": -20.33377
+  },
+  {
+   "code": "MU-BR",
+   "name": "Beau Bassin-Rose Hill",
+   "wikidata": "Q813337",
+   "lon": 57.47289,
+   "lat": -20.23123
+  },
+  {
+   "code": "MU-CU",
+   "name": "Curepipe",
+   "wikidata": "Q1002525",
+   "lon": 57.52072,
+   "lat": -20.31838
+  },
+  {
+   "code": "MU-FL",
+   "name": "Flacq",
+   "wikidata": "Q911651",
+   "lon": 57.72425,
+   "lat": -20.21713
+  },
+  {
+   "code": "MU-GP",
+   "name": "Grand Port",
+   "wikidata": "Q911635",
+   "lon": 57.63442,
+   "lat": -20.39444
+  },
+  {
+   "code": "MU-MO",
+   "name": "Moka",
+   "wikidata": "Q911643",
+   "lon": 57.59061,
+   "lat": -20.26396
+  },
+  {
+   "code": "MU-PA",
+   "name": "Pamplemousses",
+   "wikidata": "Q934126",
+   "lon": 57.56368,
+   "lat": -20.09631
+  },
+  {
+   "code": "MU-PL",
+   "name": "Port Louis",
+   "wikidata": "Q960645",
+   "lon": 57.53018,
+   "lat": -20.16157
+  },
+  {
+   "code": "MU-PL:Port Louis city",
+   "name": "Port Louis city",
+   "wikidata": "Q3929",
+   "lon": 57.50401,
+   "lat": -20.14472
+  },
+  {
+   "code": "MU-PW",
+   "name": "Plaines Wilhems",
+   "wikidata": "Q1053595",
+   "lon": 57.55529,
+   "lat": -20.30585
+  },
+  {
+   "code": "MU-QB",
+   "name": "Quatre Bornes",
+   "wikidata": "Q1341194",
+   "lon": 57.48141,
+   "lat": -20.26635
+  },
+  {
+   "code": "MU-RO",
+   "name": "Rodrigues",
+   "wikidata": "Q208668",
+   "lon": 63.4033,
+   "lat": -19.72039
+  },
+  {
+   "code": "MU-RR",
+   "name": "Rivière du Rempart",
+   "wikidata": "Q1053565",
+   "lon": 57.65938,
+   "lat": -20.07122
+  },
+  {
+   "code": "MU-SA",
+   "name": "Savanne",
+   "wikidata": "Q1053600",
+   "lon": 57.50791,
+   "lat": -20.45565
+  },
+  {
+   "code": "MU-VP",
+   "name": "Vacoas-Phoenix",
+   "wikidata": "Q676724",
+   "lon": 57.49062,
+   "lat": -20.30066
+  }
+ ],
+ "edges": [
+  {
+   "u": "MU-BL",
+   "v": "MU-BR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4126
+  },
+  {
+   "u": "MU-BL",
+   "v": "MU-PL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2421
+  },
+  {
+   "u": "MU-BL",
+   "v": "MU-PL:Port Louis city",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 681
+  },
+  {
+   "u": "MU-BL",
+   "v": "MU-PW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19115
+  },
+  {
+   "u": "MU-BL",
+   "v": "MU-QB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3859
+  },
+  {
+   "u": "MU-BL",
+   "v": "MU-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16662
+  },
+  {
+   "u": "MU-BL",
+   "v": "MU-VP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4582
+  },
+  {
+   "u": "MU-BR",
+   "v": "MU-PW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5910
+  },
+  {
+   "u": "MU-BR",
+   "v": "MU-QB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4040
+  },
+  {
+   "u": "MU-CU",
+   "v": "MU-PW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13661
+  },
+  {
+   "u": "MU-CU",
+   "v": "MU-VP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5541
+  },
+  {
+   "u": "MU-FL",
+   "v": "MU-GP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12314
+  },
+  {
+   "u": "MU-FL",
+   "v": "MU-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23038
+  },
+  {
+   "u": "MU-FL",
+   "v": "MU-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4318
+  },
+  {
+   "u": "MU-FL",
+   "v": "MU-RR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12600
+  },
+  {
+   "u": "MU-GP",
+   "v": "MU-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7684
+  },
+  {
+   "u": "MU-GP",
+   "v": "MU-PW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8613
+  },
+  {
+   "u": "MU-GP",
+   "v": "MU-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15664
+  },
+  {
+   "u": "MU-MO",
+   "v": "MU-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7064
+  },
+  {
+   "u": "MU-MO",
+   "v": "MU-PL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6856
+  },
+  {
+   "u": "MU-MO",
+   "v": "MU-PW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22491
+  },
+  {
+   "u": "MU-PA",
+   "v": "MU-PL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13377
+  },
+  {
+   "u": "MU-PA",
+   "v": "MU-PL:Port Louis city",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 575
+  },
+  {
+   "u": "MU-PA",
+   "v": "MU-RR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20510
+  },
+  {
+   "u": "MU-PL",
+   "v": "MU-PL:Port Louis city",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12516,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Port_Louis"
+    }
+   ]
+  },
+  {
+   "u": "MU-PL",
+   "v": "MU-PW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1589
+  },
+  {
+   "u": "MU-PW",
+   "v": "MU-QB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3553
+  },
+  {
+   "u": "MU-PW",
+   "v": "MU-SA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8911
+  },
+  {
+   "u": "MU-PW",
+   "v": "MU-VP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4335
+  },
+  {
+   "u": "MU-QB",
+   "v": "MU-VP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5654
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MUS-ADM1-65221844",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

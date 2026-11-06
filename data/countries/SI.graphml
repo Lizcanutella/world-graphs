@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SI-001"><data key="name">Ajdovščina</data><data key="code">SI-001</data><data key="wikidata">Q331701</data><data key="lon">13.87383</data><data key="lat">45.91346</data></node>
+    <node id="SI-002"><data key="name">Beltinci</data><data key="code">SI-002</data><data key="wikidata">Q778542</data><data key="lon">16.23608</data><data key="lat">46.60217</data></node>
+    <node id="SI-003"><data key="name">Bled</data><data key="code">SI-003</data><data key="wikidata">Q647572</data><data key="lon">14.00634</data><data key="lat">46.36938</data></node>
+    <node id="SI-004"><data key="name">Bohinj</data><data key="code">SI-004</data><data key="wikidata">Q3661628</data><data key="lon">13.91214</data><data key="lat">46.30584</data></node>
+    <node id="SI-005"><data key="name">Borovnica</data><data key="code">SI-005</data><data key="wikidata">Q13377747</data><data key="lon">14.37793</data><data key="lat">45.91616</data></node>
+    <node id="SI-006"><data key="name">Bovec</data><data key="code">SI-006</data><data key="wikidata">Q3259688</data><data key="lon">13.65538</data><data key="lat">46.37012</data></node>
+    <node id="SI-007"><data key="name">Brda</data><data key="code">SI-007</data><data key="wikidata">Q763400</data><data key="lon">13.54002</data><data key="lat">46.022</data></node>
+    <node id="SI-008"><data key="name">Brezovica</data><data key="code">SI-008</data><data key="wikidata">Q849320</data><data key="lon">14.41515</data><data key="lat">45.95006</data></node>
+    <node id="SI-009"><data key="name">Brežice</data><data key="code">SI-009</data><data key="wikidata">Q906879</data><data key="lon">15.62359</data><data key="lat">45.93151</data></node>
+    <node id="SI-011"><data key="name">Celje</data><data key="code">SI-011</data><data key="wikidata">Q3441823</data><data key="lon">15.28857</data><data key="lat">46.25352</data></node>
+    <node id="SI-012"><data key="name">Cerklje na Gorenjskem</data><data key="code">SI-012</data><data key="wikidata">Q859679</data><data key="lon">14.50579</data><data key="lat">46.25636</data></node>
+    <node id="SI-013"><data key="name">Cerknica</data><data key="code">SI-013</data><data key="wikidata">Q13107298</data><data key="lon">14.35064</data><data key="lat">45.79812</data></node>
+    <node id="SI-014"><data key="name">Cerkno</data><data key="code">SI-014</data><data key="wikidata">Q13220435</data><data key="lon">13.9694</data><data key="lat">46.12969</data></node>
+    <node id="SI-015"><data key="name">Črenšovci</data><data key="code">SI-015</data><data key="wikidata">Q341658</data><data key="lon">16.30002</data><data key="lat">46.56649</data></node>
+    <node id="SI-016"><data key="name">Črna na Koroškem</data><data key="code">SI-016</data><data key="wikidata">Q279072</data><data key="lon">14.82096</data><data key="lat">46.46554</data></node>
+    <node id="SI-017"><data key="name">Crnomelj</data><data key="code">SI-017</data><data key="wikidata">Q3482211</data><data key="lon">15.18415</data><data key="lat">45.52159</data></node>
+    <node id="SI-018"><data key="name">Destrnik</data><data key="code">SI-018</data><data key="wikidata">Q570618</data><data key="lon">15.8932</data><data key="lat">46.47574</data></node>
+    <node id="SI-019"><data key="name">Divaca</data><data key="code">SI-019</data><data key="wikidata">Q557216</data><data key="lon">14.00595</data><data key="lat">45.68308</data></node>
+    <node id="SI-020"><data key="name">Dobrepolje</data><data key="code">SI-020</data><data key="wikidata">Q1009409</data><data key="lon">14.73477</data><data key="lat">45.81656</data></node>
+    <node id="SI-021"><data key="name">Dobrova-Polhov Gradec</data><data key="code">SI-021</data><data key="wikidata">Q1005208</data><data key="lon">14.32088</data><data key="lat">46.06037</data></node>
+    <node id="SI-022"><data key="name">Dol pri Ljubljani</data><data key="code">SI-022</data><data key="wikidata">Q998557</data><data key="lon">14.67914</data><data key="lat">46.0975</data></node>
+    <node id="SI-023"><data key="name">Domžale</data><data key="code">SI-023</data><data key="wikidata">Q13377763</data><data key="lon">14.6305</data><data key="lat">46.15159</data></node>
+    <node id="SI-024"><data key="name">Dornava</data><data key="code">SI-024</data><data key="wikidata">Q1003969</data><data key="lon">16.01501</data><data key="lat">46.45481</data></node>
+    <node id="SI-025"><data key="name">Dravograd</data><data key="code">SI-025</data><data key="wikidata">Q3503123</data><data key="lon">15.03856</data><data key="lat">46.59327</data></node>
+    <node id="SI-026"><data key="name">Duplek</data><data key="code">SI-026</data><data key="wikidata">Q999589</data><data key="lon">15.77026</data><data key="lat">46.50746</data></node>
+    <node id="SI-027"><data key="name">Gorenja vas-Poljane</data><data key="code">SI-027</data><data key="wikidata">Q1005224</data><data key="lon">14.11613</data><data key="lat">46.1068</data></node>
+    <node id="SI-028"><data key="name">Gorišnica</data><data key="code">SI-028</data><data key="wikidata">Q632998</data><data key="lon">16.00632</data><data key="lat">46.36317</data></node>
+    <node id="SI-029"><data key="name">Gornja Radgona</data><data key="code">SI-029</data><data key="wikidata">Q570397</data><data key="lon">15.97039</data><data key="lat">46.64033</data></node>
+    <node id="SI-030"><data key="name">Gornji Grad</data><data key="code">SI-030</data><data key="wikidata">Q726548</data><data key="lon">14.79421</data><data key="lat">46.29462</data></node>
+    <node id="SI-031"><data key="name">Gornji Petrovci</data><data key="code">SI-031</data><data key="wikidata">Q3435689</data><data key="lon">16.2231</data><data key="lat">46.79977</data></node>
+    <node id="SI-032"><data key="name">Grosuplje</data><data key="code">SI-032</data><data key="wikidata">Q13377778</data><data key="lon">14.66317</data><data key="lat">45.94289</data></node>
+    <node id="SI-033"><data key="name">Šalovci</data><data key="code">SI-033</data><data key="wikidata">Q13378373</data><data key="lon">16.27897</data><data key="lat">46.82013</data></node>
+    <node id="SI-034"><data key="name">Hrastnik</data><data key="code">SI-034</data><data key="wikidata">Q13377780</data><data key="lon">15.1217</data><data key="lat">46.13287</data></node>
+    <node id="SI-035"><data key="name">Hrpelje-Kozina</data><data key="code">SI-035</data><data key="wikidata">Q556206</data><data key="lon">14.00322</data><data key="lat">45.5559</data></node>
+    <node id="SI-036"><data key="name">Idrija</data><data key="code">SI-036</data><data key="wikidata">Q3441842</data><data key="lon">13.99801</data><data key="lat">45.98243</data></node>
+    <node id="SI-037"><data key="name">Ig</data><data key="code">SI-037</data><data key="wikidata">Q917397</data><data key="lon">14.50992</data><data key="lat">45.92912</data></node>
+    <node id="SI-038"><data key="name">Ilirska Bistrica</data><data key="code">SI-038</data><data key="wikidata">Q13377784</data><data key="lon">14.29013</data><data key="lat">45.57244</data></node>
+    <node id="SI-039"><data key="name">Ivancna Gorica</data><data key="code">SI-039</data><data key="wikidata">Q1008048</data><data key="lon">14.81175</data><data key="lat">45.90098</data></node>
+    <node id="SI-040"><data key="name">Izola</data><data key="code">SI-040</data><data key="wikidata">Q15877</data><data key="lon">13.64546</data><data key="lat">45.51815</data></node>
+    <node id="SI-041"><data key="name">Jesenice</data><data key="code">SI-041</data><data key="wikidata">Q15881</data><data key="lon">14.06539</data><data key="lat">46.44363</data></node>
+    <node id="SI-042"><data key="name">Juršinci</data><data key="code">SI-042</data><data key="wikidata">Q1003984</data><data key="lon">15.98081</data><data key="lat">46.48384</data></node>
+    <node id="SI-043"><data key="name">Kamnik</data><data key="code">SI-043</data><data key="wikidata">Q3503153</data><data key="lon">14.62875</data><data key="lat">46.28252</data></node>
+    <node id="SI-044"><data key="name">Kanal</data><data key="code">SI-044</data><data key="wikidata">Q1012996</data><data key="lon">13.66076</data><data key="lat">46.09175</data></node>
+    <node id="SI-045"><data key="name">Kidricevo</data><data key="code">SI-045</data><data key="wikidata">Q776770</data><data key="lon">15.7581</data><data key="lat">46.39513</data></node>
+    <node id="SI-046"><data key="name">Kobarid</data><data key="code">SI-046</data><data key="wikidata">Q688287</data><data key="lon">13.53909</data><data key="lat">46.24692</data></node>
+    <node id="SI-047"><data key="name">Kobilje</data><data key="code">SI-047</data><data key="wikidata">Q927718</data><data key="lon">16.38363</data><data key="lat">46.67977</data></node>
+    <node id="SI-048"><data key="name">Kocevje</data><data key="code">SI-048</data><data key="wikidata">Q15884</data><data key="lon">14.88177</data><data key="lat">45.61747</data></node>
+    <node id="SI-049"><data key="name">Komen</data><data key="code">SI-049</data><data key="wikidata">Q556210</data><data key="lon">13.73797</data><data key="lat">45.81463</data></node>
+    <node id="SI-05"><data key="name">Zasavska</data><data key="code">SI-05</data><data key="wikidata">Q13378328</data><data key="lon">14.92664</data><data key="lat">46.15244</data></node>
+    <node id="SI-050"><data key="name">Koper</data><data key="code">SI-050</data><data key="wikidata">Q556203</data><data key="lon">13.81878</data><data key="lat">45.51315</data></node>
+    <node id="SI-051"><data key="name">Kozje</data><data key="code">SI-051</data><data key="wikidata">Q1009421</data><data key="lon">15.55844</data><data key="lat">46.06287</data></node>
+    <node id="SI-052"><data key="name">Kranj</data><data key="code">SI-052</data><data key="wikidata">Q1021</data><data key="lon">14.26495</data><data key="lat">46.25612</data></node>
+    <node id="SI-053"><data key="name">Kranjska Gora</data><data key="code">SI-053</data><data key="wikidata">Q507051</data><data key="lon">13.84277</data><data key="lat">46.44887</data></node>
+    <node id="SI-054"><data key="name">Krško</data><data key="code">SI-054</data><data key="wikidata">Q3484655</data><data key="lon">15.4629</data><data key="lat">45.92322</data></node>
+    <node id="SI-054:Krsko"><data key="name">Krsko</data><data key="code">SI-054:Krsko</data><data key="wikidata"></data><data key="lon">15.57965</data><data key="lat">46.01087</data></node>
+    <node id="SI-055"><data key="name">Kungota</data><data key="code">SI-055</data><data key="wikidata">Q998566</data><data key="lon">15.60145</data><data key="lat">46.63333</data></node>
+    <node id="SI-056"><data key="name">Kuzma</data><data key="code">SI-056</data><data key="wikidata">Q906636</data><data key="lon">16.08889</data><data key="lat">46.83819</data></node>
+    <node id="SI-057"><data key="name">Laško</data><data key="code">SI-057</data><data key="wikidata">Q15887</data><data key="lon">15.28044</data><data key="lat">46.12266</data></node>
+    <node id="SI-058"><data key="name">Lenart</data><data key="code">SI-058</data><data key="wikidata">Q13365883</data><data key="lon">15.84057</data><data key="lat">46.57106</data></node>
+    <node id="SI-059"><data key="name">Lendava</data><data key="code">SI-059</data><data key="wikidata">Q587328</data><data key="lon">16.42095</data><data key="lat">46.56737</data></node>
+    <node id="SI-060"><data key="name">Litija</data><data key="code">SI-060</data><data key="wikidata">Q15891</data><data key="lon">14.98494</data><data key="lat">46.05099</data></node>
+    <node id="SI-061"><data key="name">Ljubljana</data><data key="code">SI-061</data><data key="wikidata">Q3434113</data><data key="lon">14.58457</data><data key="lat">46.05939</data></node>
+    <node id="SI-062"><data key="name">Ljubno</data><data key="code">SI-062</data><data key="wikidata">Q773659</data><data key="lon">14.84402</data><data key="lat">46.37048</data></node>
+    <node id="SI-063"><data key="name">Ljutomer</data><data key="code">SI-063</data><data key="wikidata">Q15892</data><data key="lon">16.21948</data><data key="lat">46.5287</data></node>
+    <node id="SI-064"><data key="name">Logatec</data><data key="code">SI-064</data><data key="wikidata">Q15893</data><data key="lon">14.17607</data><data key="lat">45.94207</data></node>
+    <node id="SI-065"><data key="name">Loška dolina</data><data key="code">SI-065</data><data key="wikidata">Q999525</data><data key="lon">14.4952</data><data key="lat">45.66347</data></node>
+    <node id="SI-066"><data key="name">Loški Potok</data><data key="code">SI-066</data><data key="wikidata">Q999553</data><data key="lon">14.66407</data><data key="lat">45.65385</data></node>
+    <node id="SI-067"><data key="name">Luce</data><data key="code">SI-067</data><data key="wikidata">Q669648</data><data key="lon">14.71531</data><data key="lat">46.35155</data></node>
+    <node id="SI-068"><data key="name">Lukovica</data><data key="code">SI-068</data><data key="wikidata">Q946766</data><data key="lon">14.75417</data><data key="lat">46.1746</data></node>
+    <node id="SI-069"><data key="name">Majšperk</data><data key="code">SI-069</data><data key="wikidata">Q1002371</data><data key="lon">15.75777</data><data key="lat">46.31596</data></node>
+    <node id="SI-070"><data key="name">Maribor</data><data key="code">SI-070</data><data key="wikidata">Q3435104</data><data key="lon">15.6275</data><data key="lat">46.57599</data></node>
+    <node id="SI-071"><data key="name">Medvode</data><data key="code">SI-071</data><data key="wikidata">Q15894</data><data key="lon">14.40548</data><data key="lat">46.13903</data></node>
+    <node id="SI-072"><data key="name">Mengeš</data><data key="code">SI-072</data><data key="wikidata">Q15895</data><data key="lon">14.56149</data><data key="lat">46.16776</data></node>
+    <node id="SI-073"><data key="name">Metlika</data><data key="code">SI-073</data><data key="wikidata">Q3441856</data><data key="lon">15.32745</data><data key="lat">45.64187</data></node>
+    <node id="SI-074"><data key="name">Mežica</data><data key="code">SI-074</data><data key="wikidata">Q678147</data><data key="lon">14.8442</data><data key="lat">46.52713</data></node>
+    <node id="SI-075"><data key="name">Miren-Kostanjevica</data><data key="code">SI-075</data><data key="wikidata">Q658076</data><data key="lon">13.63341</data><data key="lat">45.86652</data></node>
+    <node id="SI-076"><data key="name">Mislinja</data><data key="code">SI-076</data><data key="wikidata">Q1917707</data><data key="lon">15.21843</data><data key="lat">46.44822</data></node>
+    <node id="SI-077"><data key="name">Moravce</data><data key="code">SI-077</data><data key="wikidata">Q1012761</data><data key="lon">14.75346</data><data key="lat">46.13486</data></node>
+    <node id="SI-078"><data key="name">Moravske Toplice</data><data key="code">SI-078</data><data key="wikidata">Q3494723</data><data key="lon">16.26743</data><data key="lat">46.70659</data></node>
+    <node id="SI-079"><data key="name">Mozirje</data><data key="code">SI-079</data><data key="wikidata">Q670975</data><data key="lon">14.94082</data><data key="lat">46.35123</data></node>
+    <node id="SI-080"><data key="name">Murska Sobota</data><data key="code">SI-080</data><data key="wikidata">Q9273677</data><data key="lon">16.17812</data><data key="lat">46.65217</data></node>
+    <node id="SI-081"><data key="name">Muta</data><data key="code">SI-081</data><data key="wikidata">Q6309297</data><data key="lon">15.13996</data><data key="lat">46.62248</data></node>
+    <node id="SI-082"><data key="name">Naklo</data><data key="code">SI-082</data><data key="wikidata">Q1569014</data><data key="lon">14.29172</data><data key="lat">46.29081</data></node>
+    <node id="SI-083"><data key="name">Nazarje</data><data key="code">SI-083</data><data key="wikidata">Q954987</data><data key="lon">14.90903</data><data key="lat">46.28258</data></node>
+    <node id="SI-084"><data key="name">Nova Goriška</data><data key="code">SI-084</data><data key="wikidata">Q3435478</data><data key="lon">13.72102</data><data key="lat">45.97505</data></node>
+    <node id="SI-085"><data key="name">Novo Mesto</data><data key="code">SI-085</data><data key="wikidata">Q398116</data><data key="lon">15.19113</data><data key="lat">45.7943</data></node>
+    <node id="SI-086"><data key="name">Odranci</data><data key="code">SI-086</data><data key="wikidata">Q924698</data><data key="lon">16.27844</data><data key="lat">46.58625</data></node>
+    <node id="SI-087"><data key="name">Ormož</data><data key="code">SI-087</data><data key="wikidata">Q15900</data><data key="lon">16.14072</data><data key="lat">46.44339</data></node>
+    <node id="SI-089"><data key="name">Pesnica</data><data key="code">SI-089</data><data key="wikidata">Q995048</data><data key="lon">15.71002</data><data key="lat">46.6246</data></node>
+    <node id="SI-090"><data key="name">Piran</data><data key="code">SI-090</data><data key="wikidata">Q1382</data><data key="lon">13.61223</data><data key="lat">45.49862</data></node>
+    <node id="SI-091"><data key="name">Pivka</data><data key="code">SI-091</data><data key="wikidata">Q252154</data><data key="lon">14.22906</data><data key="lat">45.68788</data></node>
+    <node id="SI-092"><data key="name">Podcetrtek</data><data key="code">SI-092</data><data key="wikidata">Q13377731</data><data key="lon">15.56379</data><data key="lat">46.13452</data></node>
+    <node id="SI-093"><data key="name">Podvelka</data><data key="code">SI-093</data><data key="wikidata">Q1016800</data><data key="lon">15.32149</data><data key="lat">46.57894</data></node>
+    <node id="SI-094"><data key="name">Postojna</data><data key="code">SI-094</data><data key="wikidata">Q2242799</data><data key="lon">14.15657</data><data key="lat">45.78434</data></node>
+    <node id="SI-095"><data key="name">Preddvor</data><data key="code">SI-095</data><data key="wikidata">Q539864</data><data key="lon">14.47187</data><data key="lat">46.32779</data></node>
+    <node id="SI-096"><data key="name">Ptuj</data><data key="code">SI-096</data><data key="wikidata">Q15906</data><data key="lon">15.89253</data><data key="lat">46.44082</data></node>
+    <node id="SI-097"><data key="name">Puconci</data><data key="code">SI-097</data><data key="wikidata">Q921092</data><data key="lon">16.1273</data><data key="lat">46.75973</data></node>
+    <node id="SI-098"><data key="name">Race-Fram</data><data key="code">SI-098</data><data key="wikidata">Q731093</data><data key="lon">15.66882</data><data key="lat">46.44487</data></node>
+    <node id="SI-099"><data key="name">Radece</data><data key="code">SI-099</data><data key="wikidata">Q13377986</data><data key="lon">15.13582</data><data key="lat">46.06273</data></node>
+    <node id="SI-100"><data key="name">Radenci</data><data key="code">SI-100</data><data key="wikidata">Q338743</data><data key="lon">16.05411</data><data key="lat">46.62836</data></node>
+    <node id="SI-101"><data key="name">Radlje ob Dravi</data><data key="code">SI-101</data><data key="wikidata">Q1005364</data><data key="lon">15.24195</data><data key="lat">46.58695</data></node>
+    <node id="SI-102"><data key="name">Radovljica</data><data key="code">SI-102</data><data key="wikidata">Q15910</data><data key="lon">14.20066</data><data key="lat">46.34968</data></node>
+    <node id="SI-103"><data key="name">Ravne na Koroškem</data><data key="code">SI-103</data><data key="wikidata">Q13378051</data><data key="lon">14.97923</data><data key="lat">46.5538</data></node>
+    <node id="SI-104"><data key="name">Ribnica</data><data key="code">SI-104</data><data key="wikidata">Q15912</data><data key="lon">14.73953</data><data key="lat">45.73548</data></node>
+    <node id="SI-105"><data key="name">Rogašovci</data><data key="code">SI-105</data><data key="wikidata">Q599480</data><data key="lon">16.01415</data><data key="lat">46.7936</data></node>
+    <node id="SI-106"><data key="name">Rogaška Slatina</data><data key="code">SI-106</data><data key="wikidata">Q3502521</data><data key="lon">15.64031</data><data key="lat">46.2395</data></node>
+    <node id="SI-107"><data key="name">Rogatec</data><data key="code">SI-107</data><data key="wikidata">Q1027245</data><data key="lon">15.74137</data><data key="lat">46.2395</data></node>
+    <node id="SI-108"><data key="name">Ruše</data><data key="code">SI-108</data><data key="wikidata">Q3346841</data><data key="lon">15.49837</data><data key="lat">46.52502</data></node>
+    <node id="SI-109"><data key="name">Semic</data><data key="code">SI-109</data><data key="wikidata">Q1587704</data><data key="lon">15.16202</data><data key="lat">45.64677</data></node>
+    <node id="SI-110"><data key="name">Sevnica</data><data key="code">SI-110</data><data key="wikidata">Q11214302</data><data key="lon">15.27479</data><data key="lat">46.00241</data></node>
+    <node id="SI-111"><data key="name">Sežana</data><data key="code">SI-111</data><data key="wikidata">Q554854</data><data key="lon">13.88126</data><data key="lat">45.7181</data></node>
+    <node id="SI-112"><data key="name">Slovenj Gradec</data><data key="code">SI-112</data><data key="wikidata">Q3441817</data><data key="lon">15.08911</data><data key="lat">46.49728</data></node>
+    <node id="SI-113"><data key="name">Slovenska Bistrica</data><data key="code">SI-113</data><data key="wikidata">Q15917</data><data key="lon">15.58939</data><data key="lat">46.38409</data></node>
+    <node id="SI-114"><data key="name">Slovenske Konjice</data><data key="code">SI-114</data><data key="wikidata">Q15919</data><data key="lon">15.45802</data><data key="lat">46.32283</data></node>
+    <node id="SI-115"><data key="name">Starše</data><data key="code">SI-115</data><data key="wikidata">Q1016826</data><data key="lon">15.7647</data><data key="lat">46.46342</data></node>
+    <node id="SI-116"><data key="name">Sveti Jurij</data><data key="code">SI-116</data><data key="wikidata">Q920353</data><data key="lon">16.03164</data><data key="lat">46.55538</data></node>
+    <node id="SI-117"><data key="name">Šenčur</data><data key="code">SI-117</data><data key="wikidata">Q2346638</data><data key="lon">14.41884</data><data key="lat">46.24784</data></node>
+    <node id="SI-118"><data key="name">Šentilj</data><data key="code">SI-118</data><data key="wikidata">Q391446</data><data key="lon">15.75902</data><data key="lat">46.67579</data></node>
+    <node id="SI-119"><data key="name">Šentjernej</data><data key="code">SI-119</data><data key="wikidata">Q1016812</data><data key="lon">15.34348</data><data key="lat">45.81514</data></node>
+    <node id="SI-120"><data key="name">Šentjur pri Celju</data><data key="code">SI-120</data><data key="wikidata">Q13378384</data><data key="lon">15.41489</data><data key="lat">46.18986</data></node>
+    <node id="SI-121"><data key="name">Škocjan</data><data key="code">SI-121</data><data key="wikidata">Q391800</data><data key="lon">15.30712</data><data key="lat">45.91168</data></node>
+    <node id="SI-122"><data key="name">Škofja Loka</data><data key="code">SI-122</data><data key="wikidata">Q2318898</data><data key="lon">14.30504</data><data key="lat">46.16558</data></node>
+    <node id="SI-123"><data key="name">Škofljica</data><data key="code">SI-123</data><data key="wikidata">Q392103</data><data key="lon">14.57707</data><data key="lat">45.95774</data></node>
+    <node id="SI-124"><data key="name">Šmarje pri Jelšah</data><data key="code">SI-124</data><data key="wikidata">Q392173</data><data key="lon">15.52864</data><data key="lat">46.21653</data></node>
+    <node id="SI-125"><data key="name">Šmartno ob Paki</data><data key="code">SI-125</data><data key="wikidata">Q392188</data><data key="lon">15.03374</data><data key="lat">46.34359</data></node>
+    <node id="SI-126"><data key="name">Šoštanj</data><data key="code">SI-126</data><data key="wikidata">Q15923</data><data key="lon">14.99483</data><data key="lat">46.40947</data></node>
+    <node id="SI-127"><data key="name">Štore</data><data key="code">SI-127</data><data key="wikidata">Q392468</data><data key="lon">15.33645</data><data key="lat">46.19655</data></node>
+    <node id="SI-128"><data key="name">Tolmin</data><data key="code">SI-128</data><data key="wikidata">Q15924</data><data key="lon">13.788</data><data key="lat">46.14698</data></node>
+    <node id="SI-129"><data key="name">Trbovlje</data><data key="code">SI-129</data><data key="wikidata">Q15925</data><data key="lon">15.05147</data><data key="lat">46.12638</data></node>
+    <node id="SI-130"><data key="name">Trebnje</data><data key="code">SI-130</data><data key="wikidata">Q13378243</data><data key="lon">15.05511</data><data key="lat">45.91672</data></node>
+    <node id="SI-131"><data key="name">Tržič</data><data key="code">SI-131</data><data key="wikidata">Q15927</data><data key="lon">14.33345</data><data key="lat">46.38</data></node>
+    <node id="SI-132"><data key="name">Turnišče</data><data key="code">SI-132</data><data key="wikidata">Q201074</data><data key="lon">16.3224</data><data key="lat">46.61661</data></node>
+    <node id="SI-133"><data key="name">Velenje</data><data key="code">SI-133</data><data key="wikidata">Q3441849</data><data key="lon">15.13501</data><data key="lat">46.37899</data></node>
+    <node id="SI-134"><data key="name">Velike Lašče</data><data key="code">SI-134</data><data key="wikidata">Q13378281</data><data key="lon">14.56817</data><data key="lat">45.85059</data></node>
+    <node id="SI-135"><data key="name">Videm</data><data key="code">SI-135</data><data key="wikidata">Q1002863</data><data key="lon">15.94432</data><data key="lat">46.33513</data></node>
+    <node id="SI-136"><data key="name">Vipava</data><data key="code">SI-136</data><data key="wikidata">Q1002229</data><data key="lon">13.97403</data><data key="lat">45.81944</data></node>
+    <node id="SI-137"><data key="name">Vitanje</data><data key="code">SI-137</data><data key="wikidata">Q1809612</data><data key="lon">15.29657</data><data key="lat">46.40877</data></node>
+    <node id="SI-138"><data key="name">Vodice</data><data key="code">SI-138</data><data key="wikidata">Q2068600</data><data key="lon">14.50075</data><data key="lat">46.16776</data></node>
+    <node id="SI-139"><data key="name">Vojnik</data><data key="code">SI-139</data><data key="wikidata">Q2134561</data><data key="lon">15.31468</data><data key="lat">46.31344</data></node>
+    <node id="SI-140"><data key="name">Vrhnika</data><data key="code">SI-140</data><data key="wikidata">Q9014817</data><data key="lon">14.28144</data><data key="lat">45.94969</data></node>
+    <node id="SI-141"><data key="name">Vuzenica</data><data key="code">SI-141</data><data key="wikidata">Q370390</data><data key="lon">15.14697</data><data key="lat">46.56482</data></node>
+    <node id="SI-143"><data key="name">Zavrc</data><data key="code">SI-143</data><data key="wikidata">Q167001</data><data key="lon">16.04743</data><data key="lat">46.35267</data></node>
+    <node id="SI-144"><data key="name">Zrece</data><data key="code">SI-144</data><data key="wikidata">Q227163</data><data key="lon">15.37827</data><data key="lat">46.40952</data></node>
+    <node id="SI-146"><data key="name">Železniki</data><data key="code">SI-146</data><data key="wikidata">Q15932</data><data key="lon">14.11946</data><data key="lat">46.22321</data></node>
+    <node id="SI-147"><data key="name">Žiri</data><data key="code">SI-147</data><data key="wikidata">Q394087</data><data key="lon">14.12453</data><data key="lat">46.04396</data></node>
+    <node id="SI-148"><data key="name">Benedikt</data><data key="code">SI-148</data><data key="wikidata">Q779018</data><data key="lon">15.88935</data><data key="lat">46.61475</data></node>
+    <node id="SI-149"><data key="name">Bistrica ob Sotli</data><data key="code">SI-149</data><data key="wikidata">Q999540</data><data key="lon">15.6455</data><data key="lat">46.05427</data></node>
+    <node id="SI-150"><data key="name">Bloke</data><data key="code">SI-150</data><data key="wikidata">Q164123</data><data key="lon">14.50485</data><data key="lat">45.78527</data></node>
+    <node id="SI-151"><data key="name">Braslovce</data><data key="code">SI-151</data><data key="wikidata">Q1034410</data><data key="lon">15.03673</data><data key="lat">46.27091</data></node>
+    <node id="SI-152"><data key="name">Cankova</data><data key="code">SI-152</data><data key="wikidata">Q13377751</data><data key="lon">16.04463</data><data key="lat">46.70046</data></node>
+    <node id="SI-153"><data key="name">Cerkvenjak</data><data key="code">SI-153</data><data key="wikidata">Q1252438</data><data key="lon">15.95056</data><data key="lat">46.556</data></node>
+    <node id="SI-154"><data key="name">Dobje</data><data key="code">SI-154</data><data key="wikidata">Q1008179</data><data key="lon">15.40637</data><data key="lat">46.13017</data></node>
+    <node id="SI-155"><data key="name">Dobrna</data><data key="code">SI-155</data><data key="wikidata">Q999579</data><data key="lon">15.23347</data><data key="lat">46.35481</data></node>
+    <node id="SI-156"><data key="name">Dobrovnik</data><data key="code">SI-156</data><data key="wikidata">Q13365892</data><data key="lon">16.34459</data><data key="lat">46.649</data></node>
+    <node id="SI-157"><data key="name">Dolenjske Toplice</data><data key="code">SI-157</data><data key="wikidata">Q1016840</data><data key="lon">15.04794</data><data key="lat">45.7092</data></node>
+    <node id="SI-158"><data key="name">Grad</data><data key="code">SI-158</data><data key="wikidata">Q1019067</data><data key="lon">16.0923</data><data key="lat">46.80178</data></node>
+    <node id="SI-159"><data key="name">Hajdina</data><data key="code">SI-159</data><data key="wikidata">Q995065</data><data key="lon">15.83036</data><data key="lat">46.42284</data></node>
+    <node id="SI-160"><data key="name">Hoce-Slivnica</data><data key="code">SI-160</data><data key="wikidata">Q1008102</data><data key="lon">15.61991</data><data key="lat">46.49047</data></node>
+    <node id="SI-161"><data key="name">Hodoš</data><data key="code">SI-161</data><data key="wikidata">Q13365904</data><data key="lon">16.31342</data><data key="lat">46.81951</data></node>
+    <node id="SI-162"><data key="name">Horjul</data><data key="code">SI-162</data><data key="wikidata">Q1005185</data><data key="lon">14.29383</data><data key="lat">46.01983</data></node>
+    <node id="SI-163"><data key="name">Jezersko</data><data key="code">SI-163</data><data key="wikidata">Q1688771</data><data key="lon">14.47429</data><data key="lat">46.38545</data></node>
+    <node id="SI-164"><data key="name">Komenda</data><data key="code">SI-164</data><data key="wikidata">Q963986</data><data key="lon">14.54144</data><data key="lat">46.20886</data></node>
+    <node id="SI-165"><data key="name">Kostel</data><data key="code">SI-165</data><data key="wikidata">Q3434092</data><data key="lon">14.73014</data><data key="lat">45.52805</data></node>
+    <node id="SI-166"><data key="name">Križevci</data><data key="code">SI-166</data><data key="wikidata">Q999563</data><data key="lon">16.12255</data><data key="lat">46.57391</data></node>
+    <node id="SI-167"><data key="name">Lovrenc na Pohorju</data><data key="code">SI-167</data><data key="wikidata">Q25110</data><data key="lon">15.38979</data><data key="lat">46.52816</data></node>
+    <node id="SI-168"><data key="name">Markovci</data><data key="code">SI-168</data><data key="wikidata">Q1008095</data><data key="lon">15.9536</data><data key="lat">46.39024</data></node>
+    <node id="SI-169"><data key="name">Miklavž na Dravskem polju</data><data key="code">SI-169</data><data key="wikidata">Q1005165</data><data key="lon">15.71252</data><data key="lat">46.4838</data></node>
+    <node id="SI-170"><data key="name">Mirna Pec</data><data key="code">SI-170</data><data key="wikidata">Q1016805</data><data key="lon">15.08761</data><data key="lat">45.85506</data></node>
+    <node id="SI-171"><data key="name">Oplotnica</data><data key="code">SI-171</data><data key="wikidata">Q1587261</data><data key="lon">15.45659</data><data key="lat">46.39143</data></node>
+    <node id="SI-172"><data key="name">Podlehnik</data><data key="code">SI-172</data><data key="wikidata">Q1002247</data><data key="lon">15.87298</data><data key="lat">46.30542</data></node>
+    <node id="SI-173"><data key="name">Polzela</data><data key="code">SI-173</data><data key="wikidata">Q938443</data><data key="lon">15.08962</data><data key="lat">46.30043</data></node>
+    <node id="SI-174"><data key="name">Prebold</data><data key="code">SI-174</data><data key="wikidata">Q1016698</data><data key="lon">15.09312</data><data key="lat">46.21674</data></node>
+    <node id="SI-175"><data key="name">Prevalje</data><data key="code">SI-175</data><data key="wikidata">Q650009</data><data key="lon">14.88151</data><data key="lat">46.55531</data></node>
+    <node id="SI-176"><data key="name">Razkrižje</data><data key="code">SI-176</data><data key="wikidata">Q3435117</data><data key="lon">16.27435</data><data key="lat">46.52189</data></node>
+    <node id="SI-177"><data key="name">Ribnica na Pohorju</data><data key="code">SI-177</data><data key="wikidata">Q1009413</data><data key="lon">15.26217</data><data key="lat">46.53335</data></node>
+    <node id="SI-178"><data key="name">Selnica ob Dravi</data><data key="code">SI-178</data><data key="wikidata">Q919934</data><data key="lon">15.49758</data><data key="lat">46.58289</data></node>
+    <node id="SI-179"><data key="name">Sodražica</data><data key="code">SI-179</data><data key="wikidata">Q1008079</data><data key="lon">14.62346</data><data key="lat">45.74298</data></node>
+    <node id="SI-180"><data key="name">Solcava</data><data key="code">SI-180</data><data key="wikidata">Q1313614</data><data key="lon">14.65957</data><data key="lat">46.41341</data></node>
+    <node id="SI-181"><data key="name">Sveta Ana</data><data key="code">SI-181</data><data key="wikidata">Q990063</data><data key="lon">15.84276</data><data key="lat">46.6508</data></node>
+    <node id="SI-182"><data key="name">Sveti Andraž v Slovenskih Goricah</data><data key="code">SI-182</data><data key="wikidata">Q925149</data><data key="lon">15.95512</data><data key="lat">46.51642</data></node>
+    <node id="SI-183"><data key="name">Šempeter-Vrtojba</data><data key="code">SI-183</data><data key="wikidata">Q391428</data><data key="lon">13.64509</data><data key="lat">45.91875</data></node>
+    <node id="SI-184"><data key="name">Tabor</data><data key="code">SI-184</data><data key="wikidata">Q999530</data><data key="lon">15.0149</data><data key="lat">46.22226</data></node>
+    <node id="SI-185"><data key="name">Trnovska vas</data><data key="code">SI-185</data><data key="wikidata">Q999559</data><data key="lon">15.89736</data><data key="lat">46.52416</data></node>
+    <node id="SI-186"><data key="name">Trzin</data><data key="code">SI-186</data><data key="wikidata">Q773160</data><data key="lon">14.54908</data><data key="lat">46.12845</data></node>
+    <node id="SI-187"><data key="name">Velika Polana</data><data key="code">SI-187</data><data key="wikidata">Q995101</data><data key="lon">16.36314</data><data key="lat">46.58101</data></node>
+    <node id="SI-188"><data key="name">Veržej</data><data key="code">SI-188</data><data key="wikidata">Q1008086</data><data key="lon">16.18251</data><data key="lat">46.58116</data></node>
+    <node id="SI-189"><data key="name">Vransko</data><data key="code">SI-189</data><data key="wikidata">Q13378299</data><data key="lon">14.94619</data><data key="lat">46.22966</data></node>
+    <node id="SI-190"><data key="name">Žalec</data><data key="code">SI-190</data><data key="wikidata">Q15931</data><data key="lon">15.16254</data><data key="lat">46.25809</data></node>
+    <node id="SI-191"><data key="name">Žetale</data><data key="code">SI-191</data><data key="wikidata">Q393910</data><data key="lon">15.81114</data><data key="lat">46.2848</data></node>
+    <node id="SI-192"><data key="name">Žirovnica</data><data key="code">SI-192</data><data key="wikidata">Q394103</data><data key="lon">14.16445</data><data key="lat">46.40533</data></node>
+    <node id="SI-193"><data key="name">Žužemberk</data><data key="code">SI-193</data><data key="wikidata">Q394340</data><data key="lon">14.96974</data><data key="lat">45.80698</data></node>
+    <node id="SI-194"><data key="name">Šmartno in Litiji</data><data key="code">SI-194</data><data key="wikidata">Q13378453</data><data key="lon">14.84367</data><data key="lat">46.01342</data></node>
+    <node id="SI-195"><data key="name">Apace</data><data key="code">SI-195</data><data key="wikidata">Q3278915</data><data key="lon">15.89345</data><data key="lat">46.69047</data></node>
+    <edge source="SI-001" target="SI-036"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-001" target="SI-049"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-001" target="SI-064"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-001" target="SI-084"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-001" target="SI-094"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-001" target="SI-136"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-002" target="SI-015"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-002" target="SI-063"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-002" target="SI-078"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-002" target="SI-080"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-002" target="SI-086"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-002" target="SI-132"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-002" target="SI-188"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-003" target="SI-004"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-003" target="SI-041"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-003" target="SI-053"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-003" target="SI-102"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-003" target="SI-192"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-004" target="SI-006"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-004" target="SI-046"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-004" target="SI-052"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-004" target="SI-053"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-004" target="SI-102"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-004" target="SI-128"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-004" target="SI-146"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-005" target="SI-008"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-005" target="SI-013"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-005" target="SI-140"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-006" target="SI-046"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-006" target="SI-053"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-007" target="SI-044"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-007" target="SI-084"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-008" target="SI-013"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-008" target="SI-021"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-008" target="SI-037"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-008" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-008" target="SI-140"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-009" target="SI-051"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-009" target="SI-054"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-009" target="SI-149"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-011" target="SI-057"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-011" target="SI-120"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-011" target="SI-127"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-011" target="SI-139"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-011" target="SI-155"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-011" target="SI-190"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-012" target="SI-043"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-012" target="SI-095"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-012" target="SI-117"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-012" target="SI-138"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-012" target="SI-164"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-013" target="SI-064"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-013" target="SI-065"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-013" target="SI-091"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-013" target="SI-094"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-013" target="SI-134"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-013" target="SI-140"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-013" target="SI-150"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-014" target="SI-027"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-014" target="SI-036"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-014" target="SI-128"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-014" target="SI-146"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-015" target="SI-059"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-015" target="SI-063"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-015" target="SI-086"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-015" target="SI-132"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-015" target="SI-187"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-016" target="SI-062"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-016" target="SI-067"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-016" target="SI-074"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-016" target="SI-103"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-016" target="SI-112"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-016" target="SI-126"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-016" target="SI-175"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-016" target="SI-180"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-017" target="SI-048"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-017" target="SI-073"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-017" target="SI-109"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-018" target="SI-042"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-018" target="SI-058"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-018" target="SI-096"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-018" target="SI-182"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-018" target="SI-185"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-019" target="SI-035"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-019" target="SI-038"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-019" target="SI-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-019" target="SI-094"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-019" target="SI-111"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-019" target="SI-136"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-020" target="SI-032"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-020" target="SI-039"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-020" target="SI-048"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-020" target="SI-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-020" target="SI-134"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-020" target="SI-193"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-021" target="SI-027"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-021" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-021" target="SI-064"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-021" target="SI-071"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-021" target="SI-122"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-021" target="SI-140"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-021" target="SI-162"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-022" target="SI-023"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-022" target="SI-060"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-022" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-022" target="SI-077"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-023" target="SI-043"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-023" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-023" target="SI-068"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-023" target="SI-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-023" target="SI-077"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-023" target="SI-186"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-024" target="SI-028"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-024" target="SI-042"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-024" target="SI-087"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-024" target="SI-096"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-024" target="SI-168"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-025" target="SI-081"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-025" target="SI-103"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-025" target="SI-112"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-025" target="SI-141"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-026" target="SI-058"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-026" target="SI-070"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-026" target="SI-096"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-026" target="SI-115"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-026" target="SI-169"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-027" target="SI-122"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-027" target="SI-146"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-027" target="SI-147"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-028" target="SI-087"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-028" target="SI-135"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-028" target="SI-143"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-028" target="SI-168"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-029" target="SI-058"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-029" target="SI-100"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-029" target="SI-116"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-029" target="SI-148"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-029" target="SI-152"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-029" target="SI-153"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-029" target="SI-181"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-029" target="SI-195"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-030" target="SI-043"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-030" target="SI-062"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-030" target="SI-067"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-030" target="SI-079"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-030" target="SI-083"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-031" target="SI-033"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-031" target="SI-056"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-031" target="SI-078"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-031" target="SI-097"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-031" target="SI-158"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-032" target="SI-039"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-032" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-032" target="SI-123"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-032" target="SI-134"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-033" target="SI-078"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-033" target="SI-161"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-034" target="SI-057"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-034" target="SI-099"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-034" target="SI-129"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-034" target="SI-190"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="SI-035" target="SI-038"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-035" target="SI-050"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-035" target="SI-111"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-036" target="SI-064"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-036" target="SI-084"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-036" target="SI-128"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-036" target="SI-147"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-037" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-037" target="SI-123"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-037" target="SI-134"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-038" target="SI-065"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-038" target="SI-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-039" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-039" target="SI-130"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-039" target="SI-193"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-039" target="SI-194"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-040" target="SI-050"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-040" target="SI-090"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-041" target="SI-053"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-041" target="SI-192"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-042" target="SI-087"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-042" target="SI-096"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-042" target="SI-116"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-042" target="SI-182"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-05"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-043" target="SI-067"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-068"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-083"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-095"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-163"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-043" target="SI-164"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-180"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-043" target="SI-189"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-044" target="SI-084"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-044" target="SI-128"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-045" target="SI-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-045" target="SI-098"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-045" target="SI-113"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-045" target="SI-115"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-045" target="SI-135"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-045" target="SI-159"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-046" target="SI-128"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-047" target="SI-078"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-047" target="SI-156"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-048" target="SI-066"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-048" target="SI-104"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-048" target="SI-109"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-048" target="SI-157"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-048" target="SI-165"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-048" target="SI-193"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-049" target="SI-075"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-049" target="SI-084"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-049" target="SI-111"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-049" target="SI-136"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-05" target="SI-060"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-05" target="SI-068"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-05" target="SI-077"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-05" target="SI-129"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-05" target="SI-184"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-05" target="SI-189"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-050" target="SI-090"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-051" target="SI-054"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-051" target="SI-054:Krsko"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-051" target="SI-092"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-051" target="SI-120"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-051" target="SI-149"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-071"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-082"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-095"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-102"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-117"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-122"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-131"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-052" target="SI-146"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-054" target="SI-054:Krsko"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-054" target="SI-110"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-054" target="SI-119"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-054" target="SI-120"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-054" target="SI-121"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-055" target="SI-070"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-055" target="SI-089"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-055" target="SI-118"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-056" target="SI-105"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-056" target="SI-158"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-057" target="SI-099"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-057" target="SI-110"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-057" target="SI-120"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-057" target="SI-127"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-057" target="SI-154"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-057" target="SI-190"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-058" target="SI-070"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-058" target="SI-089"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-058" target="SI-096"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-058" target="SI-118"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-058" target="SI-148"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-058" target="SI-153"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-058" target="SI-181"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-058" target="SI-182"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-058" target="SI-185"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-059" target="SI-132"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-059" target="SI-156"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-059" target="SI-187"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-060" target="SI-061"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-060" target="SI-077"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-060" target="SI-099"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-060" target="SI-110"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-060" target="SI-129"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-060" target="SI-130"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-060" target="SI-194"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-061" target="SI-071"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-061" target="SI-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-061" target="SI-123"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-061" target="SI-138"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-061" target="SI-186"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-061" target="SI-194"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-062" target="SI-067"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-062" target="SI-079"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-062" target="SI-126"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-063" target="SI-087"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-063" target="SI-116"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-063" target="SI-166"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-063" target="SI-176"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-063" target="SI-188"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-064" target="SI-094"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-064" target="SI-140"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-064" target="SI-147"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-065" target="SI-066"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-065" target="SI-091"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-065" target="SI-150"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-066" target="SI-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-066" target="SI-150"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-066" target="SI-165"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-066" target="SI-179"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-067" target="SI-180"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-068" target="SI-077"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-069" target="SI-106"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-069" target="SI-107"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-069" target="SI-113"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-069" target="SI-135"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-069" target="SI-191"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-070" target="SI-089"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-070" target="SI-108"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-070" target="SI-160"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-070" target="SI-169"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-070" target="SI-178"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-071" target="SI-117"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-071" target="SI-122"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-071" target="SI-138"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-072" target="SI-138"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-072" target="SI-164"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-072" target="SI-186"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-073" target="SI-085"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-073" target="SI-109"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-074" target="SI-175"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-075" target="SI-084"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-075" target="SI-183"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-076" target="SI-112"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-076" target="SI-133"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-076" target="SI-137"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-076" target="SI-144"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-076" target="SI-155"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-076" target="SI-167"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-076" target="SI-177"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-078" target="SI-080"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-078" target="SI-097"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-078" target="SI-132"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-078" target="SI-156"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-079" target="SI-083"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-079" target="SI-125"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-079" target="SI-126"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-079" target="SI-151"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-080" target="SI-097"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-080" target="SI-152"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-080" target="SI-166"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-080" target="SI-188"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="SI-081" target="SI-101"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-081" target="SI-141"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-082" target="SI-102"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-082" target="SI-131"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-083" target="SI-151"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-083" target="SI-189"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-084" target="SI-128"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-084" target="SI-183"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-085" target="SI-109"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-085" target="SI-119"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-085" target="SI-121"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-085" target="SI-130"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-085" target="SI-157"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-085" target="SI-170"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-085" target="SI-193"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-087" target="SI-143"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-089" target="SI-118"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-091" target="SI-094"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-092" target="SI-106"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-092" target="SI-120"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-092" target="SI-124"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-092" target="SI-149"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-093" target="SI-101"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-093" target="SI-167"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-093" target="SI-177"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-093" target="SI-178"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-094" target="SI-136"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-095" target="SI-117"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-095" target="SI-163"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-096" target="SI-115"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-096" target="SI-135"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-096" target="SI-159"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-096" target="SI-168"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-097" target="SI-105"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-097" target="SI-152"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-097" target="SI-158"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-098" target="SI-113"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-098" target="SI-115"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-098" target="SI-160"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-098" target="SI-169"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-099" target="SI-110"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-099" target="SI-129"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-100" target="SI-116"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-100" target="SI-152"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-100" target="SI-166"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-101" target="SI-141"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-101" target="SI-177"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-102" target="SI-131"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-102" target="SI-192"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-103" target="SI-112"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-103" target="SI-175"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-104" target="SI-134"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-104" target="SI-179"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-105" target="SI-152"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-105" target="SI-158"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-106" target="SI-107"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-106" target="SI-113"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-106" target="SI-124"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-107" target="SI-191"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-108" target="SI-113"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-108" target="SI-160"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-108" target="SI-167"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-108" target="SI-178"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-109" target="SI-157"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-110" target="SI-120"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-110" target="SI-121"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-110" target="SI-130"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-111" target="SI-136"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-112" target="SI-126"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-112" target="SI-133"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-112" target="SI-141"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-112" target="SI-177"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-113" target="SI-114"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-113" target="SI-124"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-113" target="SI-144"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-113" target="SI-160"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-113" target="SI-167"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-113" target="SI-171"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-114" target="SI-120"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-114" target="SI-124"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-114" target="SI-139"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-114" target="SI-144"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-114" target="SI-171"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-115" target="SI-159"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-115" target="SI-169"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-116" target="SI-153"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-116" target="SI-166"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-116" target="SI-182"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-117" target="SI-138"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-118" target="SI-181"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-118" target="SI-195"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-119" target="SI-121"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-120" target="SI-124"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-120" target="SI-127"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-120" target="SI-139"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-120" target="SI-154"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-122" target="SI-146"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-123" target="SI-134"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-125" target="SI-126"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-125" target="SI-151"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-125" target="SI-173"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-126" target="SI-133"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-128" target="SI-146"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-129" target="SI-174"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-129" target="SI-184"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-129" target="SI-190"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-130" target="SI-170"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-130" target="SI-193"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-130" target="SI-194"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-131" target="SI-163"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-131" target="SI-192"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-132" target="SI-156"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-132" target="SI-187"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-133" target="SI-155"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-133" target="SI-173"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-133" target="SI-190"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-134" target="SI-150"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-134" target="SI-179"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-135" target="SI-159"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-135" target="SI-168"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-135" target="SI-172"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-135" target="SI-191"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-137" target="SI-139"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-137" target="SI-144"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-137" target="SI-155"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-138" target="SI-164"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-139" target="SI-144"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-139" target="SI-155"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-140" target="SI-162"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-141" target="SI-177"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-144" target="SI-167"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-144" target="SI-171"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-148" target="SI-181"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-150" target="SI-179"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-151" target="SI-173"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-151" target="SI-174"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-151" target="SI-184"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-151" target="SI-189"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-153" target="SI-182"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-155" target="SI-190"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-157" target="SI-193"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-160" target="SI-169"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-163" target="SI-180"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-166" target="SI-188"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-167" target="SI-177"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-167" target="SI-178"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-170" target="SI-193"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-172" target="SI-191"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SI-173" target="SI-174"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-173" target="SI-190"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-174" target="SI-184"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-174" target="SI-190"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-181" target="SI-195"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SI-182" target="SI-185"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SI-184" target="SI-189"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

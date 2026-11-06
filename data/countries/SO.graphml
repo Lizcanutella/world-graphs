@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SO-BK"><data key="name">Bakool</data><data key="code">SO-BK</data><data key="wikidata">Q282471</data><data key="lon">43.84075</data><data key="lat">4.17994</data></node>
+    <node id="SO-BN"><data key="name">Banaadir</data><data key="code">SO-BN</data><data key="wikidata">Q806070</data><data key="lon">45.36821</data><data key="lat">2.06918</data></node>
+    <node id="SO-BR"><data key="name">Bari</data><data key="code">SO-BR</data><data key="wikidata">Q729170</data><data key="lon">49.92103</data><data key="lat">10.15114</data></node>
+    <node id="SO-BY"><data key="name">Bay</data><data key="code">SO-BY</data><data key="wikidata">Q812064</data><data key="lon">43.58542</data><data key="lat">2.65494</data></node>
+    <node id="SO-GA"><data key="name">Galguduud</data><data key="code">SO-GA</data><data key="wikidata">Q876772</data><data key="lon">46.89709</data><data key="lat">4.98495</data></node>
+    <node id="SO-GE"><data key="name">Gedo</data><data key="code">SO-GE</data><data key="wikidata">Q856719</data><data key="lon">41.75712</data><data key="lat">2.78738</data></node>
+    <node id="SO-HI"><data key="name">Hiiraan</data><data key="code">SO-HI</data><data key="wikidata">Q660040</data><data key="lon">45.493</data><data key="lat">4.31996</data></node>
+    <node id="SO-JD"><data key="name">Jubbada Dhexe</data><data key="code">SO-JD</data><data key="wikidata">Q1046324</data><data key="lon">42.84035</data><data key="lat">1.14497</data></node>
+    <node id="SO-JH"><data key="name">Jubbada Hoose</data><data key="code">SO-JH</data><data key="wikidata">Q877042</data><data key="lon">41.82829</data><data key="lat">-0.19818</data></node>
+    <node id="SO-MU"><data key="name">Mudug</data><data key="code">SO-MU</data><data key="wikidata">Q877034</data><data key="lon">48.24775</data><data key="lat">6.07148</data></node>
+    <node id="SO-NU"><data key="name">Nugaal</data><data key="code">SO-NU</data><data key="wikidata">Q1046329</data><data key="lon">49.04923</data><data key="lat">8.49495</data></node>
+    <node id="SO-SD"><data key="name">Shabeellaha Dhexe</data><data key="code">SO-SD</data><data key="wikidata">Q678435</data><data key="lon">45.86366</data><data key="lat">2.96638</data></node>
+    <node id="SO-SH"><data key="name">Shabeellaha Hoose</data><data key="code">SO-SH</data><data key="wikidata">Q877028</data><data key="lon">44.67503</data><data key="lat">1.97748</data></node>
+    <edge source="SO-BK" target="SO-BY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BK" target="SO-GE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BK" target="SO-HI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BK" target="SO-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BN" target="SO-SD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BN" target="SO-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BR" target="SO-NU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BY" target="SO-GE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BY" target="SO-JD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-BY" target="SO-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-GA" target="SO-HI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-GA" target="SO-MU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-GA" target="SO-SD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-GE" target="SO-JD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-GE" target="SO-JH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-HI" target="SO-SD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-HI" target="SO-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-JD" target="SO-JH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-JD" target="SO-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SO-MU" target="SO-NU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SO-SD" target="SO-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

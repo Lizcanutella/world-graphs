@@ -1,0 +1,764 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TW",
+ "kind": "country",
+ "name": "Taiwan, Province of China",
+ "level": "counties",
+ "n": 21,
+ "m": 33,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TW-CHA",
+   "name": "Changhua",
+   "wikidata": "Q133865",
+   "lon": 120.4866,
+   "lat": 23.9851
+  },
+  {
+   "code": "TW-CYI",
+   "name": "Chiayi City",
+   "wikidata": "Q249995",
+   "lon": 120.43884,
+   "lat": 23.48182
+  },
+  {
+   "code": "TW-CYQ",
+   "name": "Chiayi",
+   "wikidata": "Q166977",
+   "lon": 120.50842,
+   "lat": 23.4326
+  },
+  {
+   "code": "TW-HSQ",
+   "name": "Hsinchu",
+   "wikidata": "Q74054",
+   "lon": 121.13438,
+   "lat": 24.68557
+  },
+  {
+   "code": "TW-HSZ",
+   "name": "Hsinchu City",
+   "wikidata": "Q249994",
+   "lon": 120.96601,
+   "lat": 24.78231
+  },
+  {
+   "code": "TW-HUA",
+   "name": "Hualien",
+   "wikidata": "Q249868",
+   "lon": 121.3936,
+   "lat": 23.73377
+  },
+  {
+   "code": "TW-ILA",
+   "name": "Yilan",
+   "wikidata": "Q237258",
+   "lon": 121.63436,
+   "lat": 24.65449
+  },
+  {
+   "code": "TW-KEE",
+   "name": "Keelung City",
+   "wikidata": "Q249996",
+   "lon": 121.70492,
+   "lat": 25.11247
+  },
+  {
+   "code": "TW-KHH",
+   "name": "Kaohsiung City",
+   "wikidata": "Q181557",
+   "lon": 120.65137,
+   "lat": 22.9878
+  },
+  {
+   "code": "TW-KIN",
+   "name": "Kinmen",
+   "wikidata": "Q249870",
+   "lon": 118.37755,
+   "lat": 24.45873
+  },
+  {
+   "code": "TW-MIA",
+   "name": "Miaoli",
+   "wikidata": "Q63706",
+   "lon": 120.86596,
+   "lat": 24.51884
+  },
+  {
+   "code": "TW-NAN",
+   "name": "Nantou",
+   "wikidata": "Q82357",
+   "lon": 120.93951,
+   "lat": 23.83684
+  },
+  {
+   "code": "TW-PEN",
+   "name": "Penghu",
+   "wikidata": "Q198525",
+   "lon": 119.60165,
+   "lat": 23.56302
+  },
+  {
+   "code": "TW-PIF",
+   "name": "Pingtung",
+   "wikidata": "Q194989",
+   "lon": 120.65334,
+   "lat": 22.39006
+  },
+  {
+   "code": "TW-TAO",
+   "name": "Taoyuan",
+   "wikidata": "Q115256",
+   "lon": 121.25466,
+   "lat": 24.86306
+  },
+  {
+   "code": "TW-TNN",
+   "name": "Tainan City",
+   "wikidata": "Q140631",
+   "lon": 120.33529,
+   "lat": 23.15883
+  },
+  {
+   "code": "TW-TPE",
+   "name": "Taipei City",
+   "wikidata": "Q1867",
+   "lon": 121.5582,
+   "lat": 25.0932
+  },
+  {
+   "code": "TW-TPQ",
+   "name": "New Taipei City",
+   "wikidata": "Q244898",
+   "lon": 121.76682,
+   "lat": 24.98171
+  },
+  {
+   "code": "TW-TTT",
+   "name": "Taitung",
+   "wikidata": "Q249904",
+   "lon": 121.0268,
+   "lat": 22.83916
+  },
+  {
+   "code": "TW-TXG",
+   "name": "Taichung City",
+   "wikidata": "Q245023",
+   "lon": 120.86268,
+   "lat": 24.23307
+  },
+  {
+   "code": "TW-YUN",
+   "name": "Yunlin",
+   "wikidata": "Q153221",
+   "lon": 120.40115,
+   "lat": 23.67691
+  }
+ ],
+ "edges": [
+  {
+   "u": "TW-CHA",
+   "v": "TW-NAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33865
+  },
+  {
+   "u": "TW-CHA",
+   "v": "TW-TXG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31316
+  },
+  {
+   "u": "TW-CHA",
+   "v": "TW-YUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42801
+  },
+  {
+   "u": "TW-CYI",
+   "v": "TW-CYQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34572
+  },
+  {
+   "u": "TW-CYQ",
+   "v": "TW-KHH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46631
+  },
+  {
+   "u": "TW-CYQ",
+   "v": "TW-NAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35211
+  },
+  {
+   "u": "TW-CYQ",
+   "v": "TW-TNN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 74646
+  },
+  {
+   "u": "TW-CYQ",
+   "v": "TW-YUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75335
+  },
+  {
+   "u": "TW-HSQ",
+   "v": "TW-HSZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28470
+  },
+  {
+   "u": "TW-HSQ",
+   "v": "TW-ILA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20892
+  },
+  {
+   "u": "TW-HSQ",
+   "v": "TW-MIA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55068
+  },
+  {
+   "u": "TW-HSQ",
+   "v": "TW-TAO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70777
+  },
+  {
+   "u": "TW-HSQ",
+   "v": "TW-TXG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5588
+  },
+  {
+   "u": "TW-HSZ",
+   "v": "TW-MIA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10289
+  },
+  {
+   "u": "TW-HUA",
+   "v": "TW-ILA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35557
+  },
+  {
+   "u": "TW-HUA",
+   "v": "TW-KHH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19780
+  },
+  {
+   "u": "TW-HUA",
+   "v": "TW-NAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111191
+  },
+  {
+   "u": "TW-HUA",
+   "v": "TW-TTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81132
+  },
+  {
+   "u": "TW-HUA",
+   "v": "TW-TXG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20017
+  },
+  {
+   "u": "TW-ILA",
+   "v": "TW-TAO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15311
+  },
+  {
+   "u": "TW-ILA",
+   "v": "TW-TPQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67246,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "TW-ILA",
+   "v": "TW-TXG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19112
+  },
+  {
+   "u": "TW-KEE",
+   "v": "TW-TPQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33886,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "TW-KHH",
+   "v": "TW-NAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7754
+  },
+  {
+   "u": "TW-KHH",
+   "v": "TW-PIF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86468
+  },
+  {
+   "u": "TW-KHH",
+   "v": "TW-TNN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71096
+  },
+  {
+   "u": "TW-KHH",
+   "v": "TW-TTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64685
+  },
+  {
+   "u": "TW-MIA",
+   "v": "TW-TXG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81798
+  },
+  {
+   "u": "TW-NAN",
+   "v": "TW-TXG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 82244
+  },
+  {
+   "u": "TW-NAN",
+   "v": "TW-YUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27544
+  },
+  {
+   "u": "TW-PIF",
+   "v": "TW-TTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 89864
+  },
+  {
+   "u": "TW-TAO",
+   "v": "TW-TPQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70282,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "TW-TPE",
+   "v": "TW-TPQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71674,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TWN-ADM1-90331920",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

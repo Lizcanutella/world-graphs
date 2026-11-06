@@ -1,0 +1,160 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GQ",
+ "kind": "country",
+ "name": "Equatorial Guinea",
+ "level": "provinces",
+ "n": 7,
+ "m": 5,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GQ-AN",
+   "name": "Annobón",
+   "wikidata": "Q3736616",
+   "lon": 5.63381,
+   "lat": -1.45041
+  },
+  {
+   "code": "GQ-BN",
+   "name": "Bioko Norte",
+   "wikidata": "Q845834",
+   "lon": 8.79295,
+   "lat": 3.64568
+  },
+  {
+   "code": "GQ-BS",
+   "name": "Bioko Sur",
+   "wikidata": "Q845817",
+   "lon": 8.62919,
+   "lat": 3.4182
+  },
+  {
+   "code": "GQ-CS",
+   "name": "Centro Sur",
+   "wikidata": "Q845823",
+   "lon": 10.25269,
+   "lat": 1.58238
+  },
+  {
+   "code": "GQ-KN",
+   "name": "Kié-Ntem",
+   "wikidata": "Q853393",
+   "lon": 11.14508,
+   "lat": 1.94704
+  },
+  {
+   "code": "GQ-LI",
+   "name": "Litoral",
+   "wikidata": "Q203873",
+   "lon": 9.8037,
+   "lat": 1.6288
+  },
+  {
+   "code": "GQ-WN",
+   "name": "Wele-Nzás",
+   "wikidata": "Q853400",
+   "lon": 11.11294,
+   "lat": 1.50181
+  }
+ ],
+ "edges": [
+  {
+   "u": "GQ-BN",
+   "v": "GQ-BS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31643
+  },
+  {
+   "u": "GQ-CS",
+   "v": "GQ-KN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37268
+  },
+  {
+   "u": "GQ-CS",
+   "v": "GQ-LI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 192884
+  },
+  {
+   "u": "GQ-CS",
+   "v": "GQ-WN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 177141
+  },
+  {
+   "u": "GQ-KN",
+   "v": "GQ-WN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 117038
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GNQ-ADM1-51917635",
+  "level": "ADM1",
+  "year": "2016",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

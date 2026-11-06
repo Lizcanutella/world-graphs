@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+pipeline/.venv/
+
+# Natural Earth shapefiles: downloaded by wg.fetch (keep the version stamps)
+pipeline/data/naturalearth/*
+!pipeline/data/naturalearth/*.VERSION.txt
+
+# Pipeline download cache (pinned by pipeline/sources.lock.json) and intermediate stages
+pipeline/data/cache/
+pipeline/data/audit/pairs/
+pipeline/data/build/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

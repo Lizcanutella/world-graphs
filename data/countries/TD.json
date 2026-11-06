@@ -1,0 +1,964 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TD",
+ "kind": "country",
+ "name": "Chad",
+ "level": "provinces",
+ "n": 22,
+ "m": 44,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TD-BA",
+   "name": "Batha",
+   "wikidata": "Q180414",
+   "lon": 18.89245,
+   "lat": 14.76993
+  },
+  {
+   "code": "TD-BG",
+   "name": "Barh El Gazel",
+   "wikidata": "Q1050621",
+   "lon": 16.94389,
+   "lat": 14.69454
+  },
+  {
+   "code": "TD-BO",
+   "name": "Borkou",
+   "wikidata": "Q1139666",
+   "lon": 18.31207,
+   "lat": 18.98295
+  },
+  {
+   "code": "TD-CB",
+   "name": "Chari-Baguirmi",
+   "wikidata": "Q843975",
+   "lon": 16.33431,
+   "lat": 11.13599
+  },
+  {
+   "code": "TD-GR",
+   "name": "Guéra",
+   "wikidata": "Q175706",
+   "lon": 18.05639,
+   "lat": 11.44134
+  },
+  {
+   "code": "TD-HL",
+   "name": "Hadjer-Lamis",
+   "wikidata": "Q1042437",
+   "lon": 15.46109,
+   "lat": 12.44872
+  },
+  {
+   "code": "TD-KA",
+   "name": "Kanem",
+   "wikidata": "Q849841",
+   "lon": 15.02364,
+   "lat": 15.03933
+  },
+  {
+   "code": "TD-LC",
+   "name": "Lac",
+   "wikidata": "Q867869",
+   "lon": 14.16689,
+   "lat": 13.75991
+  },
+  {
+   "code": "TD-LO",
+   "name": "Logone Occidental",
+   "wikidata": "Q305257",
+   "lon": 15.94279,
+   "lat": 8.74931
+  },
+  {
+   "code": "TD-LR",
+   "name": "Logone Oriental",
+   "wikidata": "Q167514",
+   "lon": 16.46559,
+   "lat": 8.30048
+  },
+  {
+   "code": "TD-MA",
+   "name": "Mandoul",
+   "wikidata": "Q597410",
+   "lon": 17.54652,
+   "lat": 8.71266
+  },
+  {
+   "code": "TD-MC",
+   "name": "Moyen-Chari",
+   "wikidata": "Q177799",
+   "lon": 18.82057,
+   "lat": 9.30958
+  },
+  {
+   "code": "TD-ME",
+   "name": "Mayo-Kebbi Est",
+   "wikidata": "Q911421",
+   "lon": 15.83376,
+   "lat": 10.18585
+  },
+  {
+   "code": "TD-MO",
+   "name": "Mayo-Kebbi Ouest",
+   "wikidata": "Q910393",
+   "lon": 14.85959,
+   "lat": 9.20662
+  },
+  {
+   "code": "TD-ND",
+   "name": "Ville de N'Djamena",
+   "wikidata": "Q3659",
+   "lon": 15.06749,
+   "lat": 12.12379
+  },
+  {
+   "code": "TD-OD",
+   "name": "Ouaddaï",
+   "wikidata": "Q841338",
+   "lon": 21.24132,
+   "lat": 13.5677
+  },
+  {
+   "code": "TD-SA",
+   "name": "Salamat",
+   "wikidata": "Q385584",
+   "lon": 20.68613,
+   "lat": 10.60993
+  },
+  {
+   "code": "TD-SI",
+   "name": "Sila",
+   "wikidata": "Q1149611",
+   "lon": 21.47613,
+   "lat": 12.01242
+  },
+  {
+   "code": "TD-TA",
+   "name": "Tandjilé",
+   "wikidata": "Q867856",
+   "lon": 16.54406,
+   "lat": 9.62107
+  },
+  {
+   "code": "TD-TI",
+   "name": "Tibesti",
+   "wikidata": "Q737711",
+   "lon": 16.6237,
+   "lat": 20.30159
+  },
+  {
+   "code": "TD-WF",
+   "name": "Wadi Fira",
+   "wikidata": "Q860813",
+   "lon": 21.36232,
+   "lat": 14.94685
+  },
+  {
+   "code": "TD-X01~",
+   "name": "Ennedi",
+   "wikidata": "Q748093",
+   "lon": 22.11203,
+   "lat": 18.45092
+  }
+ ],
+ "edges": [
+  {
+   "u": "TD-BA",
+   "v": "TD-BG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 306595,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Batha_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BA",
+   "v": "TD-BO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 298019,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Batha_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BA",
+   "v": "TD-GR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 302129,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Batha_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BA",
+   "v": "TD-HL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 152711
+  },
+  {
+   "u": "TD-BA",
+   "v": "TD-OD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 135033,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Batha_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BA",
+   "v": "TD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39455,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Batha_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BA",
+   "v": "TD-WF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 180120,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Batha_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BG",
+   "v": "TD-BO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 164718,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bahr_el_Gazel_(province_of_Chad)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BG",
+   "v": "TD-HL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 149627
+  },
+  {
+   "u": "TD-BG",
+   "v": "TD-KA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 418467,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bahr_el_Gazel_(province_of_Chad)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BO",
+   "v": "TD-KA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 142669,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Borkou_(region_of_Chad)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BO",
+   "v": "TD-TI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 702242,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Borkou_(region_of_Chad)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BO",
+   "v": "TD-WF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 55543,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Borkou_(region_of_Chad)"
+    }
+   ]
+  },
+  {
+   "u": "TD-BO",
+   "v": "TD-X01~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 630607,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Borkou_(region_of_Chad)"
+    }
+   ]
+  },
+  {
+   "u": "TD-CB",
+   "v": "TD-GR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 130393,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chari-Baguirmi_(province)"
+    }
+   ]
+  },
+  {
+   "u": "TD-CB",
+   "v": "TD-HL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 326797
+  },
+  {
+   "u": "TD-CB",
+   "v": "TD-MC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75074,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chari-Baguirmi_(province)"
+    }
+   ]
+  },
+  {
+   "u": "TD-CB",
+   "v": "TD-ME",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 214175
+  },
+  {
+   "u": "TD-CB",
+   "v": "TD-ND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34552,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chari-Baguirmi_(province)"
+    }
+   ]
+  },
+  {
+   "u": "TD-CB",
+   "v": "TD-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 148021
+  },
+  {
+   "u": "TD-GR",
+   "v": "TD-HL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99818,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Guéra_(province)"
+    }
+   ]
+  },
+  {
+   "u": "TD-GR",
+   "v": "TD-MC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 325792
+  },
+  {
+   "u": "TD-GR",
+   "v": "TD-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 340536,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Guéra_(province)"
+    }
+   ]
+  },
+  {
+   "u": "TD-GR",
+   "v": "TD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127686,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Guéra_(province)"
+    }
+   ]
+  },
+  {
+   "u": "TD-HL",
+   "v": "TD-KA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38206
+  },
+  {
+   "u": "TD-HL",
+   "v": "TD-LC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 195180
+  },
+  {
+   "u": "TD-KA",
+   "v": "TD-LC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 295767
+  },
+  {
+   "u": "TD-LO",
+   "v": "TD-LR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 219996
+  },
+  {
+   "u": "TD-LO",
+   "v": "TD-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71834
+  },
+  {
+   "u": "TD-LO",
+   "v": "TD-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 125088
+  },
+  {
+   "u": "TD-LR",
+   "v": "TD-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 164140,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Logone_Oriental_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-LR",
+   "v": "TD-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7497,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mayo-Kebbi_Ouest"
+    }
+   ]
+  },
+  {
+   "u": "TD-LR",
+   "v": "TD-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75977
+  },
+  {
+   "u": "TD-MA",
+   "v": "TD-MC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 246073
+  },
+  {
+   "u": "TD-MA",
+   "v": "TD-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 114687
+  },
+  {
+   "u": "TD-MC",
+   "v": "TD-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 183385,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Moyen-Chari_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-MC",
+   "v": "TD-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39841,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Moyen-Chari_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-ME",
+   "v": "TD-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136948
+  },
+  {
+   "u": "TD-ME",
+   "v": "TD-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 162331
+  },
+  {
+   "u": "TD-MO",
+   "v": "TD-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18495
+  },
+  {
+   "u": "TD-OD",
+   "v": "TD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 207263,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ouaddaï_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-OD",
+   "v": "TD-WF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 273084,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ouaddaï_(region)"
+    }
+   ]
+  },
+  {
+   "u": "TD-SA",
+   "v": "TD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 360743
+  },
+  {
+   "u": "TD-WF",
+   "v": "TD-X01~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 319102,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wadi_Fira_(region)"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TCD-ADM1-23847190",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

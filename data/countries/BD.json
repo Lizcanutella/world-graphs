@@ -1,0 +1,247 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BD",
+ "kind": "country",
+ "name": "Bangladesh",
+ "level": "division",
+ "n": 7,
+ "m": 10,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BD-A",
+   "name": "Barisal",
+   "wikidata": "Q459723",
+   "lon": 90.28451,
+   "lat": 22.43879
+  },
+  {
+   "code": "BD-B",
+   "name": "Chittagong",
+   "wikidata": "Q158087",
+   "lon": 91.95585,
+   "lat": 22.49763
+  },
+  {
+   "code": "BD-C",
+   "name": "Dhaka",
+   "wikidata": "Q330158",
+   "lon": 90.41951,
+   "lat": 24.13661
+  },
+  {
+   "code": "BD-D",
+   "name": "Khulna",
+   "wikidata": "Q501696",
+   "lon": 89.37531,
+   "lat": 22.90744
+  },
+  {
+   "code": "BD-E",
+   "name": "Rajshahi",
+   "wikidata": "Q379382",
+   "lon": 88.92599,
+   "lat": 24.55578
+  },
+  {
+   "code": "BD-F",
+   "name": "Rangpur",
+   "wikidata": "Q876023",
+   "lon": 88.94723,
+   "lat": 25.88591
+  },
+  {
+   "code": "BD-G",
+   "name": "Sylhet",
+   "wikidata": "Q459732",
+   "lon": 91.68138,
+   "lat": 24.60011
+  }
+ ],
+ "edges": [
+  {
+   "u": "BD-A",
+   "v": "BD-C",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86540
+  },
+  {
+   "u": "BD-A",
+   "v": "BD-D",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62480
+  },
+  {
+   "u": "BD-B",
+   "v": "BD-C",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 119996
+  },
+  {
+   "u": "BD-B",
+   "v": "BD-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57212
+  },
+  {
+   "u": "BD-C",
+   "v": "BD-D",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 185196
+  },
+  {
+   "u": "BD-C",
+   "v": "BD-E",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 201070
+  },
+  {
+   "u": "BD-C",
+   "v": "BD-F",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31640
+  },
+  {
+   "u": "BD-C",
+   "v": "BD-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 140246
+  },
+  {
+   "u": "BD-D",
+   "v": "BD-E",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 82832
+  },
+  {
+   "u": "BD-E",
+   "v": "BD-F",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81889
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BGD-ADM1-32408957",
+  "level": "ADM1",
+  "year": "2015",
+  "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+ }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GM-B"><data key="name">Banjul</data><data key="code">GM-B</data><data key="wikidata">Q3726</data><data key="lon">-16.68327</data><data key="lat">13.42048</data></node>
+    <node id="GM-L"><data key="name">Lower River</data><data key="code">GM-L</data><data key="wikidata">Q824421</data><data key="lon">-15.70643</data><data key="lat">13.40923</data></node>
+    <node id="GM-M"><data key="name">Central River</data><data key="code">GM-M</data><data key="wikidata">Q824431</data><data key="lon">-14.80026</data><data key="lat">13.56928</data></node>
+    <node id="GM-N"><data key="name">North Bank</data><data key="code">GM-N</data><data key="wikidata">Q846161</data><data key="lon">-16.13288</data><data key="lat">13.48892</data></node>
+    <node id="GM-U"><data key="name">Upper River</data><data key="code">GM-U</data><data key="wikidata">Q824373</data><data key="lon">-14.16032</data><data key="lat">13.41587</data></node>
+    <node id="GM-W"><data key="name">West Coast</data><data key="code">GM-W</data><data key="wikidata">Q846158</data><data key="lon">-16.10882</data><data key="lat">13.23441</data></node>
+    <edge source="GM-B" target="GM-W"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GM-L" target="GM-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GM-L" target="GM-W"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GM-M" target="GM-N"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GM-M" target="GM-U"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

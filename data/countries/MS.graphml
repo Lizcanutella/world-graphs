@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MS-A"><data key="name">Saint Anthony</data><data key="code">MS-A</data><data key="wikidata">Q3463656</data><data key="lon">-62.18574</data><data key="lat">16.71243</data></node>
+    <node id="MS-G"><data key="name">Saint Georges</data><data key="code">MS-G</data><data key="wikidata">Q3463799</data><data key="lon">-62.16794</data><data key="lat">16.74944</data></node>
+    <node id="MS-P"><data key="name">Saint Peter</data><data key="code">MS-P</data><data key="wikidata">Q3464018</data><data key="lon">-62.19492</data><data key="lat">16.78575</data></node>
+    <edge source="MS-A" target="MS-G"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MS-A" target="MS-P"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MS-G" target="MS-P"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

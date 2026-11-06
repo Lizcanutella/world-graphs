@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CU" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CU-01"><data key="name">Pinar del Río</data><data key="code">CU-01</data><data key="wikidata">Q115497</data><data key="lon">-83.73428</data><data key="lat">22.39993</data></node>
+    <node id="CU-03"><data key="name">Ciudad de la Habana</data><data key="code">CU-03</data><data key="wikidata">Q12588</data><data key="lon">-82.35055</data><data key="lat">23.07078</data></node>
+    <node id="CU-04"><data key="name">Matanzas</data><data key="code">CU-04</data><data key="wikidata">Q115438</data><data key="lon">-81.08447</data><data key="lat">22.63014</data></node>
+    <node id="CU-05"><data key="name">Villa Clara</data><data key="code">CU-05</data><data key="wikidata">Q115434</data><data key="lon">-79.85214</data><data key="lat">22.50482</data></node>
+    <node id="CU-06"><data key="name">Cienfuegos</data><data key="code">CU-06</data><data key="wikidata">Q115444</data><data key="lon">-80.49284</data><data key="lat">22.20344</data></node>
+    <node id="CU-07"><data key="name">Sancti Spíritus</data><data key="code">CU-07</data><data key="wikidata">Q115441</data><data key="lon">-79.35769</data><data key="lat">22.01837</data></node>
+    <node id="CU-08"><data key="name">Ciego de Ávila</data><data key="code">CU-08</data><data key="wikidata">Q220692</data><data key="lon">-78.59612</data><data key="lat">21.9644</data></node>
+    <node id="CU-09"><data key="name">Camagüey</data><data key="code">CU-09</data><data key="wikidata">Q215147</data><data key="lon">-77.83935</data><data key="lat">21.39624</data></node>
+    <node id="CU-10"><data key="name">Las Tunas</data><data key="code">CU-10</data><data key="wikidata">Q115334</data><data key="lon">-76.8526</data><data key="lat">21.06759</data></node>
+    <node id="CU-11"><data key="name">Holguín</data><data key="code">CU-11</data><data key="wikidata">Q115302</data><data key="lon">-76.23577</data><data key="lat">20.82345</data></node>
+    <node id="CU-12"><data key="name">Granma</data><data key="code">CU-12</data><data key="wikidata">Q115046</data><data key="lon">-76.77843</data><data key="lat">20.30431</data></node>
+    <node id="CU-13"><data key="name">Santiago de Cuba</data><data key="code">CU-13</data><data key="wikidata">Q234200</data><data key="lon">-75.95058</data><data key="lat">20.22663</data></node>
+    <node id="CU-14"><data key="name">Guantánamo</data><data key="code">CU-14</data><data key="wikidata">Q115319</data><data key="lon">-74.80593</data><data key="lat">20.2142</data></node>
+    <node id="CU-15"><data key="name">Artemisa</data><data key="code">CU-15</data><data key="wikidata">Q115325</data><data key="lon">-82.68578</data><data key="lat">22.84504</data></node>
+    <node id="CU-16"><data key="name">Mayabeque</data><data key="code">CU-16</data><data key="wikidata">Q115310</data><data key="lon">-82.06548</data><data key="lat">22.87978</data></node>
+    <node id="CU-99"><data key="name">Isla de la Juventud</data><data key="code">CU-99</data><data key="wikidata">Q115027</data><data key="lon">-82.82343</data><data key="lat">21.69434</data></node>
+    <edge source="CU-01" target="CU-15"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CU-03" target="CU-15"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CU-03" target="CU-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-04" target="CU-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-04" target="CU-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-04" target="CU-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-05" target="CU-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-05" target="CU-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-06" target="CU-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-07" target="CU-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-08" target="CU-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-09" target="CU-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-10" target="CU-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-10" target="CU-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-11" target="CU-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-11" target="CU-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-11" target="CU-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-12" target="CU-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-13" target="CU-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CU-15" target="CU-16"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

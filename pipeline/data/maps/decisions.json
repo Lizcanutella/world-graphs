@@ -1,0 +1,785 @@
+{
+ "description": "Hand decisions the rules in wg.units and wg.decide cannot make. Every entry names its reason and evidence. `relabel` entries set columns on one NE row (`was` must still hold, or the build fails); `edges` entries fix one pair's edge (`edge`: true/false) and must name a candidate pair. Water policy (2026-11-05): borders along rivers count, borders across estuaries, firths and sea do not, and NE's 10m coastline (ocean layer) decides which water is sea. Seeded from overrides.json minus what the rules now reproduce: Ecuador's Napo/Tungurahua swap and 19 of the 38 added edges.",
+ "relabel": [
+  {
+   "ne_id": "1159308669",
+   "set": {
+    "iso_3166_2": "SI-149",
+    "name": "Bistrica ob Sotli"
+   },
+   "was": {
+    "iso_3166_2": "SI-092",
+    "name": "Podcetrtek"
+   },
+   "reason": "NE label swap: polygon at 46.05N 15.65E (Bistrica ob Sotli village); area ratio matches Bistrica/Podcetrtek swapped",
+   "evidence": {
+    "label_swap_test": "Wikidata P47 agreement 4/7 -> 7/7 after swap"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "ne_id": "1159308577",
+   "set": {
+    "iso_3166_2": "SI-092",
+    "name": "Podcetrtek"
+   },
+   "was": {
+    "iso_3166_2": "SI-149",
+    "name": "Bistrica ob Sotli"
+   },
+   "reason": "NE label swap: polygon at 46.14N 15.56E (Podcetrtek), the larger of the two municipalities",
+   "evidence": {
+    "label_swap_test": "Wikidata P47 agreement 4/7 -> 7/7 after swap"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "ne_id": "1159313163",
+   "was": {
+    "iso_3166_2": "RU-MOW",
+    "name": "Moskovskaya"
+   },
+   "set": {
+    "iso_3166_2": "RU-MOS",
+    "name": "Moskovskaya"
+   },
+   "reason": "NE code swap: the 44,000 km2 Moscow Oblast row (type Region, NE wikidataid Q1697 Moscow Oblast) carries Moscow city's code RU-MOW, and the 2,854 km2 city row (type Federal City, Q649 Moscow) carries the oblast's RU-MOS. Names and NE's own Wikidata items are right; only the codes are swapped. The rule (wg.units) cannot see it because Wikidata's point for Moscow Oblast lies in the city.",
+   "evidence": {
+    "ne_wikidataid": "Q1697",
+    "type_en": "Region",
+    "area_km2": 44002
+   },
+   "from": "2026-11-05 export check"
+  },
+  {
+   "ne_id": "1159313165",
+   "was": {
+    "iso_3166_2": "RU-MOS",
+    "name": "Moskva"
+   },
+   "set": {
+    "iso_3166_2": "RU-MOW",
+    "name": "Moskva"
+   },
+   "reason": "NE code swap: the 44,000 km2 Moscow Oblast row (type Region, NE wikidataid Q1697 Moscow Oblast) carries Moscow city's code RU-MOW, and the 2,854 km2 city row (type Federal City, Q649 Moscow) carries the oblast's RU-MOS. Names and NE's own Wikidata items are right; only the codes are swapped. The rule (wg.units) cannot see it because Wikidata's point for Moscow Oblast lies in the city.",
+   "evidence": {
+    "ne_wikidataid": "Q649",
+    "type_en": "Federal City",
+    "area_km2": 2854
+   },
+   "from": "2026-11-05 export check"
+  }
+ ],
+ "edges": [
+  {
+   "iso": "LI",
+   "u": "LI-02",
+   "v": "LI-07",
+   "edge": true,
+   "labels": [
+    "Eschen",
+    "Schaan"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 5.07
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "LI",
+   "u": "LI-03",
+   "v": "LI-05",
+   "edge": true,
+   "labels": [
+    "Gamprin",
+    "Planken"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 5.56
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "LI",
+   "u": "LI-05",
+   "v": "LI-11",
+   "edge": true,
+   "labels": [
+    "Planken",
+    "Vaduz"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 21.1
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "MD",
+   "u": "MD-CR",
+   "v": "MD-GRI",
+   "edge": true,
+   "labels": [
+    "Criuleni",
+    "Grigoriopol"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 7.33
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "CO",
+   "u": "CO-DC",
+   "v": "CO-HUI",
+   "edge": true,
+   "labels": [
+    "Bogota",
+    "Huila"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 4.75
+   },
+   "from": "overrides.json (2026-09-27 review)",
+   "note": "vertex CO-CUN:Bogota is now CO-DC (rule relabel: Bogota's ISO code)"
+  },
+  {
+   "iso": "SI",
+   "u": "SI-080",
+   "v": "SI-188",
+   "edge": true,
+   "labels": [
+    "Murska Sobota",
+    "Veržej"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 2.71
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "LI",
+   "u": "LI-01",
+   "v": "LI-11",
+   "edge": true,
+   "labels": [
+    "Balzers",
+    "Vaduz"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 2.17
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "GB",
+   "u": "GB-BEN",
+   "v": "GB-KEC",
+   "edge": true,
+   "labels": [
+    "Brent",
+    "Kensington and Chelsea"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 1.38
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "GB",
+   "u": "GB-KTT",
+   "v": "GB-WND",
+   "edge": true,
+   "labels": [
+    "Kingston upon Thames",
+    "Wandsworth"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 1.14
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "MT",
+   "u": "MT-25",
+   "v": "MT-59",
+   "edge": true,
+   "labels": [
+    "Luqa",
+    "Tarxien"
+   ],
+   "reason": "collapsed_border",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 1.02
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "CO",
+   "u": "CO-BOY",
+   "v": "CO-MET",
+   "edge": true,
+   "labels": [
+    "Boyacá",
+    "Meta"
+   ],
+   "reason": "collapsed_quadripoint",
+   "evidence": {
+    "ne_contact": "point (0 m shared); NE, geoBoundaries ADM1 and OSM all meet Boyacá, Casanare, Cundinamarca and Meta at one quadripoint",
+    "wikidata_p47": false,
+    "geoboundaries_border_km": 0.0,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Boyacá_Department",
+      "quote": "to the south Cundinamarca and a small part of Meta"
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/San_Luis_de_Gaceno",
+      "quote": "San Luis Gaceno está delimitada por municipios de su departamento al norte y oeste, Cundinamarca y Meta al sur y al este con Casanare."
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/Villanueva_(Casanare)",
+      "quote": "al sur y occidente con el departamento del Meta, siendo los ríos Upía y Meta sus límites naturales"
+     }
+    ],
+    "note": "a real quadripoint is rare; of the two diagonals, Boyacá-Meta is the real (short) border: the Boyacá municipality at the corner touches Meta, while the Casanare one touches Meta but not Cundinamarca. Reported by the maintainer on 2026-10-02"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "BR",
+   "u": "BR-DF",
+   "v": "BR-MG",
+   "edge": true,
+   "labels": [
+    "Distrito Federal",
+    "Minas Gerais"
+   ],
+   "reason": "collapsed_point_contact",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 0.0,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Federal_District_(Brazil)",
+      "quote": "The Federal District shares a small border with [[Minas Gerais]] and is otherwise surrounded by the state of [[Goiás]]."
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "XK",
+   "u": "XK-X08~",
+   "v": "XK-X17~",
+   "edge": true,
+   "labels": [
+    "Klina",
+    "Orahovac"
+   ],
+   "reason": "collapsed_quadripoint",
+   "evidence": {
+    "ne_contact": "point (0 m shared); one diagonal of a four-way point, the opposite diagonal is not listed as neighbours",
+    "wikidata_p47": false,
+    "geoboundaries_border_km": 3.97,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Rahovec",
+      "quote": "To the north, it shortly borders [[Klina]], to the northeast [[Malisheva]], to the southeast [[Suhareka]] and [[Mamusha]], to the south [[Prizren]], and to the west [[Gjakova]]."
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "TH",
+   "u": "TH-16",
+   "v": "TH-36",
+   "edge": true,
+   "labels": [
+    "Lop Buri",
+    "Chaiyaphum"
+   ],
+   "reason": "collapsed_quadripoint",
+   "evidence": {
+    "ne_contact": "point (0 m shared); one diagonal of a four-way point, the opposite diagonal is not listed as neighbours",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 0.78,
+    "wikipedia": [
+     {
+      "url": "https://th.wikipedia.org/wiki/จังหวัดลพบุรี",
+      "quote": "จังหวัดลพบุรีมีพื้นที่ติดต่อกับจังหวัดต่าง ๆ 8 จังหวัดดังนี้ ทิศเหนือ ติดกับ[[จังหวัดเพชรบูรณ์]] ทิศตะวันออก ติดกับ[[จังหวัดชัยภูมิ]]และ[[จังหวัดนครราชสีมา]]"
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "TR",
+   "u": "TR-47",
+   "v": "TR-56",
+   "edge": true,
+   "labels": [
+    "Mardin",
+    "Siirt"
+   ],
+   "reason": "collapsed_quadripoint",
+   "evidence": {
+    "ne_contact": "point (0 m shared); one diagonal of a four-way point, the opposite diagonal is not listed as neighbours",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 0.77,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Siirt_Province",
+      "quote": "The province borders [[Bitlis Province|Bitlis]] to the north, [[Batman Province|Batman]] to the west, [[Mardin Province|Mardin]] to the southwest, [[Şırnak Province|Şırnak]] to the south, and [[Van Province|Van]] to the east."
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "QA",
+   "u": "QA-DA",
+   "v": "QA-US",
+   "edge": true,
+   "labels": [
+    "Ad Dawhah",
+    "Umm Salal"
+   ],
+   "reason": "collapsed_quadripoint",
+   "evidence": {
+    "ne_contact": "point (0 m shared); one diagonal of a four-way point, the opposite diagonal is not listed as neighbours",
+    "wikidata_p47": false,
+    "geoboundaries_border_km": 1.87,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Umm_Salal",
+      "quote": "Umm Salal shares land borders with [[Ad-Dawhah (municipality)|Doha]] to the southeast, [[Al Rayyan]] to the south, [[Al-Shahaniya]] to the west, [[Al Khor]] to the north, and [[Al Daayen]] to the east."
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "SI",
+   "u": "SI-034",
+   "v": "SI-190",
+   "edge": true,
+   "labels": [
+    "Hrastnik",
+    "Žalec"
+   ],
+   "reason": "collapsed_quadripoint",
+   "evidence": {
+    "ne_contact": "point (0 m shared); one diagonal of a four-way point, the opposite diagonal is not listed as neighbours",
+    "wikidata_p47": false,
+    "geoboundaries_border_km": 1.3,
+    "wikipedia": [
+     {
+      "url": "https://sl.wikipedia.org/wiki/Občina_Hrastnik",
+      "quote": "Na zahodu meji na občino [[Občina Trbovlje|Trbovlje]], na jugu na [[občina Radeče|Radeče]], na vzhodu na [[Občina Laško|Laško]], ter na severu na [[Občina Žalec|Žalec]]."
+     },
+     {
+      "url": "https://sl.wikipedia.org/wiki/Občina_Žalec",
+      "quote": "Občina meji na severu na [[Mestna občina Velenje|mestno občino Velenje]], na vzhodu na občino [[Dobrna]] in Mestno občino [[Celje]], na jugu na občini [[Laško]] in [[Hrastnik]], na zahodu pa na občini [[Prebold]] in [[Polzela]]."
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "AD",
+   "u": "AD-03",
+   "v": "AD-05",
+   "edge": true,
+   "labels": [
+    "Encamp",
+    "Ordino"
+   ],
+   "reason": "collapsed_point_contact",
+   "evidence": {
+    "ne_contact": "point (0 m shared)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 0.91,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Ordino",
+      "quote": "The parish has borders with France ([[Occitania]]) and also with the parishes of [[La Massana]], [[Canillo]], and [[Encamp]]."
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "BT",
+   "u": "BT-34",
+   "v": "BT-43",
+   "edge": true,
+   "labels": [
+    "Shemgang",
+    "Pemagatsel"
+   ],
+   "reason": "collapsed_quadripoint",
+   "evidence": {
+    "ne_contact": "point (0 m shared); one diagonal of a four-way point, the opposite diagonal is not listed as neighbours",
+    "wikidata_p47": false,
+    "geoboundaries_border_km": 1.77,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Zhemgang_District",
+      "quote": "It is bordered by [[Sarpang District|Sarpang]], [[Trongsa District|Trongsa]], [[Bumthang District|Bumthang]], [[Mongar District|Mongar]] and [[Pemagatshel District]]s, and borders [[Assam]] in [[India]] to the south."
+     }
+    ],
+    "note": "below the collapsed-border rule (needs Wikidata P47 and >= 1 km of geoBoundaries border; gB lengths under ~1 km near a point contact are buffer noise); confirmed by a reviewed neighbour list, see review/pc_review_2026-10-02.json"
+   },
+   "from": "overrides.json (2026-09-27 review)"
+  },
+  {
+   "iso": "GB",
+   "u": "GB-KEN",
+   "v": "GB-THR",
+   "edge": true,
+   "labels": [
+    "Kent",
+    "Thurrock"
+   ],
+   "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap",
+   "evidence": {
+    "note": "opposite banks of the Thames estuary; NE polygons meet mid-estuary (13 km)",
+    "geoboundaries": "no border",
+    "wikidata_p47": false
+   },
+   "from": "wg triage 2026-11-05: water policy (rivers count, estuaries and sea do not; NE's 10m coastline decides which is which)",
+   "previously": "removed as 'water' in overrides.json (2026-09-27), before the policy"
+  },
+  {
+   "iso": "GB",
+   "u": "GB-BNS",
+   "v": "GB-DBY",
+   "edge": true,
+   "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree",
+   "evidence": {
+    "ne": "point",
+    "ne_len_m": 0.0,
+    "gb": "yes",
+    "gb_len_m": 5234.3,
+    "gb_gap_m": 0.0,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Metropolitan_Borough_of_Barnsley",
+      "quote": "The neighbouring districts are [[City of Doncaster|Doncaster]], [[Metropolitan Borough of Rotherham|Rotherham]], [[City of Sheffield|Sheffield]], [[High Peak, Derbyshire|High Peak]], [[Kirklees]] and [[City of Wakefield|Wakefield]]."
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "GT",
+   "u": "GT-BV",
+   "v": "GT-CM",
+   "edge": true,
+   "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree",
+   "evidence": {
+    "ne": "point",
+    "ne_len_m": 0.0,
+    "gb": "yes",
+    "gb_len_m": 1461.1,
+    "gb_gap_m": 0.0,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Chimaltenango_Department",
+      "quote": "Located to the east are [[Guatemala Department]], home to [[Guatemala City]], and [[Sacatepéquez Department]], while also bordered by [[Quiché Department]] and [[Baja Verapaz Department]] to the north, [[Escuintla Department]] and [[Suchitepéquez Department]] to the south, and [[Sololá Department]] "
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/Departamento_de_Chimaltenango",
+      "quote": "Limita al norte con los departamentos de [[El Quiché]] y [[Baja Verapaz]]; al este con [[Guatemala (Departamento)|Guatemala]] y [[Sacatepéquez]]; al sur con [[Escuintla (Guatemala)|Escuintla]] y [[Suchitepéquez]], y al oeste con [[Sololá]]."
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "MA",
+   "u": "MA-02",
+   "v": "MA-05",
+   "edge": true,
+   "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree",
+   "evidence": {
+    "ne": "point",
+    "ne_len_m": 0.0,
+    "gb": "yes",
+    "gb_len_m": 2232.6,
+    "gb_gap_m": 0.0,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Gharb-Chrarda-Beni_Hssen",
+      "quote": "L'ancienne région de Gharb-Chrarda-Beni Hssen était limitée au nord par la région de [[Tanger-Tétouan]], au nord-est par la région de [[Taza-Al Hoceima-Taounate]], au sud-est par les régions de [[Fès-Boulmane]] et de [[Meknès-Tafilalet]], au sud par la région de [[Rabat-Salé-Zemmour-Zaër]] et à l'ou"
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "MT",
+   "u": "MT-03",
+   "v": "MT-64",
+   "edge": true,
+   "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree",
+   "evidence": {
+    "ne": "point",
+    "ne_len_m": 0.0,
+    "gb": "yes",
+    "gb_len_m": 868.5,
+    "gb_gap_m": 0.0,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/%C5%BBabbar",
+      "quote": "Ħaż-Żabbar is bound to the north by [[Kalkara]] and [[Xgħajra]], to the west by [[Fgura]] and the [[Cottonera Lines]] (enclosing the localities of [[Vittoriosa]] and [[Cospicua]]), to the east by [[Marsaskala]] and to the south by [[Żejtun]]."
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "NG",
+   "u": "NG-AN",
+   "v": "NG-ED",
+   "edge": true,
+   "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree",
+   "evidence": {
+    "ne": "point",
+    "ne_len_m": 0.0,
+    "gb": "yes",
+    "gb_len_m": 6441.1,
+    "gb_gap_m": 0.0,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Anambra_State",
+      "quote": "Boundaries are formed by [[Delta State]] and [[Edo State]] to the west for about 97&nbsp;km across the [[River Niger]], [[Imo State]] and [[Rivers State]] (for four km) to the south, [[Abia State]] to the southeast for 18&nbsp;km, [[Enugu State]] to the east for 139&nbsp;km, and [[Kogi State]] to th"
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "UG",
+   "u": "UG-314",
+   "v": "UG-318",
+   "edge": true,
+   "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree",
+   "evidence": {
+    "ne": "point",
+    "ne_len_m": 0.0,
+    "gb": "yes",
+    "gb_len_m": 12860.9,
+    "gb_gap_m": 0.0,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amolatar_District",
+      "quote": "Amolatar [[District]] is bordered by [[Apac District]] to the north, [[Dokolo District]] to the northeast, [[Kaberamaido District]] to the east, [[Buyende District]] to the southeast, [[Kayunga District]] to the south and [[Nakasongola District]] to the west."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Dokolo_District",
+      "quote": "Dokolo District is bordered by [[Lira District]] to the northwest, [[Alebtong District]] to the northeast, [[Kaberamaido District]] to the east and south, [[Amolatar District]] to the southwest, and [[Kwania District|Kwania district]] to the west."
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "AD",
+   "u": "AD-04",
+   "v": "AD-06",
+   "edge": false,
+   "reason": "false_border: gB shows the units apart and Wikipedia's neighbour list omits the pair",
+   "evidence": {
+    "ne": "yes",
+    "ne_len_m": 3474.3,
+    "gb": "no",
+    "gb_len_m": 0.0,
+    "gb_gap_m": 891.7,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/La_Massana",
+      "quote": "adjoins the neighbouring parishes of Ordino, Encamp, Escaldes-Engordany, and Andorra la Vella.",
+      "quote_verified": true
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "LR",
+   "u": "LR-NI",
+   "v": "LR-SI",
+   "edge": false,
+   "reason": "false_border: gB shows the units apart and Wikipedia's neighbour list omits the pair",
+   "evidence": {
+    "ne": "yes",
+    "ne_len_m": 22349.8,
+    "gb": "no",
+    "gb_len_m": 0.0,
+    "gb_gap_m": 813.6,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Nimba_County",
+      "quote": "bordered by Bong and Grand Bassa counties to the west, Rivercess County to the southwest, and Grand Gedeh County to the southeast",
+      "quote_verified": true
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "TR",
+   "u": "TR-34",
+   "v": "TR-39",
+   "edge": true,
+   "reason": "real_border: gB reads only a point, but Wikipedia names the pair as neighbours and NE draws 6.7 km",
+   "evidence": {
+    "ne": "yes",
+    "ne_len_m": 6701.4,
+    "gb": "no",
+    "gb_len_m": 101.4,
+    "gb_gap_m": 0.0,
+    "wikidata_p47": false,
+    "wikipedia": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Kırklareli_Province",
+      "quote": "It borders the province of Edirne to the west, the province of Tekirdağ to the south, and the province of Istanbul to the southeast.",
+      "quote_verified": true
+     }
+    ]
+   },
+   "from": "wg triage 2026-11-04 (archived first-review evidence, no new fetches)"
+  },
+  {
+   "iso": "GB",
+   "u": "GB-BEX",
+   "v": "GB-HAV",
+   "edge": true,
+   "labels": [
+    "Bexley",
+    "Havering"
+   ],
+   "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap",
+   "from": "wg triage 2026-11-05: water policy (rivers count, estuaries and sea do not; NE's 10m coastline decides which is which)"
+  },
+  {
+   "iso": "GB",
+   "u": "GB-BEX",
+   "v": "GB-THR",
+   "edge": true,
+   "labels": [
+    "Bexley",
+    "Thurrock"
+   ],
+   "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap",
+   "from": "wg triage 2026-11-05: water policy (rivers count, estuaries and sea do not; NE's 10m coastline decides which is which)"
+  },
+  {
+   "iso": "GB",
+   "u": "GB-GRE",
+   "v": "GB-NWM",
+   "edge": true,
+   "labels": [
+    "Greenwich",
+    "Newham"
+   ],
+   "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap",
+   "from": "wg triage 2026-11-05: water policy (rivers count, estuaries and sea do not; NE's 10m coastline decides which is which)"
+  },
+  {
+   "iso": "BS",
+   "u": "BS-MC",
+   "v": "BS-SA",
+   "edge": true,
+   "labels": [
+    "Mangrove Cay",
+    "South Andros"
+   ],
+   "reason": "no sea between them on NE's coastline (10 km shared); geoBoundaries' 64 m gap is within generalisation",
+   "from": "wg triage 2026-11-05: water policy (rivers count, estuaries and sea do not; NE's 10m coastline decides which is which)"
+  },
+  {
+   "iso": "US",
+   "u": "US-DE",
+   "v": "US-NJ",
+   "edge": true,
+   "labels": [
+    "Delaware",
+    "New Jersey"
+   ],
+   "reason": "land_border: Delaware owns land on the New Jersey shore (Finns Point, Artificial Island; New Jersey v. Delaware, 1934). The sea rule takes most of gB's border off as bay, leaving 0.5 km, and NE draws the river boundary only",
+   "evidence": {
+    "ne_contact": "none (1.49 km gap)",
+    "wikidata_p47": true,
+    "geoboundaries_border_km": 3.31,
+    "note": "Delaware owns land on the New Jersey shore at Finns Point / Artificial Island (New Jersey v. Delaware, 1934); NE draws the river boundary only"
+   },
+   "from": "wg triage 2026-11-05: water policy"
+  },
+  {
+   "iso": "CA",
+   "u": "CA-NU",
+   "v": "CA-ON",
+   "edge": false,
+   "labels": [
+    "Nunavut",
+    "Ontario"
+   ],
+   "reason": "sea: Nunavut's Hudson and James Bay islands lie offshore. 17.4 of gB's 20.3 km is over NE's ocean, and the remaining 2.9 km is shoreline where NE's ocean stops short of gB's coast. Wikidata P47 includes maritime neighbours",
+   "evidence": {
+    "ne_gap_m": 14782.4,
+    "gb_len_m": 20285.9,
+    "gb_sea_m": 17352.4,
+    "wikidata_p47": true
+   },
+   "from": "wg triage 2026-11-05: water policy"
+  }
+ ]
+}

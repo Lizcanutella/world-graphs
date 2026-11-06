@@ -1,0 +1,187 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GL",
+ "kind": "country",
+ "name": "Greenland",
+ "level": "municipalities",
+ "n": 6,
+ "m": 7,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GL-KU",
+   "name": "Kommune Kujalleq",
+   "wikidata": "Q478813",
+   "lon": -44.72958,
+   "lat": 61.37169
+  },
+  {
+   "code": "GL-QA",
+   "name": "Qaasuitsup Kommunia",
+   "wikidata": "Q641460",
+   "lon": -50.26406,
+   "lat": 74.36164
+  },
+  {
+   "code": "GL-QE",
+   "name": "Qeqqata Kommunia",
+   "wikidata": "Q476233",
+   "lon": -48.50032,
+   "lat": 66.17109
+  },
+  {
+   "code": "GL-SM",
+   "name": "Kommuneqarfik Sermersooq",
+   "wikidata": "Q695387",
+   "lon": -41.00102,
+   "lat": 66.04049
+  },
+  {
+   "code": "GL-UO:Nationalparken",
+   "name": "Nationalparken",
+   "wikidata": "Q309276",
+   "lon": -31.83064,
+   "lat": 77.3133
+  },
+  {
+   "code": "GL-UO:Pituffik",
+   "name": "Pituffik",
+   "wikidata": "Q1991632",
+   "lon": -68.57291,
+   "lat": 76.45503
+  }
+ ],
+ "edges": [
+  {
+   "u": "GL-KU",
+   "v": "GL-SM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 328867
+  },
+  {
+   "u": "GL-QA",
+   "v": "GL-QE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 261719
+  },
+  {
+   "u": "GL-QA",
+   "v": "GL-SM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 384858
+  },
+  {
+   "u": "GL-QA",
+   "v": "GL-UO:Nationalparken",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1293290,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "GL-QA",
+   "v": "GL-UO:Pituffik",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 92442
+  },
+  {
+   "u": "GL-QE",
+   "v": "GL-SM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 647439
+  },
+  {
+   "u": "GL-SM",
+   "v": "GL-UO:Nationalparken",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 849773,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GRL-ADM1-42512837",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 Unported"
+ }
+}

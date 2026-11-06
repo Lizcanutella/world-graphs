@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MD" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MD-AN"><data key="name">Anenii Noi</data><data key="code">MD-AN</data><data key="wikidata">Q769224</data><data key="lon">29.1213</data><data key="lat">46.94823</data></node>
+    <node id="MD-BA"><data key="name">Bălţi</data><data key="code">MD-BA</data><data key="wikidata">Q29017181</data><data key="lon">27.95352</data><data key="lat">47.76007</data></node>
+    <node id="MD-BD"><data key="name">Bender</data><data key="code">MD-BD</data><data key="wikidata">Q18088065</data><data key="lon">29.74902</data><data key="lat">46.75795</data></node>
+    <node id="MD-BR"><data key="name">Briceni</data><data key="code">MD-BR</data><data key="wikidata">Q753795</data><data key="lon">27.01954</data><data key="lat">48.26054</data></node>
+    <node id="MD-BS"><data key="name">Basarabeasca</data><data key="code">MD-BS</data><data key="wikidata">Q1980044</data><data key="lon">28.84009</data><data key="lat">46.35654</data></node>
+    <node id="MD-CA"><data key="name">Cahul</data><data key="code">MD-CA</data><data key="wikidata">Q2128882</data><data key="lon">28.2285</data><data key="lat">45.78758</data></node>
+    <node id="MD-CAM"><data key="name">Camenca</data><data key="code">MD-CAM</data><data key="wikidata"></data><data key="lon">28.66541</data><data key="lat">47.99884</data></node>
+    <node id="MD-CL"><data key="name">Călărași</data><data key="code">MD-CL</data><data key="wikidata">Q2128868</data><data key="lon">28.30909</data><data key="lat">47.29758</data></node>
+    <node id="MD-CM"><data key="name">Cimişlia</data><data key="code">MD-CM</data><data key="wikidata">Q286646</data><data key="lon">28.86546</data><data key="lat">46.61647</data></node>
+    <node id="MD-CR"><data key="name">Criuleni</data><data key="code">MD-CR</data><data key="wikidata">Q2128862</data><data key="lon">28.95079</data><data key="lat">47.153</data></node>
+    <node id="MD-CS"><data key="name">Causeni</data><data key="code">MD-CS</data><data key="wikidata">Q2128869</data><data key="lon">29.29527</data><data key="lat">46.60199</data></node>
+    <node id="MD-CT"><data key="name">Cantemir</data><data key="code">MD-CT</data><data key="wikidata">Q684183</data><data key="lon">28.31487</data><data key="lat">46.25387</data></node>
+    <node id="MD-CU"><data key="name">Chişinău</data><data key="code">MD-CU</data><data key="wikidata">Q17176229</data><data key="lon">28.85168</data><data key="lat">47.04821</data></node>
+    <node id="MD-DO"><data key="name">Donduseni</data><data key="code">MD-DO</data><data key="wikidata">Q1061128</data><data key="lon">27.74942</data><data key="lat">48.21865</data></node>
+    <node id="MD-DR"><data key="name">Drochia</data><data key="code">MD-DR</data><data key="wikidata">Q865594</data><data key="lon">27.86733</data><data key="lat">48.03504</data></node>
+    <node id="MD-ED"><data key="name">Edineţ</data><data key="code">MD-ED</data><data key="wikidata">Q878290</data><data key="lon">27.3047</data><data key="lat">48.12921</data></node>
+    <node id="MD-FA"><data key="name">Făleşti</data><data key="code">MD-FA</data><data key="wikidata">Q878375</data><data key="lon">27.69374</data><data key="lat">47.56544</data></node>
+    <node id="MD-FL"><data key="name">Floreşti</data><data key="code">MD-FL</data><data key="wikidata">Q865726</data><data key="lon">28.27978</data><data key="lat">47.85142</data></node>
+    <node id="MD-GA"><data key="name">Comrat</data><data key="code">MD-GA</data><data key="wikidata">Q164819</data><data key="lon">28.66823</data><data key="lat">46.23157</data></node>
+    <node id="MD-GL"><data key="name">Glodeni</data><data key="code">MD-GL</data><data key="wikidata">Q860716</data><data key="lon">27.52421</data><data key="lat">47.722</data></node>
+    <node id="MD-GRI"><data key="name">Grigoriopol</data><data key="code">MD-GRI</data><data key="wikidata"></data><data key="lon">29.42043</data><data key="lat">47.13684</data></node>
+    <node id="MD-HI"><data key="name">Hîncesti</data><data key="code">MD-HI</data><data key="wikidata">Q878297</data><data key="lon">28.42938</data><data key="lat">46.8288</data></node>
+    <node id="MD-IA"><data key="name">Ialoveni</data><data key="code">MD-IA</data><data key="wikidata">Q2128964</data><data key="lon">28.77971</data><data key="lat">46.92327</data></node>
+    <node id="MD-LE"><data key="name">Leova</data><data key="code">MD-LE</data><data key="wikidata">Q1826662</data><data key="lon">28.40643</data><data key="lat">46.55483</data></node>
+    <node id="MD-NI"><data key="name">Nisporeni</data><data key="code">MD-NI</data><data key="wikidata">Q878266</data><data key="lon">28.18587</data><data key="lat">47.07811</data></node>
+    <node id="MD-OC"><data key="name">Ocniţa</data><data key="code">MD-OC</data><data key="wikidata">Q266444</data><data key="lon">27.55158</data><data key="lat">48.36216</data></node>
+    <node id="MD-OR"><data key="name">Orhei</data><data key="code">MD-OR</data><data key="wikidata">Q2112462</data><data key="lon">28.77191</data><data key="lat">47.39863</data></node>
+    <node id="MD-RE"><data key="name">Rezina</data><data key="code">MD-RE</data><data key="wikidata">Q878317</data><data key="lon">28.93174</data><data key="lat">47.72652</data></node>
+    <node id="MD-RI"><data key="name">Rîşcani</data><data key="code">MD-RI</data><data key="wikidata">Q611656</data><data key="lon">27.45039</data><data key="lat">47.9335</data></node>
+    <node id="MD-SD"><data key="name">Şoldăneşti</data><data key="code">MD-SD</data><data key="wikidata">Q865639</data><data key="lon">28.80972</data><data key="lat">47.85373</data></node>
+    <node id="MD-SI"><data key="name">Sîngerei</data><data key="code">MD-SI</data><data key="wikidata">Q1796621</data><data key="lon">28.20567</data><data key="lat">47.6655</data></node>
+    <node id="MD-SN:Stîngă Nistrului"><data key="name">Stîngă Nistrului</data><data key="code">MD-SN:Stîngă Nistrului</data><data key="wikidata">Q648767</data><data key="lon">29.26567</data><data key="lat">47.28313</data></node>
+    <node id="MD-SN:Transnistria"><data key="name">Transnistria</data><data key="code">MD-SN:Transnistria</data><data key="wikidata">Q648767</data><data key="lon">29.16273</data><data key="lat">47.25365</data></node>
+    <node id="MD-SO"><data key="name">Soroca</data><data key="code">MD-SO</data><data key="wikidata">Q2129022</data><data key="lon">28.18236</data><data key="lat">48.15325</data></node>
+    <node id="MD-ST"><data key="name">Străşeni</data><data key="code">MD-ST</data><data key="wikidata">Q878308</data><data key="lon">28.57314</data><data key="lat">47.17198</data></node>
+    <node id="MD-SV"><data key="name">Ștefan Vodă</data><data key="code">MD-SV</data><data key="wikidata">Q2129061</data><data key="lon">29.66402</data><data key="lat">46.53575</data></node>
+    <node id="MD-TA"><data key="name">Taraclia</data><data key="code">MD-TA</data><data key="wikidata">Q865884</data><data key="lon">28.52802</data><data key="lat">45.9735</data></node>
+    <node id="MD-TE"><data key="name">Teleneşti</data><data key="code">MD-TE</data><data key="wikidata">Q2129025</data><data key="lon">28.53735</data><data key="lat">47.58611</data></node>
+    <node id="MD-UN"><data key="name">Ungheni</data><data key="code">MD-UN</data><data key="wikidata">Q854443</data><data key="lon">27.89747</data><data key="lat">47.24141</data></node>
+    <edge source="MD-AN" target="MD-BD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-AN" target="MD-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-AN" target="MD-CS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-AN" target="MD-CU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-AN" target="MD-GRI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-AN" target="MD-IA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BA" target="MD-FA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BA" target="MD-GL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BA" target="MD-RI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BA" target="MD-SI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BD" target="MD-CS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-BD" target="MD-GRI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-BD" target="MD-SV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-BR" target="MD-ED"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BR" target="MD-OC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BS" target="MD-CM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BS" target="MD-GA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-BS" target="MD-TA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-CA" target="MD-CT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CA" target="MD-GA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CA" target="MD-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CAM" target="MD-FL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-CAM" target="MD-RE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-CAM" target="MD-SD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-CAM" target="MD-SO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-CL" target="MD-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CL" target="MD-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CL" target="MD-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CL" target="MD-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CL" target="MD-UN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CM" target="MD-CS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CM" target="MD-GA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CM" target="MD-HI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CM" target="MD-IA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CM" target="MD-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CR" target="MD-CU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CR" target="MD-GRI"><data key="sources">hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CR" target="MD-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CR" target="MD-SN:Stîngă Nistrului"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CR" target="MD-SN:Transnistria"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CR" target="MD-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CS" target="MD-IA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CS" target="MD-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CT" target="MD-GA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CT" target="MD-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CU" target="MD-IA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-CU" target="MD-ST"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DO" target="MD-DR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DO" target="MD-ED"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DO" target="MD-OC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DO" target="MD-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DO" target="MD-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DR" target="MD-FL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DR" target="MD-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DR" target="MD-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-DR" target="MD-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-ED" target="MD-OC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-ED" target="MD-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-FA" target="MD-GL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-FA" target="MD-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-FA" target="MD-UN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-FL" target="MD-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-FL" target="MD-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-FL" target="MD-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-FL" target="MD-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-GA" target="MD-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-GA" target="MD-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-GL" target="MD-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-GRI" target="MD-SN:Stîngă Nistrului"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-HI" target="MD-IA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-HI" target="MD-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-HI" target="MD-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-HI" target="MD-ST"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="MD-IA" target="MD-NI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-IA" target="MD-ST"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-NI" target="MD-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-NI" target="MD-UN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-OR" target="MD-RE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-OR" target="MD-SN:Stîngă Nistrului"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-OR" target="MD-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-OR" target="MD-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-RE" target="MD-SD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-RE" target="MD-SN:Stîngă Nistrului"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-RE" target="MD-TE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MD-RI" target="MD-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-SD" target="MD-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-SI" target="MD-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-SI" target="MD-UN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MD-SN:Stîngă Nistrului" target="MD-SN:Transnistria"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MD-TE" target="MD-UN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

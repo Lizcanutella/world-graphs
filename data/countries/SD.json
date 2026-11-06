@@ -1,0 +1,777 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SD",
+ "kind": "country",
+ "name": "Sudan",
+ "level": "states",
+ "n": 17,
+ "m": 33,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SD-DC",
+   "name": "Central Darfur",
+   "wikidata": "Q4116493",
+   "lon": 23.31353,
+   "lat": 12.1742
+  },
+  {
+   "code": "SD-DE",
+   "name": "Eastern Darfur",
+   "wikidata": "Q3545641",
+   "lon": 26.35916,
+   "lat": 11.28768
+  },
+  {
+   "code": "SD-DN",
+   "name": "North Darfur",
+   "wikidata": "Q688306",
+   "lon": 25.49583,
+   "lat": 15.8958
+  },
+  {
+   "code": "SD-DS",
+   "name": "Southern Darfur",
+   "wikidata": "Q838778",
+   "lon": 24.44235,
+   "lat": 10.95622
+  },
+  {
+   "code": "SD-DW",
+   "name": "Western Darfur",
+   "wikidata": "Q846331",
+   "lon": 22.8893,
+   "lat": 13.89425
+  },
+  {
+   "code": "SD-GD",
+   "name": "Gedarif",
+   "wikidata": "Q309478",
+   "lon": 35.21038,
+   "lat": 14.18844
+  },
+  {
+   "code": "SD-GZ",
+   "name": "Gezira",
+   "wikidata": "Q309469",
+   "lon": 33.29635,
+   "lat": 14.47036
+  },
+  {
+   "code": "SD-KA",
+   "name": "Kassala",
+   "wikidata": "Q954963",
+   "lon": 35.50042,
+   "lat": 15.91643
+  },
+  {
+   "code": "SD-KH",
+   "name": "Khartoum",
+   "wikidata": "Q310385",
+   "lon": 32.79879,
+   "lat": 15.92334
+  },
+  {
+   "code": "SD-KN",
+   "name": "North Kordufan",
+   "wikidata": "Q864093",
+   "lon": 29.52415,
+   "lat": 14.01652
+  },
+  {
+   "code": "SD-KS",
+   "name": "South Kordufan",
+   "wikidata": "Q465490",
+   "lon": 29.84185,
+   "lat": 11.02544
+  },
+  {
+   "code": "SD-NB",
+   "name": "Blue Nile",
+   "wikidata": "Q309489",
+   "lon": 34.05022,
+   "lat": 11.05961
+  },
+  {
+   "code": "SD-NO",
+   "name": "Northern",
+   "wikidata": "Q310118",
+   "lon": 29.85719,
+   "lat": 19.45943
+  },
+  {
+   "code": "SD-NR",
+   "name": "River Nile",
+   "wikidata": "Q849297",
+   "lon": 32.98269,
+   "lat": 19.19269
+  },
+  {
+   "code": "SD-NW",
+   "name": "White Nile",
+   "wikidata": "Q311371",
+   "lon": 32.26339,
+   "lat": 13.60042
+  },
+  {
+   "code": "SD-RS",
+   "name": "Red Sea",
+   "wikidata": "Q310120",
+   "lon": 35.46342,
+   "lat": 19.4916
+  },
+  {
+   "code": "SD-SI",
+   "name": "Sennar",
+   "wikidata": "Q865534",
+   "lon": 34.03566,
+   "lat": 12.95608
+  }
+ ],
+ "edges": [
+  {
+   "u": "SD-DC",
+   "v": "SD-DN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 205752,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Central_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DC",
+   "v": "SD-DS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 334344,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Central_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DC",
+   "v": "SD-DW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 209403,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Central_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DE",
+   "v": "SD-DN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 300088,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DE",
+   "v": "SD-DS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 320073,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/East_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DE",
+   "v": "SD-KN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45104
+  },
+  {
+   "u": "SD-DE",
+   "v": "SD-KS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 216142,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/East_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DN",
+   "v": "SD-DS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68598
+  },
+  {
+   "u": "SD-DN",
+   "v": "SD-DW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 271389,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DN",
+   "v": "SD-KN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 629714,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Darfur"
+    }
+   ]
+  },
+  {
+   "u": "SD-DN",
+   "v": "SD-NO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 629623
+  },
+  {
+   "u": "SD-GD",
+   "v": "SD-GZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 207459
+  },
+  {
+   "u": "SD-GD",
+   "v": "SD-KA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 280514,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Al_Qadarif_State"
+    }
+   ]
+  },
+  {
+   "u": "SD-GD",
+   "v": "SD-KH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 105206,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Al_Qadarif_State"
+    }
+   ]
+  },
+  {
+   "u": "SD-GD",
+   "v": "SD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 268607
+  },
+  {
+   "u": "SD-GZ",
+   "v": "SD-KH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 107516
+  },
+  {
+   "u": "SD-GZ",
+   "v": "SD-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 236334,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gezira_State"
+    }
+   ]
+  },
+  {
+   "u": "SD-GZ",
+   "v": "SD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 178293
+  },
+  {
+   "u": "SD-KA",
+   "v": "SD-KH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52218,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kassala_State"
+    }
+   ]
+  },
+  {
+   "u": "SD-KA",
+   "v": "SD-NR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 243539
+  },
+  {
+   "u": "SD-KA",
+   "v": "SD-RS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 145541,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Red_Sea_State"
+    }
+   ]
+  },
+  {
+   "u": "SD-KH",
+   "v": "SD-KN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 166203,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Kordofan"
+    }
+   ]
+  },
+  {
+   "u": "SD-KH",
+   "v": "SD-NO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30589,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Northern_State_(Sudan)"
+    }
+   ]
+  },
+  {
+   "u": "SD-KH",
+   "v": "SD-NR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 276412,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/River_Nile_State"
+    }
+   ]
+  },
+  {
+   "u": "SD-KH",
+   "v": "SD-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33928
+  },
+  {
+   "u": "SD-KN",
+   "v": "SD-KS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 649581,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Kordofan"
+    }
+   ]
+  },
+  {
+   "u": "SD-KN",
+   "v": "SD-NO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 439405,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Kordofan"
+    }
+   ]
+  },
+  {
+   "u": "SD-KN",
+   "v": "SD-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 381636,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_Kordofan"
+    }
+   ]
+  },
+  {
+   "u": "SD-KS",
+   "v": "SD-NW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 87336
+  },
+  {
+   "u": "SD-NB",
+   "v": "SD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 274303,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Blue_Nile_State"
+    }
+   ]
+  },
+  {
+   "u": "SD-NO",
+   "v": "SD-NR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 646473,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Northern_State_(Sudan)"
+    }
+   ]
+  },
+  {
+   "u": "SD-NR",
+   "v": "SD-RS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 687356
+  },
+  {
+   "u": "SD-NW",
+   "v": "SD-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 169656,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/White_Nile_State"
+    }
+   ]
+  }
+ ],
+ "relabels": [
+  {
+   "ne_id": "1159317839",
+   "was": {
+    "iso_3166_2": "SD-DE",
+    "name": "Central Darfur"
+   },
+   "set": {
+    "iso_3166_2": "SD-DC",
+    "name": "Central Darfur"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159317841",
+   "was": {
+    "iso_3166_2": "SD-DS",
+    "name": "Eastern Darfur"
+   },
+   "set": {
+    "iso_3166_2": "SD-DE",
+    "name": "Eastern Darfur"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  }
+ ],
+ "geoboundaries": {
+  "boundaryID": "SDN-ADM1-86620642",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

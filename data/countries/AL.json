@@ -1,0 +1,444 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AL",
+ "kind": "country",
+ "name": "Albania",
+ "level": "counties",
+ "n": 12,
+ "m": 22,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AL-01",
+   "name": "Berat",
+   "wikidata": "Q189296",
+   "lon": 20.08935,
+   "lat": 40.61812
+  },
+  {
+   "code": "AL-02",
+   "name": "Durrës",
+   "wikidata": "Q192853",
+   "lon": 19.53282,
+   "lat": 41.41878
+  },
+  {
+   "code": "AL-03",
+   "name": "Elbasan",
+   "wikidata": "Q193790",
+   "lon": 20.1358,
+   "lat": 41.05256
+  },
+  {
+   "code": "AL-04",
+   "name": "Fier",
+   "wikidata": "Q231900",
+   "lon": 19.56255,
+   "lat": 40.75037
+  },
+  {
+   "code": "AL-05",
+   "name": "Gjirokastër",
+   "wikidata": "Q193454",
+   "lon": 20.20955,
+   "lat": 40.15453
+  },
+  {
+   "code": "AL-06",
+   "name": "Korçë",
+   "wikidata": "Q193464",
+   "lon": 20.72578,
+   "lat": 40.58339
+  },
+  {
+   "code": "AL-07",
+   "name": "Kukës",
+   "wikidata": "Q231896",
+   "lon": 20.37846,
+   "lat": 42.18394
+  },
+  {
+   "code": "AL-08",
+   "name": "Lezhë",
+   "wikidata": "Q193436",
+   "lon": 19.88042,
+   "lat": 41.7941
+  },
+  {
+   "code": "AL-09",
+   "name": "Dibër",
+   "wikidata": "Q192866",
+   "lon": 20.17538,
+   "lat": 41.6095
+  },
+  {
+   "code": "AL-10",
+   "name": "Shkodër",
+   "wikidata": "Q193438",
+   "lon": 19.57573,
+   "lat": 42.24207
+  },
+  {
+   "code": "AL-11",
+   "name": "Tiranë",
+   "wikidata": "Q229892",
+   "lon": 19.84194,
+   "lat": 41.25959
+  },
+  {
+   "code": "AL-12",
+   "name": "Vlorë",
+   "wikidata": "Q192849",
+   "lon": 19.75817,
+   "lat": 40.1456
+  }
+ ],
+ "edges": [
+  {
+   "u": "AL-01",
+   "v": "AL-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49310
+  },
+  {
+   "u": "AL-01",
+   "v": "AL-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58243
+  },
+  {
+   "u": "AL-01",
+   "v": "AL-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61598
+  },
+  {
+   "u": "AL-01",
+   "v": "AL-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37992
+  },
+  {
+   "u": "AL-02",
+   "v": "AL-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28018
+  },
+  {
+   "u": "AL-02",
+   "v": "AL-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8943
+  },
+  {
+   "u": "AL-02",
+   "v": "AL-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67316
+  },
+  {
+   "u": "AL-03",
+   "v": "AL-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33626
+  },
+  {
+   "u": "AL-03",
+   "v": "AL-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66126
+  },
+  {
+   "u": "AL-03",
+   "v": "AL-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28567
+  },
+  {
+   "u": "AL-03",
+   "v": "AL-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65129
+  },
+  {
+   "u": "AL-04",
+   "v": "AL-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17095
+  },
+  {
+   "u": "AL-04",
+   "v": "AL-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26783
+  },
+  {
+   "u": "AL-04",
+   "v": "AL-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58467
+  },
+  {
+   "u": "AL-05",
+   "v": "AL-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48834
+  },
+  {
+   "u": "AL-05",
+   "v": "AL-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 95150
+  },
+  {
+   "u": "AL-07",
+   "v": "AL-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18917
+  },
+  {
+   "u": "AL-07",
+   "v": "AL-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40175
+  },
+  {
+   "u": "AL-07",
+   "v": "AL-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92487
+  },
+  {
+   "u": "AL-08",
+   "v": "AL-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72004
+  },
+  {
+   "u": "AL-08",
+   "v": "AL-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 105809
+  },
+  {
+   "u": "AL-09",
+   "v": "AL-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36771
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ALB-ADM1-10019604",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Public Domain"
+ }
+}

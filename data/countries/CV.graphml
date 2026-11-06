@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CV" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CV-BR"><data key="name">Brava</data><data key="code">CV-BR</data><data key="wikidata">Q2571624</data><data key="lon">-24.71884</data><data key="lat">14.8536</data></node>
+    <node id="CV-BV"><data key="name">Boa Vista</data><data key="code">CV-BV</data><data key="wikidata">Q2721025</data><data key="lon">-22.80363</data><data key="lat">16.11274</data></node>
+    <node id="CV-CA"><data key="name">Santa Catarina</data><data key="code">CV-CA</data><data key="wikidata">Q494882</data><data key="lon">-23.71742</data><data key="lat">15.07506</data></node>
+    <node id="CV-CF"><data key="name">Santa Catarina do Fogo</data><data key="code">CV-CF</data><data key="wikidata">Q2608046</data><data key="lon">-24.34046</data><data key="lat">14.91281</data></node>
+    <node id="CV-CR"><data key="name">Santa Cruz</data><data key="code">CV-CR</data><data key="wikidata">Q497472</data><data key="lon">-23.5641</data><data key="lat">15.1094</data></node>
+    <node id="CV-MA"><data key="name">Maio</data><data key="code">CV-MA</data><data key="wikidata">Q2551133</data><data key="lon">-23.18004</data><data key="lat">15.22696</data></node>
+    <node id="CV-MO"><data key="name">Mosteiros</data><data key="code">CV-MO</data><data key="wikidata">Q516835</data><data key="lon">-24.36508</data><data key="lat">15.00195</data></node>
+    <node id="CV-PA"><data key="name">Paul</data><data key="code">CV-PA</data><data key="wikidata">Q1475374</data><data key="lon">-25.01416</data><data key="lat">17.11044</data></node>
+    <node id="CV-PN"><data key="name">Porto Novo</data><data key="code">CV-PN</data><data key="wikidata">Q1552897</data><data key="lon">-25.19034</data><data key="lat">17.02652</data></node>
+    <node id="CV-PR"><data key="name">Praia</data><data key="code">CV-PR</data><data key="wikidata">Q497019</data><data key="lon">-23.51927</data><data key="lat">14.95366</data></node>
+    <node id="CV-RB"><data key="name">Ribeira Brava</data><data key="code">CV-RB</data><data key="wikidata">Q747221</data><data key="lon">-24.10285</data><data key="lat">16.58427</data></node>
+    <node id="CV-RG"><data key="name">Ribeira Grande</data><data key="code">CV-RG</data><data key="wikidata">Q1355642</data><data key="lon">-25.13307</data><data key="lat">17.14152</data></node>
+    <node id="CV-RS"><data key="name">Ribeira Grande de Santiago</data><data key="code">CV-RS</data><data key="wikidata">Q499620</data><data key="lon">-23.64418</data><data key="lat">14.97733</data></node>
+    <node id="CV-SD"><data key="name">São Domingos</data><data key="code">CV-SD</data><data key="wikidata">Q499009</data><data key="lon">-23.52137</data><data key="lat">15.01203</data></node>
+    <node id="CV-SF"><data key="name">São Filipe</data><data key="code">CV-SF</data><data key="wikidata">Q6430079</data><data key="lon">-24.45262</data><data key="lat">14.91639</data></node>
+    <node id="CV-SL"><data key="name">Sal</data><data key="code">CV-SL</data><data key="wikidata">Q2721003</data><data key="lon">-22.94288</data><data key="lat">16.72944</data></node>
+    <node id="CV-SM"><data key="name">São Miguel</data><data key="code">CV-SM</data><data key="wikidata">Q494874</data><data key="lon">-23.64232</data><data key="lat">15.1773</data></node>
+    <node id="CV-SO"><data key="name">São Lourenço dos Órgãos</data><data key="code">CV-SO</data><data key="wikidata">Q494726</data><data key="lon">-23.57353</data><data key="lat">15.04764</data></node>
+    <node id="CV-SS"><data key="name">São Salvador do Mundo</data><data key="code">CV-SS</data><data key="wikidata">Q494877</data><data key="lon">-23.61407</data><data key="lat">15.06836</data></node>
+    <node id="CV-SV"><data key="name">São Vicente</data><data key="code">CV-SV</data><data key="wikidata">Q648842</data><data key="lon">-24.9814</data><data key="lat">16.85607</data></node>
+    <node id="CV-TA"><data key="name">Tarrafal</data><data key="code">CV-TA</data><data key="wikidata">Q499598</data><data key="lon">-23.72442</data><data key="lat">15.26042</data></node>
+    <node id="CV-TS"><data key="name">Tarrafal de São Nicolau</data><data key="code">CV-TS</data><data key="wikidata">Q1895853</data><data key="lon">-24.34172</data><data key="lat">16.58043</data></node>
+    <edge source="CV-CA" target="CV-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CA" target="CV-RS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CA" target="CV-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CA" target="CV-SS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CA" target="CV-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CF" target="CV-MO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CF" target="CV-SF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CR" target="CV-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CR" target="CV-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CR" target="CV-SO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-CR" target="CV-SS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-MO" target="CV-SF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-PA" target="CV-PN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-PA" target="CV-RG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-PN" target="CV-RG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-PR" target="CV-RS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-PR" target="CV-SD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-RB" target="CV-TS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-RS" target="CV-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-RS" target="CV-SO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-RS" target="CV-SS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-SD" target="CV-SO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CV-SM" target="CV-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CV-SO" target="CV-SS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

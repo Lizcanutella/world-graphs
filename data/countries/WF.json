@@ -1,0 +1,49 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "WF",
+ "kind": "country",
+ "name": "Wallis and Futuna",
+ "level": "administrative precinct",
+ "n": 3,
+ "m": 1,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "WF-AL",
+   "name": "Alo",
+   "wikidata": "Q2734700",
+   "lon": -178.02956,
+   "lat": -14.35719
+  },
+  {
+   "code": "WF-SG",
+   "name": "Sigave",
+   "wikidata": "Q2554877",
+   "lon": -178.15628,
+   "lat": -14.26478
+  },
+  {
+   "code": "WF-UV",
+   "name": "`Uvea",
+   "wikidata": "Q7903676",
+   "lon": -176.16064,
+   "lat": -13.28135
+  }
+ ],
+ "edges": [
+  {
+   "u": "WF-AL",
+   "v": "WF-SG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6686
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": null
+}

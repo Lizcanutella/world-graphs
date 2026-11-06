@@ -1,0 +1,151 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TJ",
+ "kind": "country",
+ "name": "Tajikistan",
+ "level": "regions",
+ "n": 5,
+ "m": 5,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TJ-DU",
+   "name": "Dushanbe",
+   "wikidata": "Q9365",
+   "lon": 68.77726,
+   "lat": 38.5622
+  },
+  {
+   "code": "TJ-GB",
+   "name": "Gorno-Badakhshan",
+   "wikidata": "Q207319",
+   "lon": 73.05508,
+   "lat": 38.06987
+  },
+  {
+   "code": "TJ-KT",
+   "name": "Khatlon",
+   "wikidata": "Q633511",
+   "lon": 69.15706,
+   "lat": 37.83159
+  },
+  {
+   "code": "TJ-SU",
+   "name": "Leninabad",
+   "wikidata": "Q241582",
+   "lon": 69.05919,
+   "lat": 39.96978
+  },
+  {
+   "code": "TJ-X01~",
+   "name": "Tadzhikistan Territories",
+   "wikidata": "Q633490",
+   "lon": 69.34365,
+   "lat": 38.75727
+  }
+ ],
+ "edges": [
+  {
+   "u": "TJ-DU",
+   "v": "TJ-X01~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 61835,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "TJ-GB",
+   "v": "TJ-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63573
+  },
+  {
+   "u": "TJ-GB",
+   "v": "TJ-X01~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 270813,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "TJ-KT",
+   "v": "TJ-X01~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 299413,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "TJ-SU",
+   "v": "TJ-X01~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 282918,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TJK-ADM1-86453995",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

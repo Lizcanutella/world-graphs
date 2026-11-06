@@ -1,0 +1,510 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "NL",
+ "kind": "country",
+ "name": "Netherlands",
+ "level": "provinces",
+ "n": 15,
+ "m": 23,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "NL-BQ1",
+   "name": "Bonaire",
+   "wikidata": "Q25396",
+   "lon": -68.24641,
+   "lat": 12.17011
+  },
+  {
+   "code": "NL-BQ2",
+   "name": "Saba",
+   "wikidata": "Q25528",
+   "lon": -63.23812,
+   "lat": 17.63479
+  },
+  {
+   "code": "NL-BQ3",
+   "name": "St. Eustatius",
+   "wikidata": "Q26180",
+   "lon": -62.97757,
+   "lat": 17.49552
+  },
+  {
+   "code": "NL-DR",
+   "name": "Drenthe",
+   "wikidata": "Q772",
+   "lon": 6.6377,
+   "lat": 52.90814
+  },
+  {
+   "code": "NL-FL",
+   "name": "Flevoland",
+   "wikidata": "Q707",
+   "lon": 5.54365,
+   "lat": 52.44829
+  },
+  {
+   "code": "NL-FR",
+   "name": "Friesland",
+   "wikidata": "Q770",
+   "lon": 5.83199,
+   "lat": 53.10329
+  },
+  {
+   "code": "NL-GE",
+   "name": "Gelderland",
+   "wikidata": "Q775",
+   "lon": 6.08705,
+   "lat": 52.13002
+  },
+  {
+   "code": "NL-GR",
+   "name": "Groningen",
+   "wikidata": "Q752",
+   "lon": 6.88122,
+   "lat": 53.15019
+  },
+  {
+   "code": "NL-LI",
+   "name": "Limburg",
+   "wikidata": "Q1093",
+   "lon": 5.86533,
+   "lat": 51.26575
+  },
+  {
+   "code": "NL-NB",
+   "name": "Noord-Brabant",
+   "wikidata": "Q1101",
+   "lon": 5.04178,
+   "lat": 51.52945
+  },
+  {
+   "code": "NL-NH",
+   "name": "Noord-Holland",
+   "wikidata": "Q701",
+   "lon": 4.82871,
+   "lat": 52.58503
+  },
+  {
+   "code": "NL-OV",
+   "name": "Overijssel",
+   "wikidata": "Q773",
+   "lon": 6.38346,
+   "lat": 52.48233
+  },
+  {
+   "code": "NL-UT",
+   "name": "Utrecht",
+   "wikidata": "Q776",
+   "lon": 5.15016,
+   "lat": 52.11287
+  },
+  {
+   "code": "NL-ZE",
+   "name": "Zeeland",
+   "wikidata": "Q705",
+   "lon": 3.76552,
+   "lat": 51.30439
+  },
+  {
+   "code": "NL-ZH",
+   "name": "Zuid-Holland",
+   "wikidata": "Q694",
+   "lon": 4.42514,
+   "lat": 51.98427
+  }
+ ],
+ "edges": [
+  {
+   "u": "NL-DR",
+   "v": "NL-FR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44636
+  },
+  {
+   "u": "NL-DR",
+   "v": "NL-GR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81933
+  },
+  {
+   "u": "NL-DR",
+   "v": "NL-OV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72998
+  },
+  {
+   "u": "NL-FL",
+   "v": "NL-FR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6710
+  },
+  {
+   "u": "NL-FL",
+   "v": "NL-GE",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "NL-FL",
+   "v": "NL-NH",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "NL-FL",
+   "v": "NL-OV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40820
+  },
+  {
+   "u": "NL-FL",
+   "v": "NL-UT",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "NL-FR",
+   "v": "NL-GR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50001
+  },
+  {
+   "u": "NL-FR",
+   "v": "NL-NH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2055
+  },
+  {
+   "u": "NL-FR",
+   "v": "NL-OV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27772
+  },
+  {
+   "u": "NL-GE",
+   "v": "NL-LI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8934
+  },
+  {
+   "u": "NL-GE",
+   "v": "NL-NB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75344
+  },
+  {
+   "u": "NL-GE",
+   "v": "NL-OV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 107158
+  },
+  {
+   "u": "NL-GE",
+   "v": "NL-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86643
+  },
+  {
+   "u": "NL-GE",
+   "v": "NL-ZH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22832
+  },
+  {
+   "u": "NL-LI",
+   "v": "NL-NB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100905
+  },
+  {
+   "u": "NL-NB",
+   "v": "NL-ZE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20296
+  },
+  {
+   "u": "NL-NB",
+   "v": "NL-ZH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65336
+  },
+  {
+   "u": "NL-NH",
+   "v": "NL-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65531
+  },
+  {
+   "u": "NL-NH",
+   "v": "NL-ZH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38983
+  },
+  {
+   "u": "NL-UT",
+   "v": "NL-ZH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77315
+  },
+  {
+   "u": "NL-ZE",
+   "v": "NL-ZH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7090
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "NLD-ADM1-6811986",
+  "level": "ADM1",
+  "year": "2022",
+  "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+ }
+}

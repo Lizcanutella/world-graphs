@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BR-AC"><data key="name">Acre</data><data key="code">BR-AC</data><data key="wikidata">Q40780</data><data key="lon">-70.66612</data><data key="lat">-9.12497</data></node>
+    <node id="BR-AL"><data key="name">Alagoas</data><data key="code">BR-AL</data><data key="wikidata">Q40885</data><data key="lon">-36.78313</data><data key="lat">-9.66448</data></node>
+    <node id="BR-AM"><data key="name">Amazonas</data><data key="code">BR-AM</data><data key="wikidata">Q40040</data><data key="lon">-63.45741</data><data key="lat">-3.79822</data></node>
+    <node id="BR-AP"><data key="name">Amapá</data><data key="code">BR-AP</data><data key="wikidata">Q40130</data><data key="lon">-52.00259</data><data key="lat">1.61081</data></node>
+    <node id="BR-BA"><data key="name">Bahia</data><data key="code">BR-BA</data><data key="wikidata">Q40430</data><data key="lon">-42.63365</data><data key="lat">-13.42958</data></node>
+    <node id="BR-CE"><data key="name">Ceará</data><data key="code">BR-CE</data><data key="wikidata">Q40123</data><data key="lon">-39.45465</data><data key="lat">-5.31544</data></node>
+    <node id="BR-DF"><data key="name">Distrito Federal</data><data key="code">BR-DF</data><data key="wikidata">Q119158</data><data key="lon">-47.76461</data><data key="lat">-15.76263</data></node>
+    <node id="BR-ES"><data key="name">Espírito Santo</data><data key="code">BR-ES</data><data key="wikidata">Q43233</data><data key="lon">-40.41394</data><data key="lat">-19.57826</data></node>
+    <node id="BR-GO"><data key="name">Goiás</data><data key="code">BR-GO</data><data key="wikidata">Q41587</data><data key="lon">-50.25583</data><data key="lat">-15.94184</data></node>
+    <node id="BR-MA"><data key="name">Maranhão</data><data key="code">BR-MA</data><data key="wikidata">Q42362</data><data key="lon">-45.28707</data><data key="lat">-5.68864</data></node>
+    <node id="BR-MG"><data key="name">Minas Gerais</data><data key="code">BR-MG</data><data key="wikidata">Q39109</data><data key="lon">-43.06109</data><data key="lat">-18.56602</data></node>
+    <node id="BR-MS"><data key="name">Mato Grosso do Sul</data><data key="code">BR-MS</data><data key="wikidata">Q43319</data><data key="lon">-54.79021</data><data key="lat">-20.61871</data></node>
+    <node id="BR-MT"><data key="name">Mato Grosso</data><data key="code">BR-MT</data><data key="wikidata">Q42824</data><data key="lon">-55.29683</data><data key="lat">-12.68473</data></node>
+    <node id="BR-PA"><data key="name">Pará</data><data key="code">BR-PA</data><data key="wikidata">Q39517</data><data key="lon">-51.99738</data><data key="lat">-3.61911</data></node>
+    <node id="BR-PB"><data key="name">Paraíba</data><data key="code">BR-PB</data><data key="wikidata">Q38088</data><data key="lon">-36.74351</data><data key="lat">-7.14914</data></node>
+    <node id="BR-PE"><data key="name">Pernambuco</data><data key="code">BR-PE</data><data key="wikidata">Q40942</data><data key="lon">-37.92531</data><data key="lat">-8.37797</data></node>
+    <node id="BR-PI"><data key="name">Piauí</data><data key="code">BR-PI</data><data key="wikidata">Q42722</data><data key="lon">-41.90051</data><data key="lat">-6.82261</data></node>
+    <node id="BR-PR"><data key="name">Paraná</data><data key="code">BR-PR</data><data key="wikidata">Q15499</data><data key="lon">-51.78784</data><data key="lat">-24.61923</data></node>
+    <node id="BR-RJ"><data key="name">Rio de Janeiro</data><data key="code">BR-RJ</data><data key="wikidata">Q41428</data><data key="lon">-42.06977</data><data key="lat">-22.06485</data></node>
+    <node id="BR-RN"><data key="name">Rio Grande do Norte</data><data key="code">BR-RN</data><data key="wikidata">Q43255</data><data key="lon">-36.64937</data><data key="lat">-5.9079</data></node>
+    <node id="BR-RO"><data key="name">Rondônia</data><data key="code">BR-RO</data><data key="wikidata">Q43235</data><data key="lon">-63.43195</data><data key="lat">-10.82874</data></node>
+    <node id="BR-RR"><data key="name">Roraima</data><data key="code">BR-RR</data><data key="wikidata">Q42508</data><data key="lon">-61.22849</data><data key="lat">1.92258</data></node>
+    <node id="BR-RS"><data key="name">Rio Grande do Sul</data><data key="code">BR-RS</data><data key="wikidata">Q40030</data><data key="lon">-53.82633</data><data key="lat">-30.4074</data></node>
+    <node id="BR-SC"><data key="name">Santa Catarina</data><data key="code">BR-SC</data><data key="wikidata">Q41115</data><data key="lon">-49.98609</data><data key="lat">-27.66521</data></node>
+    <node id="BR-SE"><data key="name">Sergipe</data><data key="code">BR-SE</data><data key="wikidata">Q43783</data><data key="lon">-37.18991</data><data key="lat">-10.54671</data></node>
+    <node id="BR-SP"><data key="name">São Paulo</data><data key="code">BR-SP</data><data key="wikidata">Q175</data><data key="lon">-48.84228</data><data key="lat">-22.54286</data></node>
+    <node id="BR-TO"><data key="name">Tocantins</data><data key="code">BR-TO</data><data key="wikidata">Q43695</data><data key="lon">-48.42112</data><data key="lat">-9.27153</data></node>
+    <edge source="BR-AC" target="BR-AM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AC" target="BR-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AL" target="BR-BA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AL" target="BR-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AL" target="BR-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AM" target="BR-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AM" target="BR-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AM" target="BR-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AM" target="BR-RR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-AP" target="BR-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-BA" target="BR-ES"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-BA" target="BR-GO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-BA" target="BR-MG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-BA" target="BR-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-BA" target="BR-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-BA" target="BR-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-BA" target="BR-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-CE" target="BR-PB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-CE" target="BR-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-CE" target="BR-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-CE" target="BR-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-DF" target="BR-GO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-DF" target="BR-MG"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="BR-ES" target="BR-MG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-ES" target="BR-RJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-GO" target="BR-MG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-GO" target="BR-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-GO" target="BR-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-GO" target="BR-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MA" target="BR-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MA" target="BR-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MA" target="BR-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MG" target="BR-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MG" target="BR-RJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MG" target="BR-SP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MS" target="BR-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MS" target="BR-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MS" target="BR-SP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MT" target="BR-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MT" target="BR-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-MT" target="BR-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PA" target="BR-RR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PA" target="BR-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PB" target="BR-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PB" target="BR-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PE" target="BR-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PI" target="BR-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PR" target="BR-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-PR" target="BR-SP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-RJ" target="BR-SP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BR-RS" target="BR-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

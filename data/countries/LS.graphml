@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LS-A"><data key="name">Maseru</data><data key="code">LS-A</data><data key="wikidata">Q844921</data><data key="lon">27.77466</data><data key="lat">-29.59886</data></node>
+    <node id="LS-B"><data key="name">Butha-Buthe</data><data key="code">LS-B</data><data key="wikidata">Q535632</data><data key="lon">28.58972</data><data key="lat">-28.82548</data></node>
+    <node id="LS-C"><data key="name">Leribe</data><data key="code">LS-C</data><data key="wikidata">Q819987</data><data key="lon">28.29471</data><data key="lat">-29.02293</data></node>
+    <node id="LS-D"><data key="name">Berea</data><data key="code">LS-D</data><data key="wikidata">Q737086</data><data key="lon">27.91914</data><data key="lat">-29.16067</data></node>
+    <node id="LS-E"><data key="name">Mafeteng</data><data key="code">LS-E</data><data key="wikidata">Q817342</data><data key="lon">27.38914</data><data key="lat">-29.77852</data></node>
+    <node id="LS-F"><data key="name">Mohale's Hoek</data><data key="code">LS-F</data><data key="wikidata">Q839074</data><data key="lon">27.60219</data><data key="lat">-30.09245</data></node>
+    <node id="LS-G"><data key="name">Quthing</data><data key="code">LS-G</data><data key="wikidata">Q839060</data><data key="lon">27.98564</data><data key="lat">-30.33213</data></node>
+    <node id="LS-H"><data key="name">Qacha's Nek</data><data key="code">LS-H</data><data key="wikidata">Q850423</data><data key="lon">28.77114</data><data key="lat">-29.95306</data></node>
+    <node id="LS-J"><data key="name">Mokhotlong</data><data key="code">LS-J</data><data key="wikidata">Q817340</data><data key="lon">28.97731</data><data key="lat">-29.16855</data></node>
+    <node id="LS-K"><data key="name">Thaba-Tseka</data><data key="code">LS-K</data><data key="wikidata">Q817327</data><data key="lon">28.51303</data><data key="lat">-29.50034</data></node>
+    <edge source="LS-A" target="LS-D"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-A" target="LS-E"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-A" target="LS-F"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-A" target="LS-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-B" target="LS-C"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-B" target="LS-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-C" target="LS-D"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-C" target="LS-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-C" target="LS-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-D" target="LS-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-E" target="LS-F"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-F" target="LS-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-F" target="LS-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-F" target="LS-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-G" target="LS-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-H" target="LS-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LS-J" target="LS-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

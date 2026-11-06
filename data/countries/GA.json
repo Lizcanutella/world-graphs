@@ -1,0 +1,354 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GA",
+ "kind": "country",
+ "name": "Gabon",
+ "level": "provinces",
+ "n": 9,
+ "m": 15,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GA-1",
+   "name": "Estuaire",
+   "wikidata": "Q281109",
+   "lon": 10.23278,
+   "lat": 0.24239
+  },
+  {
+   "code": "GA-2",
+   "name": "Haut-Ogooué",
+   "wikidata": "Q654438",
+   "lon": 13.81836,
+   "lat": -1.23189
+  },
+  {
+   "code": "GA-3",
+   "name": "Moyen-Ogooué",
+   "wikidata": "Q590802",
+   "lon": 10.51587,
+   "lat": -0.52464
+  },
+  {
+   "code": "GA-4",
+   "name": "Ngounié",
+   "wikidata": "Q823774",
+   "lon": 10.98614,
+   "lat": -1.69041
+  },
+  {
+   "code": "GA-5",
+   "name": "Nyanga",
+   "wikidata": "Q846017",
+   "lon": 11.05809,
+   "lat": -3.11277
+  },
+  {
+   "code": "GA-6",
+   "name": "Ogooué-Ivindo",
+   "wikidata": "Q823822",
+   "lon": 12.71006,
+   "lat": 0.34176
+  },
+  {
+   "code": "GA-7",
+   "name": "Ogooué-Lolo",
+   "wikidata": "Q823762",
+   "lon": 12.51796,
+   "lat": -0.8206
+  },
+  {
+   "code": "GA-8",
+   "name": "Ogooué-Maritime",
+   "wikidata": "Q823751",
+   "lon": 9.73032,
+   "lat": -1.50884
+  },
+  {
+   "code": "GA-9",
+   "name": "Wouleu-Ntem",
+   "wikidata": "Q823800",
+   "lon": 12.2566,
+   "lat": 1.27786
+  }
+ ],
+ "edges": [
+  {
+   "u": "GA-1",
+   "v": "GA-3",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 206104
+  },
+  {
+   "u": "GA-1",
+   "v": "GA-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47331
+  },
+  {
+   "u": "GA-1",
+   "v": "GA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 177827
+  },
+  {
+   "u": "GA-2",
+   "v": "GA-6",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70390
+  },
+  {
+   "u": "GA-2",
+   "v": "GA-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 275683
+  },
+  {
+   "u": "GA-3",
+   "v": "GA-4",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 224882
+  },
+  {
+   "u": "GA-3",
+   "v": "GA-6",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136983
+  },
+  {
+   "u": "GA-3",
+   "v": "GA-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 110387
+  },
+  {
+   "u": "GA-3",
+   "v": "GA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86363
+  },
+  {
+   "u": "GA-4",
+   "v": "GA-5",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133108
+  },
+  {
+   "u": "GA-4",
+   "v": "GA-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 207237
+  },
+  {
+   "u": "GA-4",
+   "v": "GA-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 179786
+  },
+  {
+   "u": "GA-5",
+   "v": "GA-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 96802
+  },
+  {
+   "u": "GA-6",
+   "v": "GA-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 276118
+  },
+  {
+   "u": "GA-6",
+   "v": "GA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 256293
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GAB-ADM1-98808126",
+  "level": "ADM1",
+  "year": "2005",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 Unported"
+ }
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AF" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AF-BAL"><data key="name">Balkh</data><data key="code">AF-BAL</data><data key="wikidata">Q121104</data><data key="lon">67.03579</data><data key="lat">36.5183</data></node>
+    <node id="AF-BAM"><data key="name">Bamyan</data><data key="code">AF-BAM</data><data key="wikidata">Q171382</data><data key="lon">67.37764</data><data key="lat">34.70359</data></node>
+    <node id="AF-BDG"><data key="name">Badghis</data><data key="code">AF-BDG</data><data key="wikidata">Q172052</data><data key="lon">63.60322</data><data key="lat">35.26565</data></node>
+    <node id="AF-BDS"><data key="name">Badakhshan</data><data key="code">AF-BDS</data><data key="wikidata">Q165376</data><data key="lon">73.28387</data><data key="lat">36.9563</data></node>
+    <node id="AF-BGL"><data key="name">Baghlan</data><data key="code">AF-BGL</data><data key="wikidata">Q170309</data><data key="lon">69.10816</data><data key="lat">35.7967</data></node>
+    <node id="AF-DAY"><data key="name">Daykundi</data><data key="code">AF-DAY</data><data key="wikidata">Q181220</data><data key="lon">66.35961</data><data key="lat">33.73085</data></node>
+    <node id="AF-FRA"><data key="name">Farah</data><data key="code">AF-FRA</data><data key="wikidata">Q180330</data><data key="lon">62.3937</data><data key="lat">32.4539</data></node>
+    <node id="AF-FYB"><data key="name">Faryab</data><data key="code">AF-FYB</data><data key="wikidata">Q173830</data><data key="lon">64.76137</data><data key="lat">36.21565</data></node>
+    <node id="AF-GHA"><data key="name">Ghazni</data><data key="code">AF-GHA</data><data key="wikidata">Q180415</data><data key="lon">67.74205</data><data key="lat">33.15072</data></node>
+    <node id="AF-GHO"><data key="name">Ghor</data><data key="code">AF-GHO</data><data key="wikidata">Q186392</data><data key="lon">64.47724</data><data key="lat">34.19685</data></node>
+    <node id="AF-HEL"><data key="name">Hilmand</data><data key="code">AF-HEL</data><data key="wikidata">Q173821</data><data key="lon">64.04342</data><data key="lat">31.40003</data></node>
+    <node id="AF-HER"><data key="name">Hirat</data><data key="code">AF-HER</data><data key="wikidata">Q182844</data><data key="lon">62.00063</data><data key="lat">34.19855</data></node>
+    <node id="AF-JOW"><data key="name">Jawzjan</data><data key="code">AF-JOW</data><data key="wikidata">Q183036</data><data key="lon">65.93033</data><data key="lat">36.74267</data></node>
+    <node id="AF-KAB"><data key="name">Kabul</data><data key="code">AF-KAB</data><data key="wikidata">Q188933</data><data key="lon">69.33973</data><data key="lat">34.52451</data></node>
+    <node id="AF-KAN"><data key="name">Kandahar</data><data key="code">AF-KAN</data><data key="wikidata">Q173808</data><data key="lon">65.64798</data><data key="lat">31.01857</data></node>
+    <node id="AF-KAP"><data key="name">Kapisa</data><data key="code">AF-KAP</data><data key="wikidata">Q173816</data><data key="lon">69.73481</data><data key="lat">34.9112</data></node>
+    <node id="AF-KDZ"><data key="name">Kunduz</data><data key="code">AF-KDZ</data><data key="wikidata">Q186418</data><data key="lon">68.66401</data><data key="lat">36.81945</data></node>
+    <node id="AF-KHO"><data key="name">Khost</data><data key="code">AF-KHO</data><data key="wikidata">Q185752</data><data key="lon">69.90353</data><data key="lat">33.37663</data></node>
+    <node id="AF-KNR"><data key="name">Kunar</data><data key="code">AF-KNR</data><data key="wikidata">Q188147</data><data key="lon">71.0378</data><data key="lat">34.99737</data></node>
+    <node id="AF-LAG"><data key="name">Laghman</data><data key="code">AF-LAG</data><data key="wikidata">Q185442</data><data key="lon">70.26551</data><data key="lat">34.81589</data></node>
+    <node id="AF-LOG"><data key="name">Logar</data><data key="code">AF-LOG</data><data key="wikidata">Q6667298</data><data key="lon">69.16737</data><data key="lat">33.97948</data></node>
+    <node id="AF-NAN"><data key="name">Nangarhar</data><data key="code">AF-NAN</data><data key="wikidata">Q178471</data><data key="lon">70.37296</data><data key="lat">34.37574</data></node>
+    <node id="AF-NIM"><data key="name">Nimroz</data><data key="code">AF-NIM</data><data key="wikidata">Q183021</data><data key="lon">62.45698</data><data key="lat">30.80727</data></node>
+    <node id="AF-NUR"><data key="name">Nuristan</data><data key="code">AF-NUR</data><data key="wikidata">Q167485</data><data key="lon">71.1138</data><data key="lat">35.4683</data></node>
+    <node id="AF-PAN"><data key="name">Panjshir</data><data key="code">AF-PAN</data><data key="wikidata">Q181235</data><data key="lon">69.87795</data><data key="lat">35.48326</data></node>
+    <node id="AF-PAR"><data key="name">Parwan</data><data key="code">AF-PAR</data><data key="wikidata">Q188157</data><data key="lon">68.75193</data><data key="lat">35.00618</data></node>
+    <node id="AF-PIA"><data key="name">Paktya</data><data key="code">AF-PIA</data><data key="wikidata">Q182493</data><data key="lon">69.4103</data><data key="lat">33.61493</data></node>
+    <node id="AF-PKA"><data key="name">Paktika</data><data key="code">AF-PKA</data><data key="wikidata">Q185575</data><data key="lon">68.65637</data><data key="lat">32.51091</data></node>
+    <node id="AF-SAM"><data key="name">Samangan</data><data key="code">AF-SAM</data><data key="wikidata">Q183015</data><data key="lon">67.73254</data><data key="lat">36.00066</data></node>
+    <node id="AF-SAR"><data key="name">Sari Pul</data><data key="code">AF-SAR</data><data key="wikidata">Q182487</data><data key="lon">66.06979</data><data key="lat">35.68605</data></node>
+    <node id="AF-TAK"><data key="name">Takhar</data><data key="code">AF-TAK</data><data key="wikidata">Q186395</data><data key="lon">69.61117</data><data key="lat">36.70979</data></node>
+    <node id="AF-URU"><data key="name">Uruzgan</data><data key="code">AF-URU</data><data key="wikidata">Q183028</data><data key="lon">65.98998</data><data key="lat">32.79824</data></node>
+    <node id="AF-WAR"><data key="name">Wardak</data><data key="code">AF-WAR</data><data key="wikidata">Q183056</data><data key="lon">68.2039</data><data key="lat">34.23928</data></node>
+    <node id="AF-ZAB"><data key="name">Zabul</data><data key="code">AF-ZAB</data><data key="wikidata">Q139126</data><data key="lon">67.03092</data><data key="lat">32.3044</data></node>
+    <edge source="AF-BAL" target="AF-JOW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAL" target="AF-KDZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAL" target="AF-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAL" target="AF-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-BGL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-DAY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-GHA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-GHO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-PAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BAM" target="AF-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BDG" target="AF-FYB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BDG" target="AF-GHO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BDG" target="AF-HER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BDS" target="AF-NUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BDS" target="AF-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BDS" target="AF-TAK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BGL" target="AF-KDZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BGL" target="AF-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BGL" target="AF-PAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BGL" target="AF-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-BGL" target="AF-TAK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-DAY" target="AF-GHA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-DAY" target="AF-GHO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-DAY" target="AF-HEL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-DAY" target="AF-URU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-FRA" target="AF-GHO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-FRA" target="AF-HEL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-FRA" target="AF-HER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-FRA" target="AF-NIM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-FYB" target="AF-GHO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-FYB" target="AF-JOW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-FYB" target="AF-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHA" target="AF-LOG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHA" target="AF-PIA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHA" target="AF-PKA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHA" target="AF-URU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHA" target="AF-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHA" target="AF-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHO" target="AF-HEL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHO" target="AF-HER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-GHO" target="AF-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-HEL" target="AF-KAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-HEL" target="AF-NIM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-HEL" target="AF-URU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-JOW" target="AF-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAB" target="AF-KAP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAB" target="AF-LAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAB" target="AF-LOG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAB" target="AF-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAB" target="AF-PAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAB" target="AF-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAN" target="AF-URU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAN" target="AF-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAP" target="AF-LAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAP" target="AF-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KAP" target="AF-PAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KDZ" target="AF-SAM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KDZ" target="AF-TAK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KHO" target="AF-PIA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KHO" target="AF-PKA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KNR" target="AF-LAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KNR" target="AF-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-KNR" target="AF-NUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-LAG" target="AF-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-LAG" target="AF-NUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-LAG" target="AF-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-LOG" target="AF-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-LOG" target="AF-PIA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-LOG" target="AF-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-NUR" target="AF-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-PAN" target="AF-PAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-PAN" target="AF-TAK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-PAR" target="AF-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-PIA" target="AF-PKA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-PKA" target="AF-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-SAM" target="AF-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AF-URU" target="AF-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

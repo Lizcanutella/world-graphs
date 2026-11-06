@@ -1,0 +1,813 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PL",
+ "kind": "country",
+ "name": "Poland",
+ "level": "voivodeship|province",
+ "n": 16,
+ "m": 34,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PL-DS",
+   "name": "Lower Silesian",
+   "wikidata": "Q54150",
+   "lon": 16.34637,
+   "lat": 50.93157
+  },
+  {
+   "code": "PL-KP",
+   "name": "Kuyavian-Pomeranian",
+   "wikidata": "Q54153",
+   "lon": 18.51183,
+   "lat": 53.00193
+  },
+  {
+   "code": "PL-LB",
+   "name": "Lubusz",
+   "wikidata": "Q54157",
+   "lon": 15.29128,
+   "lat": 52.24469
+  },
+  {
+   "code": "PL-LD",
+   "name": "Łódź",
+   "wikidata": "Q54158",
+   "lon": 19.39285,
+   "lat": 51.57392
+  },
+  {
+   "code": "PL-LU",
+   "name": "Lublin",
+   "wikidata": "Q54155",
+   "lon": 22.74075,
+   "lat": 51.30215
+  },
+  {
+   "code": "PL-MA",
+   "name": "Lesser Poland",
+   "wikidata": "Q54159",
+   "lon": 20.24131,
+   "lat": 49.83328
+  },
+  {
+   "code": "PL-MZ",
+   "name": "Masovian",
+   "wikidata": "Q54169",
+   "lon": 21.4941,
+   "lat": 52.23317
+  },
+  {
+   "code": "PL-OP",
+   "name": "Opole",
+   "wikidata": "Q54171",
+   "lon": 17.80216,
+   "lat": 50.55786
+  },
+  {
+   "code": "PL-PD",
+   "name": "Podlachian",
+   "wikidata": "Q54177",
+   "lon": 22.65923,
+   "lat": 53.35124
+  },
+  {
+   "code": "PL-PK",
+   "name": "Subcarpathian",
+   "wikidata": "Q54175",
+   "lon": 22.15621,
+   "lat": 49.91485
+  },
+  {
+   "code": "PL-PM",
+   "name": "Pomeranian",
+   "wikidata": "Q54180",
+   "lon": 18.06512,
+   "lat": 54.13737
+  },
+  {
+   "code": "PL-SK",
+   "name": "Świętokrzyskie",
+   "wikidata": "Q54183",
+   "lon": 20.80021,
+   "lat": 50.73197
+  },
+  {
+   "code": "PL-SL",
+   "name": "Silesian",
+   "wikidata": "Q54181",
+   "lon": 18.86272,
+   "lat": 50.21371
+  },
+  {
+   "code": "PL-WN",
+   "name": "Warmian-Masurian",
+   "wikidata": "Q54184",
+   "lon": 20.99735,
+   "lat": 53.76354
+  },
+  {
+   "code": "PL-WP",
+   "name": "Greater Poland",
+   "wikidata": "Q54187",
+   "lon": 17.3107,
+   "lat": 52.33872
+  },
+  {
+   "code": "PL-ZP",
+   "name": "West Pomeranian",
+   "wikidata": "Q54188",
+   "lon": 15.57022,
+   "lat": 53.58655
+  }
+ ],
+ "edges": [
+  {
+   "u": "PL-DS",
+   "v": "PL-LB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 137234,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-DS",
+   "v": "PL-OP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 103807,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-DS",
+   "v": "PL-WP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 157495,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-KP",
+   "v": "PL-LD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20283,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-KP",
+   "v": "PL-MZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 107234,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-KP",
+   "v": "PL-PM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 141701,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-KP",
+   "v": "PL-WN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72448,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-KP",
+   "v": "PL-WP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 239226,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LB",
+   "v": "PL-WP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 180638,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LB",
+   "v": "PL-ZP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 143119,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LD",
+   "v": "PL-MZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 213785,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LD",
+   "v": "PL-OP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43813,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LD",
+   "v": "PL-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101428,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LD",
+   "v": "PL-SL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 89608,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LD",
+   "v": "PL-WP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 178864,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LU",
+   "v": "PL-MZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 245387,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LU",
+   "v": "PL-PD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6682,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LU",
+   "v": "PL-PK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 201507,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-LU",
+   "v": "PL-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27663,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-MA",
+   "v": "PL-PK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 128815,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-MA",
+   "v": "PL-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 131603,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-MA",
+   "v": "PL-SL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 159526,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-MZ",
+   "v": "PL-PD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 210175,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-MZ",
+   "v": "PL-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 117483,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-MZ",
+   "v": "PL-WN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 138153,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-OP",
+   "v": "PL-SL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 143324,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-OP",
+   "v": "PL-WP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37698,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-PD",
+   "v": "PL-WN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 174230,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-PK",
+   "v": "PL-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69038,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-PM",
+   "v": "PL-WN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 166114,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-PM",
+   "v": "PL-WP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37355,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-PM",
+   "v": "PL-ZP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136170,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-SK",
+   "v": "PL-SL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65537,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "PL-WP",
+   "v": "PL-ZP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 130077,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "POL-ADM1-17162690",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

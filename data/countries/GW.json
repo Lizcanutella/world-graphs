@@ -1,0 +1,294 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GW",
+ "kind": "country",
+ "name": "Guinea-Bissau",
+ "level": "regions",
+ "n": 9,
+ "m": 12,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GW-BA",
+   "name": "Bafatá",
+   "wikidata": "Q799791",
+   "lon": -14.75004,
+   "lat": 12.13742
+  },
+  {
+   "code": "GW-BL",
+   "name": "Bolama",
+   "wikidata": "Q151909",
+   "lon": -16.33668,
+   "lat": 11.53329
+  },
+  {
+   "code": "GW-BM",
+   "name": "Biombo",
+   "wikidata": "Q872228",
+   "lon": -16.08487,
+   "lat": 11.83104
+  },
+  {
+   "code": "GW-BS",
+   "name": "Bissau",
+   "wikidata": "Q3739",
+   "lon": -15.61388,
+   "lat": 11.88705
+  },
+  {
+   "code": "GW-CA",
+   "name": "Cacheu",
+   "wikidata": "Q780838",
+   "lon": -15.99754,
+   "lat": 12.22
+  },
+  {
+   "code": "GW-GA",
+   "name": "Gabú",
+   "wikidata": "Q872212",
+   "lon": -14.18705,
+   "lat": 12.11851
+  },
+  {
+   "code": "GW-OI",
+   "name": "Oio",
+   "wikidata": "Q853991",
+   "lon": -15.33289,
+   "lat": 12.28633
+  },
+  {
+   "code": "GW-QU",
+   "name": "Quinara",
+   "wikidata": "Q862617",
+   "lon": -14.96543,
+   "lat": 11.63744
+  },
+  {
+   "code": "GW-TO",
+   "name": "Tombali",
+   "wikidata": "Q1047255",
+   "lon": -15.13036,
+   "lat": 11.30998
+  }
+ ],
+ "edges": [
+  {
+   "u": "GW-BA",
+   "v": "GW-GA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 191208
+  },
+  {
+   "u": "GW-BA",
+   "v": "GW-OI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 120162
+  },
+  {
+   "u": "GW-BA",
+   "v": "GW-QU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23806
+  },
+  {
+   "u": "GW-BA",
+   "v": "GW-TO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43369
+  },
+  {
+   "u": "GW-BL",
+   "v": "GW-QU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9916
+  },
+  {
+   "u": "GW-BM",
+   "v": "GW-BS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19214
+  },
+  {
+   "u": "GW-BM",
+   "v": "GW-CA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5225
+  },
+  {
+   "u": "GW-BM",
+   "v": "GW-OI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8681
+  },
+  {
+   "u": "GW-BS",
+   "v": "GW-OI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11769
+  },
+  {
+   "u": "GW-CA",
+   "v": "GW-OI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98222
+  },
+  {
+   "u": "GW-GA",
+   "v": "GW-TO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13626
+  },
+  {
+   "u": "GW-QU",
+   "v": "GW-TO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71426
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GNB-ADM1-76643164",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

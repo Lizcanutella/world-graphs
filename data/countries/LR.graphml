@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LR-BG"><data key="name">Bong</data><data key="code">LR-BG</data><data key="wikidata">Q877578</data><data key="lon">-9.80337</data><data key="lat">6.92896</data></node>
+    <node id="LR-BM"><data key="name">Bomi</data><data key="code">LR-BM</data><data key="wikidata">Q844127</data><data key="lon">-10.8074</data><data key="lat">6.70035</data></node>
+    <node id="LR-CM"><data key="name">Grand Cape Mount</data><data key="code">LR-CM</data><data key="wikidata">Q1047921</data><data key="lon">-11.13074</data><data key="lat">7.06801</data></node>
+    <node id="LR-GB"><data key="name">Grand Bassa</data><data key="code">LR-GB</data><data key="wikidata">Q1047895</data><data key="lon">-9.93197</data><data key="lat">6.11919</data></node>
+    <node id="LR-GG"><data key="name">Grand Gedeh</data><data key="code">LR-GG</data><data key="wikidata">Q950841</data><data key="lon">-8.35959</data><data key="lat">5.97495</data></node>
+    <node id="LR-GK"><data key="name">Grand Kru</data><data key="code">LR-GK</data><data key="wikidata">Q574952</data><data key="lon">-8.31033</data><data key="lat">4.80132</data></node>
+    <node id="LR-LO"><data key="name">Lofa</data><data key="code">LR-LO</data><data key="wikidata">Q870130</data><data key="lon">-9.8029</data><data key="lat">7.88147</data></node>
+    <node id="LR-MG"><data key="name">Margibi</data><data key="code">LR-MG</data><data key="wikidata">Q1052737</data><data key="lon">-10.30588</data><data key="lat">6.45724</data></node>
+    <node id="LR-MO"><data key="name">Montserrado</data><data key="code">LR-MO</data><data key="wikidata">Q862608</data><data key="lon">-10.58084</data><data key="lat">6.52932</data></node>
+    <node id="LR-MY"><data key="name">Maryland</data><data key="code">LR-MY</data><data key="wikidata">Q870138</data><data key="lon">-7.73118</data><data key="lat">4.73696</data></node>
+    <node id="LR-NI"><data key="name">Nimba</data><data key="code">LR-NI</data><data key="wikidata">Q868497</data><data key="lon">-8.739</data><data key="lat">6.76265</data></node>
+    <node id="LR-RI"><data key="name">River Cess</data><data key="code">LR-RI</data><data key="wikidata">Q955095</data><data key="lon">-9.40305</data><data key="lat">5.81499</data></node>
+    <node id="LR-SI"><data key="name">Sinoe</data><data key="code">LR-SI</data><data key="wikidata">Q1043644</data><data key="lon">-8.89268</data><data key="lat">5.34819</data></node>
+    <node id="LR-X1~"><data key="name">Gbapolu</data><data key="code">LR-X1~</data><data key="wikidata">Q592251</data><data key="lon">-10.17188</data><data key="lat">7.43669</data></node>
+    <node id="LR-X2~"><data key="name">River Gee</data><data key="code">LR-X2~</data><data key="wikidata">Q1047875</data><data key="lon">-7.88477</data><data key="lat">5.1672</data></node>
+    <edge source="LR-BG" target="LR-BM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BG" target="LR-GB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BG" target="LR-LO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BG" target="LR-MG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BG" target="LR-MO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BG" target="LR-NI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BG" target="LR-X1~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BM" target="LR-CM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BM" target="LR-MO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-BM" target="LR-X1~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-CM" target="LR-X1~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GB" target="LR-MG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GB" target="LR-NI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GB" target="LR-RI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GG" target="LR-NI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GG" target="LR-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GG" target="LR-X2~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GK" target="LR-MY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GK" target="LR-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-GK" target="LR-X2~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-LO" target="LR-X1~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-MG" target="LR-MO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-MY" target="LR-X2~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-NI" target="LR-RI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-RI" target="LR-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LR-SI" target="LR-X2~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

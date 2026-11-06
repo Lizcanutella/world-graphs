@@ -1,0 +1,404 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ZA",
+ "kind": "country",
+ "name": "South Africa",
+ "level": "provinces",
+ "n": 9,
+ "m": 17,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ZA-EC",
+   "name": "Eastern Cape",
+   "wikidata": "Q130840",
+   "lon": 26.57707,
+   "lat": -32.09174
+  },
+  {
+   "code": "ZA-FS",
+   "name": "Free State",
+   "wikidata": "Q160284",
+   "lon": 26.60609,
+   "lat": -28.66809
+  },
+  {
+   "code": "ZA-GT",
+   "name": "Gauteng",
+   "wikidata": "Q133083",
+   "lon": 28.02004,
+   "lat": -26.00964
+  },
+  {
+   "code": "ZA-LP",
+   "name": "Limpopo",
+   "wikidata": "Q134907",
+   "lon": 29.33342,
+   "lat": -23.77904
+  },
+  {
+   "code": "ZA-MP",
+   "name": "Mpumalanga",
+   "wikidata": "Q132410",
+   "lon": 30.16039,
+   "lat": -25.74003
+  },
+  {
+   "code": "ZA-NC",
+   "name": "Northern Cape",
+   "wikidata": "Q132418",
+   "lon": 22.02237,
+   "lat": -28.8487
+  },
+  {
+   "code": "ZA-NL",
+   "name": "KwaZulu-Natal",
+   "wikidata": "Q81725",
+   "lon": 30.4146,
+   "lat": -28.94199
+  },
+  {
+   "code": "ZA-NW",
+   "name": "North West",
+   "wikidata": "Q165956",
+   "lon": 25.24337,
+   "lat": -26.3709
+  },
+  {
+   "code": "ZA-WC",
+   "name": "Western Cape",
+   "wikidata": "Q127167",
+   "lon": 22.14967,
+   "lat": -32.64268
+  }
+ ],
+ "edges": [
+  {
+   "u": "ZA-EC",
+   "v": "ZA-FS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 276275
+  },
+  {
+   "u": "ZA-EC",
+   "v": "ZA-NC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 228560
+  },
+  {
+   "u": "ZA-EC",
+   "v": "ZA-NL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 238406,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "ZA-EC",
+   "v": "ZA-WC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 467033
+  },
+  {
+   "u": "ZA-FS",
+   "v": "ZA-GT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 94180,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "ZA-FS",
+   "v": "ZA-MP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 221260
+  },
+  {
+   "u": "ZA-FS",
+   "v": "ZA-NC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 358534
+  },
+  {
+   "u": "ZA-FS",
+   "v": "ZA-NL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 210894,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "ZA-FS",
+   "v": "ZA-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 413968
+  },
+  {
+   "u": "ZA-GT",
+   "v": "ZA-LP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52653,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "ZA-GT",
+   "v": "ZA-MP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 465626,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "ZA-GT",
+   "v": "ZA-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 339875,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "ZA-LP",
+   "v": "ZA-MP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 730932
+  },
+  {
+   "u": "ZA-LP",
+   "v": "ZA-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 299596
+  },
+  {
+   "u": "ZA-MP",
+   "v": "ZA-NL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 169964,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "ZA-NC",
+   "v": "ZA-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 701708
+  },
+  {
+   "u": "ZA-NC",
+   "v": "ZA-WC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1127641
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ZAF-ADM1-76434192",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "FM",
+ "kind": "country",
+ "name": "Micronesia, Federated States of",
+ "level": "states",
+ "n": 4,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "FM-KSA",
+   "name": "Kosrae",
+   "wikidata": "Q1785093",
+   "lon": 162.98823,
+   "lat": 5.32726
+  },
+  {
+   "code": "FM-PNI",
+   "name": "Pohnpei",
+   "wikidata": "Q7771127",
+   "lon": 158.24746,
+   "lat": 6.88504
+  },
+  {
+   "code": "FM-TRK",
+   "name": "Chuuk",
+   "wikidata": "Q221684",
+   "lon": 151.87824,
+   "lat": 7.44194
+  },
+  {
+   "code": "FM-YAP",
+   "name": "Yap",
+   "wikidata": "Q11342951",
+   "lon": 138.10812,
+   "lat": 9.50068
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "FSM-ADM1-64989084",
+  "level": "ADM1",
+  "year": "2019",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

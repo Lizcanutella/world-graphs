@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CN-AH"><data key="name">Anhui</data><data key="code">CN-AH</data><data key="wikidata">Q40956</data><data key="lon">117.15576</data><data key="lat">32.02745</data></node>
+    <node id="CN-BJ"><data key="name">Beijing</data><data key="code">CN-BJ</data><data key="wikidata">Q956</data><data key="lon">116.63933</data><data key="lat">40.24814</data></node>
+    <node id="CN-CQ"><data key="name">Chongqing</data><data key="code">CN-CQ</data><data key="wikidata">Q11725</data><data key="lon">107.85078</data><data key="lat">30.19361</data></node>
+    <node id="CN-FJ"><data key="name">Fujian</data><data key="code">CN-FJ</data><data key="wikidata">Q41705</data><data key="lon">117.79122</data><data key="lat">25.96552</data></node>
+    <node id="CN-GD"><data key="name">Guangdong</data><data key="code">CN-GD</data><data key="wikidata">Q15175</data><data key="lon">112.30352</data><data key="lat">22.87905</data></node>
+    <node id="CN-GS"><data key="name">Gansu</data><data key="code">CN-GS</data><data key="wikidata">Q42392</data><data key="lon">102.87797</data><data key="lat">37.69377</data></node>
+    <node id="CN-GX"><data key="name">Guangxi</data><data key="code">CN-GX</data><data key="wikidata">Q15176</data><data key="lon">108.991</data><data key="lat">23.88932</data></node>
+    <node id="CN-GZ"><data key="name">Guizhou</data><data key="code">CN-GZ</data><data key="wikidata">Q47097</data><data key="lon">106.63391</data><data key="lat">26.93949</data></node>
+    <node id="CN-HA"><data key="name">Henan</data><data key="code">CN-HA</data><data key="wikidata">Q43684</data><data key="lon">113.07798</data><data key="lat">33.88008</data></node>
+    <node id="CN-HB"><data key="name">Hubei</data><data key="code">CN-HB</data><data key="wikidata">Q46862</data><data key="lon">112.85955</data><data key="lat">31.16715</data></node>
+    <node id="CN-HE"><data key="name">Hebei</data><data key="code">CN-HE</data><data key="wikidata">Q21208</data><data key="lon">115.65655</data><data key="lat">39.3398</data></node>
+    <node id="CN-HI"><data key="name">Hainan</data><data key="code">CN-HI</data><data key="wikidata">Q42200</data><data key="lon">109.5771</data><data key="lat">19.16482</data></node>
+    <node id="CN-HL"><data key="name">Heilongjiang</data><data key="code">CN-HL</data><data key="wikidata">Q19206</data><data key="lon">127.5765</data><data key="lat">48.50035</data></node>
+    <node id="CN-HN"><data key="name">Hunan</data><data key="code">CN-HN</data><data key="wikidata">Q45761</data><data key="lon">111.35826</data><data key="lat">27.37002</data></node>
+    <node id="CN-JL"><data key="name">Jilin</data><data key="code">CN-JL</data><data key="wikidata">Q45208</data><data key="lon">126.14181</data><data key="lat">43.57607</data></node>
+    <node id="CN-JS"><data key="name">Jiangsu</data><data key="code">CN-JS</data><data key="wikidata">Q16963</data><data key="lon">120.14386</data><data key="lat">32.93825</data></node>
+    <node id="CN-JX"><data key="name">Jiangxi</data><data key="code">CN-JX</data><data key="wikidata">Q57052</data><data key="lon">115.50193</data><data key="lat">27.2787</data></node>
+    <node id="CN-LN"><data key="name">Liaoning</data><data key="code">CN-LN</data><data key="wikidata">Q43934</data><data key="lon">122.38859</data><data key="lat">41.10033</data></node>
+    <node id="CN-NM"><data key="name">Inner Mongol</data><data key="code">CN-NM</data><data key="wikidata">Q41079</data><data key="lon">118.36252</data><data key="lat">45.36013</data></node>
+    <node id="CN-NX"><data key="name">Ningxia</data><data key="code">CN-NX</data><data key="wikidata">Q57448</data><data key="lon">105.97572</data><data key="lat">37.31612</data></node>
+    <node id="CN-QH"><data key="name">Qinghai</data><data key="code">CN-QH</data><data key="wikidata">Q45833</data><data key="lon">96.01595</data><data key="lat">35.42947</data></node>
+    <node id="CN-SC"><data key="name">Sichuan</data><data key="code">CN-SC</data><data key="wikidata">Q19770</data><data key="lon">102.2689</data><data key="lat">30.16762</data></node>
+    <node id="CN-SD"><data key="name">Shandong</data><data key="code">CN-SD</data><data key="wikidata">Q43407</data><data key="lon">117.99941</data><data key="lat">36.33275</data></node>
+    <node id="CN-SH"><data key="name">Shanghai</data><data key="code">CN-SH</data><data key="wikidata">Q8686</data><data key="lon">121.38223</data><data key="lat">31.08911</data></node>
+    <node id="CN-SN"><data key="name">Shaanxi</data><data key="code">CN-SN</data><data key="wikidata">Q47974</data><data key="lon">109.5645</data><data key="lat">35.65147</data></node>
+    <node id="CN-SX"><data key="name">Shanxi</data><data key="code">CN-SX</data><data key="wikidata">Q46913</data><data key="lon">112.44807</data><data key="lat">37.6639</data></node>
+    <node id="CN-TJ"><data key="name">Tianjin</data><data key="code">CN-TJ</data><data key="wikidata">Q11736</data><data key="lon">117.35609</data><data key="lat">39.40796</data></node>
+    <node id="CN-X01~"><data key="name">Paracel Islands</data><data key="code">CN-X01~</data><data key="wikidata"></data><data key="lon">111.20172</data><data key="lat">15.78394</data></node>
+    <node id="CN-XJ"><data key="name">Xinjiang</data><data key="code">CN-XJ</data><data key="wikidata">Q34800</data><data key="lon">87.1117</data><data key="lat">41.75681</data></node>
+    <node id="CN-XZ"><data key="name">Xizang</data><data key="code">CN-XZ</data><data key="wikidata">Q17269</data><data key="lon">83.66705</data><data key="lat">31.88358</data></node>
+    <node id="CN-YN"><data key="name">Yunnan</data><data key="code">CN-YN</data><data key="wikidata">Q43194</data><data key="lon">101.25085</data><data key="lat">25.18176</data></node>
+    <node id="CN-ZJ"><data key="name">Zhejiang</data><data key="code">CN-ZJ</data><data key="wikidata">Q16967</data><data key="lon">119.74518</data><data key="lat">29.18049</data></node>
+    <edge source="CN-AH" target="CN-HA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-AH" target="CN-HB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-AH" target="CN-JS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-AH" target="CN-JX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-AH" target="CN-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-AH" target="CN-ZJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-BJ" target="CN-HE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-BJ" target="CN-TJ"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CN-CQ" target="CN-GZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-CQ" target="CN-HB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-CQ" target="CN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-CQ" target="CN-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-CQ" target="CN-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-FJ" target="CN-GD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-FJ" target="CN-JX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-FJ" target="CN-ZJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GD" target="CN-GX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GD" target="CN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GD" target="CN-JX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GS" target="CN-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GS" target="CN-NX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GS" target="CN-QH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GS" target="CN-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GS" target="CN-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GS" target="CN-XJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GX" target="CN-GZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GX" target="CN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GX" target="CN-YN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GZ" target="CN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GZ" target="CN-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-GZ" target="CN-YN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HA" target="CN-HB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HA" target="CN-HE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HA" target="CN-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HA" target="CN-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HA" target="CN-SX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HB" target="CN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HB" target="CN-JX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HB" target="CN-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HE" target="CN-LN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HE" target="CN-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HE" target="CN-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HE" target="CN-SX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HE" target="CN-TJ"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HL" target="CN-JL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HL" target="CN-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-HN" target="CN-JX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-JL" target="CN-LN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-JL" target="CN-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-JS" target="CN-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-JS" target="CN-SH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CN-JS" target="CN-ZJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-JX" target="CN-ZJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-LN" target="CN-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-NM" target="CN-NX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-NM" target="CN-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-NM" target="CN-SX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-NX" target="CN-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-QH" target="CN-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-QH" target="CN-XJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-QH" target="CN-XZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-SC" target="CN-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-SC" target="CN-XZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-SC" target="CN-YN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-SH" target="CN-ZJ"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CN-SN" target="CN-SX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-XJ" target="CN-XZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CN-XZ" target="CN-YN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

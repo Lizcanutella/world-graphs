@@ -1,0 +1,3928 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PH",
+ "kind": "country",
+ "name": "Philippines",
+ "level": "provinces",
+ "n": 115,
+ "m": 191,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PH-ABR",
+   "name": "Abra",
+   "wikidata": "Q13711",
+   "lon": 120.79431,
+   "lat": 17.56094
+  },
+  {
+   "code": "PH-AGN",
+   "name": "Agusan del Norte",
+   "wikidata": "Q13714",
+   "lon": 125.63096,
+   "lat": 9.24386
+  },
+  {
+   "code": "PH-AGN:Butuan",
+   "name": "Butuan",
+   "wikidata": "Q13714",
+   "lon": 125.5657,
+   "lat": 8.91702
+  },
+  {
+   "code": "PH-AGS",
+   "name": "Agusan del Sur",
+   "wikidata": "Q13721",
+   "lon": 125.72928,
+   "lat": 8.61048
+  },
+  {
+   "code": "PH-AKL",
+   "name": "Aklan",
+   "wikidata": "Q13723",
+   "lon": 122.31299,
+   "lat": 11.62663
+  },
+  {
+   "code": "PH-ALB",
+   "name": "Albay",
+   "wikidata": "Q13726",
+   "lon": 123.56085,
+   "lat": 13.25296
+  },
+  {
+   "code": "PH-ANT",
+   "name": "Antique",
+   "wikidata": "Q13727",
+   "lon": 122.16005,
+   "lat": 11.13224
+  },
+  {
+   "code": "PH-APA",
+   "name": "Apayao",
+   "wikidata": "Q13728",
+   "lon": 121.20423,
+   "lat": 18.10706
+  },
+  {
+   "code": "PH-AUR",
+   "name": "Aurora",
+   "wikidata": "Q13730",
+   "lon": 121.42491,
+   "lat": 15.7699
+  },
+  {
+   "code": "PH-BAN",
+   "name": "Bataan",
+   "wikidata": "Q13739",
+   "lon": 120.414,
+   "lat": 14.67902
+  },
+  {
+   "code": "PH-BAS",
+   "name": "Basilan",
+   "wikidata": "Q13737",
+   "lon": 122.05711,
+   "lat": 6.57302
+  },
+  {
+   "code": "PH-BCD",
+   "name": "Bacolod",
+   "wikidata": null,
+   "lon": 123.00177,
+   "lat": 10.66966
+  },
+  {
+   "code": "PH-BEN",
+   "name": "Benguet",
+   "wikidata": "Q13750",
+   "lon": 120.70042,
+   "lat": 16.54134
+  },
+  {
+   "code": "PH-BEN:Baguio",
+   "name": "Baguio",
+   "wikidata": "Q13750",
+   "lon": 120.61156,
+   "lat": 16.39541
+  },
+  {
+   "code": "PH-BIL",
+   "name": "Biliran",
+   "wikidata": "Q13751",
+   "lon": 124.4882,
+   "lat": 11.59431
+  },
+  {
+   "code": "PH-BOH",
+   "name": "Bohol",
+   "wikidata": "Q13752",
+   "lon": 124.2274,
+   "lat": 9.88231
+  },
+  {
+   "code": "PH-BTG",
+   "name": "Batangas",
+   "wikidata": "Q13744",
+   "lon": 121.1036,
+   "lat": 13.90672
+  },
+  {
+   "code": "PH-BTN",
+   "name": "Batanes",
+   "wikidata": "Q13740",
+   "lon": 121.84215,
+   "lat": 20.76465
+  },
+  {
+   "code": "PH-BUK",
+   "name": "Bukidnon",
+   "wikidata": "Q13753",
+   "lon": 125.01264,
+   "lat": 7.99163
+  },
+  {
+   "code": "PH-BUL",
+   "name": "Bulacan",
+   "wikidata": "Q13755",
+   "lon": 121.10302,
+   "lat": 14.97345
+  },
+  {
+   "code": "PH-CAG",
+   "name": "Cagayan",
+   "wikidata": "Q13759",
+   "lon": 121.81207,
+   "lat": 18.08377
+  },
+  {
+   "code": "PH-CAM",
+   "name": "Camiguin",
+   "wikidata": "Q13769",
+   "lon": 124.72358,
+   "lat": 9.16645
+  },
+  {
+   "code": "PH-CAN",
+   "name": "Camarines Norte",
+   "wikidata": "Q13763",
+   "lon": 122.83196,
+   "lat": 14.08646
+  },
+  {
+   "code": "PH-CAP",
+   "name": "Capiz",
+   "wikidata": "Q13772",
+   "lon": 122.69013,
+   "lat": 11.38246
+  },
+  {
+   "code": "PH-CAS",
+   "name": "Camarines Sur",
+   "wikidata": "Q13767",
+   "lon": 123.19366,
+   "lat": 13.67563
+  },
+  {
+   "code": "PH-CAS:Naga",
+   "name": "Naga",
+   "wikidata": "Q13767",
+   "lon": 123.24411,
+   "lat": 13.59428
+  },
+  {
+   "code": "PH-CAT",
+   "name": "Catanduanes",
+   "wikidata": "Q13778",
+   "lon": 124.2711,
+   "lat": 13.80473
+  },
+  {
+   "code": "PH-CAV",
+   "name": "Cavite",
+   "wikidata": "Q13785",
+   "lon": 120.87618,
+   "lat": 14.28667
+  },
+  {
+   "code": "PH-CEB",
+   "name": "Cebu",
+   "wikidata": "Q13786",
+   "lon": 123.76495,
+   "lat": 10.33968
+  },
+  {
+   "code": "PH-COM",
+   "name": "Compostela Valley",
+   "wikidata": "Q13789",
+   "lon": 126.04736,
+   "lat": 7.5148
+  },
+  {
+   "code": "PH-DAO",
+   "name": "Davao Oriental",
+   "wikidata": "Q13806",
+   "lon": 126.32691,
+   "lat": 7.16128
+  },
+  {
+   "code": "PH-DAS",
+   "name": "Davao del Sur",
+   "wikidata": "Q13794",
+   "lon": 125.55701,
+   "lat": 6.2954
+  },
+  {
+   "code": "PH-DAV",
+   "name": "Davao del Norte",
+   "wikidata": "Q13792",
+   "lon": 125.61123,
+   "lat": 7.60731
+  },
+  {
+   "code": "PH-DAV:Davao",
+   "name": "Davao",
+   "wikidata": null,
+   "lon": 125.37046,
+   "lat": 7.31875
+  },
+  {
+   "code": "PH-EAS",
+   "name": "Eastern Samar",
+   "wikidata": "Q13809",
+   "lon": 125.38526,
+   "lat": 11.68848
+  },
+  {
+   "code": "PH-GUI",
+   "name": "Guimaras",
+   "wikidata": "Q13810",
+   "lon": 122.62539,
+   "lat": 10.5882
+  },
+  {
+   "code": "PH-IFU",
+   "name": "Ifugao",
+   "wikidata": "Q13812",
+   "lon": 121.21666,
+   "lat": 16.84406
+  },
+  {
+   "code": "PH-ILI",
+   "name": "Iloilo",
+   "wikidata": "Q13825",
+   "lon": 122.60277,
+   "lat": 11.02934
+  },
+  {
+   "code": "PH-ILN",
+   "name": "Ilocos Norte",
+   "wikidata": "Q13813",
+   "lon": 120.74636,
+   "lat": 18.17558
+  },
+  {
+   "code": "PH-ILS",
+   "name": "Ilocos Sur",
+   "wikidata": "Q12741",
+   "lon": 120.5175,
+   "lat": 17.2776
+  },
+  {
+   "code": "PH-ISA",
+   "name": "Isabela",
+   "wikidata": "Q13826",
+   "lon": 122.01974,
+   "lat": 16.95085
+  },
+  {
+   "code": "PH-ISA:Santiago",
+   "name": "Santiago",
+   "wikidata": "Q13826",
+   "lon": 121.54117,
+   "lat": 16.71825
+  },
+  {
+   "code": "PH-KAL",
+   "name": "Kalinga",
+   "wikidata": "Q13827",
+   "lon": 121.31465,
+   "lat": 17.44085
+  },
+  {
+   "code": "PH-LAG",
+   "name": "Laguna",
+   "wikidata": "Q13840",
+   "lon": 121.48477,
+   "lat": 14.26632
+  },
+  {
+   "code": "PH-LAN",
+   "name": "Lanao del Norte",
+   "wikidata": "Q13841",
+   "lon": 123.91466,
+   "lat": 7.95734
+  },
+  {
+   "code": "PH-LAN:Iligan",
+   "name": "Iligan",
+   "wikidata": "Q13841",
+   "lon": 124.47361,
+   "lat": 8.19146
+  },
+  {
+   "code": "PH-LAP",
+   "name": "Lapu-Lapu",
+   "wikidata": "Q574903",
+   "lon": 123.96715,
+   "lat": 10.28044
+  },
+  {
+   "code": "PH-LAS",
+   "name": "Lanao del Sur",
+   "wikidata": "Q13843",
+   "lon": 124.35859,
+   "lat": 7.82472
+  },
+  {
+   "code": "PH-LEY",
+   "name": "Leyte",
+   "wikidata": "Q13844",
+   "lon": 124.87672,
+   "lat": 10.87092
+  },
+  {
+   "code": "PH-LEY:Ormoc",
+   "name": "Ormoc",
+   "wikidata": "Q13844",
+   "lon": 124.5732,
+   "lat": 11.08762
+  },
+  {
+   "code": "PH-LEY:Tacloban",
+   "name": "Tacloban",
+   "wikidata": "Q13844",
+   "lon": 124.95967,
+   "lat": 11.26327
+  },
+  {
+   "code": "PH-LUN",
+   "name": "La Union",
+   "wikidata": "Q13829",
+   "lon": 120.40516,
+   "lat": 16.55574
+  },
+  {
+   "code": "PH-MAD",
+   "name": "Marinduque",
+   "wikidata": "Q13846",
+   "lon": 121.97264,
+   "lat": 13.38459
+  },
+  {
+   "code": "PH-MAG",
+   "name": "Maguindanao",
+   "wikidata": "Q13845",
+   "lon": 124.28545,
+   "lat": 7.15837
+  },
+  {
+   "code": "PH-MAS",
+   "name": "Masbate",
+   "wikidata": "Q13847",
+   "lon": 123.7407,
+   "lat": 12.16173
+  },
+  {
+   "code": "PH-MDC",
+   "name": "Mindoro Occidental",
+   "wikidata": "Q13867",
+   "lon": 121.01287,
+   "lat": 12.89199
+  },
+  {
+   "code": "PH-MDE",
+   "name": "Mandaue",
+   "wikidata": null,
+   "lon": 123.94438,
+   "lat": 10.35421
+  },
+  {
+   "code": "PH-MDR",
+   "name": "Mindoro Oriental",
+   "wikidata": "Q13868",
+   "lon": 121.36756,
+   "lat": 12.89273
+  },
+  {
+   "code": "PH-MNL:Caloocan",
+   "name": "Caloocan",
+   "wikidata": null,
+   "lon": 121.0563,
+   "lat": 14.73156
+  },
+  {
+   "code": "PH-MNL:Las Pinas",
+   "name": "Las Pinas",
+   "wikidata": null,
+   "lon": 120.99567,
+   "lat": 14.45497
+  },
+  {
+   "code": "PH-MNL:Makati",
+   "name": "Makati",
+   "wikidata": null,
+   "lon": 121.03007,
+   "lat": 14.55037
+  },
+  {
+   "code": "PH-MNL:Malabon",
+   "name": "Malabon",
+   "wikidata": null,
+   "lon": 120.96592,
+   "lat": 14.6654
+  },
+  {
+   "code": "PH-MNL:Mandaluyong City",
+   "name": "Mandaluyong City",
+   "wikidata": null,
+   "lon": 121.05018,
+   "lat": 14.57778
+  },
+  {
+   "code": "PH-MNL:Manila",
+   "name": "Manila",
+   "wikidata": null,
+   "lon": 120.99501,
+   "lat": 14.5946
+  },
+  {
+   "code": "PH-MNL:Marikina",
+   "name": "Marikina",
+   "wikidata": null,
+   "lon": 121.1227,
+   "lat": 14.63303
+  },
+  {
+   "code": "PH-MNL:Muntinlupa",
+   "name": "Muntinlupa",
+   "wikidata": null,
+   "lon": 121.04028,
+   "lat": 14.40953
+  },
+  {
+   "code": "PH-MNL:Navotas",
+   "name": "Navotas",
+   "wikidata": null,
+   "lon": 120.94564,
+   "lat": 14.66047
+  },
+  {
+   "code": "PH-MNL:Paranaque",
+   "name": "Paranaque",
+   "wikidata": null,
+   "lon": 121.02451,
+   "lat": 14.48734
+  },
+  {
+   "code": "PH-MNL:Pasay",
+   "name": "Pasay",
+   "wikidata": "Q17189",
+   "lon": 121.00794,
+   "lat": 14.5329
+  },
+  {
+   "code": "PH-MNL:Pasig",
+   "name": "Pasig",
+   "wikidata": null,
+   "lon": 121.09388,
+   "lat": 14.5685
+  },
+  {
+   "code": "PH-MNL:Pateros",
+   "name": "Pateros",
+   "wikidata": null,
+   "lon": 121.08298,
+   "lat": 14.54217
+  },
+  {
+   "code": "PH-MNL:Quezon City",
+   "name": "Quezon City",
+   "wikidata": null,
+   "lon": 121.07856,
+   "lat": 14.67296
+  },
+  {
+   "code": "PH-MNL:San Juan",
+   "name": "San Juan",
+   "wikidata": null,
+   "lon": 121.05101,
+   "lat": 14.59591
+  },
+  {
+   "code": "PH-MNL:Taguig",
+   "name": "Taguig",
+   "wikidata": null,
+   "lon": 121.06426,
+   "lat": 14.51282
+  },
+  {
+   "code": "PH-MNL:Valenzuela",
+   "name": "Valenzuela",
+   "wikidata": null,
+   "lon": 120.97964,
+   "lat": 14.70058
+  },
+  {
+   "code": "PH-MOU",
+   "name": "Mountain Province",
+   "wikidata": "Q13861",
+   "lon": 121.07651,
+   "lat": 17.07196
+  },
+  {
+   "code": "PH-MSC",
+   "name": "Misamis Occidental",
+   "wikidata": "Q13857",
+   "lon": 123.71124,
+   "lat": 8.30382
+  },
+  {
+   "code": "PH-MSR",
+   "name": "Misamis Oriental",
+   "wikidata": "Q13860",
+   "lon": 125.04084,
+   "lat": 8.80075
+  },
+  {
+   "code": "PH-MSR:Cagayan de Oro",
+   "name": "Cagayan de Oro",
+   "wikidata": "Q13860",
+   "lon": 124.53708,
+   "lat": 8.37624
+  },
+  {
+   "code": "PH-NCO",
+   "name": "Cotabato",
+   "wikidata": "Q13791",
+   "lon": 124.86107,
+   "lat": 7.20729
+  },
+  {
+   "code": "PH-NEC",
+   "name": "Negros Occidental",
+   "wikidata": "Q13862",
+   "lon": 123.00199,
+   "lat": 10.20673
+  },
+  {
+   "code": "PH-NER",
+   "name": "Negros Oriental",
+   "wikidata": "Q13863",
+   "lon": 123.01607,
+   "lat": 9.78181
+  },
+  {
+   "code": "PH-NSA",
+   "name": "Northern Samar",
+   "wikidata": "Q13864",
+   "lon": 124.83735,
+   "lat": 12.40603
+  },
+  {
+   "code": "PH-NUE",
+   "name": "Nueva Ecija",
+   "wikidata": "Q13865",
+   "lon": 120.99708,
+   "lat": 15.64013
+  },
+  {
+   "code": "PH-NUV",
+   "name": "Nueva Vizcaya",
+   "wikidata": "Q13866",
+   "lon": 121.04194,
+   "lat": 16.27947
+  },
+  {
+   "code": "PH-PAM",
+   "name": "Pampanga",
+   "wikidata": "Q13870",
+   "lon": 120.66811,
+   "lat": 15.02187
+  },
+  {
+   "code": "PH-PAM:Angeles",
+   "name": "Angeles",
+   "wikidata": "Q13870",
+   "lon": 120.58475,
+   "lat": 15.13977
+  },
+  {
+   "code": "PH-PAN",
+   "name": "Pangasinan",
+   "wikidata": "Q13871",
+   "lon": 120.6384,
+   "lat": 16.00657
+  },
+  {
+   "code": "PH-PAN:Dagupan",
+   "name": "Dagupan",
+   "wikidata": "Q13871",
+   "lon": 120.36153,
+   "lat": 16.04662
+  },
+  {
+   "code": "PH-PLW",
+   "name": "Palawan",
+   "wikidata": "Q13869",
+   "lon": 117.85858,
+   "lat": 9.00802
+  },
+  {
+   "code": "PH-PLW:Puerto Princesa",
+   "name": "Puerto Princesa",
+   "wikidata": "Q13869",
+   "lon": 118.68575,
+   "lat": 9.90681
+  },
+  {
+   "code": "PH-QUE",
+   "name": "Quezon",
+   "wikidata": "Q13872",
+   "lon": 121.65325,
+   "lat": 14.19164
+  },
+  {
+   "code": "PH-QUE:Lucena",
+   "name": "Lucena",
+   "wikidata": "Q13872",
+   "lon": 121.56778,
+   "lat": 13.93342
+  },
+  {
+   "code": "PH-QUI",
+   "name": "Quirino",
+   "wikidata": "Q13873",
+   "lon": 121.62786,
+   "lat": 16.30795
+  },
+  {
+   "code": "PH-RIZ",
+   "name": "Rizal",
+   "wikidata": "Q13874",
+   "lon": 121.28134,
+   "lat": 14.60195
+  },
+  {
+   "code": "PH-ROM",
+   "name": "Romblon",
+   "wikidata": "Q13875",
+   "lon": 122.59261,
+   "lat": 12.38168
+  },
+  {
+   "code": "PH-SAR",
+   "name": "Sarangani",
+   "wikidata": "Q13877",
+   "lon": 125.39127,
+   "lat": 5.99512
+  },
+  {
+   "code": "PH-SCO",
+   "name": "South Cotabato",
+   "wikidata": "Q13882",
+   "lon": 124.88735,
+   "lat": 6.3066
+  },
+  {
+   "code": "PH-SCO:General Santos",
+   "name": "General Santos",
+   "wikidata": "Q13882",
+   "lon": 125.13587,
+   "lat": 6.14629
+  },
+  {
+   "code": "PH-SIG",
+   "name": "Siquijor",
+   "wikidata": "Q13879",
+   "lon": 123.57845,
+   "lat": 9.19269
+  },
+  {
+   "code": "PH-SLE",
+   "name": "Southern Leyte",
+   "wikidata": "Q13884",
+   "lon": 125.15994,
+   "lat": 10.32125
+  },
+  {
+   "code": "PH-SLU",
+   "name": "Sulu",
+   "wikidata": "Q13887",
+   "lon": 121.15105,
+   "lat": 5.97425
+  },
+  {
+   "code": "PH-SOR",
+   "name": "Sorsogon",
+   "wikidata": "Q13881",
+   "lon": 123.97235,
+   "lat": 12.82506
+  },
+  {
+   "code": "PH-SUK",
+   "name": "Sultan Kudarat",
+   "wikidata": "Q13885",
+   "lon": 124.32758,
+   "lat": 6.49689
+  },
+  {
+   "code": "PH-SUN",
+   "name": "Surigao del Norte",
+   "wikidata": "Q13889",
+   "lon": 125.59679,
+   "lat": 9.56517
+  },
+  {
+   "code": "PH-SUR",
+   "name": "Surigao del Sur",
+   "wikidata": "Q13891",
+   "lon": 126.13917,
+   "lat": 8.69579
+  },
+  {
+   "code": "PH-TAR",
+   "name": "Tarlac",
+   "wikidata": "Q13892",
+   "lon": 120.46602,
+   "lat": 15.51859
+  },
+  {
+   "code": "PH-TAW",
+   "name": "Tawi-Tawi",
+   "wikidata": "Q13893",
+   "lon": 120.02917,
+   "lat": 5.19961
+  },
+  {
+   "code": "PH-WSA",
+   "name": "Samar",
+   "wikidata": "Q13876",
+   "lon": 125.14525,
+   "lat": 11.71027
+  },
+  {
+   "code": "PH-ZAN",
+   "name": "Zamboanga del Norte",
+   "wikidata": "Q13899",
+   "lon": 122.4633,
+   "lat": 7.93194
+  },
+  {
+   "code": "PH-ZAN:Zamboanga",
+   "name": "Zamboanga",
+   "wikidata": "Q13899",
+   "lon": 122.20702,
+   "lat": 7.19987
+  },
+  {
+   "code": "PH-ZAS",
+   "name": "Zamboanga del Sur",
+   "wikidata": "Q13900",
+   "lon": 123.26743,
+   "lat": 7.78388
+  },
+  {
+   "code": "PH-ZMB",
+   "name": "Zambales",
+   "wikidata": "Q13895",
+   "lon": 120.11897,
+   "lat": 15.30041
+  },
+  {
+   "code": "PH-ZMB:Olongapo",
+   "name": "Olongapo",
+   "wikidata": "Q13895",
+   "lon": 120.32515,
+   "lat": 14.86868
+  },
+  {
+   "code": "PH-ZSI",
+   "name": "Zamboanga Sibugay",
+   "wikidata": "Q13902",
+   "lon": 122.9485,
+   "lat": 7.70254
+  }
+ ],
+ "edges": [
+  {
+   "u": "PH-ABR",
+   "v": "PH-APA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42423
+  },
+  {
+   "u": "PH-ABR",
+   "v": "PH-ILN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54645
+  },
+  {
+   "u": "PH-ABR",
+   "v": "PH-ILS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 106043
+  },
+  {
+   "u": "PH-ABR",
+   "v": "PH-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58241
+  },
+  {
+   "u": "PH-ABR",
+   "v": "PH-MOU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9740
+  },
+  {
+   "u": "PH-AGN",
+   "v": "PH-AGN:Butuan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 61042,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Agusan_del_Norte"
+    }
+   ]
+  },
+  {
+   "u": "PH-AGN",
+   "v": "PH-AGS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 81688
+  },
+  {
+   "u": "PH-AGN",
+   "v": "PH-MSR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60257
+  },
+  {
+   "u": "PH-AGN",
+   "v": "PH-SUN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40932
+  },
+  {
+   "u": "PH-AGN",
+   "v": "PH-SUR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12487
+  },
+  {
+   "u": "PH-AGN:Butuan",
+   "v": "PH-AGS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24655
+  },
+  {
+   "u": "PH-AGS",
+   "v": "PH-BUK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67119
+  },
+  {
+   "u": "PH-AGS",
+   "v": "PH-COM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55959
+  },
+  {
+   "u": "PH-AGS",
+   "v": "PH-DAO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11924
+  },
+  {
+   "u": "PH-AGS",
+   "v": "PH-DAV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33200
+  },
+  {
+   "u": "PH-AGS",
+   "v": "PH-MSR",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "PH-AGS",
+   "v": "PH-SUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 166671
+  },
+  {
+   "u": "PH-AKL",
+   "v": "PH-ANT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 89988
+  },
+  {
+   "u": "PH-AKL",
+   "v": "PH-CAP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59486
+  },
+  {
+   "u": "PH-ALB",
+   "v": "PH-CAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61704
+  },
+  {
+   "u": "PH-ALB",
+   "v": "PH-SOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55092
+  },
+  {
+   "u": "PH-ANT",
+   "v": "PH-CAP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20365
+  },
+  {
+   "u": "PH-ANT",
+   "v": "PH-ILI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 95602
+  },
+  {
+   "u": "PH-APA",
+   "v": "PH-CAG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 142554
+  },
+  {
+   "u": "PH-APA",
+   "v": "PH-ILN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61198
+  },
+  {
+   "u": "PH-APA",
+   "v": "PH-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32422
+  },
+  {
+   "u": "PH-AUR",
+   "v": "PH-BUL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18339
+  },
+  {
+   "u": "PH-AUR",
+   "v": "PH-ISA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22112
+  },
+  {
+   "u": "PH-AUR",
+   "v": "PH-NUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68544
+  },
+  {
+   "u": "PH-AUR",
+   "v": "PH-NUV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25242
+  },
+  {
+   "u": "PH-AUR",
+   "v": "PH-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30765
+  },
+  {
+   "u": "PH-AUR",
+   "v": "PH-QUI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 90868
+  },
+  {
+   "u": "PH-BAN",
+   "v": "PH-PAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16559
+  },
+  {
+   "u": "PH-BAN",
+   "v": "PH-ZMB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3081
+  },
+  {
+   "u": "PH-BAN",
+   "v": "PH-ZMB:Olongapo",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23857
+  },
+  {
+   "u": "PH-BCD",
+   "v": "PH-NEC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34812,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bacolod"
+    }
+   ]
+  },
+  {
+   "u": "PH-BEN",
+   "v": "PH-BEN:Baguio",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33298,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Benguet"
+    }
+   ]
+  },
+  {
+   "u": "PH-BEN",
+   "v": "PH-IFU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28520
+  },
+  {
+   "u": "PH-BEN",
+   "v": "PH-ILS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40810
+  },
+  {
+   "u": "PH-BEN",
+   "v": "PH-LUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51681
+  },
+  {
+   "u": "PH-BEN",
+   "v": "PH-MOU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11765
+  },
+  {
+   "u": "PH-BEN",
+   "v": "PH-NUV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51631
+  },
+  {
+   "u": "PH-BEN",
+   "v": "PH-PAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25652
+  },
+  {
+   "u": "PH-BTG",
+   "v": "PH-CAV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56767
+  },
+  {
+   "u": "PH-BTG",
+   "v": "PH-LAG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39619
+  },
+  {
+   "u": "PH-BTG",
+   "v": "PH-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26822
+  },
+  {
+   "u": "PH-BUK",
+   "v": "PH-DAV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59986
+  },
+  {
+   "u": "PH-BUK",
+   "v": "PH-DAV:Davao",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3460
+  },
+  {
+   "u": "PH-BUK",
+   "v": "PH-LAN:Iligan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28168
+  },
+  {
+   "u": "PH-BUK",
+   "v": "PH-LAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59838
+  },
+  {
+   "u": "PH-BUK",
+   "v": "PH-MSR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58494
+  },
+  {
+   "u": "PH-BUK",
+   "v": "PH-MSR:Cagayan de Oro",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54177
+  },
+  {
+   "u": "PH-BUK",
+   "v": "PH-NCO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78366
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-MNL:Caloocan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12937
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-MNL:Malabon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3846
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-MNL:Navotas",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2638
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-MNL:Quezon City",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4567,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bulacan"
+    }
+   ]
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-MNL:Valenzuela",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14869
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-NUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42263
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-PAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65381
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15916
+  },
+  {
+   "u": "PH-BUL",
+   "v": "PH-RIZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26611
+  },
+  {
+   "u": "PH-CAG",
+   "v": "PH-ILN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18284
+  },
+  {
+   "u": "PH-CAG",
+   "v": "PH-ISA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56848
+  },
+  {
+   "u": "PH-CAG",
+   "v": "PH-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33014
+  },
+  {
+   "u": "PH-CAN",
+   "v": "PH-CAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33112
+  },
+  {
+   "u": "PH-CAN",
+   "v": "PH-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63092
+  },
+  {
+   "u": "PH-CAP",
+   "v": "PH-ILI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 128997
+  },
+  {
+   "u": "PH-CAS",
+   "v": "PH-CAS:Naga",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54032,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Camarines_Sur"
+    }
+   ]
+  },
+  {
+   "u": "PH-CAS",
+   "v": "PH-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29056
+  },
+  {
+   "u": "PH-CAV",
+   "v": "PH-LAG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31284
+  },
+  {
+   "u": "PH-CAV",
+   "v": "PH-MNL:Las Pinas",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12759
+  },
+  {
+   "u": "PH-CAV",
+   "v": "PH-MNL:Muntinlupa",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4257
+  },
+  {
+   "u": "PH-CEB",
+   "v": "PH-MDE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16658,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mandaue"
+    }
+   ]
+  },
+  {
+   "u": "PH-COM",
+   "v": "PH-DAO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127742
+  },
+  {
+   "u": "PH-COM",
+   "v": "PH-DAV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 131912
+  },
+  {
+   "u": "PH-DAO",
+   "v": "PH-SUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15756
+  },
+  {
+   "u": "PH-DAS",
+   "v": "PH-DAV:Davao",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22891,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Davao_del_Sur"
+    }
+   ]
+  },
+  {
+   "u": "PH-DAS",
+   "v": "PH-NCO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33122
+  },
+  {
+   "u": "PH-DAS",
+   "v": "PH-SAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133619
+  },
+  {
+   "u": "PH-DAS",
+   "v": "PH-SCO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15302
+  },
+  {
+   "u": "PH-DAS",
+   "v": "PH-SUK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25706,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Davao_del_Sur"
+    }
+   ]
+  },
+  {
+   "u": "PH-DAV",
+   "v": "PH-DAV:Davao",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83570
+  },
+  {
+   "u": "PH-DAV:Davao",
+   "v": "PH-NCO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68960
+  },
+  {
+   "u": "PH-EAS",
+   "v": "PH-NSA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26834
+  },
+  {
+   "u": "PH-EAS",
+   "v": "PH-WSA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 153502
+  },
+  {
+   "u": "PH-IFU",
+   "v": "PH-ISA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33813
+  },
+  {
+   "u": "PH-IFU",
+   "v": "PH-ISA:Santiago",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19553
+  },
+  {
+   "u": "PH-IFU",
+   "v": "PH-MOU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 87624
+  },
+  {
+   "u": "PH-IFU",
+   "v": "PH-NUV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54273
+  },
+  {
+   "u": "PH-ILN",
+   "v": "PH-ILS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33242
+  },
+  {
+   "u": "PH-ILS",
+   "v": "PH-LUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46727
+  },
+  {
+   "u": "PH-ILS",
+   "v": "PH-MOU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33779
+  },
+  {
+   "u": "PH-ISA",
+   "v": "PH-ISA:Santiago",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 52841,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Isabela_(province)"
+    }
+   ]
+  },
+  {
+   "u": "PH-ISA",
+   "v": "PH-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33077
+  },
+  {
+   "u": "PH-ISA",
+   "v": "PH-MOU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18144
+  },
+  {
+   "u": "PH-ISA",
+   "v": "PH-QUI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73748
+  },
+  {
+   "u": "PH-ISA:Santiago",
+   "v": "PH-NUV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9731
+  },
+  {
+   "u": "PH-ISA:Santiago",
+   "v": "PH-QUI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9375
+  },
+  {
+   "u": "PH-KAL",
+   "v": "PH-MOU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76687
+  },
+  {
+   "u": "PH-LAG",
+   "v": "PH-MNL:Muntinlupa",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6334
+  },
+  {
+   "u": "PH-LAG",
+   "v": "PH-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 90547
+  },
+  {
+   "u": "PH-LAG",
+   "v": "PH-RIZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46233
+  },
+  {
+   "u": "PH-LAN",
+   "v": "PH-LAN:Iligan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8213,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lanao_del_Norte"
+    }
+   ]
+  },
+  {
+   "u": "PH-LAN",
+   "v": "PH-LAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 94414
+  },
+  {
+   "u": "PH-LAN",
+   "v": "PH-ZAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19973
+  },
+  {
+   "u": "PH-LAN:Iligan",
+   "v": "PH-LAS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46282
+  },
+  {
+   "u": "PH-LAN:Iligan",
+   "v": "PH-MSR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21555
+  },
+  {
+   "u": "PH-LAN:Iligan",
+   "v": "PH-MSR:Cagayan de Oro",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20300
+  },
+  {
+   "u": "PH-LAS",
+   "v": "PH-MAG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42165
+  },
+  {
+   "u": "PH-LAS",
+   "v": "PH-NCO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41995
+  },
+  {
+   "u": "PH-LEY",
+   "v": "PH-LEY:Ormoc",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 51140,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Leyte_(province)"
+    }
+   ]
+  },
+  {
+   "u": "PH-LEY",
+   "v": "PH-LEY:Tacloban",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29430,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Leyte_(province)"
+    }
+   ]
+  },
+  {
+   "u": "PH-LEY",
+   "v": "PH-SLE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77082
+  },
+  {
+   "u": "PH-LUN",
+   "v": "PH-PAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14636
+  },
+  {
+   "u": "PH-MAG",
+   "v": "PH-NCO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 268953
+  },
+  {
+   "u": "PH-MAG",
+   "v": "PH-SUK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 139632
+  },
+  {
+   "u": "PH-MDC",
+   "v": "PH-MDR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 178629
+  },
+  {
+   "u": "PH-MNL:Caloocan",
+   "v": "PH-MNL:Malabon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6520
+  },
+  {
+   "u": "PH-MNL:Caloocan",
+   "v": "PH-MNL:Manila",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2679
+  },
+  {
+   "u": "PH-MNL:Caloocan",
+   "v": "PH-MNL:Navotas",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1267,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Caloocan",
+   "v": "PH-MNL:Quezon City",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20247,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Caloocan",
+   "v": "PH-MNL:Valenzuela",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10907
+  },
+  {
+   "u": "PH-MNL:Las Pinas",
+   "v": "PH-MNL:Muntinlupa",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5272
+  },
+  {
+   "u": "PH-MNL:Las Pinas",
+   "v": "PH-MNL:Paranaque",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10444
+  },
+  {
+   "u": "PH-MNL:Makati",
+   "v": "PH-MNL:Mandaluyong City",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4556
+  },
+  {
+   "u": "PH-MNL:Makati",
+   "v": "PH-MNL:Manila",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2903,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Makati",
+   "v": "PH-MNL:Pasay",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4974
+  },
+  {
+   "u": "PH-MNL:Makati",
+   "v": "PH-MNL:Pasig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2894
+  },
+  {
+   "u": "PH-MNL:Makati",
+   "v": "PH-MNL:Pateros",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1584,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Makati",
+   "v": "PH-MNL:Taguig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11097,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Malabon",
+   "v": "PH-MNL:Navotas",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8286,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Malabon",
+   "v": "PH-MNL:Valenzuela",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7102
+  },
+  {
+   "u": "PH-MNL:Mandaluyong City",
+   "v": "PH-MNL:Manila",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1920,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Mandaluyong City",
+   "v": "PH-MNL:Pasig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2357
+  },
+  {
+   "u": "PH-MNL:Mandaluyong City",
+   "v": "PH-MNL:Quezon City",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1146,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Mandaluyong City",
+   "v": "PH-MNL:San Juan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4135,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Manila",
+   "v": "PH-MNL:Navotas",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3154,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Manila",
+   "v": "PH-MNL:Pasay",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2808
+  },
+  {
+   "u": "PH-MNL:Manila",
+   "v": "PH-MNL:Quezon City",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5064
+  },
+  {
+   "u": "PH-MNL:Manila",
+   "v": "PH-MNL:San Juan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1240,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Marikina",
+   "v": "PH-MNL:Pasig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3322
+  },
+  {
+   "u": "PH-MNL:Marikina",
+   "v": "PH-MNL:Quezon City",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8554
+  },
+  {
+   "u": "PH-MNL:Marikina",
+   "v": "PH-RIZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10535
+  },
+  {
+   "u": "PH-MNL:Muntinlupa",
+   "v": "PH-MNL:Paranaque",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4460
+  },
+  {
+   "u": "PH-MNL:Muntinlupa",
+   "v": "PH-MNL:Taguig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1034
+  },
+  {
+   "u": "PH-MNL:Paranaque",
+   "v": "PH-MNL:Pasay",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8976
+  },
+  {
+   "u": "PH-MNL:Paranaque",
+   "v": "PH-MNL:Taguig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5576
+  },
+  {
+   "u": "PH-MNL:Pasay",
+   "v": "PH-MNL:Taguig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2619
+  },
+  {
+   "u": "PH-MNL:Pasig",
+   "v": "PH-MNL:Pateros",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1688
+  },
+  {
+   "u": "PH-MNL:Pasig",
+   "v": "PH-MNL:Quezon City",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6355,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Pasig",
+   "v": "PH-MNL:Taguig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4456
+  },
+  {
+   "u": "PH-MNL:Pasig",
+   "v": "PH-RIZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10142
+  },
+  {
+   "u": "PH-MNL:Pateros",
+   "v": "PH-MNL:Taguig",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2006
+  },
+  {
+   "u": "PH-MNL:Quezon City",
+   "v": "PH-MNL:San Juan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6075,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Manila"
+    }
+   ]
+  },
+  {
+   "u": "PH-MNL:Quezon City",
+   "v": "PH-MNL:Valenzuela",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2675
+  },
+  {
+   "u": "PH-MNL:Quezon City",
+   "v": "PH-RIZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12141
+  },
+  {
+   "u": "PH-MSC",
+   "v": "PH-ZAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42796
+  },
+  {
+   "u": "PH-MSC",
+   "v": "PH-ZAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34568
+  },
+  {
+   "u": "PH-MSR",
+   "v": "PH-MSR:Cagayan de Oro",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 40086,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Misamis_Oriental"
+    }
+   ]
+  },
+  {
+   "u": "PH-NCO",
+   "v": "PH-SUK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28608
+  },
+  {
+   "u": "PH-NEC",
+   "v": "PH-NER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 156274
+  },
+  {
+   "u": "PH-NSA",
+   "v": "PH-WSA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 95446
+  },
+  {
+   "u": "PH-NUE",
+   "v": "PH-NUV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68258
+  },
+  {
+   "u": "PH-NUE",
+   "v": "PH-PAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27445
+  },
+  {
+   "u": "PH-NUE",
+   "v": "PH-PAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62700
+  },
+  {
+   "u": "PH-NUE",
+   "v": "PH-TAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72968
+  },
+  {
+   "u": "PH-NUV",
+   "v": "PH-PAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19663
+  },
+  {
+   "u": "PH-NUV",
+   "v": "PH-QUI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99053
+  },
+  {
+   "u": "PH-PAM",
+   "v": "PH-PAM:Angeles",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 36383,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pampanga"
+    }
+   ]
+  },
+  {
+   "u": "PH-PAM",
+   "v": "PH-TAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46095
+  },
+  {
+   "u": "PH-PAM",
+   "v": "PH-ZMB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29686
+  },
+  {
+   "u": "PH-PAN",
+   "v": "PH-PAN:Dagupan",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30720,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pangasinan"
+    }
+   ]
+  },
+  {
+   "u": "PH-PAN",
+   "v": "PH-TAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62246
+  },
+  {
+   "u": "PH-PAN",
+   "v": "PH-ZMB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55843
+  },
+  {
+   "u": "PH-PLW",
+   "v": "PH-PLW:Puerto Princesa",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68594,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Palawan"
+    }
+   ]
+  },
+  {
+   "u": "PH-QUE",
+   "v": "PH-QUE:Lucena",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31634,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Quezon"
+    }
+   ]
+  },
+  {
+   "u": "PH-QUE",
+   "v": "PH-RIZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38408
+  },
+  {
+   "u": "PH-SAR",
+   "v": "PH-SCO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 103702
+  },
+  {
+   "u": "PH-SAR",
+   "v": "PH-SCO:General Santos",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47960
+  },
+  {
+   "u": "PH-SAR",
+   "v": "PH-SUK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3577
+  },
+  {
+   "u": "PH-SCO",
+   "v": "PH-SCO:General Santos",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 46062,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/South_Cotabato"
+    }
+   ]
+  },
+  {
+   "u": "PH-SCO",
+   "v": "PH-SUK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 175417
+  },
+  {
+   "u": "PH-SUN",
+   "v": "PH-SUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29977
+  },
+  {
+   "u": "PH-TAR",
+   "v": "PH-ZMB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64396
+  },
+  {
+   "u": "PH-ZAN",
+   "v": "PH-ZAN:Zamboanga",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64008
+  },
+  {
+   "u": "PH-ZAN",
+   "v": "PH-ZAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101909
+  },
+  {
+   "u": "PH-ZAN",
+   "v": "PH-ZSI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98833
+  },
+  {
+   "u": "PH-ZAN:Zamboanga",
+   "v": "PH-ZSI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10951
+  },
+  {
+   "u": "PH-ZAS",
+   "v": "PH-ZSI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38525
+  },
+  {
+   "u": "PH-ZMB",
+   "v": "PH-ZMB:Olongapo",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28817,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zambales"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "PHL-ADM3-30758251",
+  "level": "ADM3",
+  "year": "2020",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

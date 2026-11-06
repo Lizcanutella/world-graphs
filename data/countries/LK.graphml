@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LK" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LK-11"><data key="name">Kŏḷamba</data><data key="code">LK-11</data><data key="wikidata">Q606287</data><data key="lon">80.02269</data><data key="lat">6.84613</data></node>
+    <node id="LK-12"><data key="name">Gampaha</data><data key="code">LK-12</data><data key="wikidata">Q206344</data><data key="lon">80.01717</data><data key="lat">7.11685</data></node>
+    <node id="LK-13"><data key="name">Kaḷutara</data><data key="code">LK-13</data><data key="wikidata">Q728935</data><data key="lon">80.13039</data><data key="lat">6.57939</data></node>
+    <node id="LK-21"><data key="name">Mahanuvara</data><data key="code">LK-21</data><data key="wikidata">Q723002</data><data key="lon">80.64349</data><data key="lat">7.21145</data></node>
+    <node id="LK-22"><data key="name">Mātale</data><data key="code">LK-22</data><data key="wikidata">Q787421</data><data key="lon">80.65883</data><data key="lat">7.69948</data></node>
+    <node id="LK-23"><data key="name">Nuvara Ĕliya</data><data key="code">LK-23</data><data key="wikidata">Q1583950</data><data key="lon">80.7575</data><data key="lat">7.0124</data></node>
+    <node id="LK-31"><data key="name">Gālla</data><data key="code">LK-31</data><data key="wikidata">Q647649</data><data key="lon">80.22992</data><data key="lat">6.20213</data></node>
+    <node id="LK-32"><data key="name">Mātara</data><data key="code">LK-32</data><data key="wikidata">Q1281285</data><data key="lon">80.52332</data><data key="lat">6.16115</data></node>
+    <node id="LK-33"><data key="name">Hambantŏṭa</data><data key="code">LK-33</data><data key="wikidata">Q723006</data><data key="lon">81.18223</data><data key="lat">6.27628</data></node>
+    <node id="LK-41"><data key="name">Yāpanaya</data><data key="code">LK-41</data><data key="wikidata">Q1520182</data><data key="lon">80.1034</data><data key="lat">9.70858</data></node>
+    <node id="LK-42"><data key="name">Kilinŏchchi</data><data key="code">LK-42</data><data key="wikidata">Q1584007</data><data key="lon">80.32459</data><data key="lat">9.40249</data></node>
+    <node id="LK-43"><data key="name">Mannārama</data><data key="code">LK-43</data><data key="wikidata">Q178003</data><data key="lon">80.16251</data><data key="lat">8.86604</data></node>
+    <node id="LK-44"><data key="name">Vavuniyāva</data><data key="code">LK-44</data><data key="wikidata">Q527980</data><data key="lon">80.49017</data><data key="lat">8.83394</data></node>
+    <node id="LK-45"><data key="name">Mulativ</data><data key="code">LK-45</data><data key="wikidata">Q1587508</data><data key="lon">80.52852</data><data key="lat">9.18684</data></node>
+    <node id="LK-51"><data key="name">Maḍakalapuva</data><data key="code">LK-51</data><data key="wikidata">Q810960</data><data key="lon">81.41777</data><data key="lat">7.8336</data></node>
+    <node id="LK-52"><data key="name">Ampāra</data><data key="code">LK-52</data><data key="wikidata">Q474395</data><data key="lon">81.69572</data><data key="lat">7.11969</data></node>
+    <node id="LK-53"><data key="name">Trikuṇāmalaya</data><data key="code">LK-53</data><data key="wikidata">Q1493318</data><data key="lon">81.0699</data><data key="lat">8.56403</data></node>
+    <node id="LK-61"><data key="name">Kuruṇægala</data><data key="code">LK-61</data><data key="wikidata">Q745073</data><data key="lon">80.26392</data><data key="lat">7.72835</data></node>
+    <node id="LK-62"><data key="name">Puttalama</data><data key="code">LK-62</data><data key="wikidata">Q1665318</data><data key="lon">79.92246</data><data key="lat">7.92481</data></node>
+    <node id="LK-71"><data key="name">Anurādhapura</data><data key="code">LK-71</data><data key="wikidata">Q612614</data><data key="lon">80.44652</data><data key="lat">8.35971</data></node>
+    <node id="LK-72"><data key="name">Pŏḷŏnnaruva</data><data key="code">LK-72</data><data key="wikidata">Q931057</data><data key="lon">81.04676</data><data key="lat">7.99608</data></node>
+    <node id="LK-81"><data key="name">Badulla</data><data key="code">LK-81</data><data key="wikidata">Q799713</data><data key="lon">81.09294</data><data key="lat">7.08054</data></node>
+    <node id="LK-82"><data key="name">Mŏṇarāgala</data><data key="code">LK-82</data><data key="wikidata">Q923420</data><data key="lon">81.37606</data><data key="lat">6.87764</data></node>
+    <node id="LK-91"><data key="name">Ratnapura</data><data key="code">LK-91</data><data key="wikidata">Q1587175</data><data key="lon">80.58908</data><data key="lat">6.58159</data></node>
+    <node id="LK-92"><data key="name">Kægalla</data><data key="code">LK-92</data><data key="wikidata">Q1737803</data><data key="lon">80.3286</data><data key="lat">7.11732</data></node>
+    <edge source="LK-11" target="LK-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-11" target="LK-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-11" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-11" target="LK-92"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-12" target="LK-61"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-12" target="LK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-12" target="LK-92"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-13" target="LK-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-13" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-21" target="LK-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-21" target="LK-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-21" target="LK-61"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-21" target="LK-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-21" target="LK-92"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-22" target="LK-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-22" target="LK-61"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-22" target="LK-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-22" target="LK-72"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-22" target="LK-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-23" target="LK-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-23" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-23" target="LK-92"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-31" target="LK-32"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-31" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-32" target="LK-33"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-32" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-33" target="LK-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-33" target="LK-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-33" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-41" target="LK-42"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-41" target="LK-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-42" target="LK-43"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-42" target="LK-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-43" target="LK-44"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-43" target="LK-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-43" target="LK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-43" target="LK-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-44" target="LK-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-44" target="LK-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-44" target="LK-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-45" target="LK-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-51" target="LK-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-51" target="LK-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-51" target="LK-72"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-52" target="LK-72"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-52" target="LK-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-52" target="LK-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-53" target="LK-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-53" target="LK-72"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-61" target="LK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-61" target="LK-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-61" target="LK-92"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-62" target="LK-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-71" target="LK-72"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-81" target="LK-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-81" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-82" target="LK-91"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LK-91" target="LK-92"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

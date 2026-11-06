@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TN-11"><data key="name">Tunis</data><data key="code">TN-11</data><data key="wikidata">Q328109</data><data key="lon">10.13942</data><data key="lat">36.78909</data></node>
+    <node id="TN-13"><data key="name">Ben Arous (Tunis Sud)</data><data key="code">TN-13</data><data key="wikidata">Q238555</data><data key="lon">10.17477</data><data key="lat">36.6204</data></node>
+    <node id="TN-14"><data key="name">Manubah</data><data key="code">TN-14</data><data key="wikidata">Q734328</data><data key="lon">9.86765</data><data key="lat">36.84119</data></node>
+    <node id="TN-21"><data key="name">Nabeul</data><data key="code">TN-21</data><data key="wikidata">Q328145</data><data key="lon">10.68644</data><data key="lat">36.70906</data></node>
+    <node id="TN-22"><data key="name">Zaghouan</data><data key="code">TN-22</data><data key="wikidata">Q27916</data><data key="lon">10.03616</data><data key="lat">36.32697</data></node>
+    <node id="TN-23"><data key="name">Bizerte</data><data key="code">TN-23</data><data key="wikidata">Q241129</data><data key="lon">9.61727</data><data key="lat">37.03319</data></node>
+    <node id="TN-31"><data key="name">Béja</data><data key="code">TN-31</data><data key="wikidata">Q276576</data><data key="lon">9.17468</data><data key="lat">36.76026</data></node>
+    <node id="TN-32"><data key="name">Jendouba</data><data key="code">TN-32</data><data key="wikidata">Q276580</data><data key="lon">8.73307</data><data key="lat">36.6906</data></node>
+    <node id="TN-33"><data key="name">Le Kef</data><data key="code">TN-33</data><data key="wikidata">Q328199</data><data key="lon">8.7124</data><data key="lat">36.03216</data></node>
+    <node id="TN-34"><data key="name">Siliana</data><data key="code">TN-34</data><data key="wikidata">Q328115</data><data key="lon">9.3609</data><data key="lat">35.97268</data></node>
+    <node id="TN-41"><data key="name">Kairouan</data><data key="code">TN-41</data><data key="wikidata">Q276574</data><data key="lon">9.84369</data><data key="lat">35.57027</data></node>
+    <node id="TN-42"><data key="name">Kassérine</data><data key="code">TN-42</data><data key="wikidata">Q388047</data><data key="lon">8.82943</data><data key="lat">35.21013</data></node>
+    <node id="TN-43"><data key="name">Sidi Bou Zid</data><data key="code">TN-43</data><data key="wikidata">Q327097</data><data key="lon">9.42866</data><data key="lat">34.80883</data></node>
+    <node id="TN-51"><data key="name">Sousse</data><data key="code">TN-51</data><data key="wikidata">Q276565</data><data key="lon">10.40532</data><data key="lat">35.89786</data></node>
+    <node id="TN-52"><data key="name">Monastir</data><data key="code">TN-52</data><data key="wikidata">Q318102</data><data key="lon">10.83946</data><data key="lat">35.62456</data></node>
+    <node id="TN-53"><data key="name">Mahdia</data><data key="code">TN-53</data><data key="wikidata">Q328164</data><data key="lon">10.61206</data><data key="lat">35.34115</data></node>
+    <node id="TN-61"><data key="name">Sfax</data><data key="code">TN-61</data><data key="wikidata">Q241145</data><data key="lon">10.31987</data><data key="lat">34.72657</data></node>
+    <node id="TN-71"><data key="name">Gafsa</data><data key="code">TN-71</data><data key="wikidata">Q269968</data><data key="lon">8.79886</data><data key="lat">34.42106</data></node>
+    <node id="TN-72"><data key="name">Tozeur</data><data key="code">TN-72</data><data key="wikidata">Q388059</data><data key="lon">8.04736</data><data key="lat">33.98245</data></node>
+    <node id="TN-73"><data key="name">Kebili</data><data key="code">TN-73</data><data key="wikidata">Q286063</data><data key="lon">8.68774</data><data key="lat">33.37438</data></node>
+    <node id="TN-81"><data key="name">Gabès</data><data key="code">TN-81</data><data key="wikidata">Q242263</data><data key="lon">9.80627</data><data key="lat">33.75874</data></node>
+    <node id="TN-82"><data key="name">Médenine</data><data key="code">TN-82</data><data key="wikidata">Q327087</data><data key="lon">11.25905</data><data key="lat">32.9826</data></node>
+    <node id="TN-83"><data key="name">Tataouine</data><data key="code">TN-83</data><data key="wikidata">Q327045</data><data key="lon">9.81691</data><data key="lat">31.75067</data></node>
+    <edge source="TN-11" target="TN-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-11" target="TN-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-13" target="TN-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-13" target="TN-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-13" target="TN-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-14" target="TN-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-14" target="TN-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-14" target="TN-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-21" target="TN-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-21" target="TN-51"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-22" target="TN-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-22" target="TN-34"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-22" target="TN-41"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-22" target="TN-51"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-23" target="TN-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-31" target="TN-32"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-31" target="TN-34"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-32" target="TN-33"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-32" target="TN-34"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-33" target="TN-34"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-33" target="TN-42"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-34" target="TN-41"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-34" target="TN-42"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-34" target="TN-43"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-41" target="TN-43"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-41" target="TN-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-41" target="TN-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-41" target="TN-61"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-42" target="TN-43"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-42" target="TN-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-43" target="TN-61"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-43" target="TN-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-43" target="TN-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-51" target="TN-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-51" target="TN-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-52" target="TN-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-53" target="TN-61"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-61" target="TN-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-71" target="TN-72"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-71" target="TN-73"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-71" target="TN-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-72" target="TN-73"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-73" target="TN-81"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-73" target="TN-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-73" target="TN-83"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-81" target="TN-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TN-82" target="TN-83"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

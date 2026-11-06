@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AG-03"><data key="name">Saint George</data><data key="code">AG-03</data><data key="wikidata">Q1770796</data><data key="lon">-61.78243</data><data key="lat">17.1199</data></node>
+    <node id="AG-04"><data key="name">Saint John</data><data key="code">AG-04</data><data key="wikidata">Q548816</data><data key="lon">-61.84188</data><data key="lat">17.10552</data></node>
+    <node id="AG-05"><data key="name">Saint Mary</data><data key="code">AG-05</data><data key="wikidata">Q1999872</data><data key="lon">-61.85765</data><data key="lat">17.0541</data></node>
+    <node id="AG-06"><data key="name">Saint Paul</data><data key="code">AG-06</data><data key="wikidata">Q386093</data><data key="lon">-61.77164</data><data key="lat">17.03024</data></node>
+    <node id="AG-07"><data key="name">Saint Peter</data><data key="code">AG-07</data><data key="wikidata">Q1952603</data><data key="lon">-61.74292</data><data key="lat">17.10408</data></node>
+    <node id="AG-08"><data key="name">Saint Philip</data><data key="code">AG-08</data><data key="wikidata">Q1996895</data><data key="lon">-61.70568</data><data key="lat">17.06361</data></node>
+    <node id="AG-10"><data key="name">Barbuda</data><data key="code">AG-10</data><data key="wikidata">Q238752</data><data key="lon">-61.78176</data><data key="lat">17.63817</data></node>
+    <node id="AG-11"><data key="name">Redonda</data><data key="code">AG-11</data><data key="wikidata">Q457261</data><data key="lon">-62.3453</data><data key="lat">16.93622</data></node>
+    <edge source="AG-03" target="AG-04"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AG-03" target="AG-07"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AG-04" target="AG-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AG-04" target="AG-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AG-04" target="AG-07"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AG-05" target="AG-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AG-06" target="AG-07"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AG-06" target="AG-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AG-07" target="AG-08"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

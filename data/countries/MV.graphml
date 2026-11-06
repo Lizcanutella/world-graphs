@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MV" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MV-00"><data key="name">Alifu Dhaalu</data><data key="code">MV-00</data><data key="wikidata">Q2316922</data><data key="lon">72.69313</data><data key="lat">3.72093</data></node>
+    <node id="MV-01"><data key="name">Addu</data><data key="code">MV-01</data><data key="wikidata">Q353375</data><data key="lon">73.10318</data><data key="lat">-0.61183</data></node>
+    <node id="MV-02"><data key="name">Alifu Alifu</data><data key="code">MV-02</data><data key="wikidata">Q775323</data><data key="lon">72.95081</data><data key="lat">4.42733</data></node>
+    <node id="MV-03"><data key="name">Lhaviyani</data><data key="code">MV-03</data><data key="wikidata">Q1390048</data><data key="lon">73.58</data><data key="lat">5.27835</data></node>
+    <node id="MV-04"><data key="name">Vaavu</data><data key="code">MV-04</data><data key="wikidata">Q2709111</data><data key="lon">73.74856</data><data key="lat">3.44982</data></node>
+    <node id="MV-05"><data key="name">Laamu</data><data key="code">MV-05</data><data key="wikidata">Q1996432</data><data key="lon">73.56726</data><data key="lat">2.10057</data></node>
+    <node id="MV-07"><data key="name">Haa Alifu</data><data key="code">MV-07</data><data key="wikidata">Q2360912</data><data key="lon">73.18746</data><data key="lat">6.82577</data></node>
+    <node id="MV-08"><data key="name">Thaa</data><data key="code">MV-08</data><data key="wikidata">Q2709118</data><data key="lon">73.36263</data><data key="lat">2.40477</data></node>
+    <node id="MV-12:Malé"><data key="name">Malé</data><data key="code">MV-12:Malé</data><data key="wikidata">Q9347</data><data key="lon">73.53386</data><data key="lat">4.19947</data></node>
+    <node id="MV-12:Meemu"><data key="name">Meemu</data><data key="code">MV-12:Meemu</data><data key="wikidata">Q2210716</data><data key="lon">73.35951</data><data key="lat">2.9005</data></node>
+    <node id="MV-13"><data key="name">Raa</data><data key="code">MV-13</data><data key="wikidata">Q1457965</data><data key="lon">72.97345</data><data key="lat">5.80943</data></node>
+    <node id="MV-14"><data key="name">Faafu</data><data key="code">MV-14</data><data key="wikidata">Q2469227</data><data key="lon">72.97858</data><data key="lat">3.10617</data></node>
+    <node id="MV-17"><data key="name">Dhaalu</data><data key="code">MV-17</data><data key="wikidata">Q2290784</data><data key="lon">72.87021</data><data key="lat">2.68781</data></node>
+    <node id="MV-20"><data key="name">Baa</data><data key="code">MV-20</data><data key="wikidata">Q949513</data><data key="lon">73.04807</data><data key="lat">5.12958</data></node>
+    <node id="MV-23"><data key="name">Haa Dhaalu</data><data key="code">MV-23</data><data key="wikidata">Q2360368</data><data key="lon">73.15186</data><data key="lat">6.75871</data></node>
+    <node id="MV-24"><data key="name">Shaviyani</data><data key="code">MV-24</data><data key="wikidata">Q2190334</data><data key="lon">73.19811</data><data key="lat">6.32294</data></node>
+    <node id="MV-25"><data key="name">Noonu</data><data key="code">MV-25</data><data key="wikidata">Q2406322</data><data key="lon">73.38925</data><data key="lat">5.96336</data></node>
+    <node id="MV-26"><data key="name">Kaafu</data><data key="code">MV-26</data><data key="wikidata">Q1468407</data><data key="lon">73.44166</data><data key="lat">4.97219</data></node>
+    <node id="MV-27"><data key="name">Gaafu Alifu</data><data key="code">MV-27</data><data key="wikidata">Q1116203</data><data key="lon">73.38558</data><data key="lat">0.63784</data></node>
+    <node id="MV-28"><data key="name">Gaafu Dhaalu</data><data key="code">MV-28</data><data key="wikidata">Q2640183</data><data key="lon">73.21326</data><data key="lat">0.23668</data></node>
+    <node id="MV-29"><data key="name">Gnaviyani</data><data key="code">MV-29</data><data key="wikidata">Q1811116</data><data key="lon">73.44029</data><data key="lat">-0.29559</data></node>
+  </graph>
+</graphml>

@@ -1,0 +1,33 @@
+{
+ "near_m": 5000.0,
+ "status": {
+  "ok": 4170,
+  "no_point": 234,
+  "shared_code": 43,
+  "elsewhere": 40,
+  "outside": 42,
+  "capital_vertex": 2
+ },
+ "elsewhere_by_country": {
+  "UG": 9,
+  "IR": 5,
+  "AZ": 3,
+  "BF": 2,
+  "BS": 2,
+  "CG": 2,
+  "FR": 2,
+  "LV": 2,
+  "MK": 2,
+  "BA": 1,
+  "DM": 1,
+  "GB": 1,
+  "IT": 1,
+  "LY": 1,
+  "MM": 1,
+  "MN": 1,
+  "MW": 1,
+  "PW": 1,
+  "SS": 1,
+  "VN": 1
+ }
+}

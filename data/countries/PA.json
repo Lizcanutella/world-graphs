@@ -1,0 +1,441 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PA",
+ "kind": "country",
+ "name": "Panama",
+ "level": "provinces",
+ "n": 12,
+ "m": 20,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PA-1",
+   "name": "Bocas del Toro",
+   "wikidata": "Q217138",
+   "lon": -82.64429,
+   "lat": 9.20527
+  },
+  {
+   "code": "PA-2",
+   "name": "Coclé",
+   "wikidata": "Q825799",
+   "lon": -80.43547,
+   "lat": 8.56819
+  },
+  {
+   "code": "PA-3",
+   "name": "Colón",
+   "wikidata": "Q820514",
+   "lon": -80.21007,
+   "lat": 9.12111
+  },
+  {
+   "code": "PA-4",
+   "name": "Chiriquí",
+   "wikidata": "Q739651",
+   "lon": -82.51623,
+   "lat": 8.45981
+  },
+  {
+   "code": "PA-5",
+   "name": "Darién",
+   "wikidata": "Q688660",
+   "lon": -78.01675,
+   "lat": 8.15552
+  },
+  {
+   "code": "PA-6",
+   "name": "Herrera",
+   "wikidata": "Q842886",
+   "lon": -80.74948,
+   "lat": 7.83543
+  },
+  {
+   "code": "PA-7",
+   "name": "Los Santos",
+   "wikidata": "Q911278",
+   "lon": -80.34254,
+   "lat": 7.61015
+  },
+  {
+   "code": "PA-8",
+   "name": "Panama",
+   "wikidata": "Q557506",
+   "lon": -78.52712,
+   "lat": 8.91819
+  },
+  {
+   "code": "PA-9",
+   "name": "Veraguas",
+   "wikidata": "Q593137",
+   "lon": -81.23885,
+   "lat": 8.04747
+  },
+  {
+   "code": "PA-EM",
+   "name": "Emberá",
+   "wikidata": "Q1141041",
+   "lon": -77.60886,
+   "lat": 8.43172
+  },
+  {
+   "code": "PA-KY",
+   "name": "Kuna Yala",
+   "wikidata": "Q919017",
+   "lon": -77.92504,
+   "lat": 9.05617
+  },
+  {
+   "code": "PA-NB",
+   "name": "Ngöbe Buglé",
+   "wikidata": "Q1129783",
+   "lon": -81.6822,
+   "lat": 8.73075
+  }
+ ],
+ "edges": [
+  {
+   "u": "PA-1",
+   "v": "PA-4",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43642
+  },
+  {
+   "u": "PA-1",
+   "v": "PA-NB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 121134
+  },
+  {
+   "u": "PA-2",
+   "v": "PA-3",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 110707
+  },
+  {
+   "u": "PA-2",
+   "v": "PA-6",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25756
+  },
+  {
+   "u": "PA-2",
+   "v": "PA-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64910
+  },
+  {
+   "u": "PA-2",
+   "v": "PA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66151
+  },
+  {
+   "u": "PA-3",
+   "v": "PA-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 170068
+  },
+  {
+   "u": "PA-3",
+   "v": "PA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38202
+  },
+  {
+   "u": "PA-3",
+   "v": "PA-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38329
+  },
+  {
+   "u": "PA-4",
+   "v": "PA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48430
+  },
+  {
+   "u": "PA-4",
+   "v": "PA-NB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 152955
+  },
+  {
+   "u": "PA-5",
+   "v": "PA-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 118530
+  },
+  {
+   "u": "PA-5",
+   "v": "PA-EM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 318095
+  },
+  {
+   "u": "PA-5",
+   "v": "PA-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52714
+  },
+  {
+   "u": "PA-6",
+   "v": "PA-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72814
+  },
+  {
+   "u": "PA-6",
+   "v": "PA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98324
+  },
+  {
+   "u": "PA-7",
+   "v": "PA-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37308
+  },
+  {
+   "u": "PA-8",
+   "v": "PA-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 183799
+  },
+  {
+   "u": "PA-9",
+   "v": "PA-NB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99915
+  },
+  {
+   "u": "PA-EM",
+   "v": "PA-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36998
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "PAN-ADM1-82927092",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ME" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ME-01"><data key="name">Andrijevica</data><data key="code">ME-01</data><data key="wikidata">Q2384773</data><data key="lon">19.77591</data><data key="lat">42.70889</data></node>
+    <node id="ME-02"><data key="name">Bar</data><data key="code">ME-02</data><data key="wikidata">Q2604068</data><data key="lon">19.13255</data><data key="lat">42.16589</data></node>
+    <node id="ME-03"><data key="name">Berane</data><data key="code">ME-03</data><data key="wikidata">Q4853794</data><data key="lon">19.86936</data><data key="lat">42.84727</data></node>
+    <node id="ME-04"><data key="name">Bijelo Polje</data><data key="code">ME-04</data><data key="wikidata">Q4086488</data><data key="lon">19.72791</data><data key="lat">43.05972</data></node>
+    <node id="ME-05"><data key="name">Budva</data><data key="code">ME-05</data><data key="wikidata">Q3739214</data><data key="lon">18.9165</data><data key="lat">42.27326</data></node>
+    <node id="ME-06"><data key="name">Cetinje</data><data key="code">ME-06</data><data key="wikidata">Q3305075</data><data key="lon">18.86067</data><data key="lat">42.49943</data></node>
+    <node id="ME-07"><data key="name">Danilovgrad</data><data key="code">ME-07</data><data key="wikidata">Q3741507</data><data key="lon">19.12473</data><data key="lat">42.62857</data></node>
+    <node id="ME-08"><data key="name">Herceg Novi</data><data key="code">ME-08</data><data key="wikidata">Q3317366</data><data key="lon">18.53164</data><data key="lat">42.50331</data></node>
+    <node id="ME-09"><data key="name">Kolašin</data><data key="code">ME-09</data><data key="wikidata">Q3303233</data><data key="lon">19.42239</data><data key="lat">42.79798</data></node>
+    <node id="ME-10"><data key="name">Kotor</data><data key="code">ME-10</data><data key="wikidata">Q4856305</data><data key="lon">18.74645</data><data key="lat">42.44551</data></node>
+    <node id="ME-11"><data key="name">Mojkovac</data><data key="code">ME-11</data><data key="wikidata">Q3299782</data><data key="lon">19.50082</data><data key="lat">42.96623</data></node>
+    <node id="ME-12"><data key="name">Nikšic</data><data key="code">ME-12</data><data key="wikidata">Q4865016</data><data key="lon">18.79443</data><data key="lat">42.87337</data></node>
+    <node id="ME-13"><data key="name">Plav</data><data key="code">ME-13</data><data key="wikidata">Q4859821</data><data key="lon">19.91173</data><data key="lat">42.58345</data></node>
+    <node id="ME-14"><data key="name">Pljevlja</data><data key="code">ME-14</data><data key="wikidata">Q3299950</data><data key="lon">19.24707</data><data key="lat">43.29491</data></node>
+    <node id="ME-15"><data key="name">Plužine</data><data key="code">ME-15</data><data key="wikidata">Q4864476</data><data key="lon">18.81366</data><data key="lat">43.14651</data></node>
+    <node id="ME-16"><data key="name">Podgorica</data><data key="code">ME-16</data><data key="wikidata">Q3305250</data><data key="lon">19.26695</data><data key="lat">42.46488</data></node>
+    <node id="ME-17"><data key="name">Rožaje</data><data key="code">ME-17</data><data key="wikidata">Q3296677</data><data key="lon">20.21492</data><data key="lat">42.86133</data></node>
+    <node id="ME-18"><data key="name">Šavnik</data><data key="code">ME-18</data><data key="wikidata">Q13365880</data><data key="lon">19.1615</data><data key="lat">42.9665</data></node>
+    <node id="ME-19"><data key="name">Tivat</data><data key="code">ME-19</data><data key="wikidata">Q3738564</data><data key="lon">18.71867</data><data key="lat">42.41694</data></node>
+    <node id="ME-20"><data key="name">Ulcinj</data><data key="code">ME-20</data><data key="wikidata">Q3305169</data><data key="lon">19.25553</data><data key="lat">41.98145</data></node>
+    <node id="ME-21"><data key="name">Žabljak</data><data key="code">ME-21</data><data key="wikidata">Q3304454</data><data key="lon">19.1409</data><data key="lat">43.14229</data></node>
+    <edge source="ME-01" target="ME-03"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-01" target="ME-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-01" target="ME-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-01" target="ME-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-02" target="ME-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-02" target="ME-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-02" target="ME-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-02" target="ME-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-03" target="ME-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-03" target="ME-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-03" target="ME-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-03" target="ME-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-03" target="ME-17"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-04" target="ME-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-04" target="ME-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-05" target="ME-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-05" target="ME-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-06" target="ME-07"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-06" target="ME-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-06" target="ME-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-06" target="ME-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-07" target="ME-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-07" target="ME-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-07" target="ME-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-08" target="ME-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-08" target="ME-19"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-09" target="ME-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-09" target="ME-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-09" target="ME-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-09" target="ME-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-10" target="ME-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-10" target="ME-19"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-11" target="ME-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-11" target="ME-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-11" target="ME-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-12" target="ME-15"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-12" target="ME-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-14" target="ME-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-15" target="ME-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-15" target="ME-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ME-18" target="ME-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

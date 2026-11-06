@@ -1,0 +1,48 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MP",
+ "kind": "country",
+ "name": "Northern Mariana Islands",
+ "level": null,
+ "n": 4,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MP-X01~",
+   "name": "Rota",
+   "wikidata": "Q27728202",
+   "lon": 145.21334,
+   "lat": 14.15843
+  },
+  {
+   "code": "MP-X02~",
+   "name": "Tinian",
+   "wikidata": "Q7808227",
+   "lon": 145.61777,
+   "lat": 15.00222
+  },
+  {
+   "code": "MP-X03~",
+   "name": "Saipan",
+   "wikidata": "Q9332790",
+   "lon": 145.73647,
+   "lat": 15.18604
+  },
+  {
+   "code": "MP-X04~",
+   "name": "Northern Islands",
+   "wikidata": "Q16644",
+   "lon": 145.67266,
+   "lat": 16.35865
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MNP-ADM2-39175420",
+  "level": "ADM2",
+  "year": "2021",
+  "license": "Public Domain"
+ }
+}

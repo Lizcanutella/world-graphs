@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NZ-AUK"><data key="name">Auckland</data><data key="code">NZ-AUK</data><data key="wikidata">Q726917</data><data key="lon">174.57962</data><data key="lat">-36.7219</data></node>
+    <node id="NZ-BOP"><data key="name">Bay of Plenty</data><data key="code">NZ-BOP</data><data key="wikidata">Q2192924</data><data key="lon">176.87212</data><data key="lat">-38.17896</data></node>
+    <node id="NZ-CAN"><data key="name">Canterbury</data><data key="code">NZ-CAN</data><data key="wikidata">Q657004</data><data key="lon">171.5719</data><data key="lat">-43.46469</data></node>
+    <node id="NZ-CIT"><data key="name">Chatham Islands Territory</data><data key="code">NZ-CIT</data><data key="wikidata">Q115459</data><data key="lon">-176.17698</data><data key="lat">-44.27752</data></node>
+    <node id="NZ-GIS"><data key="name">Gisborne District</data><data key="code">NZ-GIS</data><data key="wikidata">Q140246</data><data key="lon">177.90739</data><data key="lat">-38.25143</data></node>
+    <node id="NZ-HKB"><data key="name">Hawke's Bay</data><data key="code">NZ-HKB</data><data key="wikidata">Q251825</data><data key="lon">176.56839</data><data key="lat">-39.51015</data></node>
+    <node id="NZ-MBH"><data key="name">Marlborough District</data><data key="code">NZ-MBH</data><data key="wikidata">Q140083</data><data key="lon">173.61455</data><data key="lat">-41.68507</data></node>
+    <node id="NZ-MWT"><data key="name">Manawatu-Wanganui</data><data key="code">NZ-MWT</data><data key="wikidata">Q139907</data><data key="lon">175.57832</data><data key="lat">-39.63743</data></node>
+    <node id="NZ-NSN"><data key="name">Nelson City</data><data key="code">NZ-NSN</data><data key="wikidata">Q1995856</data><data key="lon">173.41102</data><data key="lat">-41.21685</data></node>
+    <node id="NZ-NTL"><data key="name">Northland</data><data key="code">NZ-NTL</data><data key="wikidata">Q59596</data><data key="lon">173.97741</data><data key="lat">-35.40163</data></node>
+    <node id="NZ-OTA"><data key="name">Otago</data><data key="code">NZ-OTA</data><data key="wikidata">Q692912</data><data key="lon">170.00004</data><data key="lat">-45.31262</data></node>
+    <node id="NZ-STL"><data key="name">Southland</data><data key="code">NZ-STL</data><data key="wikidata">Q864971</data><data key="lon">168.17107</data><data key="lat">-45.47247</data></node>
+    <node id="NZ-TAS"><data key="name">Tasman District</data><data key="code">NZ-TAS</data><data key="wikidata">Q666142</data><data key="lon">172.91835</data><data key="lat">-41.40132</data></node>
+    <node id="NZ-TKI"><data key="name">Taranaki</data><data key="code">NZ-TKI</data><data key="wikidata">Q140207</data><data key="lon">174.28047</data><data key="lat">-39.28368</data></node>
+    <node id="NZ-WGN"><data key="name">Wellington</data><data key="code">NZ-WGN</data><data key="wikidata">Q856010</data><data key="lon">175.41008</data><data key="lat">-41.14931</data></node>
+    <node id="NZ-WKO"><data key="name">Waikato</data><data key="code">NZ-WKO</data><data key="wikidata">Q139918</data><data key="lon">175.37434</data><data key="lat">-37.88195</data></node>
+    <node id="NZ-WTC"><data key="name">West Coast</data><data key="code">NZ-WTC</data><data key="wikidata">Q541468</data><data key="lon">171.57432</data><data key="lat">-42.634</data></node>
+    <node id="NZ-X01~"><data key="name">Kermadec Islands</data><data key="code">NZ-X01~</data><data key="wikidata"></data><data key="lon">-177.89335</data><data key="lat">-29.25962</data></node>
+    <node id="NZ-X03~"><data key="name">Three Kings Islands</data><data key="code">NZ-X03~</data><data key="wikidata"></data><data key="lon">172.13616</data><data key="lat">-34.15899</data></node>
+    <node id="NZ-X04~"><data key="name">Antipodes Islands</data><data key="code">NZ-X04~</data><data key="wikidata"></data><data key="lon">178.7794</data><data key="lat">-49.66762</data></node>
+    <node id="NZ-X05~"><data key="name">Campbell Islands</data><data key="code">NZ-X05~</data><data key="wikidata"></data><data key="lon">169.18696</data><data key="lat">-52.53442</data></node>
+    <node id="NZ-X06~"><data key="name">Auckland Islands</data><data key="code">NZ-X06~</data><data key="wikidata"></data><data key="lon">166.0862</data><data key="lat">-50.88055</data></node>
+    <node id="NZ-X07~"><data key="name">The Snares</data><data key="code">NZ-X07~</data><data key="wikidata"></data><data key="lon">166.60367</data><data key="lat">-48.0254</data></node>
+    <edge source="NZ-AUK" target="NZ-NTL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-AUK" target="NZ-WKO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-BOP" target="NZ-GIS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-BOP" target="NZ-HKB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-BOP" target="NZ-WKO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-CAN" target="NZ-MBH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-CAN" target="NZ-OTA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-CAN" target="NZ-TAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-CAN" target="NZ-WTC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-GIS" target="NZ-HKB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-HKB" target="NZ-MWT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-HKB" target="NZ-WKO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-MBH" target="NZ-NSN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-MBH" target="NZ-TAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-MWT" target="NZ-TKI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-MWT" target="NZ-WGN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-MWT" target="NZ-WKO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-NSN" target="NZ-TAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-OTA" target="NZ-STL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-OTA" target="NZ-WTC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-STL" target="NZ-WTC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-TAS" target="NZ-WTC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NZ-TKI" target="NZ-WKO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

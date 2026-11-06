@@ -1,0 +1,459 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BJ",
+ "kind": "country",
+ "name": "Benin",
+ "level": "departments",
+ "n": 12,
+ "m": 20,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BJ-AK",
+   "name": "Atakora",
+   "wikidata": "Q29154",
+   "lon": 1.52587,
+   "lat": 10.70976
+  },
+  {
+   "code": "BJ-AL",
+   "name": "Alibori",
+   "wikidata": "Q29165",
+   "lon": 2.76488,
+   "lat": 11.46938
+  },
+  {
+   "code": "BJ-AQ",
+   "name": "Atlantique",
+   "wikidata": "Q29147",
+   "lon": 2.21486,
+   "lat": 6.60478
+  },
+  {
+   "code": "BJ-BO",
+   "name": "Borgou",
+   "wikidata": "Q29136",
+   "lon": 2.73894,
+   "lat": 9.69578
+  },
+  {
+   "code": "BJ-CO",
+   "name": "Collines",
+   "wikidata": "Q29141",
+   "lon": 2.1637,
+   "lat": 8.08979
+  },
+  {
+   "code": "BJ-DO",
+   "name": "Donga",
+   "wikidata": "Q29161",
+   "lon": 1.71661,
+   "lat": 9.24555
+  },
+  {
+   "code": "BJ-KO",
+   "name": "Kouffo",
+   "wikidata": "Q29173",
+   "lon": 1.75038,
+   "lat": 7.11449
+  },
+  {
+   "code": "BJ-LI",
+   "name": "Littoral",
+   "wikidata": "Q29158",
+   "lon": 2.4271,
+   "lat": 6.36647
+  },
+  {
+   "code": "BJ-MO",
+   "name": "Mono",
+   "wikidata": "Q29135",
+   "lon": 1.84395,
+   "lat": 6.47869
+  },
+  {
+   "code": "BJ-OU",
+   "name": "Ouémé",
+   "wikidata": "Q29169",
+   "lon": 2.51055,
+   "lat": 6.71298
+  },
+  {
+   "code": "BJ-PL",
+   "name": "Plateau",
+   "wikidata": "Q32108",
+   "lon": 2.64604,
+   "lat": 7.07761
+  },
+  {
+   "code": "BJ-ZO",
+   "name": "Zou",
+   "wikidata": "Q29172",
+   "lon": 2.12853,
+   "lat": 7.2673
+  }
+ ],
+ "edges": [
+  {
+   "u": "BJ-AK",
+   "v": "BJ-AL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 119688
+  },
+  {
+   "u": "BJ-AK",
+   "v": "BJ-BO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73656
+  },
+  {
+   "u": "BJ-AK",
+   "v": "BJ-DO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85056
+  },
+  {
+   "u": "BJ-AL",
+   "v": "BJ-BO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 174857
+  },
+  {
+   "u": "BJ-AQ",
+   "v": "BJ-KO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25627
+  },
+  {
+   "u": "BJ-AQ",
+   "v": "BJ-LI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14816
+  },
+  {
+   "u": "BJ-AQ",
+   "v": "BJ-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48879
+  },
+  {
+   "u": "BJ-AQ",
+   "v": "BJ-OU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61908
+  },
+  {
+   "u": "BJ-AQ",
+   "v": "BJ-ZO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33255
+  },
+  {
+   "u": "BJ-BO",
+   "v": "BJ-CO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58132
+  },
+  {
+   "u": "BJ-BO",
+   "v": "BJ-DO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 171160
+  },
+  {
+   "u": "BJ-CO",
+   "v": "BJ-DO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104535
+  },
+  {
+   "u": "BJ-CO",
+   "v": "BJ-PL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53722
+  },
+  {
+   "u": "BJ-CO",
+   "v": "BJ-ZO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 94160
+  },
+  {
+   "u": "BJ-KO",
+   "v": "BJ-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50556
+  },
+  {
+   "u": "BJ-KO",
+   "v": "BJ-ZO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92041
+  },
+  {
+   "u": "BJ-LI",
+   "v": "BJ-OU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6499
+  },
+  {
+   "u": "BJ-OU",
+   "v": "BJ-PL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60384
+  },
+  {
+   "u": "BJ-OU",
+   "v": "BJ-ZO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19723
+  },
+  {
+   "u": "BJ-PL",
+   "v": "BJ-ZO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56296
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BEN-ADM1-11314189",
+  "level": "ADM1",
+  "year": "2012",
+  "license": "Public Domain"
+ }
+}

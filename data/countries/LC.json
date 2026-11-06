@@ -1,0 +1,368 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "LC",
+ "kind": "country",
+ "name": "Saint Lucia",
+ "level": "districts",
+ "n": 11,
+ "m": 19,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "LC-01",
+   "name": "Anse-la-Raye",
+   "wikidata": "Q1676934",
+   "lon": -61.02085,
+   "lat": 13.92767
+  },
+  {
+   "code": "LC-02",
+   "name": "Castries",
+   "wikidata": "Q1049867",
+   "lon": -60.96453,
+   "lat": 13.95985
+  },
+  {
+   "code": "LC-03",
+   "name": "Choiseul",
+   "wikidata": "Q1075816",
+   "lon": -61.02835,
+   "lat": 13.79925
+  },
+  {
+   "code": "LC-04",
+   "name": "Dauphin",
+   "wikidata": "Q182988",
+   "lon": -60.91125,
+   "lat": 14.02744
+  },
+  {
+   "code": "LC-05",
+   "name": "Dennery",
+   "wikidata": "Q1188890",
+   "lon": -60.91847,
+   "lat": 13.94105
+  },
+  {
+   "code": "LC-06",
+   "name": "Gros Islet",
+   "wikidata": "Q953557",
+   "lon": -60.94282,
+   "lat": 14.0663
+  },
+  {
+   "code": "LC-07",
+   "name": "Laborie",
+   "wikidata": "Q599347",
+   "lon": -60.9863,
+   "lat": 13.78335
+  },
+  {
+   "code": "LC-08",
+   "name": "Micoud",
+   "wikidata": "Q1240193",
+   "lon": -60.92453,
+   "lat": 13.81321
+  },
+  {
+   "code": "LC-09",
+   "name": "Praslin",
+   "wikidata": "Q1567791",
+   "lon": -60.9277,
+   "lat": 13.87317
+  },
+  {
+   "code": "LC-10",
+   "name": "Soufrière",
+   "wikidata": "Q1472841",
+   "lon": -61.01739,
+   "lat": 13.84848
+  },
+  {
+   "code": "LC-11",
+   "name": "Vieux Fort",
+   "wikidata": "Q1472864",
+   "lon": -60.94545,
+   "lat": 13.78228
+  }
+ ],
+ "edges": [
+  {
+   "u": "LC-01",
+   "v": "LC-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13564
+  },
+  {
+   "u": "LC-01",
+   "v": "LC-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13436
+  },
+  {
+   "u": "LC-02",
+   "v": "LC-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4314
+  },
+  {
+   "u": "LC-02",
+   "v": "LC-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9039
+  },
+  {
+   "u": "LC-02",
+   "v": "LC-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5926
+  },
+  {
+   "u": "LC-02",
+   "v": "LC-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2357
+  },
+  {
+   "u": "LC-02",
+   "v": "LC-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2748
+  },
+  {
+   "u": "LC-03",
+   "v": "LC-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9310
+  },
+  {
+   "u": "LC-03",
+   "v": "LC-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10596
+  },
+  {
+   "u": "LC-03",
+   "v": "LC-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 554
+  },
+  {
+   "u": "LC-04",
+   "v": "LC-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6259
+  },
+  {
+   "u": "LC-04",
+   "v": "LC-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7682
+  },
+  {
+   "u": "LC-05",
+   "v": "LC-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7998
+  },
+  {
+   "u": "LC-07",
+   "v": "LC-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11474
+  },
+  {
+   "u": "LC-08",
+   "v": "LC-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7979
+  },
+  {
+   "u": "LC-08",
+   "v": "LC-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1348
+  },
+  {
+   "u": "LC-08",
+   "v": "LC-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9511
+  },
+  {
+   "u": "LC-09",
+   "v": "LC-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3775
+  },
+  {
+   "u": "LC-10",
+   "v": "LC-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 787
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "LCA-ADM1-63095687",
+  "level": "ADM1",
+  "year": "2015",
+  "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+ }
+}

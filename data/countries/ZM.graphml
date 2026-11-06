@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ZM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ZM-01"><data key="name">Western</data><data key="code">ZM-01</data><data key="wikidata">Q748486</data><data key="lon">23.6306</data><data key="lat">-15.65863</data></node>
+    <node id="ZM-02"><data key="name">Central</data><data key="code">ZM-02</data><data key="wikidata">Q190718</data><data key="lon">29.73058</data><data key="lat">-13.87308</data></node>
+    <node id="ZM-03"><data key="name">Eastern</data><data key="code">ZM-03</data><data key="wikidata">Q823810</data><data key="lon">32.27908</data><data key="lat">-13.31665</data></node>
+    <node id="ZM-04"><data key="name">Luapula</data><data key="code">ZM-04</data><data key="wikidata">Q386667</data><data key="lon">29.03753</data><data key="lat">-10.41582</data></node>
+    <node id="ZM-05"><data key="name">Northern</data><data key="code">ZM-05</data><data key="wikidata">Q778738</data><data key="lon">30.56992</data><data key="lat">-9.86467</data></node>
+    <node id="ZM-06"><data key="name">North-Western</data><data key="code">ZM-06</data><data key="wikidata">Q846320</data><data key="lon">25.38091</data><data key="lat">-12.80043</data></node>
+    <node id="ZM-07"><data key="name">Southern</data><data key="code">ZM-07</data><data key="wikidata">Q738382</data><data key="lon">26.67726</data><data key="lat">-16.68131</data></node>
+    <node id="ZM-08"><data key="name">Copperbelt</data><data key="code">ZM-08</data><data key="wikidata">Q1131523</data><data key="lon">27.95016</data><data key="lat">-13.08204</data></node>
+    <node id="ZM-09"><data key="name">Lusaka</data><data key="code">ZM-09</data><data key="wikidata">Q819998</data><data key="lon">29.32063</data><data key="lat">-15.30211</data></node>
+    <node id="ZM-10"><data key="name">Muchinga</data><data key="code">ZM-10</data><data key="wikidata">Q6714242</data><data key="lon">32.01815</data><data key="lat">-11.2857</data></node>
+    <edge source="ZM-01" target="ZM-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-01" target="ZM-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-01" target="ZM-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-02" target="ZM-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-02" target="ZM-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-02" target="ZM-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-02" target="ZM-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-02" target="ZM-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-02" target="ZM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-03" target="ZM-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-03" target="ZM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-04" target="ZM-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-04" target="ZM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-05" target="ZM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-06" target="ZM-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZM-07" target="ZM-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

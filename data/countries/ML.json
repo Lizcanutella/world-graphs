@@ -1,0 +1,264 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ML",
+ "kind": "country",
+ "name": "Mali",
+ "level": "regions",
+ "n": 9,
+ "m": 11,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ML-1",
+   "name": "Kayes",
+   "wikidata": "Q332113",
+   "lon": -10.22993,
+   "lat": 13.79427
+  },
+  {
+   "code": "ML-2",
+   "name": "Koulikoro",
+   "wikidata": "Q287789",
+   "lon": -7.59996,
+   "lat": 13.47519
+  },
+  {
+   "code": "ML-3",
+   "name": "Sikasso",
+   "wikidata": "Q461298",
+   "lon": -6.86574,
+   "lat": 11.49244
+  },
+  {
+   "code": "ML-4",
+   "name": "Ségou",
+   "wikidata": "Q656845",
+   "lon": -6.02086,
+   "lat": 14.10344
+  },
+  {
+   "code": "ML-5",
+   "name": "Mopti",
+   "wikidata": "Q214155",
+   "lon": -3.65164,
+   "lat": 14.51404
+  },
+  {
+   "code": "ML-6",
+   "name": "Timbuktu",
+   "wikidata": "Q339462",
+   "lon": -3.88801,
+   "lat": 20.05803
+  },
+  {
+   "code": "ML-7",
+   "name": "Gao",
+   "wikidata": "Q332392",
+   "lon": 1.74987,
+   "lat": 16.94004
+  },
+  {
+   "code": "ML-8",
+   "name": "Kidal",
+   "wikidata": "Q338988",
+   "lon": 0.71937,
+   "lat": 19.69323
+  },
+  {
+   "code": "ML-BKO",
+   "name": "Bamako",
+   "wikidata": "Q3703",
+   "lon": -7.99946,
+   "lat": 12.62012
+  }
+ ],
+ "edges": [
+  {
+   "u": "ML-1",
+   "v": "ML-2",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 590881
+  },
+  {
+   "u": "ML-2",
+   "v": "ML-3",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 516156
+  },
+  {
+   "u": "ML-2",
+   "v": "ML-4",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 473125
+  },
+  {
+   "u": "ML-2",
+   "v": "ML-BKO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53137
+  },
+  {
+   "u": "ML-3",
+   "v": "ML-4",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 256645
+  },
+  {
+   "u": "ML-4",
+   "v": "ML-5",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 492794
+  },
+  {
+   "u": "ML-4",
+   "v": "ML-6",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17055
+  },
+  {
+   "u": "ML-5",
+   "v": "ML-6",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 610039
+  },
+  {
+   "u": "ML-6",
+   "v": "ML-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 571633
+  },
+  {
+   "u": "ML-6",
+   "v": "ML-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 478004
+  },
+  {
+   "u": "ML-7",
+   "v": "ML-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 608458
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MLI-ADM1-92416918",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

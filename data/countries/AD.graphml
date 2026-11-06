@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AD" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AD-02"><data key="name">Canillo</data><data key="code">AD-02</data><data key="wikidata">Q24260</data><data key="lon">1.65111</data><data key="lat">42.57934</data></node>
+    <node id="AD-03"><data key="name">Encamp</data><data key="code">AD-03</data><data key="wikidata">Q24269</data><data key="lon">1.64529</data><data key="lat">42.53181</data></node>
+    <node id="AD-04"><data key="name">La Massana</data><data key="code">AD-04</data><data key="wikidata">Q24276</data><data key="lon">1.48929</data><data key="lat">42.55702</data></node>
+    <node id="AD-05"><data key="name">Ordino</data><data key="code">AD-05</data><data key="wikidata">Q24272</data><data key="lon">1.52551</data><data key="lat">42.60429</data></node>
+    <node id="AD-06"><data key="name">Sant Julià de Lòria</data><data key="code">AD-06</data><data key="wikidata">Q24282</data><data key="lon">1.49536</data><data key="lat">42.47044</data></node>
+    <node id="AD-07"><data key="name">Andorra la Vella</data><data key="code">AD-07</data><data key="wikidata">Q2522163</data><data key="lon">1.50933</data><data key="lat">42.51283</data></node>
+    <node id="AD-08"><data key="name">Escaldes-Engordany</data><data key="code">AD-08</data><data key="wikidata">Q24286</data><data key="lon">1.58225</data><data key="lat">42.49497</data></node>
+    <edge source="AD-02" target="AD-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AD-02" target="AD-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AD-03" target="AD-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AD-03" target="AD-05"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="AD-03" target="AD-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AD-04" target="AD-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AD-04" target="AD-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AD-04" target="AD-08"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="AD-06" target="AD-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AD-06" target="AD-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AD-07" target="AD-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,28 @@
+{
+  "version": "maps-v2",
+  "generator": "maps_geo",
+  "n_instances": 213,
+  "counts": {
+    "map_world": 2,
+    "map_country": 211
+  },
+  "extra": {
+    "eps": 100.0,
+    "eps_unit": "metres",
+    "data_source": "Natural Earth 10m admin-0 / 10m admin-1 / 10m lakes",
+    "pipeline": "iso-roster-reconciled+overrides",
+    "curated_snapshot": {
+      "fetched": "2026-09-18T17:28:19+00:00",
+      "sha256": "926442a77734eb98658cc554c39380c899dec65faa917254393efe94c6107d90",
+      "n_pairs": 8893
+    },
+    "min_lake_km2": 500.0,
+    "overrides": {
+      "sha256": "ab4eaeb086c06774b03fd1718ed87b715a2d1294fefd51912745d72b4c2ec328",
+      "relabel": 4,
+      "add_edges": 38,
+      "remove_edges": 1
+    },
+    "adjacency": "geodesic shared-border length (WGS84) > eps metres, after clipping lakes > min_lake_km2; one vertex per unit; multipart dissolved; curated corroborates, never adds"
+  }
+}

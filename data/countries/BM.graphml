@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BM-DEV"><data key="name">Devonshire</data><data key="code">BM-DEV</data><data key="wikidata">Q1207018</data><data key="lon">-64.7596</data><data key="lat">32.30129</data></node>
+    <node id="BM-HA"><data key="name">City of Hamilton</data><data key="code">BM-HA</data><data key="wikidata"></data><data key="lon">-64.78928</data><data key="lat">32.29346</data></node>
+    <node id="BM-HAM"><data key="name">Hamilton</data><data key="code">BM-HAM</data><data key="wikidata">Q289876</data><data key="lon">-64.7274</data><data key="lat">32.34129</data></node>
+    <node id="BM-PAG"><data key="name">Paget</data><data key="code">BM-PAG</data><data key="wikidata">Q2046204</data><data key="lon">-64.77995</data><data key="lat">32.28083</data></node>
+    <node id="BM-PEM"><data key="name">Pembroke</data><data key="code">BM-PEM</data><data key="wikidata">Q1756036</data><data key="lon">-64.79545</data><data key="lat">32.30038</data></node>
+    <node id="BM-SAN"><data key="name">Sandys</data><data key="code">BM-SAN</data><data key="wikidata">Q121782</data><data key="lon">-64.87235</data><data key="lat">32.28859</data></node>
+    <node id="BM-SG"><data key="name">City of Saint George</data><data key="code">BM-SG</data><data key="wikidata">Q31498852</data><data key="lon">-64.67471</data><data key="lat">32.37515</data></node>
+    <node id="BM-SGE"><data key="name">Saint George's</data><data key="code">BM-SGE</data><data key="wikidata">Q1521745</data><data key="lon">-64.67689</data><data key="lat">32.369</data></node>
+    <node id="BM-SMI"><data key="name">Smith's</data><data key="code">BM-SMI</data><data key="wikidata">Q1735847</data><data key="lon">-64.73197</data><data key="lat">32.31602</data></node>
+    <node id="BM-SOU"><data key="name">Southampton</data><data key="code">BM-SOU</data><data key="wikidata">Q1323054</data><data key="lon">-64.82698</data><data key="lat">32.25874</data></node>
+    <node id="BM-WAR"><data key="name">Warwick</data><data key="code">BM-WAR</data><data key="wikidata">Q1468860</data><data key="lon">-64.80691</data><data key="lat">32.26707</data></node>
+    <edge source="BM-DEV" target="BM-PAG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-DEV" target="BM-PEM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-DEV" target="BM-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-HA" target="BM-PEM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-HAM" target="BM-SGE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-HAM" target="BM-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-PAG" target="BM-WAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-SAN" target="BM-SOU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-SG" target="BM-SGE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BM-SOU" target="BM-WAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

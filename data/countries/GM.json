@@ -1,0 +1,144 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GM",
+ "kind": "country",
+ "name": "Gambia",
+ "level": "division",
+ "n": 6,
+ "m": 5,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GM-B",
+   "name": "Banjul",
+   "wikidata": "Q3726",
+   "lon": -16.68327,
+   "lat": 13.42048
+  },
+  {
+   "code": "GM-L",
+   "name": "Lower River",
+   "wikidata": "Q824421",
+   "lon": -15.70643,
+   "lat": 13.40923
+  },
+  {
+   "code": "GM-M",
+   "name": "Central River",
+   "wikidata": "Q824431",
+   "lon": -14.80026,
+   "lat": 13.56928
+  },
+  {
+   "code": "GM-N",
+   "name": "North Bank",
+   "wikidata": "Q846161",
+   "lon": -16.13288,
+   "lat": 13.48892
+  },
+  {
+   "code": "GM-U",
+   "name": "Upper River",
+   "wikidata": "Q824373",
+   "lon": -14.16032,
+   "lat": 13.41587
+  },
+  {
+   "code": "GM-W",
+   "name": "West Coast",
+   "wikidata": "Q846158",
+   "lon": -16.10882,
+   "lat": 13.23441
+  }
+ ],
+ "edges": [
+  {
+   "u": "GM-B",
+   "v": "GM-W",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23479
+  },
+  {
+   "u": "GM-L",
+   "v": "GM-M",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15348
+  },
+  {
+   "u": "GM-L",
+   "v": "GM-W",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39364
+  },
+  {
+   "u": "GM-M",
+   "v": "GM-N",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32274
+  },
+  {
+   "u": "GM-M",
+   "v": "GM-U",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28758
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GMB-ADM1-31243875",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 4.0 (CC BY 4.0)"
+ }
+}

@@ -1,0 +1,526 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "HK",
+ "kind": "country",
+ "name": "Hong Kong",
+ "level": null,
+ "n": 18,
+ "m": 31,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "HK-X01~",
+   "name": "Central and Western",
+   "wikidata": null,
+   "lon": 114.13898,
+   "lat": 22.27466
+  },
+  {
+   "code": "HK-X02~",
+   "name": "Wan Chai",
+   "wikidata": null,
+   "lon": 114.1791,
+   "lat": 22.27065
+  },
+  {
+   "code": "HK-X03~",
+   "name": "Eastern",
+   "wikidata": null,
+   "lon": 114.21696,
+   "lat": 22.27065
+  },
+  {
+   "code": "HK-X04~",
+   "name": "Southern",
+   "wikidata": null,
+   "lon": 114.20737,
+   "lat": 22.22942
+  },
+  {
+   "code": "HK-X05~",
+   "name": "Yau Tsim Mong",
+   "wikidata": null,
+   "lon": 114.17157,
+   "lat": 22.30803
+  },
+  {
+   "code": "HK-X06~",
+   "name": "Kowloon City",
+   "wikidata": null,
+   "lon": 114.19212,
+   "lat": 22.32066
+  },
+  {
+   "code": "HK-X07~",
+   "name": "Sham Shui Po",
+   "wikidata": null,
+   "lon": 114.16131,
+   "lat": 22.3341
+  },
+  {
+   "code": "HK-X08~",
+   "name": "Wong Tai Sin",
+   "wikidata": null,
+   "lon": 114.20961,
+   "lat": 22.34126
+  },
+  {
+   "code": "HK-X09~",
+   "name": "Kwun Tong",
+   "wikidata": null,
+   "lon": 114.22683,
+   "lat": 22.30583
+  },
+  {
+   "code": "HK-X10~",
+   "name": "Sai Kung",
+   "wikidata": null,
+   "lon": 114.35672,
+   "lat": 22.3523
+  },
+  {
+   "code": "HK-X11~",
+   "name": "Sha Tin",
+   "wikidata": null,
+   "lon": 114.20513,
+   "lat": 22.38653
+  },
+  {
+   "code": "HK-X12~",
+   "name": "Kwai Tsing",
+   "wikidata": null,
+   "lon": 114.13334,
+   "lat": 22.3559
+  },
+  {
+   "code": "HK-X13~",
+   "name": "Tsuen Wan",
+   "wikidata": null,
+   "lon": 114.11068,
+   "lat": 22.38848
+  },
+  {
+   "code": "HK-X14~",
+   "name": "Tuen Mun",
+   "wikidata": null,
+   "lon": 113.97493,
+   "lat": 22.39326
+  },
+  {
+   "code": "HK-X15~",
+   "name": "Yuen Long",
+   "wikidata": null,
+   "lon": 114.0486,
+   "lat": 22.45527
+  },
+  {
+   "code": "HK-X16~",
+   "name": "North",
+   "wikidata": null,
+   "lon": 114.1854,
+   "lat": 22.51576
+  },
+  {
+   "code": "HK-X17~",
+   "name": "Tai Po",
+   "wikidata": null,
+   "lon": 114.17207,
+   "lat": 22.46155
+  },
+  {
+   "code": "HK-X18~",
+   "name": "Islands",
+   "wikidata": null,
+   "lon": 113.92956,
+   "lat": 22.2545
+  }
+ ],
+ "edges": [
+  {
+   "u": "HK-X01~",
+   "v": "HK-X02~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2363
+  },
+  {
+   "u": "HK-X01~",
+   "v": "HK-X04~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5628,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Central_and_Western_District"
+    }
+   ]
+  },
+  {
+   "u": "HK-X02~",
+   "v": "HK-X03~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3516
+  },
+  {
+   "u": "HK-X02~",
+   "v": "HK-X04~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2715
+  },
+  {
+   "u": "HK-X03~",
+   "v": "HK-X04~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6672
+  },
+  {
+   "u": "HK-X05~",
+   "v": "HK-X06~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3569,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kowloon_City_District"
+    }
+   ]
+  },
+  {
+   "u": "HK-X05~",
+   "v": "HK-X07~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1632
+  },
+  {
+   "u": "HK-X06~",
+   "v": "HK-X07~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2606
+  },
+  {
+   "u": "HK-X06~",
+   "v": "HK-X08~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3056
+  },
+  {
+   "u": "HK-X06~",
+   "v": "HK-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2740
+  },
+  {
+   "u": "HK-X06~",
+   "v": "HK-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1645
+  },
+  {
+   "u": "HK-X07~",
+   "v": "HK-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1134
+  },
+  {
+   "u": "HK-X07~",
+   "v": "HK-X12~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1999
+  },
+  {
+   "u": "HK-X08~",
+   "v": "HK-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2978
+  },
+  {
+   "u": "HK-X08~",
+   "v": "HK-X10~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2747
+  },
+  {
+   "u": "HK-X08~",
+   "v": "HK-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3953
+  },
+  {
+   "u": "HK-X09~",
+   "v": "HK-X10~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5627
+  },
+  {
+   "u": "HK-X10~",
+   "v": "HK-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5273
+  },
+  {
+   "u": "HK-X10~",
+   "v": "HK-X17~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16828
+  },
+  {
+   "u": "HK-X11~",
+   "v": "HK-X12~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2895
+  },
+  {
+   "u": "HK-X11~",
+   "v": "HK-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6425
+  },
+  {
+   "u": "HK-X11~",
+   "v": "HK-X17~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7566
+  },
+  {
+   "u": "HK-X12~",
+   "v": "HK-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6869
+  },
+  {
+   "u": "HK-X13~",
+   "v": "HK-X14~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4902
+  },
+  {
+   "u": "HK-X13~",
+   "v": "HK-X15~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10957
+  },
+  {
+   "u": "HK-X13~",
+   "v": "HK-X17~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3557
+  },
+  {
+   "u": "HK-X13~",
+   "v": "HK-X18~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3588
+  },
+  {
+   "u": "HK-X14~",
+   "v": "HK-X15~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12715
+  },
+  {
+   "u": "HK-X15~",
+   "v": "HK-X16~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10335
+  },
+  {
+   "u": "HK-X15~",
+   "v": "HK-X17~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6889
+  },
+  {
+   "u": "HK-X16~",
+   "v": "HK-X17~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22445
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": null
+}

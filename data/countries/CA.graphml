@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CA-AB"><data key="name">Alberta</data><data key="code">CA-AB</data><data key="wikidata">Q1951</data><data key="lon">-114.99996</data><data key="lat">54.47793</data></node>
+    <node id="CA-BC"><data key="name">British Columbia</data><data key="code">CA-BC</data><data key="wikidata">Q1973</data><data key="lon">-124.99691</data><data key="lat">54.49824</data></node>
+    <node id="CA-MB"><data key="name">Manitoba</data><data key="code">CA-MB</data><data key="wikidata">Q1948</data><data key="lon">-98.31011</data><data key="lat">54.49663</data></node>
+    <node id="CA-NB"><data key="name">New Brunswick</data><data key="code">CA-NB</data><data key="wikidata">Q1965</data><data key="lon">-66.25739</data><data key="lat">46.56615</data></node>
+    <node id="CA-NL"><data key="name">Newfoundland and Labrador</data><data key="code">CA-NL</data><data key="wikidata">Q2003</data><data key="lon">-56.73888</data><data key="lat">49.12338</data></node>
+    <node id="CA-NS"><data key="name">Nova Scotia</data><data key="code">CA-NS</data><data key="wikidata">Q1952</data><data key="lon">-64.32758</data><data key="lat">44.73904</data></node>
+    <node id="CA-NT"><data key="name">Northwest Territories</data><data key="code">CA-NT</data><data key="wikidata">Q2007</data><data key="lon">-127.68011</data><data key="lat">65.29655</data></node>
+    <node id="CA-NU"><data key="name">Nunavut</data><data key="code">CA-NU</data><data key="wikidata">Q2023</data><data key="lon">-92.32373</data><data key="lat">66.00111</data></node>
+    <node id="CA-ON"><data key="name">Ontario</data><data key="code">CA-ON</data><data key="wikidata">Q1904</data><data key="lon">-83.96215</data><data key="lat">49.38617</data></node>
+    <node id="CA-PE"><data key="name">Prince Edward Island</data><data key="code">CA-PE</data><data key="wikidata">Q1978</data><data key="lon">-63.61596</data><data key="lat">46.5088</data></node>
+    <node id="CA-QC"><data key="name">Québec</data><data key="code">CA-QC</data><data key="wikidata">Q176</data><data key="lon">-71.8313</data><data key="lat">53.90672</data></node>
+    <node id="CA-SK"><data key="name">Saskatchewan</data><data key="code">CA-SK</data><data key="wikidata">Q1989</data><data key="lon">-106.19078</data><data key="lat">54.49244</data></node>
+    <node id="CA-YT"><data key="name">Yukon</data><data key="code">CA-YT</data><data key="wikidata">Q2009</data><data key="lon">-136.80907</data><data key="lat">64.82894</data></node>
+    <edge source="CA-AB" target="CA-BC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-AB" target="CA-NT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="CA-AB" target="CA-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-BC" target="CA-NT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-BC" target="CA-YT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-MB" target="CA-NU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-MB" target="CA-ON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-MB" target="CA-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-NB" target="CA-NS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-NB" target="CA-QC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-NL" target="CA-NU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-NL" target="CA-QC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-NT" target="CA-NU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-NT" target="CA-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-NT" target="CA-YT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CA-ON" target="CA-QC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

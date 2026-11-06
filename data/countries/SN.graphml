@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SN-DB"><data key="name">Diourbel</data><data key="code">SN-DB</data><data key="wikidata">Q856261</data><data key="lon">-16.03369</data><data key="lat">14.76835</data></node>
+    <node id="SN-DK"><data key="name">Dakar</data><data key="code">SN-DK</data><data key="wikidata">Q856268</data><data key="lon">-17.33103</data><data key="lat">14.75385</data></node>
+    <node id="SN-FK"><data key="name">Fatick</data><data key="code">SN-FK</data><data key="wikidata">Q856282</data><data key="lon">-16.52618</data><data key="lat">14.2897</data></node>
+    <node id="SN-KA"><data key="name">Kaffrine</data><data key="code">SN-KA</data><data key="wikidata">Q1059694</data><data key="lon">-15.21436</data><data key="lat">14.20586</data></node>
+    <node id="SN-KD"><data key="name">Kolda</data><data key="code">SN-KD</data><data key="wikidata">Q738081</data><data key="lon">-14.42763</data><data key="lat">13.12292</data></node>
+    <node id="SN-KE"><data key="name">Kédougou</data><data key="code">SN-KE</data><data key="wikidata">Q1046666</data><data key="lon">-12.44671</data><data key="lat">12.88133</data></node>
+    <node id="SN-KL"><data key="name">Kaolack</data><data key="code">SN-KL</data><data key="wikidata">Q847671</data><data key="lon">-16.00069</data><data key="lat">13.9791</data></node>
+    <node id="SN-LG"><data key="name">Louga</data><data key="code">SN-LG</data><data key="wikidata">Q738061</data><data key="lon">-15.68712</data><data key="lat">15.38508</data></node>
+    <node id="SN-MT"><data key="name">Matam</data><data key="code">SN-MT</data><data key="wikidata">Q856275</data><data key="lon">-13.69328</data><data key="lat">15.27735</data></node>
+    <node id="SN-SE"><data key="name">Sédhiou</data><data key="code">SN-SE</data><data key="wikidata">Q589848</data><data key="lon">-15.56642</data><data key="lat">12.90937</data></node>
+    <node id="SN-SL"><data key="name">Saint-Louis</data><data key="code">SN-SL</data><data key="wikidata">Q178872</data><data key="lon">-14.84321</data><data key="lat">16.16509</data></node>
+    <node id="SN-TC"><data key="name">Tambacounda</data><data key="code">SN-TC</data><data key="wikidata">Q848554</data><data key="lon">-13.30062</data><data key="lat">14.04576</data></node>
+    <node id="SN-TH"><data key="name">Thiès</data><data key="code">SN-TH</data><data key="wikidata">Q847682</data><data key="lon">-16.89836</data><data key="lat">14.79889</data></node>
+    <node id="SN-ZG"><data key="name">Ziguinchor</data><data key="code">SN-ZG</data><data key="wikidata">Q822692</data><data key="lon">-16.35501</data><data key="lat">12.47486</data></node>
+    <edge source="SN-DB" target="SN-FK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-DB" target="SN-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-DB" target="SN-LG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-DB" target="SN-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-DK" target="SN-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-FK" target="SN-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-FK" target="SN-KL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-FK" target="SN-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-KA" target="SN-KL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-KA" target="SN-LG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-KA" target="SN-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-KA" target="SN-TC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-KD" target="SN-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-KD" target="SN-TC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-KE" target="SN-TC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-LG" target="SN-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-LG" target="SN-SL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-LG" target="SN-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-MT" target="SN-SL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-MT" target="SN-TC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SN-SE" target="SN-ZG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

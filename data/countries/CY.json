@@ -1,0 +1,161 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CY",
+ "kind": "country",
+ "name": "Cyprus",
+ "level": "districts",
+ "n": 5,
+ "m": 6,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CY-01",
+   "name": "Nicosia",
+   "wikidata": "Q59147",
+   "lon": 33.04573,
+   "lat": 35.04161
+  },
+  {
+   "code": "CY-02",
+   "name": "Limassol",
+   "wikidata": "Q59150",
+   "lon": 32.98431,
+   "lat": 34.79525
+  },
+  {
+   "code": "CY-03",
+   "name": "Larnaca",
+   "wikidata": "Q59153",
+   "lon": 33.44617,
+   "lat": 34.89043
+  },
+  {
+   "code": "CY-04",
+   "name": "Famagusta",
+   "wikidata": "Q59148",
+   "lon": 33.94427,
+   "lat": 35.01436
+  },
+  {
+   "code": "CY-05",
+   "name": "Paphos",
+   "wikidata": "Q59133",
+   "lon": 32.49331,
+   "lat": 34.91796
+  }
+ ],
+ "edges": [
+  {
+   "u": "CY-01",
+   "v": "CY-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43098
+  },
+  {
+   "u": "CY-01",
+   "v": "CY-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54220
+  },
+  {
+   "u": "CY-01",
+   "v": "CY-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48983
+  },
+  {
+   "u": "CY-02",
+   "v": "CY-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26690
+  },
+  {
+   "u": "CY-02",
+   "v": "CY-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33643
+  },
+  {
+   "u": "CY-03",
+   "v": "CY-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8625
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CYP-ADM1-96831152",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

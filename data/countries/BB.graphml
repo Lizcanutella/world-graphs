@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BB" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BB-01"><data key="name">Christ Church</data><data key="code">BB-01</data><data key="wikidata">Q1626524</data><data key="lon">-59.53376</data><data key="lat">13.0898</data></node>
+    <node id="BB-02"><data key="name">Saint Andrew</data><data key="code">BB-02</data><data key="wikidata">Q1647439</data><data key="lon">-59.5809</data><data key="lat">13.2625</data></node>
+    <node id="BB-03"><data key="name">Saint George</data><data key="code">BB-03</data><data key="wikidata">Q1647443</data><data key="lon">-59.54529</data><data key="lat">13.1376</data></node>
+    <node id="BB-04"><data key="name">Saint James</data><data key="code">BB-04</data><data key="wikidata">Q592141</data><data key="lon">-59.63445</data><data key="lat">13.18963</data></node>
+    <node id="BB-05"><data key="name">Saint John</data><data key="code">BB-05</data><data key="wikidata">Q1626540</data><data key="lon">-59.50464</data><data key="lat">13.17682</data></node>
+    <node id="BB-06"><data key="name">Saint Joseph</data><data key="code">BB-06</data><data key="wikidata">Q550249</data><data key="lon">-59.5518</data><data key="lat">13.21317</data></node>
+    <node id="BB-07"><data key="name">Saint Lucy</data><data key="code">BB-07</data><data key="wikidata">Q1647447</data><data key="lon">-59.615</data><data key="lat">13.3075</data></node>
+    <node id="BB-08"><data key="name">Saint Michael</data><data key="code">BB-08</data><data key="wikidata">Q819170</data><data key="lon">-59.6061</data><data key="lat">13.12616</data></node>
+    <node id="BB-09"><data key="name">Saint Peter</data><data key="code">BB-09</data><data key="wikidata">Q932723</data><data key="lon">-59.62889</data><data key="lat">13.25939</data></node>
+    <node id="BB-10"><data key="name">Saint Philip</data><data key="code">BB-10</data><data key="wikidata">Q1647436</data><data key="lon">-59.46995</data><data key="lat">13.1376</data></node>
+    <node id="BB-11"><data key="name">Saint Thomas</data><data key="code">BB-11</data><data key="wikidata">Q1647432</data><data key="lon">-59.5906</data><data key="lat">13.18354</data></node>
+    <edge source="BB-01" target="BB-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-01" target="BB-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-01" target="BB-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-02" target="BB-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-02" target="BB-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-02" target="BB-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-02" target="BB-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-03" target="BB-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-03" target="BB-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-03" target="BB-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-03" target="BB-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-03" target="BB-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-04" target="BB-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-04" target="BB-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-04" target="BB-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-05" target="BB-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-05" target="BB-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-06" target="BB-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-07" target="BB-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BB-08" target="BB-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

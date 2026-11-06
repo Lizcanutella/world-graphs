@@ -1,0 +1,566 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "LR",
+ "kind": "country",
+ "name": "Liberia",
+ "level": "counties",
+ "n": 15,
+ "m": 26,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "LR-BG",
+   "name": "Bong",
+   "wikidata": "Q877578",
+   "lon": -9.80337,
+   "lat": 6.92896
+  },
+  {
+   "code": "LR-BM",
+   "name": "Bomi",
+   "wikidata": "Q844127",
+   "lon": -10.8074,
+   "lat": 6.70035
+  },
+  {
+   "code": "LR-CM",
+   "name": "Grand Cape Mount",
+   "wikidata": "Q1047921",
+   "lon": -11.13074,
+   "lat": 7.06801
+  },
+  {
+   "code": "LR-GB",
+   "name": "Grand Bassa",
+   "wikidata": "Q1047895",
+   "lon": -9.93197,
+   "lat": 6.11919
+  },
+  {
+   "code": "LR-GG",
+   "name": "Grand Gedeh",
+   "wikidata": "Q950841",
+   "lon": -8.35959,
+   "lat": 5.97495
+  },
+  {
+   "code": "LR-GK",
+   "name": "Grand Kru",
+   "wikidata": "Q574952",
+   "lon": -8.31033,
+   "lat": 4.80132
+  },
+  {
+   "code": "LR-LO",
+   "name": "Lofa",
+   "wikidata": "Q870130",
+   "lon": -9.8029,
+   "lat": 7.88147
+  },
+  {
+   "code": "LR-MG",
+   "name": "Margibi",
+   "wikidata": "Q1052737",
+   "lon": -10.30588,
+   "lat": 6.45724
+  },
+  {
+   "code": "LR-MO",
+   "name": "Montserrado",
+   "wikidata": "Q862608",
+   "lon": -10.58084,
+   "lat": 6.52932
+  },
+  {
+   "code": "LR-MY",
+   "name": "Maryland",
+   "wikidata": "Q870138",
+   "lon": -7.73118,
+   "lat": 4.73696
+  },
+  {
+   "code": "LR-NI",
+   "name": "Nimba",
+   "wikidata": "Q868497",
+   "lon": -8.739,
+   "lat": 6.76265
+  },
+  {
+   "code": "LR-RI",
+   "name": "River Cess",
+   "wikidata": "Q955095",
+   "lon": -9.40305,
+   "lat": 5.81499
+  },
+  {
+   "code": "LR-SI",
+   "name": "Sinoe",
+   "wikidata": "Q1043644",
+   "lon": -8.89268,
+   "lat": 5.34819
+  },
+  {
+   "code": "LR-X1~",
+   "name": "Gbapolu",
+   "wikidata": "Q592251",
+   "lon": -10.17188,
+   "lat": 7.43669
+  },
+  {
+   "code": "LR-X2~",
+   "name": "River Gee",
+   "wikidata": "Q1047875",
+   "lon": -7.88477,
+   "lat": 5.1672
+  }
+ ],
+ "edges": [
+  {
+   "u": "LR-BG",
+   "v": "LR-BM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6409
+  },
+  {
+   "u": "LR-BG",
+   "v": "LR-GB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100210
+  },
+  {
+   "u": "LR-BG",
+   "v": "LR-LO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47738
+  },
+  {
+   "u": "LR-BG",
+   "v": "LR-MG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101342
+  },
+  {
+   "u": "LR-BG",
+   "v": "LR-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20015
+  },
+  {
+   "u": "LR-BG",
+   "v": "LR-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 74706
+  },
+  {
+   "u": "LR-BG",
+   "v": "LR-X1~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104069
+  },
+  {
+   "u": "LR-BM",
+   "v": "LR-CM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53099
+  },
+  {
+   "u": "LR-BM",
+   "v": "LR-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 82608
+  },
+  {
+   "u": "LR-BM",
+   "v": "LR-X1~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 74158
+  },
+  {
+   "u": "LR-CM",
+   "v": "LR-X1~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 115896
+  },
+  {
+   "u": "LR-GB",
+   "v": "LR-MG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 119745
+  },
+  {
+   "u": "LR-GB",
+   "v": "LR-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43895,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Grand_Bassa_County"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Grand_Bassa_County"
+    }
+   ]
+  },
+  {
+   "u": "LR-GB",
+   "v": "LR-RI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 139244
+  },
+  {
+   "u": "LR-GG",
+   "v": "LR-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 91671
+  },
+  {
+   "u": "LR-GG",
+   "v": "LR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 110800,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Grand_Gedeh_County"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Grand_Gedeh_County"
+    }
+   ]
+  },
+  {
+   "u": "LR-GG",
+   "v": "LR-X2~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 113693,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Grand_Gedeh_County"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Grand_Gedeh_County"
+    }
+   ]
+  },
+  {
+   "u": "LR-GK",
+   "v": "LR-MY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92563
+  },
+  {
+   "u": "LR-GK",
+   "v": "LR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62669
+  },
+  {
+   "u": "LR-GK",
+   "v": "LR-X2~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32754
+  },
+  {
+   "u": "LR-LO",
+   "v": "LR-X1~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 180935,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lofa_County"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Lofa_County"
+    }
+   ]
+  },
+  {
+   "u": "LR-MG",
+   "v": "LR-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76991
+  },
+  {
+   "u": "LR-MY",
+   "v": "LR-X2~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72966
+  },
+  {
+   "u": "LR-NI",
+   "v": "LR-RI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78380
+  },
+  {
+   "u": "LR-RI",
+   "v": "LR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85742
+  },
+  {
+   "u": "LR-SI",
+   "v": "LR-X2~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38164,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/River_Gee_County"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/River_Gee_County"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "LBR-ADM1-1627179",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

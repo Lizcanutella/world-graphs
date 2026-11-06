@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NI-AN"><data key="name">Atlántico Norte</data><data key="code">NI-AN</data><data key="wikidata">Q498452</data><data key="lon">-84.12553</data><data key="lat">14.02829</data></node>
+    <node id="NI-AS"><data key="name">Atlántico Sur</data><data key="code">NI-AS</data><data key="wikidata">Q291279</data><data key="lon">-84.23693</data><data key="lat">12.11351</data></node>
+    <node id="NI-BO"><data key="name">Boaco</data><data key="code">NI-BO</data><data key="wikidata">Q280973</data><data key="lon">-85.54915</data><data key="lat">12.42</data></node>
+    <node id="NI-CA"><data key="name">Carazo</data><data key="code">NI-CA</data><data key="wikidata">Q461133</data><data key="lon">-86.28075</data><data key="lat">11.73654</data></node>
+    <node id="NI-CI"><data key="name">Chinandega</data><data key="code">NI-CI</data><data key="wikidata">Q644024</data><data key="lon">-87.15838</data><data key="lat">12.88294</data></node>
+    <node id="NI-CO"><data key="name">Chontales</data><data key="code">NI-CO</data><data key="wikidata">Q498443</data><data key="lon">-85.20012</data><data key="lat">12.09962</data></node>
+    <node id="NI-ES"><data key="name">Estelí</data><data key="code">NI-ES</data><data key="wikidata">Q728015</data><data key="lon">-86.46712</data><data key="lat">13.13559</data></node>
+    <node id="NI-GR"><data key="name">Granada</data><data key="code">NI-GR</data><data key="wikidata">Q258405</data><data key="lon">-85.97539</data><data key="lat">11.90405</data></node>
+    <node id="NI-JI"><data key="name">Jinotega</data><data key="code">NI-JI</data><data key="wikidata">Q728120</data><data key="lon">-85.39227</data><data key="lat">13.80393</data></node>
+    <node id="NI-LE"><data key="name">León</data><data key="code">NI-LE</data><data key="wikidata">Q586818</data><data key="lon">-86.6522</data><data key="lat">12.5617</data></node>
+    <node id="NI-MD"><data key="name">Madriz</data><data key="code">NI-MD</data><data key="wikidata">Q728056</data><data key="lon">-86.62458</data><data key="lat">13.42961</data></node>
+    <node id="NI-MN"><data key="name">Managua</data><data key="code">NI-MN</data><data key="wikidata">Q260009</data><data key="lon">-86.41501</data><data key="lat">12.20096</data></node>
+    <node id="NI-MS"><data key="name">Masaya</data><data key="code">NI-MS</data><data key="wikidata">Q570358</data><data key="lon">-86.08182</data><data key="lat">12.01121</data></node>
+    <node id="NI-MT"><data key="name">Matagalpa</data><data key="code">NI-MT</data><data key="wikidata">Q728099</data><data key="lon">-85.45641</data><data key="lat">12.9524</data></node>
+    <node id="NI-NS"><data key="name">Nueva Segovia</data><data key="code">NI-NS</data><data key="wikidata">Q728022</data><data key="lon">-86.05127</data><data key="lat">13.77048</data></node>
+    <node id="NI-RI"><data key="name">Rivas</data><data key="code">NI-RI</data><data key="wikidata">Q728127</data><data key="lon">-85.77958</data><data key="lat">11.28308</data></node>
+    <node id="NI-SJ"><data key="name">Rio San Juan</data><data key="code">NI-SJ</data><data key="wikidata">Q728155</data><data key="lon">-84.57448</data><data key="lat">11.2881</data></node>
+    <edge source="NI-AN" target="NI-AS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-AN" target="NI-JI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-AN" target="NI-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-AS" target="NI-BO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-AS" target="NI-CO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-AS" target="NI-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-AS" target="NI-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-BO" target="NI-CO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-BO" target="NI-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-BO" target="NI-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-BO" target="NI-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CA" target="NI-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CA" target="NI-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CA" target="NI-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CA" target="NI-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CI" target="NI-ES"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CI" target="NI-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CI" target="NI-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-CO" target="NI-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-ES" target="NI-JI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-ES" target="NI-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-ES" target="NI-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-ES" target="NI-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-GR" target="NI-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-GR" target="NI-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-GR" target="NI-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-JI" target="NI-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-JI" target="NI-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-JI" target="NI-NS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-LE" target="NI-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-LE" target="NI-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-MD" target="NI-NS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-MN" target="NI-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-MN" target="NI-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NI-RI" target="NI-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

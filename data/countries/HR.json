@@ -1,0 +1,836 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "HR",
+ "kind": "country",
+ "name": "Croatia",
+ "level": "counties",
+ "n": 21,
+ "m": 37,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "HR-01",
+   "name": "Zagrebacka",
+   "wikidata": "Q27038",
+   "lon": 15.60773,
+   "lat": 45.76703
+  },
+  {
+   "code": "HR-02",
+   "name": "Krapinsko-Zagorska",
+   "wikidata": "Q57056",
+   "lon": 15.9332,
+   "lat": 46.0837
+  },
+  {
+   "code": "HR-03",
+   "name": "Sisacko-Moslavacka",
+   "wikidata": "Q57060",
+   "lon": 16.44318,
+   "lat": 45.41356
+  },
+  {
+   "code": "HR-04",
+   "name": "Karlovacka",
+   "wikidata": "Q57071",
+   "lon": 15.31982,
+   "lat": 45.28822
+  },
+  {
+   "code": "HR-05",
+   "name": "Varaždinska",
+   "wikidata": "Q57967",
+   "lon": 16.4041,
+   "lat": 46.20349
+  },
+  {
+   "code": "HR-06",
+   "name": "Koprivničko-Križevačka",
+   "wikidata": "Q58026",
+   "lon": 16.77679,
+   "lat": 46.11711
+  },
+  {
+   "code": "HR-07",
+   "name": "Bjelovarsko-bilogorska",
+   "wikidata": "Q58060",
+   "lon": 16.90026,
+   "lat": 45.77485
+  },
+  {
+   "code": "HR-08",
+   "name": "Primorsko-Goranska",
+   "wikidata": "Q58071",
+   "lon": 14.7648,
+   "lat": 45.35252
+  },
+  {
+   "code": "HR-09",
+   "name": "Licko-Senjska",
+   "wikidata": "Q58081",
+   "lon": 15.18315,
+   "lat": 44.72662
+  },
+  {
+   "code": "HR-10",
+   "name": "Viroviticko-Podravska",
+   "wikidata": "Q58092",
+   "lon": 17.65285,
+   "lat": 45.72943
+  },
+  {
+   "code": "HR-11",
+   "name": "Požega-Slavonia",
+   "wikidata": "Q58111",
+   "lon": 17.60971,
+   "lat": 45.40971
+  },
+  {
+   "code": "HR-12",
+   "name": "Brodsko-Posavska",
+   "wikidata": "Q58129",
+   "lon": 17.39936,
+   "lat": 45.22099
+  },
+  {
+   "code": "HR-13",
+   "name": "Zadarska",
+   "wikidata": "Q58146",
+   "lon": 15.89676,
+   "lat": 44.40889
+  },
+  {
+   "code": "HR-14",
+   "name": "Osjecko-Baranjska",
+   "wikidata": "Q58159",
+   "lon": 18.55813,
+   "lat": 45.56068
+  },
+  {
+   "code": "HR-15",
+   "name": "Šibensko-Kninska",
+   "wikidata": "Q58194",
+   "lon": 16.02439,
+   "lat": 43.76914
+  },
+  {
+   "code": "HR-16",
+   "name": "Vukovarsko-Srijemska",
+   "wikidata": "Q58225",
+   "lon": 18.82319,
+   "lat": 45.17048
+  },
+  {
+   "code": "HR-17",
+   "name": "Splitsko-Dalmatinska",
+   "wikidata": "Q58253",
+   "lon": 16.7556,
+   "lat": 43.52557
+  },
+  {
+   "code": "HR-18",
+   "name": "Istarska",
+   "wikidata": "Q58268",
+   "lon": 13.95813,
+   "lat": 45.14271
+  },
+  {
+   "code": "HR-19",
+   "name": "Dubrovacko-Neretvanska",
+   "wikidata": "Q58289",
+   "lon": 16.91281,
+   "lat": 42.94703
+  },
+  {
+   "code": "HR-20",
+   "name": "Medimurska",
+   "wikidata": "Q58330",
+   "lon": 16.47594,
+   "lat": 46.42139
+  },
+  {
+   "code": "HR-21",
+   "name": "Grad Zagreb",
+   "wikidata": "Q1435",
+   "lon": 15.9782,
+   "lat": 45.79664
+  }
+ ],
+ "edges": [
+  {
+   "u": "HR-01",
+   "v": "HR-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45595
+  },
+  {
+   "u": "HR-01",
+   "v": "HR-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 107596
+  },
+  {
+   "u": "HR-01",
+   "v": "HR-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51811
+  },
+  {
+   "u": "HR-01",
+   "v": "HR-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11534
+  },
+  {
+   "u": "HR-01",
+   "v": "HR-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33866
+  },
+  {
+   "u": "HR-01",
+   "v": "HR-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34682
+  },
+  {
+   "u": "HR-01",
+   "v": "HR-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116587
+  },
+  {
+   "u": "HR-02",
+   "v": "HR-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50400
+  },
+  {
+   "u": "HR-02",
+   "v": "HR-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18424
+  },
+  {
+   "u": "HR-03",
+   "v": "HR-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68301
+  },
+  {
+   "u": "HR-03",
+   "v": "HR-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58321
+  },
+  {
+   "u": "HR-03",
+   "v": "HR-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29351
+  },
+  {
+   "u": "HR-03",
+   "v": "HR-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27076
+  },
+  {
+   "u": "HR-04",
+   "v": "HR-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54974
+  },
+  {
+   "u": "HR-04",
+   "v": "HR-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57988
+  },
+  {
+   "u": "HR-04",
+   "v": "HR-13",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25606
+  },
+  {
+   "u": "HR-05",
+   "v": "HR-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57184
+  },
+  {
+   "u": "HR-05",
+   "v": "HR-20",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40060
+  },
+  {
+   "u": "HR-06",
+   "v": "HR-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64165
+  },
+  {
+   "u": "HR-06",
+   "v": "HR-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22163
+  },
+  {
+   "u": "HR-06",
+   "v": "HR-20",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16236
+  },
+  {
+   "u": "HR-07",
+   "v": "HR-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54299
+  },
+  {
+   "u": "HR-07",
+   "v": "HR-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57167,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "HR-08",
+   "v": "HR-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20143
+  },
+  {
+   "u": "HR-08",
+   "v": "HR-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40588
+  },
+  {
+   "u": "HR-09",
+   "v": "HR-13",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 112058
+  },
+  {
+   "u": "HR-10",
+   "v": "HR-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65709,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "HR-10",
+   "v": "HR-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24473
+  },
+  {
+   "u": "HR-11",
+   "v": "HR-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92879
+  },
+  {
+   "u": "HR-11",
+   "v": "HR-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 91043
+  },
+  {
+   "u": "HR-12",
+   "v": "HR-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39104
+  },
+  {
+   "u": "HR-12",
+   "v": "HR-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13190
+  },
+  {
+   "u": "HR-13",
+   "v": "HR-15",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 97714
+  },
+  {
+   "u": "HR-13",
+   "v": "HR-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16525
+  },
+  {
+   "u": "HR-14",
+   "v": "HR-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72879
+  },
+  {
+   "u": "HR-15",
+   "v": "HR-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79461
+  },
+  {
+   "u": "HR-17",
+   "v": "HR-19",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22016
+  }
+ ],
+ "relabels": [
+  {
+   "ne_id": "1159312541",
+   "was": {
+    "iso_3166_2": "HR-12",
+    "name": "Brodsko-Posavska"
+   },
+   "set": {
+    "iso_3166_2": "HR-11",
+    "name": "Požega-Slavonia"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  }
+ ],
+ "geoboundaries": {
+  "boundaryID": "HRV-ADM1-27960609",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

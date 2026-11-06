@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CH" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CH-AG"><data key="name">Aargau</data><data key="code">CH-AG</data><data key="wikidata">Q11972</data><data key="lon">8.20046</data><data key="lat">47.38144</data></node>
+    <node id="CH-AI"><data key="name">Appenzell Innerrhoden</data><data key="code">CH-AI</data><data key="wikidata">Q12094</data><data key="lon">9.39047</data><data key="lat">47.31526</data></node>
+    <node id="CH-AR"><data key="name">Appenzell Ausserrhoden</data><data key="code">CH-AR</data><data key="wikidata">Q12079</data><data key="lon">9.26328</data><data key="lat">47.3587</data></node>
+    <node id="CH-BE"><data key="name">Bern</data><data key="code">CH-BE</data><data key="wikidata">Q11911</data><data key="lon">7.61002</data><data key="lat">46.83063</data></node>
+    <node id="CH-BL"><data key="name">Basel-Landschaft</data><data key="code">CH-BL</data><data key="wikidata">Q12146</data><data key="lon">7.82397</data><data key="lat">47.45129</data></node>
+    <node id="CH-BS"><data key="name">Basel-Stadt</data><data key="code">CH-BS</data><data key="wikidata">Q12172</data><data key="lon">7.57012</data><data key="lat">47.56231</data></node>
+    <node id="CH-FR"><data key="name">Fribourg</data><data key="code">CH-FR</data><data key="wikidata">Q12640</data><data key="lon">7.11692</data><data key="lat">46.72433</data></node>
+    <node id="CH-GE"><data key="name">Genève</data><data key="code">CH-GE</data><data key="wikidata">Q11917</data><data key="lon">6.07524</data><data key="lat">46.22882</data></node>
+    <node id="CH-GL"><data key="name">Glarus</data><data key="code">CH-GL</data><data key="wikidata">Q11922</data><data key="lon">9.08375</data><data key="lat">46.98674</data></node>
+    <node id="CH-GR"><data key="name">Graubünden</data><data key="code">CH-GR</data><data key="wikidata">Q11925</data><data key="lon">9.55726</data><data key="lat">46.61917</data></node>
+    <node id="CH-JU"><data key="name">Jura</data><data key="code">CH-JU</data><data key="wikidata">Q12755</data><data key="lon">7.28252</data><data key="lat">47.32625</data></node>
+    <node id="CH-LU"><data key="name">Lucerne</data><data key="code">CH-LU</data><data key="wikidata">Q12121</data><data key="lon">8.19217</data><data key="lat">47.0298</data></node>
+    <node id="CH-NE"><data key="name">Neuchâtel</data><data key="code">CH-NE</data><data key="wikidata">Q12738</data><data key="lon">6.82393</data><data key="lat">46.99869</data></node>
+    <node id="CH-NW"><data key="name">Nidwalden</data><data key="code">CH-NW</data><data key="wikidata">Q12592</data><data key="lon">8.40042</data><data key="lat">46.89165</data></node>
+    <node id="CH-OW"><data key="name">Obwalden</data><data key="code">CH-OW</data><data key="wikidata">Q12573</data><data key="lon">8.1928</data><data key="lat">46.86071</data></node>
+    <node id="CH-SG"><data key="name">Sankt Gallen</data><data key="code">CH-SG</data><data key="wikidata">Q12746</data><data key="lon">9.22027</data><data key="lat">47.20718</data></node>
+    <node id="CH-SH"><data key="name">Schaffhausen</data><data key="code">CH-SH</data><data key="wikidata">Q12697</data><data key="lon">8.56779</data><data key="lat">47.72045</data></node>
+    <node id="CH-SO"><data key="name">Solothurn</data><data key="code">CH-SO</data><data key="wikidata">Q11929</data><data key="lon">7.57665</data><data key="lat">47.28498</data></node>
+    <node id="CH-SZ"><data key="name">Schwyz</data><data key="code">CH-SZ</data><data key="wikidata">Q12433</data><data key="lon">8.68552</data><data key="lat">47.05514</data></node>
+    <node id="CH-TG"><data key="name">Thurgau</data><data key="code">CH-TG</data><data key="wikidata">Q12713</data><data key="lon">9.09607</data><data key="lat">47.53076</data></node>
+    <node id="CH-TI"><data key="name">Ticino</data><data key="code">CH-TI</data><data key="wikidata">Q12724</data><data key="lon">8.76705</data><data key="lat">46.22719</data></node>
+    <node id="CH-UR"><data key="name">Uri</data><data key="code">CH-UR</data><data key="wikidata">Q12404</data><data key="lon">8.62627</data><data key="lat">46.75903</data></node>
+    <node id="CH-VD"><data key="name">Vaud</data><data key="code">CH-VD</data><data key="wikidata">Q12771</data><data key="lon">6.51498</data><data key="lat">46.56395</data></node>
+    <node id="CH-VS"><data key="name">Valais</data><data key="code">CH-VS</data><data key="wikidata">Q834</data><data key="lon">7.63016</data><data key="lat">46.26576</data></node>
+    <node id="CH-ZG"><data key="name">Zug</data><data key="code">CH-ZG</data><data key="wikidata">Q11933</data><data key="lon">8.52151</data><data key="lat">47.16877</data></node>
+    <node id="CH-ZH"><data key="name">Zürich</data><data key="code">CH-ZH</data><data key="wikidata">Q11943</data><data key="lon">8.64581</data><data key="lat">47.42837</data></node>
+    <edge source="CH-AG" target="CH-BE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AG" target="CH-BL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AG" target="CH-LU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AG" target="CH-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AG" target="CH-ZG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AG" target="CH-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AI" target="CH-AR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AI" target="CH-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-AR" target="CH-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-FR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-JU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-LU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-UR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-VD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BE" target="CH-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BL" target="CH-BS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BL" target="CH-JU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-BL" target="CH-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-FR" target="CH-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-FR" target="CH-VD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GE" target="CH-VD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GL" target="CH-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GL" target="CH-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GL" target="CH-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GL" target="CH-UR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GR" target="CH-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GR" target="CH-TI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-GR" target="CH-UR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-JU" target="CH-NE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="CH-JU" target="CH-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-LU" target="CH-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-LU" target="CH-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-LU" target="CH-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-LU" target="CH-ZG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-NE" target="CH-VD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-NW" target="CH-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-NW" target="CH-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-NW" target="CH-UR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-OW" target="CH-UR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SG" target="CH-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SG" target="CH-TG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SG" target="CH-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SH" target="CH-TG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SH" target="CH-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SZ" target="CH-UR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SZ" target="CH-ZG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-SZ" target="CH-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-TG" target="CH-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-TI" target="CH-UR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-TI" target="CH-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-UR" target="CH-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-VD" target="CH-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CH-ZG" target="CH-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

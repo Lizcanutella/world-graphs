@@ -1,0 +1,119 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BH",
+ "kind": "country",
+ "name": "Bahrain",
+ "level": "governorates",
+ "n": 5,
+ "m": 4,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BH-13",
+   "name": "Al Manāmah",
+   "wikidata": "Q528953",
+   "lon": 50.55173,
+   "lat": 26.22101
+  },
+  {
+   "code": "BH-14",
+   "name": "Al Janūbīyah",
+   "wikidata": "Q838532",
+   "lon": 50.54239,
+   "lat": 25.96117
+  },
+  {
+   "code": "BH-15",
+   "name": "Al Muḩarraq",
+   "wikidata": "Q375630",
+   "lon": 50.63352,
+   "lat": 26.24558
+  },
+  {
+   "code": "BH-16",
+   "name": "Al Wusţá",
+   "wikidata": "Q856539",
+   "lon": 50.58088,
+   "lat": 26.14007
+  },
+  {
+   "code": "BH-17",
+   "name": "Ash Shamālīyah",
+   "wikidata": "Q840445",
+   "lon": 50.49046,
+   "lat": 26.13923
+  }
+ ],
+ "edges": [
+  {
+   "u": "BH-13",
+   "v": "BH-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8887
+  },
+  {
+   "u": "BH-14",
+   "v": "BH-16",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10680
+  },
+  {
+   "u": "BH-14",
+   "v": "BH-17",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13218
+  },
+  {
+   "u": "BH-16",
+   "v": "BH-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10322
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BHR-ADM1-46075475",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

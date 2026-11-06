@@ -1,0 +1,386 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ET",
+ "kind": "country",
+ "name": "Ethiopia",
+ "level": "regional state",
+ "n": 11,
+ "m": 16,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ET-AA",
+   "name": "Addis Ababa",
+   "wikidata": "Q3624",
+   "lon": 38.78573,
+   "lat": 8.96547
+  },
+  {
+   "code": "ET-AF",
+   "name": "Afar",
+   "wikidata": "Q193494",
+   "lon": 40.88489,
+   "lat": 11.65707
+  },
+  {
+   "code": "ET-AM",
+   "name": "Amhara",
+   "wikidata": "Q203009",
+   "lon": 38.311,
+   "lat": 11.26475
+  },
+  {
+   "code": "ET-BE",
+   "name": "Benshangul-Gumaz",
+   "wikidata": "Q207635",
+   "lon": 35.31656,
+   "lat": 10.59655
+  },
+  {
+   "code": "ET-DD",
+   "name": "Dire Dawa",
+   "wikidata": "Q193486",
+   "lon": 41.88656,
+   "lat": 9.6279
+  },
+  {
+   "code": "ET-GA",
+   "name": "Gambela Peoples",
+   "wikidata": "Q207638",
+   "lon": 33.96321,
+   "lat": 7.81185
+  },
+  {
+   "code": "ET-HA",
+   "name": "Harari People",
+   "wikidata": "Q1033855",
+   "lon": 42.16566,
+   "lat": 9.29556
+  },
+  {
+   "code": "ET-OR",
+   "name": "Oromiya",
+   "wikidata": "Q202107",
+   "lon": 40.39001,
+   "lat": 6.94264
+  },
+  {
+   "code": "ET-SN",
+   "name": "Southern Nations, Nationalities and Peoples",
+   "wikidata": "Q203193",
+   "lon": 36.2933,
+   "lat": 6.44852
+  },
+  {
+   "code": "ET-SO",
+   "name": "Somali",
+   "wikidata": "Q202800",
+   "lon": 44.70683,
+   "lat": 7.23468
+  },
+  {
+   "code": "ET-TI",
+   "name": "Tigray",
+   "wikidata": "Q200127",
+   "lon": 39.11514,
+   "lat": 13.56217
+  }
+ ],
+ "edges": [
+  {
+   "u": "ET-AA",
+   "v": "ET-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98892
+  },
+  {
+   "u": "ET-AF",
+   "v": "ET-AM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 431432
+  },
+  {
+   "u": "ET-AF",
+   "v": "ET-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 158648
+  },
+  {
+   "u": "ET-AF",
+   "v": "ET-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 248947
+  },
+  {
+   "u": "ET-AF",
+   "v": "ET-TI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 322069
+  },
+  {
+   "u": "ET-AM",
+   "v": "ET-BE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 436525
+  },
+  {
+   "u": "ET-AM",
+   "v": "ET-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 636264
+  },
+  {
+   "u": "ET-AM",
+   "v": "ET-TI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 541526
+  },
+  {
+   "u": "ET-BE",
+   "v": "ET-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 803838
+  },
+  {
+   "u": "ET-DD",
+   "v": "ET-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85527
+  },
+  {
+   "u": "ET-DD",
+   "v": "ET-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 93828
+  },
+  {
+   "u": "ET-GA",
+   "v": "ET-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 265785
+  },
+  {
+   "u": "ET-GA",
+   "v": "ET-SN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 190871
+  },
+  {
+   "u": "ET-HA",
+   "v": "ET-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81247
+  },
+  {
+   "u": "ET-OR",
+   "v": "ET-SN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1733328
+  },
+  {
+   "u": "ET-OR",
+   "v": "ET-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1332115
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ETH-ADM1-75662566",
+  "level": "ADM1",
+  "year": "2016",
+  "license": "Creative Commons Attribution 4.0 (CC BY 4.0)"
+ }
+}

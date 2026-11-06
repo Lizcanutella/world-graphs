@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="PW" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="PW-002"><data key="name">Aimeliik</data><data key="code">PW-002</data><data key="wikidata">Q405589</data><data key="lon">134.53058</data><data key="lat">7.43511</data></node>
+    <node id="PW-004"><data key="name">Airai</data><data key="code">PW-004</data><data key="wikidata">Q407967</data><data key="lon">134.55593</data><data key="lat">7.39461</data></node>
+    <node id="PW-010"><data key="name">Angaur</data><data key="code">PW-010</data><data key="wikidata">Q530813</data><data key="lon">134.15758</data><data key="lat">6.91413</data></node>
+    <node id="PW-050"><data key="name">Hatobohei</data><data key="code">PW-050</data><data key="wikidata">Q3516752</data><data key="lon">131.16173</data><data key="lat">3.04029</data></node>
+    <node id="PW-100"><data key="name">Kayangel</data><data key="code">PW-100</data><data key="wikidata">Q871222</data><data key="lon">134.7072</data><data key="lat">8.06817</data></node>
+    <node id="PW-150"><data key="name">Koror</data><data key="code">PW-150</data><data key="wikidata">Q189426</data><data key="lon">134.44393</data><data key="lat">7.2695</data></node>
+    <node id="PW-212"><data key="name">Melekeok</data><data key="code">PW-212</data><data key="wikidata">Q12898552</data><data key="lon">134.61327</data><data key="lat">7.51812</data></node>
+    <node id="PW-214"><data key="name">Ngaraard</data><data key="code">PW-214</data><data key="wikidata">Q1154127</data><data key="lon">134.64976</data><data key="lat">7.63396</data></node>
+    <node id="PW-218"><data key="name">Ngarchelong</data><data key="code">PW-218</data><data key="wikidata">Q1070185</data><data key="lon">134.64031</data><data key="lat">7.70808</data></node>
+    <node id="PW-222"><data key="name">Ngardmau</data><data key="code">PW-222</data><data key="wikidata">Q1144496</data><data key="lon">134.58829</data><data key="lat">7.59498</data></node>
+    <node id="PW-224"><data key="name">Ngatpang</data><data key="code">PW-224</data><data key="wikidata">Q430385</data><data key="lon">134.53508</data><data key="lat">7.47643</data></node>
+    <node id="PW-226"><data key="name">Ngchesar</data><data key="code">PW-226</data><data key="wikidata">Q1070180</data><data key="lon">134.59306</data><data key="lat">7.45769</data></node>
+    <node id="PW-227"><data key="name">Ngeremlengui</data><data key="code">PW-227</data><data key="wikidata">Q975076</data><data key="lon">134.5592</data><data key="lat">7.53126</data></node>
+    <node id="PW-228"><data key="name">Ngiwal</data><data key="code">PW-228</data><data key="wikidata">Q1154101</data><data key="lon">134.63259</data><data key="lat">7.56523</data></node>
+    <node id="PW-350"><data key="name">Peleliu</data><data key="code">PW-350</data><data key="wikidata">Q497981</data><data key="lon">134.26074</data><data key="lat">7.02704</data></node>
+    <node id="PW-370"><data key="name">Sonsorol</data><data key="code">PW-370</data><data key="wikidata">Q866699</data><data key="lon">132.22065</data><data key="lat">5.29829</data></node>
+    <edge source="PW-002" target="PW-004"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-002" target="PW-224"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-004" target="PW-226"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-212" target="PW-226"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-212" target="PW-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-212" target="PW-228"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-214" target="PW-218"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-214" target="PW-222"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-214" target="PW-228"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-222" target="PW-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-222" target="PW-228"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-224" target="PW-226"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-224" target="PW-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-226" target="PW-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PW-227" target="PW-228"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

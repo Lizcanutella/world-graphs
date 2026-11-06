@@ -1,0 +1,200 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "RW",
+ "kind": "country",
+ "name": "Rwanda",
+ "level": "provinces",
+ "n": 5,
+ "m": 8,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "RW-01",
+   "name": "Kigali City",
+   "wikidata": "Q3859",
+   "lon": 30.12963,
+   "lat": -1.92638
+  },
+  {
+   "code": "RW-02",
+   "name": "Eastern",
+   "wikidata": "Q853152",
+   "lon": 30.54416,
+   "lat": -1.74639
+  },
+  {
+   "code": "RW-03",
+   "name": "Northern",
+   "wikidata": "Q845807",
+   "lon": 29.91258,
+   "lat": -1.61377
+  },
+  {
+   "code": "RW-04",
+   "name": "Western",
+   "wikidata": "Q737354",
+   "lon": 29.44423,
+   "lat": -2.11308
+  },
+  {
+   "code": "RW-05",
+   "name": "Southern",
+   "wikidata": "Q853162",
+   "lon": 29.68589,
+   "lat": -2.27842
+  }
+ ],
+ "edges": [
+  {
+   "u": "RW-01",
+   "v": "RW-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55261
+  },
+  {
+   "u": "RW-01",
+   "v": "RW-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43034
+  },
+  {
+   "u": "RW-01",
+   "v": "RW-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22680
+  },
+  {
+   "u": "RW-02",
+   "v": "RW-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63538
+  },
+  {
+   "u": "RW-02",
+   "v": "RW-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29810
+  },
+  {
+   "u": "RW-03",
+   "v": "RW-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41820
+  },
+  {
+   "u": "RW-03",
+   "v": "RW-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44743
+  },
+  {
+   "u": "RW-04",
+   "v": "RW-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 145978
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "RWA-ADM1-91480417",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 4.0 (CC BY 4.0)"
+ }
+}

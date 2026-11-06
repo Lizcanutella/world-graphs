@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TO-01"><data key="name">Eua</data><data key="code">TO-01</data><data key="wikidata">Q4533167</data><data key="lon">-174.94438</data><data key="lat">-21.36635</data></node>
+    <node id="TO-02"><data key="name">Ha'apai</data><data key="code">TO-02</data><data key="wikidata"></data><data key="lon">-175.07001</data><data key="lat">-19.76601</data></node>
+    <node id="TO-03"><data key="name">Niuas</data><data key="code">TO-03</data><data key="wikidata">Q1200954</data><data key="lon">-175.65038</data><data key="lat">-15.59181</data></node>
+    <node id="TO-04"><data key="name">Tongatapu</data><data key="code">TO-04</data><data key="wikidata">Q10383165</data><data key="lon">-175.28329</data><data key="lat">-21.16607</data></node>
+    <node id="TO-05"><data key="name">Vava'u</data><data key="code">TO-05</data><data key="wikidata"></data><data key="lon">-174.04511</data><data key="lat">-18.63567</data></node>
+  </graph>
+</graphml>

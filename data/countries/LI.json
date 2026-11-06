@@ -1,0 +1,459 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "LI",
+ "kind": "country",
+ "name": "Liechtenstein",
+ "level": "commune",
+ "n": 11,
+ "m": 24,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "LI-01",
+   "name": "Balzers",
+   "wikidata": "Q49663",
+   "lon": 9.50184,
+   "lat": 47.07584
+  },
+  {
+   "code": "LI-02",
+   "name": "Eschen",
+   "wikidata": "Q4540",
+   "lon": 9.53287,
+   "lat": 47.20775
+  },
+  {
+   "code": "LI-03",
+   "name": "Gamprin",
+   "wikidata": "Q49662",
+   "lon": 9.49854,
+   "lat": 47.21236
+  },
+  {
+   "code": "LI-04",
+   "name": "Mauren",
+   "wikidata": "Q49661",
+   "lon": 9.53249,
+   "lat": 47.2228
+  },
+  {
+   "code": "LI-05",
+   "name": "Planken",
+   "wikidata": "Q49660",
+   "lon": 9.54526,
+   "lat": 47.1882
+  },
+  {
+   "code": "LI-06",
+   "name": "Ruggell",
+   "wikidata": "Q49659",
+   "lon": 9.51709,
+   "lat": 47.24423
+  },
+  {
+   "code": "LI-07",
+   "name": "Schaan",
+   "wikidata": "Q49657",
+   "lon": 9.51941,
+   "lat": 47.17234
+  },
+  {
+   "code": "LI-08",
+   "name": "Schellenberg",
+   "wikidata": "Q49655",
+   "lon": 9.53659,
+   "lat": 47.24055
+  },
+  {
+   "code": "LI-09",
+   "name": "Triesen",
+   "wikidata": "Q49654",
+   "lon": 9.53304,
+   "lat": 47.09186
+  },
+  {
+   "code": "LI-10",
+   "name": "Triesenberg",
+   "wikidata": "Q49651",
+   "lon": 9.55345,
+   "lat": 47.12434
+  },
+  {
+   "code": "LI-11",
+   "name": "Vaduz",
+   "wikidata": "Q1844",
+   "lon": 9.52238,
+   "lat": 47.14881
+  }
+ ],
+ "edges": [
+  {
+   "u": "LI-01",
+   "v": "LI-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1458
+  },
+  {
+   "u": "LI-01",
+   "v": "LI-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4886
+  },
+  {
+   "u": "LI-01",
+   "v": "LI-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9418
+  },
+  {
+   "u": "LI-01",
+   "v": "LI-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 552
+  },
+  {
+   "u": "LI-01",
+   "v": "LI-11",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "wikidata_p47"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "LI-02",
+   "v": "LI-03",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4267
+  },
+  {
+   "u": "LI-02",
+   "v": "LI-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3400
+  },
+  {
+   "u": "LI-02",
+   "v": "LI-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2881
+  },
+  {
+   "u": "LI-02",
+   "v": "LI-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 551
+  },
+  {
+   "u": "LI-02",
+   "v": "LI-07",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "wikidata_p47"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "LI-03",
+   "v": "LI-05",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "wikidata_p47"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "LI-03",
+   "v": "LI-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1278
+  },
+  {
+   "u": "LI-03",
+   "v": "LI-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3588
+  },
+  {
+   "u": "LI-04",
+   "v": "LI-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2110
+  },
+  {
+   "u": "LI-05",
+   "v": "LI-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3836
+  },
+  {
+   "u": "LI-05",
+   "v": "LI-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1828
+  },
+  {
+   "u": "LI-05",
+   "v": "LI-11",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "wikidata_p47"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "LI-06",
+   "v": "LI-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3166
+  },
+  {
+   "u": "LI-07",
+   "v": "LI-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2686
+  },
+  {
+   "u": "LI-07",
+   "v": "LI-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8087
+  },
+  {
+   "u": "LI-07",
+   "v": "LI-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9161
+  },
+  {
+   "u": "LI-09",
+   "v": "LI-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5821
+  },
+  {
+   "u": "LI-09",
+   "v": "LI-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2326
+  },
+  {
+   "u": "LI-10",
+   "v": "LI-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9416
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "LIE-ADM1-41692755",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

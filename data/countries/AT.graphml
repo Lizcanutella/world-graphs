@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AT-1"><data key="name">Burgenland</data><data key="code">AT-1</data><data key="wikidata">Q43210</data><data key="lon">16.46552</data><data key="lat">47.4783</data></node>
+    <node id="AT-2"><data key="name">Kärnten</data><data key="code">AT-2</data><data key="wikidata">Q37985</data><data key="lon">13.98346</data><data key="lat">46.75836</data></node>
+    <node id="AT-3"><data key="name">Niederösterreich</data><data key="code">AT-3</data><data key="wikidata">Q42497</data><data key="lon">15.57995</data><data key="lat">48.226</data></node>
+    <node id="AT-4"><data key="name">Oberösterreich</data><data key="code">AT-4</data><data key="wikidata">Q41967</data><data key="lon">13.6115</data><data key="lat">48.11929</data></node>
+    <node id="AT-5"><data key="name">Salzburg</data><data key="code">AT-5</data><data key="wikidata">Q43325</data><data key="lon">13.30078</data><data key="lat">47.49395</data></node>
+    <node id="AT-6"><data key="name">Steiermark</data><data key="code">AT-6</data><data key="wikidata">Q41358</data><data key="lon">14.96996</data><data key="lat">47.2174</data></node>
+    <node id="AT-7"><data key="name">Tirol</data><data key="code">AT-7</data><data key="wikidata">Q42880</data><data key="lon">11.1411</data><data key="lat">47.25166</data></node>
+    <node id="AT-8"><data key="name">Vorarlberg</data><data key="code">AT-8</data><data key="wikidata">Q38981</data><data key="lon">9.87419</data><data key="lat">47.21597</data></node>
+    <node id="AT-9"><data key="name">Wien</data><data key="code">AT-9</data><data key="wikidata">Q1741</data><data key="lon">16.36983</data><data key="lat">48.23459</data></node>
+    <edge source="AT-1" target="AT-3"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-1" target="AT-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-2" target="AT-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-2" target="AT-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-2" target="AT-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-3" target="AT-4"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-3" target="AT-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-3" target="AT-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-4" target="AT-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-4" target="AT-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-5" target="AT-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-5" target="AT-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AT-7" target="AT-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

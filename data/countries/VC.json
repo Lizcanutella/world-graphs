@@ -1,0 +1,168 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "VC",
+ "kind": "country",
+ "name": "Saint Vincent and the Grenadines",
+ "level": "parishes",
+ "n": 6,
+ "m": 7,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "VC-01",
+   "name": "Charlotte",
+   "wikidata": "Q2075188",
+   "lon": -61.14773,
+   "lat": 13.28289
+  },
+  {
+   "code": "VC-02",
+   "name": "Saint Andrew",
+   "wikidata": "Q2305115",
+   "lon": -61.22812,
+   "lat": 13.20226
+  },
+  {
+   "code": "VC-03",
+   "name": "Saint David",
+   "wikidata": "Q2412394",
+   "lon": -61.20183,
+   "lat": 13.31976
+  },
+  {
+   "code": "VC-04",
+   "name": "Saint George",
+   "wikidata": "Q2300294",
+   "lon": -61.18918,
+   "lat": 13.17183
+  },
+  {
+   "code": "VC-05",
+   "name": "Saint Patrick",
+   "wikidata": "Q1864637",
+   "lon": -61.25348,
+   "lat": 13.22497
+  },
+  {
+   "code": "VC-06",
+   "name": "Grenadines",
+   "wikidata": "Q2545297",
+   "lon": -61.23088,
+   "lat": 13.01378
+  }
+ ],
+ "edges": [
+  {
+   "u": "VC-01",
+   "v": "VC-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2875
+  },
+  {
+   "u": "VC-01",
+   "v": "VC-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16268
+  },
+  {
+   "u": "VC-01",
+   "v": "VC-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6849
+  },
+  {
+   "u": "VC-01",
+   "v": "VC-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2880
+  },
+  {
+   "u": "VC-02",
+   "v": "VC-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7716
+  },
+  {
+   "u": "VC-02",
+   "v": "VC-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10071
+  },
+  {
+   "u": "VC-03",
+   "v": "VC-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10303
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "VCT-ADM1-94954027",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

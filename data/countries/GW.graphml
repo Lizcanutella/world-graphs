@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GW" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GW-BA"><data key="name">Bafatá</data><data key="code">GW-BA</data><data key="wikidata">Q799791</data><data key="lon">-14.75004</data><data key="lat">12.13742</data></node>
+    <node id="GW-BL"><data key="name">Bolama</data><data key="code">GW-BL</data><data key="wikidata">Q151909</data><data key="lon">-16.33668</data><data key="lat">11.53329</data></node>
+    <node id="GW-BM"><data key="name">Biombo</data><data key="code">GW-BM</data><data key="wikidata">Q872228</data><data key="lon">-16.08487</data><data key="lat">11.83104</data></node>
+    <node id="GW-BS"><data key="name">Bissau</data><data key="code">GW-BS</data><data key="wikidata">Q3739</data><data key="lon">-15.61388</data><data key="lat">11.88705</data></node>
+    <node id="GW-CA"><data key="name">Cacheu</data><data key="code">GW-CA</data><data key="wikidata">Q780838</data><data key="lon">-15.99754</data><data key="lat">12.22</data></node>
+    <node id="GW-GA"><data key="name">Gabú</data><data key="code">GW-GA</data><data key="wikidata">Q872212</data><data key="lon">-14.18705</data><data key="lat">12.11851</data></node>
+    <node id="GW-OI"><data key="name">Oio</data><data key="code">GW-OI</data><data key="wikidata">Q853991</data><data key="lon">-15.33289</data><data key="lat">12.28633</data></node>
+    <node id="GW-QU"><data key="name">Quinara</data><data key="code">GW-QU</data><data key="wikidata">Q862617</data><data key="lon">-14.96543</data><data key="lat">11.63744</data></node>
+    <node id="GW-TO"><data key="name">Tombali</data><data key="code">GW-TO</data><data key="wikidata">Q1047255</data><data key="lon">-15.13036</data><data key="lat">11.30998</data></node>
+    <edge source="GW-BA" target="GW-GA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BA" target="GW-OI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BA" target="GW-QU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BA" target="GW-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BL" target="GW-QU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BM" target="GW-BS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BM" target="GW-CA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BM" target="GW-OI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-BS" target="GW-OI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GW-CA" target="GW-OI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-GA" target="GW-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GW-QU" target="GW-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

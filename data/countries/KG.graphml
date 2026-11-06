@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KG-B"><data key="name">Batken</data><data key="code">KG-B</data><data key="wikidata">Q487631</data><data key="lon">71.5924</data><data key="lat">39.85299</data></node>
+    <node id="KG-C"><data key="name">Chuy</data><data key="code">KG-C</data><data key="wikidata">Q486370</data><data key="lon">74.61161</data><data key="lat">42.56273</data></node>
+    <node id="KG-GB"><data key="name">Bishkek</data><data key="code">KG-GB</data><data key="wikidata">Q9361</data><data key="lon">74.58808</data><data key="lat">42.8544</data></node>
+    <node id="KG-J"><data key="name">Jalal-Abad</data><data key="code">KG-J</data><data key="wikidata">Q487640</data><data key="lon">73.2072</data><data key="lat">41.51013</data></node>
+    <node id="KG-N"><data key="name">Naryn</data><data key="code">KG-N</data><data key="wikidata">Q486375</data><data key="lon">76.02213</data><data key="lat">41.37452</data></node>
+    <node id="KG-O"><data key="name">Osh</data><data key="code">KG-O</data><data key="wikidata">Q231987</data><data key="lon">73.35174</data><data key="lat">40.16737</data></node>
+    <node id="KG-T"><data key="name">Talas</data><data key="code">KG-T</data><data key="wikidata">Q109838</data><data key="lon">72.12892</data><data key="lat">42.44437</data></node>
+    <node id="KG-Y"><data key="name">Ysyk-Köl</data><data key="code">KG-Y</data><data key="wikidata">Q487413</data><data key="lon">78.13886</data><data key="lat">42.04488</data></node>
+    <edge source="KG-B" target="KG-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-C" target="KG-GB"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KG-C" target="KG-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-C" target="KG-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-C" target="KG-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-C" target="KG-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-J" target="KG-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-J" target="KG-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-J" target="KG-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-N" target="KG-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KG-N" target="KG-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

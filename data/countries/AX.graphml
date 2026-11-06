@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AX" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AX-X02~"><data key="name">Jomala</data><data key="code">AX-X02~</data><data key="wikidata"></data><data key="lon">19.92124</data><data key="lat">60.13666</data></node>
+    <node id="AX-X04~"><data key="name">Eckerö</data><data key="code">AX-X04~</data><data key="wikidata"></data><data key="lon">19.63149</data><data key="lat">60.19522</data></node>
+    <node id="AX-X06~"><data key="name">Föglö</data><data key="code">AX-X06~</data><data key="wikidata"></data><data key="lon">20.35814</data><data key="lat">59.98859</data></node>
+    <node id="AX-X09~"><data key="name">Mariehamn</data><data key="code">AX-X09~</data><data key="wikidata"></data><data key="lon">19.94109</data><data key="lat">60.07701</data></node>
+    <node id="AX-X10~"><data key="name">Lemland</data><data key="code">AX-X10~</data><data key="wikidata"></data><data key="lon">20.14294</data><data key="lat">60.03208</data></node>
+    <node id="AX-X11~"><data key="name">Lumparland</data><data key="code">AX-X11~</data><data key="wikidata"></data><data key="lon">20.24296</data><data key="lat">60.10602</data></node>
+    <node id="AX-X12~"><data key="name">Vårdö</data><data key="code">AX-X12~</data><data key="wikidata"></data><data key="lon">20.4088</data><data key="lat">60.23534</data></node>
+    <node id="AX-X13~"><data key="name">Sottunga</data><data key="code">AX-X13~</data><data key="wikidata"></data><data key="lon">20.66337</data><data key="lat">60.12853</data></node>
+    <node id="AX-X14~"><data key="name">Kumlinge</data><data key="code">AX-X14~</data><data key="wikidata"></data><data key="lon">20.81731</data><data key="lat">60.25863</data></node>
+    <node id="AX-X15~"><data key="name">Brändö</data><data key="code">AX-X15~</data><data key="wikidata"></data><data key="lon">21.07823</data><data key="lat">60.46509</data></node>
+    <node id="AX-X16~"><data key="name">Kökar</data><data key="code">AX-X16~</data><data key="wikidata"></data><data key="lon">20.95127</data><data key="lat">59.93917</data></node>
+    <edge source="AX-X02~" target="AX-X09~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

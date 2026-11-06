@@ -1,0 +1,333 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GR",
+ "kind": "country",
+ "name": "Greece",
+ "level": "administrative region",
+ "n": 14,
+ "m": 13,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GR-69",
+   "name": "Ayion Oros",
+   "wikidata": "Q780149",
+   "lon": 24.21122,
+   "lat": 40.28217
+  },
+  {
+   "code": "GR-A",
+   "name": "Anatoliki Makedonia kai Thraki",
+   "wikidata": "Q171314",
+   "lon": 25.01751,
+   "lat": 41.2335
+  },
+  {
+   "code": "GR-A1",
+   "name": "Attiki",
+   "wikidata": "Q758056",
+   "lon": 23.80194,
+   "lat": 37.99641
+  },
+  {
+   "code": "GR-B",
+   "name": "Kentriki Makedonia",
+   "wikidata": "Q17152",
+   "lon": 22.78902,
+   "lat": 40.6558
+  },
+  {
+   "code": "GR-C",
+   "name": "Dytiki Makedonia",
+   "wikidata": "Q165408",
+   "lon": 21.42826,
+   "lat": 40.35842
+  },
+  {
+   "code": "GR-D",
+   "name": "Ipeiros",
+   "wikidata": "Q180484",
+   "lon": 20.65555,
+   "lat": 39.63879
+  },
+  {
+   "code": "GR-E",
+   "name": "Thessalia",
+   "wikidata": "Q166919",
+   "lon": 22.06092,
+   "lat": 39.56762
+  },
+  {
+   "code": "GR-F",
+   "name": "Ionioi Nisoi",
+   "wikidata": "Q1147674",
+   "lon": 20.78915,
+   "lat": 37.7812
+  },
+  {
+   "code": "GR-G",
+   "name": "Dytiki Ellada",
+   "wikidata": "Q170291",
+   "lon": 21.48149,
+   "lat": 37.85768
+  },
+  {
+   "code": "GR-H",
+   "name": "Stereá Elláda",
+   "wikidata": "Q199580",
+   "lon": 22.53106,
+   "lat": 38.68433
+  },
+  {
+   "code": "GR-J",
+   "name": "Peloponnisos",
+   "wikidata": "Q202484",
+   "lon": 22.26333,
+   "lat": 37.2789
+  },
+  {
+   "code": "GR-K",
+   "name": "Voreio Aigaio",
+   "wikidata": "Q173620",
+   "lon": 26.81395,
+   "lat": 37.72816
+  },
+  {
+   "code": "GR-L",
+   "name": "Notio Aigaio",
+   "wikidata": "Q173616",
+   "lon": 27.90578,
+   "lat": 36.17117
+  },
+  {
+   "code": "GR-M",
+   "name": "Kriti",
+   "wikidata": "Q1267522",
+   "lon": 24.46711,
+   "lat": 35.30919
+  }
+ ],
+ "edges": [
+  {
+   "u": "GR-69",
+   "v": "GR-B",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7582
+  },
+  {
+   "u": "GR-A",
+   "v": "GR-B",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 105512
+  },
+  {
+   "u": "GR-A1",
+   "v": "GR-H",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88487,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "GR-A1",
+   "v": "GR-J",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56614,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "GR-B",
+   "v": "GR-C",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 126547
+  },
+  {
+   "u": "GR-B",
+   "v": "GR-E",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81874
+  },
+  {
+   "u": "GR-C",
+   "v": "GR-D",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99174,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Epirus_(region)"
+    }
+   ]
+  },
+  {
+   "u": "GR-C",
+   "v": "GR-E",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101513
+  },
+  {
+   "u": "GR-D",
+   "v": "GR-E",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 102769
+  },
+  {
+   "u": "GR-D",
+   "v": "GR-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32194
+  },
+  {
+   "u": "GR-E",
+   "v": "GR-H",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 198715
+  },
+  {
+   "u": "GR-G",
+   "v": "GR-H",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 163783
+  },
+  {
+   "u": "GR-G",
+   "v": "GR-J",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 175881
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GRC-ADM2-26713481",
+  "level": "ADM2",
+  "year": "2016",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

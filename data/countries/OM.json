@@ -1,0 +1,322 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "OM",
+ "kind": "country",
+ "name": "Oman",
+ "level": "governorates",
+ "n": 11,
+ "m": 17,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "OM-BA",
+   "name": "Al Batnah North",
+   "wikidata": "Q4703564",
+   "lon": 56.56918,
+   "lat": 24.23975
+  },
+  {
+   "code": "OM-BJ",
+   "name": "Al Batnah South",
+   "wikidata": "Q4703565",
+   "lon": 57.664,
+   "lat": 23.52247
+  },
+  {
+   "code": "OM-BU",
+   "name": "Al Buraymi",
+   "wikidata": "Q852039",
+   "lon": 56.02782,
+   "lat": 24.25422
+  },
+  {
+   "code": "OM-DA",
+   "name": "Ad Dakhliyah",
+   "wikidata": "Q792550",
+   "lon": 57.22371,
+   "lat": 22.38843
+  },
+  {
+   "code": "OM-MA",
+   "name": "Muscat",
+   "wikidata": "Q544762",
+   "lon": 58.77212,
+   "lat": 23.25443
+  },
+  {
+   "code": "OM-MU",
+   "name": "Musandam",
+   "wikidata": "Q372144",
+   "lon": 56.29918,
+   "lat": 26.00043
+  },
+  {
+   "code": "OM-SH",
+   "name": "Ash Sharqiyah South",
+   "wikidata": "Q1106416",
+   "lon": 58.76578,
+   "lat": 21.55528
+  },
+  {
+   "code": "OM-SS",
+   "name": "Ash Sharqiyah North",
+   "wikidata": "Q4501876",
+   "lon": 58.65897,
+   "lat": 22.3967
+  },
+  {
+   "code": "OM-WU",
+   "name": "Al Wusta",
+   "wikidata": "Q958518",
+   "lon": 56.90673,
+   "lat": 20.47626
+  },
+  {
+   "code": "OM-ZA",
+   "name": "Al Dhahira",
+   "wikidata": "Q1468596",
+   "lon": 55.97575,
+   "lat": 23.01028
+  },
+  {
+   "code": "OM-ZU",
+   "name": "Dhofar",
+   "wikidata": "Q1207752",
+   "lon": 54.52775,
+   "lat": 18.848
+  }
+ ],
+ "edges": [
+  {
+   "u": "OM-BA",
+   "v": "OM-BJ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54461
+  },
+  {
+   "u": "OM-BA",
+   "v": "OM-BU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 71364,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "OM-BA",
+   "v": "OM-DA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29553
+  },
+  {
+   "u": "OM-BA",
+   "v": "OM-ZA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 97677
+  },
+  {
+   "u": "OM-BJ",
+   "v": "OM-DA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 122503
+  },
+  {
+   "u": "OM-BJ",
+   "v": "OM-MA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28988
+  },
+  {
+   "u": "OM-BU",
+   "v": "OM-ZA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 134332
+  },
+  {
+   "u": "OM-DA",
+   "v": "OM-MA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 84948
+  },
+  {
+   "u": "OM-DA",
+   "v": "OM-SH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 71450
+  },
+  {
+   "u": "OM-DA",
+   "v": "OM-SS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 189564
+  },
+  {
+   "u": "OM-DA",
+   "v": "OM-WU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 227524
+  },
+  {
+   "u": "OM-DA",
+   "v": "OM-ZA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 175205
+  },
+  {
+   "u": "OM-MA",
+   "v": "OM-SS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 85307
+  },
+  {
+   "u": "OM-SH",
+   "v": "OM-SS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 195214
+  },
+  {
+   "u": "OM-SH",
+   "v": "OM-WU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62846
+  },
+  {
+   "u": "OM-WU",
+   "v": "OM-ZA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 76741
+  },
+  {
+   "u": "OM-WU",
+   "v": "OM-ZU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 344212
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "OMN-ADM2-60546857",
+  "level": "ADM2",
+  "year": "2020",
+  "license": "Other - Direct Permission"
+ }
+}

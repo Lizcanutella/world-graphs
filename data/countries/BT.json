@@ -1,0 +1,814 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BT",
+ "kind": "country",
+ "name": "Bhutan",
+ "level": "districts",
+ "n": 20,
+ "m": 42,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BT-11",
+   "name": "Paro",
+   "wikidata": "Q652784",
+   "lon": 89.36255,
+   "lat": 27.46683
+  },
+  {
+   "code": "BT-12",
+   "name": "Chhukha",
+   "wikidata": "Q652754",
+   "lon": 89.54843,
+   "lat": 27.01041
+  },
+  {
+   "code": "BT-13",
+   "name": "Ha",
+   "wikidata": "Q754448",
+   "lon": 89.16889,
+   "lat": 27.34275
+  },
+  {
+   "code": "BT-14",
+   "name": "Samchi",
+   "wikidata": "Q728917",
+   "lon": 89.08095,
+   "lat": 27.04609
+  },
+  {
+   "code": "BT-15",
+   "name": "Thimphu",
+   "wikidata": "Q254889",
+   "lon": 89.5724,
+   "lat": 27.56267
+  },
+  {
+   "code": "BT-21",
+   "name": "Chirang",
+   "wikidata": "Q728922",
+   "lon": 90.14764,
+   "lat": 26.99375
+  },
+  {
+   "code": "BT-22",
+   "name": "Daga",
+   "wikidata": "Q735146",
+   "lon": 89.87334,
+   "lat": 27.03738
+  },
+  {
+   "code": "BT-23",
+   "name": "Punakha",
+   "wikidata": "Q587062",
+   "lon": 89.79577,
+   "lat": 27.68799
+  },
+  {
+   "code": "BT-24",
+   "name": "Wangdi Phodrang",
+   "wikidata": "Q728933",
+   "lon": 90.13275,
+   "lat": 27.58414
+  },
+  {
+   "code": "BT-31",
+   "name": "Geylegphug",
+   "wikidata": "Q728947",
+   "lon": 90.44235,
+   "lat": 26.95073
+  },
+  {
+   "code": "BT-32",
+   "name": "Tongsa",
+   "wikidata": "Q728938",
+   "lon": 90.40405,
+   "lat": 27.45907
+  },
+  {
+   "code": "BT-33",
+   "name": "Bumthang",
+   "wikidata": "Q463242",
+   "lon": 90.72696,
+   "lat": 27.69937
+  },
+  {
+   "code": "BT-34",
+   "name": "Shemgang",
+   "wikidata": "Q197564",
+   "lon": 90.78859,
+   "lat": 27.0768
+  },
+  {
+   "code": "BT-41",
+   "name": "Tashigang",
+   "wikidata": "Q652773",
+   "lon": 91.65255,
+   "lat": 27.24079
+  },
+  {
+   "code": "BT-42",
+   "name": "Mongar",
+   "wikidata": "Q389734",
+   "lon": 91.19437,
+   "lat": 27.25587
+  },
+  {
+   "code": "BT-43",
+   "name": "Pemagatsel",
+   "wikidata": "Q167279",
+   "lon": 91.33253,
+   "lat": 27.0026
+  },
+  {
+   "code": "BT-44",
+   "name": "Lhuntshi",
+   "wikidata": "Q598793",
+   "lon": 91.09172,
+   "lat": 27.73736
+  },
+  {
+   "code": "BT-45",
+   "name": "Samdrup Jongkhar",
+   "wikidata": "Q728929",
+   "lon": 91.75894,
+   "lat": 27.00843
+  },
+  {
+   "code": "BT-GA",
+   "name": "Gasa",
+   "wikidata": "Q578294",
+   "lon": 89.93022,
+   "lat": 28.04207
+  },
+  {
+   "code": "BT-TY",
+   "name": "Tashi Yangtse",
+   "wikidata": "Q600200",
+   "lon": 91.4558,
+   "lat": 27.69122
+  }
+ ],
+ "edges": [
+  {
+   "u": "BT-11",
+   "v": "BT-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31644
+  },
+  {
+   "u": "BT-11",
+   "v": "BT-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58390
+  },
+  {
+   "u": "BT-11",
+   "v": "BT-15",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 79395
+  },
+  {
+   "u": "BT-12",
+   "v": "BT-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11326
+  },
+  {
+   "u": "BT-12",
+   "v": "BT-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45086
+  },
+  {
+   "u": "BT-12",
+   "v": "BT-15",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33221
+  },
+  {
+   "u": "BT-12",
+   "v": "BT-22",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48749
+  },
+  {
+   "u": "BT-12",
+   "v": "BT-31",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12318
+  },
+  {
+   "u": "BT-13",
+   "v": "BT-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64742
+  },
+  {
+   "u": "BT-15",
+   "v": "BT-22",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17412
+  },
+  {
+   "u": "BT-15",
+   "v": "BT-23",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38060,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Punakha_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Punakha_District"
+    }
+   ]
+  },
+  {
+   "u": "BT-15",
+   "v": "BT-24",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 37162
+  },
+  {
+   "u": "BT-15",
+   "v": "BT-GA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 55165
+  },
+  {
+   "u": "BT-21",
+   "v": "BT-22",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30001
+  },
+  {
+   "u": "BT-21",
+   "v": "BT-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35666
+  },
+  {
+   "u": "BT-21",
+   "v": "BT-31",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61609
+  },
+  {
+   "u": "BT-22",
+   "v": "BT-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42589
+  },
+  {
+   "u": "BT-22",
+   "v": "BT-31",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38749
+  },
+  {
+   "u": "BT-23",
+   "v": "BT-24",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 51689
+  },
+  {
+   "u": "BT-23",
+   "v": "BT-GA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 48501
+  },
+  {
+   "u": "BT-24",
+   "v": "BT-32",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92018,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wangdue_Phodrang_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Wangdue_Phodrang_District"
+    }
+   ]
+  },
+  {
+   "u": "BT-24",
+   "v": "BT-33",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39043,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wangdue_Phodrang_District"
+    }
+   ]
+  },
+  {
+   "u": "BT-24",
+   "v": "BT-GA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77468,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wangdue_Phodrang_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Gasa_District"
+    }
+   ]
+  },
+  {
+   "u": "BT-31",
+   "v": "BT-32",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20609
+  },
+  {
+   "u": "BT-31",
+   "v": "BT-34",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71526
+  },
+  {
+   "u": "BT-32",
+   "v": "BT-33",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60963,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Trongsa_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Trongsa_District"
+    }
+   ]
+  },
+  {
+   "u": "BT-32",
+   "v": "BT-34",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43034
+  },
+  {
+   "u": "BT-33",
+   "v": "BT-34",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26675
+  },
+  {
+   "u": "BT-33",
+   "v": "BT-42",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4548
+  },
+  {
+   "u": "BT-33",
+   "v": "BT-44",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88697
+  },
+  {
+   "u": "BT-34",
+   "v": "BT-42",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61232
+  },
+  {
+   "u": "BT-34",
+   "v": "BT-43",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_quadripoint"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "BT-34",
+   "v": "BT-45",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30161
+  },
+  {
+   "u": "BT-41",
+   "v": "BT-42",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35118
+  },
+  {
+   "u": "BT-41",
+   "v": "BT-43",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27061
+  },
+  {
+   "u": "BT-41",
+   "v": "BT-45",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69377
+  },
+  {
+   "u": "BT-41",
+   "v": "BT-TY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37005
+  },
+  {
+   "u": "BT-42",
+   "v": "BT-43",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32911
+  },
+  {
+   "u": "BT-42",
+   "v": "BT-44",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53162
+  },
+  {
+   "u": "BT-42",
+   "v": "BT-TY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23310
+  },
+  {
+   "u": "BT-43",
+   "v": "BT-45",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52272
+  },
+  {
+   "u": "BT-44",
+   "v": "BT-TY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52884
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BTN-ADM1-66845921",
+  "level": "ADM1",
+  "year": "2010",
+  "license": "Creative Commons Attribution 3.0 License"
+ }
+}

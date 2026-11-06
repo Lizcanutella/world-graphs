@@ -1,0 +1,385 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "DM",
+ "kind": "country",
+ "name": "Dominica",
+ "level": "parishes",
+ "n": 10,
+ "m": 17,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "DM-02",
+   "name": "Saint Andrew",
+   "wikidata": "Q732322",
+   "lon": -61.3539,
+   "lat": 15.53983
+  },
+  {
+   "code": "DM-03",
+   "name": "Saint David",
+   "wikidata": "Q1431129",
+   "lon": -61.29336,
+   "lat": 15.42192
+  },
+  {
+   "code": "DM-04",
+   "name": "Saint George",
+   "wikidata": "Q617801",
+   "lon": -61.35121,
+   "lat": 15.30229
+  },
+  {
+   "code": "DM-05",
+   "name": "Saint John",
+   "wikidata": "Q1476285",
+   "lon": -61.441,
+   "lat": 15.57032
+  },
+  {
+   "code": "DM-06",
+   "name": "Saint Joseph",
+   "wikidata": "Q1476302",
+   "lon": -61.38254,
+   "lat": 15.44085
+  },
+  {
+   "code": "DM-07",
+   "name": "Saint Luke",
+   "wikidata": "Q1431099",
+   "lon": -61.36456,
+   "lat": 15.2488
+  },
+  {
+   "code": "DM-08",
+   "name": "Saint Mark",
+   "wikidata": "Q1431115",
+   "lon": -61.3623,
+   "lat": 15.22438
+  },
+  {
+   "code": "DM-09",
+   "name": "Saint Patrick",
+   "wikidata": "Q1431108",
+   "lon": -61.30937,
+   "lat": 15.26407
+  },
+  {
+   "code": "DM-10",
+   "name": "Saint Paul",
+   "wikidata": "Q339063",
+   "lon": -61.36708,
+   "lat": 15.36585
+  },
+  {
+   "code": "DM-11",
+   "name": "Saint Peter",
+   "wikidata": "Q1476294",
+   "lon": -61.44059,
+   "lat": 15.49873
+  }
+ ],
+ "edges": [
+  {
+   "u": "DM-02",
+   "v": "DM-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9929
+  },
+  {
+   "u": "DM-02",
+   "v": "DM-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16120
+  },
+  {
+   "u": "DM-02",
+   "v": "DM-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11982
+  },
+  {
+   "u": "DM-02",
+   "v": "DM-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 971
+  },
+  {
+   "u": "DM-03",
+   "v": "DM-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4354
+  },
+  {
+   "u": "DM-03",
+   "v": "DM-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4788
+  },
+  {
+   "u": "DM-03",
+   "v": "DM-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6227
+  },
+  {
+   "u": "DM-03",
+   "v": "DM-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6724
+  },
+  {
+   "u": "DM-04",
+   "v": "DM-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1922
+  },
+  {
+   "u": "DM-04",
+   "v": "DM-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9453
+  },
+  {
+   "u": "DM-04",
+   "v": "DM-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8501
+  },
+  {
+   "u": "DM-05",
+   "v": "DM-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9246
+  },
+  {
+   "u": "DM-06",
+   "v": "DM-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9238
+  },
+  {
+   "u": "DM-06",
+   "v": "DM-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6434
+  },
+  {
+   "u": "DM-07",
+   "v": "DM-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2184
+  },
+  {
+   "u": "DM-07",
+   "v": "DM-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1111
+  },
+  {
+   "u": "DM-08",
+   "v": "DM-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3689
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "DMA-ADM1-96108325",
+  "level": "ADM1",
+  "year": "2005",
+  "license": "Creative Commons Attribution 2.5 Generic"
+ }
+}

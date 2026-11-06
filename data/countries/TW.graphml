@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TW" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TW-CHA"><data key="name">Changhua</data><data key="code">TW-CHA</data><data key="wikidata">Q133865</data><data key="lon">120.4866</data><data key="lat">23.9851</data></node>
+    <node id="TW-CYI"><data key="name">Chiayi City</data><data key="code">TW-CYI</data><data key="wikidata">Q249995</data><data key="lon">120.43884</data><data key="lat">23.48182</data></node>
+    <node id="TW-CYQ"><data key="name">Chiayi</data><data key="code">TW-CYQ</data><data key="wikidata">Q166977</data><data key="lon">120.50842</data><data key="lat">23.4326</data></node>
+    <node id="TW-HSQ"><data key="name">Hsinchu</data><data key="code">TW-HSQ</data><data key="wikidata">Q74054</data><data key="lon">121.13438</data><data key="lat">24.68557</data></node>
+    <node id="TW-HSZ"><data key="name">Hsinchu City</data><data key="code">TW-HSZ</data><data key="wikidata">Q249994</data><data key="lon">120.96601</data><data key="lat">24.78231</data></node>
+    <node id="TW-HUA"><data key="name">Hualien</data><data key="code">TW-HUA</data><data key="wikidata">Q249868</data><data key="lon">121.3936</data><data key="lat">23.73377</data></node>
+    <node id="TW-ILA"><data key="name">Yilan</data><data key="code">TW-ILA</data><data key="wikidata">Q237258</data><data key="lon">121.63436</data><data key="lat">24.65449</data></node>
+    <node id="TW-KEE"><data key="name">Keelung City</data><data key="code">TW-KEE</data><data key="wikidata">Q249996</data><data key="lon">121.70492</data><data key="lat">25.11247</data></node>
+    <node id="TW-KHH"><data key="name">Kaohsiung City</data><data key="code">TW-KHH</data><data key="wikidata">Q181557</data><data key="lon">120.65137</data><data key="lat">22.9878</data></node>
+    <node id="TW-KIN"><data key="name">Kinmen</data><data key="code">TW-KIN</data><data key="wikidata">Q249870</data><data key="lon">118.37755</data><data key="lat">24.45873</data></node>
+    <node id="TW-MIA"><data key="name">Miaoli</data><data key="code">TW-MIA</data><data key="wikidata">Q63706</data><data key="lon">120.86596</data><data key="lat">24.51884</data></node>
+    <node id="TW-NAN"><data key="name">Nantou</data><data key="code">TW-NAN</data><data key="wikidata">Q82357</data><data key="lon">120.93951</data><data key="lat">23.83684</data></node>
+    <node id="TW-PEN"><data key="name">Penghu</data><data key="code">TW-PEN</data><data key="wikidata">Q198525</data><data key="lon">119.60165</data><data key="lat">23.56302</data></node>
+    <node id="TW-PIF"><data key="name">Pingtung</data><data key="code">TW-PIF</data><data key="wikidata">Q194989</data><data key="lon">120.65334</data><data key="lat">22.39006</data></node>
+    <node id="TW-TAO"><data key="name">Taoyuan</data><data key="code">TW-TAO</data><data key="wikidata">Q115256</data><data key="lon">121.25466</data><data key="lat">24.86306</data></node>
+    <node id="TW-TNN"><data key="name">Tainan City</data><data key="code">TW-TNN</data><data key="wikidata">Q140631</data><data key="lon">120.33529</data><data key="lat">23.15883</data></node>
+    <node id="TW-TPE"><data key="name">Taipei City</data><data key="code">TW-TPE</data><data key="wikidata">Q1867</data><data key="lon">121.5582</data><data key="lat">25.0932</data></node>
+    <node id="TW-TPQ"><data key="name">New Taipei City</data><data key="code">TW-TPQ</data><data key="wikidata">Q244898</data><data key="lon">121.76682</data><data key="lat">24.98171</data></node>
+    <node id="TW-TTT"><data key="name">Taitung</data><data key="code">TW-TTT</data><data key="wikidata">Q249904</data><data key="lon">121.0268</data><data key="lat">22.83916</data></node>
+    <node id="TW-TXG"><data key="name">Taichung City</data><data key="code">TW-TXG</data><data key="wikidata">Q245023</data><data key="lon">120.86268</data><data key="lat">24.23307</data></node>
+    <node id="TW-YUN"><data key="name">Yunlin</data><data key="code">TW-YUN</data><data key="wikidata">Q153221</data><data key="lon">120.40115</data><data key="lat">23.67691</data></node>
+    <edge source="TW-CHA" target="TW-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-CHA" target="TW-TXG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-CHA" target="TW-YUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-CYI" target="TW-CYQ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-CYQ" target="TW-KHH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-CYQ" target="TW-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-CYQ" target="TW-TNN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-CYQ" target="TW-YUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HSQ" target="TW-HSZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HSQ" target="TW-ILA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HSQ" target="TW-MIA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HSQ" target="TW-TAO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HSQ" target="TW-TXG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HSZ" target="TW-MIA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HUA" target="TW-ILA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HUA" target="TW-KHH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HUA" target="TW-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HUA" target="TW-TTT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-HUA" target="TW-TXG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-ILA" target="TW-TAO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-ILA" target="TW-TPQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-ILA" target="TW-TXG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-KEE" target="TW-TPQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-KHH" target="TW-NAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-KHH" target="TW-PIF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-KHH" target="TW-TNN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-KHH" target="TW-TTT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-MIA" target="TW-TXG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-NAN" target="TW-TXG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-NAN" target="TW-YUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-PIF" target="TW-TTT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-TAO" target="TW-TPQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TW-TPE" target="TW-TPQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

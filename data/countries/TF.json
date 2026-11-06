@@ -1,0 +1,43 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TF",
+ "kind": "country",
+ "name": "French Southern Territories",
+ "level": null,
+ "n": 4,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TF-X01~",
+   "name": "Archipel des Kerguelen",
+   "wikidata": null,
+   "lon": 70.22451,
+   "lat": -49.18816
+  },
+  {
+   "code": "TF-X02~",
+   "name": "Archipel des Crozet",
+   "wikidata": null,
+   "lon": 51.75472,
+   "lat": -46.38665
+  },
+  {
+   "code": "TF-X03~",
+   "name": "Iles Eparses de l'ocean Indien",
+   "wikidata": null,
+   "lon": 40.34386,
+   "lat": -22.34222
+  },
+  {
+   "code": "TF-X1~",
+   "name": "Iles Saint-Paul et Nouvelle-Amsterdam",
+   "wikidata": null,
+   "lon": 77.53759,
+   "lat": -37.86293
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": null
+}

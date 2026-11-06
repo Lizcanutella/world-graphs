@@ -1,0 +1,29 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PM",
+ "kind": "country",
+ "name": "Saint Pierre and Miquelon",
+ "level": "commune",
+ "n": 2,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PM-X01~",
+   "name": "Saint-Pierre",
+   "wikidata": "Q34617",
+   "lon": -56.19375,
+   "lat": 46.78162
+  },
+  {
+   "code": "PM-X02~",
+   "name": "Miquelon-Langlade",
+   "wikidata": null,
+   "lon": -56.32496,
+   "lat": 46.96257
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": null
+}

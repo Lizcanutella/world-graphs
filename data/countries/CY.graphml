@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CY" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CY-01"><data key="name">Nicosia</data><data key="code">CY-01</data><data key="wikidata">Q59147</data><data key="lon">33.04573</data><data key="lat">35.04161</data></node>
+    <node id="CY-02"><data key="name">Limassol</data><data key="code">CY-02</data><data key="wikidata">Q59150</data><data key="lon">32.98431</data><data key="lat">34.79525</data></node>
+    <node id="CY-03"><data key="name">Larnaca</data><data key="code">CY-03</data><data key="wikidata">Q59153</data><data key="lon">33.44617</data><data key="lat">34.89043</data></node>
+    <node id="CY-04"><data key="name">Famagusta</data><data key="code">CY-04</data><data key="wikidata">Q59148</data><data key="lon">33.94427</data><data key="lat">35.01436</data></node>
+    <node id="CY-05"><data key="name">Paphos</data><data key="code">CY-05</data><data key="wikidata">Q59133</data><data key="lon">32.49331</data><data key="lat">34.91796</data></node>
+    <edge source="CY-01" target="CY-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CY-01" target="CY-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CY-01" target="CY-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CY-02" target="CY-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CY-02" target="CY-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CY-03" target="CY-04"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

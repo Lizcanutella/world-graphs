@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="PG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="PG-CPK"><data key="name">Chimbu</data><data key="code">PG-CPK</data><data key="wikidata">Q599448</data><data key="lon">144.94036</data><data key="lat">-6.32357</data></node>
+    <node id="PG-CPM"><data key="name">Central</data><data key="code">PG-CPM</data><data key="wikidata">Q874942</data><data key="lon">147.33746</data><data key="lat">-9.06668</data></node>
+    <node id="PG-EBR"><data key="name">East New Britain</data><data key="code">PG-EBR</data><data key="wikidata">Q753702</data><data key="lon">151.64295</data><data key="lat">-5.13592</data></node>
+    <node id="PG-EHG"><data key="name">Eastern Highlands</data><data key="code">PG-EHG</data><data key="wikidata">Q849812</data><data key="lon">145.56429</data><data key="lat">-6.54875</data></node>
+    <node id="PG-EPW"><data key="name">Enga</data><data key="code">PG-EPW</data><data key="wikidata">Q862584</data><data key="lon">143.42517</data><data key="lat">-5.47476</data></node>
+    <node id="PG-ESW"><data key="name">East Sepik</data><data key="code">PG-ESW</data><data key="wikidata">Q690880</data><data key="lon">143.03007</data><data key="lat">-4.1768</data></node>
+    <node id="PG-GPK"><data key="name">Gulf</data><data key="code">PG-GPK</data><data key="wikidata">Q874980</data><data key="lon">145.6618</data><data key="lat">-7.65753</data></node>
+    <node id="PG-MBA"><data key="name">Milne Bay</data><data key="code">PG-MBA</data><data key="wikidata">Q874962</data><data key="lon">149.96874</data><data key="lat">-10.14653</data></node>
+    <node id="PG-MPL"><data key="name">Morobe</data><data key="code">PG-MPL</data><data key="wikidata">Q853664</data><data key="lon">146.4666</data><data key="lat">-6.91977</data></node>
+    <node id="PG-MPM"><data key="name">Madang</data><data key="code">PG-MPM</data><data key="wikidata">Q326254</data><data key="lon">144.88031</data><data key="lat">-4.99037</data></node>
+    <node id="PG-MRL"><data key="name">Manus</data><data key="code">PG-MRL</data><data key="wikidata">Q874935</data><data key="lon">146.94975</data><data key="lat">-2.08847</data></node>
+    <node id="PG-NCD"><data key="name">National Capital District</data><data key="code">PG-NCD</data><data key="wikidata">Q36526</data><data key="lon">147.21147</data><data key="lat">-9.46213</data></node>
+    <node id="PG-NIK"><data key="name">New Ireland</data><data key="code">PG-NIK</data><data key="wikidata">Q838690</data><data key="lon">150.25435</data><data key="lat">-2.52439</data></node>
+    <node id="PG-NPP"><data key="name">Northern</data><data key="code">PG-NPP</data><data key="wikidata">Q753686</data><data key="lon">148.07452</data><data key="lat">-8.97759</data></node>
+    <node id="PG-NSB"><data key="name">North Solomons</data><data key="code">PG-NSB</data><data key="wikidata">Q18826</data><data key="lon">155.21853</data><data key="lat">-6.15435</data></node>
+    <node id="PG-SAN"><data key="name">Sandaun</data><data key="code">PG-SAN</data><data key="wikidata">Q753689</data><data key="lon">141.75663</data><data key="lat">-3.99802</data></node>
+    <node id="PG-SHM"><data key="name">Southern Highlands</data><data key="code">PG-SHM</data><data key="wikidata">Q849801</data><data key="lon">142.98388</data><data key="lat">-5.89222</data></node>
+    <node id="PG-WBK"><data key="name">West New Britain</data><data key="code">PG-WBK</data><data key="wikidata">Q667468</data><data key="lon">149.65532</data><data key="lat">-5.61557</data></node>
+    <node id="PG-WHM"><data key="name">Western Highlands</data><data key="code">PG-WHM</data><data key="wikidata">Q849807</data><data key="lon">144.33562</data><data key="lat">-5.82019</data></node>
+    <node id="PG-WPD"><data key="name">Western</data><data key="code">PG-WPD</data><data key="wikidata">Q849790</data><data key="lon">142.07926</data><data key="lat">-7.21992</data></node>
+    <edge source="PG-CPK" target="PG-EHG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPK" target="PG-GPK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPK" target="PG-MPM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPK" target="PG-SHM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPK" target="PG-WHM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPM" target="PG-GPK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPM" target="PG-MBA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPM" target="PG-MPL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPM" target="PG-NCD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-CPM" target="PG-NPP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EBR" target="PG-WBK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EHG" target="PG-GPK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EHG" target="PG-MPL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EHG" target="PG-MPM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EPW" target="PG-ESW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EPW" target="PG-MPM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EPW" target="PG-SHM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-EPW" target="PG-WHM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-ESW" target="PG-MPM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-ESW" target="PG-SAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-ESW" target="PG-SHM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-GPK" target="PG-MPL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-GPK" target="PG-SHM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-GPK" target="PG-WPD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-MBA" target="PG-NPP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-MPL" target="PG-MPM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-MPL" target="PG-NPP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-MPM" target="PG-WHM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-SAN" target="PG-SHM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-SAN" target="PG-WPD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-SHM" target="PG-WHM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PG-SHM" target="PG-WPD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

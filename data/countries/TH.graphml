@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TH" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TH-10"><data key="name">Bangkok Metropolis</data><data key="code">TH-10</data><data key="wikidata">Q1861</data><data key="lon">100.5969</data><data key="lat">13.7243</data></node>
+    <node id="TH-11"><data key="name">Samut Prakan</data><data key="code">TH-11</data><data key="wikidata">Q271529</data><data key="lon">100.75918</data><data key="lat">13.59626</data></node>
+    <node id="TH-12"><data key="name">Nonthaburi</data><data key="code">TH-12</data><data key="wikidata">Q242932</data><data key="lon">100.37892</data><data key="lat">13.96525</data></node>
+    <node id="TH-13"><data key="name">Pathum Thani</data><data key="code">TH-13</data><data key="wikidata">Q459748</data><data key="lon">100.62787</data><data key="lat">14.0888</data></node>
+    <node id="TH-14"><data key="name">Phra Nakhon Si Ayutthaya</data><data key="code">TH-14</data><data key="wikidata">Q476222</data><data key="lon">100.52979</data><data key="lat">14.39647</data></node>
+    <node id="TH-15"><data key="name">Ang Thong</data><data key="code">TH-15</data><data key="wikidata">Q243795</data><data key="lon">100.3607</data><data key="lat">14.62199</data></node>
+    <node id="TH-16"><data key="name">Lop Buri</data><data key="code">TH-16</data><data key="wikidata">Q336122</data><data key="lon">100.88961</data><data key="lat">15.07546</data></node>
+    <node id="TH-17"><data key="name">Sing Buri</data><data key="code">TH-17</data><data key="wikidata">Q334836</data><data key="lon">100.32847</data><data key="lat">14.94628</data></node>
+    <node id="TH-18"><data key="name">Chai Nat</data><data key="code">TH-18</data><data key="wikidata">Q459759</data><data key="lon">100.02881</data><data key="lat">15.16587</data></node>
+    <node id="TH-19"><data key="name">Saraburi</data><data key="code">TH-19</data><data key="wikidata">Q337627</data><data key="lon">100.98005</data><data key="lat">14.54882</data></node>
+    <node id="TH-20"><data key="name">Chon Buri</data><data key="code">TH-20</data><data key="wikidata">Q207068</data><data key="lon">101.22807</data><data key="lat">13.09266</data></node>
+    <node id="TH-21"><data key="name">Rayong</data><data key="code">TH-21</data><data key="wikidata">Q335221</data><data key="lon">101.44386</data><data key="lat">12.87326</data></node>
+    <node id="TH-22"><data key="name">Chanthaburi</data><data key="code">TH-22</data><data key="wikidata">Q327730</data><data key="lon">102.15983</data><data key="lat">12.81995</data></node>
+    <node id="TH-23"><data key="name">Trat</data><data key="code">TH-23</data><data key="wikidata">Q241884</data><data key="lon">102.45189</data><data key="lat">12.19664</data></node>
+    <node id="TH-24"><data key="name">Chachoengsao</data><data key="code">TH-24</data><data key="wikidata">Q334906</data><data key="lon">101.58942</data><data key="lat">13.57448</data></node>
+    <node id="TH-25"><data key="name">Prachin Buri</data><data key="code">TH-25</data><data key="wikidata">Q321324</data><data key="lon">101.66063</data><data key="lat">14.08688</data></node>
+    <node id="TH-26"><data key="name">Nakhon Nayok</data><data key="code">TH-26</data><data key="wikidata">Q466212</data><data key="lon">101.15926</data><data key="lat">14.22889</data></node>
+    <node id="TH-27"><data key="name">Sa Kaeo</data><data key="code">TH-27</data><data key="wikidata">Q381889</data><data key="lon">102.21571</data><data key="lat">13.6714</data></node>
+    <node id="TH-30"><data key="name">Nakhon Ratchasima</data><data key="code">TH-30</data><data key="wikidata">Q271737</data><data key="lon">101.99072</data><data key="lat">14.94652</data></node>
+    <node id="TH-31"><data key="name">Buri Ram</data><data key="code">TH-31</data><data key="wikidata">Q327510</data><data key="lon">103.07977</data><data key="lat">14.95969</data></node>
+    <node id="TH-32"><data key="name">Surin</data><data key="code">TH-32</data><data key="wikidata">Q380757</data><data key="lon">103.6801</data><data key="lat">14.91174</data></node>
+    <node id="TH-33"><data key="name">Si Sa Ket</data><data key="code">TH-33</data><data key="wikidata">Q380761</data><data key="lon">104.33639</data><data key="lat">14.96441</data></node>
+    <node id="TH-34"><data key="name">Ubon Ratchathani</data><data key="code">TH-34</data><data key="wikidata">Q629024</data><data key="lon">105.08939</data><data key="lat">15.15154</data></node>
+    <node id="TH-35"><data key="name">Yasothon</data><data key="code">TH-35</data><data key="wikidata">Q506598</data><data key="lon">104.27844</data><data key="lat">15.81335</data></node>
+    <node id="TH-36"><data key="name">Chaiyaphum</data><data key="code">TH-36</data><data key="wikidata">Q275377</data><data key="lon">101.88162</data><data key="lat">15.96056</data></node>
+    <node id="TH-37"><data key="name">Amnat Charoen</data><data key="code">TH-37</data><data key="wikidata">Q243791</data><data key="lon">104.74564</data><data key="lat">15.8822</data></node>
+    <node id="TH-38"><data key="name">Bueng Kan</data><data key="code">TH-38</data><data key="wikidata">Q1001862</data><data key="lon">103.71701</data><data key="lat">18.10492</data></node>
+    <node id="TH-39"><data key="name">Nong Bua Lam Phu</data><data key="code">TH-39</data><data key="wikidata">Q261241</data><data key="lon">102.26647</data><data key="lat">17.2008</data></node>
+    <node id="TH-40"><data key="name">Khon Kaen</data><data key="code">TH-40</data><data key="wikidata">Q327533</data><data key="lon">102.6807</data><data key="lat">16.35225</data></node>
+    <node id="TH-41"><data key="name">Udon Thani</data><data key="code">TH-41</data><data key="wikidata">Q380752</data><data key="lon">102.84547</data><data key="lat">17.45651</data></node>
+    <node id="TH-42"><data key="name">Loei</data><data key="code">TH-42</data><data key="wikidata">Q275388</data><data key="lon">101.6412</data><data key="lat">17.48488</data></node>
+    <node id="TH-43"><data key="name">Nong Khai</data><data key="code">TH-43</data><data key="wikidata">Q327737</data><data key="lon">103.10762</data><data key="lat">17.94567</data></node>
+    <node id="TH-44"><data key="name">Maha Sarakham</data><data key="code">TH-44</data><data key="wikidata">Q468554</data><data key="lon">103.18955</data><data key="lat">16.02702</data></node>
+    <node id="TH-45"><data key="name">Roi Et</data><data key="code">TH-45</data><data key="wikidata">Q625463</data><data key="lon">103.75638</data><data key="lat">15.93989</data></node>
+    <node id="TH-46"><data key="name">Kalasin</data><data key="code">TH-46</data><data key="wikidata">Q382144</data><data key="lon">103.67097</data><data key="lat">16.64631</data></node>
+    <node id="TH-47"><data key="name">Sakon Nakhon</data><data key="code">TH-47</data><data key="wikidata">Q382125</data><data key="lon">103.6551</data><data key="lat">17.42161</data></node>
+    <node id="TH-48"><data key="name">Nakhon Phanom</data><data key="code">TH-48</data><data key="wikidata">Q468547</data><data key="lon">104.61298</data><data key="lat">17.38389</data></node>
+    <node id="TH-49"><data key="name">Mukdahan</data><data key="code">TH-49</data><data key="wikidata">Q335119</data><data key="lon">104.49197</data><data key="lat">16.53912</data></node>
+    <node id="TH-50"><data key="name">Chiang Mai</data><data key="code">TH-50</data><data key="wikidata">Q233588</data><data key="lon">98.62116</data><data key="lat">18.70104</data></node>
+    <node id="TH-51"><data key="name">Lamphun</data><data key="code">TH-51</data><data key="wikidata">Q240540</data><data key="lon">98.93952</data><data key="lat">18.09471</data></node>
+    <node id="TH-52"><data key="name">Lampang</data><data key="code">TH-52</data><data key="wikidata">Q240495</data><data key="lon">99.55869</data><data key="lat">18.35746</data></node>
+    <node id="TH-53"><data key="name">Uttaradit</data><data key="code">TH-53</data><data key="wikidata">Q273794</data><data key="lon">100.44303</data><data key="lat">17.76726</data></node>
+    <node id="TH-54"><data key="name">Phrae</data><data key="code">TH-54</data><data key="wikidata">Q244652</data><data key="lon">100.17198</data><data key="lat">18.25708</data></node>
+    <node id="TH-55"><data key="name">Nan</data><data key="code">TH-55</data><data key="wikidata">Q244698</data><data key="lon">100.78897</data><data key="lat">18.80963</data></node>
+    <node id="TH-56"><data key="name">Phayao</data><data key="code">TH-56</data><data key="wikidata">Q244618</data><data key="lon">100.15239</data><data key="lat">19.27384</data></node>
+    <node id="TH-57"><data key="name">Chiang Rai</data><data key="code">TH-57</data><data key="wikidata">Q236419</data><data key="lon">99.87014</data><data key="lat">19.72136</data></node>
+    <node id="TH-58"><data key="name">Mae Hong Son</data><data key="code">TH-58</data><data key="wikidata">Q269270</data><data key="lon">97.9289</data><data key="lat">18.67779</data></node>
+    <node id="TH-60"><data key="name">Nakhon Sawan</data><data key="code">TH-60</data><data key="wikidata">Q239844</data><data key="lon">100.04917</data><data key="lat">15.69825</data></node>
+    <node id="TH-61"><data key="name">Uthai Thani</data><data key="code">TH-61</data><data key="wikidata">Q244649</data><data key="lon">99.5502</data><data key="lat">15.35844</data></node>
+    <node id="TH-62"><data key="name">Kamphaeng Phet</data><data key="code">TH-62</data><data key="wikidata">Q273807</data><data key="lon">99.4978</data><data key="lat">16.33054</data></node>
+    <node id="TH-63"><data key="name">Tak</data><data key="code">TH-63</data><data key="wikidata">Q275758</data><data key="lon">98.87228</data><data key="lat">16.48461</data></node>
+    <node id="TH-64"><data key="name">Sukhothai</data><data key="code">TH-64</data><data key="wikidata">Q380764</data><data key="lon">99.71328</data><data key="lat">17.25263</data></node>
+    <node id="TH-65"><data key="name">Phitsanulok</data><data key="code">TH-65</data><data key="wikidata">Q275781</data><data key="lon">100.53728</data><data key="lat">17.02802</data></node>
+    <node id="TH-66"><data key="name">Phichit</data><data key="code">TH-66</data><data key="wikidata">Q237874</data><data key="lon">100.36371</data><data key="lat">16.25061</data></node>
+    <node id="TH-67"><data key="name">Phetchabun</data><data key="code">TH-67</data><data key="wikidata">Q240520</data><data key="lon">101.01119</data><data key="lat">16.20753</data></node>
+    <node id="TH-70"><data key="name">Ratchaburi</data><data key="code">TH-70</data><data key="wikidata">Q335492</data><data key="lon">99.60174</data><data key="lat">13.5388</data></node>
+    <node id="TH-71"><data key="name">Kanchanaburi</data><data key="code">TH-71</data><data key="wikidata">Q275740</data><data key="lon">98.6678</data><data key="lat">14.6997</data></node>
+    <node id="TH-72"><data key="name">Suphan Buri</data><data key="code">TH-72</data><data key="wikidata">Q272247</data><data key="lon">100.04294</data><data key="lat">14.56602</data></node>
+    <node id="TH-73"><data key="name">Nakhon Pathom</data><data key="code">TH-73</data><data key="wikidata">Q334841</data><data key="lon">100.11668</data><data key="lat">13.91892</data></node>
+    <node id="TH-74"><data key="name">Samut Sakhon</data><data key="code">TH-74</data><data key="wikidata">Q334686</data><data key="lon">100.22208</data><data key="lat">13.58624</data></node>
+    <node id="TH-75"><data key="name">Samut Songkhram</data><data key="code">TH-75</data><data key="wikidata">Q459742</data><data key="lon">99.94959</data><data key="lat">13.37592</data></node>
+    <node id="TH-76"><data key="name">Phetchaburi</data><data key="code">TH-76</data><data key="wikidata">Q244699</data><data key="lon">99.60274</data><data key="lat">12.94031</data></node>
+    <node id="TH-77"><data key="name">Prachuap Khiri Khan</data><data key="code">TH-77</data><data key="wikidata">Q244628</data><data key="lon">99.71932</data><data key="lat">11.79452</data></node>
+    <node id="TH-80"><data key="name">Nakhon Si Thammarat</data><data key="code">TH-80</data><data key="wikidata">Q244691</data><data key="lon">99.70967</data><data key="lat">8.56152</data></node>
+    <node id="TH-81"><data key="name">Krabi</data><data key="code">TH-81</data><data key="wikidata">Q236769</data><data key="lon">99.02103</data><data key="lat">8.16358</data></node>
+    <node id="TH-82"><data key="name">Phangnga</data><data key="code">TH-82</data><data key="wikidata">Q273306</data><data key="lon">98.42172</data><data key="lat">8.74702</data></node>
+    <node id="TH-83"><data key="name">Phuket</data><data key="code">TH-83</data><data key="wikidata">Q182565</data><data key="lon">98.33392</data><data key="lat">7.9774</data></node>
+    <node id="TH-84"><data key="name">Surat Thani</data><data key="code">TH-84</data><data key="wikidata">Q240463</data><data key="lon">99.11545</data><data key="lat">9.05261</data></node>
+    <node id="TH-85"><data key="name">Ranong</data><data key="code">TH-85</data><data key="wikidata">Q236802</data><data key="lon">98.77397</data><data key="lat">10.04559</data></node>
+    <node id="TH-86"><data key="name">Chumphon</data><data key="code">TH-86</data><data key="wikidata">Q244695</data><data key="lon">99.0472</data><data key="lat">10.32226</data></node>
+    <node id="TH-90"><data key="name">Songkhla</data><data key="code">TH-90</data><data key="wikidata">Q235574</data><data key="lon">100.61958</data><data key="lat">6.80483</data></node>
+    <node id="TH-91"><data key="name">Satun</data><data key="code">TH-91</data><data key="wikidata">Q236263</data><data key="lon">100.00401</data><data key="lat">6.79567</data></node>
+    <node id="TH-92"><data key="name">Trang</data><data key="code">TH-92</data><data key="wikidata">Q243805</data><data key="lon">99.56682</data><data key="lat">7.52423</data></node>
+    <node id="TH-93"><data key="name">Phatthalung</data><data key="code">TH-93</data><data key="wikidata">Q243808</data><data key="lon">100.02689</data><data key="lat">7.49585</data></node>
+    <node id="TH-94"><data key="name">Pattani</data><data key="code">TH-94</data><data key="wikidata">Q236781</data><data key="lon">101.32019</data><data key="lat">6.77328</data></node>
+    <node id="TH-95"><data key="name">Yala</data><data key="code">TH-95</data><data key="wikidata">Q242977</data><data key="lon">101.23478</data><data key="lat">6.14549</data></node>
+    <node id="TH-96"><data key="name">Narathiwat</data><data key="code">TH-96</data><data key="wikidata">Q271442</data><data key="lon">101.73022</data><data key="lat">6.17452</data></node>
+    <edge source="TH-10" target="TH-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-10" target="TH-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-10" target="TH-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-10" target="TH-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-10" target="TH-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-10" target="TH-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-11" target="TH-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-12" target="TH-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-12" target="TH-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-12" target="TH-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-13" target="TH-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-13" target="TH-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-13" target="TH-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-13" target="TH-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-14" target="TH-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-14" target="TH-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-14" target="TH-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-14" target="TH-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-14" target="TH-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-15" target="TH-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-15" target="TH-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-15" target="TH-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-16" target="TH-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-16" target="TH-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-16" target="TH-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-16" target="TH-36"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="TH-16" target="TH-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-16" target="TH-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-17" target="TH-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-17" target="TH-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-17" target="TH-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-18" target="TH-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-18" target="TH-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-18" target="TH-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-19" target="TH-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-19" target="TH-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-20" target="TH-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-20" target="TH-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-20" target="TH-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-21" target="TH-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-22" target="TH-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-22" target="TH-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-22" target="TH-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-24" target="TH-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-24" target="TH-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-24" target="TH-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-25" target="TH-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-25" target="TH-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-25" target="TH-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-26" target="TH-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-27" target="TH-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-27" target="TH-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-30" target="TH-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-30" target="TH-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-30" target="TH-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-31" target="TH-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-31" target="TH-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-31" target="TH-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-32" target="TH-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-32" target="TH-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-32" target="TH-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-33" target="TH-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-33" target="TH-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-33" target="TH-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-34" target="TH-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-34" target="TH-37"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-35" target="TH-37"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-35" target="TH-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-35" target="TH-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-36" target="TH-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-36" target="TH-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-37" target="TH-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-38" target="TH-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-38" target="TH-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-38" target="TH-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-39" target="TH-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-39" target="TH-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-39" target="TH-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-40" target="TH-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-40" target="TH-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-40" target="TH-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-40" target="TH-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-40" target="TH-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-41" target="TH-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-41" target="TH-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-41" target="TH-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-41" target="TH-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-42" target="TH-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-42" target="TH-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-42" target="TH-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-43" target="TH-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-44" target="TH-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-44" target="TH-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-45" target="TH-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-45" target="TH-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-46" target="TH-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-46" target="TH-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-47" target="TH-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-47" target="TH-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-48" target="TH-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-50" target="TH-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-50" target="TH-52"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-50" target="TH-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-50" target="TH-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-50" target="TH-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-51" target="TH-52"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-51" target="TH-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-52" target="TH-54"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-52" target="TH-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-52" target="TH-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-52" target="TH-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-52" target="TH-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-53" target="TH-54"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-53" target="TH-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-53" target="TH-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-53" target="TH-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-54" target="TH-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-54" target="TH-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-54" target="TH-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-55" target="TH-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-56" target="TH-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-58" target="TH-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-60" target="TH-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-60" target="TH-62"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-60" target="TH-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-60" target="TH-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-60" target="TH-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-61" target="TH-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-61" target="TH-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-61" target="TH-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-62" target="TH-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-62" target="TH-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-62" target="TH-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-62" target="TH-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-63" target="TH-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-63" target="TH-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-64" target="TH-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-65" target="TH-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-65" target="TH-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-66" target="TH-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-70" target="TH-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-70" target="TH-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-70" target="TH-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-70" target="TH-75"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-70" target="TH-76"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-71" target="TH-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-71" target="TH-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-72" target="TH-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-73" target="TH-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-74" target="TH-75"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-75" target="TH-76"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-76" target="TH-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-77" target="TH-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-80" target="TH-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-80" target="TH-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-80" target="TH-90"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-80" target="TH-92"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-80" target="TH-93"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-81" target="TH-82"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-81" target="TH-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-81" target="TH-92"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-82" target="TH-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-82" target="TH-85"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-84" target="TH-85"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-84" target="TH-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-85" target="TH-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-90" target="TH-91"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-90" target="TH-92"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-90" target="TH-93"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-90" target="TH-94"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-90" target="TH-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-91" target="TH-92"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-92" target="TH-93"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-94" target="TH-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-94" target="TH-96"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TH-95" target="TH-96"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

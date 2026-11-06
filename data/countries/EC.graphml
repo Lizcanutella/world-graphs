@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="EC" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="EC-A"><data key="name">Azuay</data><data key="code">EC-A</data><data key="wikidata">Q220451</data><data key="lon">-79.20677</data><data key="lat">-3.06886</data></node>
+    <node id="EC-B"><data key="name">Bolivar</data><data key="code">EC-B</data><data key="wikidata">Q261165</data><data key="lon">-79.07636</data><data key="lat">-1.67992</data></node>
+    <node id="EC-C"><data key="name">Carchi</data><data key="code">EC-C</data><data key="wikidata">Q321729</data><data key="lon">-77.95744</data><data key="lat">0.76156</data></node>
+    <node id="EC-D"><data key="name">Orellana</data><data key="code">EC-D</data><data key="wikidata">Q499475</data><data key="lon">-76.2333</data><data key="lat">-0.79925</data></node>
+    <node id="EC-E"><data key="name">Esmeraldas</data><data key="code">EC-E</data><data key="wikidata">Q335526</data><data key="lon">-79.29303</data><data key="lat">0.69076</data></node>
+    <node id="EC-F"><data key="name">Cañar</data><data key="code">EC-F</data><data key="wikidata">Q335471</data><data key="lon">-78.93831</data><data key="lat">-2.51452</data></node>
+    <node id="EC-G"><data key="name">Guayas</data><data key="code">EC-G</data><data key="wikidata">Q335464</data><data key="lon">-79.91598</data><data key="lat">-1.95456</data></node>
+    <node id="EC-H"><data key="name">Chimborazo</data><data key="code">EC-H</data><data key="wikidata">Q238492</data><data key="lon">-78.73012</data><data key="lat">-1.91495</data></node>
+    <node id="EC-I"><data key="name">Imbabura</data><data key="code">EC-I</data><data key="wikidata">Q321863</data><data key="lon">-78.33093</data><data key="lat">0.50206</data></node>
+    <node id="EC-L"><data key="name">Loja</data><data key="code">EC-L</data><data key="wikidata">Q504238</data><data key="lon">-79.82445</data><data key="lat">-4.05541</data></node>
+    <node id="EC-M"><data key="name">Manabi</data><data key="code">EC-M</data><data key="wikidata">Q504666</data><data key="lon">-80.04736</data><data key="lat">-0.73169</data></node>
+    <node id="EC-N"><data key="name">Napo</data><data key="code">EC-N</data><data key="wikidata">Q211900</data><data key="lon">-77.93348</data><data key="lat">-0.60516</data></node>
+    <node id="EC-O"><data key="name">El Oro</data><data key="code">EC-O</data><data key="wikidata">Q466019</data><data key="lon">-79.85116</data><data key="lat">-3.46286</data></node>
+    <node id="EC-P"><data key="name">Pichincha</data><data key="code">EC-P</data><data key="wikidata">Q272586</data><data key="lon">-78.47655</data><data key="lat">-0.18324</data></node>
+    <node id="EC-R"><data key="name">Los Rios</data><data key="code">EC-R</data><data key="wikidata">Q504260</data><data key="lon">-79.55284</data><data key="lat">-1.34718</data></node>
+    <node id="EC-S"><data key="name">Morona Santiago</data><data key="code">EC-S</data><data key="wikidata">Q549522</data><data key="lon">-77.7397</data><data key="lat">-2.50967</data></node>
+    <node id="EC-SD"><data key="name">Santo Domingo de los Tsáchilas</data><data key="code">EC-SD</data><data key="wikidata">Q1123208</data><data key="lon">-79.1577</data><data key="lat">-0.32139</data></node>
+    <node id="EC-SE"><data key="name">Santa Elena</data><data key="code">EC-SE</data><data key="wikidata">Q1124125</data><data key="lon">-80.4885</data><data key="lat">-2.07675</data></node>
+    <node id="EC-T"><data key="name">Tungurahua</data><data key="code">EC-T</data><data key="wikidata">Q504252</data><data key="lon">-78.50366</data><data key="lat">-1.25124</data></node>
+    <node id="EC-U"><data key="name">Sucumbios</data><data key="code">EC-U</data><data key="wikidata">Q499456</data><data key="lon">-76.6583</data><data key="lat">0.00848</data></node>
+    <node id="EC-W"><data key="name">Galápagos</data><data key="code">EC-W</data><data key="wikidata">Q475038</data><data key="lon">-90.3687</data><data key="lat">-0.63303</data></node>
+    <node id="EC-X"><data key="name">Cotopaxi</data><data key="code">EC-X</data><data key="wikidata">Q241140</data><data key="lon">-78.78257</data><data key="lat">-0.7722</data></node>
+    <node id="EC-Y"><data key="name">Pastaza</data><data key="code">EC-Y</data><data key="wikidata">Q214814</data><data key="lon">-76.8346</data><data key="lat">-1.78958</data></node>
+    <node id="EC-Z"><data key="name">Zamora Chinchipe</data><data key="code">EC-Z</data><data key="wikidata">Q744670</data><data key="lon">-78.86621</data><data key="lat">-4.16936</data></node>
+    <edge source="EC-A" target="EC-F"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-A" target="EC-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-A" target="EC-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-A" target="EC-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-A" target="EC-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-A" target="EC-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-B" target="EC-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-B" target="EC-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-B" target="EC-R"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-B" target="EC-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-B" target="EC-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-C" target="EC-E"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-C" target="EC-I"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-C" target="EC-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-D" target="EC-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-D" target="EC-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-D" target="EC-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-E" target="EC-I"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-E" target="EC-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-E" target="EC-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-E" target="EC-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-F" target="EC-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-F" target="EC-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-F" target="EC-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-G" target="EC-H"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="EC-G" target="EC-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-G" target="EC-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-G" target="EC-R"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-G" target="EC-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-H" target="EC-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-H" target="EC-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-I" target="EC-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-I" target="EC-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-L" target="EC-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-L" target="EC-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-M" target="EC-R"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-M" target="EC-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-M" target="EC-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-N" target="EC-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-N" target="EC-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-N" target="EC-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-N" target="EC-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-N" target="EC-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-P" target="EC-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-P" target="EC-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-P" target="EC-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-R" target="EC-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-R" target="EC-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-S" target="EC-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-S" target="EC-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-S" target="EC-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-SD" target="EC-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-T" target="EC-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EC-T" target="EC-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,397 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "LS",
+ "kind": "country",
+ "name": "Lesotho",
+ "level": "districts",
+ "n": 10,
+ "m": 17,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "LS-A",
+   "name": "Maseru",
+   "wikidata": "Q844921",
+   "lon": 27.77466,
+   "lat": -29.59886
+  },
+  {
+   "code": "LS-B",
+   "name": "Butha-Buthe",
+   "wikidata": "Q535632",
+   "lon": 28.58972,
+   "lat": -28.82548
+  },
+  {
+   "code": "LS-C",
+   "name": "Leribe",
+   "wikidata": "Q819987",
+   "lon": 28.29471,
+   "lat": -29.02293
+  },
+  {
+   "code": "LS-D",
+   "name": "Berea",
+   "wikidata": "Q737086",
+   "lon": 27.91914,
+   "lat": -29.16067
+  },
+  {
+   "code": "LS-E",
+   "name": "Mafeteng",
+   "wikidata": "Q817342",
+   "lon": 27.38914,
+   "lat": -29.77852
+  },
+  {
+   "code": "LS-F",
+   "name": "Mohale's Hoek",
+   "wikidata": "Q839074",
+   "lon": 27.60219,
+   "lat": -30.09245
+  },
+  {
+   "code": "LS-G",
+   "name": "Quthing",
+   "wikidata": "Q839060",
+   "lon": 27.98564,
+   "lat": -30.33213
+  },
+  {
+   "code": "LS-H",
+   "name": "Qacha's Nek",
+   "wikidata": "Q850423",
+   "lon": 28.77114,
+   "lat": -29.95306
+  },
+  {
+   "code": "LS-J",
+   "name": "Mokhotlong",
+   "wikidata": "Q817340",
+   "lon": 28.97731,
+   "lat": -29.16855
+  },
+  {
+   "code": "LS-K",
+   "name": "Thaba-Tseka",
+   "wikidata": "Q817327",
+   "lon": 28.51303,
+   "lat": -29.50034
+  }
+ ],
+ "edges": [
+  {
+   "u": "LS-A",
+   "v": "LS-D",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 96682
+  },
+  {
+   "u": "LS-A",
+   "v": "LS-E",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 151793
+  },
+  {
+   "u": "LS-A",
+   "v": "LS-F",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7593
+  },
+  {
+   "u": "LS-A",
+   "v": "LS-K",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48676
+  },
+  {
+   "u": "LS-B",
+   "v": "LS-C",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100657
+  },
+  {
+   "u": "LS-B",
+   "v": "LS-J",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16949
+  },
+  {
+   "u": "LS-C",
+   "v": "LS-D",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78994
+  },
+  {
+   "u": "LS-C",
+   "v": "LS-J",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50169
+  },
+  {
+   "u": "LS-C",
+   "v": "LS-K",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61253
+  },
+  {
+   "u": "LS-D",
+   "v": "LS-K",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27938
+  },
+  {
+   "u": "LS-E",
+   "v": "LS-F",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 163647
+  },
+  {
+   "u": "LS-F",
+   "v": "LS-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 106224
+  },
+  {
+   "u": "LS-F",
+   "v": "LS-H",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50777
+  },
+  {
+   "u": "LS-F",
+   "v": "LS-K",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31110
+  },
+  {
+   "u": "LS-G",
+   "v": "LS-H",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34601
+  },
+  {
+   "u": "LS-H",
+   "v": "LS-K",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80355
+  },
+  {
+   "u": "LS-J",
+   "v": "LS-K",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116931
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "LSO-ADM1-63558799",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

@@ -1,0 +1,575 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MA",
+ "kind": "country",
+ "name": "Morocco",
+ "level": "regions",
+ "n": 16,
+ "m": 27,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MA-01",
+   "name": "Tanger - Tétouan",
+   "wikidata": "Q389777",
+   "lon": -5.51399,
+   "lat": 35.32241
+  },
+  {
+   "code": "MA-02",
+   "name": "Gharb - Chrarda - Béni Hssen",
+   "wikidata": "Q477968",
+   "lon": -5.85664,
+   "lat": 34.55431
+  },
+  {
+   "code": "MA-03",
+   "name": "Taza - Al Hoceima - Taounate",
+   "wikidata": "Q818390",
+   "lon": -4.33017,
+   "lat": 34.38901
+  },
+  {
+   "code": "MA-04",
+   "name": "Oriental",
+   "wikidata": "Q648160",
+   "lon": -2.4084,
+   "lat": 33.60736
+  },
+  {
+   "code": "MA-05",
+   "name": "Fès - Boulemane",
+   "wikidata": "Q648249",
+   "lon": -4.06097,
+   "lat": 33.48588
+  },
+  {
+   "code": "MA-06",
+   "name": "Meknès - Tafilalet",
+   "wikidata": "Q497006",
+   "lon": -4.6083,
+   "lat": 32.25364
+  },
+  {
+   "code": "MA-07",
+   "name": "Rabat - Salé - Zemmour - Zaer",
+   "wikidata": "Q477961",
+   "lon": -6.38544,
+   "lat": 33.69608
+  },
+  {
+   "code": "MA-08",
+   "name": "Grand Casablanca",
+   "wikidata": "Q478222",
+   "lon": -7.60449,
+   "lat": 33.5438
+  },
+  {
+   "code": "MA-09",
+   "name": "Chaouia - Ouardigha",
+   "wikidata": "Q390331",
+   "lon": -7.17994,
+   "lat": 33.11715
+  },
+  {
+   "code": "MA-10",
+   "name": "Doukkala - Abda",
+   "wikidata": "Q390366",
+   "lon": -8.64707,
+   "lat": 32.61125
+  },
+  {
+   "code": "MA-11",
+   "name": "Marrakech - Tensift - Al Haouz",
+   "wikidata": "Q477940",
+   "lon": -7.72838,
+   "lat": 31.83391
+  },
+  {
+   "code": "MA-12",
+   "name": "Tadla - Azilal",
+   "wikidata": "Q477942",
+   "lon": -6.4673,
+   "lat": 32.08379
+  },
+  {
+   "code": "MA-13",
+   "name": "Souss - Massa - Draâ",
+   "wikidata": "Q264529",
+   "lon": -7.45935,
+   "lat": 30.52615
+  },
+  {
+   "code": "MA-14",
+   "name": "Guelmim - Es-Semara",
+   "wikidata": "Q529796",
+   "lon": -10.19988,
+   "lat": 28.23541
+  },
+  {
+   "code": "MA-15",
+   "name": "Laâyoune - Boujdour - Sakia El Hamra",
+   "wikidata": "Q818739",
+   "lon": -13.42323,
+   "lat": 26.28909
+  },
+  {
+   "code": "MA-16",
+   "name": "Oued el Dahab",
+   "wikidata": "Q2410368",
+   "lon": -15.13687,
+   "lat": 23.00336
+  }
+ ],
+ "edges": [
+  {
+   "u": "MA-01",
+   "v": "MA-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 108232
+  },
+  {
+   "u": "MA-01",
+   "v": "MA-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 93336
+  },
+  {
+   "u": "MA-02",
+   "v": "MA-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63792
+  },
+  {
+   "u": "MA-02",
+   "v": "MA-05",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "MA-02",
+   "v": "MA-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62731
+  },
+  {
+   "u": "MA-02",
+   "v": "MA-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81813
+  },
+  {
+   "u": "MA-03",
+   "v": "MA-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 272511
+  },
+  {
+   "u": "MA-03",
+   "v": "MA-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 301904
+  },
+  {
+   "u": "MA-04",
+   "v": "MA-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 214478
+  },
+  {
+   "u": "MA-04",
+   "v": "MA-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 155930
+  },
+  {
+   "u": "MA-05",
+   "v": "MA-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 272909
+  },
+  {
+   "u": "MA-06",
+   "v": "MA-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 183610
+  },
+  {
+   "u": "MA-06",
+   "v": "MA-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69515
+  },
+  {
+   "u": "MA-06",
+   "v": "MA-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 158140
+  },
+  {
+   "u": "MA-06",
+   "v": "MA-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 282775
+  },
+  {
+   "u": "MA-07",
+   "v": "MA-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 118456
+  },
+  {
+   "u": "MA-08",
+   "v": "MA-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 91993
+  },
+  {
+   "u": "MA-09",
+   "v": "MA-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80612
+  },
+  {
+   "u": "MA-09",
+   "v": "MA-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 102740
+  },
+  {
+   "u": "MA-09",
+   "v": "MA-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 129738
+  },
+  {
+   "u": "MA-10",
+   "v": "MA-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 254661
+  },
+  {
+   "u": "MA-11",
+   "v": "MA-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 121560
+  },
+  {
+   "u": "MA-11",
+   "v": "MA-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 291922
+  },
+  {
+   "u": "MA-12",
+   "v": "MA-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 152784
+  },
+  {
+   "u": "MA-13",
+   "v": "MA-14",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 600195,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Guelmim-Es_Semara"
+    }
+   ]
+  },
+  {
+   "u": "MA-14",
+   "v": "MA-15",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 331608
+  },
+  {
+   "u": "MA-15",
+   "v": "MA-16",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 220734
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MAR-ADM2-96644757",
+  "level": "ADM2",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

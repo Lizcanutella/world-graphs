@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SY" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SY-DI"><data key="name">Damascus</data><data key="code">SY-DI</data><data key="wikidata">Q2007044</data><data key="lon">36.28523</data><data key="lat">33.50922</data></node>
+    <node id="SY-DR"><data key="name">Dar`a</data><data key="code">SY-DR</data><data key="wikidata">Q1689560</data><data key="lon">36.10385</data><data key="lat">32.82572</data></node>
+    <node id="SY-DY"><data key="name">Dayr Az Zawr</data><data key="code">SY-DY</data><data key="wikidata">Q232387</data><data key="lon">40.25713</data><data key="lat">35.3079</data></node>
+    <node id="SY-HA"><data key="name">Hasaka (Al Haksa)</data><data key="code">SY-HA</data><data key="wikidata">Q233914</data><data key="lon">40.57446</data><data key="lat">36.44403</data></node>
+    <node id="SY-HI"><data key="name">Homs (Hims)</data><data key="code">SY-HI</data><data key="wikidata">Q214094</data><data key="lon">38.29297</data><data key="lat">34.25354</data></node>
+    <node id="SY-HL"><data key="name">Aleppo</data><data key="code">SY-HL</data><data key="wikidata">Q214064</data><data key="lon">37.40995</data><data key="lat">36.17147</data></node>
+    <node id="SY-HM"><data key="name">Hamah</data><data key="code">SY-HM</data><data key="wikidata">Q232355</data><data key="lon">37.27223</data><data key="lat">35.28962</data></node>
+    <node id="SY-ID"><data key="name">Idlib</data><data key="code">SY-ID</data><data key="wikidata">Q233218</data><data key="lon">36.57786</data><data key="lat">35.82684</data></node>
+    <node id="SY-LA"><data key="name">Lattakia</data><data key="code">SY-LA</data><data key="wikidata">Q233236</data><data key="lon">35.98119</data><data key="lat">35.57125</data></node>
+    <node id="SY-QU"><data key="name">Quneitra</data><data key="code">SY-QU</data><data key="wikidata">Q219690</data><data key="lon">35.91028</data><data key="lat">33.05685</data></node>
+    <node id="SY-RA"><data key="name">Ar Raqqah</data><data key="code">SY-RA</data><data key="wikidata">Q235563</data><data key="lon">38.94704</data><data key="lat">35.99731</data></node>
+    <node id="SY-RD"><data key="name">Rif Dimashq</data><data key="code">SY-RD</data><data key="wikidata">Q232399</data><data key="lon">36.84139</data><data key="lat">33.45984</data></node>
+    <node id="SY-SU"><data key="name">As Suwayda'</data><data key="code">SY-SU</data><data key="wikidata">Q236797</data><data key="lon">36.87419</data><data key="lat">32.77707</data></node>
+    <node id="SY-TA"><data key="name">Tartus</data><data key="code">SY-TA</data><data key="wikidata">Q232382</data><data key="lon">36.07507</data><data key="lat">34.94245</data></node>
+    <node id="SY-X01~"><data key="name">UNDOF</data><data key="code">SY-X01~</data><data key="wikidata"></data><data key="lon">35.85676</data><data key="lat">33.09205</data></node>
+    <edge source="SY-DI" target="SY-RD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SY-DR" target="SY-QU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SY-DR" target="SY-RD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SY-DR" target="SY-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-DR" target="SY-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SY-DY" target="SY-HA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-DY" target="SY-HI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-DY" target="SY-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HA" target="SY-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HI" target="SY-HM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HI" target="SY-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HI" target="SY-RD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HI" target="SY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HL" target="SY-HM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HL" target="SY-ID"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HL" target="SY-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HM" target="SY-ID"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HM" target="SY-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HM" target="SY-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-HM" target="SY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-ID" target="SY-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-LA" target="SY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SY-QU" target="SY-RD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SY-QU" target="SY-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SY-RD" target="SY-SU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SY-RD" target="SY-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

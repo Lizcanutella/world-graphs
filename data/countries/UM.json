@@ -1,0 +1,71 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "UM",
+ "kind": "country",
+ "name": "United States Minor Outlying Islands",
+ "level": "islands, groups of islands",
+ "n": 8,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "UM-67",
+   "name": "Johnston Atoll",
+   "wikidata": "Q131008",
+   "lon": -169.54185,
+   "lat": 16.72541
+  },
+  {
+   "code": "UM-71",
+   "name": "Midway Islands",
+   "wikidata": "Q47863",
+   "lon": -177.37755,
+   "lat": 28.20466
+  },
+  {
+   "code": "UM-76",
+   "name": "Navassa Island",
+   "wikidata": "Q25359",
+   "lon": -75.01284,
+   "lat": 18.40561
+  },
+  {
+   "code": "UM-79",
+   "name": "Wake Atoll",
+   "wikidata": "Q43296",
+   "lon": 166.64501,
+   "lat": 19.29023
+  },
+  {
+   "code": "UM-81",
+   "name": "Baker Island",
+   "wikidata": "Q46879",
+   "lon": -176.47903,
+   "lat": 0.19371
+  },
+  {
+   "code": "UM-84",
+   "name": "Howland Island",
+   "wikidata": "Q131305",
+   "lon": -176.63724,
+   "lat": 0.79609
+  },
+  {
+   "code": "UM-86",
+   "name": "Jarvis Island",
+   "wikidata": "Q62218",
+   "lon": -160.02005,
+   "lat": -0.37912
+  },
+  {
+   "code": "UM-95",
+   "name": "Palmyra Atoll",
+   "wikidata": "Q123076",
+   "lon": -162.071,
+   "lat": 5.88036
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": null
+}

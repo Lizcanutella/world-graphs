@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="JM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="JM-01"><data key="name">Kingston</data><data key="code">JM-01</data><data key="wikidata">Q1473680</data><data key="lon">-76.76802</data><data key="lat">17.9762</data></node>
+    <node id="JM-02"><data key="name">Saint Andrew</data><data key="code">JM-02</data><data key="wikidata">Q2212935</data><data key="lon">-76.76358</data><data key="lat">18.04648</data></node>
+    <node id="JM-03"><data key="name">Saint Thomas</data><data key="code">JM-03</data><data key="wikidata">Q1422332</data><data key="lon">-76.44224</data><data key="lat">17.96542</data></node>
+    <node id="JM-04"><data key="name">Portland</data><data key="code">JM-04</data><data key="wikidata">Q125148</data><data key="lon">-76.54241</data><data key="lat">18.12676</data></node>
+    <node id="JM-05"><data key="name">Saint Mary</data><data key="code">JM-05</data><data key="wikidata">Q633565</data><data key="lon">-76.90314</data><data key="lat">18.27738</data></node>
+    <node id="JM-06"><data key="name">Saint Ann</data><data key="code">JM-06</data><data key="wikidata">Q1326284</data><data key="lon">-77.25426</data><data key="lat">18.33294</data></node>
+    <node id="JM-07"><data key="name">Trelawny</data><data key="code">JM-07</data><data key="wikidata">Q1123340</data><data key="lon">-77.61801</data><data key="lat">18.30667</data></node>
+    <node id="JM-08"><data key="name">Saint James</data><data key="code">JM-08</data><data key="wikidata">Q1421939</data><data key="lon">-77.86602</data><data key="lat">18.36042</data></node>
+    <node id="JM-09"><data key="name">Hanover</data><data key="code">JM-09</data><data key="wikidata">Q1131779</data><data key="lon">-78.14429</data><data key="lat">18.37249</data></node>
+    <node id="JM-10"><data key="name">Westmoreland</data><data key="code">JM-10</data><data key="wikidata">Q1440250</data><data key="lon">-77.98299</data><data key="lat">18.19437</data></node>
+    <node id="JM-11"><data key="name">Saint Elizabeth</data><data key="code">JM-11</data><data key="wikidata">Q1473646</data><data key="lon">-77.78649</data><data key="lat">18.04137</data></node>
+    <node id="JM-12"><data key="name">Manchester</data><data key="code">JM-12</data><data key="wikidata">Q920496</data><data key="lon">-77.51812</data><data key="lat">18.04998</data></node>
+    <node id="JM-13"><data key="name">Clarendon</data><data key="code">JM-13</data><data key="wikidata">Q1095557</data><data key="lon">-77.26606</data><data key="lat">17.95281</data></node>
+    <node id="JM-14"><data key="name">Saint Catherine</data><data key="code">JM-14</data><data key="wikidata">Q1473663</data><data key="lon">-77.03023</data><data key="lat">18.03819</data></node>
+    <edge source="JM-01" target="JM-02"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="JM-02" target="JM-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-02" target="JM-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-02" target="JM-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-02" target="JM-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-03" target="JM-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-04" target="JM-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-05" target="JM-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-05" target="JM-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-06" target="JM-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-06" target="JM-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-06" target="JM-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-07" target="JM-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-07" target="JM-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-07" target="JM-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-08" target="JM-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-08" target="JM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-08" target="JM-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-09" target="JM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-10" target="JM-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-11" target="JM-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-12" target="JM-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JM-13" target="JM-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

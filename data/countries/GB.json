@@ -1,0 +1,9747 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GB",
+ "kind": "country",
+ "name": "United Kingdom",
+ "level": "unitary authority",
+ "n": 232,
+ "m": 545,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GB-ABD",
+   "name": "Aberdeenshire",
+   "wikidata": "Q189912",
+   "lon": -2.76627,
+   "lat": 57.22201
+  },
+  {
+   "code": "GB-ABE",
+   "name": "Aberdeen",
+   "wikidata": "Q36405",
+   "lon": -2.17149,
+   "lat": 57.15906
+  },
+  {
+   "code": "GB-AGB",
+   "name": "Argyll and Bute",
+   "wikidata": "Q202174",
+   "lon": -5.86423,
+   "lat": 56.45795
+  },
+  {
+   "code": "GB-AGY",
+   "name": "Anglesey",
+   "wikidata": "Q168159",
+   "lon": -4.32168,
+   "lat": 53.2792
+  },
+  {
+   "code": "GB-ANS",
+   "name": "Angus",
+   "wikidata": "Q202177",
+   "lon": -2.89042,
+   "lat": 56.72931
+  },
+  {
+   "code": "GB-ANT",
+   "name": "Antrim",
+   "wikidata": "Q609214",
+   "lon": -6.25514,
+   "lat": 54.6823
+  },
+  {
+   "code": "GB-ARD",
+   "name": "Ards",
+   "wikidata": "Q640080",
+   "lon": -5.73754,
+   "lat": 54.50072
+  },
+  {
+   "code": "GB-ARM",
+   "name": "Armagh",
+   "wikidata": "Q676704",
+   "lon": -6.62027,
+   "lat": 54.31667
+  },
+  {
+   "code": "GB-BAS",
+   "name": "Bath and North East Somerset",
+   "wikidata": "Q810793",
+   "lon": -2.49198,
+   "lat": 51.34609
+  },
+  {
+   "code": "GB-BBD",
+   "name": "Blackburn with Darwen",
+   "wikidata": "Q880782",
+   "lon": -2.45277,
+   "lat": 53.70152
+  },
+  {
+   "code": "GB-BDF",
+   "name": "Bedford",
+   "wikidata": "Q894077",
+   "lon": -0.46518,
+   "lat": 52.18558
+  },
+  {
+   "code": "GB-BDG",
+   "name": "Barking and Dagenham",
+   "wikidata": "Q205358",
+   "lon": 0.14808,
+   "lat": 51.5484
+  },
+  {
+   "code": "GB-BEN",
+   "name": "Brent",
+   "wikidata": "Q207201",
+   "lon": -0.26924,
+   "lat": 51.55959
+  },
+  {
+   "code": "GB-BEX",
+   "name": "Bexley",
+   "wikidata": "Q207208",
+   "lon": 0.14815,
+   "lat": 51.45411
+  },
+  {
+   "code": "GB-BFS",
+   "name": "Belfast",
+   "wikidata": "Q1140130",
+   "lon": -5.92528,
+   "lat": 54.59944
+  },
+  {
+   "code": "GB-BGE",
+   "name": "Bridgend",
+   "wikidata": "Q697126",
+   "lon": -3.57397,
+   "lat": 51.53057
+  },
+  {
+   "code": "GB-BGW",
+   "name": "Blaenau Gwent",
+   "wikidata": "Q596885",
+   "lon": -3.18137,
+   "lat": 51.76123
+  },
+  {
+   "code": "GB-BIR",
+   "name": "Birmingham",
+   "wikidata": "Q20986424",
+   "lon": -1.87192,
+   "lat": 52.4881
+  },
+  {
+   "code": "GB-BKM",
+   "name": "Buckinghamshire",
+   "wikidata": "Q21694636",
+   "lon": -0.88387,
+   "lat": 51.77634
+  },
+  {
+   "code": "GB-BLA",
+   "name": "Ballymena",
+   "wikidata": "Q805424",
+   "lon": -6.26939,
+   "lat": 54.90174
+  },
+  {
+   "code": "GB-BLY",
+   "name": "Ballymoney",
+   "wikidata": "Q805427",
+   "lon": -6.38843,
+   "lat": 55.0323
+  },
+  {
+   "code": "GB-BMH",
+   "name": "Bournemouth",
+   "wikidata": "Q20989094",
+   "lon": -1.86895,
+   "lat": 50.73294
+  },
+  {
+   "code": "GB-BNB",
+   "name": "Banbridge",
+   "wikidata": "Q806141",
+   "lon": -6.17096,
+   "lat": 54.34773
+  },
+  {
+   "code": "GB-BNE",
+   "name": "Barnet",
+   "wikidata": "Q151048",
+   "lon": -0.2037,
+   "lat": 51.61782
+  },
+  {
+   "code": "GB-BNH",
+   "name": "Brighton and Hove",
+   "wikidata": "Q1022488",
+   "lon": -0.12756,
+   "lat": 50.83952
+  },
+  {
+   "code": "GB-BNS",
+   "name": "Barnsley",
+   "wikidata": "Q1857382",
+   "lon": -1.49606,
+   "lat": 53.50562
+  },
+  {
+   "code": "GB-BOL",
+   "name": "Bolton",
+   "wikidata": "Q1364541",
+   "lon": -2.4585,
+   "lat": 53.59369
+  },
+  {
+   "code": "GB-BPL",
+   "name": "Blackpool",
+   "wikidata": "Q20989106",
+   "lon": -3.00117,
+   "lat": 53.82772
+  },
+  {
+   "code": "GB-BRC",
+   "name": "Bracknell Forest",
+   "wikidata": "Q896725",
+   "lon": -0.75124,
+   "lat": 51.40093
+  },
+  {
+   "code": "GB-BRD",
+   "name": "Bradford",
+   "wikidata": "Q2834810",
+   "lon": -1.80859,
+   "lat": 53.83823
+  },
+  {
+   "code": "GB-BRY",
+   "name": "Bromley",
+   "wikidata": "Q208201",
+   "lon": 0.07221,
+   "lat": 51.36224
+  },
+  {
+   "code": "GB-BST",
+   "name": "Bristol",
+   "wikidata": "Q21693433",
+   "lon": -2.58438,
+   "lat": 51.4584
+  },
+  {
+   "code": "GB-BUR",
+   "name": "Bury",
+   "wikidata": "Q512036",
+   "lon": -2.30196,
+   "lat": 53.56778
+  },
+  {
+   "code": "GB-CAM",
+   "name": "Cambridgeshire",
+   "wikidata": "Q23112",
+   "lon": -0.0349,
+   "lat": 52.36063
+  },
+  {
+   "code": "GB-CAY",
+   "name": "Caerphilly",
+   "wikidata": "Q748065",
+   "lon": -3.17296,
+   "lat": 51.66411
+  },
+  {
+   "code": "GB-CBF",
+   "name": "Central Bedfordshire",
+   "wikidata": "Q1053723",
+   "lon": -0.43281,
+   "lat": 52.00034
+  },
+  {
+   "code": "GB-CGN",
+   "name": "Ceredigion",
+   "wikidata": "Q217829",
+   "lon": -3.9492,
+   "lat": 52.29258
+  },
+  {
+   "code": "GB-CGV",
+   "name": "Craigavon",
+   "wikidata": "Q427201",
+   "lon": -6.40336,
+   "lat": 54.49453
+  },
+  {
+   "code": "GB-CHE",
+   "name": "Cheshire East",
+   "wikidata": "Q1070590",
+   "lon": -2.31258,
+   "lat": 53.16174
+  },
+  {
+   "code": "GB-CHW",
+   "name": "Cheshire West and Chester",
+   "wikidata": "Q1070591",
+   "lon": -2.72307,
+   "lat": 53.14891
+  },
+  {
+   "code": "GB-CKF",
+   "name": "Carrickfergus",
+   "wikidata": "Q1045012",
+   "lon": -5.80687,
+   "lat": 54.7356
+  },
+  {
+   "code": "GB-CKT",
+   "name": "Mid Ulster",
+   "wikidata": "Q1129644",
+   "lon": -6.69485,
+   "lat": 54.64154
+  },
+  {
+   "code": "GB-CLD",
+   "name": "Calderdale",
+   "wikidata": "Q1026448",
+   "lon": -1.94856,
+   "lat": 53.74701
+  },
+  {
+   "code": "GB-CLK",
+   "name": "Clackmannanshire",
+   "wikidata": "Q207268",
+   "lon": -3.74449,
+   "lat": 56.14812
+  },
+  {
+   "code": "GB-CLR",
+   "name": "Coleraine",
+   "wikidata": "Q991411",
+   "lon": -6.70389,
+   "lat": 55.06563
+  },
+  {
+   "code": "GB-CMA",
+   "name": "Cumbria",
+   "wikidata": "Q23066",
+   "lon": -2.93707,
+   "lat": 54.61535
+  },
+  {
+   "code": "GB-CMD",
+   "name": "Camden",
+   "wikidata": "Q202088",
+   "lon": -0.14723,
+   "lat": 51.53525
+  },
+  {
+   "code": "GB-CMN",
+   "name": "Carmarthenshire",
+   "wikidata": "Q217840",
+   "lon": -4.21568,
+   "lat": 51.89363
+  },
+  {
+   "code": "GB-CON",
+   "name": "Cornwall",
+   "wikidata": "Q22338583",
+   "lon": -4.63066,
+   "lat": 50.43989
+  },
+  {
+   "code": "GB-COV",
+   "name": "Coventry",
+   "wikidata": "Q20986417",
+   "lon": -1.53135,
+   "lat": 52.40647
+  },
+  {
+   "code": "GB-CRF",
+   "name": "Cardiff",
+   "wikidata": "Q24342199",
+   "lon": -3.18748,
+   "lat": 51.50404
+  },
+  {
+   "code": "GB-CRY",
+   "name": "Croydon",
+   "wikidata": "Q26888",
+   "lon": -0.05845,
+   "lat": 51.35131
+  },
+  {
+   "code": "GB-CSR",
+   "name": "Castlereagh",
+   "wikidata": "Q1049680",
+   "lon": -5.86813,
+   "lat": 54.55065
+  },
+  {
+   "code": "GB-CWY",
+   "name": "Conwy",
+   "wikidata": "Q817971",
+   "lon": -3.73963,
+   "lat": 53.13702
+  },
+  {
+   "code": "GB-DAL",
+   "name": "Darlington",
+   "wikidata": "Q1171024",
+   "lon": -1.52845,
+   "lat": 54.51786
+  },
+  {
+   "code": "GB-DBY",
+   "name": "Derbyshire",
+   "wikidata": "Q11775003",
+   "lon": -1.54332,
+   "lat": 53.10439
+  },
+  {
+   "code": "GB-DEN",
+   "name": "Denbighshire",
+   "wikidata": "Q650682",
+   "lon": -3.35921,
+   "lat": 53.10288
+  },
+  {
+   "code": "GB-DER",
+   "name": "Derby",
+   "wikidata": "Q21885980",
+   "lon": -1.47185,
+   "lat": 52.88445
+  },
+  {
+   "code": "GB-DEV",
+   "name": "Devon",
+   "wikidata": "Q21694695",
+   "lon": -3.65867,
+   "lat": 50.72996
+  },
+  {
+   "code": "GB-DGN",
+   "name": "Dungannon",
+   "wikidata": "Q1198466",
+   "lon": -6.9571,
+   "lat": 54.44882
+  },
+  {
+   "code": "GB-DGY",
+   "name": "Dumfries and Galloway",
+   "wikidata": "Q126514",
+   "lon": -3.84433,
+   "lat": 55.04873
+  },
+  {
+   "code": "GB-DNC",
+   "name": "Doncaster",
+   "wikidata": "Q1925846",
+   "lon": -1.11925,
+   "lat": 53.523
+  },
+  {
+   "code": "GB-DND",
+   "name": "Dundee",
+   "wikidata": "Q2357511",
+   "lon": -2.95119,
+   "lat": 56.48229
+  },
+  {
+   "code": "GB-DOR",
+   "name": "Dorset",
+   "wikidata": "Q23159",
+   "lon": -2.34852,
+   "lat": 50.80411
+  },
+  {
+   "code": "GB-DOW",
+   "name": "Down",
+   "wikidata": "Q1198492",
+   "lon": -5.75597,
+   "lat": 54.33421
+  },
+  {
+   "code": "GB-DRY",
+   "name": "Derry",
+   "wikidata": "Q1200370",
+   "lon": -7.24539,
+   "lat": 54.93897
+  },
+  {
+   "code": "GB-DUD",
+   "name": "Dudley",
+   "wikidata": "Q1617704",
+   "lon": -2.12879,
+   "lat": 52.49487
+  },
+  {
+   "code": "GB-DUR",
+   "name": "Durham",
+   "wikidata": "Q1137286",
+   "lon": -1.82276,
+   "lat": 54.67396
+  },
+  {
+   "code": "GB-EAL",
+   "name": "Ealing",
+   "wikidata": "Q207218",
+   "lon": -0.30318,
+   "lat": 51.51861
+  },
+  {
+   "code": "GB-EAY",
+   "name": "East Ayrshire",
+   "wikidata": "Q209135",
+   "lon": -4.24408,
+   "lat": 55.44988
+  },
+  {
+   "code": "GB-EDH",
+   "name": "Edinburgh",
+   "wikidata": "Q23436",
+   "lon": -3.26325,
+   "lat": 55.90894
+  },
+  {
+   "code": "GB-EDU",
+   "name": "East Dunbartonshire",
+   "wikidata": "Q211889",
+   "lon": -4.20037,
+   "lat": 55.95819
+  },
+  {
+   "code": "GB-ELN",
+   "name": "East Lothian",
+   "wikidata": "Q207257",
+   "lon": -2.71555,
+   "lat": 55.93859
+  },
+  {
+   "code": "GB-ELS",
+   "name": "Eilean Siar",
+   "wikidata": "Q80967",
+   "lon": -6.655,
+   "lat": 58.12269
+  },
+  {
+   "code": "GB-ENF",
+   "name": "Enfield",
+   "wikidata": "Q210531",
+   "lon": -0.07705,
+   "lat": 51.64147
+  },
+  {
+   "code": "GB-ERW",
+   "name": "East Renfrewshire",
+   "wikidata": "Q211925",
+   "lon": -4.38329,
+   "lat": 55.75505
+  },
+  {
+   "code": "GB-ERY",
+   "name": "East Riding of Yorkshire",
+   "wikidata": "Q21695028",
+   "lon": -0.52027,
+   "lat": 53.85174
+  },
+  {
+   "code": "GB-ESS",
+   "name": "Essex",
+   "wikidata": "Q21272241",
+   "lon": 0.53744,
+   "lat": 51.79652
+  },
+  {
+   "code": "GB-ESX",
+   "name": "East Sussex",
+   "wikidata": "Q21694646",
+   "lon": 0.3612,
+   "lat": 50.94676
+  },
+  {
+   "code": "GB-FAL",
+   "name": "Falkirk",
+   "wikidata": "Q216802",
+   "lon": -3.77756,
+   "lat": 55.97661
+  },
+  {
+   "code": "GB-FER",
+   "name": "Fermanagh",
+   "wikidata": "Q1198461",
+   "lon": -7.65785,
+   "lat": 54.36066
+  },
+  {
+   "code": "GB-FIF",
+   "name": "Fife",
+   "wikidata": "Q201149",
+   "lon": -2.99184,
+   "lat": 56.24257
+  },
+  {
+   "code": "GB-FLN",
+   "name": "Flintshire",
+   "wikidata": "Q505610",
+   "lon": -3.13977,
+   "lat": 53.21009
+  },
+  {
+   "code": "GB-GAT",
+   "name": "Gateshead",
+   "wikidata": "Q929034",
+   "lon": -1.6693,
+   "lat": 54.94685
+  },
+  {
+   "code": "GB-GLG",
+   "name": "Glasgow",
+   "wikidata": "Q4093",
+   "lon": -4.21748,
+   "lat": 55.84651
+  },
+  {
+   "code": "GB-GLS",
+   "name": "Gloucestershire",
+   "wikidata": "Q21694733",
+   "lon": -2.14408,
+   "lat": 51.84118
+  },
+  {
+   "code": "GB-GRE",
+   "name": "Greenwich",
+   "wikidata": "Q693450",
+   "lon": 0.05117,
+   "lat": 51.46245
+  },
+  {
+   "code": "GB-GWN",
+   "name": "Gwynedd",
+   "wikidata": "Q109128",
+   "lon": -3.7899,
+   "lat": 52.89646
+  },
+  {
+   "code": "GB-HAL",
+   "name": "Halton",
+   "wikidata": "Q376141",
+   "lon": -2.67606,
+   "lat": 53.33952
+  },
+  {
+   "code": "GB-HAM",
+   "name": "Hampshire",
+   "wikidata": "Q23204",
+   "lon": -1.23776,
+   "lat": 51.04882
+  },
+  {
+   "code": "GB-HAV",
+   "name": "Havering",
+   "wikidata": "Q215038",
+   "lon": 0.25734,
+   "lat": 51.5553
+  },
+  {
+   "code": "GB-HCK",
+   "name": "Hackney",
+   "wikidata": "Q205679",
+   "lon": -0.04046,
+   "lat": 51.54475
+  },
+  {
+   "code": "GB-HEF",
+   "name": "Herefordshire",
+   "wikidata": "Q23129",
+   "lon": -2.73052,
+   "lat": 52.10335
+  },
+  {
+   "code": "GB-HIL",
+   "name": "Hillingdon",
+   "wikidata": "Q205690",
+   "lon": -0.42706,
+   "lat": 51.54151
+  },
+  {
+   "code": "GB-HLD",
+   "name": "Highland",
+   "wikidata": "Q208279",
+   "lon": -5.07124,
+   "lat": 57.58698
+  },
+  {
+   "code": "GB-HMF",
+   "name": "Hammersmith and Fulham",
+   "wikidata": "Q40478",
+   "lon": -0.22311,
+   "lat": 51.496
+  },
+  {
+   "code": "GB-HNS",
+   "name": "Hounslow",
+   "wikidata": "Q214162",
+   "lon": -0.37288,
+   "lat": 51.45474
+  },
+  {
+   "code": "GB-HPL",
+   "name": "Hartlepool",
+   "wikidata": "Q2594690",
+   "lon": -1.25486,
+   "lat": 54.6684
+  },
+  {
+   "code": "GB-HRT",
+   "name": "Hertfordshire",
+   "wikidata": "Q3410",
+   "lon": -0.09377,
+   "lat": 51.83175
+  },
+  {
+   "code": "GB-HRW",
+   "name": "Harrow",
+   "wikidata": "Q210476",
+   "lon": -0.3335,
+   "lat": 51.59522
+  },
+  {
+   "code": "GB-HRY",
+   "name": "Haringey",
+   "wikidata": "Q213560",
+   "lon": -0.09627,
+   "lat": 51.58435
+  },
+  {
+   "code": "GB-IOS",
+   "name": "Isles of Scilly",
+   "wikidata": "Q180209",
+   "lon": -6.2972,
+   "lat": 49.91838
+  },
+  {
+   "code": "GB-IOW",
+   "name": "Isle of Wight",
+   "wikidata": "Q9679",
+   "lon": -1.32313,
+   "lat": 50.67542
+  },
+  {
+   "code": "GB-ISL",
+   "name": "Islington",
+   "wikidata": "Q205817",
+   "lon": -0.09545,
+   "lat": 51.54716
+  },
+  {
+   "code": "GB-IVC",
+   "name": "Inverclyde",
+   "wikidata": "Q208271",
+   "lon": -4.75085,
+   "lat": 55.90607
+  },
+  {
+   "code": "GB-KEC",
+   "name": "Kensington and Chelsea",
+   "wikidata": "Q188801",
+   "lon": -0.18687,
+   "lat": 51.49598
+  },
+  {
+   "code": "GB-KEN",
+   "name": "Kent",
+   "wikidata": "Q21694674",
+   "lon": 0.72973,
+   "lat": 51.19674
+  },
+  {
+   "code": "GB-KHL",
+   "name": "Kingston upon Hull",
+   "wikidata": "Q128147",
+   "lon": -0.37091,
+   "lat": 53.7581
+  },
+  {
+   "code": "GB-KIR",
+   "name": "Kirklees",
+   "wikidata": "Q918975",
+   "lon": -1.8061,
+   "lat": 53.64424
+  },
+  {
+   "code": "GB-KTT",
+   "name": "Kingston upon Thames",
+   "wikidata": "Q32508",
+   "lon": -0.27002,
+   "lat": 51.37875
+  },
+  {
+   "code": "GB-KWL",
+   "name": "Knowsley",
+   "wikidata": "Q1228523",
+   "lon": -2.84574,
+   "lat": 53.42488
+  },
+  {
+   "code": "GB-LAN",
+   "name": "Lancashire",
+   "wikidata": "Q21279371",
+   "lon": -2.51993,
+   "lat": 53.87564
+  },
+  {
+   "code": "GB-LBH",
+   "name": "Lambeth",
+   "wikidata": "Q202059",
+   "lon": -0.11232,
+   "lat": 51.45691
+  },
+  {
+   "code": "GB-LCE",
+   "name": "Leicester",
+   "wikidata": "Q83065",
+   "lon": -1.11887,
+   "lat": 52.60682
+  },
+  {
+   "code": "GB-LDS",
+   "name": "Leeds",
+   "wikidata": "Q774015",
+   "lon": -1.4914,
+   "lat": 53.80653
+  },
+  {
+   "code": "GB-LEC",
+   "name": "Leicestershire",
+   "wikidata": "Q21272890",
+   "lon": -1.18271,
+   "lat": 52.66467
+  },
+  {
+   "code": "GB-LEW",
+   "name": "Lewisham",
+   "wikidata": "Q215030",
+   "lon": -0.00776,
+   "lat": 51.44992
+  },
+  {
+   "code": "GB-LIN",
+   "name": "Lincolnshire",
+   "wikidata": "Q21269047",
+   "lon": -0.17956,
+   "lat": 53.12895
+  },
+  {
+   "code": "GB-LIV",
+   "name": "Liverpool",
+   "wikidata": "Q21665571",
+   "lon": -2.9491,
+   "lat": 53.41305
+  },
+  {
+   "code": "GB-LMV",
+   "name": "Limavady",
+   "wikidata": "Q1198505",
+   "lon": -6.97549,
+   "lat": 55.00383
+  },
+  {
+   "code": "GB-LND",
+   "name": "City",
+   "wikidata": "Q23311",
+   "lon": -0.08546,
+   "lat": 51.517
+  },
+  {
+   "code": "GB-LRN",
+   "name": "Larne",
+   "wikidata": "Q1198470",
+   "lon": -5.94453,
+   "lat": 54.90204
+  },
+  {
+   "code": "GB-LSB",
+   "name": "Lisburn",
+   "wikidata": "Q210647",
+   "lon": -6.06269,
+   "lat": 54.49784
+  },
+  {
+   "code": "GB-LUT",
+   "name": "Luton",
+   "wikidata": "Q21683239",
+   "lon": -0.41123,
+   "lat": 51.87213
+  },
+  {
+   "code": "GB-MAN",
+   "name": "Manchester",
+   "wikidata": "Q21525592",
+   "lon": -2.27038,
+   "lat": 53.44481
+  },
+  {
+   "code": "GB-MDB",
+   "name": "Middlesbrough",
+   "wikidata": "Q2673020",
+   "lon": -1.25151,
+   "lat": 54.53533
+  },
+  {
+   "code": "GB-MDW",
+   "name": "Medway",
+   "wikidata": "Q797782",
+   "lon": 0.53515,
+   "lat": 51.40082
+  },
+  {
+   "code": "GB-MFT",
+   "name": "Magherafelt",
+   "wikidata": "Q1198482",
+   "lon": -6.68952,
+   "lat": 54.82164
+  },
+  {
+   "code": "GB-MIK",
+   "name": "Milton Keynes",
+   "wikidata": "Q894090",
+   "lon": -0.72341,
+   "lat": 52.068
+  },
+  {
+   "code": "GB-MLN",
+   "name": "Midlothian",
+   "wikidata": "Q206934",
+   "lon": -3.07912,
+   "lat": 55.8276
+  },
+  {
+   "code": "GB-MON",
+   "name": "Monmouthshire",
+   "wikidata": "Q207176",
+   "lon": -2.86144,
+   "lat": 51.77532
+  },
+  {
+   "code": "GB-MRT",
+   "name": "Merton",
+   "wikidata": "Q32504",
+   "lon": -0.18228,
+   "lat": 51.4073
+  },
+  {
+   "code": "GB-MRY",
+   "name": "Moray",
+   "wikidata": "Q211106",
+   "lon": -3.19888,
+   "lat": 57.40296
+  },
+  {
+   "code": "GB-MTY",
+   "name": "Merthyr Tydfil",
+   "wikidata": "Q3306663",
+   "lon": -3.36039,
+   "lat": 51.73204
+  },
+  {
+   "code": "GB-MYL",
+   "name": "Moyle",
+   "wikidata": "Q1198496",
+   "lon": -6.13404,
+   "lat": 55.11628
+  },
+  {
+   "code": "GB-NAY",
+   "name": "North Ayshire",
+   "wikidata": "Q206926",
+   "lon": -4.72136,
+   "lat": 55.72492
+  },
+  {
+   "code": "GB-NBL",
+   "name": "Northumberland",
+   "wikidata": "Q23079",
+   "lon": -2.07687,
+   "lat": 55.28992
+  },
+  {
+   "code": "GB-NDN",
+   "name": "North Down",
+   "wikidata": "Q1156987",
+   "lon": -5.71988,
+   "lat": 54.64774
+  },
+  {
+   "code": "GB-NEL",
+   "name": "North East Lincolnshire",
+   "wikidata": "Q1342914",
+   "lon": -0.09234,
+   "lat": 53.53003
+  },
+  {
+   "code": "GB-NET",
+   "name": "Newcastle upon Tyne",
+   "wikidata": "Q21012735",
+   "lon": -1.64872,
+   "lat": 55.00919
+  },
+  {
+   "code": "GB-NFK",
+   "name": "Norfolk",
+   "wikidata": "Q23109",
+   "lon": 0.95223,
+   "lat": 52.66562
+  },
+  {
+   "code": "GB-NGM",
+   "name": "Nottingham",
+   "wikidata": "Q21885994",
+   "lon": -1.16594,
+   "lat": 52.92959
+  },
+  {
+   "code": "GB-NLK",
+   "name": "North Lanarkshire",
+   "wikidata": "Q207111",
+   "lon": -3.97534,
+   "lat": 55.88009
+  },
+  {
+   "code": "GB-NLN",
+   "name": "North Lincolnshire",
+   "wikidata": "Q175945",
+   "lon": -0.57627,
+   "lat": 53.58229
+  },
+  {
+   "code": "GB-NSM",
+   "name": "North Somerset",
+   "wikidata": "Q178196",
+   "lon": -2.79773,
+   "lat": 51.39128
+  },
+  {
+   "code": "GB-NTA",
+   "name": "Newtownabbey",
+   "wikidata": "Q1198475",
+   "lon": -5.97524,
+   "lat": 54.71993
+  },
+  {
+   "code": "GB-NTH",
+   "name": "Northamptonshire",
+   "wikidata": "Q23115",
+   "lon": -0.84251,
+   "lat": 52.30754
+  },
+  {
+   "code": "GB-NTL",
+   "name": "Neath Port Talbot",
+   "wikidata": "Q748078",
+   "lon": -3.70548,
+   "lat": 51.66287
+  },
+  {
+   "code": "GB-NTT",
+   "name": "Nottinghamshire",
+   "wikidata": "Q21272736",
+   "lon": -1.0091,
+   "lat": 53.12435
+  },
+  {
+   "code": "GB-NTY",
+   "name": "North Tyneside",
+   "wikidata": "Q1120443",
+   "lon": -1.51077,
+   "lat": 55.02882
+  },
+  {
+   "code": "GB-NWM",
+   "name": "Newham",
+   "wikidata": "Q208139",
+   "lon": 0.03841,
+   "lat": 51.52706
+  },
+  {
+   "code": "GB-NWP",
+   "name": "Newport",
+   "wikidata": "Q5283458",
+   "lon": -2.97149,
+   "lat": 51.57634
+  },
+  {
+   "code": "GB-NYK",
+   "name": "North Yorkshire",
+   "wikidata": "Q21241814",
+   "lon": -1.49653,
+   "lat": 54.09231
+  },
+  {
+   "code": "GB-NYM",
+   "name": "Newry and Mourne",
+   "wikidata": "Q606825",
+   "lon": -6.25326,
+   "lat": 54.15573
+  },
+  {
+   "code": "GB-OLD",
+   "name": "Oldham",
+   "wikidata": "Q1278608",
+   "lon": -2.04063,
+   "lat": 53.54986
+  },
+  {
+   "code": "GB-OMH",
+   "name": "Omagh",
+   "wikidata": "Q505691",
+   "lon": -7.31922,
+   "lat": 54.59021
+  },
+  {
+   "code": "GB-ORK",
+   "name": "Orkney",
+   "wikidata": "Q100166",
+   "lon": -3.28802,
+   "lat": 58.85643
+  },
+  {
+   "code": "GB-OXF",
+   "name": "Oxfordshire",
+   "wikidata": "Q23169",
+   "lon": -1.39556,
+   "lat": 51.80549
+  },
+  {
+   "code": "GB-PEM",
+   "name": "Pembrokeshire",
+   "wikidata": "Q213361",
+   "lon": -4.92442,
+   "lat": 51.85493
+  },
+  {
+   "code": "GB-PKN",
+   "name": "Perthshire and Kinross",
+   "wikidata": "Q207679",
+   "lon": -3.74968,
+   "lat": 56.53619
+  },
+  {
+   "code": "GB-PLY",
+   "name": "Plymouth",
+   "wikidata": "Q21674890",
+   "lon": -4.10929,
+   "lat": 50.39508
+  },
+  {
+   "code": "GB-POL",
+   "name": "Poole",
+   "wikidata": "Q21683234",
+   "lon": -1.97343,
+   "lat": 50.73422
+  },
+  {
+   "code": "GB-POR",
+   "name": "Portsmouth",
+   "wikidata": "Q21683233",
+   "lon": -1.06134,
+   "lat": 50.81942
+  },
+  {
+   "code": "GB-POW",
+   "name": "Powys",
+   "wikidata": "Q156150",
+   "lon": -3.36041,
+   "lat": 52.31035
+  },
+  {
+   "code": "GB-PTE",
+   "name": "Peterborough",
+   "wikidata": "Q12956645",
+   "lon": -0.27299,
+   "lat": 52.58459
+  },
+  {
+   "code": "GB-RCC",
+   "name": "Redcar and Cleveland",
+   "wikidata": "Q1434448",
+   "lon": -1.03154,
+   "lat": 54.57095
+  },
+  {
+   "code": "GB-RCH",
+   "name": "Rochdale",
+   "wikidata": "Q1892596",
+   "lon": -2.14943,
+   "lat": 53.60012
+  },
+  {
+   "code": "GB-RCT",
+   "name": "Rhondda, Cynon, Taff",
+   "wikidata": "Q817960",
+   "lon": -3.44025,
+   "lat": 51.66287
+  },
+  {
+   "code": "GB-RDB",
+   "name": "Redbridge",
+   "wikidata": "Q208955",
+   "lon": 0.07912,
+   "lat": 51.57915
+  },
+  {
+   "code": "GB-RDG",
+   "name": "Reading",
+   "wikidata": "Q21496716",
+   "lon": -1.02748,
+   "lat": 51.44351
+  },
+  {
+   "code": "GB-RFW",
+   "name": "Renfrewshire",
+   "wikidata": "Q211091",
+   "lon": -4.4766,
+   "lat": 55.84711
+  },
+  {
+   "code": "GB-RIC",
+   "name": "Richmond upon Thames",
+   "wikidata": "Q32515",
+   "lon": -0.30043,
+   "lat": 51.43554
+  },
+  {
+   "code": "GB-ROT",
+   "name": "Rotherham",
+   "wikidata": "Q1878732",
+   "lon": -1.27721,
+   "lat": 53.39153
+  },
+  {
+   "code": "GB-RUT",
+   "name": "Rutland",
+   "wikidata": "Q23107",
+   "lon": -0.65439,
+   "lat": 52.63007
+  },
+  {
+   "code": "GB-SAW",
+   "name": "Sandwell",
+   "wikidata": "Q285964",
+   "lon": -2.01593,
+   "lat": 52.50587
+  },
+  {
+   "code": "GB-SAY",
+   "name": "South Ayrshire",
+   "wikidata": "Q209131",
+   "lon": -4.64344,
+   "lat": 55.28893
+  },
+  {
+   "code": "GB-SCB",
+   "name": "Scottish Borders",
+   "wikidata": "Q211113",
+   "lon": -2.8602,
+   "lat": 55.52641
+  },
+  {
+   "code": "GB-SFK",
+   "name": "Suffolk",
+   "wikidata": "Q23111",
+   "lon": 0.99916,
+   "lat": 52.24224
+  },
+  {
+   "code": "GB-SFT",
+   "name": "Sefton",
+   "wikidata": "Q1546645",
+   "lon": -3.03964,
+   "lat": 53.60358
+  },
+  {
+   "code": "GB-SGC",
+   "name": "South Gloucestershire",
+   "wikidata": "Q1369280",
+   "lon": -2.46435,
+   "lat": 51.53923
+  },
+  {
+   "code": "GB-SHF",
+   "name": "Sheffield",
+   "wikidata": "Q12956644",
+   "lon": -1.54801,
+   "lat": 53.3955
+  },
+  {
+   "code": "GB-SHN",
+   "name": "Merseyside",
+   "wikidata": "Q179206",
+   "lon": -2.69581,
+   "lat": 53.45426
+  },
+  {
+   "code": "GB-SHR",
+   "name": "Shropshire",
+   "wikidata": "Q21694759",
+   "lon": -2.77563,
+   "lat": 52.64609
+  },
+  {
+   "code": "GB-SKP",
+   "name": "Stockport",
+   "wikidata": "Q1752424",
+   "lon": -2.12121,
+   "lat": 53.3862
+  },
+  {
+   "code": "GB-SLF",
+   "name": "Salford",
+   "wikidata": "Q1142118",
+   "lon": -2.39758,
+   "lat": 53.48796
+  },
+  {
+   "code": "GB-SLG",
+   "name": "Slough",
+   "wikidata": "Q21163036",
+   "lon": -0.55076,
+   "lat": 51.48155
+  },
+  {
+   "code": "GB-SLK",
+   "name": "South Lanarkshire",
+   "wikidata": "Q209142",
+   "lon": -3.73253,
+   "lat": 55.56002
+  },
+  {
+   "code": "GB-SND",
+   "name": "Sunderland",
+   "wikidata": "Q1280897",
+   "lon": -1.47164,
+   "lat": 54.85929
+  },
+  {
+   "code": "GB-SOL",
+   "name": "Solihull",
+   "wikidata": "Q1925858",
+   "lon": -1.70782,
+   "lat": 52.41462
+  },
+  {
+   "code": "GB-SOM",
+   "name": "Somerset",
+   "wikidata": "Q21694741",
+   "lon": -2.9944,
+   "lat": 51.07358
+  },
+  {
+   "code": "GB-SOS",
+   "name": "Southend-on-Sea",
+   "wikidata": "Q203995",
+   "lon": 0.71425,
+   "lat": 51.55551
+  },
+  {
+   "code": "GB-SRY",
+   "name": "Surrey",
+   "wikidata": "Q23276",
+   "lon": -0.33611,
+   "lat": 51.27938
+  },
+  {
+   "code": "GB-STB",
+   "name": "Strabane",
+   "wikidata": "Q1198500",
+   "lon": -7.28182,
+   "lat": 54.77188
+  },
+  {
+   "code": "GB-STE",
+   "name": "Stoke-on-Trent",
+   "wikidata": "Q21891722",
+   "lon": -2.17314,
+   "lat": 53.02519
+  },
+  {
+   "code": "GB-STG",
+   "name": "Stirling",
+   "wikidata": "Q217838",
+   "lon": -4.32165,
+   "lat": 56.2496
+  },
+  {
+   "code": "GB-STH",
+   "name": "Southampton",
+   "wikidata": "Q21683230",
+   "lon": -1.3612,
+   "lat": 50.90012
+  },
+  {
+   "code": "GB-STN",
+   "name": "Sutton",
+   "wikidata": "Q320378",
+   "lon": -0.16447,
+   "lat": 51.35366
+  },
+  {
+   "code": "GB-STS",
+   "name": "Staffordshire",
+   "wikidata": "Q21694786",
+   "lon": -1.99093,
+   "lat": 52.81618
+  },
+  {
+   "code": "GB-STT",
+   "name": "Stockton-on-Tees",
+   "wikidata": "Q894094",
+   "lon": -1.36343,
+   "lat": 54.53977
+  },
+  {
+   "code": "GB-STY",
+   "name": "South Tyneside",
+   "wikidata": "Q1541228",
+   "lon": -1.44613,
+   "lat": 54.95647
+  },
+  {
+   "code": "GB-SWA",
+   "name": "Swansea",
+   "wikidata": "Q10996863",
+   "lon": -3.96934,
+   "lat": 51.65363
+  },
+  {
+   "code": "GB-SWD",
+   "name": "Swindon",
+   "wikidata": "Q894093",
+   "lon": -1.74964,
+   "lat": 51.57063
+  },
+  {
+   "code": "GB-SWK",
+   "name": "Southwark",
+   "wikidata": "Q730706",
+   "lon": -0.0642,
+   "lat": 51.46624
+  },
+  {
+   "code": "GB-TAM",
+   "name": "Tameside",
+   "wikidata": "Q1423078",
+   "lon": -2.10327,
+   "lat": 53.45132
+  },
+  {
+   "code": "GB-TFW",
+   "name": "Telford and Wrekin",
+   "wikidata": "Q1425298",
+   "lon": -2.48228,
+   "lat": 52.70371
+  },
+  {
+   "code": "GB-THR",
+   "name": "Thurrock",
+   "wikidata": "Q1549155",
+   "lon": 0.34838,
+   "lat": 51.50219
+  },
+  {
+   "code": "GB-TOB",
+   "name": "Torbay",
+   "wikidata": "Q1136118",
+   "lon": -3.60014,
+   "lat": 50.43986
+  },
+  {
+   "code": "GB-TOF",
+   "name": "Torfaen",
+   "wikidata": "Q643919",
+   "lon": -3.04458,
+   "lat": 51.69784
+  },
+  {
+   "code": "GB-TRF",
+   "name": "Trafford",
+   "wikidata": "Q915954",
+   "lon": -2.37883,
+   "lat": 53.41299
+  },
+  {
+   "code": "GB-TWH",
+   "name": "Tower Hamlets",
+   "wikidata": "Q208152",
+   "lon": -0.03008,
+   "lat": 51.51153
+  },
+  {
+   "code": "GB-VGL",
+   "name": "Vale of Glamorgan",
+   "wikidata": "Q844784",
+   "lon": -3.34466,
+   "lat": 51.45119
+  },
+  {
+   "code": "GB-WAR",
+   "name": "Warwickshire",
+   "wikidata": "Q23140",
+   "lon": -1.54734,
+   "lat": 52.31535
+  },
+  {
+   "code": "GB-WBK",
+   "name": "West Berkshire",
+   "wikidata": "Q1473780",
+   "lon": -1.30405,
+   "lat": 51.44273
+  },
+  {
+   "code": "GB-WDU",
+   "name": "West Dunbartonshire",
+   "wikidata": "Q208121",
+   "lon": -4.4814,
+   "lat": 55.96594
+  },
+  {
+   "code": "GB-WFT",
+   "name": "Waltham Forest",
+   "wikidata": "Q40608",
+   "lon": -0.00488,
+   "lat": 51.59965
+  },
+  {
+   "code": "GB-WGN",
+   "name": "Wigan",
+   "wikidata": "Q684307",
+   "lon": -2.61667,
+   "lat": 53.52244
+  },
+  {
+   "code": "GB-WIL",
+   "name": "Wiltshire",
+   "wikidata": "Q21694746",
+   "lon": -1.89852,
+   "lat": 51.3206
+  },
+  {
+   "code": "GB-WKF",
+   "name": "Wakefield",
+   "wikidata": "Q763171",
+   "lon": -1.42576,
+   "lat": 53.65497
+  },
+  {
+   "code": "GB-WLL",
+   "name": "Walsall",
+   "wikidata": "Q178356",
+   "lon": -1.96733,
+   "lat": 52.61037
+  },
+  {
+   "code": "GB-WLN",
+   "name": "West Lothian",
+   "wikidata": "Q204940",
+   "lon": -3.60412,
+   "lat": 55.88667
+  },
+  {
+   "code": "GB-WLV",
+   "name": "Wolverhampton",
+   "wikidata": "Q21885975",
+   "lon": -2.11119,
+   "lat": 52.59452
+  },
+  {
+   "code": "GB-WND",
+   "name": "Wandsworth",
+   "wikidata": "Q210563",
+   "lon": -0.19364,
+   "lat": 51.45451
+  },
+  {
+   "code": "GB-WNM",
+   "name": "Royal Borough of Windsor and Maidenhead",
+   "wikidata": "Q1368496",
+   "lon": -0.69,
+   "lat": 51.46694
+  },
+  {
+   "code": "GB-WOK",
+   "name": "Wokingham",
+   "wikidata": "Q1758432",
+   "lon": -0.89313,
+   "lat": 51.44569
+  },
+  {
+   "code": "GB-WOR",
+   "name": "Worcestershire",
+   "wikidata": "Q23135",
+   "lon": -2.16153,
+   "lat": 52.20048
+  },
+  {
+   "code": "GB-WRL",
+   "name": "Wirral",
+   "wikidata": "Q11365639",
+   "lon": -3.06091,
+   "lat": 53.34803
+  },
+  {
+   "code": "GB-WRT",
+   "name": "Warrington",
+   "wikidata": "Q894095",
+   "lon": -2.55877,
+   "lat": 53.38703
+  },
+  {
+   "code": "GB-WRX",
+   "name": "Wrexham",
+   "wikidata": "Q843868",
+   "lon": -2.91598,
+   "lat": 52.96104
+  },
+  {
+   "code": "GB-WSM",
+   "name": "Westminster",
+   "wikidata": "Q179351",
+   "lon": -0.1463,
+   "lat": 51.50514
+  },
+  {
+   "code": "GB-WSX",
+   "name": "West Sussex",
+   "wikidata": "Q23287",
+   "lon": -0.51275,
+   "lat": 50.94661
+  },
+  {
+   "code": "GB-YOR",
+   "name": "York",
+   "wikidata": "Q20986421",
+   "lon": -1.07949,
+   "lat": 53.9572
+  },
+  {
+   "code": "GB-ZET",
+   "name": "Shetland Islands",
+   "wikidata": "Q47134",
+   "lon": -1.53457,
+   "lat": 60.24769
+  }
+ ],
+ "edges": [
+  {
+   "u": "GB-ABD",
+   "v": "GB-ABE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 56402
+  },
+  {
+   "u": "GB-ABD",
+   "v": "GB-ANS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86889
+  },
+  {
+   "u": "GB-ABD",
+   "v": "GB-HLD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21466
+  },
+  {
+   "u": "GB-ABD",
+   "v": "GB-MRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 122443
+  },
+  {
+   "u": "GB-ABD",
+   "v": "GB-PKN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30128
+  },
+  {
+   "u": "GB-AGB",
+   "v": "GB-HLD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40511
+  },
+  {
+   "u": "GB-AGB",
+   "v": "GB-PKN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38254
+  },
+  {
+   "u": "GB-AGB",
+   "v": "GB-STG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64028
+  },
+  {
+   "u": "GB-AGB",
+   "v": "GB-WDU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15301
+  },
+  {
+   "u": "GB-ANS",
+   "v": "GB-DND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22141
+  },
+  {
+   "u": "GB-ANS",
+   "v": "GB-PKN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59864
+  },
+  {
+   "u": "GB-ANT",
+   "v": "GB-BFS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7092
+  },
+  {
+   "u": "GB-ANT",
+   "v": "GB-BLA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29464
+  },
+  {
+   "u": "GB-ANT",
+   "v": "GB-CGV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16852
+  },
+  {
+   "u": "GB-ANT",
+   "v": "GB-CKT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17375
+  },
+  {
+   "u": "GB-ANT",
+   "v": "GB-LSB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13749
+  },
+  {
+   "u": "GB-ANT",
+   "v": "GB-MFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9074
+  },
+  {
+   "u": "GB-ANT",
+   "v": "GB-NTA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18034
+  },
+  {
+   "u": "GB-ARD",
+   "v": "GB-CSR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16041
+  },
+  {
+   "u": "GB-ARD",
+   "v": "GB-DOW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14524
+  },
+  {
+   "u": "GB-ARD",
+   "v": "GB-NDN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16680,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ards_(borough)"
+    }
+   ]
+  },
+  {
+   "u": "GB-ARM",
+   "v": "GB-BNB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13820
+  },
+  {
+   "u": "GB-ARM",
+   "v": "GB-CGV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16698
+  },
+  {
+   "u": "GB-ARM",
+   "v": "GB-DGN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33594
+  },
+  {
+   "u": "GB-ARM",
+   "v": "GB-NYM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26955
+  },
+  {
+   "u": "GB-BAS",
+   "v": "GB-BST",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10212
+  },
+  {
+   "u": "GB-BAS",
+   "v": "GB-NSM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12800
+  },
+  {
+   "u": "GB-BAS",
+   "v": "GB-SGC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17736
+  },
+  {
+   "u": "GB-BAS",
+   "v": "GB-SOM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35521
+  },
+  {
+   "u": "GB-BAS",
+   "v": "GB-WIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14842
+  },
+  {
+   "u": "GB-BBD",
+   "v": "GB-BOL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9646
+  },
+  {
+   "u": "GB-BBD",
+   "v": "GB-BUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3760
+  },
+  {
+   "u": "GB-BBD",
+   "v": "GB-LAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33511
+  },
+  {
+   "u": "GB-BDF",
+   "v": "GB-CAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22671
+  },
+  {
+   "u": "GB-BDF",
+   "v": "GB-CBF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32599
+  },
+  {
+   "u": "GB-BDF",
+   "v": "GB-MIK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13168
+  },
+  {
+   "u": "GB-BDF",
+   "v": "GB-NTH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26062
+  },
+  {
+   "u": "GB-BDG",
+   "v": "GB-BEX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3320,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Barking_and_Dagenham"
+    }
+   ]
+  },
+  {
+   "u": "GB-BDG",
+   "v": "GB-GRE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1736,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Barking_and_Dagenham"
+    }
+   ]
+  },
+  {
+   "u": "GB-BDG",
+   "v": "GB-HAV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14109
+  },
+  {
+   "u": "GB-BDG",
+   "v": "GB-NWM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5724
+  },
+  {
+   "u": "GB-BDG",
+   "v": "GB-RDB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9870
+  },
+  {
+   "u": "GB-BEN",
+   "v": "GB-BNE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7647
+  },
+  {
+   "u": "GB-BEN",
+   "v": "GB-CMD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3165
+  },
+  {
+   "u": "GB-BEN",
+   "v": "GB-EAL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7973
+  },
+  {
+   "u": "GB-BEN",
+   "v": "GB-HMF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1858
+  },
+  {
+   "u": "GB-BEN",
+   "v": "GB-HRW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7987
+  },
+  {
+   "u": "GB-BEN",
+   "v": "GB-KEC",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "wikidata_p47"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "GB-BEN",
+   "v": "GB-WSM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2991
+  },
+  {
+   "u": "GB-BEX",
+   "v": "GB-BRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7346
+  },
+  {
+   "u": "GB-BEX",
+   "v": "GB-GRE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9708
+  },
+  {
+   "u": "GB-BEX",
+   "v": "GB-HAV",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "hand",
+     "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5108,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Havering"
+    }
+   ]
+  },
+  {
+   "u": "GB-BEX",
+   "v": "GB-KEN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9643
+  },
+  {
+   "u": "GB-BEX",
+   "v": "GB-THR",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "hand",
+     "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2225
+  },
+  {
+   "u": "GB-BFS",
+   "v": "GB-CSR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12986
+  },
+  {
+   "u": "GB-BFS",
+   "v": "GB-LSB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13846
+  },
+  {
+   "u": "GB-BFS",
+   "v": "GB-NDN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4166
+  },
+  {
+   "u": "GB-BFS",
+   "v": "GB-NTA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8999
+  },
+  {
+   "u": "GB-BGE",
+   "v": "GB-NTL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28120
+  },
+  {
+   "u": "GB-BGE",
+   "v": "GB-RCT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17418
+  },
+  {
+   "u": "GB-BGE",
+   "v": "GB-VGL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16656
+  },
+  {
+   "u": "GB-BGW",
+   "v": "GB-CAY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17229
+  },
+  {
+   "u": "GB-BGW",
+   "v": "GB-MON",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2678
+  },
+  {
+   "u": "GB-BGW",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11160
+  },
+  {
+   "u": "GB-BGW",
+   "v": "GB-TOF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11025
+  },
+  {
+   "u": "GB-BIR",
+   "v": "GB-DUD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3009,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Metropolitan_Borough_of_Dudley"
+    }
+   ]
+  },
+  {
+   "u": "GB-BIR",
+   "v": "GB-SAW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16462
+  },
+  {
+   "u": "GB-BIR",
+   "v": "GB-SOL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18950
+  },
+  {
+   "u": "GB-BIR",
+   "v": "GB-STS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6605
+  },
+  {
+   "u": "GB-BIR",
+   "v": "GB-WAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10240
+  },
+  {
+   "u": "GB-BIR",
+   "v": "GB-WLL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4655,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Metropolitan_Borough_of_Walsall"
+    }
+   ]
+  },
+  {
+   "u": "GB-BIR",
+   "v": "GB-WOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20218
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-CBF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20921
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-HIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13104
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-HRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60870
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-MIK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18214
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-NTH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28041
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-OXF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85702
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-SLG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18523
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-WNM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22282
+  },
+  {
+   "u": "GB-BKM",
+   "v": "GB-WOK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3160
+  },
+  {
+   "u": "GB-BLA",
+   "v": "GB-BLY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34601
+  },
+  {
+   "u": "GB-BLA",
+   "v": "GB-LRN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31865
+  },
+  {
+   "u": "GB-BLA",
+   "v": "GB-MFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15525
+  },
+  {
+   "u": "GB-BLA",
+   "v": "GB-MYL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8712
+  },
+  {
+   "u": "GB-BLA",
+   "v": "GB-NTA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5024
+  },
+  {
+   "u": "GB-BLY",
+   "v": "GB-CLR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28936
+  },
+  {
+   "u": "GB-BLY",
+   "v": "GB-MFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3427
+  },
+  {
+   "u": "GB-BLY",
+   "v": "GB-MYL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33915,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ballymoney_(borough)"
+    }
+   ]
+  },
+  {
+   "u": "GB-BMH",
+   "v": "GB-DOR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9920,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dorset"
+    }
+   ]
+  },
+  {
+   "u": "GB-BMH",
+   "v": "GB-POL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5428,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Bournemouth"
+    }
+   ]
+  },
+  {
+   "u": "GB-BNB",
+   "v": "GB-CGV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17920
+  },
+  {
+   "u": "GB-BNB",
+   "v": "GB-DOW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24119
+  },
+  {
+   "u": "GB-BNB",
+   "v": "GB-LSB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22448
+  },
+  {
+   "u": "GB-BNB",
+   "v": "GB-NYM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22375
+  },
+  {
+   "u": "GB-BNE",
+   "v": "GB-CMD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3522
+  },
+  {
+   "u": "GB-BNE",
+   "v": "GB-ENF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8693
+  },
+  {
+   "u": "GB-BNE",
+   "v": "GB-HRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12942
+  },
+  {
+   "u": "GB-BNE",
+   "v": "GB-HRW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4629
+  },
+  {
+   "u": "GB-BNE",
+   "v": "GB-HRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6925
+  },
+  {
+   "u": "GB-BNH",
+   "v": "GB-ESX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15407
+  },
+  {
+   "u": "GB-BNH",
+   "v": "GB-WSX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14080
+  },
+  {
+   "u": "GB-BNS",
+   "v": "GB-DBY",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "GB-BNS",
+   "v": "GB-DNC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12730
+  },
+  {
+   "u": "GB-BNS",
+   "v": "GB-KIR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17041
+  },
+  {
+   "u": "GB-BNS",
+   "v": "GB-ROT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10496,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Metropolitan_Borough_of_Barnsley"
+    }
+   ]
+  },
+  {
+   "u": "GB-BNS",
+   "v": "GB-SHF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33667
+  },
+  {
+   "u": "GB-BNS",
+   "v": "GB-WKF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21327
+  },
+  {
+   "u": "GB-BOL",
+   "v": "GB-BUR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11529
+  },
+  {
+   "u": "GB-BOL",
+   "v": "GB-LAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4758
+  },
+  {
+   "u": "GB-BOL",
+   "v": "GB-SLF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12459
+  },
+  {
+   "u": "GB-BOL",
+   "v": "GB-WGN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7527
+  },
+  {
+   "u": "GB-BPL",
+   "v": "GB-LAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23444,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Borough_of_Blackpool"
+    }
+   ]
+  },
+  {
+   "u": "GB-BRC",
+   "v": "GB-HAM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6633
+  },
+  {
+   "u": "GB-BRC",
+   "v": "GB-SRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6343
+  },
+  {
+   "u": "GB-BRC",
+   "v": "GB-WNM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20405
+  },
+  {
+   "u": "GB-BRC",
+   "v": "GB-WOK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14164
+  },
+  {
+   "u": "GB-BRD",
+   "v": "GB-CLD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21366,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/City_of_Bradford"
+    }
+   ]
+  },
+  {
+   "u": "GB-BRD",
+   "v": "GB-KIR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7899
+  },
+  {
+   "u": "GB-BRD",
+   "v": "GB-LDS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19682
+  },
+  {
+   "u": "GB-BRD",
+   "v": "GB-NYK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30638
+  },
+  {
+   "u": "GB-BRY",
+   "v": "GB-CRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12391
+  },
+  {
+   "u": "GB-BRY",
+   "v": "GB-GRE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5096
+  },
+  {
+   "u": "GB-BRY",
+   "v": "GB-KEN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17208
+  },
+  {
+   "u": "GB-BRY",
+   "v": "GB-LBH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 572,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Bromley"
+    }
+   ]
+  },
+  {
+   "u": "GB-BRY",
+   "v": "GB-LEW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10951
+  },
+  {
+   "u": "GB-BRY",
+   "v": "GB-SRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6165
+  },
+  {
+   "u": "GB-BRY",
+   "v": "GB-SWK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 600,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Bromley"
+    }
+   ]
+  },
+  {
+   "u": "GB-BST",
+   "v": "GB-NSM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15978
+  },
+  {
+   "u": "GB-BST",
+   "v": "GB-SGC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19280
+  },
+  {
+   "u": "GB-BUR",
+   "v": "GB-LAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11791
+  },
+  {
+   "u": "GB-BUR",
+   "v": "GB-MAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6205
+  },
+  {
+   "u": "GB-BUR",
+   "v": "GB-RCH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7216
+  },
+  {
+   "u": "GB-BUR",
+   "v": "GB-SLF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3913
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-CBF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22751
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-ESS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35318
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-HRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24126
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-LIN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21015
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-NFK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50037
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-NTH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35971
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-PTE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38199
+  },
+  {
+   "u": "GB-CAM",
+   "v": "GB-SFK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78310
+  },
+  {
+   "u": "GB-CAY",
+   "v": "GB-CRF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8996
+  },
+  {
+   "u": "GB-CAY",
+   "v": "GB-MTY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17311
+  },
+  {
+   "u": "GB-CAY",
+   "v": "GB-NWP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11749
+  },
+  {
+   "u": "GB-CAY",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3117
+  },
+  {
+   "u": "GB-CAY",
+   "v": "GB-RCT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12627
+  },
+  {
+   "u": "GB-CAY",
+   "v": "GB-TOF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13879
+  },
+  {
+   "u": "GB-CBF",
+   "v": "GB-HRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45569
+  },
+  {
+   "u": "GB-CBF",
+   "v": "GB-LUT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13568
+  },
+  {
+   "u": "GB-CBF",
+   "v": "GB-MIK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21951
+  },
+  {
+   "u": "GB-CGN",
+   "v": "GB-CMN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61588
+  },
+  {
+   "u": "GB-CGN",
+   "v": "GB-GWN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1373
+  },
+  {
+   "u": "GB-CGN",
+   "v": "GB-PEM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14862
+  },
+  {
+   "u": "GB-CGN",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73921
+  },
+  {
+   "u": "GB-CGV",
+   "v": "GB-CKT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6707
+  },
+  {
+   "u": "GB-CGV",
+   "v": "GB-DGN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10598
+  },
+  {
+   "u": "GB-CGV",
+   "v": "GB-LSB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21344
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-CHW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52702
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-DBY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19140
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-MAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4539
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-SHR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21518
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-SKP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22851
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-STE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4033
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-STS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39373
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-TRF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7946
+  },
+  {
+   "u": "GB-CHE",
+   "v": "GB-WRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7997
+  },
+  {
+   "u": "GB-CHW",
+   "v": "GB-FLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20490
+  },
+  {
+   "u": "GB-CHW",
+   "v": "GB-HAL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14474
+  },
+  {
+   "u": "GB-CHW",
+   "v": "GB-SHR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7366
+  },
+  {
+   "u": "GB-CHW",
+   "v": "GB-WRL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13629
+  },
+  {
+   "u": "GB-CHW",
+   "v": "GB-WRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4679
+  },
+  {
+   "u": "GB-CHW",
+   "v": "GB-WRX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26798
+  },
+  {
+   "u": "GB-CKF",
+   "v": "GB-LRN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15194,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Carrickfergus_Borough_Council"
+    }
+   ]
+  },
+  {
+   "u": "GB-CKF",
+   "v": "GB-NTA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11248
+  },
+  {
+   "u": "GB-CKT",
+   "v": "GB-DGN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32609
+  },
+  {
+   "u": "GB-CKT",
+   "v": "GB-MFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 36096
+  },
+  {
+   "u": "GB-CKT",
+   "v": "GB-OMH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21318
+  },
+  {
+   "u": "GB-CLD",
+   "v": "GB-KIR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24477
+  },
+  {
+   "u": "GB-CLD",
+   "v": "GB-LAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20577
+  },
+  {
+   "u": "GB-CLD",
+   "v": "GB-NYK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4809
+  },
+  {
+   "u": "GB-CLD",
+   "v": "GB-RCH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14264
+  },
+  {
+   "u": "GB-CLK",
+   "v": "GB-FIF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12394
+  },
+  {
+   "u": "GB-CLK",
+   "v": "GB-PKN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29902
+  },
+  {
+   "u": "GB-CLK",
+   "v": "GB-STG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10617
+  },
+  {
+   "u": "GB-CLR",
+   "v": "GB-LMV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33027,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Coleraine_Borough_Council"
+    }
+   ]
+  },
+  {
+   "u": "GB-CLR",
+   "v": "GB-MFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20405
+  },
+  {
+   "u": "GB-CLR",
+   "v": "GB-MYL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9032
+  },
+  {
+   "u": "GB-CMA",
+   "v": "GB-DGY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23617
+  },
+  {
+   "u": "GB-CMA",
+   "v": "GB-DUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44492
+  },
+  {
+   "u": "GB-CMA",
+   "v": "GB-LAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32191
+  },
+  {
+   "u": "GB-CMA",
+   "v": "GB-NBL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78753
+  },
+  {
+   "u": "GB-CMA",
+   "v": "GB-NYK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44470
+  },
+  {
+   "u": "GB-CMA",
+   "v": "GB-SCB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14188
+  },
+  {
+   "u": "GB-CMD",
+   "v": "GB-HRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2242
+  },
+  {
+   "u": "GB-CMD",
+   "v": "GB-ISL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5188
+  },
+  {
+   "u": "GB-CMD",
+   "v": "GB-LBH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 436
+  },
+  {
+   "u": "GB-CMD",
+   "v": "GB-LND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1653
+  },
+  {
+   "u": "GB-CMD",
+   "v": "GB-SWK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 923
+  },
+  {
+   "u": "GB-CMD",
+   "v": "GB-WSM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6432
+  },
+  {
+   "u": "GB-CMN",
+   "v": "GB-NTL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14021
+  },
+  {
+   "u": "GB-CMN",
+   "v": "GB-PEM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56502
+  },
+  {
+   "u": "GB-CMN",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45839
+  },
+  {
+   "u": "GB-CMN",
+   "v": "GB-SWA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15920
+  },
+  {
+   "u": "GB-CON",
+   "v": "GB-DEV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81314
+  },
+  {
+   "u": "GB-COV",
+   "v": "GB-SOL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10510
+  },
+  {
+   "u": "GB-COV",
+   "v": "GB-WAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35196
+  },
+  {
+   "u": "GB-CRF",
+   "v": "GB-NWP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5554
+  },
+  {
+   "u": "GB-CRF",
+   "v": "GB-RCT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6825
+  },
+  {
+   "u": "GB-CRF",
+   "v": "GB-VGL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10930
+  },
+  {
+   "u": "GB-CRY",
+   "v": "GB-LBH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3836
+  },
+  {
+   "u": "GB-CRY",
+   "v": "GB-MRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2876
+  },
+  {
+   "u": "GB-CRY",
+   "v": "GB-SRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16686
+  },
+  {
+   "u": "GB-CRY",
+   "v": "GB-STN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10781
+  },
+  {
+   "u": "GB-CSR",
+   "v": "GB-DOW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3616
+  },
+  {
+   "u": "GB-CSR",
+   "v": "GB-LSB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10813
+  },
+  {
+   "u": "GB-CSR",
+   "v": "GB-NDN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3457
+  },
+  {
+   "u": "GB-CWY",
+   "v": "GB-DEN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45664
+  },
+  {
+   "u": "GB-CWY",
+   "v": "GB-GWN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78336
+  },
+  {
+   "u": "GB-DAL",
+   "v": "GB-DUR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25739
+  },
+  {
+   "u": "GB-DAL",
+   "v": "GB-NYK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33257
+  },
+  {
+   "u": "GB-DAL",
+   "v": "GB-STT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15137
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-DER",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32022
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-KIR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5799
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-LEC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34682
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-NTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60393
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-OLD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10061
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-ROT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19502
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-SHF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49721
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-SKP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6659
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-STS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92767
+  },
+  {
+   "u": "GB-DBY",
+   "v": "GB-TAM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7057
+  },
+  {
+   "u": "GB-DEN",
+   "v": "GB-FLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40543
+  },
+  {
+   "u": "GB-DEN",
+   "v": "GB-GWN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17679
+  },
+  {
+   "u": "GB-DEN",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5640
+  },
+  {
+   "u": "GB-DEN",
+   "v": "GB-WRX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37093
+  },
+  {
+   "u": "GB-DEV",
+   "v": "GB-DOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16877
+  },
+  {
+   "u": "GB-DEV",
+   "v": "GB-PLY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20984
+  },
+  {
+   "u": "GB-DEV",
+   "v": "GB-SOM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111965
+  },
+  {
+   "u": "GB-DEV",
+   "v": "GB-TOB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27337
+  },
+  {
+   "u": "GB-DGN",
+   "v": "GB-FER",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20668
+  },
+  {
+   "u": "GB-DGN",
+   "v": "GB-OMH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35816
+  },
+  {
+   "u": "GB-DGY",
+   "v": "GB-EAY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66457
+  },
+  {
+   "u": "GB-DGY",
+   "v": "GB-SAY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51452
+  },
+  {
+   "u": "GB-DGY",
+   "v": "GB-SCB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 89362
+  },
+  {
+   "u": "GB-DGY",
+   "v": "GB-SLK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51183
+  },
+  {
+   "u": "GB-DNC",
+   "v": "GB-ERY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17250
+  },
+  {
+   "u": "GB-DNC",
+   "v": "GB-NLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21521
+  },
+  {
+   "u": "GB-DNC",
+   "v": "GB-NTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20206
+  },
+  {
+   "u": "GB-DNC",
+   "v": "GB-NYK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12440
+  },
+  {
+   "u": "GB-DNC",
+   "v": "GB-ROT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19012
+  },
+  {
+   "u": "GB-DNC",
+   "v": "GB-WKF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10148
+  },
+  {
+   "u": "GB-DND",
+   "v": "GB-PKN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3015
+  },
+  {
+   "u": "GB-DOR",
+   "v": "GB-HAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48180,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "GB-DOR",
+   "v": "GB-POL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11782,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dorset"
+    }
+   ]
+  },
+  {
+   "u": "GB-DOR",
+   "v": "GB-SOM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76748
+  },
+  {
+   "u": "GB-DOR",
+   "v": "GB-WIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34513
+  },
+  {
+   "u": "GB-DOW",
+   "v": "GB-LSB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14103
+  },
+  {
+   "u": "GB-DOW",
+   "v": "GB-NYM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23213
+  },
+  {
+   "u": "GB-DRY",
+   "v": "GB-LMV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32456
+  },
+  {
+   "u": "GB-DRY",
+   "v": "GB-STB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 39018
+  },
+  {
+   "u": "GB-DUD",
+   "v": "GB-SAW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14247
+  },
+  {
+   "u": "GB-DUD",
+   "v": "GB-STS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15635
+  },
+  {
+   "u": "GB-DUD",
+   "v": "GB-WLV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4781
+  },
+  {
+   "u": "GB-DUD",
+   "v": "GB-WOR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10215
+  },
+  {
+   "u": "GB-DUR",
+   "v": "GB-GAT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15906
+  },
+  {
+   "u": "GB-DUR",
+   "v": "GB-HPL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15951
+  },
+  {
+   "u": "GB-DUR",
+   "v": "GB-NBL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42917
+  },
+  {
+   "u": "GB-DUR",
+   "v": "GB-NYK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40844
+  },
+  {
+   "u": "GB-DUR",
+   "v": "GB-SND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27694
+  },
+  {
+   "u": "GB-DUR",
+   "v": "GB-STT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3554
+  },
+  {
+   "u": "GB-EAL",
+   "v": "GB-HIL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9891
+  },
+  {
+   "u": "GB-EAL",
+   "v": "GB-HMF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3703
+  },
+  {
+   "u": "GB-EAL",
+   "v": "GB-HNS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10811
+  },
+  {
+   "u": "GB-EAL",
+   "v": "GB-HRW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2934
+  },
+  {
+   "u": "GB-EAY",
+   "v": "GB-ERW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18864
+  },
+  {
+   "u": "GB-EAY",
+   "v": "GB-NAY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29541
+  },
+  {
+   "u": "GB-EAY",
+   "v": "GB-SAY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66673
+  },
+  {
+   "u": "GB-EAY",
+   "v": "GB-SLK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44165
+  },
+  {
+   "u": "GB-EDH",
+   "v": "GB-MLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26073
+  },
+  {
+   "u": "GB-EDH",
+   "v": "GB-SCB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2673
+  },
+  {
+   "u": "GB-EDH",
+   "v": "GB-WLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21917
+  },
+  {
+   "u": "GB-EDU",
+   "v": "GB-GLG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14318
+  },
+  {
+   "u": "GB-EDU",
+   "v": "GB-NLK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24687
+  },
+  {
+   "u": "GB-EDU",
+   "v": "GB-STG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27575
+  },
+  {
+   "u": "GB-EDU",
+   "v": "GB-WDU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8010,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/East_Dunbartonshire"
+    }
+   ]
+  },
+  {
+   "u": "GB-ELN",
+   "v": "GB-MLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21163
+  },
+  {
+   "u": "GB-ELN",
+   "v": "GB-SCB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44573
+  },
+  {
+   "u": "GB-ENF",
+   "v": "GB-ESS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3914
+  },
+  {
+   "u": "GB-ENF",
+   "v": "GB-HRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11893
+  },
+  {
+   "u": "GB-ENF",
+   "v": "GB-HRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7007
+  },
+  {
+   "u": "GB-ENF",
+   "v": "GB-WFT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5673
+  },
+  {
+   "u": "GB-ERW",
+   "v": "GB-GLG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10378
+  },
+  {
+   "u": "GB-ERW",
+   "v": "GB-NAY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 407,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/East_Renfrewshire"
+    }
+   ]
+  },
+  {
+   "u": "GB-ERW",
+   "v": "GB-RFW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11996
+  },
+  {
+   "u": "GB-ERW",
+   "v": "GB-SLK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14247
+  },
+  {
+   "u": "GB-ERY",
+   "v": "GB-KHL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19393
+  },
+  {
+   "u": "GB-ERY",
+   "v": "GB-NLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14214
+  },
+  {
+   "u": "GB-ERY",
+   "v": "GB-NYK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104603
+  },
+  {
+   "u": "GB-ERY",
+   "v": "GB-YOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11778
+  },
+  {
+   "u": "GB-ESS",
+   "v": "GB-HAV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16881
+  },
+  {
+   "u": "GB-ESS",
+   "v": "GB-HRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51563
+  },
+  {
+   "u": "GB-ESS",
+   "v": "GB-RDB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10121
+  },
+  {
+   "u": "GB-ESS",
+   "v": "GB-SFK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58418
+  },
+  {
+   "u": "GB-ESS",
+   "v": "GB-SOS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17779
+  },
+  {
+   "u": "GB-ESS",
+   "v": "GB-THR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17293
+  },
+  {
+   "u": "GB-ESS",
+   "v": "GB-WFT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3220
+  },
+  {
+   "u": "GB-ESX",
+   "v": "GB-KEN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75871
+  },
+  {
+   "u": "GB-ESX",
+   "v": "GB-SRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2897
+  },
+  {
+   "u": "GB-ESX",
+   "v": "GB-WSX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41633
+  },
+  {
+   "u": "GB-FAL",
+   "v": "GB-NLK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25157
+  },
+  {
+   "u": "GB-FAL",
+   "v": "GB-STG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17857
+  },
+  {
+   "u": "GB-FAL",
+   "v": "GB-WLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24793
+  },
+  {
+   "u": "GB-FER",
+   "v": "GB-OMH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 43972
+  },
+  {
+   "u": "GB-FER",
+   "v": "GB-STB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1043
+  },
+  {
+   "u": "GB-FIF",
+   "v": "GB-PKN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61078
+  },
+  {
+   "u": "GB-FLN",
+   "v": "GB-WRX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14380
+  },
+  {
+   "u": "GB-GAT",
+   "v": "GB-NBL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15151
+  },
+  {
+   "u": "GB-GAT",
+   "v": "GB-NET",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15015
+  },
+  {
+   "u": "GB-GAT",
+   "v": "GB-SND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5951
+  },
+  {
+   "u": "GB-GAT",
+   "v": "GB-STY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3867
+  },
+  {
+   "u": "GB-GLG",
+   "v": "GB-NLK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11276
+  },
+  {
+   "u": "GB-GLG",
+   "v": "GB-RFW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5001
+  },
+  {
+   "u": "GB-GLG",
+   "v": "GB-SLK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14883
+  },
+  {
+   "u": "GB-GLG",
+   "v": "GB-WDU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4604,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Glasgow"
+    }
+   ]
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-HEF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47803
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-MON",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25170
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-OXF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42679
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-SGC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33786
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-SWD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5661
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-WAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20648
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-WIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56980
+  },
+  {
+   "u": "GB-GLS",
+   "v": "GB-WOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73215
+  },
+  {
+   "u": "GB-GRE",
+   "v": "GB-LEW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8477
+  },
+  {
+   "u": "GB-GRE",
+   "v": "GB-NWM",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "hand",
+     "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5855
+  },
+  {
+   "u": "GB-GRE",
+   "v": "GB-TWH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5338
+  },
+  {
+   "u": "GB-GWN",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55928
+  },
+  {
+   "u": "GB-HAL",
+   "v": "GB-KWL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9258
+  },
+  {
+   "u": "GB-HAL",
+   "v": "GB-SHN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5612
+  },
+  {
+   "u": "GB-HAL",
+   "v": "GB-WRT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10962
+  },
+  {
+   "u": "GB-HAM",
+   "v": "GB-POR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7253
+  },
+  {
+   "u": "GB-HAM",
+   "v": "GB-SRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37666
+  },
+  {
+   "u": "GB-HAM",
+   "v": "GB-STH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20227
+  },
+  {
+   "u": "GB-HAM",
+   "v": "GB-WBK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37758
+  },
+  {
+   "u": "GB-HAM",
+   "v": "GB-WIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 89188
+  },
+  {
+   "u": "GB-HAM",
+   "v": "GB-WOK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12909
+  },
+  {
+   "u": "GB-HAM",
+   "v": "GB-WSX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35901
+  },
+  {
+   "u": "GB-HAV",
+   "v": "GB-RDB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2089,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Havering"
+    }
+   ]
+  },
+  {
+   "u": "GB-HAV",
+   "v": "GB-THR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13499
+  },
+  {
+   "u": "GB-HCK",
+   "v": "GB-HRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3912
+  },
+  {
+   "u": "GB-HCK",
+   "v": "GB-ISL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4996
+  },
+  {
+   "u": "GB-HCK",
+   "v": "GB-LND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1731
+  },
+  {
+   "u": "GB-HCK",
+   "v": "GB-NWM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 996
+  },
+  {
+   "u": "GB-HCK",
+   "v": "GB-TWH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5750
+  },
+  {
+   "u": "GB-HCK",
+   "v": "GB-WFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4215
+  },
+  {
+   "u": "GB-HEF",
+   "v": "GB-MON",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37943
+  },
+  {
+   "u": "GB-HEF",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54506
+  },
+  {
+   "u": "GB-HEF",
+   "v": "GB-SHR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35596
+  },
+  {
+   "u": "GB-HEF",
+   "v": "GB-WOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54135
+  },
+  {
+   "u": "GB-HIL",
+   "v": "GB-HNS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6420
+  },
+  {
+   "u": "GB-HIL",
+   "v": "GB-HRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9009
+  },
+  {
+   "u": "GB-HIL",
+   "v": "GB-HRW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7758
+  },
+  {
+   "u": "GB-HIL",
+   "v": "GB-SRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4976
+  },
+  {
+   "u": "GB-HLD",
+   "v": "GB-MRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99759
+  },
+  {
+   "u": "GB-HLD",
+   "v": "GB-PKN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 84268
+  },
+  {
+   "u": "GB-HMF",
+   "v": "GB-HNS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1022,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Hounslow"
+    }
+   ]
+  },
+  {
+   "u": "GB-HMF",
+   "v": "GB-KEC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6886
+  },
+  {
+   "u": "GB-HMF",
+   "v": "GB-RIC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2378
+  },
+  {
+   "u": "GB-HMF",
+   "v": "GB-WND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3192
+  },
+  {
+   "u": "GB-HNS",
+   "v": "GB-RIC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17879
+  },
+  {
+   "u": "GB-HNS",
+   "v": "GB-SRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6755
+  },
+  {
+   "u": "GB-HPL",
+   "v": "GB-RCC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1997,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Borough_of_Hartlepool"
+    }
+   ]
+  },
+  {
+   "u": "GB-HPL",
+   "v": "GB-STT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11821
+  },
+  {
+   "u": "GB-HRT",
+   "v": "GB-HRW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8025
+  },
+  {
+   "u": "GB-HRT",
+   "v": "GB-LUT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19315
+  },
+  {
+   "u": "GB-HRY",
+   "v": "GB-ISL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3331
+  },
+  {
+   "u": "GB-HRY",
+   "v": "GB-WFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3454
+  },
+  {
+   "u": "GB-ISL",
+   "v": "GB-LND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1144
+  },
+  {
+   "u": "GB-IVC",
+   "v": "GB-NAY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9215
+  },
+  {
+   "u": "GB-IVC",
+   "v": "GB-RFW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20217
+  },
+  {
+   "u": "GB-KEC",
+   "v": "GB-WND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2329
+  },
+  {
+   "u": "GB-KEC",
+   "v": "GB-WSM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7408
+  },
+  {
+   "u": "GB-KEN",
+   "v": "GB-MDW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 42927
+  },
+  {
+   "u": "GB-KEN",
+   "v": "GB-SRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17688
+  },
+  {
+   "u": "GB-KEN",
+   "v": "GB-THR",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "hand",
+     "reason": "river: NE's coastline puts this reach of the Thames inland, so it is a river border and counts; geoBoundaries' layer leaves the river as a gap"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13017
+  },
+  {
+   "u": "GB-KIR",
+   "v": "GB-LDS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8206
+  },
+  {
+   "u": "GB-KIR",
+   "v": "GB-OLD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11038
+  },
+  {
+   "u": "GB-KIR",
+   "v": "GB-RCH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4322
+  },
+  {
+   "u": "GB-KIR",
+   "v": "GB-WKF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15505
+  },
+  {
+   "u": "GB-KTT",
+   "v": "GB-MRT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5512
+  },
+  {
+   "u": "GB-KTT",
+   "v": "GB-RIC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9741
+  },
+  {
+   "u": "GB-KTT",
+   "v": "GB-SRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14742
+  },
+  {
+   "u": "GB-KTT",
+   "v": "GB-STN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1848
+  },
+  {
+   "u": "GB-KTT",
+   "v": "GB-WND",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "wikidata_p47"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "GB-KWL",
+   "v": "GB-LAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6672
+  },
+  {
+   "u": "GB-KWL",
+   "v": "GB-LIV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20352
+  },
+  {
+   "u": "GB-KWL",
+   "v": "GB-SFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4198,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Metropolitan_Borough_of_Sefton"
+    }
+   ]
+  },
+  {
+   "u": "GB-KWL",
+   "v": "GB-SHN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13754
+  },
+  {
+   "u": "GB-LAN",
+   "v": "GB-NYK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70107
+  },
+  {
+   "u": "GB-LAN",
+   "v": "GB-RCH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12924
+  },
+  {
+   "u": "GB-LAN",
+   "v": "GB-SFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 37025
+  },
+  {
+   "u": "GB-LAN",
+   "v": "GB-SHN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8284
+  },
+  {
+   "u": "GB-LAN",
+   "v": "GB-WGN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22256
+  },
+  {
+   "u": "GB-LBH",
+   "v": "GB-MRT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1665
+  },
+  {
+   "u": "GB-LBH",
+   "v": "GB-SWK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10620
+  },
+  {
+   "u": "GB-LBH",
+   "v": "GB-WND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9039
+  },
+  {
+   "u": "GB-LBH",
+   "v": "GB-WSM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1585
+  },
+  {
+   "u": "GB-LCE",
+   "v": "GB-LEC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30064
+  },
+  {
+   "u": "GB-LDS",
+   "v": "GB-NYK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60634
+  },
+  {
+   "u": "GB-LDS",
+   "v": "GB-WKF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20327
+  },
+  {
+   "u": "GB-LEC",
+   "v": "GB-LIN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27328
+  },
+  {
+   "u": "GB-LEC",
+   "v": "GB-NTH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47514
+  },
+  {
+   "u": "GB-LEC",
+   "v": "GB-NTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52881
+  },
+  {
+   "u": "GB-LEC",
+   "v": "GB-RUT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35690
+  },
+  {
+   "u": "GB-LEC",
+   "v": "GB-STS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 920,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Leicestershire"
+    }
+   ]
+  },
+  {
+   "u": "GB-LEC",
+   "v": "GB-WAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47502
+  },
+  {
+   "u": "GB-LEW",
+   "v": "GB-SWK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9996
+  },
+  {
+   "u": "GB-LIN",
+   "v": "GB-NEL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45170
+  },
+  {
+   "u": "GB-LIN",
+   "v": "GB-NFK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14308
+  },
+  {
+   "u": "GB-LIN",
+   "v": "GB-NLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66921
+  },
+  {
+   "u": "GB-LIN",
+   "v": "GB-NTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78914
+  },
+  {
+   "u": "GB-LIN",
+   "v": "GB-PTE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33018
+  },
+  {
+   "u": "GB-LIN",
+   "v": "GB-RUT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29258
+  },
+  {
+   "u": "GB-LIV",
+   "v": "GB-SFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7808
+  },
+  {
+   "u": "GB-LMV",
+   "v": "GB-MFT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18360
+  },
+  {
+   "u": "GB-LMV",
+   "v": "GB-STB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6961
+  },
+  {
+   "u": "GB-LND",
+   "v": "GB-SWK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2206
+  },
+  {
+   "u": "GB-LND",
+   "v": "GB-TWH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1115
+  },
+  {
+   "u": "GB-LRN",
+   "v": "GB-MYL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11160
+  },
+  {
+   "u": "GB-LRN",
+   "v": "GB-NTA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10684
+  },
+  {
+   "u": "GB-MAN",
+   "v": "GB-OLD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5718
+  },
+  {
+   "u": "GB-MAN",
+   "v": "GB-RCH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5285
+  },
+  {
+   "u": "GB-MAN",
+   "v": "GB-SKP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10974
+  },
+  {
+   "u": "GB-MAN",
+   "v": "GB-SLF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6220
+  },
+  {
+   "u": "GB-MAN",
+   "v": "GB-TAM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4798
+  },
+  {
+   "u": "GB-MAN",
+   "v": "GB-TRF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11038
+  },
+  {
+   "u": "GB-MDB",
+   "v": "GB-NYK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5512
+  },
+  {
+   "u": "GB-MDB",
+   "v": "GB-RCC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8517
+  },
+  {
+   "u": "GB-MDB",
+   "v": "GB-STT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15008
+  },
+  {
+   "u": "GB-MFT",
+   "v": "GB-OMH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4234
+  },
+  {
+   "u": "GB-MFT",
+   "v": "GB-STB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7114
+  },
+  {
+   "u": "GB-MIK",
+   "v": "GB-NTH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31898
+  },
+  {
+   "u": "GB-MLN",
+   "v": "GB-SCB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55497
+  },
+  {
+   "u": "GB-MON",
+   "v": "GB-NWP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25223
+  },
+  {
+   "u": "GB-MON",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24170
+  },
+  {
+   "u": "GB-MON",
+   "v": "GB-TOF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25737
+  },
+  {
+   "u": "GB-MRT",
+   "v": "GB-STN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7417
+  },
+  {
+   "u": "GB-MRT",
+   "v": "GB-WND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8671
+  },
+  {
+   "u": "GB-MTY",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10283
+  },
+  {
+   "u": "GB-MTY",
+   "v": "GB-RCT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23162
+  },
+  {
+   "u": "GB-NAY",
+   "v": "GB-RFW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20202
+  },
+  {
+   "u": "GB-NAY",
+   "v": "GB-SAY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6395
+  },
+  {
+   "u": "GB-NBL",
+   "v": "GB-NET",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13499
+  },
+  {
+   "u": "GB-NBL",
+   "v": "GB-NTY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13765
+  },
+  {
+   "u": "GB-NBL",
+   "v": "GB-SCB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100291
+  },
+  {
+   "u": "GB-NEL",
+   "v": "GB-NLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6510
+  },
+  {
+   "u": "GB-NET",
+   "v": "GB-NTY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14054
+  },
+  {
+   "u": "GB-NET",
+   "v": "GB-STY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4279
+  },
+  {
+   "u": "GB-NFK",
+   "v": "GB-SFK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 124260
+  },
+  {
+   "u": "GB-NGM",
+   "v": "GB-NTT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34471
+  },
+  {
+   "u": "GB-NLK",
+   "v": "GB-SLK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27676
+  },
+  {
+   "u": "GB-NLK",
+   "v": "GB-STG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9194
+  },
+  {
+   "u": "GB-NLK",
+   "v": "GB-WLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21665
+  },
+  {
+   "u": "GB-NLN",
+   "v": "GB-NTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12184
+  },
+  {
+   "u": "GB-NSM",
+   "v": "GB-SOM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30202
+  },
+  {
+   "u": "GB-NTH",
+   "v": "GB-OXF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38676
+  },
+  {
+   "u": "GB-NTH",
+   "v": "GB-PTE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13186
+  },
+  {
+   "u": "GB-NTH",
+   "v": "GB-RUT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22455
+  },
+  {
+   "u": "GB-NTH",
+   "v": "GB-WAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36842
+  },
+  {
+   "u": "GB-NTL",
+   "v": "GB-POW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18792
+  },
+  {
+   "u": "GB-NTL",
+   "v": "GB-RCT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13731
+  },
+  {
+   "u": "GB-NTL",
+   "v": "GB-SWA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19302
+  },
+  {
+   "u": "GB-NTT",
+   "v": "GB-ROT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11690
+  },
+  {
+   "u": "GB-NTY",
+   "v": "GB-STY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5290
+  },
+  {
+   "u": "GB-NWM",
+   "v": "GB-RDB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5460
+  },
+  {
+   "u": "GB-NWM",
+   "v": "GB-TWH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5195
+  },
+  {
+   "u": "GB-NWM",
+   "v": "GB-WFT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2403
+  },
+  {
+   "u": "GB-NWP",
+   "v": "GB-TOF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5472
+  },
+  {
+   "u": "GB-NYK",
+   "v": "GB-RCC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32980
+  },
+  {
+   "u": "GB-NYK",
+   "v": "GB-STT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16410
+  },
+  {
+   "u": "GB-NYK",
+   "v": "GB-WKF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18741
+  },
+  {
+   "u": "GB-NYK",
+   "v": "GB-YOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57499
+  },
+  {
+   "u": "GB-OLD",
+   "v": "GB-RCH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17098
+  },
+  {
+   "u": "GB-OLD",
+   "v": "GB-TAM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17267
+  },
+  {
+   "u": "GB-OMH",
+   "v": "GB-STB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 59703
+  },
+  {
+   "u": "GB-OXF",
+   "v": "GB-RDG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9471
+  },
+  {
+   "u": "GB-OXF",
+   "v": "GB-SWD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22896
+  },
+  {
+   "u": "GB-OXF",
+   "v": "GB-WAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44640
+  },
+  {
+   "u": "GB-OXF",
+   "v": "GB-WBK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42712
+  },
+  {
+   "u": "GB-OXF",
+   "v": "GB-WOK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13575
+  },
+  {
+   "u": "GB-PKN",
+   "v": "GB-STG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101476
+  },
+  {
+   "u": "GB-POW",
+   "v": "GB-RCT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15707
+  },
+  {
+   "u": "GB-POW",
+   "v": "GB-SHR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100449
+  },
+  {
+   "u": "GB-POW",
+   "v": "GB-WRX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23516
+  },
+  {
+   "u": "GB-RCC",
+   "v": "GB-STT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3524
+  },
+  {
+   "u": "GB-RCT",
+   "v": "GB-VGL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16496
+  },
+  {
+   "u": "GB-RDB",
+   "v": "GB-WFT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8530
+  },
+  {
+   "u": "GB-RDG",
+   "v": "GB-WBK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9369,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/West_Berkshire"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/West_Berkshire"
+    }
+   ]
+  },
+  {
+   "u": "GB-RDG",
+   "v": "GB-WOK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8836
+  },
+  {
+   "u": "GB-RFW",
+   "v": "GB-WDU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10804
+  },
+  {
+   "u": "GB-RIC",
+   "v": "GB-SRY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6814
+  },
+  {
+   "u": "GB-RIC",
+   "v": "GB-WND",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6046
+  },
+  {
+   "u": "GB-ROT",
+   "v": "GB-SHF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9635
+  },
+  {
+   "u": "GB-SAW",
+   "v": "GB-WLL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12194
+  },
+  {
+   "u": "GB-SAW",
+   "v": "GB-WLV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1934,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sandwell"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Sandwell"
+    }
+   ]
+  },
+  {
+   "u": "GB-SCB",
+   "v": "GB-SLK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49336
+  },
+  {
+   "u": "GB-SCB",
+   "v": "GB-WLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7016
+  },
+  {
+   "u": "GB-SGC",
+   "v": "GB-WIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23079
+  },
+  {
+   "u": "GB-SHN",
+   "v": "GB-WGN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17412
+  },
+  {
+   "u": "GB-SHN",
+   "v": "GB-WRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15871
+  },
+  {
+   "u": "GB-SHR",
+   "v": "GB-STS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76563
+  },
+  {
+   "u": "GB-SHR",
+   "v": "GB-TFW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59984
+  },
+  {
+   "u": "GB-SHR",
+   "v": "GB-WOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41672
+  },
+  {
+   "u": "GB-SHR",
+   "v": "GB-WRX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49965
+  },
+  {
+   "u": "GB-SKP",
+   "v": "GB-TAM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14962
+  },
+  {
+   "u": "GB-SLF",
+   "v": "GB-TRF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10554
+  },
+  {
+   "u": "GB-SLF",
+   "v": "GB-WGN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8641
+  },
+  {
+   "u": "GB-SLF",
+   "v": "GB-WRT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5457
+  },
+  {
+   "u": "GB-SLG",
+   "v": "GB-SRY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8587,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Borough_of_Slough"
+    }
+   ]
+  },
+  {
+   "u": "GB-SLG",
+   "v": "GB-WNM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8311
+  },
+  {
+   "u": "GB-SLK",
+   "v": "GB-WLN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19615
+  },
+  {
+   "u": "GB-SND",
+   "v": "GB-STY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11019
+  },
+  {
+   "u": "GB-SOL",
+   "v": "GB-WAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30418
+  },
+  {
+   "u": "GB-SOM",
+   "v": "GB-WIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32353
+  },
+  {
+   "u": "GB-SRY",
+   "v": "GB-STN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11239
+  },
+  {
+   "u": "GB-SRY",
+   "v": "GB-WNM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13298
+  },
+  {
+   "u": "GB-SRY",
+   "v": "GB-WSX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59514
+  },
+  {
+   "u": "GB-STE",
+   "v": "GB-STS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 42899
+  },
+  {
+   "u": "GB-STG",
+   "v": "GB-WDU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25599
+  },
+  {
+   "u": "GB-STS",
+   "v": "GB-TFW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10497
+  },
+  {
+   "u": "GB-STS",
+   "v": "GB-WAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21912
+  },
+  {
+   "u": "GB-STS",
+   "v": "GB-WLL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23326
+  },
+  {
+   "u": "GB-STS",
+   "v": "GB-WLV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22238
+  },
+  {
+   "u": "GB-STS",
+   "v": "GB-WOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9574
+  },
+  {
+   "u": "GB-SWD",
+   "v": "GB-WBK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1623
+  },
+  {
+   "u": "GB-SWD",
+   "v": "GB-WIL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 39852
+  },
+  {
+   "u": "GB-SWK",
+   "v": "GB-TWH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4136,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/London_Borough_of_Southwark"
+    }
+   ]
+  },
+  {
+   "u": "GB-TRF",
+   "v": "GB-WRT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5983
+  },
+  {
+   "u": "GB-WAR",
+   "v": "GB-WOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47518
+  },
+  {
+   "u": "GB-WBK",
+   "v": "GB-WIL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24497
+  },
+  {
+   "u": "GB-WBK",
+   "v": "GB-WOK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6595,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/West_Berkshire"
+    }
+   ]
+  },
+  {
+   "u": "GB-WGN",
+   "v": "GB-WRT",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6714
+  },
+  {
+   "u": "GB-WLL",
+   "v": "GB-WLV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6137
+  },
+  {
+   "u": "GB-WND",
+   "v": "GB-WSM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1399
+  },
+  {
+   "u": "GB-WNM",
+   "v": "GB-WOK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8244
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GBR-ADM2-9080712",
+  "level": "ADM2",
+  "year": "2019",
+  "license": "Open Government Licence v3.0"
+ }
+}

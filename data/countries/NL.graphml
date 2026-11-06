@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NL-BQ1"><data key="name">Bonaire</data><data key="code">NL-BQ1</data><data key="wikidata">Q25396</data><data key="lon">-68.24641</data><data key="lat">12.17011</data></node>
+    <node id="NL-BQ2"><data key="name">Saba</data><data key="code">NL-BQ2</data><data key="wikidata">Q25528</data><data key="lon">-63.23812</data><data key="lat">17.63479</data></node>
+    <node id="NL-BQ3"><data key="name">St. Eustatius</data><data key="code">NL-BQ3</data><data key="wikidata">Q26180</data><data key="lon">-62.97757</data><data key="lat">17.49552</data></node>
+    <node id="NL-DR"><data key="name">Drenthe</data><data key="code">NL-DR</data><data key="wikidata">Q772</data><data key="lon">6.6377</data><data key="lat">52.90814</data></node>
+    <node id="NL-FL"><data key="name">Flevoland</data><data key="code">NL-FL</data><data key="wikidata">Q707</data><data key="lon">5.54365</data><data key="lat">52.44829</data></node>
+    <node id="NL-FR"><data key="name">Friesland</data><data key="code">NL-FR</data><data key="wikidata">Q770</data><data key="lon">5.83199</data><data key="lat">53.10329</data></node>
+    <node id="NL-GE"><data key="name">Gelderland</data><data key="code">NL-GE</data><data key="wikidata">Q775</data><data key="lon">6.08705</data><data key="lat">52.13002</data></node>
+    <node id="NL-GR"><data key="name">Groningen</data><data key="code">NL-GR</data><data key="wikidata">Q752</data><data key="lon">6.88122</data><data key="lat">53.15019</data></node>
+    <node id="NL-LI"><data key="name">Limburg</data><data key="code">NL-LI</data><data key="wikidata">Q1093</data><data key="lon">5.86533</data><data key="lat">51.26575</data></node>
+    <node id="NL-NB"><data key="name">Noord-Brabant</data><data key="code">NL-NB</data><data key="wikidata">Q1101</data><data key="lon">5.04178</data><data key="lat">51.52945</data></node>
+    <node id="NL-NH"><data key="name">Noord-Holland</data><data key="code">NL-NH</data><data key="wikidata">Q701</data><data key="lon">4.82871</data><data key="lat">52.58503</data></node>
+    <node id="NL-OV"><data key="name">Overijssel</data><data key="code">NL-OV</data><data key="wikidata">Q773</data><data key="lon">6.38346</data><data key="lat">52.48233</data></node>
+    <node id="NL-UT"><data key="name">Utrecht</data><data key="code">NL-UT</data><data key="wikidata">Q776</data><data key="lon">5.15016</data><data key="lat">52.11287</data></node>
+    <node id="NL-ZE"><data key="name">Zeeland</data><data key="code">NL-ZE</data><data key="wikidata">Q705</data><data key="lon">3.76552</data><data key="lat">51.30439</data></node>
+    <node id="NL-ZH"><data key="name">Zuid-Holland</data><data key="code">NL-ZH</data><data key="wikidata">Q694</data><data key="lon">4.42514</data><data key="lat">51.98427</data></node>
+    <edge source="NL-DR" target="NL-FR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NL-DR" target="NL-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-DR" target="NL-OV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FL" target="NL-FR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FL" target="NL-GE"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FL" target="NL-NH"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FL" target="NL-OV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FL" target="NL-UT"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FR" target="NL-GR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FR" target="NL-NH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NL-FR" target="NL-OV"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NL-GE" target="NL-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-GE" target="NL-NB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-GE" target="NL-OV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-GE" target="NL-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-GE" target="NL-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-LI" target="NL-NB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-NB" target="NL-ZE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NL-NB" target="NL-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-NH" target="NL-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-NH" target="NL-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-UT" target="NL-ZH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NL-ZE" target="NL-ZH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

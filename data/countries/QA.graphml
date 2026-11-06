@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="QA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="QA-DA"><data key="name">Ad Dawhah</data><data key="code">QA-DA</data><data key="wikidata">Q3861</data><data key="lon">51.45993</data><data key="lat">25.18846</data></node>
+    <node id="QA-KH"><data key="name">Al Khawr</data><data key="code">QA-KH</data><data key="wikidata">Q1156471</data><data key="lon">51.32822</data><data key="lat">25.75355</data></node>
+    <node id="QA-MS"><data key="name">Madinat ach Shamal</data><data key="code">QA-MS</data><data key="wikidata">Q310872</data><data key="lon">51.19931</data><data key="lat">25.99588</data></node>
+    <node id="QA-RA"><data key="name">Ar Rayyān</data><data key="code">QA-RA</data><data key="wikidata">Q311272</data><data key="lon">51.09978</data><data key="lat">25.18309</data></node>
+    <node id="QA-US"><data key="name">Umm Salal</data><data key="code">QA-US</data><data key="wikidata">Q990414</data><data key="lon">51.34977</data><data key="lat">25.4563</data></node>
+    <node id="QA-WA"><data key="name">Al Wakrah</data><data key="code">QA-WA</data><data key="wikidata">Q310893</data><data key="lon">51.38887</data><data key="lat">24.91663</data></node>
+    <node id="QA-ZA"><data key="name">Al Daayen</data><data key="code">QA-ZA</data><data key="wikidata">Q310786</data><data key="lon">51.4422</data><data key="lat">25.5042</data></node>
+    <edge source="QA-DA" target="QA-RA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="QA-DA" target="QA-US"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="QA-DA" target="QA-WA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="QA-DA" target="QA-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="QA-KH" target="QA-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="QA-KH" target="QA-RA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="QA-KH" target="QA-US"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="QA-KH" target="QA-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="QA-RA" target="QA-US"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="QA-RA" target="QA-WA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="QA-US" target="QA-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

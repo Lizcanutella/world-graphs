@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MX" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MX-AGU"><data key="name">Aguascalientes</data><data key="code">MX-AGU</data><data key="wikidata">Q79952</data><data key="lon">-102.3171</data><data key="lat">22.06155</data></node>
+    <node id="MX-BCN"><data key="name">Baja California</data><data key="code">MX-BCN</data><data key="wikidata">Q58731</data><data key="lon">-115.2414</data><data key="lat">30.35282</data></node>
+    <node id="MX-BCS"><data key="name">Baja California Sur</data><data key="code">MX-BCS</data><data key="wikidata">Q46508</data><data key="lon">-111.54477</data><data key="lat">25.43724</data></node>
+    <node id="MX-CAM"><data key="name">Campeche</data><data key="code">MX-CAM</data><data key="wikidata">Q80908</data><data key="lon">-89.91206</data><data key="lat">19.3261</data></node>
+    <node id="MX-CHH"><data key="name">Chihuahua</data><data key="code">MX-CHH</data><data key="wikidata">Q655</data><data key="lon">-106.06883</data><data key="lat">28.68631</data></node>
+    <node id="MX-CHP"><data key="name">Chiapas</data><data key="code">MX-CHP</data><data key="wikidata">Q60123</data><data key="lon">-91.6001</data><data key="lat">16.27002</data></node>
+    <node id="MX-COA"><data key="name">Coahuila</data><data key="code">MX-COA</data><data key="wikidata">Q53079</data><data key="lon">-102.27837</data><data key="lat">27.22663</data></node>
+    <node id="MX-COL"><data key="name">Colima</data><data key="code">MX-COL</data><data key="wikidata">Q61309</data><data key="lon">-103.93906</data><data key="lat">19.11367</data></node>
+    <node id="MX-DIF"><data key="name">Distrito Federal</data><data key="code">MX-DIF</data><data key="wikidata">Q1489</data><data key="lon">-99.14949</data><data key="lat">19.31402</data></node>
+    <node id="MX-DUR"><data key="name">Durango</data><data key="code">MX-DUR</data><data key="wikidata">Q79918</data><data key="lon">-104.58545</data><data key="lat">24.58296</data></node>
+    <node id="MX-GRO"><data key="name">Guerrero</data><data key="code">MX-GRO</data><data key="wikidata">Q60158</data><data key="lon">-99.91653</data><data key="lat">17.59213</data></node>
+    <node id="MX-GUA"><data key="name">Guanajuato</data><data key="code">MX-GUA</data><data key="wikidata">Q46475</data><data key="lon">-101.2737</data><data key="lat">20.88991</data></node>
+    <node id="MX-HID"><data key="name">Hidalgo</data><data key="code">MX-HID</data><data key="wikidata">Q80903</data><data key="lon">-99.19484</data><data key="lat">20.49304</data></node>
+    <node id="MX-JAL"><data key="name">Jalisco</data><data key="code">MX-JAL</data><data key="wikidata">Q13160</data><data key="lon">-103.16003</data><data key="lat">20.86415</data></node>
+    <node id="MX-MEX"><data key="name">México</data><data key="code">MX-MEX</data><data key="wikidata">Q82112</data><data key="lon">-99.79779</data><data key="lat">19.35029</data></node>
+    <node id="MX-MIC"><data key="name">Michoacán</data><data key="code">MX-MIC</data><data key="wikidata">Q79861</data><data key="lon">-101.65426</data><data key="lat">19.16172</data></node>
+    <node id="MX-MOR"><data key="name">Morelos</data><data key="code">MX-MOR</data><data key="wikidata">Q66117</data><data key="lon">-99.08401</data><data key="lat">18.7494</data></node>
+    <node id="MX-NAY"><data key="name">Nayarit</data><data key="code">MX-NAY</data><data key="wikidata">Q79920</data><data key="lon">-104.87226</data><data key="lat">21.86859</data></node>
+    <node id="MX-NLE"><data key="name">Nuevo León</data><data key="code">MX-NLE</data><data key="wikidata">Q15282</data><data key="lon">-99.61649</data><data key="lat">25.49466</data></node>
+    <node id="MX-OAX"><data key="name">Oaxaca</data><data key="code">MX-OAX</data><data key="wikidata">Q34110</data><data key="lon">-96.12431</data><data key="lat">17.1658</data></node>
+    <node id="MX-PUE"><data key="name">Puebla</data><data key="code">MX-PUE</data><data key="wikidata">Q79923</data><data key="lon">-97.42821</data><data key="lat">19.35662</data></node>
+    <node id="MX-QUE"><data key="name">Querétaro</data><data key="code">MX-QUE</data><data key="wikidata">Q79754</data><data key="lon">-100.02369</data><data key="lat">20.78992</data></node>
+    <node id="MX-ROO"><data key="name">Quintana Roo</data><data key="code">MX-ROO</data><data key="wikidata">Q80245</data><data key="lon">-88.48696</data><data key="lat">19.76318</data></node>
+    <node id="MX-SIN"><data key="name">Sinaloa</data><data key="code">MX-SIN</data><data key="wikidata">Q80252</data><data key="lon">-107.40418</data><data key="lat">24.76243</data></node>
+    <node id="MX-SLP"><data key="name">San Luis Potosí</data><data key="code">MX-SLP</data><data key="wikidata">Q78980</data><data key="lon">-101.11728</data><data key="lat">22.87398</data></node>
+    <node id="MX-SON"><data key="name">Sonora</data><data key="code">MX-SON</data><data key="wikidata">Q46422</data><data key="lon">-110.50732</data><data key="lat">29.41322</data></node>
+    <node id="MX-TAB"><data key="name">Tabasco</data><data key="code">MX-TAB</data><data key="wikidata">Q80914</data><data key="lon">-92.0676</data><data key="lat">17.95022</data></node>
+    <node id="MX-TAM"><data key="name">Tamaulipas</data><data key="code">MX-TAM</data><data key="wikidata">Q80007</data><data key="lon">-98.39176</data><data key="lat">24.94029</data></node>
+    <node id="MX-TLA"><data key="name">Tlaxcala</data><data key="code">MX-TLA</data><data key="wikidata">Q82681</data><data key="lon">-98.09629</data><data key="lat">19.41788</data></node>
+    <node id="MX-VER"><data key="name">Veracruz</data><data key="code">MX-VER</data><data key="wikidata">Q60130</data><data key="lon">-96.86906</data><data key="lat">19.82252</data></node>
+    <node id="MX-YUC"><data key="name">Yucatán</data><data key="code">MX-YUC</data><data key="wikidata">Q60176</data><data key="lon">-89.04665</data><data key="lat">20.63058</data></node>
+    <node id="MX-ZAC"><data key="name">Zacatecas</data><data key="code">MX-ZAC</data><data key="wikidata">Q80269</data><data key="lon">-103.21012</data><data key="lat">23.10924</data></node>
+    <edge source="MX-AGU" target="MX-JAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-AGU" target="MX-ZAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-BCN" target="MX-BCS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-BCN" target="MX-SON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CAM" target="MX-ROO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CAM" target="MX-TAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CAM" target="MX-YUC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CHH" target="MX-COA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CHH" target="MX-DUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CHH" target="MX-SIN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CHH" target="MX-SON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CHP" target="MX-OAX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CHP" target="MX-TAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-CHP" target="MX-VER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-COA" target="MX-DUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-COA" target="MX-NLE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-COA" target="MX-ZAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-COL" target="MX-JAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-COL" target="MX-MIC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-DIF" target="MX-MEX"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-DIF" target="MX-MOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-DUR" target="MX-NAY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-DUR" target="MX-SIN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-DUR" target="MX-ZAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GRO" target="MX-MEX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GRO" target="MX-MIC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GRO" target="MX-MOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GRO" target="MX-OAX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GRO" target="MX-PUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GUA" target="MX-JAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GUA" target="MX-MIC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GUA" target="MX-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GUA" target="MX-SLP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-GUA" target="MX-ZAC"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="MX-HID" target="MX-MEX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-HID" target="MX-PUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-HID" target="MX-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-HID" target="MX-SLP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-HID" target="MX-TLA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-HID" target="MX-VER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-JAL" target="MX-MIC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-JAL" target="MX-NAY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-JAL" target="MX-ZAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-MEX" target="MX-MIC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-MEX" target="MX-MOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-MEX" target="MX-PUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-MEX" target="MX-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-MEX" target="MX-TLA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-MIC" target="MX-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-MOR" target="MX-PUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-NAY" target="MX-SIN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-NAY" target="MX-ZAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-NLE" target="MX-SLP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-NLE" target="MX-TAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-NLE" target="MX-ZAC"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="MX-OAX" target="MX-PUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-OAX" target="MX-VER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-PUE" target="MX-TLA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-PUE" target="MX-VER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-QUE" target="MX-SLP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-ROO" target="MX-YUC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-SIN" target="MX-SON"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-SLP" target="MX-TAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-SLP" target="MX-VER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-SLP" target="MX-ZAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-TAB" target="MX-VER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MX-TAM" target="MX-VER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

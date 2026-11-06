@@ -1,0 +1,272 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "NE",
+ "kind": "country",
+ "name": "Niger",
+ "level": "regions",
+ "n": 8,
+ "m": 11,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "NE-1",
+   "name": "Agadez",
+   "wikidata": "Q389944",
+   "lon": 10.68918,
+   "lat": 19.42135
+  },
+  {
+   "code": "NE-2",
+   "name": "Diffa",
+   "wikidata": "Q1053302",
+   "lon": 13.10274,
+   "lat": 15.52739
+  },
+  {
+   "code": "NE-3",
+   "name": "Dosso",
+   "wikidata": "Q850055",
+   "lon": 3.30442,
+   "lat": 13.17837
+  },
+  {
+   "code": "NE-4",
+   "name": "Maradi",
+   "wikidata": "Q850036",
+   "lon": 7.45149,
+   "lat": 14.21761
+  },
+  {
+   "code": "NE-5",
+   "name": "Tahoua",
+   "wikidata": "Q871083",
+   "lon": 5.30907,
+   "lat": 16.12411
+  },
+  {
+   "code": "NE-6",
+   "name": "Tillabéri",
+   "wikidata": "Q861914",
+   "lon": 2.01327,
+   "lat": 13.80395
+  },
+  {
+   "code": "NE-7",
+   "name": "Zinder",
+   "wikidata": "Q204367",
+   "lon": 9.70245,
+   "lat": 15.19455
+  },
+  {
+   "code": "NE-8",
+   "name": "Niamey",
+   "wikidata": "Q3674",
+   "lon": 2.12991,
+   "lat": 13.50422
+  }
+ ],
+ "edges": [
+  {
+   "u": "NE-1",
+   "v": "NE-2",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 392079
+  },
+  {
+   "u": "NE-1",
+   "v": "NE-4",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72830
+  },
+  {
+   "u": "NE-1",
+   "v": "NE-5",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 527053
+  },
+  {
+   "u": "NE-1",
+   "v": "NE-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 577219
+  },
+  {
+   "u": "NE-2",
+   "v": "NE-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 558019
+  },
+  {
+   "u": "NE-3",
+   "v": "NE-5",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 114464
+  },
+  {
+   "u": "NE-3",
+   "v": "NE-6",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 427034
+  },
+  {
+   "u": "NE-4",
+   "v": "NE-5",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 212149
+  },
+  {
+   "u": "NE-4",
+   "v": "NE-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 352670
+  },
+  {
+   "u": "NE-5",
+   "v": "NE-6",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 126330
+  },
+  {
+   "u": "NE-6",
+   "v": "NE-8",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104882
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "NER-ADM2-23599985",
+  "level": "ADM2",
+  "year": "2018",
+  "license": "Creative Commons Attribution 3.0 License"
+ }
+}

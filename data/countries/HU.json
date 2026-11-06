@@ -1,0 +1,1637 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "HU",
+ "kind": "country",
+ "name": "Hungary",
+ "level": "city with county rights",
+ "n": 43,
+ "m": 75,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "HU-BA",
+   "name": "Baranya",
+   "wikidata": "Q186195",
+   "lon": 17.89625,
+   "lat": 46.07884
+  },
+  {
+   "code": "HU-BC",
+   "name": "Békéscsaba",
+   "wikidata": "Q178878",
+   "lon": 21.0873,
+   "lat": 46.7533
+  },
+  {
+   "code": "HU-BE",
+   "name": "Békés",
+   "wikidata": "Q191616",
+   "lon": 20.78761,
+   "lat": 46.72959
+  },
+  {
+   "code": "HU-BK",
+   "name": "Bács-Kiskun",
+   "wikidata": "Q181018",
+   "lon": 19.36579,
+   "lat": 46.52292
+  },
+  {
+   "code": "HU-BU",
+   "name": "Budapest",
+   "wikidata": "Q1781",
+   "lon": 19.13949,
+   "lat": 47.46684
+  },
+  {
+   "code": "HU-BZ",
+   "name": "Borsod-Abaúj-Zemplén",
+   "wikidata": "Q188895",
+   "lon": 21.15139,
+   "lat": 48.12061
+  },
+  {
+   "code": "HU-CS",
+   "name": "Csongrád",
+   "wikidata": "Q193031",
+   "lon": 20.03613,
+   "lat": 46.46558
+  },
+  {
+   "code": "HU-DE",
+   "name": "Debrecen",
+   "wikidata": "Q79880",
+   "lon": 21.64108,
+   "lat": 47.56097
+  },
+  {
+   "code": "HU-DU",
+   "name": "Dunaújváros",
+   "wikidata": "Q187812",
+   "lon": 18.89849,
+   "lat": 46.92873
+  },
+  {
+   "code": "HU-ED",
+   "name": "Érd",
+   "wikidata": "Q193050",
+   "lon": 18.90007,
+   "lat": 47.37824
+  },
+  {
+   "code": "HU-EG",
+   "name": "Eger",
+   "wikidata": "Q167109",
+   "lon": 20.38449,
+   "lat": 47.92522
+  },
+  {
+   "code": "HU-FE",
+   "name": "Fejér",
+   "wikidata": "Q187693",
+   "lon": 18.72424,
+   "lat": 47.12555
+  },
+  {
+   "code": "HU-GS",
+   "name": "Gyor-Moson-Sopron",
+   "wikidata": "Q187753",
+   "lon": 17.3253,
+   "lat": 47.71071
+  },
+  {
+   "code": "HU-GY",
+   "name": "Gyôr",
+   "wikidata": "Q134494",
+   "lon": 17.673,
+   "lat": 47.65631
+  },
+  {
+   "code": "HU-HB",
+   "name": "Hajdú-Bihar",
+   "wikidata": "Q185368",
+   "lon": 21.26173,
+   "lat": 47.44853
+  },
+  {
+   "code": "HU-HE",
+   "name": "Heves",
+   "wikidata": "Q191604",
+   "lon": 20.08887,
+   "lat": 47.77362
+  },
+  {
+   "code": "HU-HV",
+   "name": "Hódmezôvásárhely",
+   "wikidata": "Q124375",
+   "lon": 20.40013,
+   "lat": 46.3976
+  },
+  {
+   "code": "HU-JN",
+   "name": "Jász-Nagykun-Szolnok",
+   "wikidata": "Q189655",
+   "lon": 20.62653,
+   "lat": 47.22415
+  },
+  {
+   "code": "HU-KE",
+   "name": "Komárom-Esztergom",
+   "wikidata": "Q190018",
+   "lon": 18.14643,
+   "lat": 47.58991
+  },
+  {
+   "code": "HU-KM",
+   "name": "Kecskemét",
+   "wikidata": "Q171357",
+   "lon": 19.6719,
+   "lat": 46.88715
+  },
+  {
+   "code": "HU-KV",
+   "name": "Kaposvár",
+   "wikidata": "Q184998",
+   "lon": 17.79649,
+   "lat": 46.34483
+  },
+  {
+   "code": "HU-MI",
+   "name": "Miskolc",
+   "wikidata": "Q102397",
+   "lon": 20.67846,
+   "lat": 48.10737
+  },
+  {
+   "code": "HU-NK",
+   "name": "Nagykanizsa",
+   "wikidata": "Q14424",
+   "lon": 16.97809,
+   "lat": 46.47506
+  },
+  {
+   "code": "HU-NO",
+   "name": "Nógrád",
+   "wikidata": "Q194273",
+   "lon": 19.45323,
+   "lat": 47.96201
+  },
+  {
+   "code": "HU-NY",
+   "name": "Nyíregyháza",
+   "wikidata": "Q171223",
+   "lon": 21.76314,
+   "lat": 47.94353
+  },
+  {
+   "code": "HU-PE",
+   "name": "Pest",
+   "wikidata": "Q188612",
+   "lon": 19.53057,
+   "lat": 47.49965
+  },
+  {
+   "code": "HU-PS",
+   "name": "Pécs",
+   "wikidata": "Q45779",
+   "lon": 18.24956,
+   "lat": 46.07606
+  },
+  {
+   "code": "HU-SD",
+   "name": "Szeged",
+   "wikidata": "Q81581",
+   "lon": 20.17074,
+   "lat": 46.24591
+  },
+  {
+   "code": "HU-SF",
+   "name": "Székesfehérvár",
+   "wikidata": "Q130212",
+   "lon": 18.45955,
+   "lat": 47.18445
+  },
+  {
+   "code": "HU-SH",
+   "name": "Szombathely",
+   "wikidata": "Q42007",
+   "lon": 16.61891,
+   "lat": 47.22622
+  },
+  {
+   "code": "HU-SK",
+   "name": "Szolnok",
+   "wikidata": "Q181276",
+   "lon": 20.16799,
+   "lat": 47.22809
+  },
+  {
+   "code": "HU-SN",
+   "name": "Sopron",
+   "wikidata": "Q168648",
+   "lon": 16.59713,
+   "lat": 47.69439
+  },
+  {
+   "code": "HU-SO",
+   "name": "Somogy",
+   "wikidata": "Q190522",
+   "lon": 17.39283,
+   "lat": 46.39939
+  },
+  {
+   "code": "HU-SS",
+   "name": "Szekszárd",
+   "wikidata": "Q189761",
+   "lon": 18.71203,
+   "lat": 46.35763
+  },
+  {
+   "code": "HU-ST",
+   "name": "Salgótarján",
+   "wikidata": "Q189769",
+   "lon": 19.80716,
+   "lat": 48.11002
+  },
+  {
+   "code": "HU-SZ",
+   "name": "Szabolcs-Szatmár-Bereg",
+   "wikidata": "Q190518",
+   "lon": 22.36421,
+   "lat": 48.00096
+  },
+  {
+   "code": "HU-TB",
+   "name": "Tatabánya",
+   "wikidata": "Q187821",
+   "lon": 18.44995,
+   "lat": 47.56579
+  },
+  {
+   "code": "HU-TO",
+   "name": "Tolna",
+   "wikidata": "Q191625",
+   "lon": 18.48876,
+   "lat": 46.47162
+  },
+  {
+   "code": "HU-VA",
+   "name": "Vas",
+   "wikidata": "Q187677",
+   "lon": 16.83842,
+   "lat": 47.0751
+  },
+  {
+   "code": "HU-VE",
+   "name": "Veszprém (County)",
+   "wikidata": "Q188890",
+   "lon": 17.5259,
+   "lat": 47.08217
+  },
+  {
+   "code": "HU-VM",
+   "name": "Veszprém (Urban county)",
+   "wikidata": "Q146317",
+   "lon": 17.91828,
+   "lat": 47.10838
+  },
+  {
+   "code": "HU-ZA",
+   "name": "Zala",
+   "wikidata": "Q185374",
+   "lon": 16.77532,
+   "lat": 46.6747
+  },
+  {
+   "code": "HU-ZE",
+   "name": "Zalaegerszeg",
+   "wikidata": "Q60037",
+   "lon": 16.8369,
+   "lat": 46.85752
+  }
+ ],
+ "edges": [
+  {
+   "u": "HU-BA",
+   "v": "HU-BK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26440
+  },
+  {
+   "u": "HU-BA",
+   "v": "HU-PS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 65266,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Baranya_vármegye"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Baranya_County"
+    }
+   ]
+  },
+  {
+   "u": "HU-BA",
+   "v": "HU-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86318
+  },
+  {
+   "u": "HU-BA",
+   "v": "HU-TO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81998
+  },
+  {
+   "u": "HU-BC",
+   "v": "HU-BE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 63111,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Békés_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-BE",
+   "v": "HU-CS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76743
+  },
+  {
+   "u": "HU-BE",
+   "v": "HU-HB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73292
+  },
+  {
+   "u": "HU-BE",
+   "v": "HU-HV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10551
+  },
+  {
+   "u": "HU-BE",
+   "v": "HU-JN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80387
+  },
+  {
+   "u": "HU-BK",
+   "v": "HU-CS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100811
+  },
+  {
+   "u": "HU-BK",
+   "v": "HU-DU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17205
+  },
+  {
+   "u": "HU-BK",
+   "v": "HU-FE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4504
+  },
+  {
+   "u": "HU-BK",
+   "v": "HU-JN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40187
+  },
+  {
+   "u": "HU-BK",
+   "v": "HU-KM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 58287,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Bács-Kiskun_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-BK",
+   "v": "HU-PE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 114756
+  },
+  {
+   "u": "HU-BK",
+   "v": "HU-TO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104715
+  },
+  {
+   "u": "HU-BU",
+   "v": "HU-ED",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3949,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "HU-BU",
+   "v": "HU-PE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 91816
+  },
+  {
+   "u": "HU-BZ",
+   "v": "HU-EG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11062
+  },
+  {
+   "u": "HU-BZ",
+   "v": "HU-HB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43936
+  },
+  {
+   "u": "HU-BZ",
+   "v": "HU-HE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 84938
+  },
+  {
+   "u": "HU-BZ",
+   "v": "HU-JN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3520
+  },
+  {
+   "u": "HU-BZ",
+   "v": "HU-MI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 85837,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Borsod-Abaúj-Zemplén_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-BZ",
+   "v": "HU-NO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5914
+  },
+  {
+   "u": "HU-BZ",
+   "v": "HU-SZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111862
+  },
+  {
+   "u": "HU-CS",
+   "v": "HU-HV",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 98860,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Csongrád-Csanád_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-CS",
+   "v": "HU-JN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31521
+  },
+  {
+   "u": "HU-CS",
+   "v": "HU-SD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 76250,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Csongrád-Csanád_County"
+    }
+   ]
+  },
+  {
+   "u": "HU-DE",
+   "v": "HU-HB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 136150,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Debrecen"
+    }
+   ]
+  },
+  {
+   "u": "HU-DU",
+   "v": "HU-FE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28842,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Dunaújváros"
+    }
+   ]
+  },
+  {
+   "u": "HU-ED",
+   "v": "HU-FE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9299
+  },
+  {
+   "u": "HU-ED",
+   "v": "HU-PE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32408
+  },
+  {
+   "u": "HU-EG",
+   "v": "HU-HE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54370
+  },
+  {
+   "u": "HU-FE",
+   "v": "HU-KE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58788
+  },
+  {
+   "u": "HU-FE",
+   "v": "HU-PE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58929
+  },
+  {
+   "u": "HU-FE",
+   "v": "HU-SF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 72913,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Fejér_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-FE",
+   "v": "HU-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18903
+  },
+  {
+   "u": "HU-FE",
+   "v": "HU-TB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7144
+  },
+  {
+   "u": "HU-FE",
+   "v": "HU-TO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69503
+  },
+  {
+   "u": "HU-FE",
+   "v": "HU-VE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52397
+  },
+  {
+   "u": "HU-GS",
+   "v": "HU-GY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 62487,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Győr–Moson–Sopron_County"
+    }
+   ]
+  },
+  {
+   "u": "HU-GS",
+   "v": "HU-KE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38310
+  },
+  {
+   "u": "HU-GS",
+   "v": "HU-SN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17693,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Győr–Moson–Sopron_County"
+    }
+   ]
+  },
+  {
+   "u": "HU-GS",
+   "v": "HU-VA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58145
+  },
+  {
+   "u": "HU-GS",
+   "v": "HU-VE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61634
+  },
+  {
+   "u": "HU-HB",
+   "v": "HU-JN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56190
+  },
+  {
+   "u": "HU-HB",
+   "v": "HU-SZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 120706
+  },
+  {
+   "u": "HU-HE",
+   "v": "HU-JN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127432
+  },
+  {
+   "u": "HU-HE",
+   "v": "HU-MI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7054
+  },
+  {
+   "u": "HU-HE",
+   "v": "HU-NO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71853
+  },
+  {
+   "u": "HU-HE",
+   "v": "HU-PE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19299
+  },
+  {
+   "u": "HU-HV",
+   "v": "HU-SD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9018,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Hódmezővásárhely"
+    }
+   ]
+  },
+  {
+   "u": "HU-JN",
+   "v": "HU-PE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78580
+  },
+  {
+   "u": "HU-JN",
+   "v": "HU-SK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 66802,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jász–Nagykun–Szolnok_County"
+    }
+   ]
+  },
+  {
+   "u": "HU-KE",
+   "v": "HU-PE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50458
+  },
+  {
+   "u": "HU-KE",
+   "v": "HU-TB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30795,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Tatabánya"
+    }
+   ]
+  },
+  {
+   "u": "HU-KE",
+   "v": "HU-VE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26986
+  },
+  {
+   "u": "HU-KM",
+   "v": "HU-PE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15653
+  },
+  {
+   "u": "HU-KV",
+   "v": "HU-SO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 62220,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Kaposvár"
+    }
+   ]
+  },
+  {
+   "u": "HU-NK",
+   "v": "HU-SO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5227
+  },
+  {
+   "u": "HU-NK",
+   "v": "HU-ZA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 50687,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Zala_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-NO",
+   "v": "HU-PE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77641
+  },
+  {
+   "u": "HU-NO",
+   "v": "HU-ST",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32052,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Nógrád_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-NY",
+   "v": "HU-SZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 77436,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "HU-PE",
+   "v": "HU-SK",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12933
+  },
+  {
+   "u": "HU-SH",
+   "v": "HU-VA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 49427,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Vas_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-SO",
+   "v": "HU-TO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52986
+  },
+  {
+   "u": "HU-SO",
+   "v": "HU-VE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10029
+  },
+  {
+   "u": "HU-SO",
+   "v": "HU-ZA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56914
+  },
+  {
+   "u": "HU-SS",
+   "v": "HU-TO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 65622,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "HU-VA",
+   "v": "HU-VE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54107
+  },
+  {
+   "u": "HU-VA",
+   "v": "HU-ZA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80274
+  },
+  {
+   "u": "HU-VE",
+   "v": "HU-VM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 65739,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://hu.wikipedia.org/wiki/Veszprém_vármegye"
+    }
+   ]
+  },
+  {
+   "u": "HU-VE",
+   "v": "HU-ZA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51717
+  },
+  {
+   "u": "HU-ZA",
+   "v": "HU-ZE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 42397,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    },
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zalaegerszeg"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "HUN-ADM1-22733592",
+  "level": "ADM1",
+  "year": "2011",
+  "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+ }
+}

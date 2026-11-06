@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TR-01"><data key="name">Adana</data><data key="code">TR-01</data><data key="wikidata">Q40549</data><data key="lon">35.42648</data><data key="lat">37.50483</data></node>
+    <node id="TR-02"><data key="name">Adiyaman</data><data key="code">TR-02</data><data key="wikidata">Q43924</data><data key="lon">38.22456</data><data key="lat">37.81554</data></node>
+    <node id="TR-03"><data key="name">Afyonkarahisar</data><data key="code">TR-03</data><data key="wikidata">Q45220</data><data key="lon">30.61755</data><data key="lat">38.52844</data></node>
+    <node id="TR-04"><data key="name">Agri</data><data key="code">TR-04</data><data key="wikidata">Q80051</data><data key="lon">43.42485</data><data key="lat">39.49963</data></node>
+    <node id="TR-05"><data key="name">Amasya</data><data key="code">TR-05</data><data key="wikidata">Q80036</data><data key="lon">35.88299</data><data key="lat">40.64412</data></node>
+    <node id="TR-06"><data key="name">Ankara</data><data key="code">TR-06</data><data key="wikidata">Q2297724</data><data key="lon">32.57634</data><data key="lat">39.68435</data></node>
+    <node id="TR-07"><data key="name">Antalya</data><data key="code">TR-07</data><data key="wikidata">Q40249</data><data key="lon">31.94251</data><data key="lat">36.75698</data></node>
+    <node id="TR-08"><data key="name">Artvin</data><data key="code">TR-08</data><data key="wikidata">Q43745</data><data key="lon">41.87647</data><data key="lat">41.05195</data></node>
+    <node id="TR-09"><data key="name">Aydin</data><data key="code">TR-09</data><data key="wikidata">Q79846</data><data key="lon">28.06836</data><data key="lat">37.72932</data></node>
+    <node id="TR-10"><data key="name">Balikesir</data><data key="code">TR-10</data><data key="wikidata">Q47117</data><data key="lon">27.89611</data><data key="lat">39.79713</data></node>
+    <node id="TR-11"><data key="name">Bilecik</data><data key="code">TR-11</data><data key="wikidata">Q46763</data><data key="lon">30.11554</data><data key="lat">40.07458</data></node>
+    <node id="TR-12"><data key="name">Bingöl</data><data key="code">TR-12</data><data key="wikidata">Q79760</data><data key="lon">40.76471</data><data key="lat">39.01255</data></node>
+    <node id="TR-13"><data key="name">Bitlis</data><data key="code">TR-13</data><data key="wikidata">Q83239</data><data key="lon">41.97361</data><data key="lat">38.52325</data></node>
+    <node id="TR-14"><data key="name">Bolu</data><data key="code">TR-14</data><data key="wikidata">Q82089</data><data key="lon">31.62552</data><data key="lat">40.58508</data></node>
+    <node id="TR-15"><data key="name">Burdur</data><data key="code">TR-15</data><data key="wikidata">Q80088</data><data key="lon">30.22933</data><data key="lat">37.35997</data></node>
+    <node id="TR-16"><data key="name">Bursa</data><data key="code">TR-16</data><data key="wikidata">Q43690</data><data key="lon">28.92458</data><data key="lat">40.06817</data></node>
+    <node id="TR-17"><data key="name">Çanakkale</data><data key="code">TR-17</data><data key="wikidata">Q47813</data><data key="lon">26.82272</data><data key="lat">39.96401</data></node>
+    <node id="TR-18"><data key="name">Çankiri</data><data key="code">TR-18</data><data key="wikidata">Q272662</data><data key="lon">33.37223</data><data key="lat">40.68712</data></node>
+    <node id="TR-19"><data key="name">Çorum</data><data key="code">TR-19</data><data key="wikidata">Q272947</data><data key="lon">34.75228</data><data key="lat">40.61031</data></node>
+    <node id="TR-20"><data key="name">Denizli</data><data key="code">TR-20</data><data key="wikidata">Q82096</data><data key="lon">29.26245</data><data key="lat">37.68127</data></node>
+    <node id="TR-21"><data key="name">Diyarbakir</data><data key="code">TR-21</data><data key="wikidata">Q83081</data><data key="lon">40.19034</data><data key="lat">38.05339</data></node>
+    <node id="TR-22"><data key="name">Edirne</data><data key="code">TR-22</data><data key="wikidata">Q83102</data><data key="lon">26.63759</data><data key="lat">41.29037</data></node>
+    <node id="TR-23"><data key="name">Elazig</data><data key="code">TR-23</data><data key="wikidata">Q483091</data><data key="lon">39.93937</data><data key="lat">38.77952</data></node>
+    <node id="TR-24"><data key="name">Erzincan</data><data key="code">TR-24</data><data key="wikidata">Q483173</data><data key="lon">39.07683</data><data key="lat">39.54837</data></node>
+    <node id="TR-25"><data key="name">Erzurum</data><data key="code">TR-25</data><data key="wikidata">Q376797</data><data key="lon">41.4942</data><data key="lat">40.04188</data></node>
+    <node id="TR-26"><data key="name">Eskisehir</data><data key="code">TR-26</data><data key="wikidata">Q483053</data><data key="lon">31.01796</data><data key="lat">39.62971</data></node>
+    <node id="TR-27"><data key="name">Gaziantep</data><data key="code">TR-27</data><data key="wikidata">Q483154</data><data key="lon">37.22977</data><data key="lat">37.1017</data></node>
+    <node id="TR-28"><data key="name">Giresun</data><data key="code">TR-28</data><data key="wikidata">Q482779</data><data key="lon">38.47908</data><data key="lat">40.56464</data></node>
+    <node id="TR-29"><data key="name">Gümüshane</data><data key="code">TR-29</data><data key="wikidata">Q482788</data><data key="lon">39.45424</data><data key="lat">40.34246</data></node>
+    <node id="TR-30"><data key="name">Hakkari</data><data key="code">TR-30</data><data key="wikidata">Q93209</data><data key="lon">43.98793</data><data key="lat">37.43898</data></node>
+    <node id="TR-31"><data key="name">Hatay</data><data key="code">TR-31</data><data key="wikidata">Q83274</data><data key="lon">36.22927</data><data key="lat">36.42267</data></node>
+    <node id="TR-32"><data key="name">Isparta</data><data key="code">TR-32</data><data key="wikidata">Q268043</data><data key="lon">30.76445</data><data key="lat">37.93423</data></node>
+    <node id="TR-33"><data key="name">Mersin</data><data key="code">TR-33</data><data key="wikidata">Q132637</data><data key="lon">33.75227</data><data key="lat">36.70944</data></node>
+    <node id="TR-34"><data key="name">Istanbul</data><data key="code">TR-34</data><data key="wikidata">Q534799</data><data key="lon">28.57686</data><data key="lat">41.2517</data></node>
+    <node id="TR-35"><data key="name">Izmir</data><data key="code">TR-35</data><data key="wikidata">Q344490</data><data key="lon">27.02206</data><data key="lat">38.67499</data></node>
+    <node id="TR-36"><data key="name">Kars</data><data key="code">TR-36</data><data key="wikidata">Q83077</data><data key="lon">43.06122</data><data key="lat">40.51471</data></node>
+    <node id="TR-37"><data key="name">Kastamonu</data><data key="code">TR-37</data><data key="wikidata">Q483191</data><data key="lon">33.79018</data><data key="lat">41.41851</data></node>
+    <node id="TR-38"><data key="name">Kayseri</data><data key="code">TR-38</data><data key="wikidata">Q483472</data><data key="lon">35.86366</data><data key="lat">38.52614</data></node>
+    <node id="TR-39"><data key="name">Kirklareli</data><data key="code">TR-39</data><data key="wikidata">Q131597</data><data key="lon">27.49455</data><data key="lat">41.68065</data></node>
+    <node id="TR-40"><data key="name">Kirsehir</data><data key="code">TR-40</data><data key="wikidata">Q134187</data><data key="lon">34.09176</data><data key="lat">39.3539</data></node>
+    <node id="TR-41"><data key="name">Kocaeli</data><data key="code">TR-41</data><data key="wikidata">Q83965</data><data key="lon">29.78753</data><data key="lat">40.89119</data></node>
+    <node id="TR-42"><data key="name">Konya</data><data key="code">TR-42</data><data key="wikidata">Q81551</data><data key="lon">32.45432</data><data key="lat">37.94192</data></node>
+    <node id="TR-43"><data key="name">Kütahya</data><data key="code">TR-43</data><data key="wikidata">Q126874</data><data key="lon">29.60443</data><data key="lat">39.31217</data></node>
+    <node id="TR-44"><data key="name">Malatya</data><data key="code">TR-44</data><data key="wikidata">Q131384</data><data key="lon">37.8414</data><data key="lat">38.48964</data></node>
+    <node id="TR-45"><data key="name">Manisa</data><data key="code">TR-45</data><data key="wikidata">Q130553</data><data key="lon">28.14103</data><data key="lat">38.7739</data></node>
+    <node id="TR-46"><data key="name">K. Maras</data><data key="code">TR-46</data><data key="wikidata">Q482834</data><data key="lon">36.9809</data><data key="lat">37.94482</data></node>
+    <node id="TR-47"><data key="name">Mardin</data><data key="code">TR-47</data><data key="wikidata">Q131293</data><data key="lon">40.85289</data><data key="lat">37.34701</data></node>
+    <node id="TR-48"><data key="name">Mugla</data><data key="code">TR-48</data><data key="wikidata">Q123934</data><data key="lon">28.69138</data><data key="lat">36.9348</data></node>
+    <node id="TR-49"><data key="name">Mus</data><data key="code">TR-49</data><data key="wikidata">Q131387</data><data key="lon">41.93788</data><data key="lat">39.01731</data></node>
+    <node id="TR-50"><data key="name">Nevsehir</data><data key="code">TR-50</data><data key="wikidata">Q430693</data><data key="lon">34.67544</data><data key="lat">38.87309</data></node>
+    <node id="TR-51"><data key="name">Nigde</data><data key="code">TR-51</data><data key="wikidata">Q155219</data><data key="lon">34.75143</data><data key="lat">37.87722</data></node>
+    <node id="TR-52"><data key="name">Ordu</data><data key="code">TR-52</data><data key="wikidata">Q483180</data><data key="lon">37.50175</data><data key="lat">40.73246</data></node>
+    <node id="TR-53"><data key="name">Rize</data><data key="code">TR-53</data><data key="wikidata">Q483481</data><data key="lon">40.79719</data><data key="lat">40.89859</data></node>
+    <node id="TR-54"><data key="name">Sakarya</data><data key="code">TR-54</data><data key="wikidata">Q83069</data><data key="lon">30.5674</data><data key="lat">40.74218</data></node>
+    <node id="TR-55"><data key="name">Samsun</data><data key="code">TR-55</data><data key="wikidata">Q483040</data><data key="lon">35.92349</data><data key="lat">41.29132</data></node>
+    <node id="TR-56"><data key="name">Siirt</data><data key="code">TR-56</data><data key="wikidata">Q482825</data><data key="lon">42.22809</data><data key="lat">37.93042</data></node>
+    <node id="TR-57"><data key="name">Sinop</data><data key="code">TR-57</data><data key="wikidata">Q134413</data><data key="lon">35.02788</data><data key="lat">41.65129</data></node>
+    <node id="TR-58"><data key="name">Sivas</data><data key="code">TR-58</data><data key="wikidata">Q483100</data><data key="lon">37.19883</data><data key="lat">39.54992</data></node>
+    <node id="TR-59"><data key="name">Tekirdag</data><data key="code">TR-59</data><data key="wikidata">Q129387</data><data key="lon">27.36879</data><data key="lat">41.02786</data></node>
+    <node id="TR-60"><data key="name">Tokat</data><data key="code">TR-60</data><data key="wikidata">Q483195</data><data key="lon">36.69707</data><data key="lat">40.42477</data></node>
+    <node id="TR-61"><data key="name">Trabzon</data><data key="code">TR-61</data><data key="wikidata">Q388995</data><data key="lon">39.7704</data><data key="lat">40.83743</data></node>
+    <node id="TR-62"><data key="name">Tunceli</data><data key="code">TR-62</data><data key="wikidata">Q620742</data><data key="lon">39.39584</data><data key="lat">39.20112</data></node>
+    <node id="TR-63"><data key="name">Sanliurfa</data><data key="code">TR-63</data><data key="wikidata">Q388469</data><data key="lon">38.94654</data><data key="lat">37.3572</data></node>
+    <node id="TR-64"><data key="name">Usak</data><data key="code">TR-64</data><data key="wikidata">Q483078</data><data key="lon">29.34214</data><data key="lat">38.54939</data></node>
+    <node id="TR-65"><data key="name">Van</data><data key="code">TR-65</data><data key="wikidata">Q80550</data><data key="lon">43.78493</data><data key="lat">38.56575</data></node>
+    <node id="TR-66"><data key="name">Yozgat</data><data key="code">TR-66</data><data key="wikidata">Q75445</data><data key="lon">35.30218</data><data key="lat">39.61142</data></node>
+    <node id="TR-67"><data key="name">Zinguldak</data><data key="code">TR-67</data><data key="wikidata">Q219956</data><data key="lon">31.83301</data><data key="lat">41.31007</data></node>
+    <node id="TR-68"><data key="name">Aksaray</data><data key="code">TR-68</data><data key="wikidata">Q83073</data><data key="lon">33.86222</data><data key="lat">38.46662</data></node>
+    <node id="TR-69"><data key="name">Bayburt</data><data key="code">TR-69</data><data key="wikidata">Q483063</data><data key="lon">40.21231</data><data key="lat">40.31477</data></node>
+    <node id="TR-70"><data key="name">Karaman</data><data key="code">TR-70</data><data key="wikidata">Q482975</data><data key="lon">33.20048</data><data key="lat">37.0422</data></node>
+    <node id="TR-71"><data key="name">Kinkkale</data><data key="code">TR-71</data><data key="wikidata">Q484392</data><data key="lon">33.64293</data><data key="lat">39.76985</data></node>
+    <node id="TR-72"><data key="name">Batman</data><data key="code">TR-72</data><data key="wikidata">Q80370</data><data key="lon">41.29772</data><data key="lat">38.03303</data></node>
+    <node id="TR-73"><data key="name">Sirnak</data><data key="code">TR-73</data><data key="wikidata">Q647378</data><data key="lon">42.65158</data><data key="lat">37.45032</data></node>
+    <node id="TR-74"><data key="name">Bartın</data><data key="code">TR-74</data><data key="wikidata">Q83342</data><data key="lon">32.4829</data><data key="lat">41.58789</data></node>
+    <node id="TR-75"><data key="name">Ardahan</data><data key="code">TR-75</data><data key="wikidata">Q79840</data><data key="lon">42.93011</data><data key="lat">41.09925</data></node>
+    <node id="TR-76"><data key="name">Iğdir</data><data key="code">TR-76</data><data key="wikidata">Q125506</data><data key="lon">43.95395</data><data key="lat">39.86969</data></node>
+    <node id="TR-77"><data key="name">Yalova</data><data key="code">TR-77</data><data key="wikidata">Q483083</data><data key="lon">29.14585</data><data key="lat">40.58249</data></node>
+    <node id="TR-78"><data key="name">Karabük</data><data key="code">TR-78</data><data key="wikidata">Q483168</data><data key="lon">32.5506</data><data key="lat">41.17132</data></node>
+    <node id="TR-79"><data key="name">Kilis</data><data key="code">TR-79</data><data key="wikidata">Q128978</data><data key="lon">36.95557</data><data key="lat">36.81715</data></node>
+    <node id="TR-80"><data key="name">Osmaniye</data><data key="code">TR-80</data><data key="wikidata">Q281206</data><data key="lon">36.31514</data><data key="lat">37.30749</data></node>
+    <node id="TR-81"><data key="name">Düzce</data><data key="code">TR-81</data><data key="wikidata">Q432391</data><data key="lon">31.30529</data><data key="lat">40.91638</data></node>
+    <edge source="TR-01" target="TR-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-01" target="TR-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-01" target="TR-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-01" target="TR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-01" target="TR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-01" target="TR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-02" target="TR-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-02" target="TR-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-02" target="TR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-02" target="TR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-02" target="TR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-03" target="TR-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-03" target="TR-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-03" target="TR-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-03" target="TR-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-03" target="TR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-03" target="TR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-03" target="TR-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-04" target="TR-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-04" target="TR-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-04" target="TR-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-04" target="TR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-04" target="TR-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-04" target="TR-76"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-05" target="TR-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-05" target="TR-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-05" target="TR-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-05" target="TR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-06" target="TR-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-06" target="TR-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-06" target="TR-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-06" target="TR-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-06" target="TR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-06" target="TR-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-06" target="TR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-07" target="TR-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-07" target="TR-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-07" target="TR-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-07" target="TR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-07" target="TR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-07" target="TR-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-08" target="TR-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-08" target="TR-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-08" target="TR-75"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-09" target="TR-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-09" target="TR-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-09" target="TR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-09" target="TR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-10" target="TR-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-10" target="TR-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-10" target="TR-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-10" target="TR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-10" target="TR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-11" target="TR-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-11" target="TR-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-11" target="TR-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-11" target="TR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-11" target="TR-54"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-12" target="TR-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-12" target="TR-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-12" target="TR-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-12" target="TR-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-12" target="TR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-12" target="TR-62"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-13" target="TR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-13" target="TR-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-13" target="TR-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-13" target="TR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-14" target="TR-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-14" target="TR-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-14" target="TR-54"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-14" target="TR-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-14" target="TR-78"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-14" target="TR-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-15" target="TR-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-15" target="TR-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-15" target="TR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-16" target="TR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-16" target="TR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-16" target="TR-54"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="TR-16" target="TR-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-17" target="TR-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-17" target="TR-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-18" target="TR-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-18" target="TR-37"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-18" target="TR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-18" target="TR-78"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-19" target="TR-37"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-19" target="TR-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-19" target="TR-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-19" target="TR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-19" target="TR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-20" target="TR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-20" target="TR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-20" target="TR-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-21" target="TR-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-21" target="TR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-21" target="TR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-21" target="TR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-21" target="TR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-21" target="TR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-22" target="TR-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-22" target="TR-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-23" target="TR-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-23" target="TR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-23" target="TR-62"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-24" target="TR-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-24" target="TR-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-24" target="TR-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-24" target="TR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-24" target="TR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-24" target="TR-62"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-24" target="TR-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-25" target="TR-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-25" target="TR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-25" target="TR-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-25" target="TR-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-25" target="TR-75"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-26" target="TR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-26" target="TR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-27" target="TR-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-27" target="TR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-27" target="TR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-27" target="TR-79"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-27" target="TR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-28" target="TR-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-28" target="TR-52"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-28" target="TR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-28" target="TR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-29" target="TR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-29" target="TR-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-30" target="TR-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-30" target="TR-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-31" target="TR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-32" target="TR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-33" target="TR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-33" target="TR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-33" target="TR-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-34" target="TR-39"><data key="sources">natural_earth,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="TR-34" target="TR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-34" target="TR-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-35" target="TR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-36" target="TR-75"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-36" target="TR-76"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-37" target="TR-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-37" target="TR-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-37" target="TR-78"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-38" target="TR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-38" target="TR-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-38" target="TR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-38" target="TR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-38" target="TR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-39" target="TR-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-40" target="TR-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-40" target="TR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-40" target="TR-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-40" target="TR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-41" target="TR-54"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-41" target="TR-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-42" target="TR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-42" target="TR-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-42" target="TR-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-43" target="TR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-43" target="TR-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-44" target="TR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-44" target="TR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-45" target="TR-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-46" target="TR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-46" target="TR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-47" target="TR-56"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="TR-47" target="TR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-47" target="TR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-47" target="TR-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-49" target="TR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-50" target="TR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-50" target="TR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-50" target="TR-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-51" target="TR-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-52" target="TR-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-52" target="TR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-52" target="TR-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-53" target="TR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-53" target="TR-69"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="TR-54" target="TR-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-55" target="TR-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-55" target="TR-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-56" target="TR-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-56" target="TR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-56" target="TR-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-58" target="TR-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-58" target="TR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-60" target="TR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-61" target="TR-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-65" target="TR-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-66" target="TR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-67" target="TR-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-67" target="TR-78"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-67" target="TR-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TR-74" target="TR-78"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

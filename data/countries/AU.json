@@ -1,0 +1,297 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AU",
+ "kind": "country",
+ "name": "Australia",
+ "level": "states",
+ "n": 12,
+ "m": 11,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AU-ACT",
+   "name": "Australian Capital Territory",
+   "wikidata": "Q3258",
+   "lon": 148.95678,
+   "lat": -35.5391
+  },
+  {
+   "code": "AU-NSW",
+   "name": "New South Wales",
+   "wikidata": "Q3224",
+   "lon": 146.45277,
+   "lat": -32.82896
+  },
+  {
+   "code": "AU-NSW:Lord Howe Island",
+   "name": "Lord Howe Island",
+   "wikidata": "Q3224",
+   "lon": 159.08899,
+   "lat": -31.55568
+  },
+  {
+   "code": "AU-NT",
+   "name": "Northern Territory",
+   "wikidata": "Q3235",
+   "lon": 133.50015,
+   "lat": -18.48474
+  },
+  {
+   "code": "AU-QLD",
+   "name": "Queensland",
+   "wikidata": "Q36074",
+   "lon": 143.0629,
+   "lat": -19.93226
+  },
+  {
+   "code": "AU-SA",
+   "name": "South Australia",
+   "wikidata": "Q35715",
+   "lon": 138.63148,
+   "lat": -32.03558
+  },
+  {
+   "code": "AU-TAS",
+   "name": "Tasmania",
+   "wikidata": "Q34366",
+   "lon": 146.66833,
+   "lat": -42.14027
+  },
+  {
+   "code": "AU-VIC",
+   "name": "Victoria",
+   "wikidata": "Q36687",
+   "lon": 144.56051,
+   "lat": -36.56741
+  },
+  {
+   "code": "AU-WA",
+   "name": "Western Australia",
+   "wikidata": "Q3206",
+   "lon": 121.19798,
+   "lat": -24.4358
+  },
+  {
+   "code": "AU-X02~",
+   "name": "Jervis Bay Territory",
+   "wikidata": "Q15577",
+   "lon": 150.69838,
+   "lat": -35.15753
+  },
+  {
+   "code": "AU-X03~",
+   "name": "Macquarie Island",
+   "wikidata": "Q46650",
+   "lon": 158.8919,
+   "lat": -54.60849
+  },
+  {
+   "code": "AU-X04~",
+   "name": "Ashmore and Cartier Islands",
+   "wikidata": null,
+   "lon": 123.58635,
+   "lat": -12.43255
+  }
+ ],
+ "edges": [
+  {
+   "u": "AU-ACT",
+   "v": "AU-NSW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 245633
+  },
+  {
+   "u": "AU-NSW",
+   "v": "AU-QLD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1401043
+  },
+  {
+   "u": "AU-NSW",
+   "v": "AU-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 556456
+  },
+  {
+   "u": "AU-NSW",
+   "v": "AU-VIC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1239347
+  },
+  {
+   "u": "AU-NSW",
+   "v": "AU-X02~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12052
+  },
+  {
+   "u": "AU-NT",
+   "v": "AU-QLD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1047247
+  },
+  {
+   "u": "AU-NT",
+   "v": "AU-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 901067
+  },
+  {
+   "u": "AU-NT",
+   "v": "AU-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1140361
+  },
+  {
+   "u": "AU-QLD",
+   "v": "AU-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 632783
+  },
+  {
+   "u": "AU-SA",
+   "v": "AU-VIC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 456681
+  },
+  {
+   "u": "AU-SA",
+   "v": "AU-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 630567
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "AUS-ADM1-82085004",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

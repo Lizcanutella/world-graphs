@@ -1,0 +1,293 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SK",
+ "kind": "country",
+ "name": "Slovakia",
+ "level": "regions",
+ "n": 8,
+ "m": 12,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SK-BC",
+   "name": "Banskobystrický",
+   "wikidata": "Q183640",
+   "lon": 19.41976,
+   "lat": 48.50141
+  },
+  {
+   "code": "SK-BL",
+   "name": "Bratislavský",
+   "wikidata": "Q183498",
+   "lon": 17.1831,
+   "lat": 48.33013
+  },
+  {
+   "code": "SK-KI",
+   "name": "Košický",
+   "wikidata": "Q186295",
+   "lon": 21.28691,
+   "lat": 48.67465
+  },
+  {
+   "code": "SK-NI",
+   "name": "Nitriansky",
+   "wikidata": "Q184548",
+   "lon": 18.34448,
+   "lat": 48.2322
+  },
+  {
+   "code": "SK-PV",
+   "name": "Prešov",
+   "wikidata": "Q189001",
+   "lon": 21.1992,
+   "lat": 49.10535
+  },
+  {
+   "code": "SK-TA",
+   "name": "Trnavský",
+   "wikidata": "Q181342",
+   "lon": 17.65577,
+   "lat": 48.31863
+  },
+  {
+   "code": "SK-TC",
+   "name": "Trenciansky",
+   "wikidata": "Q183139",
+   "lon": 18.23918,
+   "lat": 48.9034
+  },
+  {
+   "code": "SK-ZI",
+   "name": "Žilinský",
+   "wikidata": "Q184228",
+   "lon": 19.20896,
+   "lat": 49.17283
+  }
+ ],
+ "edges": [
+  {
+   "u": "SK-BC",
+   "v": "SK-KI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66747
+  },
+  {
+   "u": "SK-BC",
+   "v": "SK-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 125202
+  },
+  {
+   "u": "SK-BC",
+   "v": "SK-PV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21669
+  },
+  {
+   "u": "SK-BC",
+   "v": "SK-TC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39118
+  },
+  {
+   "u": "SK-BC",
+   "v": "SK-ZI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111048
+  },
+  {
+   "u": "SK-BL",
+   "v": "SK-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 151310
+  },
+  {
+   "u": "SK-KI",
+   "v": "SK-PV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 240600
+  },
+  {
+   "u": "SK-NI",
+   "v": "SK-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 134193
+  },
+  {
+   "u": "SK-NI",
+   "v": "SK-TC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68613
+  },
+  {
+   "u": "SK-PV",
+   "v": "SK-ZI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49680
+  },
+  {
+   "u": "SK-TA",
+   "v": "SK-TC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75963
+  },
+  {
+   "u": "SK-TC",
+   "v": "SK-ZI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 105601
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "SVK-ADM1-25762395",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

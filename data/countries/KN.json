@@ -1,0 +1,432 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KN",
+ "kind": "country",
+ "name": "Saint Kitts and Nevis",
+ "level": "parishes",
+ "n": 14,
+ "m": 19,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KN-01",
+   "name": "Christ Church Nichola Town",
+   "wikidata": "Q176164",
+   "lon": -62.76077,
+   "lat": 17.35763
+  },
+  {
+   "code": "KN-02",
+   "name": "Saint Anne Sandy Point",
+   "wikidata": "Q1473654",
+   "lon": -62.8346,
+   "lat": 17.35769
+  },
+  {
+   "code": "KN-03",
+   "name": "Saint George Basseterre",
+   "wikidata": "Q1540744",
+   "lon": -62.66993,
+   "lat": 17.26956
+  },
+  {
+   "code": "KN-04",
+   "name": "Saint George Gingerland",
+   "wikidata": "Q1472520",
+   "lon": -62.55523,
+   "lat": 17.12535
+  },
+  {
+   "code": "KN-05",
+   "name": "Saint James Windward",
+   "wikidata": "Q1342139",
+   "lon": -62.56634,
+   "lat": 17.16961
+  },
+  {
+   "code": "KN-06",
+   "name": "Saint John Capesterre",
+   "wikidata": "Q668498",
+   "lon": -62.79474,
+   "lat": 17.38367
+  },
+  {
+   "code": "KN-07",
+   "name": "Saint John Figtree",
+   "wikidata": "Q657318",
+   "lon": -62.59356,
+   "lat": 17.11624
+  },
+  {
+   "code": "KN-08",
+   "name": "Saint Mary Cayon",
+   "wikidata": "Q1538034",
+   "lon": -62.72732,
+   "lat": 17.3492
+  },
+  {
+   "code": "KN-09",
+   "name": "Saint Paul Capesterre",
+   "wikidata": "Q952735",
+   "lon": -62.83668,
+   "lat": 17.38715
+  },
+  {
+   "code": "KN-10",
+   "name": "Saint Paul Charlestown",
+   "wikidata": "Q1752127",
+   "lon": -62.60675,
+   "lat": 17.13544
+  },
+  {
+   "code": "KN-11",
+   "name": "Saint Peter Basseterre",
+   "wikidata": "Q1725609",
+   "lon": -62.70847,
+   "lat": 17.31968
+  },
+  {
+   "code": "KN-12",
+   "name": "Saint Thomas Lowland",
+   "wikidata": "Q1752122",
+   "lon": -62.60481,
+   "lat": 17.16139
+  },
+  {
+   "code": "KN-13",
+   "name": "Saint Thomas Middle Island",
+   "wikidata": "Q1752101",
+   "lon": -62.79818,
+   "lat": 17.3333
+  },
+  {
+   "code": "KN-14",
+   "name": "Trinity Palmetto Point",
+   "wikidata": "Q376738",
+   "lon": -62.74865,
+   "lat": 17.31125
+  }
+ ],
+ "edges": [
+  {
+   "u": "KN-01",
+   "v": "KN-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4715
+  },
+  {
+   "u": "KN-01",
+   "v": "KN-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4368
+  },
+  {
+   "u": "KN-01",
+   "v": "KN-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4547
+  },
+  {
+   "u": "KN-01",
+   "v": "KN-14",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 965,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KN-02",
+   "v": "KN-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6626
+  },
+  {
+   "u": "KN-02",
+   "v": "KN-13",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5035
+  },
+  {
+   "u": "KN-03",
+   "v": "KN-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6581
+  },
+  {
+   "u": "KN-03",
+   "v": "KN-14",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3430,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KN-04",
+   "v": "KN-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4815
+  },
+  {
+   "u": "KN-04",
+   "v": "KN-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5162
+  },
+  {
+   "u": "KN-05",
+   "v": "KN-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6188
+  },
+  {
+   "u": "KN-06",
+   "v": "KN-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5480
+  },
+  {
+   "u": "KN-06",
+   "v": "KN-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2838
+  },
+  {
+   "u": "KN-07",
+   "v": "KN-10",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5202
+  },
+  {
+   "u": "KN-08",
+   "v": "KN-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4275
+  },
+  {
+   "u": "KN-08",
+   "v": "KN-14",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 762,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KN-10",
+   "v": "KN-12",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5247
+  },
+  {
+   "u": "KN-11",
+   "v": "KN-14",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1357,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KN-13",
+   "v": "KN-14",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4310,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "KNA-ADM1-52472329",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Creative Commons Attribution-ShareAlike 2.0"
+ }
+}

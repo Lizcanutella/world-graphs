@@ -1,0 +1,168 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "IL",
+ "kind": "country",
+ "name": "Israel",
+ "level": "districts",
+ "n": 6,
+ "m": 6,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "IL-D",
+   "name": "HaDarom",
+   "wikidata": "Q188781",
+   "lon": 34.85481,
+   "lat": 30.68549
+  },
+  {
+   "code": "IL-HA",
+   "name": "Haifa",
+   "wikidata": "Q185845",
+   "lon": 34.9791,
+   "lat": 32.63705
+  },
+  {
+   "code": "IL-JM",
+   "name": "Jerusalem",
+   "wikidata": "Q192232",
+   "lon": 35.06591,
+   "lat": 31.74373
+  },
+  {
+   "code": "IL-M",
+   "name": "HaMerkaz",
+   "wikidata": "Q188785",
+   "lon": 34.91447,
+   "lat": 32.08773
+  },
+  {
+   "code": "IL-TA",
+   "name": "Tel Aviv",
+   "wikidata": "Q192811",
+   "lon": 34.80742,
+   "lat": 32.09812
+  },
+  {
+   "code": "IL-Z",
+   "name": "HaZafon",
+   "wikidata": "Q189942",
+   "lon": 35.46256,
+   "lat": 32.89445
+  }
+ ],
+ "edges": [
+  {
+   "u": "IL-D",
+   "v": "IL-JM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26265
+  },
+  {
+   "u": "IL-D",
+   "v": "IL-M",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41476
+  },
+  {
+   "u": "IL-HA",
+   "v": "IL-M",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16559
+  },
+  {
+   "u": "IL-HA",
+   "v": "IL-Z",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 74335
+  },
+  {
+   "u": "IL-JM",
+   "v": "IL-M",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18742
+  },
+  {
+   "u": "IL-M",
+   "v": "IL-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41216
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ISR-ADM1-19161824",
+  "level": "ADM1",
+  "year": "2006",
+  "license": "Public Domain"
+ }
+}

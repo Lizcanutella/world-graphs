@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AI-X01~"><data key="name">Blowing Point</data><data key="code">AI-X01~</data><data key="wikidata"></data><data key="lon">-63.09225</data><data key="lat">18.19335</data></node>
+    <node id="AI-X02~"><data key="name">East End</data><data key="code">AI-X02~</data><data key="wikidata"></data><data key="lon">-62.94775</data><data key="lat">18.28551</data></node>
+    <node id="AI-X03~"><data key="name">George Hill</data><data key="code">AI-X03~</data><data key="wikidata"></data><data key="lon">-63.06798</data><data key="lat">18.20897</data></node>
+    <node id="AI-X04~"><data key="name">Island Harbour</data><data key="code">AI-X04~</data><data key="wikidata"></data><data key="lon">-63.0027</data><data key="lat">18.27018</data></node>
+    <node id="AI-X05~"><data key="name">North Hill</data><data key="code">AI-X05~</data><data key="wikidata"></data><data key="lon">-63.06514</data><data key="lat">18.22324</data></node>
+    <node id="AI-X06~"><data key="name">North Side</data><data key="code">AI-X06~</data><data key="wikidata"></data><data key="lon">-63.04431</data><data key="lat">18.2528</data></node>
+    <node id="AI-X07~"><data key="name">Sandy Ground</data><data key="code">AI-X07~</data><data key="wikidata"></data><data key="lon">-63.08006</data><data key="lat">18.21911</data></node>
+    <node id="AI-X08~"><data key="name">Sandy Hill</data><data key="code">AI-X08~</data><data key="wikidata"></data><data key="lon">-63.01109</data><data key="lat">18.2395</data></node>
+    <node id="AI-X09~"><data key="name">South Hill</data><data key="code">AI-X09~</data><data key="wikidata"></data><data key="lon">-63.10875</data><data key="lat">18.20143</data></node>
+    <node id="AI-X10~"><data key="name">Stoney Ground</data><data key="code">AI-X10~</data><data key="wikidata"></data><data key="lon">-63.02316</data><data key="lat">18.25181</data></node>
+    <node id="AI-X11~"><data key="name">The Farrington</data><data key="code">AI-X11~</data><data key="wikidata"></data><data key="lon">-63.04769</data><data key="lat">18.21399</data></node>
+    <node id="AI-X12~"><data key="name">The Quarter</data><data key="code">AI-X12~</data><data key="wikidata"></data><data key="lon">-63.03899</data><data key="lat">18.23009</data></node>
+    <node id="AI-X13~"><data key="name">The Valley</data><data key="code">AI-X13~</data><data key="wikidata"></data><data key="lon">-63.05852</data><data key="lat">18.23596</data></node>
+    <node id="AI-X14~"><data key="name">West End</data><data key="code">AI-X14~</data><data key="wikidata"></data><data key="lon">-63.13562</data><data key="lat">18.19086</data></node>
+    <edge source="AI-X01~" target="AI-X03~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X01~" target="AI-X09~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X01~" target="AI-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X02~" target="AI-X04~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X02~" target="AI-X08~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X02~" target="AI-X10~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X03~" target="AI-X09~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X03~" target="AI-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X05~" target="AI-X07~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X05~" target="AI-X09~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X05~" target="AI-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X05~" target="AI-X13~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X06~" target="AI-X10~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X06~" target="AI-X13~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X07~" target="AI-X09~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X08~" target="AI-X10~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X08~" target="AI-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X08~" target="AI-X12~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X09~" target="AI-X14~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X10~" target="AI-X12~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X10~" target="AI-X13~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X11~" target="AI-X12~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AI-X12~" target="AI-X13~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

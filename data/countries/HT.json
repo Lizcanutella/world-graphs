@@ -1,0 +1,379 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "HT",
+ "kind": "country",
+ "name": "Haiti",
+ "level": "departments",
+ "n": 10,
+ "m": 16,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "HT-AR",
+   "name": "L'Artibonite",
+   "wikidata": "Q844024",
+   "lon": -72.49654,
+   "lat": 19.34593
+  },
+  {
+   "code": "HT-CE",
+   "name": "Centre",
+   "wikidata": "Q844528",
+   "lon": -72.00572,
+   "lat": 19.0067
+  },
+  {
+   "code": "HT-GA",
+   "name": "Grand'Anse",
+   "wikidata": "Q913231",
+   "lon": -74.09816,
+   "lat": 18.51789
+  },
+  {
+   "code": "HT-ND",
+   "name": "Nord",
+   "wikidata": "Q943932",
+   "lon": -72.22455,
+   "lat": 19.5703
+  },
+  {
+   "code": "HT-NE",
+   "name": "Nord-Est",
+   "wikidata": "Q928694",
+   "lon": -71.89396,
+   "lat": 19.49995
+  },
+  {
+   "code": "HT-NI",
+   "name": "Nippes",
+   "wikidata": "Q125232",
+   "lon": -73.31837,
+   "lat": 18.40141
+  },
+  {
+   "code": "HT-NO",
+   "name": "Nord-Ouest",
+   "wikidata": "Q608361",
+   "lon": -73.09425,
+   "lat": 19.78241
+  },
+  {
+   "code": "HT-OU",
+   "name": "Ouest",
+   "wikidata": "Q1434621",
+   "lon": -72.16011,
+   "lat": 18.61456
+  },
+  {
+   "code": "HT-SD",
+   "name": "Sud",
+   "wikidata": "Q936704",
+   "lon": -73.88603,
+   "lat": 18.22911
+  },
+  {
+   "code": "HT-SE",
+   "name": "Sud-Est",
+   "wikidata": "Q936717",
+   "lon": -72.7843,
+   "lat": 18.22035
+  }
+ ],
+ "edges": [
+  {
+   "u": "HT-AR",
+   "v": "HT-CE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63403
+  },
+  {
+   "u": "HT-AR",
+   "v": "HT-ND",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 95190
+  },
+  {
+   "u": "HT-AR",
+   "v": "HT-NO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57954
+  },
+  {
+   "u": "HT-AR",
+   "v": "HT-OU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41312
+  },
+  {
+   "u": "HT-CE",
+   "v": "HT-ND",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27382
+  },
+  {
+   "u": "HT-CE",
+   "v": "HT-NE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25820
+  },
+  {
+   "u": "HT-CE",
+   "v": "HT-OU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68966
+  },
+  {
+   "u": "HT-GA",
+   "v": "HT-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16567
+  },
+  {
+   "u": "HT-GA",
+   "v": "HT-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75987
+  },
+  {
+   "u": "HT-ND",
+   "v": "HT-NE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51450
+  },
+  {
+   "u": "HT-ND",
+   "v": "HT-NO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16566
+  },
+  {
+   "u": "HT-NI",
+   "v": "HT-OU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19597
+  },
+  {
+   "u": "HT-NI",
+   "v": "HT-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100412
+  },
+  {
+   "u": "HT-NI",
+   "v": "HT-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11590
+  },
+  {
+   "u": "HT-OU",
+   "v": "HT-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 150998
+  },
+  {
+   "u": "HT-SD",
+   "v": "HT-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4467
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "HTI-ADM1-49955354",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

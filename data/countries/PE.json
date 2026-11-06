@@ -1,0 +1,1169 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PE",
+ "kind": "country",
+ "name": "Peru",
+ "level": "regions",
+ "n": 26,
+ "m": 54,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PE-AMA",
+   "name": "Amazonas",
+   "wikidata": "Q201162",
+   "lon": -78.16507,
+   "lat": -4.98528
+  },
+  {
+   "code": "PE-ANC",
+   "name": "Áncash",
+   "wikidata": "Q205089",
+   "lon": -77.65719,
+   "lat": -9.38414
+  },
+  {
+   "code": "PE-APU",
+   "name": "Apurímac",
+   "wikidata": "Q208185",
+   "lon": -72.85517,
+   "lat": -14.03436
+  },
+  {
+   "code": "PE-ARE",
+   "name": "Arequipa",
+   "wikidata": "Q205068",
+   "lon": -72.43901,
+   "lat": -15.98851
+  },
+  {
+   "code": "PE-AYA",
+   "name": "Ayacucho",
+   "wikidata": "Q205112",
+   "lon": -74.21379,
+   "lat": -13.87585
+  },
+  {
+   "code": "PE-CAJ",
+   "name": "Cajamarca",
+   "wikidata": "Q205078",
+   "lon": -78.86231,
+   "lat": -6.17732
+  },
+  {
+   "code": "PE-CAL",
+   "name": "Callao",
+   "wikidata": "Q2634400",
+   "lon": -77.13212,
+   "lat": -12.04053
+  },
+  {
+   "code": "PE-CUS",
+   "name": "Cusco",
+   "wikidata": "Q205057",
+   "lon": -71.86946,
+   "lat": -13.26348
+  },
+  {
+   "code": "PE-HUC",
+   "name": "Huánuco",
+   "wikidata": "Q215221",
+   "lon": -75.79957,
+   "lat": -9.41082
+  },
+  {
+   "code": "PE-HUV",
+   "name": "Huancavelica",
+   "wikidata": "Q505220",
+   "lon": -75.03707,
+   "lat": -13.05752
+  },
+  {
+   "code": "PE-ICA",
+   "name": "Ica",
+   "wikidata": "Q208186",
+   "lon": -75.63349,
+   "lat": -14.2063
+  },
+  {
+   "code": "PE-JUN",
+   "name": "Junín",
+   "wikidata": "Q207973",
+   "lon": -74.8909,
+   "lat": -11.68402
+  },
+  {
+   "code": "PE-LAL",
+   "name": "La Libertad",
+   "wikidata": "Q205126",
+   "lon": -78.32705,
+   "lat": -7.96478
+  },
+  {
+   "code": "PE-LAM",
+   "name": "Lambayeque",
+   "wikidata": "Q210061",
+   "lon": -80.02864,
+   "lat": -6.35238
+  },
+  {
+   "code": "PE-LIM",
+   "name": "Lima",
+   "wikidata": "Q211795",
+   "lon": -76.54677,
+   "lat": -11.79781
+  },
+  {
+   "code": "PE-LIM:Lima Province",
+   "name": "Lima Province",
+   "wikidata": "Q579240",
+   "lon": -76.92774,
+   "lat": -12.03172
+  },
+  {
+   "code": "PE-LOR",
+   "name": "Loreto",
+   "wikidata": "Q200938",
+   "lon": -74.24989,
+   "lat": -4.33715
+  },
+  {
+   "code": "PE-MDD",
+   "name": "Madre de Dios",
+   "wikidata": "Q210896",
+   "lon": -70.74986,
+   "lat": -11.60593
+  },
+  {
+   "code": "PE-MOQ",
+   "name": "Moquegua",
+   "wikidata": "Q208182",
+   "lon": -70.9575,
+   "lat": -16.89176
+  },
+  {
+   "code": "PE-PAS",
+   "name": "Pasco",
+   "wikidata": "Q211208",
+   "lon": -75.0843,
+   "lat": -10.37102
+  },
+  {
+   "code": "PE-PIU",
+   "name": "Piura",
+   "wikidata": "Q208183",
+   "lon": -80.28125,
+   "lat": -5.22332
+  },
+  {
+   "code": "PE-PUN",
+   "name": "Puno",
+   "wikidata": "Q205104",
+   "lon": -70.10465,
+   "lat": -15.15623
+  },
+  {
+   "code": "PE-SAM",
+   "name": "San Martín",
+   "wikidata": "Q211793",
+   "lon": -76.89613,
+   "lat": -7.06337
+  },
+  {
+   "code": "PE-TAC",
+   "name": "Tacna",
+   "wikidata": "Q207413",
+   "lon": -70.25019,
+   "lat": -17.58262
+  },
+  {
+   "code": "PE-TUM",
+   "name": "Tumbes",
+   "wikidata": "Q209597",
+   "lon": -80.52535,
+   "lat": -3.80488
+  },
+  {
+   "code": "PE-UCA",
+   "name": "Ucayali",
+   "wikidata": "Q207424",
+   "lon": -73.95294,
+   "lat": -9.36966
+  }
+ ],
+ "edges": [
+  {
+   "u": "PE-AMA",
+   "v": "PE-CAJ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 322785
+  },
+  {
+   "u": "PE-AMA",
+   "v": "PE-LAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28227
+  },
+  {
+   "u": "PE-AMA",
+   "v": "PE-LOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 282612
+  },
+  {
+   "u": "PE-AMA",
+   "v": "PE-SAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 265661
+  },
+  {
+   "u": "PE-ANC",
+   "v": "PE-HUC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 246501
+  },
+  {
+   "u": "PE-ANC",
+   "v": "PE-LAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 243513
+  },
+  {
+   "u": "PE-ANC",
+   "v": "PE-LIM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 194685
+  },
+  {
+   "u": "PE-APU",
+   "v": "PE-ARE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43641
+  },
+  {
+   "u": "PE-APU",
+   "v": "PE-AYA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 367035
+  },
+  {
+   "u": "PE-APU",
+   "v": "PE-CUS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 259634
+  },
+  {
+   "u": "PE-ARE",
+   "v": "PE-AYA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 317221
+  },
+  {
+   "u": "PE-ARE",
+   "v": "PE-CUS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 268449
+  },
+  {
+   "u": "PE-ARE",
+   "v": "PE-ICA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55624
+  },
+  {
+   "u": "PE-ARE",
+   "v": "PE-MOQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 197879
+  },
+  {
+   "u": "PE-ARE",
+   "v": "PE-PUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 82655
+  },
+  {
+   "u": "PE-AYA",
+   "v": "PE-CUS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 165134
+  },
+  {
+   "u": "PE-AYA",
+   "v": "PE-HUV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 366303
+  },
+  {
+   "u": "PE-AYA",
+   "v": "PE-ICA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 146656
+  },
+  {
+   "u": "PE-AYA",
+   "v": "PE-JUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56668
+  },
+  {
+   "u": "PE-CAJ",
+   "v": "PE-LAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 344713
+  },
+  {
+   "u": "PE-CAJ",
+   "v": "PE-LAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 191897
+  },
+  {
+   "u": "PE-CAJ",
+   "v": "PE-PIU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 138104
+  },
+  {
+   "u": "PE-CAL",
+   "v": "PE-LIM:Lima Province",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10855
+  },
+  {
+   "u": "PE-CUS",
+   "v": "PE-JUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 162938
+  },
+  {
+   "u": "PE-CUS",
+   "v": "PE-MDD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 383612
+  },
+  {
+   "u": "PE-CUS",
+   "v": "PE-PUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 311519
+  },
+  {
+   "u": "PE-CUS",
+   "v": "PE-UCA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 160384
+  },
+  {
+   "u": "PE-HUC",
+   "v": "PE-LAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63577
+  },
+  {
+   "u": "PE-HUC",
+   "v": "PE-LIM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30231
+  },
+  {
+   "u": "PE-HUC",
+   "v": "PE-LOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8831
+  },
+  {
+   "u": "PE-HUC",
+   "v": "PE-PAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 313008
+  },
+  {
+   "u": "PE-HUC",
+   "v": "PE-SAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 154343
+  },
+  {
+   "u": "PE-HUC",
+   "v": "PE-UCA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 381988
+  },
+  {
+   "u": "PE-HUV",
+   "v": "PE-ICA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 203002
+  },
+  {
+   "u": "PE-HUV",
+   "v": "PE-JUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 195471
+  },
+  {
+   "u": "PE-HUV",
+   "v": "PE-LIM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39188
+  },
+  {
+   "u": "PE-ICA",
+   "v": "PE-LIM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85127
+  },
+  {
+   "u": "PE-JUN",
+   "v": "PE-LIM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 243289
+  },
+  {
+   "u": "PE-JUN",
+   "v": "PE-PAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 249939
+  },
+  {
+   "u": "PE-JUN",
+   "v": "PE-UCA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 191956
+  },
+  {
+   "u": "PE-LAL",
+   "v": "PE-LAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48425
+  },
+  {
+   "u": "PE-LAL",
+   "v": "PE-SAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 228396
+  },
+  {
+   "u": "PE-LAM",
+   "v": "PE-PIU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 219116
+  },
+  {
+   "u": "PE-LIM",
+   "v": "PE-LIM:Lima Province",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 219446
+  },
+  {
+   "u": "PE-LIM",
+   "v": "PE-PAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81392
+  },
+  {
+   "u": "PE-LOR",
+   "v": "PE-SAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 630122
+  },
+  {
+   "u": "PE-LOR",
+   "v": "PE-UCA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 357806
+  },
+  {
+   "u": "PE-MDD",
+   "v": "PE-PUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 167057
+  },
+  {
+   "u": "PE-MDD",
+   "v": "PE-UCA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 265392
+  },
+  {
+   "u": "PE-MOQ",
+   "v": "PE-PUN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 171882
+  },
+  {
+   "u": "PE-MOQ",
+   "v": "PE-TAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 180677
+  },
+  {
+   "u": "PE-PAS",
+   "v": "PE-UCA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 166640
+  },
+  {
+   "u": "PE-PIU",
+   "v": "PE-TUM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71643
+  },
+  {
+   "u": "PE-PUN",
+   "v": "PE-TAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79427
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "PER-ADM1-1875124",
+  "level": "ADM1",
+  "year": "2008",
+  "license": "Public Domain"
+ }
+}

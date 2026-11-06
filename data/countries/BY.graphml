@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BY" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BY-BR"><data key="name">Brest</data><data key="code">BY-BR</data><data key="wikidata">Q173822</data><data key="lon">25.24549</data><data key="lat">52.45644</data></node>
+    <node id="BY-HM"><data key="name">City of Minsk</data><data key="code">BY-HM</data><data key="wikidata">Q2280</data><data key="lon">27.57495</data><data key="lat">53.90054</data></node>
+    <node id="BY-HO"><data key="name">Gomel</data><data key="code">BY-HO</data><data key="wikidata">Q188732</data><data key="lon">29.47919</data><data key="lat">52.30059</data></node>
+    <node id="BY-HR"><data key="name">Grodno</data><data key="code">BY-HR</data><data key="wikidata">Q191061</data><data key="lon">24.86358</data><data key="lat">53.86426</data></node>
+    <node id="BY-MA"><data key="name">Mogilev</data><data key="code">BY-MA</data><data key="wikidata">Q189822</data><data key="lon">30.68692</data><data key="lat">53.56712</data></node>
+    <node id="BY-MI"><data key="name">Minsk</data><data key="code">BY-MI</data><data key="wikidata">Q192959</data><data key="lon">27.81586</data><data key="lat">53.68168</data></node>
+    <node id="BY-VI"><data key="name">Vitebsk</data><data key="code">BY-VI</data><data key="wikidata">Q185700</data><data key="lon">28.77774</data><data key="lat">55.18175</data></node>
+    <edge source="BY-BR" target="BY-HO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-BR" target="BY-HR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-BR" target="BY-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-HM" target="BY-MI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="BY-HO" target="BY-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-HO" target="BY-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-HR" target="BY-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-HR" target="BY-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-MA" target="BY-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-MA" target="BY-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BY-MI" target="BY-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

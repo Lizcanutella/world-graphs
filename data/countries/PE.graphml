@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="PE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="PE-AMA"><data key="name">Amazonas</data><data key="code">PE-AMA</data><data key="wikidata">Q201162</data><data key="lon">-78.16507</data><data key="lat">-4.98528</data></node>
+    <node id="PE-ANC"><data key="name">Áncash</data><data key="code">PE-ANC</data><data key="wikidata">Q205089</data><data key="lon">-77.65719</data><data key="lat">-9.38414</data></node>
+    <node id="PE-APU"><data key="name">Apurímac</data><data key="code">PE-APU</data><data key="wikidata">Q208185</data><data key="lon">-72.85517</data><data key="lat">-14.03436</data></node>
+    <node id="PE-ARE"><data key="name">Arequipa</data><data key="code">PE-ARE</data><data key="wikidata">Q205068</data><data key="lon">-72.43901</data><data key="lat">-15.98851</data></node>
+    <node id="PE-AYA"><data key="name">Ayacucho</data><data key="code">PE-AYA</data><data key="wikidata">Q205112</data><data key="lon">-74.21379</data><data key="lat">-13.87585</data></node>
+    <node id="PE-CAJ"><data key="name">Cajamarca</data><data key="code">PE-CAJ</data><data key="wikidata">Q205078</data><data key="lon">-78.86231</data><data key="lat">-6.17732</data></node>
+    <node id="PE-CAL"><data key="name">Callao</data><data key="code">PE-CAL</data><data key="wikidata">Q2634400</data><data key="lon">-77.13212</data><data key="lat">-12.04053</data></node>
+    <node id="PE-CUS"><data key="name">Cusco</data><data key="code">PE-CUS</data><data key="wikidata">Q205057</data><data key="lon">-71.86946</data><data key="lat">-13.26348</data></node>
+    <node id="PE-HUC"><data key="name">Huánuco</data><data key="code">PE-HUC</data><data key="wikidata">Q215221</data><data key="lon">-75.79957</data><data key="lat">-9.41082</data></node>
+    <node id="PE-HUV"><data key="name">Huancavelica</data><data key="code">PE-HUV</data><data key="wikidata">Q505220</data><data key="lon">-75.03707</data><data key="lat">-13.05752</data></node>
+    <node id="PE-ICA"><data key="name">Ica</data><data key="code">PE-ICA</data><data key="wikidata">Q208186</data><data key="lon">-75.63349</data><data key="lat">-14.2063</data></node>
+    <node id="PE-JUN"><data key="name">Junín</data><data key="code">PE-JUN</data><data key="wikidata">Q207973</data><data key="lon">-74.8909</data><data key="lat">-11.68402</data></node>
+    <node id="PE-LAL"><data key="name">La Libertad</data><data key="code">PE-LAL</data><data key="wikidata">Q205126</data><data key="lon">-78.32705</data><data key="lat">-7.96478</data></node>
+    <node id="PE-LAM"><data key="name">Lambayeque</data><data key="code">PE-LAM</data><data key="wikidata">Q210061</data><data key="lon">-80.02864</data><data key="lat">-6.35238</data></node>
+    <node id="PE-LIM"><data key="name">Lima</data><data key="code">PE-LIM</data><data key="wikidata">Q211795</data><data key="lon">-76.54677</data><data key="lat">-11.79781</data></node>
+    <node id="PE-LIM:Lima Province"><data key="name">Lima Province</data><data key="code">PE-LIM:Lima Province</data><data key="wikidata">Q579240</data><data key="lon">-76.92774</data><data key="lat">-12.03172</data></node>
+    <node id="PE-LOR"><data key="name">Loreto</data><data key="code">PE-LOR</data><data key="wikidata">Q200938</data><data key="lon">-74.24989</data><data key="lat">-4.33715</data></node>
+    <node id="PE-MDD"><data key="name">Madre de Dios</data><data key="code">PE-MDD</data><data key="wikidata">Q210896</data><data key="lon">-70.74986</data><data key="lat">-11.60593</data></node>
+    <node id="PE-MOQ"><data key="name">Moquegua</data><data key="code">PE-MOQ</data><data key="wikidata">Q208182</data><data key="lon">-70.9575</data><data key="lat">-16.89176</data></node>
+    <node id="PE-PAS"><data key="name">Pasco</data><data key="code">PE-PAS</data><data key="wikidata">Q211208</data><data key="lon">-75.0843</data><data key="lat">-10.37102</data></node>
+    <node id="PE-PIU"><data key="name">Piura</data><data key="code">PE-PIU</data><data key="wikidata">Q208183</data><data key="lon">-80.28125</data><data key="lat">-5.22332</data></node>
+    <node id="PE-PUN"><data key="name">Puno</data><data key="code">PE-PUN</data><data key="wikidata">Q205104</data><data key="lon">-70.10465</data><data key="lat">-15.15623</data></node>
+    <node id="PE-SAM"><data key="name">San Martín</data><data key="code">PE-SAM</data><data key="wikidata">Q211793</data><data key="lon">-76.89613</data><data key="lat">-7.06337</data></node>
+    <node id="PE-TAC"><data key="name">Tacna</data><data key="code">PE-TAC</data><data key="wikidata">Q207413</data><data key="lon">-70.25019</data><data key="lat">-17.58262</data></node>
+    <node id="PE-TUM"><data key="name">Tumbes</data><data key="code">PE-TUM</data><data key="wikidata">Q209597</data><data key="lon">-80.52535</data><data key="lat">-3.80488</data></node>
+    <node id="PE-UCA"><data key="name">Ucayali</data><data key="code">PE-UCA</data><data key="wikidata">Q207424</data><data key="lon">-73.95294</data><data key="lat">-9.36966</data></node>
+    <edge source="PE-AMA" target="PE-CAJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-AMA" target="PE-LAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-AMA" target="PE-LOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-AMA" target="PE-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ANC" target="PE-HUC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ANC" target="PE-LAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ANC" target="PE-LIM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-APU" target="PE-ARE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-APU" target="PE-AYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-APU" target="PE-CUS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ARE" target="PE-AYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ARE" target="PE-CUS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ARE" target="PE-ICA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ARE" target="PE-MOQ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ARE" target="PE-PUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-AYA" target="PE-CUS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-AYA" target="PE-HUV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-AYA" target="PE-ICA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-AYA" target="PE-JUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CAJ" target="PE-LAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CAJ" target="PE-LAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CAJ" target="PE-PIU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CAL" target="PE-LIM:Lima Province"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CUS" target="PE-JUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CUS" target="PE-MDD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CUS" target="PE-PUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-CUS" target="PE-UCA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUC" target="PE-LAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUC" target="PE-LIM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUC" target="PE-LOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUC" target="PE-PAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUC" target="PE-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUC" target="PE-UCA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUV" target="PE-ICA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUV" target="PE-JUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-HUV" target="PE-LIM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-ICA" target="PE-LIM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-JUN" target="PE-LIM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-JUN" target="PE-PAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-JUN" target="PE-UCA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-LAL" target="PE-LAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-LAL" target="PE-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-LAM" target="PE-PIU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-LIM" target="PE-LIM:Lima Province"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-LIM" target="PE-PAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-LOR" target="PE-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-LOR" target="PE-UCA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-MDD" target="PE-PUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-MDD" target="PE-UCA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-MOQ" target="PE-PUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-MOQ" target="PE-TAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-PAS" target="PE-UCA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-PIU" target="PE-TUM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PE-PUN" target="PE-TAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

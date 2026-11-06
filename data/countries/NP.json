@@ -1,0 +1,440 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "NP",
+ "kind": "country",
+ "name": "Nepal",
+ "level": "administrative zone",
+ "n": 14,
+ "m": 21,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "NP-BA",
+   "name": "Bagmati",
+   "wikidata": "Q9046",
+   "lon": 85.39401,
+   "lat": 27.84579
+  },
+  {
+   "code": "NP-BH",
+   "name": "Bheri",
+   "wikidata": "Q9060",
+   "lon": 81.56825,
+   "lat": 28.48586
+  },
+  {
+   "code": "NP-DH",
+   "name": "Dhawalagiri",
+   "wikidata": "Q9088",
+   "lon": 83.46502,
+   "lat": 28.64458
+  },
+  {
+   "code": "NP-GA",
+   "name": "Gandaki",
+   "wikidata": "Q9133",
+   "lon": 84.40212,
+   "lat": 28.34659
+  },
+  {
+   "code": "NP-JA",
+   "name": "Janakpur",
+   "wikidata": "Q9152",
+   "lon": 85.96711,
+   "lat": 27.3598
+  },
+  {
+   "code": "NP-KA",
+   "name": "Karnali",
+   "wikidata": "Q9164",
+   "lon": 82.51564,
+   "lat": 29.56348
+  },
+  {
+   "code": "NP-KO",
+   "name": "Bhojpur",
+   "wikidata": "Q9170",
+   "lon": 87.30845,
+   "lat": 27.14644
+  },
+  {
+   "code": "NP-LU",
+   "name": "Lumbini",
+   "wikidata": "Q9172",
+   "lon": 83.56148,
+   "lat": 27.79345
+  },
+  {
+   "code": "NP-MA",
+   "name": "Mahakali",
+   "wikidata": "Q9178",
+   "lon": 80.53386,
+   "lat": 29.3868
+  },
+  {
+   "code": "NP-ME",
+   "name": "Mechi",
+   "wikidata": "Q9180",
+   "lon": 87.82021,
+   "lat": 27.13219
+  },
+  {
+   "code": "NP-NA",
+   "name": "Narayani",
+   "wikidata": "Q9183",
+   "lon": 85.02424,
+   "lat": 27.31181
+  },
+  {
+   "code": "NP-RA",
+   "name": "Rapti",
+   "wikidata": "Q9185",
+   "lon": 82.51051,
+   "lat": 28.33408
+  },
+  {
+   "code": "NP-SA",
+   "name": "Sagarmatha",
+   "wikidata": "Q9195",
+   "lon": 86.56784,
+   "lat": 27.25947
+  },
+  {
+   "code": "NP-SE",
+   "name": "Seti",
+   "wikidata": "Q9196",
+   "lon": 81.09739,
+   "lat": 29.23203
+  }
+ ],
+ "edges": [
+  {
+   "u": "NP-BA",
+   "v": "NP-GA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83068
+  },
+  {
+   "u": "NP-BA",
+   "v": "NP-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 95409
+  },
+  {
+   "u": "NP-BA",
+   "v": "NP-NA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 118802
+  },
+  {
+   "u": "NP-BH",
+   "v": "NP-KA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 125710
+  },
+  {
+   "u": "NP-BH",
+   "v": "NP-RA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 182389
+  },
+  {
+   "u": "NP-BH",
+   "v": "NP-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 223754
+  },
+  {
+   "u": "NP-DH",
+   "v": "NP-GA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 145690
+  },
+  {
+   "u": "NP-DH",
+   "v": "NP-KA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81010
+  },
+  {
+   "u": "NP-DH",
+   "v": "NP-LU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61868
+  },
+  {
+   "u": "NP-DH",
+   "v": "NP-RA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79468
+  },
+  {
+   "u": "NP-GA",
+   "v": "NP-LU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 129876
+  },
+  {
+   "u": "NP-GA",
+   "v": "NP-NA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35903
+  },
+  {
+   "u": "NP-JA",
+   "v": "NP-NA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79775,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Janakpur_Zone"
+    }
+   ]
+  },
+  {
+   "u": "NP-JA",
+   "v": "NP-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 205178
+  },
+  {
+   "u": "NP-KA",
+   "v": "NP-RA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68858
+  },
+  {
+   "u": "NP-KA",
+   "v": "NP-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 187471
+  },
+  {
+   "u": "NP-KO",
+   "v": "NP-ME",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 202804
+  },
+  {
+   "u": "NP-KO",
+   "v": "NP-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 197340
+  },
+  {
+   "u": "NP-LU",
+   "v": "NP-NA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79980
+  },
+  {
+   "u": "NP-LU",
+   "v": "NP-RA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101374
+  },
+  {
+   "u": "NP-MA",
+   "v": "NP-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 201520
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "NPL-ADM2-79688334",
+  "level": "ADM2",
+  "year": "2006",
+  "license": "Public Domain"
+ }
+}

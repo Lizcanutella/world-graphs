@@ -1,0 +1,1027 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MG",
+ "kind": "country",
+ "name": "Madagascar",
+ "level": "provinces",
+ "n": 22,
+ "m": 50,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MG-A:Alaotra-Mangoro",
+   "name": "Alaotra-Mangoro",
+   "wikidata": "Q639418",
+   "lon": 48.36341,
+   "lat": -17.99577
+  },
+  {
+   "code": "MG-A:Analanjirofo",
+   "name": "Analanjirofo",
+   "wikidata": "Q639418",
+   "lon": 49.49535,
+   "lat": -16.35197
+  },
+  {
+   "code": "MG-A:Atsinanana",
+   "name": "Atsinanana",
+   "wikidata": "Q639418",
+   "lon": 48.89522,
+   "lat": -18.99013
+  },
+  {
+   "code": "MG-D:Diana",
+   "name": "Diana",
+   "wikidata": "Q656073",
+   "lon": 49.13985,
+   "lat": -13.09914
+  },
+  {
+   "code": "MG-D:Sava",
+   "name": "Sava",
+   "wikidata": "Q656073",
+   "lon": 49.71004,
+   "lat": -14.33375
+  },
+  {
+   "code": "MG-F:Amoron'i Mania",
+   "name": "Amoron'i Mania",
+   "wikidata": "Q841197",
+   "lon": 46.808,
+   "lat": -20.4586
+  },
+  {
+   "code": "MG-F:Atsimo-Atsinanana",
+   "name": "Atsimo-Atsinanana",
+   "wikidata": "Q841197",
+   "lon": 47.29082,
+   "lat": -23.23505
+  },
+  {
+   "code": "MG-F:Haute Matsiatra",
+   "name": "Haute Matsiatra",
+   "wikidata": "Q841197",
+   "lon": 46.48234,
+   "lat": -21.51106
+  },
+  {
+   "code": "MG-F:Ihorombe",
+   "name": "Ihorombe",
+   "wikidata": "Q841197",
+   "lon": 46.57723,
+   "lat": -22.6867
+  },
+  {
+   "code": "MG-F:Vatovavy-Fitovinany",
+   "name": "Vatovavy-Fitovinany",
+   "wikidata": "Q841197",
+   "lon": 47.87097,
+   "lat": -21.40224
+  },
+  {
+   "code": "MG-M:Betsiboka",
+   "name": "Betsiboka",
+   "wikidata": "Q669259",
+   "lon": 47.26414,
+   "lat": -17.12221
+  },
+  {
+   "code": "MG-M:Boeny",
+   "name": "Boeny",
+   "wikidata": "Q669259",
+   "lon": 46.12239,
+   "lat": -16.24933
+  },
+  {
+   "code": "MG-M:Melaky",
+   "name": "Melaky",
+   "wikidata": "Q669259",
+   "lon": 44.97972,
+   "lat": -17.74383
+  },
+  {
+   "code": "MG-M:Sofia",
+   "name": "Sofia",
+   "wikidata": "Q669259",
+   "lon": 48.17176,
+   "lat": -15.31294
+  },
+  {
+   "code": "MG-T:Analamanga",
+   "name": "Analamanga",
+   "wikidata": "Q489821",
+   "lon": 47.50233,
+   "lat": -18.65787
+  },
+  {
+   "code": "MG-T:Bongolava",
+   "name": "Bongolava",
+   "wikidata": "Q489821",
+   "lon": 46.32258,
+   "lat": -18.60323
+  },
+  {
+   "code": "MG-T:Itasy",
+   "name": "Itasy",
+   "wikidata": "Q489821",
+   "lon": 46.95276,
+   "lat": -19.06176
+  },
+  {
+   "code": "MG-T:Vakinankaratra",
+   "name": "Vakinankaratra",
+   "wikidata": "Q489821",
+   "lon": 46.85622,
+   "lat": -19.71678
+  },
+  {
+   "code": "MG-U:Androy",
+   "name": "Androy",
+   "wikidata": "Q162020",
+   "lon": 45.52937,
+   "lat": -24.77098
+  },
+  {
+   "code": "MG-U:Anosy",
+   "name": "Anosy",
+   "wikidata": "Q162020",
+   "lon": 46.03123,
+   "lat": -23.92942
+  },
+  {
+   "code": "MG-U:Atsimo-Andrefana",
+   "name": "Atsimo-Andrefana",
+   "wikidata": "Q162020",
+   "lon": 44.42551,
+   "lat": -23.11647
+  },
+  {
+   "code": "MG-U:Menabe",
+   "name": "Menabe",
+   "wikidata": "Q162020",
+   "lon": 45.12642,
+   "lat": -20.04738
+  }
+ ],
+ "edges": [
+  {
+   "u": "MG-A:Alaotra-Mangoro",
+   "v": "MG-A:Analanjirofo",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 137446,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Alaotra-Mangoro"
+    }
+   ]
+  },
+  {
+   "u": "MG-A:Alaotra-Mangoro",
+   "v": "MG-A:Atsinanana",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 354007
+  },
+  {
+   "u": "MG-A:Alaotra-Mangoro",
+   "v": "MG-M:Betsiboka",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 183754
+  },
+  {
+   "u": "MG-A:Alaotra-Mangoro",
+   "v": "MG-M:Sofia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 177766
+  },
+  {
+   "u": "MG-A:Alaotra-Mangoro",
+   "v": "MG-T:Analamanga",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 198966
+  },
+  {
+   "u": "MG-A:Alaotra-Mangoro",
+   "v": "MG-T:Vakinankaratra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23127
+  },
+  {
+   "u": "MG-A:Analanjirofo",
+   "v": "MG-A:Atsinanana",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77745
+  },
+  {
+   "u": "MG-A:Analanjirofo",
+   "v": "MG-D:Sava",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 156639
+  },
+  {
+   "u": "MG-A:Analanjirofo",
+   "v": "MG-M:Sofia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 292368
+  },
+  {
+   "u": "MG-A:Atsinanana",
+   "v": "MG-F:Amoron'i Mania",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46833
+  },
+  {
+   "u": "MG-A:Atsinanana",
+   "v": "MG-F:Vatovavy-Fitovinany",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 120080
+  },
+  {
+   "u": "MG-A:Atsinanana",
+   "v": "MG-T:Vakinankaratra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35297
+  },
+  {
+   "u": "MG-D:Diana",
+   "v": "MG-D:Sava",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 204521
+  },
+  {
+   "u": "MG-D:Diana",
+   "v": "MG-M:Sofia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 177995
+  },
+  {
+   "u": "MG-D:Sava",
+   "v": "MG-M:Sofia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 106963
+  },
+  {
+   "u": "MG-F:Amoron'i Mania",
+   "v": "MG-F:Haute Matsiatra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 213928
+  },
+  {
+   "u": "MG-F:Amoron'i Mania",
+   "v": "MG-F:Vatovavy-Fitovinany",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77560
+  },
+  {
+   "u": "MG-F:Amoron'i Mania",
+   "v": "MG-T:Vakinankaratra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 276348
+  },
+  {
+   "u": "MG-F:Amoron'i Mania",
+   "v": "MG-U:Atsimo-Andrefana",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11857
+  },
+  {
+   "u": "MG-F:Amoron'i Mania",
+   "v": "MG-U:Menabe",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 125118
+  },
+  {
+   "u": "MG-F:Atsimo-Atsinanana",
+   "v": "MG-F:Haute Matsiatra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13536,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Atsimo-Atsinanana"
+    }
+   ]
+  },
+  {
+   "u": "MG-F:Atsimo-Atsinanana",
+   "v": "MG-F:Ihorombe",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 246824
+  },
+  {
+   "u": "MG-F:Atsimo-Atsinanana",
+   "v": "MG-F:Vatovavy-Fitovinany",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 108113
+  },
+  {
+   "u": "MG-F:Atsimo-Atsinanana",
+   "v": "MG-U:Anosy",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 190982
+  },
+  {
+   "u": "MG-F:Haute Matsiatra",
+   "v": "MG-F:Ihorombe",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 182702,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Haute_Matsiatra"
+    }
+   ]
+  },
+  {
+   "u": "MG-F:Haute Matsiatra",
+   "v": "MG-F:Vatovavy-Fitovinany",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 153039
+  },
+  {
+   "u": "MG-F:Haute Matsiatra",
+   "v": "MG-U:Atsimo-Andrefana",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86870
+  },
+  {
+   "u": "MG-F:Ihorombe",
+   "v": "MG-U:Anosy",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 229312
+  },
+  {
+   "u": "MG-F:Ihorombe",
+   "v": "MG-U:Atsimo-Andrefana",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 225231
+  },
+  {
+   "u": "MG-M:Betsiboka",
+   "v": "MG-M:Boeny",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 309446
+  },
+  {
+   "u": "MG-M:Betsiboka",
+   "v": "MG-M:Melaky",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 131285
+  },
+  {
+   "u": "MG-M:Betsiboka",
+   "v": "MG-M:Sofia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67667
+  },
+  {
+   "u": "MG-M:Betsiboka",
+   "v": "MG-T:Analamanga",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 164774
+  },
+  {
+   "u": "MG-M:Betsiboka",
+   "v": "MG-T:Bongolava",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 74975
+  },
+  {
+   "u": "MG-M:Boeny",
+   "v": "MG-M:Melaky",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 115196
+  },
+  {
+   "u": "MG-M:Boeny",
+   "v": "MG-M:Sofia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100042
+  },
+  {
+   "u": "MG-M:Melaky",
+   "v": "MG-T:Bongolava",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81822
+  },
+  {
+   "u": "MG-M:Melaky",
+   "v": "MG-U:Menabe",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 305705
+  },
+  {
+   "u": "MG-T:Analamanga",
+   "v": "MG-T:Bongolava",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127750
+  },
+  {
+   "u": "MG-T:Analamanga",
+   "v": "MG-T:Itasy",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64095
+  },
+  {
+   "u": "MG-T:Analamanga",
+   "v": "MG-T:Vakinankaratra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79470
+  },
+  {
+   "u": "MG-T:Bongolava",
+   "v": "MG-T:Itasy",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 147379
+  },
+  {
+   "u": "MG-T:Bongolava",
+   "v": "MG-T:Vakinankaratra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37444
+  },
+  {
+   "u": "MG-T:Bongolava",
+   "v": "MG-U:Menabe",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 161770
+  },
+  {
+   "u": "MG-T:Itasy",
+   "v": "MG-T:Vakinankaratra",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 159021
+  },
+  {
+   "u": "MG-T:Vakinankaratra",
+   "v": "MG-U:Menabe",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51408
+  },
+  {
+   "u": "MG-U:Androy",
+   "v": "MG-U:Anosy",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 194595
+  },
+  {
+   "u": "MG-U:Androy",
+   "v": "MG-U:Atsimo-Andrefana",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 191935,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Atsimo-Andrefana"
+    }
+   ]
+  },
+  {
+   "u": "MG-U:Anosy",
+   "v": "MG-U:Atsimo-Andrefana",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111696,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Anosy"
+    }
+   ]
+  },
+  {
+   "u": "MG-U:Atsimo-Andrefana",
+   "v": "MG-U:Menabe",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 350354
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MDG-ADM1-27540722",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

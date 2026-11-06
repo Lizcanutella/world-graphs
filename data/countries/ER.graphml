@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ER" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ER-AN"><data key="name">Anseba</data><data key="code">ER-AN</data><data key="wikidata">Q569468</data><data key="lon">37.61003</data><data key="lat">16.53493</data></node>
+    <node id="ER-DK"><data key="name">Debubawi Keyih Bahri</data><data key="code">ER-DK</data><data key="wikidata">Q27928</data><data key="lon">41.63255</data><data key="lat">13.65943</data></node>
+    <node id="ER-DU"><data key="name">Debub</data><data key="code">ER-DU</data><data key="wikidata">Q27728</data><data key="lon">38.88214</data><data key="lat">14.79831</data></node>
+    <node id="ER-GB"><data key="name">Gash Barka</data><data key="code">ER-GB</data><data key="wikidata">Q873012</data><data key="lon">37.66882</data><data key="lat">15.32067</data></node>
+    <node id="ER-MA"><data key="name">Maekel</data><data key="code">ER-MA</data><data key="wikidata">Q27710</data><data key="lon">38.91645</data><data key="lat">15.41819</data></node>
+    <node id="ER-SK"><data key="name">Semenawi Keyih Bahri</data><data key="code">ER-SK</data><data key="wikidata">Q27910</data><data key="lon">38.8738</data><data key="lat">16.1758</data></node>
+    <edge source="ER-AN" target="ER-GB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-AN" target="ER-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-AN" target="ER-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-DK" target="ER-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-DU" target="ER-GB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-DU" target="ER-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-DU" target="ER-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-GB" target="ER-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ER-MA" target="ER-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

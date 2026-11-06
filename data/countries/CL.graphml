@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CL-AI"><data key="name">Aisén del General Carlos Ibáñez del Campo</data><data key="code">CL-AI</data><data key="wikidata">Q2181</data><data key="lon">-72.88064</data><data key="lat">-46.44244</data></node>
+    <node id="CL-AN"><data key="name">Antofagasta</data><data key="code">CL-AN</data><data key="wikidata">Q2118</data><data key="lon">-68.82048</data><data key="lat">-23.4775</data></node>
+    <node id="CL-AP"><data key="name">Arica y Parinacota</data><data key="code">CL-AP</data><data key="wikidata">Q2109</data><data key="lon">-69.73672</data><data key="lat">-18.33865</data></node>
+    <node id="CL-AR"><data key="name">La Araucanía</data><data key="code">CL-AR</data><data key="wikidata">Q2176</data><data key="lon">-72.1531</data><data key="lat">-38.68919</data></node>
+    <node id="CL-AT"><data key="name">Atacama</data><data key="code">CL-AT</data><data key="wikidata">Q2120</data><data key="lon">-69.95963</data><data key="lat">-27.51343</data></node>
+    <node id="CL-BI"><data key="name">Bío-Bío</data><data key="code">CL-BI</data><data key="wikidata">Q2170</data><data key="lon">-72.35942</data><data key="lat">-37.45717</data></node>
+    <node id="CL-CO"><data key="name">Coquimbo</data><data key="code">CL-CO</data><data key="wikidata">Q2121</data><data key="lon">-70.98535</data><data key="lat">-30.6419</data></node>
+    <node id="CL-LI"><data key="name">Libertador General Bernardo O'Higgins</data><data key="code">CL-LI</data><data key="wikidata">Q2133</data><data key="lon">-71.086</data><data key="lat">-34.45943</data></node>
+    <node id="CL-LL"><data key="name">Los Lagos</data><data key="code">CL-LL</data><data key="wikidata">Q2178</data><data key="lon">-72.2513</data><data key="lat">-42.16052</data></node>
+    <node id="CL-LR"><data key="name">Los Ríos</data><data key="code">CL-LR</data><data key="wikidata">Q2177</data><data key="lon">-72.68082</data><data key="lat">-40.0236</data></node>
+    <node id="CL-MA"><data key="name">Magallanes y Antártica Chilena</data><data key="code">CL-MA</data><data key="wikidata">Q2189</data><data key="lon">-73.0187</data><data key="lat">-51.30462</data></node>
+    <node id="CL-ML"><data key="name">Maule</data><data key="code">CL-ML</data><data key="wikidata">Q2166</data><data key="lon">-71.52803</data><data key="lat">-35.62563</data></node>
+    <node id="CL-NB"><data key="name">Ñuble</data><data key="code">CL-NB</data><data key="wikidata">Q24076693</data><data key="lon">-71.91896</data><data key="lat">-36.60536</data></node>
+    <node id="CL-RM"><data key="name">Región Metropolitana de Santiago</data><data key="code">CL-RM</data><data key="wikidata">Q2131</data><data key="lon">-70.62156</data><data key="lat">-33.60774</data></node>
+    <node id="CL-TA"><data key="name">Tarapacá</data><data key="code">CL-TA</data><data key="wikidata">Q2114</data><data key="lon">-69.44614</data><data key="lat">-20.20265</data></node>
+    <node id="CL-VS"><data key="name">Valparaíso</data><data key="code">CL-VS</data><data key="wikidata">Q219458</data><data key="lon">-71.19269</data><data key="lat">-32.96897</data></node>
+    <edge source="CL-AI" target="CL-LL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-AI" target="CL-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-AN" target="CL-AT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-AN" target="CL-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-AP" target="CL-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-AR" target="CL-BI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-AR" target="CL-LR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-AT" target="CL-CO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-BI" target="CL-NB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-CO" target="CL-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-LI" target="CL-ML"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-LI" target="CL-RM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-LI" target="CL-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-LL" target="CL-LR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-ML" target="CL-NB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CL-RM" target="CL-VS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

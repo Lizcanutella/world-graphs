@@ -1,0 +1,124 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SL",
+ "kind": "country",
+ "name": "Sierra Leone",
+ "level": "provinces",
+ "n": 4,
+ "m": 5,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SL-E",
+   "name": "Eastern",
+   "wikidata": "Q1050497",
+   "lon": -10.85308,
+   "lat": 8.21359
+  },
+  {
+   "code": "SL-N",
+   "name": "Northern",
+   "wikidata": "Q912359",
+   "lon": -11.87877,
+   "lat": 9.13212
+  },
+  {
+   "code": "SL-S",
+   "name": "Southern",
+   "wikidata": "Q772185",
+   "lon": -11.99115,
+   "lat": 7.71302
+  },
+  {
+   "code": "SL-W",
+   "name": "Western",
+   "wikidata": "Q1050475",
+   "lon": -13.06276,
+   "lat": 8.33528
+  }
+ ],
+ "edges": [
+  {
+   "u": "SL-E",
+   "v": "SL-N",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 171646
+  },
+  {
+   "u": "SL-E",
+   "v": "SL-S",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 207479
+  },
+  {
+   "u": "SL-N",
+   "v": "SL-S",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 189870
+  },
+  {
+   "u": "SL-N",
+   "v": "SL-W",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22022
+  },
+  {
+   "u": "SL-S",
+   "v": "SL-W",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9044
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "SLE-ADM1-38320839",
+  "level": "ADM1",
+  "year": "2014",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

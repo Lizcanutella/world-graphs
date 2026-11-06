@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="HN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="HN-AT"><data key="name">Atlántida</data><data key="code">HN-AT</data><data key="wikidata">Q622619</data><data key="lon">-87.05456</data><data key="lat">15.68003</data></node>
+    <node id="HN-CH"><data key="name">Choluteca</data><data key="code">HN-CH</data><data key="wikidata">Q899272</data><data key="lon">-87.0583</data><data key="lat">13.37043</data></node>
+    <node id="HN-CL"><data key="name">Colón</data><data key="code">HN-CL</data><data key="wikidata">Q867117</data><data key="lon">-85.32135</data><data key="lat">15.55326</data></node>
+    <node id="HN-CM"><data key="name">Comayagua</data><data key="code">HN-CM</data><data key="wikidata">Q823443</data><data key="lon">-87.68596</data><data key="lat">14.55921</data></node>
+    <node id="HN-CP"><data key="name">Copán</data><data key="code">HN-CP</data><data key="wikidata">Q843984</data><data key="lon">-88.91755</data><data key="lat">14.90644</data></node>
+    <node id="HN-CR"><data key="name">Cortés</data><data key="code">HN-CR</data><data key="wikidata">Q767244</data><data key="lon">-87.99498</data><data key="lat">15.36216</data></node>
+    <node id="HN-EP"><data key="name">El Paraíso</data><data key="code">HN-EP</data><data key="wikidata">Q867108</data><data key="lon">-86.56391</data><data key="lat">13.96477</data></node>
+    <node id="HN-FM"><data key="name">Francisco Morazán</data><data key="code">HN-FM</data><data key="wikidata">Q867126</data><data key="lon">-87.10616</data><data key="lat">14.35419</data></node>
+    <node id="HN-GD"><data key="name">Gracias a Dios</data><data key="code">HN-GD</data><data key="wikidata">Q867112</data><data key="lon">-84.47263</data><data key="lat">15.30414</data></node>
+    <node id="HN-IB"><data key="name">Islas de la Bahía</data><data key="code">HN-IB</data><data key="wikidata">Q751725</data><data key="lon">-86.92966</data><data key="lat">16.10001</data></node>
+    <node id="HN-IN"><data key="name">Intibucá</data><data key="code">HN-IN</data><data key="wikidata">Q262125</data><data key="lon">-88.21745</data><data key="lat">14.25711</data></node>
+    <node id="HN-LE"><data key="name">Lempira</data><data key="code">HN-LE</data><data key="wikidata">Q744138</data><data key="lon">-88.61986</data><data key="lat">14.45509</data></node>
+    <node id="HN-LP"><data key="name">La Paz</data><data key="code">HN-LP</data><data key="wikidata">Q866886</data><data key="lon">-87.96458</data><data key="lat">14.13281</data></node>
+    <node id="HN-OC"><data key="name">Ocotepeque</data><data key="code">HN-OC</data><data key="wikidata">Q867084</data><data key="lon">-89.04741</data><data key="lat">14.46892</data></node>
+    <node id="HN-OL"><data key="name">Olancho</data><data key="code">HN-OL</data><data key="wikidata">Q867089</data><data key="lon">-85.95424</data><data key="lat">14.81532</data></node>
+    <node id="HN-SB"><data key="name">Santa Bárbara</data><data key="code">HN-SB</data><data key="wikidata">Q591139</data><data key="lon">-88.3637</data><data key="lat">15.09438</data></node>
+    <node id="HN-VA"><data key="name">Valle</data><data key="code">HN-VA</data><data key="wikidata">Q867097</data><data key="lon">-87.59394</data><data key="lat">13.60749</data></node>
+    <node id="HN-YO"><data key="name">Yoro</data><data key="code">HN-YO</data><data key="wikidata">Q1123380</data><data key="lon">-87.28111</data><data key="lat">15.31118</data></node>
+    <edge source="HN-AT" target="HN-CL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-AT" target="HN-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-AT" target="HN-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CH" target="HN-EP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CH" target="HN-FM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CH" target="HN-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CL" target="HN-GD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CL" target="HN-OL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CL" target="HN-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CM" target="HN-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CM" target="HN-FM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CM" target="HN-IN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CM" target="HN-LP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CM" target="HN-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CM" target="HN-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CP" target="HN-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CP" target="HN-OC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CP" target="HN-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CR" target="HN-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-CR" target="HN-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-EP" target="HN-FM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-EP" target="HN-OL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-FM" target="HN-LP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-FM" target="HN-OL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-FM" target="HN-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-FM" target="HN-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-GD" target="HN-OL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-IN" target="HN-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-IN" target="HN-LP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-IN" target="HN-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-LE" target="HN-OC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-LE" target="HN-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-LP" target="HN-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HN-OL" target="HN-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

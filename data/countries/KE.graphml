@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KE-110"><data key="name">Nairobi</data><data key="code">KE-110</data><data key="wikidata">Q3870</data><data key="lon">36.89659</data><data key="lat">-1.27408</data></node>
+    <node id="KE-200"><data key="name">Central</data><data key="code">KE-200</data><data key="wikidata">Q318666</data><data key="lon">36.97011</data><data key="lat">-0.58989</data></node>
+    <node id="KE-300"><data key="name">Coast</data><data key="code">KE-300</data><data key="wikidata">Q185371</data><data key="lon">39.78715</data><data key="lat">-2.35267</data></node>
+    <node id="KE-400"><data key="name">Eastern</data><data key="code">KE-400</data><data key="wikidata">Q328493</data><data key="lon">38.45964</data><data key="lat">0.69066</data></node>
+    <node id="KE-500"><data key="name">North-Eastern</data><data key="code">KE-500</data><data key="wikidata">Q390213</data><data key="lon">40.19519</data><data key="lat">1.06053</data></node>
+    <node id="KE-600"><data key="name">Nyanza</data><data key="code">KE-600</data><data key="wikidata">Q38589</data><data key="lon">34.56364</data><data key="lat">-0.55314</data></node>
+    <node id="KE-700"><data key="name">Rift Valley</data><data key="code">KE-700</data><data key="wikidata">Q38587</data><data key="lon">36.36093</data><data key="lat">0.96697</data></node>
+    <node id="KE-800"><data key="name">Western</data><data key="code">KE-800</data><data key="wikidata">Q38585</data><data key="lon">34.47921</data><data key="lat">0.5272</data></node>
+    <edge source="KE-110" target="KE-200"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-110" target="KE-400"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-110" target="KE-700"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-200" target="KE-400"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-200" target="KE-700"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-300" target="KE-400"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-300" target="KE-500"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-300" target="KE-700"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-400" target="KE-500"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-400" target="KE-700"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-600" target="KE-700"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-600" target="KE-800"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KE-700" target="KE-800"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

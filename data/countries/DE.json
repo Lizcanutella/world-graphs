@@ -1,0 +1,655 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "DE",
+ "kind": "country",
+ "name": "Germany",
+ "level": "land",
+ "n": 16,
+ "m": 29,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "DE-BB",
+   "name": "Brandenburg",
+   "wikidata": "Q1208",
+   "lon": 12.68092,
+   "lat": 52.44566
+  },
+  {
+   "code": "DE-BE",
+   "name": "Berlin",
+   "wikidata": "Q64",
+   "lon": 13.39245,
+   "lat": 52.50261
+  },
+  {
+   "code": "DE-BW",
+   "name": "Baden-Württemberg",
+   "wikidata": "Q985",
+   "lon": 9.06858,
+   "lat": 48.66433
+  },
+  {
+   "code": "DE-BY",
+   "name": "Bayern",
+   "wikidata": "Q980",
+   "lon": 12.04258,
+   "lat": 48.9165
+  },
+  {
+   "code": "DE-HB",
+   "name": "Bremen",
+   "wikidata": "Q1209",
+   "lon": 8.80174,
+   "lat": 53.12468
+  },
+  {
+   "code": "DE-HE",
+   "name": "Hessen",
+   "wikidata": "Q1199",
+   "lon": 9.03087,
+   "lat": 50.52548
+  },
+  {
+   "code": "DE-HH",
+   "name": "Hamburg",
+   "wikidata": "Q1055",
+   "lon": 9.98051,
+   "lat": 53.56786
+  },
+  {
+   "code": "DE-MV",
+   "name": "Mecklenburg-Vorpommern",
+   "wikidata": "Q1196",
+   "lon": 12.35149,
+   "lat": 53.79903
+  },
+  {
+   "code": "DE-NI",
+   "name": "Niedersachsen",
+   "wikidata": "Q1197",
+   "lon": 8.82792,
+   "lat": 52.59233
+  },
+  {
+   "code": "DE-NW",
+   "name": "Nordrhein-Westfalen",
+   "wikidata": "Q1198",
+   "lon": 7.55627,
+   "lat": 51.42402
+  },
+  {
+   "code": "DE-RP",
+   "name": "Rheinland-Pfalz",
+   "wikidata": "Q1200",
+   "lon": 7.26225,
+   "lat": 49.94685
+  },
+  {
+   "code": "DE-SH",
+   "name": "Schleswig-Holstein",
+   "wikidata": "Q1194",
+   "lon": 9.95843,
+   "lat": 54.13255
+  },
+  {
+   "code": "DE-SL",
+   "name": "Saarland",
+   "wikidata": "Q1201",
+   "lon": 6.97809,
+   "lat": 49.36573
+  },
+  {
+   "code": "DE-SN",
+   "name": "Sachsen",
+   "wikidata": "Q1202",
+   "lon": 13.50844,
+   "lat": 50.91446
+  },
+  {
+   "code": "DE-ST",
+   "name": "Sachsen-Anhalt",
+   "wikidata": "Q1206",
+   "lon": 11.55406,
+   "lat": 51.98814
+  },
+  {
+   "code": "DE-TH",
+   "name": "Thüringen",
+   "wikidata": "Q1205",
+   "lon": 11.30073,
+   "lat": 50.92294
+  }
+ ],
+ "edges": [
+  {
+   "u": "DE-BB",
+   "v": "DE-BE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 158984
+  },
+  {
+   "u": "DE-BB",
+   "v": "DE-MV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 326024
+  },
+  {
+   "u": "DE-BB",
+   "v": "DE-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25311
+  },
+  {
+   "u": "DE-BB",
+   "v": "DE-SN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 157772
+  },
+  {
+   "u": "DE-BB",
+   "v": "DE-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 287617
+  },
+  {
+   "u": "DE-BW",
+   "v": "DE-BY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 523338
+  },
+  {
+   "u": "DE-BW",
+   "v": "DE-HE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 118825
+  },
+  {
+   "u": "DE-BW",
+   "v": "DE-RP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83235
+  },
+  {
+   "u": "DE-BY",
+   "v": "DE-HE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 202600
+  },
+  {
+   "u": "DE-BY",
+   "v": "DE-SN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20570
+  },
+  {
+   "u": "DE-BY",
+   "v": "DE-TH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 253977
+  },
+  {
+   "u": "DE-HB",
+   "v": "DE-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 125174
+  },
+  {
+   "u": "DE-HE",
+   "v": "DE-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 124600
+  },
+  {
+   "u": "DE-HE",
+   "v": "DE-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 217126
+  },
+  {
+   "u": "DE-HE",
+   "v": "DE-RP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 216085
+  },
+  {
+   "u": "DE-HE",
+   "v": "DE-TH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 186878
+  },
+  {
+   "u": "DE-HH",
+   "v": "DE-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55642
+  },
+  {
+   "u": "DE-HH",
+   "v": "DE-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 87190
+  },
+  {
+   "u": "DE-MV",
+   "v": "DE-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62676
+  },
+  {
+   "u": "DE-MV",
+   "v": "DE-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 110038
+  },
+  {
+   "u": "DE-NI",
+   "v": "DE-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 452381
+  },
+  {
+   "u": "DE-NI",
+   "v": "DE-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20286
+  },
+  {
+   "u": "DE-NI",
+   "v": "DE-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 274024
+  },
+  {
+   "u": "DE-NI",
+   "v": "DE-TH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78185
+  },
+  {
+   "u": "DE-NW",
+   "v": "DE-RP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 221752
+  },
+  {
+   "u": "DE-RP",
+   "v": "DE-SL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 134773
+  },
+  {
+   "u": "DE-SN",
+   "v": "DE-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 132022
+  },
+  {
+   "u": "DE-SN",
+   "v": "DE-TH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 145763
+  },
+  {
+   "u": "DE-ST",
+   "v": "DE-TH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 198336
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "DEU-ADM1-10402087",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Data license Germany - Attribution - Version 2.0"
+ }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BO-B"><data key="name">El Beni</data><data key="code">BO-B</data><data key="wikidata">Q233169</data><data key="lon">-64.66023</data><data key="lat">-13.41719</data></node>
+    <node id="BO-C"><data key="name">Cochabamba</data><data key="code">BO-C</data><data key="wikidata">Q233917</data><data key="lon">-65.61605</data><data key="lat">-17.21125</data></node>
+    <node id="BO-H"><data key="name">Chuquisaca</data><data key="code">BO-H</data><data key="wikidata">Q235110</data><data key="lon">-64.34247</data><data key="lat">-19.91568</data></node>
+    <node id="BO-L"><data key="name">La Paz</data><data key="code">BO-L</data><data key="wikidata">Q272784</data><data key="lon">-68.39947</data><data key="lat">-14.97513</data></node>
+    <node id="BO-N"><data key="name">Pando</data><data key="code">BO-N</data><data key="wikidata">Q235362</data><data key="lon">-67.36676</data><data key="lat">-11.08971</data></node>
+    <node id="BO-O"><data key="name">Oruro</data><data key="code">BO-O</data><data key="wikidata">Q1061368</data><data key="lon">-68.1492</data><data key="lat">-18.61377</data></node>
+    <node id="BO-P"><data key="name">Potosí</data><data key="code">BO-P</data><data key="wikidata">Q238079</data><data key="lon">-67.05036</data><data key="lat">-20.37741</data></node>
+    <node id="BO-S"><data key="name">Santa Cruz</data><data key="code">BO-S</data><data key="wikidata">Q235106</data><data key="lon">-61.55114</data><data key="lat">-16.97633</data></node>
+    <node id="BO-T"><data key="name">Tarija</data><data key="code">BO-T</data><data key="wikidata">Q233933</data><data key="lon">-63.89351</data><data key="lat">-21.89675</data></node>
+    <edge source="BO-B" target="BO-C"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-B" target="BO-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-B" target="BO-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-B" target="BO-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-C" target="BO-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-C" target="BO-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-C" target="BO-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-C" target="BO-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-C" target="BO-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-H" target="BO-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-H" target="BO-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-H" target="BO-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-L" target="BO-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-L" target="BO-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-O" target="BO-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BO-P" target="BO-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

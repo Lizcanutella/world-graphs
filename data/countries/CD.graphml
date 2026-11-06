@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CD" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CD-BC"><data key="name">Bas-Congo</data><data key="code">CD-BC</data><data key="wikidata">Q1043494</data><data key="lon">14.39297</data><data key="lat">-5.1918</data></node>
+    <node id="CD-BN"><data key="name">Bandundu</data><data key="code">CD-BN</data><data key="wikidata">Q671442</data><data key="lon">18.30407</data><data key="lat">-4.42541</data></node>
+    <node id="CD-EQ"><data key="name">Équateur</data><data key="code">CD-EQ</data><data key="wikidata">Q988104</data><data key="lon">20.31475</data><data key="lat">1.31582</data></node>
+    <node id="CD-KA"><data key="name">Katanga</data><data key="code">CD-KA</data><data key="wikidata">Q217242</data><data key="lon">25.09699</data><data key="lat">-9.22011</data></node>
+    <node id="CD-KE"><data key="name">Kasaï-Oriental</data><data key="code">CD-KE</data><data key="wikidata">Q80953</data><data key="lon">23.9827</data><data key="lat">-4.83911</data></node>
+    <node id="CD-KN"><data key="name">Kinshasa City</data><data key="code">CD-KN</data><data key="wikidata">Q3838</data><data key="lon">15.84609</data><data key="lat">-4.48143</data></node>
+    <node id="CD-KW"><data key="name">Kasaï-Occidental</data><data key="code">CD-KW</data><data key="wikidata">Q130576</data><data key="lon">21.65943</data><data key="lat">-5.1293</data></node>
+    <node id="CD-MA"><data key="name">Maniema</data><data key="code">CD-MA</data><data key="wikidata">Q130566</data><data key="lon">25.96527</data><data key="lat">-2.55127</data></node>
+    <node id="CD-NK"><data key="name">Nord-Kivu</data><data key="code">CD-NK</data><data key="wikidata">Q130625</data><data key="lon">28.53522</data><data key="lat">-0.55562</data></node>
+    <node id="CD-OR"><data key="name">Orientale</data><data key="code">CD-OR</data><data key="wikidata">Q831370</data><data key="lon">26.52763</data><data key="lat">1.63561</data></node>
+    <node id="CD-SK"><data key="name">Sud-Kivu</data><data key="code">CD-SK</data><data key="wikidata">Q488326</data><data key="lon">28.1484</data><data key="lat">-3.33362</data></node>
+    <edge source="CD-BC" target="CD-BN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-BC" target="CD-KN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-BN" target="CD-EQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-BN" target="CD-KN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-BN" target="CD-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-EQ" target="CD-KE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-EQ" target="CD-KW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-EQ" target="CD-OR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-KA" target="CD-KE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-KA" target="CD-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-KA" target="CD-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-KA" target="CD-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-KE" target="CD-KW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-KE" target="CD-MA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-KE" target="CD-OR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-MA" target="CD-NK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-MA" target="CD-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-MA" target="CD-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-NK" target="CD-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CD-NK" target="CD-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

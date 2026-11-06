@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="EE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="EE-37"><data key="name">Harju</data><data key="code">EE-37</data><data key="wikidata">Q180200</data><data key="lon">24.99961</data><data key="lat">59.33015</data></node>
+    <node id="EE-39"><data key="name">Hiiu</data><data key="code">EE-39</data><data key="wikidata">Q1466462</data><data key="lon">22.68858</data><data key="lat">58.8899</data></node>
+    <node id="EE-44"><data key="name">Ida-Viru</data><data key="code">EE-44</data><data key="wikidata">Q189963</data><data key="lon">27.39233</data><data key="lat">59.18021</data></node>
+    <node id="EE-49"><data key="name">Jõgeva</data><data key="code">EE-49</data><data key="wikidata">Q189974</data><data key="lon">26.45489</data><data key="lat">58.71321</data></node>
+    <node id="EE-51"><data key="name">Järva</data><data key="code">EE-51</data><data key="wikidata">Q188068</data><data key="lon">25.72976</data><data key="lat">58.95237</data></node>
+    <node id="EE-57"><data key="name">Lääne</data><data key="code">EE-57</data><data key="wikidata">Q189968</data><data key="lon">23.79083</data><data key="lat">58.89584</data></node>
+    <node id="EE-59"><data key="name">Lääne-Viru</data><data key="code">EE-59</data><data key="wikidata">Q189952</data><data key="lon">26.33197</data><data key="lat">59.25917</data></node>
+    <node id="EE-65"><data key="name">Põlva</data><data key="code">EE-65</data><data key="wikidata">Q191813</data><data key="lon">27.07231</data><data key="lat">58.04667</data></node>
+    <node id="EE-67"><data key="name">Pärnu</data><data key="code">EE-67</data><data key="wikidata">Q185036</data><data key="lon">24.85923</data><data key="lat">58.30642</data></node>
+    <node id="EE-70"><data key="name">Rapla</data><data key="code">EE-70</data><data key="wikidata">Q192352</data><data key="lon">24.69693</data><data key="lat">58.948</data></node>
+    <node id="EE-74"><data key="name">Saare</data><data key="code">EE-74</data><data key="wikidata">Q203272</data><data key="lon">22.33749</data><data key="lat">58.27652</data></node>
+    <node id="EE-78"><data key="name">Tartu</data><data key="code">EE-78</data><data key="wikidata">Q192370</data><data key="lon">26.75103</data><data key="lat">58.39386</data></node>
+    <node id="EE-82"><data key="name">Valga</data><data key="code">EE-82</data><data key="wikidata">Q192362</data><data key="lon">26.08633</data><data key="lat">57.86665</data></node>
+    <node id="EE-84"><data key="name">Viljandi</data><data key="code">EE-84</data><data key="wikidata">Q192061</data><data key="lon">25.59338</data><data key="lat">58.31993</data></node>
+    <node id="EE-86"><data key="name">Võru</data><data key="code">EE-86</data><data key="wikidata">Q188076</data><data key="lon">26.96737</data><data key="lat">57.74035</data></node>
+    <edge source="EE-37" target="EE-51"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-37" target="EE-57"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-37" target="EE-59"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-37" target="EE-70"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-44" target="EE-49"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-44" target="EE-59"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-49" target="EE-51"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-49" target="EE-59"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-49" target="EE-78"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-49" target="EE-84"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-51" target="EE-59"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-51" target="EE-67"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-51" target="EE-70"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-51" target="EE-84"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-57" target="EE-67"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-57" target="EE-70"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-65" target="EE-78"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-65" target="EE-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-65" target="EE-86"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-67" target="EE-70"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-67" target="EE-84"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-78" target="EE-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-78" target="EE-84"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-82" target="EE-84"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EE-82" target="EE-86"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

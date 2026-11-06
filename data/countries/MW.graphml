@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MW" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MW-BA"><data key="name">Balaka</data><data key="code">MW-BA</data><data key="wikidata">Q870044</data><data key="lon">35.08485</data><data key="lat">-15.01717</data></node>
+    <node id="MW-BL"><data key="name">Blantyre</data><data key="code">MW-BL</data><data key="wikidata">Q1059262</data><data key="lon">34.93655</data><data key="lat">-15.69103</data></node>
+    <node id="MW-CK"><data key="name">Chikwawa</data><data key="code">MW-CK</data><data key="wikidata">Q722509</data><data key="lon">34.72543</data><data key="lat">-16.22531</data></node>
+    <node id="MW-CR"><data key="name">Chiradzulu</data><data key="code">MW-CR</data><data key="wikidata">Q722501</data><data key="lon">35.21894</data><data key="lat">-15.75839</data></node>
+    <node id="MW-CT"><data key="name">Chitipa</data><data key="code">MW-CT</data><data key="wikidata">Q1044337</data><data key="lon">33.64242</data><data key="lat">-9.98364</data></node>
+    <node id="MW-DE"><data key="name">Dedza</data><data key="code">MW-DE</data><data key="wikidata">Q667153</data><data key="lon">34.32433</data><data key="lat">-14.23063</data></node>
+    <node id="MW-DO"><data key="name">Dowa</data><data key="code">MW-DO</data><data key="wikidata">Q195356</data><data key="lon">33.78504</data><data key="lat">-13.53504</data></node>
+    <node id="MW-KS"><data key="name">Kasungu</data><data key="code">MW-KS</data><data key="wikidata">Q868778</data><data key="lon">33.46271</data><data key="lat">-12.99742</data></node>
+    <node id="MW-LI"><data key="name">Lilongwe</data><data key="code">MW-LI</data><data key="wikidata">Q1058453</data><data key="lon">33.74255</data><data key="lat">-14.02204</data></node>
+    <node id="MW-LK"><data key="name">Likoma</data><data key="code">MW-LK</data><data key="wikidata">Q740622</data><data key="lon">34.72685</data><data key="lat">-12.05792</data></node>
+    <node id="MW-MC"><data key="name">Mchinji</data><data key="code">MW-MC</data><data key="wikidata">Q868792</data><data key="lon">33.02262</data><data key="lat">-13.78386</data></node>
+    <node id="MW-MG"><data key="name">Mangochi</data><data key="code">MW-MG</data><data key="wikidata">Q722505</data><data key="lon">35.32825</data><data key="lat">-14.1392</data></node>
+    <node id="MW-MH"><data key="name">Machinga</data><data key="code">MW-MH</data><data key="wikidata">Q198585</data><data key="lon">35.59956</data><data key="lat">-14.92035</data></node>
+    <node id="MW-MU"><data key="name">Mulanje</data><data key="code">MW-MU</data><data key="wikidata">Q509097</data><data key="lon">35.46012</data><data key="lat">-15.90967</data></node>
+    <node id="MW-MW"><data key="name">Mwanza</data><data key="code">MW-MW</data><data key="wikidata">Q797933</data><data key="lon">34.56305</data><data key="lat">-15.69103</data></node>
+    <node id="MW-MZ"><data key="name">Mzimba</data><data key="code">MW-MZ</data><data key="wikidata">Q1045435</data><data key="lon">33.55809</data><data key="lat">-11.84034</data></node>
+    <node id="MW-NB"><data key="name">Nkhata Bay</data><data key="code">MW-NB</data><data key="wikidata">Q1051505</data><data key="lon">34.05441</data><data key="lat">-11.58385</data></node>
+    <node id="MW-NE"><data key="name">Neno</data><data key="code">MW-NE</data><data key="wikidata">Q1195298</data><data key="lon">34.69336</data><data key="lat">-15.40666</data></node>
+    <node id="MW-NI"><data key="name">Ntchisi</data><data key="code">MW-NI</data><data key="wikidata">Q798235</data><data key="lon">33.86716</data><data key="lat">-13.27159</data></node>
+    <node id="MW-NK"><data key="name">Nkhotakota</data><data key="code">MW-NK</data><data key="wikidata">Q687248</data><data key="lon">34.04301</data><data key="lat">-12.814</data></node>
+    <node id="MW-NS"><data key="name">Nsanje</data><data key="code">MW-NS</data><data key="wikidata">Q198587</data><data key="lon">35.0915</data><data key="lat">-16.73707</data></node>
+    <node id="MW-NU"><data key="name">Ntcheu</data><data key="code">MW-NU</data><data key="wikidata">Q797937</data><data key="lon">34.76857</data><data key="lat">-14.81535</data></node>
+    <node id="MW-PH"><data key="name">Phalombe</data><data key="code">MW-PH</data><data key="wikidata">Q538991</data><data key="lon">35.66751</data><data key="lat">-15.72514</data></node>
+    <node id="MW-RU"><data key="name">Rumphi</data><data key="code">MW-RU</data><data key="wikidata">Q1044312</data><data key="lon">33.85479</data><data key="lat">-10.77536</data></node>
+    <node id="MW-SA"><data key="name">Salima</data><data key="code">MW-SA</data><data key="wikidata">Q195353</data><data key="lon">34.45777</data><data key="lat">-13.76006</data></node>
+    <node id="MW-TH"><data key="name">Thyolo</data><data key="code">MW-TH</data><data key="wikidata">Q722515</data><data key="lon">35.13776</data><data key="lat">-16.12969</data></node>
+    <node id="MW-ZO"><data key="name">Zomba</data><data key="code">MW-ZO</data><data key="wikidata">Q1058442</data><data key="lon">35.45708</data><data key="lat">-15.43603</data></node>
+    <edge source="MW-BA" target="MW-MG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BA" target="MW-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BA" target="MW-NE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BA" target="MW-NU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BA" target="MW-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BL" target="MW-CK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BL" target="MW-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BL" target="MW-MW"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BL" target="MW-NE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BL" target="MW-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-BL" target="MW-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-CK" target="MW-MW"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MW-CK" target="MW-NS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-CK" target="MW-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-CR" target="MW-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-CR" target="MW-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-CR" target="MW-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-CT" target="MW-RU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DE" target="MW-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DE" target="MW-MG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DE" target="MW-NU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DE" target="MW-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DO" target="MW-KS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DO" target="MW-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DO" target="MW-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-DO" target="MW-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-KS" target="MW-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-KS" target="MW-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-KS" target="MW-MZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-KS" target="MW-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-KS" target="MW-NK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-LI" target="MW-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-LI" target="MW-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MG" target="MW-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MG" target="MW-NU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MH" target="MW-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MU" target="MW-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MU" target="MW-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MU" target="MW-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MW" target="MW-NE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MZ" target="MW-NB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MZ" target="MW-NK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-MZ" target="MW-RU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NB" target="MW-NK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NB" target="MW-RU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NE" target="MW-NU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NE" target="MW-ZO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NI" target="MW-NK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NI" target="MW-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NK" target="MW-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-NS" target="MW-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MW-PH" target="MW-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

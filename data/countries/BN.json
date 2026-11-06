@@ -1,0 +1,85 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BN",
+ "kind": "country",
+ "name": "Brunei Darussalam",
+ "level": "districts",
+ "n": 4,
+ "m": 2,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BN-BE",
+   "name": "Belait",
+   "wikidata": "Q40395",
+   "lon": 114.5143,
+   "lat": 4.35369
+  },
+  {
+   "code": "BN-BM",
+   "name": "Brunei and Muara",
+   "wikidata": "Q153009",
+   "lon": 114.87263,
+   "lat": 4.89391
+  },
+  {
+   "code": "BN-TE",
+   "name": "Temburong",
+   "wikidata": "Q263285",
+   "lon": 115.1594,
+   "lat": 4.6044
+  },
+  {
+   "code": "BN-TU",
+   "name": "Tutong",
+   "wikidata": "Q40398",
+   "lon": 114.66407,
+   "lat": 4.60061
+  }
+ ],
+ "edges": [
+  {
+   "u": "BN-BE",
+   "v": "BN-TU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57771
+  },
+  {
+   "u": "BN-BM",
+   "v": "BN-TU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19122
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BRN-ADM1-89281809",
+  "level": "ADM1",
+  "year": "2011",
+  "license": "Public Domain"
+ }
+}

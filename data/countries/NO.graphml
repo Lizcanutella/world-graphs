@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NO-01"><data key="name">Østfold</data><data key="code">NO-01</data><data key="wikidata">Q50614</data><data key="lon">11.22545</data><data key="lat">59.34789</data></node>
+    <node id="NO-02"><data key="name">Akershus</data><data key="code">NO-02</data><data key="wikidata">Q50615</data><data key="lon">11.34425</data><data key="lat">60.05234</data></node>
+    <node id="NO-03"><data key="name">Oslo</data><data key="code">NO-03</data><data key="wikidata">Q585</data><data key="lon">10.65627</data><data key="lat">59.98134</data></node>
+    <node id="NO-04"><data key="name">Hedmark</data><data key="code">NO-04</data><data key="wikidata">Q50616</data><data key="lon">11.85058</data><data key="lat">61.31539</data></node>
+    <node id="NO-05"><data key="name">Oppland</data><data key="code">NO-05</data><data key="wikidata">Q50617</data><data key="lon">9.46314</data><data key="lat">61.26998</data></node>
+    <node id="NO-06"><data key="name">Buskerud</data><data key="code">NO-06</data><data key="wikidata">Q50618</data><data key="lon">8.97567</data><data key="lat">60.27711</data></node>
+    <node id="NO-07"><data key="name">Vestfold</data><data key="code">NO-07</data><data key="wikidata">Q50619</data><data key="lon">10.14026</data><data key="lat">59.32777</data></node>
+    <node id="NO-08"><data key="name">Telemark</data><data key="code">NO-08</data><data key="wikidata">Q2254</data><data key="lon">8.60458</data><data key="lat">59.4897</data></node>
+    <node id="NO-09"><data key="name">Aust-Agder</data><data key="code">NO-09</data><data key="wikidata">Q50621</data><data key="lon">7.79316</data><data key="lat">58.92237</data></node>
+    <node id="NO-10"><data key="name">Vest-Agder</data><data key="code">NO-10</data><data key="wikidata">Q50623</data><data key="lon">7.10226</data><data key="lat">58.60393</data></node>
+    <node id="NO-11"><data key="name">Rogaland</data><data key="code">NO-11</data><data key="wikidata">Q50624</data><data key="lon">6.32721</data><data key="lat">59.07304</data></node>
+    <node id="NO-12"><data key="name">Hordaland</data><data key="code">NO-12</data><data key="wikidata">Q50625</data><data key="lon">7.11569</data><data key="lat">60.29556</data></node>
+    <node id="NO-14"><data key="name">Sogn og Fjordane</data><data key="code">NO-14</data><data key="wikidata">Q50626</data><data key="lon">6.64351</data><data key="lat">61.45921</data></node>
+    <node id="NO-15"><data key="name">Møre og Romsdal</data><data key="code">NO-15</data><data key="wikidata">Q50627</data><data key="lon">8.34234</data><data key="lat">62.58678</data></node>
+    <node id="NO-16"><data key="name">Sør-Trøndelag</data><data key="code">NO-16</data><data key="wikidata">Q50628</data><data key="lon">10.80989</data><data key="lat">62.95954</data></node>
+    <node id="NO-17"><data key="name">Nord-Trøndelag</data><data key="code">NO-17</data><data key="wikidata">Q50629</data><data key="lon">12.47528</data><data key="lat">64.15628</data></node>
+    <node id="NO-18"><data key="name">Nordland</data><data key="code">NO-18</data><data key="wikidata">Q50630</data><data key="lon">14.71098</data><data key="lat">66.78602</data></node>
+    <node id="NO-19"><data key="name">Troms</data><data key="code">NO-19</data><data key="wikidata">Q50631</data><data key="lon">20.64967</data><data key="lat">69.28736</data></node>
+    <node id="NO-20"><data key="name">Finnmark</data><data key="code">NO-20</data><data key="wikidata">Q50632</data><data key="lon">24.50696</data><data key="lat">69.84305</data></node>
+    <node id="NO-21"><data key="name">Svalbard</data><data key="code">NO-21</data><data key="wikidata">Q25231</data><data key="lon">22.69698</data><data key="lat">79.85177</data></node>
+    <node id="NO-X01~"><data key="name">Bouvet Island</data><data key="code">NO-X01~</data><data key="wikidata"></data><data key="lon">3.41121</data><data key="lat">-54.42726</data></node>
+    <edge source="NO-01" target="NO-02"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-02" target="NO-03"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-02" target="NO-04"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-02" target="NO-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-03" target="NO-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-03" target="NO-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-04" target="NO-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-04" target="NO-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-05" target="NO-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-05" target="NO-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-05" target="NO-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-05" target="NO-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-06" target="NO-07"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-06" target="NO-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-06" target="NO-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-06" target="NO-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-07" target="NO-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-08" target="NO-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-08" target="NO-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-08" target="NO-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-09" target="NO-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-09" target="NO-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-10" target="NO-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-11" target="NO-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-12" target="NO-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-14" target="NO-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-15" target="NO-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-16" target="NO-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-17" target="NO-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-18" target="NO-19"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NO-19" target="NO-20"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

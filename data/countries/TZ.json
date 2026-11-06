@@ -1,0 +1,1182 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TZ",
+ "kind": "country",
+ "name": "Tanzania, United Republic of",
+ "level": "regions",
+ "n": 30,
+ "m": 57,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TZ-01",
+   "name": "Arusha",
+   "wikidata": "Q329261",
+   "lon": 36.09266,
+   "lat": -2.91564
+  },
+  {
+   "code": "TZ-02",
+   "name": "Dar-Es-Salaam",
+   "wikidata": "Q557539",
+   "lon": 39.28322,
+   "lat": -6.87412
+  },
+  {
+   "code": "TZ-03",
+   "name": "Dodoma",
+   "wikidata": "Q213268",
+   "lon": 35.93708,
+   "lat": -5.7727
+  },
+  {
+   "code": "TZ-04",
+   "name": "Iringa",
+   "wikidata": "Q309352",
+   "lon": 35.68832,
+   "lat": -7.96083
+  },
+  {
+   "code": "TZ-05",
+   "name": "Kagera",
+   "wikidata": "Q309190",
+   "lon": 31.21948,
+   "lat": -1.9889
+  },
+  {
+   "code": "TZ-06",
+   "name": "Kaskazini-Pemba",
+   "wikidata": "Q498073",
+   "lon": 39.7665,
+   "lat": -5.05055
+  },
+  {
+   "code": "TZ-07",
+   "name": "Kaskazini-Unguja",
+   "wikidata": "Q147116",
+   "lon": 39.30396,
+   "lat": -5.87107
+  },
+  {
+   "code": "TZ-08",
+   "name": "Kigoma",
+   "wikidata": "Q747943",
+   "lon": 30.50735,
+   "lat": -4.70312
+  },
+  {
+   "code": "TZ-09",
+   "name": "Kilimanjaro",
+   "wikidata": "Q328922",
+   "lon": 37.65815,
+   "lat": -3.73822
+  },
+  {
+   "code": "TZ-10",
+   "name": "Kusini-Pemba",
+   "wikidata": "Q498067",
+   "lon": 39.75373,
+   "lat": -5.31544
+  },
+  {
+   "code": "TZ-11",
+   "name": "Zanzibar South and Central",
+   "wikidata": "Q643120",
+   "lon": 39.4187,
+   "lat": -6.22941
+  },
+  {
+   "code": "TZ-12",
+   "name": "Lindi",
+   "wikidata": "Q309339",
+   "lon": 38.41923,
+   "lat": -9.37705
+  },
+  {
+   "code": "TZ-13",
+   "name": "Mara",
+   "wikidata": "Q458406",
+   "lon": 34.44235,
+   "lat": -1.77343
+  },
+  {
+   "code": "TZ-14",
+   "name": "Mbeya",
+   "wikidata": "Q458382",
+   "lon": 33.74519,
+   "lat": -8.28776
+  },
+  {
+   "code": "TZ-15",
+   "name": "Zanzibar West",
+   "wikidata": "Q180822",
+   "lon": 39.22852,
+   "lat": -6.16688
+  },
+  {
+   "code": "TZ-16",
+   "name": "Morogoro",
+   "wikidata": "Q458388",
+   "lon": 37.30726,
+   "lat": -7.88345
+  },
+  {
+   "code": "TZ-17",
+   "name": "Mtwara",
+   "wikidata": "Q499465",
+   "lon": 39.15774,
+   "lat": -10.74797
+  },
+  {
+   "code": "TZ-18",
+   "name": "Mwanza",
+   "wikidata": "Q331153",
+   "lon": 33.26021,
+   "lat": -2.84904
+  },
+  {
+   "code": "TZ-19",
+   "name": "Pwani",
+   "wikidata": "Q458412",
+   "lon": 38.93254,
+   "lat": -7.17532
+  },
+  {
+   "code": "TZ-20",
+   "name": "Rukwa",
+   "wikidata": "Q153329",
+   "lon": 31.41685,
+   "lat": -7.99069
+  },
+  {
+   "code": "TZ-21",
+   "name": "Ruvuma",
+   "wikidata": "Q115318",
+   "lon": 36.26817,
+   "lat": -10.4436
+  },
+  {
+   "code": "TZ-22",
+   "name": "Shinyanga",
+   "wikidata": "Q153339",
+   "lon": 33.02276,
+   "lat": -3.779
+  },
+  {
+   "code": "TZ-23",
+   "name": "Singida",
+   "wikidata": "Q153326",
+   "lon": 34.71178,
+   "lat": -5.65653
+  },
+  {
+   "code": "TZ-24",
+   "name": "Tabora",
+   "wikidata": "Q153335",
+   "lon": 32.62341,
+   "lat": -5.48832
+  },
+  {
+   "code": "TZ-25",
+   "name": "Tanga",
+   "wikidata": "Q389737",
+   "lon": 38.28997,
+   "lat": -5.11981
+  },
+  {
+   "code": "TZ-26",
+   "name": "Manyara",
+   "wikidata": "Q331117",
+   "lon": 37.16582,
+   "lat": -4.73731
+  },
+  {
+   "code": "TZ-27",
+   "name": "Geita",
+   "wikidata": "Q1848521",
+   "lon": 31.6408,
+   "lat": -3.3052
+  },
+  {
+   "code": "TZ-28",
+   "name": "Katavi",
+   "wikidata": "Q2682731",
+   "lon": 31.5095,
+   "lat": -6.47516
+  },
+  {
+   "code": "TZ-29",
+   "name": "Njombe",
+   "wikidata": "Q2086273",
+   "lon": 34.76776,
+   "lat": -9.57275
+  },
+  {
+   "code": "TZ-30",
+   "name": "Simiyu",
+   "wikidata": "Q2787568",
+   "lon": 34.20283,
+   "lat": -3.05658
+  }
+ ],
+ "edges": [
+  {
+   "u": "TZ-01",
+   "v": "TZ-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127673
+  },
+  {
+   "u": "TZ-01",
+   "v": "TZ-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99272
+  },
+  {
+   "u": "TZ-01",
+   "v": "TZ-23",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18883
+  },
+  {
+   "u": "TZ-01",
+   "v": "TZ-26",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 410413,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Arusha_Region"
+    }
+   ]
+  },
+  {
+   "u": "TZ-01",
+   "v": "TZ-30",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 172599
+  },
+  {
+   "u": "TZ-02",
+   "v": "TZ-19",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 137752
+  },
+  {
+   "u": "TZ-03",
+   "v": "TZ-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 179401
+  },
+  {
+   "u": "TZ-03",
+   "v": "TZ-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 171899
+  },
+  {
+   "u": "TZ-03",
+   "v": "TZ-23",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 272830
+  },
+  {
+   "u": "TZ-03",
+   "v": "TZ-26",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 390236
+  },
+  {
+   "u": "TZ-04",
+   "v": "TZ-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 269401,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Iringa_Region"
+    }
+   ]
+  },
+  {
+   "u": "TZ-04",
+   "v": "TZ-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 382258
+  },
+  {
+   "u": "TZ-04",
+   "v": "TZ-23",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 160308
+  },
+  {
+   "u": "TZ-04",
+   "v": "TZ-29",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101266
+  },
+  {
+   "u": "TZ-05",
+   "v": "TZ-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24926
+  },
+  {
+   "u": "TZ-05",
+   "v": "TZ-27",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133757
+  },
+  {
+   "u": "TZ-06",
+   "v": "TZ-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17038
+  },
+  {
+   "u": "TZ-07",
+   "v": "TZ-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13862
+  },
+  {
+   "u": "TZ-07",
+   "v": "TZ-15",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8465
+  },
+  {
+   "u": "TZ-08",
+   "v": "TZ-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 162547
+  },
+  {
+   "u": "TZ-08",
+   "v": "TZ-27",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 197594
+  },
+  {
+   "u": "TZ-08",
+   "v": "TZ-28",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 309092
+  },
+  {
+   "u": "TZ-09",
+   "v": "TZ-25",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71952
+  },
+  {
+   "u": "TZ-09",
+   "v": "TZ-26",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 205843
+  },
+  {
+   "u": "TZ-11",
+   "v": "TZ-15",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24577
+  },
+  {
+   "u": "TZ-12",
+   "v": "TZ-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 210946
+  },
+  {
+   "u": "TZ-12",
+   "v": "TZ-17",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 291946
+  },
+  {
+   "u": "TZ-12",
+   "v": "TZ-19",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 201195
+  },
+  {
+   "u": "TZ-12",
+   "v": "TZ-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 228458
+  },
+  {
+   "u": "TZ-13",
+   "v": "TZ-30",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 184639
+  },
+  {
+   "u": "TZ-14",
+   "v": "TZ-20",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 232267
+  },
+  {
+   "u": "TZ-14",
+   "v": "TZ-23",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85694
+  },
+  {
+   "u": "TZ-14",
+   "v": "TZ-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116411
+  },
+  {
+   "u": "TZ-14",
+   "v": "TZ-28",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 90317
+  },
+  {
+   "u": "TZ-14",
+   "v": "TZ-29",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 198208
+  },
+  {
+   "u": "TZ-16",
+   "v": "TZ-19",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 350362
+  },
+  {
+   "u": "TZ-16",
+   "v": "TZ-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 346296
+  },
+  {
+   "u": "TZ-16",
+   "v": "TZ-25",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 141999,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Morogoro_Region"
+    }
+   ]
+  },
+  {
+   "u": "TZ-16",
+   "v": "TZ-26",
+   "rule": "review",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26879
+  },
+  {
+   "u": "TZ-16",
+   "v": "TZ-29",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57974,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Morogoro_Region"
+    }
+   ]
+  },
+  {
+   "u": "TZ-17",
+   "v": "TZ-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49920
+  },
+  {
+   "u": "TZ-18",
+   "v": "TZ-22",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 157063
+  },
+  {
+   "u": "TZ-18",
+   "v": "TZ-27",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 115424
+  },
+  {
+   "u": "TZ-18",
+   "v": "TZ-30",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 132613
+  },
+  {
+   "u": "TZ-19",
+   "v": "TZ-25",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 121234
+  },
+  {
+   "u": "TZ-20",
+   "v": "TZ-28",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 205167
+  },
+  {
+   "u": "TZ-21",
+   "v": "TZ-29",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 210549,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ruvuma_Region"
+    }
+   ]
+  },
+  {
+   "u": "TZ-22",
+   "v": "TZ-23",
+   "rule": "ne_and_p47",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16643
+  },
+  {
+   "u": "TZ-22",
+   "v": "TZ-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 405942
+  },
+  {
+   "u": "TZ-22",
+   "v": "TZ-27",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 168588
+  },
+  {
+   "u": "TZ-22",
+   "v": "TZ-30",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 148471
+  },
+  {
+   "u": "TZ-23",
+   "v": "TZ-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 399853
+  },
+  {
+   "u": "TZ-23",
+   "v": "TZ-26",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 140983
+  },
+  {
+   "u": "TZ-23",
+   "v": "TZ-30",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43404
+  },
+  {
+   "u": "TZ-24",
+   "v": "TZ-27",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60672
+  },
+  {
+   "u": "TZ-24",
+   "v": "TZ-28",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 347792
+  },
+  {
+   "u": "TZ-25",
+   "v": "TZ-26",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 217118
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TZA-ADM1-36957248",
+  "level": "ADM1",
+  "year": "2015",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

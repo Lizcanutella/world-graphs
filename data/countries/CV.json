@@ -1,0 +1,571 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CV",
+ "kind": "country",
+ "name": "Cabo Verde",
+ "level": "municipalities",
+ "n": 22,
+ "m": 24,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CV-BR",
+   "name": "Brava",
+   "wikidata": "Q2571624",
+   "lon": -24.71884,
+   "lat": 14.8536
+  },
+  {
+   "code": "CV-BV",
+   "name": "Boa Vista",
+   "wikidata": "Q2721025",
+   "lon": -22.80363,
+   "lat": 16.11274
+  },
+  {
+   "code": "CV-CA",
+   "name": "Santa Catarina",
+   "wikidata": "Q494882",
+   "lon": -23.71742,
+   "lat": 15.07506
+  },
+  {
+   "code": "CV-CF",
+   "name": "Santa Catarina do Fogo",
+   "wikidata": "Q2608046",
+   "lon": -24.34046,
+   "lat": 14.91281
+  },
+  {
+   "code": "CV-CR",
+   "name": "Santa Cruz",
+   "wikidata": "Q497472",
+   "lon": -23.5641,
+   "lat": 15.1094
+  },
+  {
+   "code": "CV-MA",
+   "name": "Maio",
+   "wikidata": "Q2551133",
+   "lon": -23.18004,
+   "lat": 15.22696
+  },
+  {
+   "code": "CV-MO",
+   "name": "Mosteiros",
+   "wikidata": "Q516835",
+   "lon": -24.36508,
+   "lat": 15.00195
+  },
+  {
+   "code": "CV-PA",
+   "name": "Paul",
+   "wikidata": "Q1475374",
+   "lon": -25.01416,
+   "lat": 17.11044
+  },
+  {
+   "code": "CV-PN",
+   "name": "Porto Novo",
+   "wikidata": "Q1552897",
+   "lon": -25.19034,
+   "lat": 17.02652
+  },
+  {
+   "code": "CV-PR",
+   "name": "Praia",
+   "wikidata": "Q497019",
+   "lon": -23.51927,
+   "lat": 14.95366
+  },
+  {
+   "code": "CV-RB",
+   "name": "Ribeira Brava",
+   "wikidata": "Q747221",
+   "lon": -24.10285,
+   "lat": 16.58427
+  },
+  {
+   "code": "CV-RG",
+   "name": "Ribeira Grande",
+   "wikidata": "Q1355642",
+   "lon": -25.13307,
+   "lat": 17.14152
+  },
+  {
+   "code": "CV-RS",
+   "name": "Ribeira Grande de Santiago",
+   "wikidata": "Q499620",
+   "lon": -23.64418,
+   "lat": 14.97733
+  },
+  {
+   "code": "CV-SD",
+   "name": "São Domingos",
+   "wikidata": "Q499009",
+   "lon": -23.52137,
+   "lat": 15.01203
+  },
+  {
+   "code": "CV-SF",
+   "name": "São Filipe",
+   "wikidata": "Q6430079",
+   "lon": -24.45262,
+   "lat": 14.91639
+  },
+  {
+   "code": "CV-SL",
+   "name": "Sal",
+   "wikidata": "Q2721003",
+   "lon": -22.94288,
+   "lat": 16.72944
+  },
+  {
+   "code": "CV-SM",
+   "name": "São Miguel",
+   "wikidata": "Q494874",
+   "lon": -23.64232,
+   "lat": 15.1773
+  },
+  {
+   "code": "CV-SO",
+   "name": "São Lourenço dos Órgãos",
+   "wikidata": "Q494726",
+   "lon": -23.57353,
+   "lat": 15.04764
+  },
+  {
+   "code": "CV-SS",
+   "name": "São Salvador do Mundo",
+   "wikidata": "Q494877",
+   "lon": -23.61407,
+   "lat": 15.06836
+  },
+  {
+   "code": "CV-SV",
+   "name": "São Vicente",
+   "wikidata": "Q648842",
+   "lon": -24.9814,
+   "lat": 16.85607
+  },
+  {
+   "code": "CV-TA",
+   "name": "Tarrafal",
+   "wikidata": "Q499598",
+   "lon": -23.72442,
+   "lat": 15.26042
+  },
+  {
+   "code": "CV-TS",
+   "name": "Tarrafal de São Nicolau",
+   "wikidata": "Q1895853",
+   "lon": -24.34172,
+   "lat": 16.58043
+  }
+ ],
+ "edges": [
+  {
+   "u": "CV-CA",
+   "v": "CV-CR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3065
+  },
+  {
+   "u": "CV-CA",
+   "v": "CV-RS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13115
+  },
+  {
+   "u": "CV-CA",
+   "v": "CV-SM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11737
+  },
+  {
+   "u": "CV-CA",
+   "v": "CV-SS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9347
+  },
+  {
+   "u": "CV-CA",
+   "v": "CV-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9105
+  },
+  {
+   "u": "CV-CF",
+   "v": "CV-MO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7916
+  },
+  {
+   "u": "CV-CF",
+   "v": "CV-SF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16724
+  },
+  {
+   "u": "CV-CR",
+   "v": "CV-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5900
+  },
+  {
+   "u": "CV-CR",
+   "v": "CV-SM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5715
+  },
+  {
+   "u": "CV-CR",
+   "v": "CV-SO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6802
+  },
+  {
+   "u": "CV-CR",
+   "v": "CV-SS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6003
+  },
+  {
+   "u": "CV-MO",
+   "v": "CV-SF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10696
+  },
+  {
+   "u": "CV-PA",
+   "v": "CV-PN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10163
+  },
+  {
+   "u": "CV-PA",
+   "v": "CV-RG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6108
+  },
+  {
+   "u": "CV-PN",
+   "v": "CV-RG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20465
+  },
+  {
+   "u": "CV-PR",
+   "v": "CV-RS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6577
+  },
+  {
+   "u": "CV-PR",
+   "v": "CV-SD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11027
+  },
+  {
+   "u": "CV-RB",
+   "v": "CV-TS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26286
+  },
+  {
+   "u": "CV-RS",
+   "v": "CV-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7201
+  },
+  {
+   "u": "CV-RS",
+   "v": "CV-SO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3991
+  },
+  {
+   "u": "CV-RS",
+   "v": "CV-SS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1876
+  },
+  {
+   "u": "CV-SD",
+   "v": "CV-SO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9321
+  },
+  {
+   "u": "CV-SM",
+   "v": "CV-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5953
+  },
+  {
+   "u": "CV-SO",
+   "v": "CV-SS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6312
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CPV-ADM1-35879248",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

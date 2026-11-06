@@ -1,0 +1,186 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "DJ",
+ "kind": "country",
+ "name": "Djibouti",
+ "level": "regions",
+ "n": 6,
+ "m": 7,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "DJ-AR",
+   "name": "Arta",
+   "wikidata": "Q705941",
+   "lon": 42.67965,
+   "lat": 11.45794
+  },
+  {
+   "code": "DJ-AS",
+   "name": "Ali Sabieh",
+   "wikidata": "Q821008",
+   "lon": 42.87398,
+   "lat": 11.2426
+  },
+  {
+   "code": "DJ-DI",
+   "name": "Dikhil",
+   "wikidata": "Q283979",
+   "lon": 42.10252,
+   "lat": 11.3945
+  },
+  {
+   "code": "DJ-DJ",
+   "name": "Djibouti",
+   "wikidata": "Q3604",
+   "lon": 43.04537,
+   "lat": 11.55992
+  },
+  {
+   "code": "DJ-OB",
+   "name": "Obock",
+   "wikidata": "Q844929",
+   "lon": 43.03942,
+   "lat": 12.27243
+  },
+  {
+   "code": "DJ-TA",
+   "name": "Tadjourah",
+   "wikidata": "Q645896",
+   "lon": 42.50877,
+   "lat": 12.03322
+  }
+ ],
+ "edges": [
+  {
+   "u": "DJ-AR",
+   "v": "DJ-AS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63809
+  },
+  {
+   "u": "DJ-AR",
+   "v": "DJ-DI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65444
+  },
+  {
+   "u": "DJ-AR",
+   "v": "DJ-DJ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32866
+  },
+  {
+   "u": "DJ-AR",
+   "v": "DJ-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22174
+  },
+  {
+   "u": "DJ-AS",
+   "v": "DJ-DI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24932
+  },
+  {
+   "u": "DJ-DI",
+   "v": "DJ-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51235
+  },
+  {
+   "u": "DJ-OB",
+   "v": "DJ-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78893
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "DJI-ADM1-25444519",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Public Domain"
+ }
+}

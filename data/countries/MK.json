@@ -1,0 +1,3696 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MK",
+ "kind": "country",
+ "name": "North Macedonia",
+ "level": "statistical region",
+ "n": 84,
+ "m": 211,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MK-01",
+   "name": "Aerodrom",
+   "wikidata": "Q1992708",
+   "lon": 21.49691,
+   "lat": 41.94973
+  },
+  {
+   "code": "MK-02",
+   "name": "Aračinovo",
+   "wikidata": "Q597345",
+   "lon": 21.58489,
+   "lat": 42.02851
+  },
+  {
+   "code": "MK-03",
+   "name": "Berovo",
+   "wikidata": "Q793727",
+   "lon": 22.80373,
+   "lat": 41.66423
+  },
+  {
+   "code": "MK-04",
+   "name": "Bitola",
+   "wikidata": "Q159380",
+   "lon": 21.25711,
+   "lat": 41.03951
+  },
+  {
+   "code": "MK-05",
+   "name": "Bogdanci",
+   "wikidata": "Q1992752",
+   "lon": 22.59386,
+   "lat": 41.18827
+  },
+  {
+   "code": "MK-06",
+   "name": "Bogovinje",
+   "wikidata": "Q9035785",
+   "lon": 20.85806,
+   "lat": 41.92984
+  },
+  {
+   "code": "MK-07",
+   "name": "Bosilovo",
+   "wikidata": "Q1779775",
+   "lon": 22.76432,
+   "lat": 41.48045
+  },
+  {
+   "code": "MK-08",
+   "name": "Brvenica",
+   "wikidata": "Q1057563",
+   "lon": 21.00984,
+   "lat": 41.87128
+  },
+  {
+   "code": "MK-09",
+   "name": "Butel",
+   "wikidata": "Q935620",
+   "lon": 21.45596,
+   "lat": 42.07339
+  },
+  {
+   "code": "MK-10",
+   "name": "Valandovo",
+   "wikidata": "Q2018965",
+   "lon": 22.48475,
+   "lat": 41.33073
+  },
+  {
+   "code": "MK-11",
+   "name": "Vasilevo",
+   "wikidata": "Q2018980",
+   "lon": 22.66935,
+   "lat": 41.54558
+  },
+  {
+   "code": "MK-12",
+   "name": "Vevčani",
+   "wikidata": "Q2029825",
+   "lon": 20.56197,
+   "lat": 41.23276
+  },
+  {
+   "code": "MK-13",
+   "name": "Veles",
+   "wikidata": "Q2088561",
+   "lon": 21.72291,
+   "lat": 41.75633
+  },
+  {
+   "code": "MK-14",
+   "name": "Vinica",
+   "wikidata": "Q2479526",
+   "lon": 22.569,
+   "lat": 41.8558
+  },
+  {
+   "code": "MK-15",
+   "name": "Vraneštica",
+   "wikidata": "Q1998500",
+   "lon": 21.04881,
+   "lat": 41.49722
+  },
+  {
+   "code": "MK-16",
+   "name": "Vrapcište",
+   "wikidata": "Q1996740",
+   "lon": 20.83429,
+   "lat": 41.86289
+  },
+  {
+   "code": "MK-17",
+   "name": "Gazi Baba",
+   "wikidata": "Q2019836",
+   "lon": 21.50354,
+   "lat": 42.00697
+  },
+  {
+   "code": "MK-18",
+   "name": "Gevgelija",
+   "wikidata": "Q2018974",
+   "lon": 22.38077,
+   "lat": 41.24553
+  },
+  {
+   "code": "MK-19",
+   "name": "Gostivar",
+   "wikidata": "Q521112",
+   "lon": 20.93049,
+   "lat": 41.74593
+  },
+  {
+   "code": "MK-20",
+   "name": "Gradsko",
+   "wikidata": "Q1992701",
+   "lon": 21.87615,
+   "lat": 41.6033
+  },
+  {
+   "code": "MK-21",
+   "name": "Debar",
+   "wikidata": "Q1344996",
+   "lon": 20.4952,
+   "lat": 41.50386
+  },
+  {
+   "code": "MK-22",
+   "name": "Debarca",
+   "wikidata": "Q1323340",
+   "lon": 20.97929,
+   "lat": 41.24256
+  },
+  {
+   "code": "MK-23",
+   "name": "Delčevo",
+   "wikidata": "Q1323322",
+   "lon": 22.73634,
+   "lat": 41.93174
+  },
+  {
+   "code": "MK-24",
+   "name": "Demir Kapija",
+   "wikidata": "Q2370973",
+   "lon": 22.23329,
+   "lat": 41.38515
+  },
+  {
+   "code": "MK-25",
+   "name": "Demir Hisar",
+   "wikidata": "Q856278",
+   "lon": 21.15481,
+   "lat": 41.25456
+  },
+  {
+   "code": "MK-26",
+   "name": "Dojran",
+   "wikidata": "Q1996413",
+   "lon": 22.68981,
+   "lat": 41.21557
+  },
+  {
+   "code": "MK-27",
+   "name": "Dolneni",
+   "wikidata": "Q1992691",
+   "lon": 21.40156,
+   "lat": 41.47107
+  },
+  {
+   "code": "MK-28",
+   "name": "Drugovo",
+   "wikidata": "Q1996439",
+   "lon": 20.83865,
+   "lat": 41.47138
+  },
+  {
+   "code": "MK-29",
+   "name": "Gjorče Petrov",
+   "wikidata": "Q924278",
+   "lon": 21.32707,
+   "lat": 42.03936
+  },
+  {
+   "code": "MK-30",
+   "name": "Želino",
+   "wikidata": "Q1996410",
+   "lon": 21.11851,
+   "lat": 41.9147
+  },
+  {
+   "code": "MK-31",
+   "name": "Zajas",
+   "wikidata": "Q2018939",
+   "lon": 20.9085,
+   "lat": 41.59684
+  },
+  {
+   "code": "MK-32",
+   "name": "Zelenikovo",
+   "wikidata": "Q9050283",
+   "lon": 21.56617,
+   "lat": 41.81804
+  },
+  {
+   "code": "MK-33",
+   "name": "Zrnovci",
+   "wikidata": "Q950881",
+   "lon": 22.40311,
+   "lat": 41.83117
+  },
+  {
+   "code": "MK-34",
+   "name": "Ilinden",
+   "wikidata": "Q657754",
+   "lon": 21.60749,
+   "lat": 41.97888
+  },
+  {
+   "code": "MK-35",
+   "name": "Jegunovce",
+   "wikidata": "Q431908",
+   "lon": 21.16953,
+   "lat": 42.08928
+  },
+  {
+   "code": "MK-36",
+   "name": "Kavadartsi",
+   "wikidata": "Q1155055",
+   "lon": 21.98552,
+   "lat": 41.30546
+  },
+  {
+   "code": "MK-37",
+   "name": "Karbinci",
+   "wikidata": "Q1346554",
+   "lon": 22.29207,
+   "lat": 41.78462
+  },
+  {
+   "code": "MK-38",
+   "name": "Karpoš",
+   "wikidata": "Q1463246",
+   "lon": 21.39295,
+   "lat": 41.98895
+  },
+  {
+   "code": "MK-39",
+   "name": "Kisela Voda",
+   "wikidata": "Q1386136",
+   "lon": 21.48066,
+   "lat": 41.93363
+  },
+  {
+   "code": "MK-40",
+   "name": "Kičevo",
+   "wikidata": "Q2018957",
+   "lon": 20.95211,
+   "lat": 41.5116
+  },
+  {
+   "code": "MK-41",
+   "name": "Konče",
+   "wikidata": "Q1992728",
+   "lon": 22.38938,
+   "lat": 41.51158
+  },
+  {
+   "code": "MK-42",
+   "name": "Kočani",
+   "wikidata": "Q1819289",
+   "lon": 22.40087,
+   "lat": 41.9729
+  },
+  {
+   "code": "MK-43",
+   "name": "Kratovo",
+   "wikidata": "Q1992716",
+   "lon": 22.14369,
+   "lat": 42.07407
+  },
+  {
+   "code": "MK-44",
+   "name": "Kriva Palanka",
+   "wikidata": "Q1422453",
+   "lon": 22.30341,
+   "lat": 42.2423
+  },
+  {
+   "code": "MK-45",
+   "name": "Krivogaštani",
+   "wikidata": "Q2018930",
+   "lon": 21.37725,
+   "lat": 41.31646
+  },
+  {
+   "code": "MK-46",
+   "name": "Kruševo",
+   "wikidata": "Q2476159",
+   "lon": 21.26349,
+   "lat": 41.34299
+  },
+  {
+   "code": "MK-47",
+   "name": "Kumanovo",
+   "wikidata": "Q2352376",
+   "lon": 21.78943,
+   "lat": 42.09958
+  },
+  {
+   "code": "MK-48",
+   "name": "Lipkovo",
+   "wikidata": "Q2041236",
+   "lon": 21.57766,
+   "lat": 42.14315
+  },
+  {
+   "code": "MK-49",
+   "name": "Lozovo",
+   "wikidata": "Q1996470",
+   "lon": 21.90923,
+   "lat": 41.74288
+  },
+  {
+   "code": "MK-50",
+   "name": "Mavrovo and Rostusa",
+   "wikidata": "Q1323332",
+   "lon": 20.66785,
+   "lat": 41.63695
+  },
+  {
+   "code": "MK-51",
+   "name": "Makedonska Kamenica",
+   "wikidata": "Q2041219",
+   "lon": 22.54501,
+   "lat": 42.04344
+  },
+  {
+   "code": "MK-52",
+   "name": "Brod",
+   "wikidata": "Q2364199",
+   "lon": 21.22098,
+   "lat": 41.63428
+  },
+  {
+   "code": "MK-53",
+   "name": "Mogila",
+   "wikidata": "Q1839369",
+   "lon": 21.43149,
+   "lat": 41.17023
+  },
+  {
+   "code": "MK-54",
+   "name": "Negotino",
+   "wikidata": "Q3246545",
+   "lon": 22.16917,
+   "lat": 41.50032
+  },
+  {
+   "code": "MK-55",
+   "name": "Novaci",
+   "wikidata": "Q2088022",
+   "lon": 21.64481,
+   "lat": 41.0156
+  },
+  {
+   "code": "MK-56",
+   "name": "Novo Selo",
+   "wikidata": "Q1946579",
+   "lon": 22.87747,
+   "lat": 41.42936
+  },
+  {
+   "code": "MK-57",
+   "name": "Oslomej",
+   "wikidata": "Q2001785",
+   "lon": 21.04097,
+   "lat": 41.57611
+  },
+  {
+   "code": "MK-58",
+   "name": "Ohrid",
+   "wikidata": "Q1125333",
+   "lon": 20.78701,
+   "lat": 41.07818
+  },
+  {
+   "code": "MK-60",
+   "name": "Pehčevo",
+   "wikidata": "Q426114",
+   "lon": 22.85318,
+   "lat": 41.77302
+  },
+  {
+   "code": "MK-61",
+   "name": "Plasnica",
+   "wikidata": "Q2018921",
+   "lon": 21.11566,
+   "lat": 41.44281
+  },
+  {
+   "code": "MK-62",
+   "name": "Prilep",
+   "wikidata": "Q6312454",
+   "lon": 21.62133,
+   "lat": 41.26855
+  },
+  {
+   "code": "MK-63",
+   "name": "Probištip",
+   "wikidata": "Q2270414",
+   "lon": 22.14225,
+   "lat": 41.94719
+  },
+  {
+   "code": "MK-64",
+   "name": "Radoviš",
+   "wikidata": "Q2738284",
+   "lon": 22.46495,
+   "lat": 41.63871
+  },
+  {
+   "code": "MK-65",
+   "name": "Rankovce",
+   "wikidata": "Q1475001",
+   "lon": 22.11095,
+   "lat": 42.20725
+  },
+  {
+   "code": "MK-66",
+   "name": "Resen",
+   "wikidata": "Q740591",
+   "lon": 20.99149,
+   "lat": 41.02956
+  },
+  {
+   "code": "MK-67",
+   "name": "Rosoman",
+   "wikidata": "Q2088585",
+   "lon": 21.89962,
+   "lat": 41.49288
+  },
+  {
+   "code": "MK-68",
+   "name": "Saraj",
+   "wikidata": "Q1309481",
+   "lon": 21.23316,
+   "lat": 41.99191
+  },
+  {
+   "code": "MK-69",
+   "name": "Sveti Nikole",
+   "wikidata": "Q2308277",
+   "lon": 21.9587,
+   "lat": 41.86168
+  },
+  {
+   "code": "MK-70",
+   "name": "Sopište",
+   "wikidata": "Q2282240",
+   "lon": 21.29851,
+   "lat": 41.8402
+  },
+  {
+   "code": "MK-71",
+   "name": "Staro Nagoričane",
+   "wikidata": "Q2128903",
+   "lon": 21.89926,
+   "lat": 42.21587
+  },
+  {
+   "code": "MK-72",
+   "name": "Struga",
+   "wikidata": "Q749618",
+   "lon": 20.67352,
+   "lat": 41.25151
+  },
+  {
+   "code": "MK-73",
+   "name": "Strumitsa",
+   "wikidata": "Q2308287",
+   "lon": 22.63233,
+   "lat": 41.4018
+  },
+  {
+   "code": "MK-74",
+   "name": "Studeničani",
+   "wikidata": "Q2088034",
+   "lon": 21.40028,
+   "lat": 41.79657
+  },
+  {
+   "code": "MK-75",
+   "name": "Tearce",
+   "wikidata": "Q2282274",
+   "lon": 21.04569,
+   "lat": 42.08861
+  },
+  {
+   "code": "MK-76",
+   "name": "Tetovo",
+   "wikidata": "Q3245456",
+   "lon": 20.87973,
+   "lat": 42.0274
+  },
+  {
+   "code": "MK-77",
+   "name": "Centar",
+   "wikidata": "Q1463152",
+   "lon": 21.42136,
+   "lat": 41.97009
+  },
+  {
+   "code": "MK-78",
+   "name": "Centar župa",
+   "wikidata": "Q1779085",
+   "lon": 20.57092,
+   "lat": 41.46163
+  },
+  {
+   "code": "MK-79",
+   "name": "Čair",
+   "wikidata": "Q1419314",
+   "lon": 21.43664,
+   "lat": 41.99369
+  },
+  {
+   "code": "MK-80",
+   "name": "Čaška",
+   "wikidata": "Q1994547",
+   "lon": 21.59318,
+   "lat": 41.58475
+  },
+  {
+   "code": "MK-81",
+   "name": "Češinovo-Obleševo",
+   "wikidata": "Q281898",
+   "lon": 22.26818,
+   "lat": 41.86805
+  },
+  {
+   "code": "MK-82",
+   "name": "Čučer Sandevo",
+   "wikidata": "Q629720",
+   "lon": 21.37943,
+   "lat": 42.13211
+  },
+  {
+   "code": "MK-83",
+   "name": "Štip",
+   "wikidata": "Q2423082",
+   "lon": 22.16937,
+   "lat": 41.70659
+  },
+  {
+   "code": "MK-84",
+   "name": "Šuto Orizari",
+   "wikidata": "Q1020859",
+   "lon": 21.40535,
+   "lat": 42.03016
+  },
+  {
+   "code": "MK-85",
+   "name": "Skopje",
+   "wikidata": null,
+   "lon": 21.68793,
+   "lat": 41.89337
+  }
+ ],
+ "edges": [
+  {
+   "u": "MK-01",
+   "v": "MK-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11202,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-01",
+   "v": "MK-39",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10730,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Aerodrom_Municipality,_Skopje"
+    }
+   ]
+  },
+  {
+   "u": "MK-01",
+   "v": "MK-74",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1836,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Aerodrom_Municipality,_Skopje"
+    }
+   ]
+  },
+  {
+   "u": "MK-01",
+   "v": "MK-77",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1440
+  },
+  {
+   "u": "MK-01",
+   "v": "MK-79",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 545
+  },
+  {
+   "u": "MK-02",
+   "v": "MK-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9914,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-02",
+   "v": "MK-34",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10354,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-02",
+   "v": "MK-47",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3880,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-02",
+   "v": "MK-48",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8893,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-03",
+   "v": "MK-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13491,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-03",
+   "v": "MK-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17699,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-03",
+   "v": "MK-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11776,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-03",
+   "v": "MK-23",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7604,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-03",
+   "v": "MK-56",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7227,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-03",
+   "v": "MK-60",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27241,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-03",
+   "v": "MK-64",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11736,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-04",
+   "v": "MK-25",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20192
+  },
+  {
+   "u": "MK-04",
+   "v": "MK-46",
+   "rule": "ne_short",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2447
+  },
+  {
+   "u": "MK-04",
+   "v": "MK-53",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22377
+  },
+  {
+   "u": "MK-04",
+   "v": "MK-55",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23722
+  },
+  {
+   "u": "MK-04",
+   "v": "MK-66",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 41321
+  },
+  {
+   "u": "MK-05",
+   "v": "MK-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8971
+  },
+  {
+   "u": "MK-05",
+   "v": "MK-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14390
+  },
+  {
+   "u": "MK-05",
+   "v": "MK-26",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13480
+  },
+  {
+   "u": "MK-06",
+   "v": "MK-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13016
+  },
+  {
+   "u": "MK-06",
+   "v": "MK-16",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17717
+  },
+  {
+   "u": "MK-06",
+   "v": "MK-76",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20196
+  },
+  {
+   "u": "MK-07",
+   "v": "MK-11",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13104
+  },
+  {
+   "u": "MK-07",
+   "v": "MK-56",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15782
+  },
+  {
+   "u": "MK-07",
+   "v": "MK-73",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17246
+  },
+  {
+   "u": "MK-08",
+   "v": "MK-16",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2995
+  },
+  {
+   "u": "MK-08",
+   "v": "MK-19",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14519
+  },
+  {
+   "u": "MK-08",
+   "v": "MK-30",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26721,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-08",
+   "v": "MK-52",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11772,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-08",
+   "v": "MK-76",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6538
+  },
+  {
+   "u": "MK-09",
+   "v": "MK-17",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14286,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-09",
+   "v": "MK-38",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5162,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-09",
+   "v": "MK-48",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5213
+  },
+  {
+   "u": "MK-09",
+   "v": "MK-79",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2067
+  },
+  {
+   "u": "MK-09",
+   "v": "MK-82",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16604
+  },
+  {
+   "u": "MK-09",
+   "v": "MK-84",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7114,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Butel_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-10",
+   "v": "MK-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26345
+  },
+  {
+   "u": "MK-10",
+   "v": "MK-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5487
+  },
+  {
+   "u": "MK-10",
+   "v": "MK-26",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18077
+  },
+  {
+   "u": "MK-10",
+   "v": "MK-41",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10840
+  },
+  {
+   "u": "MK-10",
+   "v": "MK-73",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41821
+  },
+  {
+   "u": "MK-11",
+   "v": "MK-41",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4670,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Konče_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-11",
+   "v": "MK-64",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29268
+  },
+  {
+   "u": "MK-11",
+   "v": "MK-73",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17301
+  },
+  {
+   "u": "MK-12",
+   "v": "MK-72",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22067
+  },
+  {
+   "u": "MK-13",
+   "v": "MK-20",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15698
+  },
+  {
+   "u": "MK-13",
+   "v": "MK-32",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12462
+  },
+  {
+   "u": "MK-13",
+   "v": "MK-49",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17391
+  },
+  {
+   "u": "MK-13",
+   "v": "MK-69",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9648
+  },
+  {
+   "u": "MK-13",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28874
+  },
+  {
+   "u": "MK-13",
+   "v": "MK-85",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27488
+  },
+  {
+   "u": "MK-14",
+   "v": "MK-23",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26448
+  },
+  {
+   "u": "MK-14",
+   "v": "MK-33",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9189,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Vinica_Municipality,_North_Macedonia"
+    }
+   ]
+  },
+  {
+   "u": "MK-14",
+   "v": "MK-37",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2127
+  },
+  {
+   "u": "MK-14",
+   "v": "MK-42",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15633
+  },
+  {
+   "u": "MK-14",
+   "v": "MK-51",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10788
+  },
+  {
+   "u": "MK-14",
+   "v": "MK-64",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18104
+  },
+  {
+   "u": "MK-15",
+   "v": "MK-28",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15061
+  },
+  {
+   "u": "MK-15",
+   "v": "MK-40",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4737
+  },
+  {
+   "u": "MK-15",
+   "v": "MK-52",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17335
+  },
+  {
+   "u": "MK-15",
+   "v": "MK-57",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12490
+  },
+  {
+   "u": "MK-15",
+   "v": "MK-61",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9591
+  },
+  {
+   "u": "MK-16",
+   "v": "MK-19",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26388
+  },
+  {
+   "u": "MK-17",
+   "v": "MK-34",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9817,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-17",
+   "v": "MK-48",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4289,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-17",
+   "v": "MK-74",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2628,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-17",
+   "v": "MK-79",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1598,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-17",
+   "v": "MK-85",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1395
+  },
+  {
+   "u": "MK-18",
+   "v": "MK-24",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12703
+  },
+  {
+   "u": "MK-18",
+   "v": "MK-36",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23626
+  },
+  {
+   "u": "MK-19",
+   "v": "MK-31",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8965
+  },
+  {
+   "u": "MK-19",
+   "v": "MK-50",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42080
+  },
+  {
+   "u": "MK-19",
+   "v": "MK-52",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18135,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-19",
+   "v": "MK-57",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6672
+  },
+  {
+   "u": "MK-20",
+   "v": "MK-49",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16291
+  },
+  {
+   "u": "MK-20",
+   "v": "MK-54",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25585
+  },
+  {
+   "u": "MK-20",
+   "v": "MK-67",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21539
+  },
+  {
+   "u": "MK-20",
+   "v": "MK-80",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15793
+  },
+  {
+   "u": "MK-20",
+   "v": "MK-83",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4513
+  },
+  {
+   "u": "MK-21",
+   "v": "MK-28",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8257
+  },
+  {
+   "u": "MK-21",
+   "v": "MK-50",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21491
+  },
+  {
+   "u": "MK-21",
+   "v": "MK-72",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 824
+  },
+  {
+   "u": "MK-21",
+   "v": "MK-78",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27082
+  },
+  {
+   "u": "MK-22",
+   "v": "MK-25",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13768
+  },
+  {
+   "u": "MK-22",
+   "v": "MK-28",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30189
+  },
+  {
+   "u": "MK-22",
+   "v": "MK-58",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 43620
+  },
+  {
+   "u": "MK-22",
+   "v": "MK-72",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43348
+  },
+  {
+   "u": "MK-23",
+   "v": "MK-51",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11831
+  },
+  {
+   "u": "MK-23",
+   "v": "MK-60",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14741,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-24",
+   "v": "MK-36",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21046
+  },
+  {
+   "u": "MK-24",
+   "v": "MK-41",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9394
+  },
+  {
+   "u": "MK-24",
+   "v": "MK-54",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32422
+  },
+  {
+   "u": "MK-25",
+   "v": "MK-28",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18243
+  },
+  {
+   "u": "MK-25",
+   "v": "MK-46",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28205
+  },
+  {
+   "u": "MK-25",
+   "v": "MK-58",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1614
+  },
+  {
+   "u": "MK-25",
+   "v": "MK-66",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12220
+  },
+  {
+   "u": "MK-27",
+   "v": "MK-45",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11942
+  },
+  {
+   "u": "MK-27",
+   "v": "MK-46",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16791
+  },
+  {
+   "u": "MK-27",
+   "v": "MK-52",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20963,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-27",
+   "v": "MK-62",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21029
+  },
+  {
+   "u": "MK-27",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29487
+  },
+  {
+   "u": "MK-28",
+   "v": "MK-31",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13751
+  },
+  {
+   "u": "MK-28",
+   "v": "MK-40",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9305
+  },
+  {
+   "u": "MK-28",
+   "v": "MK-46",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2412
+  },
+  {
+   "u": "MK-28",
+   "v": "MK-50",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20499
+  },
+  {
+   "u": "MK-28",
+   "v": "MK-61",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6667
+  },
+  {
+   "u": "MK-28",
+   "v": "MK-72",
+   "rule": "review",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 334
+  },
+  {
+   "u": "MK-29",
+   "v": "MK-38",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4914,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-29",
+   "v": "MK-68",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19231
+  },
+  {
+   "u": "MK-29",
+   "v": "MK-82",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9582
+  },
+  {
+   "u": "MK-30",
+   "v": "MK-35",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11976,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-30",
+   "v": "MK-52",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4885,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-30",
+   "v": "MK-68",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16732,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-30",
+   "v": "MK-70",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7773,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-30",
+   "v": "MK-76",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9773,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-31",
+   "v": "MK-40",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7467
+  },
+  {
+   "u": "MK-31",
+   "v": "MK-50",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14418
+  },
+  {
+   "u": "MK-31",
+   "v": "MK-57",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8794
+  },
+  {
+   "u": "MK-32",
+   "v": "MK-74",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25757,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-32",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7534
+  },
+  {
+   "u": "MK-32",
+   "v": "MK-85",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11867
+  },
+  {
+   "u": "MK-33",
+   "v": "MK-37",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4637,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zrnovci_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-33",
+   "v": "MK-42",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8469
+  },
+  {
+   "u": "MK-33",
+   "v": "MK-81",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6998,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zrnovci_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-34",
+   "v": "MK-47",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8987,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-34",
+   "v": "MK-85",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15015
+  },
+  {
+   "u": "MK-35",
+   "v": "MK-68",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23631,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-35",
+   "v": "MK-75",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24437,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-35",
+   "v": "MK-76",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 727,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-36",
+   "v": "MK-54",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23134
+  },
+  {
+   "u": "MK-36",
+   "v": "MK-62",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50518
+  },
+  {
+   "u": "MK-36",
+   "v": "MK-67",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23221
+  },
+  {
+   "u": "MK-36",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4743
+  },
+  {
+   "u": "MK-37",
+   "v": "MK-63",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8347
+  },
+  {
+   "u": "MK-37",
+   "v": "MK-64",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8029
+  },
+  {
+   "u": "MK-37",
+   "v": "MK-81",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16540
+  },
+  {
+   "u": "MK-37",
+   "v": "MK-83",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34923
+  },
+  {
+   "u": "MK-38",
+   "v": "MK-39",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1084,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-38",
+   "v": "MK-68",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4077,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-38",
+   "v": "MK-70",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5906,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-38",
+   "v": "MK-77",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4928,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-38",
+   "v": "MK-79",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1799,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-38",
+   "v": "MK-82",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2097,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-39",
+   "v": "MK-70",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3332,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-39",
+   "v": "MK-74",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12463
+  },
+  {
+   "u": "MK-39",
+   "v": "MK-77",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2014,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kisela_Voda_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-40",
+   "v": "MK-57",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7814
+  },
+  {
+   "u": "MK-41",
+   "v": "MK-54",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7062
+  },
+  {
+   "u": "MK-41",
+   "v": "MK-64",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21860
+  },
+  {
+   "u": "MK-41",
+   "v": "MK-73",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6776
+  },
+  {
+   "u": "MK-41",
+   "v": "MK-83",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8347
+  },
+  {
+   "u": "MK-42",
+   "v": "MK-43",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7950
+  },
+  {
+   "u": "MK-42",
+   "v": "MK-44",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6338
+  },
+  {
+   "u": "MK-42",
+   "v": "MK-51",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23095,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kočani_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-42",
+   "v": "MK-63",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11503
+  },
+  {
+   "u": "MK-42",
+   "v": "MK-81",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17203
+  },
+  {
+   "u": "MK-43",
+   "v": "MK-44",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13761
+  },
+  {
+   "u": "MK-43",
+   "v": "MK-47",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14514
+  },
+  {
+   "u": "MK-43",
+   "v": "MK-63",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35357
+  },
+  {
+   "u": "MK-43",
+   "v": "MK-65",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21279
+  },
+  {
+   "u": "MK-43",
+   "v": "MK-69",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3328,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sveti_Nikole_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-43",
+   "v": "MK-71",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12126
+  },
+  {
+   "u": "MK-44",
+   "v": "MK-51",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9464
+  },
+  {
+   "u": "MK-44",
+   "v": "MK-65",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24635
+  },
+  {
+   "u": "MK-45",
+   "v": "MK-46",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14149
+  },
+  {
+   "u": "MK-45",
+   "v": "MK-53",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3280
+  },
+  {
+   "u": "MK-45",
+   "v": "MK-62",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17022
+  },
+  {
+   "u": "MK-46",
+   "v": "MK-52",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8539,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-46",
+   "v": "MK-53",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7359
+  },
+  {
+   "u": "MK-46",
+   "v": "MK-61",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5911
+  },
+  {
+   "u": "MK-47",
+   "v": "MK-48",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25012,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-47",
+   "v": "MK-69",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20458
+  },
+  {
+   "u": "MK-47",
+   "v": "MK-71",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40563
+  },
+  {
+   "u": "MK-47",
+   "v": "MK-85",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12880
+  },
+  {
+   "u": "MK-48",
+   "v": "MK-82",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13319,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-49",
+   "v": "MK-69",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18451
+  },
+  {
+   "u": "MK-49",
+   "v": "MK-83",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15791
+  },
+  {
+   "u": "MK-52",
+   "v": "MK-57",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10372
+  },
+  {
+   "u": "MK-52",
+   "v": "MK-61",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14150,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-52",
+   "v": "MK-70",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14741,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-52",
+   "v": "MK-74",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10031,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-52",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8610,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-53",
+   "v": "MK-55",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19377
+  },
+  {
+   "u": "MK-53",
+   "v": "MK-62",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24901
+  },
+  {
+   "u": "MK-54",
+   "v": "MK-67",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5508
+  },
+  {
+   "u": "MK-54",
+   "v": "MK-83",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30468
+  },
+  {
+   "u": "MK-55",
+   "v": "MK-62",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29700
+  },
+  {
+   "u": "MK-56",
+   "v": "MK-73",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7009
+  },
+  {
+   "u": "MK-58",
+   "v": "MK-66",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 41220
+  },
+  {
+   "u": "MK-62",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20280
+  },
+  {
+   "u": "MK-63",
+   "v": "MK-69",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18720
+  },
+  {
+   "u": "MK-63",
+   "v": "MK-81",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15199
+  },
+  {
+   "u": "MK-63",
+   "v": "MK-83",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4574,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Probištip_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-64",
+   "v": "MK-83",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21306
+  },
+  {
+   "u": "MK-65",
+   "v": "MK-71",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19278
+  },
+  {
+   "u": "MK-67",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3530
+  },
+  {
+   "u": "MK-68",
+   "v": "MK-70",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14932,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-69",
+   "v": "MK-83",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24226
+  },
+  {
+   "u": "MK-69",
+   "v": "MK-85",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3504
+  },
+  {
+   "u": "MK-70",
+   "v": "MK-74",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 36695,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-72",
+   "v": "MK-78",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12748
+  },
+  {
+   "u": "MK-74",
+   "v": "MK-80",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12575,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MK-74",
+   "v": "MK-85",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3167,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Studeničani_Municipality"
+    }
+   ]
+  },
+  {
+   "u": "MK-75",
+   "v": "MK-76",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17329
+  },
+  {
+   "u": "MK-77",
+   "v": "MK-79",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1240,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Centar_Municipality,_Skopje"
+    }
+   ]
+  },
+  {
+   "u": "MK-82",
+   "v": "MK-84",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6238
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MKD-ADM2-65306769",
+  "level": "ADM2",
+  "year": "2016",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

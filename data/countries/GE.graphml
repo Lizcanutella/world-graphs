@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GE-AB"><data key="name">Abkhazia</data><data key="code">GE-AB</data><data key="wikidata">Q23334</data><data key="lon">41.44463</data><data key="lat">42.99523</data></node>
+    <node id="GE-AJ"><data key="name">Ajaria</data><data key="code">GE-AJ</data><data key="wikidata">Q45693</data><data key="lon">42.09288</data><data key="lat">41.66821</data></node>
+    <node id="GE-GU"><data key="name">Guria</data><data key="code">GE-GU</data><data key="wikidata">Q19038</data><data key="lon">42.11086</data><data key="lat">41.97638</data></node>
+    <node id="GE-IM"><data key="name">Imereti</data><data key="code">GE-IM</data><data key="wikidata">Q200045</data><data key="lon">42.94387</data><data key="lat">42.16305</data></node>
+    <node id="GE-KA"><data key="name">Kakheti</data><data key="code">GE-KA</data><data key="wikidata">Q169674</data><data key="lon">45.73442</data><data key="lat">41.79687</data></node>
+    <node id="GE-KK"><data key="name">Kvemo Kartli</data><data key="code">GE-KK</data><data key="wikidata">Q200048</data><data key="lon">44.58834</data><data key="lat">41.50614</data></node>
+    <node id="GE-MM"><data key="name">Mtskheta-Mtianeti</data><data key="code">GE-MM</data><data key="wikidata">Q203339</data><data key="lon">44.73334</data><data key="lat">42.23092</data></node>
+    <node id="GE-RL"><data key="name">Racha-Lechkhumi-Kvemo Svaneti</data><data key="code">GE-RL</data><data key="wikidata">Q38893</data><data key="lon">43.13442</data><data key="lat">42.64527</data></node>
+    <node id="GE-SJ"><data key="name">Samtskhe-Javakheti</data><data key="code">GE-SJ</data><data key="wikidata">Q19039</data><data key="lon">43.31697</data><data key="lat">41.50888</data></node>
+    <node id="GE-SK"><data key="name">Shida Kartli</data><data key="code">GE-SK</data><data key="wikidata">Q200047</data><data key="lon">43.94979</data><data key="lat">42.17478</data></node>
+    <node id="GE-SZ"><data key="name">Samegrelo-Zemo Svaneti</data><data key="code">GE-SZ</data><data key="wikidata">Q200309</data><data key="lon">42.24498</data><data key="lat">42.64561</data></node>
+    <node id="GE-TB"><data key="name">Tbilisi</data><data key="code">GE-TB</data><data key="wikidata">Q994</data><data key="lon">44.78396</data><data key="lat">41.71194</data></node>
+    <edge source="GE-AB" target="GE-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-AJ" target="GE-GU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-AJ" target="GE-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-GU" target="GE-IM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-GU" target="GE-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-GU" target="GE-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-IM" target="GE-RL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-IM" target="GE-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-IM" target="GE-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-IM" target="GE-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-KA" target="GE-KK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-KA" target="GE-MM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-KK" target="GE-MM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-KK" target="GE-SJ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-KK" target="GE-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-KK" target="GE-TB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-MM" target="GE-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-MM" target="GE-TB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-RL" target="GE-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-RL" target="GE-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GE-SJ" target="GE-SK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

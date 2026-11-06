@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BT-11"><data key="name">Paro</data><data key="code">BT-11</data><data key="wikidata">Q652784</data><data key="lon">89.36255</data><data key="lat">27.46683</data></node>
+    <node id="BT-12"><data key="name">Chhukha</data><data key="code">BT-12</data><data key="wikidata">Q652754</data><data key="lon">89.54843</data><data key="lat">27.01041</data></node>
+    <node id="BT-13"><data key="name">Ha</data><data key="code">BT-13</data><data key="wikidata">Q754448</data><data key="lon">89.16889</data><data key="lat">27.34275</data></node>
+    <node id="BT-14"><data key="name">Samchi</data><data key="code">BT-14</data><data key="wikidata">Q728917</data><data key="lon">89.08095</data><data key="lat">27.04609</data></node>
+    <node id="BT-15"><data key="name">Thimphu</data><data key="code">BT-15</data><data key="wikidata">Q254889</data><data key="lon">89.5724</data><data key="lat">27.56267</data></node>
+    <node id="BT-21"><data key="name">Chirang</data><data key="code">BT-21</data><data key="wikidata">Q728922</data><data key="lon">90.14764</data><data key="lat">26.99375</data></node>
+    <node id="BT-22"><data key="name">Daga</data><data key="code">BT-22</data><data key="wikidata">Q735146</data><data key="lon">89.87334</data><data key="lat">27.03738</data></node>
+    <node id="BT-23"><data key="name">Punakha</data><data key="code">BT-23</data><data key="wikidata">Q587062</data><data key="lon">89.79577</data><data key="lat">27.68799</data></node>
+    <node id="BT-24"><data key="name">Wangdi Phodrang</data><data key="code">BT-24</data><data key="wikidata">Q728933</data><data key="lon">90.13275</data><data key="lat">27.58414</data></node>
+    <node id="BT-31"><data key="name">Geylegphug</data><data key="code">BT-31</data><data key="wikidata">Q728947</data><data key="lon">90.44235</data><data key="lat">26.95073</data></node>
+    <node id="BT-32"><data key="name">Tongsa</data><data key="code">BT-32</data><data key="wikidata">Q728938</data><data key="lon">90.40405</data><data key="lat">27.45907</data></node>
+    <node id="BT-33"><data key="name">Bumthang</data><data key="code">BT-33</data><data key="wikidata">Q463242</data><data key="lon">90.72696</data><data key="lat">27.69937</data></node>
+    <node id="BT-34"><data key="name">Shemgang</data><data key="code">BT-34</data><data key="wikidata">Q197564</data><data key="lon">90.78859</data><data key="lat">27.0768</data></node>
+    <node id="BT-41"><data key="name">Tashigang</data><data key="code">BT-41</data><data key="wikidata">Q652773</data><data key="lon">91.65255</data><data key="lat">27.24079</data></node>
+    <node id="BT-42"><data key="name">Mongar</data><data key="code">BT-42</data><data key="wikidata">Q389734</data><data key="lon">91.19437</data><data key="lat">27.25587</data></node>
+    <node id="BT-43"><data key="name">Pemagatsel</data><data key="code">BT-43</data><data key="wikidata">Q167279</data><data key="lon">91.33253</data><data key="lat">27.0026</data></node>
+    <node id="BT-44"><data key="name">Lhuntshi</data><data key="code">BT-44</data><data key="wikidata">Q598793</data><data key="lon">91.09172</data><data key="lat">27.73736</data></node>
+    <node id="BT-45"><data key="name">Samdrup Jongkhar</data><data key="code">BT-45</data><data key="wikidata">Q728929</data><data key="lon">91.75894</data><data key="lat">27.00843</data></node>
+    <node id="BT-GA"><data key="name">Gasa</data><data key="code">BT-GA</data><data key="wikidata">Q578294</data><data key="lon">89.93022</data><data key="lat">28.04207</data></node>
+    <node id="BT-TY"><data key="name">Tashi Yangtse</data><data key="code">BT-TY</data><data key="wikidata">Q600200</data><data key="lon">91.4558</data><data key="lat">27.69122</data></node>
+    <edge source="BT-11" target="BT-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-11" target="BT-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-11" target="BT-15"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-12" target="BT-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-12" target="BT-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-12" target="BT-15"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-12" target="BT-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-12" target="BT-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-13" target="BT-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-15" target="BT-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-15" target="BT-23"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-15" target="BT-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-15" target="BT-GA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-21" target="BT-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-21" target="BT-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-21" target="BT-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-22" target="BT-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-22" target="BT-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-23" target="BT-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-23" target="BT-GA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BT-24" target="BT-32"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-24" target="BT-33"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-24" target="BT-GA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-31" target="BT-32"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-31" target="BT-34"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-32" target="BT-33"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-32" target="BT-34"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-33" target="BT-34"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-33" target="BT-42"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-33" target="BT-44"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-34" target="BT-42"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-34" target="BT-43"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="BT-34" target="BT-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-41" target="BT-42"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-41" target="BT-43"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-41" target="BT-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-41" target="BT-TY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-42" target="BT-43"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-42" target="BT-44"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-42" target="BT-TY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-43" target="BT-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BT-44" target="BT-TY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

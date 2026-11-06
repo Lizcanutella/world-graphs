@@ -1,0 +1,412 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SR",
+ "kind": "country",
+ "name": "Suriname",
+ "level": "districts",
+ "n": 10,
+ "m": 18,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SR-BR",
+   "name": "Brokopondo",
+   "wikidata": "Q847680",
+   "lon": -55.31676,
+   "lat": 4.66696
+  },
+  {
+   "code": "SR-CM",
+   "name": "Commewijne",
+   "wikidata": "Q952510",
+   "lon": -54.93885,
+   "lat": 5.76298
+  },
+  {
+   "code": "SR-CR",
+   "name": "Coronie",
+   "wikidata": "Q1130141",
+   "lon": -56.26375,
+   "lat": 5.63498
+  },
+  {
+   "code": "SR-MA",
+   "name": "Marowijne",
+   "wikidata": "Q1140897",
+   "lon": -54.34311,
+   "lat": 5.57733
+  },
+  {
+   "code": "SR-NI",
+   "name": "Nickerie",
+   "wikidata": "Q1147515",
+   "lon": -56.84949,
+   "lat": 5.62958
+  },
+  {
+   "code": "SR-PM",
+   "name": "Paramaribo",
+   "wikidata": "Q1130134",
+   "lon": -55.17034,
+   "lat": 5.84195
+  },
+  {
+   "code": "SR-PR",
+   "name": "Para",
+   "wikidata": "Q1140891",
+   "lon": -55.33222,
+   "lat": 5.34365
+  },
+  {
+   "code": "SR-SA",
+   "name": "Saramacca",
+   "wikidata": "Q1351157",
+   "lon": -55.62051,
+   "lat": 5.70026
+  },
+  {
+   "code": "SR-SI",
+   "name": "Sipaliwini",
+   "wikidata": "Q1130138",
+   "lon": -55.96122,
+   "lat": 3.69155
+  },
+  {
+   "code": "SR-WA",
+   "name": "Wanica",
+   "wikidata": "Q1147524",
+   "lon": -55.2556,
+   "lat": 5.78582
+  }
+ ],
+ "edges": [
+  {
+   "u": "SR-BR",
+   "v": "SR-PR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 118464
+  },
+  {
+   "u": "SR-BR",
+   "v": "SR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 277121
+  },
+  {
+   "u": "SR-CM",
+   "v": "SR-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50448
+  },
+  {
+   "u": "SR-CM",
+   "v": "SR-PM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8067
+  },
+  {
+   "u": "SR-CM",
+   "v": "SR-PR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69323
+  },
+  {
+   "u": "SR-CM",
+   "v": "SR-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18715
+  },
+  {
+   "u": "SR-CR",
+   "v": "SR-NI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 96721
+  },
+  {
+   "u": "SR-CR",
+   "v": "SR-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23055
+  },
+  {
+   "u": "SR-CR",
+   "v": "SR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75539
+  },
+  {
+   "u": "SR-MA",
+   "v": "SR-PR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22237
+  },
+  {
+   "u": "SR-MA",
+   "v": "SR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41600
+  },
+  {
+   "u": "SR-NI",
+   "v": "SR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83646
+  },
+  {
+   "u": "SR-PM",
+   "v": "SR-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20279
+  },
+  {
+   "u": "SR-PR",
+   "v": "SR-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 105465
+  },
+  {
+   "u": "SR-PR",
+   "v": "SR-SI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 168129
+  },
+  {
+   "u": "SR-PR",
+   "v": "SR-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35203
+  },
+  {
+   "u": "SR-SA",
+   "v": "SR-SI",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "SR-SA",
+   "v": "SR-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30533
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "SUR-ADM1-93550828",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="IQ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="IQ-AN"><data key="name">Al-Anbar</data><data key="code">IQ-AN</data><data key="wikidata">Q187334</data><data key="lon">41.18162</data><data key="lat">32.85763</data></node>
+    <node id="IQ-AR"><data key="name">Arbil</data><data key="code">IQ-AR</data><data key="wikidata">Q213189</data><data key="lon">44.16363</data><data key="lat">36.37087</data></node>
+    <node id="IQ-BA"><data key="name">Al-Basrah</data><data key="code">IQ-BA</data><data key="wikidata">Q193551</data><data key="lon">47.56256</data><data key="lat">30.19694</data></node>
+    <node id="IQ-BB"><data key="name">Babil</data><data key="code">IQ-BB</data><data key="wikidata">Q59202</data><data key="lon">44.60952</data><data key="lat">32.64974</data></node>
+    <node id="IQ-BG"><data key="name">Baghdad</data><data key="code">IQ-BG</data><data key="wikidata">Q191075</data><data key="lon">44.38336</data><data key="lat">33.30622</data></node>
+    <node id="IQ-DA"><data key="name">Dihok</data><data key="code">IQ-DA</data><data key="wikidata">Q189541</data><data key="lon">43.01572</data><data key="lat">37.03268</data></node>
+    <node id="IQ-DI"><data key="name">Diyala</data><data key="code">IQ-DI</data><data key="wikidata">Q217075</data><data key="lon">44.87759</data><data key="lat">34.05408</data></node>
+    <node id="IQ-DQ"><data key="name">Dhi-Qar</data><data key="code">IQ-DQ</data><data key="wikidata">Q215649</data><data key="lon">46.25486</data><data key="lat">31.25924</data></node>
+    <node id="IQ-KA"><data key="name">Karbala'</data><data key="code">IQ-KA</data><data key="wikidata">Q214104</data><data key="lon">43.775</data><data key="lat">32.48588</data></node>
+    <node id="IQ-MA"><data key="name">Maysan</data><data key="code">IQ-MA</data><data key="wikidata">Q213170</data><data key="lon">47.01709</data><data key="lat">31.97483</data></node>
+    <node id="IQ-MU"><data key="name">Al-Muthannia</data><data key="code">IQ-MU</data><data key="wikidata">Q212761</data><data key="lon">45.37587</data><data key="lat">30.40605</data></node>
+    <node id="IQ-NA"><data key="name">An-Najaf</data><data key="code">IQ-NA</data><data key="wikidata">Q192882</data><data key="lon">43.85188</data><data key="lat">31.07228</data></node>
+    <node id="IQ-NI"><data key="name">Ninawa</data><data key="code">IQ-NI</data><data key="wikidata">Q189352</data><data key="lon">42.33474</data><data key="lat">36.02107</data></node>
+    <node id="IQ-QA"><data key="name">Al-Qādisiyyah</data><data key="code">IQ-QA</data><data key="wikidata">Q62987</data><data key="lon">45.12852</data><data key="lat">31.84967</data></node>
+    <node id="IQ-SD"><data key="name">Sala ad-Din</data><data key="code">IQ-SD</data><data key="wikidata">Q190131</data><data key="lon">43.62534</data><data key="lat">34.57797</data></node>
+    <node id="IQ-SU"><data key="name">As-Sulaymaniyah</data><data key="code">IQ-SU</data><data key="wikidata">Q213182</data><data key="lon">45.36421</data><data key="lat">35.5149</data></node>
+    <node id="IQ-TS"><data key="name">At-Ta'mim</data><data key="code">IQ-TS</data><data key="wikidata">Q193268</data><data key="lon">44.05543</data><data key="lat">35.29971</data></node>
+    <node id="IQ-WA"><data key="name">Wasit</data><data key="code">IQ-WA</data><data key="wikidata">Q189747</data><data key="lon">45.73542</data><data key="lat">32.7201</data></node>
+    <edge source="IQ-AN" target="IQ-BB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AN" target="IQ-BG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AN" target="IQ-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AN" target="IQ-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AN" target="IQ-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AN" target="IQ-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AR" target="IQ-DA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AR" target="IQ-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AR" target="IQ-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AR" target="IQ-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-AR" target="IQ-TS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BA" target="IQ-DQ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BA" target="IQ-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BA" target="IQ-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BB" target="IQ-BG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BB" target="IQ-DI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BB" target="IQ-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BB" target="IQ-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BB" target="IQ-QA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BB" target="IQ-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-BG" target="IQ-DI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DA" target="IQ-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DI" target="IQ-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DI" target="IQ-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DI" target="IQ-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DQ" target="IQ-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DQ" target="IQ-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DQ" target="IQ-QA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-DQ" target="IQ-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-KA" target="IQ-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-MA" target="IQ-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-MU" target="IQ-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-MU" target="IQ-QA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-NA" target="IQ-QA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-NI" target="IQ-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-QA" target="IQ-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-SD" target="IQ-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-SD" target="IQ-TS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IQ-SU" target="IQ-TS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

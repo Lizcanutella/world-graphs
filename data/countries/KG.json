@@ -1,0 +1,272 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KG",
+ "kind": "country",
+ "name": "Kyrgyzstan",
+ "level": "regions",
+ "n": 8,
+ "m": 11,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KG-B",
+   "name": "Batken",
+   "wikidata": "Q487631",
+   "lon": 71.5924,
+   "lat": 39.85299
+  },
+  {
+   "code": "KG-C",
+   "name": "Chuy",
+   "wikidata": "Q486370",
+   "lon": 74.61161,
+   "lat": 42.56273
+  },
+  {
+   "code": "KG-GB",
+   "name": "Bishkek",
+   "wikidata": "Q9361",
+   "lon": 74.58808,
+   "lat": 42.8544
+  },
+  {
+   "code": "KG-J",
+   "name": "Jalal-Abad",
+   "wikidata": "Q487640",
+   "lon": 73.2072,
+   "lat": 41.51013
+  },
+  {
+   "code": "KG-N",
+   "name": "Naryn",
+   "wikidata": "Q486375",
+   "lon": 76.02213,
+   "lat": 41.37452
+  },
+  {
+   "code": "KG-O",
+   "name": "Osh",
+   "wikidata": "Q231987",
+   "lon": 73.35174,
+   "lat": 40.16737
+  },
+  {
+   "code": "KG-T",
+   "name": "Talas",
+   "wikidata": "Q109838",
+   "lon": 72.12892,
+   "lat": 42.44437
+  },
+  {
+   "code": "KG-Y",
+   "name": "Ysyk-Köl",
+   "wikidata": "Q487413",
+   "lon": 78.13886,
+   "lat": 42.04488
+  }
+ ],
+ "edges": [
+  {
+   "u": "KG-B",
+   "v": "KG-O",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 204906
+  },
+  {
+   "u": "KG-C",
+   "v": "KG-GB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49619
+  },
+  {
+   "u": "KG-C",
+   "v": "KG-J",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70154
+  },
+  {
+   "u": "KG-C",
+   "v": "KG-N",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 239997
+  },
+  {
+   "u": "KG-C",
+   "v": "KG-T",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101425
+  },
+  {
+   "u": "KG-C",
+   "v": "KG-Y",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 157457
+  },
+  {
+   "u": "KG-J",
+   "v": "KG-N",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 303677
+  },
+  {
+   "u": "KG-J",
+   "v": "KG-O",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 152617
+  },
+  {
+   "u": "KG-J",
+   "v": "KG-T",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 177642
+  },
+  {
+   "u": "KG-N",
+   "v": "KG-O",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92081
+  },
+  {
+   "u": "KG-N",
+   "v": "KG-Y",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 415218
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "KGZ-ADM1-38789647",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SB",
+ "kind": "country",
+ "name": "Solomon Islands",
+ "level": "provinces",
+ "n": 10,
+ "m": 1,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SB-CE",
+   "name": "Central",
+   "wikidata": "Q293722",
+   "lon": 160.20184,
+   "lat": -9.06093
+  },
+  {
+   "code": "SB-CH",
+   "name": "Choiseul",
+   "wikidata": "Q399063",
+   "lon": 156.94811,
+   "lat": -7.01316
+  },
+  {
+   "code": "SB-CT",
+   "name": "Capital Territory (Honiara)",
+   "wikidata": "Q40921",
+   "lon": 159.99315,
+   "lat": -9.44249
+  },
+  {
+   "code": "SB-GU",
+   "name": "Guadalcanal",
+   "wikidata": "Q760888",
+   "lon": 160.14815,
+   "lat": -9.58872
+  },
+  {
+   "code": "SB-IS",
+   "name": "Isabel",
+   "wikidata": "Q1139082",
+   "lon": 159.21514,
+   "lat": -8.04648
+  },
+  {
+   "code": "SB-MK",
+   "name": "Makira",
+   "wikidata": "Q1116700",
+   "lon": 161.85386,
+   "lat": -10.51637
+  },
+  {
+   "code": "SB-ML",
+   "name": "Malaita",
+   "wikidata": "Q1190896",
+   "lon": 160.96492,
+   "lat": -8.95957
+  },
+  {
+   "code": "SB-RB",
+   "name": "Rennell and Bellona",
+   "wikidata": "Q1051475",
+   "lon": 160.33514,
+   "lat": -11.65435
+  },
+  {
+   "code": "SB-TE",
+   "name": "Temotu",
+   "wikidata": "Q936088",
+   "lon": 165.91269,
+   "lat": -10.75775
+  },
+  {
+   "code": "SB-WE",
+   "name": "Western",
+   "wikidata": "Q150325",
+   "lon": 157.07459,
+   "lat": -7.99021
+  }
+ ],
+ "edges": [
+  {
+   "u": "SB-CT",
+   "v": "SB-GU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17726
+  }
+ ],
+ "relabels": [
+  {
+   "ne_id": "1159314977",
+   "was": {
+    "iso_3166_2": "SB-CH",
+    "name": "Western"
+   },
+   "set": {
+    "iso_3166_2": "SB-WE",
+    "name": "Western"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  }
+ ],
+ "geoboundaries": {
+  "boundaryID": "SLB-ADM1-17018030",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Public Domain"
+ }
+}

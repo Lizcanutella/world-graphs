@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="DO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="DO-01"><data key="name">Distrito Nacional</data><data key="code">DO-01</data><data key="wikidata">Q2499228</data><data key="lon">-69.93407</data><data key="lat">18.48255</data></node>
+    <node id="DO-02"><data key="name">Azua</data><data key="code">DO-02</data><data key="wikidata">Q794239</data><data key="lon">-70.89895</data><data key="lat">18.62505</data></node>
+    <node id="DO-03"><data key="name">Bahoruco</data><data key="code">DO-03</data><data key="wikidata">Q807079</data><data key="lon">-71.32543</data><data key="lat">18.48894</data></node>
+    <node id="DO-04"><data key="name">Barahona</data><data key="code">DO-04</data><data key="wikidata">Q1137551</data><data key="lon">-71.21731</data><data key="lat">18.19966</data></node>
+    <node id="DO-05"><data key="name">Dajabón</data><data key="code">DO-05</data><data key="wikidata">Q1138575</data><data key="lon">-71.57693</data><data key="lat">19.43272</data></node>
+    <node id="DO-06"><data key="name">Duarte</data><data key="code">DO-06</data><data key="wikidata">Q1262745</data><data key="lon">-70.19006</data><data key="lat">19.28179</data></node>
+    <node id="DO-07"><data key="name">La Estrelleta</data><data key="code">DO-07</data><data key="wikidata">Q1137545</data><data key="lon">-71.73283</data><data key="lat">18.96995</data></node>
+    <node id="DO-08"><data key="name">El Seybo</data><data key="code">DO-08</data><data key="wikidata">Q1774831</data><data key="lon">-69.03052</data><data key="lat">18.78068</data></node>
+    <node id="DO-09"><data key="name">Espaillat</data><data key="code">DO-09</data><data key="wikidata">Q530231</data><data key="lon">-70.49321</data><data key="lat">19.5071</data></node>
+    <node id="DO-10"><data key="name">Independencia</data><data key="code">DO-10</data><data key="wikidata">Q1424401</data><data key="lon">-71.64186</data><data key="lat">18.41029</data></node>
+    <node id="DO-11"><data key="name">La Altagracia</data><data key="code">DO-11</data><data key="wikidata">Q1323353</data><data key="lon">-68.61047</data><data key="lat">18.58687</data></node>
+    <node id="DO-12"><data key="name">La Romana</data><data key="code">DO-12</data><data key="wikidata">Q1140742</data><data key="lon">-68.96319</data><data key="lat">18.53858</data></node>
+    <node id="DO-13"><data key="name">La Vega</data><data key="code">DO-13</data><data key="wikidata">Q594405</data><data key="lon">-70.71542</data><data key="lat">19.01792</data></node>
+    <node id="DO-14"><data key="name">María Trinidad Sánchez</data><data key="code">DO-14</data><data key="wikidata">Q1949656</data><data key="lon">-70.00437</data><data key="lat">19.43321</data></node>
+    <node id="DO-15"><data key="name">Monte Cristi</data><data key="code">DO-15</data><data key="wikidata">Q592624</data><data key="lon">-71.43556</data><data key="lat">19.71983</data></node>
+    <node id="DO-16"><data key="name">Pedernales</data><data key="code">DO-16</data><data key="wikidata">Q1352533</data><data key="lon">-71.5177</data><data key="lat">17.94211</data></node>
+    <node id="DO-17"><data key="name">Peravia</data><data key="code">DO-17</data><data key="wikidata">Q1331932</data><data key="lon">-70.3745</data><data key="lat">18.35919</data></node>
+    <node id="DO-18"><data key="name">Puerto Plata</data><data key="code">DO-18</data><data key="wikidata">Q693487</data><data key="lon">-70.73746</data><data key="lat">19.73275</data></node>
+    <node id="DO-19"><data key="name">Hermanas</data><data key="code">DO-19</data><data key="wikidata">Q549386</data><data key="lon">-70.38557</data><data key="lat">19.38839</data></node>
+    <node id="DO-20"><data key="name">Samaná</data><data key="code">DO-20</data><data key="wikidata">Q1145487</data><data key="lon">-69.65066</data><data key="lat">19.1861</data></node>
+    <node id="DO-21"><data key="name">San Cristóbal</data><data key="code">DO-21</data><data key="wikidata">Q1366107</data><data key="lon">-70.23875</data><data key="lat">18.52255</data></node>
+    <node id="DO-22"><data key="name">San Juan</data><data key="code">DO-22</data><data key="wikidata">Q2001793</data><data key="lon">-71.30024</data><data key="lat">18.89628</data></node>
+    <node id="DO-23"><data key="name">San Pedro de Macorís</data><data key="code">DO-23</data><data key="wikidata">Q1366119</data><data key="lon">-69.48799</data><data key="lat">18.60708</data></node>
+    <node id="DO-24"><data key="name">Sánchez Ramírez</data><data key="code">DO-24</data><data key="wikidata">Q1836903</data><data key="lon">-70.14808</data><data key="lat">19.01194</data></node>
+    <node id="DO-25"><data key="name">Santiago</data><data key="code">DO-25</data><data key="wikidata">Q1772983</data><data key="lon">-70.96481</data><data key="lat">19.33807</data></node>
+    <node id="DO-26"><data key="name">Santiago Rodríguez</data><data key="code">DO-26</data><data key="wikidata">Q2021942</data><data key="lon">-71.3334</data><data key="lat">19.36829</data></node>
+    <node id="DO-27"><data key="name">Valverde</data><data key="code">DO-27</data><data key="wikidata">Q1774848</data><data key="lon">-71.02627</data><data key="lat">19.59926</data></node>
+    <node id="DO-28"><data key="name">Monseñor Nouel</data><data key="code">DO-28</data><data key="wikidata">Q1295496</data><data key="lon">-70.42661</data><data key="lat">18.91003</data></node>
+    <node id="DO-29"><data key="name">Monte Plata</data><data key="code">DO-29</data><data key="wikidata">Q1772745</data><data key="lon">-69.84145</data><data key="lat">18.82945</data></node>
+    <node id="DO-30"><data key="name">Hato Mayor</data><data key="code">DO-30</data><data key="wikidata">Q937217</data><data key="lon">-69.351</data><data key="lat">18.81423</data></node>
+    <node id="DO-31"><data key="name">San José de Ocoa</data><data key="code">DO-31</data><data key="wikidata">Q1424391</data><data key="lon">-70.51429</data><data key="lat">18.5867</data></node>
+    <node id="DO-32"><data key="name">Santo Domingo</data><data key="code">DO-32</data><data key="wikidata">Q1352536</data><data key="lon">-69.86335</data><data key="lat">18.56734</data></node>
+    <edge source="DO-01" target="DO-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-02" target="DO-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-02" target="DO-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-02" target="DO-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-02" target="DO-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-02" target="DO-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-02" target="DO-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-03" target="DO-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-03" target="DO-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-03" target="DO-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-04" target="DO-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-04" target="DO-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-05" target="DO-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-05" target="DO-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-05" target="DO-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-06" target="DO-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-06" target="DO-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-06" target="DO-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-06" target="DO-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-06" target="DO-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-06" target="DO-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-06" target="DO-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-07" target="DO-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-07" target="DO-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-07" target="DO-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-08" target="DO-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-08" target="DO-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-08" target="DO-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-08" target="DO-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-09" target="DO-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-09" target="DO-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-09" target="DO-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-09" target="DO-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-09" target="DO-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-10" target="DO-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-11" target="DO-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-12" target="DO-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-13" target="DO-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-13" target="DO-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-13" target="DO-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-13" target="DO-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-13" target="DO-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-13" target="DO-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-14" target="DO-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-15" target="DO-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-15" target="DO-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-15" target="DO-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-17" target="DO-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-17" target="DO-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-18" target="DO-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-18" target="DO-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-20" target="DO-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-20" target="DO-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-21" target="DO-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-21" target="DO-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-21" target="DO-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-21" target="DO-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-22" target="DO-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-22" target="DO-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-23" target="DO-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-23" target="DO-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-23" target="DO-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-24" target="DO-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-24" target="DO-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-25" target="DO-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-25" target="DO-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-26" target="DO-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-28" target="DO-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-28" target="DO-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-29" target="DO-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DO-29" target="DO-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

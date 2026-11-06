@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MT-01"><data key="name">Attard</data><data key="code">MT-01</data><data key="wikidata">Q44557</data><data key="lon">14.43321</data><data key="lat">35.8894</data></node>
+    <node id="MT-02"><data key="name">Balzan</data><data key="code">MT-02</data><data key="wikidata">Q789794</data><data key="lon">14.45166</data><data key="lat">35.89547</data></node>
+    <node id="MT-03"><data key="name">Birgu</data><data key="code">MT-03</data><data key="wikidata">Q752346</data><data key="lon">14.52448</data><data key="lat">35.88803</data></node>
+    <node id="MT-04"><data key="name">Birkirkara</data><data key="code">MT-04</data><data key="wikidata">Q39583</data><data key="lon">14.46697</data><data key="lat">35.89331</data></node>
+    <node id="MT-05"><data key="name">Birżebbuġa</data><data key="code">MT-05</data><data key="wikidata">Q258028</data><data key="lon">14.52185</data><data key="lat">35.82017</data></node>
+    <node id="MT-06"><data key="name">Cospicua</data><data key="code">MT-06</data><data key="wikidata">Q757225</data><data key="lon">14.52168</data><data key="lat">35.88097</data></node>
+    <node id="MT-07"><data key="name">Dingli</data><data key="code">MT-07</data><data key="wikidata">Q905641</data><data key="lon">14.38441</data><data key="lat">35.85405</data></node>
+    <node id="MT-08"><data key="name">Fgura</data><data key="code">MT-08</data><data key="wikidata">Q44388</data><data key="lon">14.52004</data><data key="lat">35.86677</data></node>
+    <node id="MT-09"><data key="name">Floriana</data><data key="code">MT-09</data><data key="wikidata">Q832807</data><data key="lon">14.50334</data><data key="lat">35.88718</data></node>
+    <node id="MT-10"><data key="name">Fontana, Gozo</data><data key="code">MT-10</data><data key="wikidata">Q1002742</data><data key="lon">14.24001</data><data key="lat">36.03285</data></node>
+    <node id="MT-11"><data key="name">Gudja</data><data key="code">MT-11</data><data key="wikidata">Q1018153</data><data key="lon">14.50133</data><data key="lat">35.84414</data></node>
+    <node id="MT-12"><data key="name">Gżira</data><data key="code">MT-12</data><data key="wikidata">Q632097</data><data key="lon">14.4969</data><data key="lat">35.90118</data></node>
+    <node id="MT-13"><data key="name">Għajnsielem</data><data key="code">MT-13</data><data key="wikidata">Q761675</data><data key="lon">14.28732</data><data key="lat">36.02437</data></node>
+    <node id="MT-14"><data key="name">Għarb</data><data key="code">MT-14</data><data key="wikidata">Q1026487</data><data key="lon">14.20288</data><data key="lat">36.06113</data></node>
+    <node id="MT-15"><data key="name">Għargħur</data><data key="code">MT-15</data><data key="wikidata">Q1018111</data><data key="lon">14.45444</data><data key="lat">35.9181</data></node>
+    <node id="MT-16"><data key="name">Għasri</data><data key="code">MT-16</data><data key="wikidata">Q1017339</data><data key="lon">14.22391</data><data key="lat">36.06031</data></node>
+    <node id="MT-17"><data key="name">Għaxaq</data><data key="code">MT-17</data><data key="wikidata">Q426385</data><data key="lon">14.51542</data><data key="lat">35.84177</data></node>
+    <node id="MT-18"><data key="name">Ħamrun</data><data key="code">MT-18</data><data key="wikidata">Q343001</data><data key="lon">14.4856</data><data key="lat">35.88201</data></node>
+    <node id="MT-19"><data key="name">Iklin</data><data key="code">MT-19</data><data key="wikidata">Q304589</data><data key="lon">14.45573</data><data key="lat">35.9076</data></node>
+    <node id="MT-20"><data key="name">Isla</data><data key="code">MT-20</data><data key="wikidata">Q846593</data><data key="lon">14.51461</data><data key="lat">35.88626</data></node>
+    <node id="MT-21"><data key="name">Kalkara</data><data key="code">MT-21</data><data key="wikidata">Q533257</data><data key="lon">14.53729</data><data key="lat">35.8895</data></node>
+    <node id="MT-22"><data key="name">Kerċem</data><data key="code">MT-22</data><data key="wikidata">Q674679</data><data key="lon">14.21867</data><data key="lat">36.03664</data></node>
+    <node id="MT-23"><data key="name">Kirkop</data><data key="code">MT-23</data><data key="wikidata">Q597464</data><data key="lon">14.48381</data><data key="lat">35.84074</data></node>
+    <node id="MT-24"><data key="name">Lija</data><data key="code">MT-24</data><data key="wikidata">Q782049</data><data key="lon">14.44076</data><data key="lat">35.89798</data></node>
+    <node id="MT-25"><data key="name">Luqa</data><data key="code">MT-25</data><data key="wikidata">Q475585</data><data key="lon">14.47868</data><data key="lat">35.85035</data></node>
+    <node id="MT-26"><data key="name">Marsa</data><data key="code">MT-26</data><data key="wikidata">Q267431</data><data key="lon">14.49057</data><data key="lat">35.87402</data></node>
+    <node id="MT-27"><data key="name">Marsaskala</data><data key="code">MT-27</data><data key="wikidata">Q534571</data><data key="lon">14.55485</data><data key="lat">35.85819</data></node>
+    <node id="MT-28"><data key="name">Marsaxlokk</data><data key="code">MT-28</data><data key="wikidata">Q781921</data><data key="lon">14.54923</data><data key="lat">35.83719</data></node>
+    <node id="MT-29"><data key="name">Mdina</data><data key="code">MT-29</data><data key="wikidata">Q207277</data><data key="lon">14.40744</data><data key="lat">35.88245</data></node>
+    <node id="MT-30"><data key="name">Mellieħa</data><data key="code">MT-30</data><data key="wikidata">Q755979</data><data key="lon">14.36775</data><data key="lat">35.95903</data></node>
+    <node id="MT-31"><data key="name">Mġarr</data><data key="code">MT-31</data><data key="wikidata">Q691220</data><data key="lon">14.36705</data><data key="lat">35.91426</data></node>
+    <node id="MT-32"><data key="name">Mosta</data><data key="code">MT-32</data><data key="wikidata">Q39520</data><data key="lon">14.42044</data><data key="lat">35.91071</data></node>
+    <node id="MT-33"><data key="name">Mqabba</data><data key="code">MT-33</data><data key="wikidata">Q1017953</data><data key="lon">14.46629</data><data key="lat">35.8434</data></node>
+    <node id="MT-34"><data key="name">Msida</data><data key="code">MT-34</data><data key="wikidata">Q585187</data><data key="lon">14.48247</data><data key="lat">35.89301</data></node>
+    <node id="MT-35"><data key="name">Mtarfa</data><data key="code">MT-35</data><data key="wikidata">Q656837</data><data key="lon">14.40352</data><data key="lat">35.88585</data></node>
+    <node id="MT-36"><data key="name">Munxar</data><data key="code">MT-36</data><data key="wikidata">Q587462</data><data key="lon">14.22552</data><data key="lat">36.02484</data></node>
+    <node id="MT-37"><data key="name">Nadur</data><data key="code">MT-37</data><data key="wikidata">Q929969</data><data key="lon">14.30179</data><data key="lat">36.04878</data></node>
+    <node id="MT-38"><data key="name">Naxxar</data><data key="code">MT-38</data><data key="wikidata">Q44397</data><data key="lon">14.442</data><data key="lat">35.93201</data></node>
+    <node id="MT-39"><data key="name">Paola</data><data key="code">MT-39</data><data key="wikidata">Q846589</data><data key="lon">14.50514</data><data key="lat">35.87136</data></node>
+    <node id="MT-40"><data key="name">Pembroke</data><data key="code">MT-40</data><data key="wikidata">Q775756</data><data key="lon">14.47754</data><data key="lat">35.93304</data></node>
+    <node id="MT-41"><data key="name">Pietà</data><data key="code">MT-41</data><data key="wikidata">Q744070</data><data key="lon">14.49315</data><data key="lat">35.89026</data></node>
+    <node id="MT-42"><data key="name">Qala</data><data key="code">MT-42</data><data key="wikidata">Q1088033</data><data key="lon">14.31976</data><data key="lat">36.03651</data></node>
+    <node id="MT-43"><data key="name">Qormi</data><data key="code">MT-43</data><data key="wikidata">Q39578</data><data key="lon">14.46732</data><data key="lat">35.8752</data></node>
+    <node id="MT-44"><data key="name">Qrendi</data><data key="code">MT-44</data><data key="wikidata">Q282203</data><data key="lon">14.44739</data><data key="lat">35.82727</data></node>
+    <node id="MT-45"><data key="name">Victoria</data><data key="code">MT-45</data><data key="wikidata">Q752348</data><data key="lon">14.24451</data><data key="lat">36.04054</data></node>
+    <node id="MT-46"><data key="name">Rabat</data><data key="code">MT-46</data><data key="wikidata">Q44381</data><data key="lon">14.37098</data><data key="lat">35.88245</data></node>
+    <node id="MT-47"><data key="name">Safi</data><data key="code">MT-47</data><data key="wikidata">Q658903</data><data key="lon">14.49078</data><data key="lat">35.83216</data></node>
+    <node id="MT-48"><data key="name">San Giljan</data><data key="code">MT-48</data><data key="wikidata">Q669979</data><data key="lon">14.49226</data><data key="lat">35.91653</data></node>
+    <node id="MT-49"><data key="name">San Ġwann</data><data key="code">MT-49</data><data key="wikidata">Q39507</data><data key="lon">14.4747</data><data key="lat">35.90602</data></node>
+    <node id="MT-50"><data key="name">San Lawrenz</data><data key="code">MT-50</data><data key="wikidata">Q537308</data><data key="lon">14.19825</data><data key="lat">36.0464</data></node>
+    <node id="MT-51"><data key="name">San Pawl il-Bahar</data><data key="code">MT-51</data><data key="wikidata">Q39521</data><data key="lon">14.39713</data><data key="lat">35.93718</data></node>
+    <node id="MT-52"><data key="name">Sannat</data><data key="code">MT-52</data><data key="wikidata">Q602037</data><data key="lon">14.25057</data><data key="lat">36.02019</data></node>
+    <node id="MT-53"><data key="name">Santa Luċija</data><data key="code">MT-53</data><data key="wikidata">Q1087776</data><data key="lon">14.50232</data><data key="lat">35.85464</data></node>
+    <node id="MT-54"><data key="name">Santa Venera</data><data key="code">MT-54</data><data key="wikidata">Q585420</data><data key="lon">14.47833</data><data key="lat">35.88733</data></node>
+    <node id="MT-55"><data key="name">Siġġiewi</data><data key="code">MT-55</data><data key="wikidata">Q919908</data><data key="lon">14.42173</data><data key="lat">35.84458</data></node>
+    <node id="MT-56"><data key="name">Sliema</data><data key="code">MT-56</data><data key="wikidata">Q39526</data><data key="lon">14.50463</data><data key="lat">35.91282</data></node>
+    <node id="MT-57"><data key="name">Swieqi</data><data key="code">MT-57</data><data key="wikidata">Q220667</data><data key="lon">14.46715</data><data key="lat">35.91988</data></node>
+    <node id="MT-58"><data key="name">Ta' Xbiex</data><data key="code">MT-58</data><data key="wikidata">Q1017348</data><data key="lon">14.49456</data><data key="lat">35.89384</data></node>
+    <node id="MT-59"><data key="name">Tarxien</data><data key="code">MT-59</data><data key="wikidata">Q744001</data><data key="lon">14.50855</data><data key="lat">35.86218</data></node>
+    <node id="MT-60"><data key="name">Valletta</data><data key="code">MT-60</data><data key="wikidata">Q23800</data><data key="lon">14.51117</data><data key="lat">35.89471</data></node>
+    <node id="MT-61"><data key="name">Xagħra</data><data key="code">MT-61</data><data key="wikidata">Q605343</data><data key="lon">14.26965</data><data key="lat">36.05285</data></node>
+    <node id="MT-62"><data key="name">Xewkija</data><data key="code">MT-62</data><data key="wikidata">Q919921</data><data key="lon">14.26017</data><data key="lat">36.0293</data></node>
+    <node id="MT-63"><data key="name">Xgħajra</data><data key="code">MT-63</data><data key="wikidata">Q520962</data><data key="lon">14.54646</data><data key="lat">35.88437</data></node>
+    <node id="MT-64"><data key="name">Żabbar</data><data key="code">MT-64</data><data key="wikidata">Q39518</data><data key="lon">14.54379</data><data key="lat">35.87212</data></node>
+    <node id="MT-65"><data key="name">Żebbuġ Gozo</data><data key="code">MT-65</data><data key="wikidata">Q179243</data><data key="lon">14.24933</data><data key="lat">36.0609</data></node>
+    <node id="MT-66"><data key="name">Żebbuġ Malta</data><data key="code">MT-66</data><data key="wikidata">Q44573</data><data key="lon">14.4382</data><data key="lat">35.87017</data></node>
+    <node id="MT-67"><data key="name">Żejtun</data><data key="code">MT-67</data><data key="wikidata">Q44392</data><data key="lon">14.53212</data><data key="lat">35.8539</data></node>
+    <node id="MT-68"><data key="name">Żurrieq</data><data key="code">MT-68</data><data key="wikidata">Q44417</data><data key="lon">14.48481</data><data key="lat">35.82284</data></node>
+    <edge source="MT-01" target="MT-02"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-01" target="MT-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-01" target="MT-29"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-01" target="MT-32"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-01" target="MT-35"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-01" target="MT-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-01" target="MT-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-01" target="MT-66"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-02" target="MT-04"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-02" target="MT-19"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-02" target="MT-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-03" target="MT-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-03" target="MT-20"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-03" target="MT-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-03" target="MT-60"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-03" target="MT-64"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="MT-04" target="MT-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-04" target="MT-34"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-04" target="MT-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-04" target="MT-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-04" target="MT-54"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-05" target="MT-17"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-05" target="MT-28"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-05" target="MT-68"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-06" target="MT-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-06" target="MT-20"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-06" target="MT-39"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-06" target="MT-64"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-07" target="MT-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-07" target="MT-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-08" target="MT-39"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-08" target="MT-59"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-08" target="MT-64"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-08" target="MT-67"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-09" target="MT-18"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-09" target="MT-20"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-09" target="MT-26"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-09" target="MT-39"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-09" target="MT-41"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-09" target="MT-58"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-09" target="MT-60"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-10" target="MT-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-10" target="MT-36"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-10" target="MT-45"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-10" target="MT-62"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-11" target="MT-17"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-11" target="MT-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-11" target="MT-53"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-12" target="MT-34"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-12" target="MT-48"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-12" target="MT-49"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-12" target="MT-56"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-12" target="MT-58"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-12" target="MT-60"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-13" target="MT-37"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-13" target="MT-42"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-13" target="MT-52"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-13" target="MT-62"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-14" target="MT-16"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-14" target="MT-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-14" target="MT-50"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-15" target="MT-19"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-15" target="MT-38"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-15" target="MT-49"><data key="sources">natural_earth</data><data key="rule">ne_short</data><data key="corroborated">false</data></edge>
+    <edge source="MT-15" target="MT-57"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-16" target="MT-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-16" target="MT-45"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-16" target="MT-65"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-17" target="MT-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-17" target="MT-28"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-17" target="MT-53"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-17" target="MT-59"><data key="sources">natural_earth</data><data key="rule">ne_short</data><data key="corroborated">false</data></edge>
+    <edge source="MT-17" target="MT-67"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-18" target="MT-26"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-18" target="MT-41"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-18" target="MT-43"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-18" target="MT-54"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-19" target="MT-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-19" target="MT-38"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-19" target="MT-49"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-20" target="MT-39"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-20" target="MT-60"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-21" target="MT-60"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-21" target="MT-63"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-21" target="MT-64"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-22" target="MT-36"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-22" target="MT-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-22" target="MT-50"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-23" target="MT-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-23" target="MT-33"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-23" target="MT-47"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-23" target="MT-68"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-24" target="MT-32"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-24" target="MT-38"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-25" target="MT-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-39"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-53"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-59"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="MT-25" target="MT-68"><data key="sources">natural_earth</data><data key="rule">ne_short</data><data key="corroborated">false</data></edge>
+    <edge source="MT-26" target="MT-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-26" target="MT-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-27" target="MT-28"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-27" target="MT-64"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-27" target="MT-67"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-28" target="MT-67"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-29" target="MT-35"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-29" target="MT-46"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-30" target="MT-31"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-30" target="MT-51"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-31" target="MT-32"><data key="sources">natural_earth</data><data key="rule">ne_short</data><data key="corroborated">false</data></edge>
+    <edge source="MT-31" target="MT-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-31" target="MT-51"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-32" target="MT-38"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-32" target="MT-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-32" target="MT-51"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-33" target="MT-44"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-33" target="MT-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-33" target="MT-68"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-34" target="MT-41"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-34" target="MT-49"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-34" target="MT-54"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-34" target="MT-58"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-35" target="MT-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-36" target="MT-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-36" target="MT-62"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-37" target="MT-42"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-37" target="MT-61"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-38" target="MT-40"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-38" target="MT-51"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-38" target="MT-57"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-39" target="MT-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-40" target="MT-48"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-40" target="MT-57"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-41" target="MT-58"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-43" target="MT-54"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MT-43" target="MT-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-43" target="MT-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-44" target="MT-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-44" target="MT-68"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-45" target="MT-61"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-45" target="MT-62"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-45" target="MT-65"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-46" target="MT-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-46" target="MT-66"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-47" target="MT-68"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-48" target="MT-49"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-48" target="MT-56"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-48" target="MT-57"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-49" target="MT-57"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-52" target="MT-62"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-53" target="MT-59"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-55" target="MT-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MT-56" target="MT-60"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-59" target="MT-67"><data key="sources">natural_earth</data><data key="rule">ne_short</data><data key="corroborated">false</data></edge>
+    <edge source="MT-61" target="MT-62"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-61" target="MT-65"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-63" target="MT-64"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MT-64" target="MT-67"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

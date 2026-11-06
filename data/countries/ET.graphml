@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ET" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ET-AA"><data key="name">Addis Ababa</data><data key="code">ET-AA</data><data key="wikidata">Q3624</data><data key="lon">38.78573</data><data key="lat">8.96547</data></node>
+    <node id="ET-AF"><data key="name">Afar</data><data key="code">ET-AF</data><data key="wikidata">Q193494</data><data key="lon">40.88489</data><data key="lat">11.65707</data></node>
+    <node id="ET-AM"><data key="name">Amhara</data><data key="code">ET-AM</data><data key="wikidata">Q203009</data><data key="lon">38.311</data><data key="lat">11.26475</data></node>
+    <node id="ET-BE"><data key="name">Benshangul-Gumaz</data><data key="code">ET-BE</data><data key="wikidata">Q207635</data><data key="lon">35.31656</data><data key="lat">10.59655</data></node>
+    <node id="ET-DD"><data key="name">Dire Dawa</data><data key="code">ET-DD</data><data key="wikidata">Q193486</data><data key="lon">41.88656</data><data key="lat">9.6279</data></node>
+    <node id="ET-GA"><data key="name">Gambela Peoples</data><data key="code">ET-GA</data><data key="wikidata">Q207638</data><data key="lon">33.96321</data><data key="lat">7.81185</data></node>
+    <node id="ET-HA"><data key="name">Harari People</data><data key="code">ET-HA</data><data key="wikidata">Q1033855</data><data key="lon">42.16566</data><data key="lat">9.29556</data></node>
+    <node id="ET-OR"><data key="name">Oromiya</data><data key="code">ET-OR</data><data key="wikidata">Q202107</data><data key="lon">40.39001</data><data key="lat">6.94264</data></node>
+    <node id="ET-SN"><data key="name">Southern Nations, Nationalities and Peoples</data><data key="code">ET-SN</data><data key="wikidata">Q203193</data><data key="lon">36.2933</data><data key="lat">6.44852</data></node>
+    <node id="ET-SO"><data key="name">Somali</data><data key="code">ET-SO</data><data key="wikidata">Q202800</data><data key="lon">44.70683</data><data key="lat">7.23468</data></node>
+    <node id="ET-TI"><data key="name">Tigray</data><data key="code">ET-TI</data><data key="wikidata">Q200127</data><data key="lon">39.11514</data><data key="lat">13.56217</data></node>
+    <edge source="ET-AA" target="ET-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-AF" target="ET-AM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-AF" target="ET-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-AF" target="ET-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-AF" target="ET-TI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-AM" target="ET-BE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-AM" target="ET-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-AM" target="ET-TI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-BE" target="ET-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-DD" target="ET-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-DD" target="ET-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-GA" target="ET-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-GA" target="ET-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-HA" target="ET-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-OR" target="ET-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ET-OR" target="ET-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

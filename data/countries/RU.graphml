@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="RU" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="RU-AD"><data key="name">Adygey</data><data key="code">RU-AD</data><data key="wikidata">Q3734</data><data key="lon">40.14011</data><data key="lat">44.47163</data></node>
+    <node id="RU-AL"><data key="name">Gorno-Altay</data><data key="code">RU-AL</data><data key="wikidata">Q5971</data><data key="lon">86.96788</data><data key="lat">50.86932</data></node>
+    <node id="RU-ALT"><data key="name">Altay</data><data key="code">RU-ALT</data><data key="wikidata">Q5942</data><data key="lon">82.66971</data><data key="lat">52.55904</data></node>
+    <node id="RU-AMU"><data key="name">Amur</data><data key="code">RU-AMU</data><data key="wikidata">Q6886</data><data key="lon">130.19749</data><data key="lat">52.94973</data></node>
+    <node id="RU-ARK"><data key="name">Arkhangel'sk</data><data key="code">RU-ARK</data><data key="wikidata">Q1875</data><data key="lon">41.43466</data><data key="lat">63.59089</data></node>
+    <node id="RU-AST"><data key="name">Astrakhan'</data><data key="code">RU-AST</data><data key="wikidata">Q3941</data><data key="lon">47.62679</data><data key="lat">47.23199</data></node>
+    <node id="RU-BA"><data key="name">Bashkortostan</data><data key="code">RU-BA</data><data key="wikidata">Q5710</data><data key="lon">56.33451</data><data key="lat">54.05595</data></node>
+    <node id="RU-BEL"><data key="name">Belgorod</data><data key="code">RU-BEL</data><data key="wikidata">Q3329</data><data key="lon">37.2456</data><data key="lat">50.61616</data></node>
+    <node id="RU-BRY"><data key="name">Bryansk</data><data key="code">RU-BRY</data><data key="wikidata">Q2810</data><data key="lon">33.12035</data><data key="lat">52.92961</data></node>
+    <node id="RU-BU"><data key="name">Buryat</data><data key="code">RU-BU</data><data key="wikidata">Q6809</data><data key="lon">111.23765</data><data key="lat">53.60631</data></node>
+    <node id="RU-CE"><data key="name">Chechnya</data><data key="code">RU-CE</data><data key="wikidata">Q5187</data><data key="lon">45.76737</data><data key="lat">43.25374</data></node>
+    <node id="RU-CHE"><data key="name">Chelyabinsk</data><data key="code">RU-CHE</data><data key="wikidata">Q5714</data><data key="lon">61.52616</data><data key="lat">54.18377</data></node>
+    <node id="RU-CHU"><data key="name">Chukchi Autonomous Okrug</data><data key="code">RU-CHU</data><data key="wikidata">Q7984</data><data key="lon">169.50087</data><data key="lat">65.9736</data></node>
+    <node id="RU-CU"><data key="name">Chuvash</data><data key="code">RU-CU</data><data key="wikidata">Q5466</data><data key="lon">47.14149</data><data key="lat">55.49057</data></node>
+    <node id="RU-DA"><data key="name">Dagestan</data><data key="code">RU-DA</data><data key="wikidata">Q5118</data><data key="lon">46.93607</data><data key="lat">43.09689</data></node>
+    <node id="RU-IN"><data key="name">Ingush</data><data key="code">RU-IN</data><data key="wikidata">Q5219</data><data key="lon">45.00552</data><data key="lat">43.12059</data></node>
+    <node id="RU-IRK"><data key="name">Irkutsk</data><data key="code">RU-IRK</data><data key="wikidata">Q6585</data><data key="lon">109.89026</data><data key="lat">57.71386</data></node>
+    <node id="RU-IVA"><data key="name">Ivanovo</data><data key="code">RU-IVA</data><data key="wikidata">Q2654</data><data key="lon">41.34605</data><data key="lat">57.06069</data></node>
+    <node id="RU-KAM"><data key="name">Kamchatka</data><data key="code">RU-KAM</data><data key="wikidata">Q7948</data><data key="lon">159.81244</data><data key="lat">57.90237</data></node>
+    <node id="RU-KB"><data key="name">Kabardin-Balkar</data><data key="code">RU-KB</data><data key="wikidata">Q5267</data><data key="lon">43.42051</data><data key="lat">43.45669</data></node>
+    <node id="RU-KC"><data key="name">Karachay-Cherkess</data><data key="code">RU-KC</data><data key="wikidata">Q5328</data><data key="lon">41.70501</data><data key="lat">43.83656</data></node>
+    <node id="RU-KDA"><data key="name">Krasnodar</data><data key="code">RU-KDA</data><data key="wikidata">Q3680</data><data key="lon">38.06958</data><data key="lat">45.12599</data></node>
+    <node id="RU-KEM"><data key="name">Kemerovo</data><data key="code">RU-KEM</data><data key="wikidata">Q6076</data><data key="lon">86.81199</data><data key="lat">54.50638</data></node>
+    <node id="RU-KGD"><data key="name">Kaliningrad</data><data key="code">RU-KGD</data><data key="wikidata">Q1749</data><data key="lon">21.39711</data><data key="lat">54.82429</data></node>
+    <node id="RU-KGN"><data key="name">Kurgan</data><data key="code">RU-KGN</data><data key="wikidata">Q5741</data><data key="lon">65.45607</data><data key="lat">55.50212</data></node>
+    <node id="RU-KHA"><data key="name">Khabarovsk</data><data key="code">RU-KHA</data><data key="wikidata">Q7788</data><data key="lon">133.44402</data><data key="lat">54.60079</data></node>
+    <node id="RU-KHM"><data key="name">Khanty-Mansiy</data><data key="code">RU-KHM</data><data key="wikidata">Q6320</data><data key="lon">71.93292</data><data key="lat">62.16238</data></node>
+    <node id="RU-KIR"><data key="name">Kirov</data><data key="code">RU-KIR</data><data key="wikidata">Q5387</data><data key="lon">50.16099</data><data key="lat">58.56366</data></node>
+    <node id="RU-KK"><data key="name">Khakass</data><data key="code">RU-KK</data><data key="wikidata">Q6543</data><data key="lon">90.36392</data><data key="lat">53.38157</data></node>
+    <node id="RU-KL"><data key="name">Kalmyk</data><data key="code">RU-KL</data><data key="wikidata">Q3953</data><data key="lon">45.43913</data><data key="lat">46.50772</data></node>
+    <node id="RU-KLU"><data key="name">Kaluga</data><data key="code">RU-KLU</data><data key="wikidata">Q2842</data><data key="lon">35.12123</data><data key="lat">54.29488</data></node>
+    <node id="RU-KO"><data key="name">Komi</data><data key="code">RU-KO</data><data key="wikidata">Q2073</data><data key="lon">53.0871</data><data key="lat">63.82135</data></node>
+    <node id="RU-KOS"><data key="name">Kostroma</data><data key="code">RU-KOS</data><data key="wikidata">Q2596</data><data key="lon">43.82902</data><data key="lat">58.45365</data></node>
+    <node id="RU-KR"><data key="name">Karelia</data><data key="code">RU-KR</data><data key="wikidata">Q1914</data><data key="lon">32.12733</data><data key="lat">63.69021</data></node>
+    <node id="RU-KRS"><data key="name">Kursk</data><data key="code">RU-KRS</data><data key="wikidata">Q3178</data><data key="lon">36.15317</data><data key="lat">51.67033</data></node>
+    <node id="RU-KYA"><data key="name">Krasnoyarsk</data><data key="code">RU-KYA</data><data key="wikidata">Q6563</data><data key="lon">95.84496</data><data key="lat">64.75808</data></node>
+    <node id="RU-LEN"><data key="name">Leningrad</data><data key="code">RU-LEN</data><data key="wikidata">Q2191</data><data key="lon">32.94794</data><data key="lat">59.87841</data></node>
+    <node id="RU-LIP"><data key="name">Lipetsk</data><data key="code">RU-LIP</data><data key="wikidata">Q3510</data><data key="lon">38.87238</data><data key="lat">52.73464</data></node>
+    <node id="RU-MAG"><data key="name">Maga Buryatdan</data><data key="code">RU-MAG</data><data key="wikidata">Q7971</data><data key="lon">154.0607</data><data key="lat">62.59857</data></node>
+    <node id="RU-ME"><data key="name">Mariy-El</data><data key="code">RU-ME</data><data key="wikidata">Q5446</data><data key="lon">47.91925</data><data key="lat">56.58022</data></node>
+    <node id="RU-MO"><data key="name">Mordovia</data><data key="code">RU-MO</data><data key="wikidata">Q5340</data><data key="lon">44.56605</data><data key="lat">54.42443</data></node>
+    <node id="RU-MOS"><data key="name">Moskovskaya</data><data key="code">RU-MOS</data><data key="wikidata">Q1697</data><data key="lon">38.90438</data><data key="lat">55.59428</data></node>
+    <node id="RU-MOW"><data key="name">Moskva</data><data key="code">RU-MOW</data><data key="wikidata">Q649</data><data key="lon">37.39934</data><data key="lat">55.46158</data></node>
+    <node id="RU-MUR"><data key="name">Murmansk</data><data key="code">RU-MUR</data><data key="wikidata">Q1759</data><data key="lon">36.69542</data><data key="lat">68.01291</data></node>
+    <node id="RU-NEN"><data key="name">Nenets</data><data key="code">RU-NEN</data><data key="wikidata">Q2164</data><data key="lon">56.32738</data><data key="lat">67.83873</data></node>
+    <node id="RU-NGR"><data key="name">Novgorod</data><data key="code">RU-NGR</data><data key="wikidata">Q2240</data><data key="lon">32.82834</data><data key="lat">58.18079</data></node>
+    <node id="RU-NIZ"><data key="name">Nizhegorod</data><data key="code">RU-NIZ</data><data key="wikidata">Q2246</data><data key="lon">44.31839</data><data key="lat">56.28437</data></node>
+    <node id="RU-NVS"><data key="name">Novosibirsk</data><data key="code">RU-NVS</data><data key="wikidata">Q5851</data><data key="lon">80.03475</data><data key="lat">55.28717</data></node>
+    <node id="RU-OMS"><data key="name">Omsk</data><data key="code">RU-OMS</data><data key="wikidata">Q5835</data><data key="lon">73.18921</data><data key="lat">56.00281</data></node>
+    <node id="RU-ORE"><data key="name">Orenburg</data><data key="code">RU-ORE</data><data key="wikidata">Q5338</data><data key="lon">53.5218</data><data key="lat">52.42588</data></node>
+    <node id="RU-ORL"><data key="name">Orel</data><data key="code">RU-ORL</data><data key="wikidata">Q3129</data><data key="lon">36.40833</data><data key="lat">52.78528</data></node>
+    <node id="RU-PER"><data key="name">Perm'</data><data key="code">RU-PER</data><data key="wikidata">Q5400</data><data key="lon">57.85573</data><data key="lat">58.89181</data></node>
+    <node id="RU-PNZ"><data key="name">Penza</data><data key="code">RU-PNZ</data><data key="wikidata">Q5545</data><data key="lon">44.73661</data><data key="lat">53.16871</data></node>
+    <node id="RU-PRI"><data key="name">Primor'ye</data><data key="code">RU-PRI</data><data key="wikidata">Q4341</data><data key="lon">135.12935</data><data key="lat">45.371</data></node>
+    <node id="RU-PSK"><data key="name">Pskov</data><data key="code">RU-PSK</data><data key="wikidata">Q2218</data><data key="lon">29.21813</data><data key="lat">57.2978</data></node>
+    <node id="RU-ROS"><data key="name">Rostov</data><data key="code">RU-ROS</data><data key="wikidata">Q3573</data><data key="lon">40.93174</data><data key="lat">48.08838</data></node>
+    <node id="RU-RYA"><data key="name">Ryazan'</data><data key="code">RU-RYA</data><data key="wikidata">Q2753</data><data key="lon">40.61217</data><data key="lat">54.33464</data></node>
+    <node id="RU-SA"><data key="name">Sakha (Yakutia)</data><data key="code">RU-SA</data><data key="wikidata">Q6605</data><data key="lon">129.26931</data><data key="lat">64.73421</data></node>
+    <node id="RU-SAK"><data key="name">Sakhalin</data><data key="code">RU-SAK</data><data key="wikidata">Q7797</data><data key="lon">143.01751</data><data key="lat">50.19526</data></node>
+    <node id="RU-SAM"><data key="name">Samara</data><data key="code">RU-SAM</data><data key="wikidata">Q1727</data><data key="lon">50.11297</data><data key="lat">53.21926</data></node>
+    <node id="RU-SAR"><data key="name">Saratov</data><data key="code">RU-SAR</data><data key="wikidata">Q5334</data><data key="lon">48.12874</data><data key="lat">51.30783</data></node>
+    <node id="RU-SE"><data key="name">North Ossetia</data><data key="code">RU-SE</data><data key="wikidata">Q5237</data><data key="lon">44.26094</data><data key="lat">43.19351</data></node>
+    <node id="RU-SMO"><data key="name">Smolensk</data><data key="code">RU-SMO</data><data key="wikidata">Q2347</data><data key="lon">32.87923</data><data key="lat">54.74783</data></node>
+    <node id="RU-SPE"><data key="name">City of St. Petersburg</data><data key="code">RU-SPE</data><data key="wikidata">Q656</data><data key="lon">30.36654</data><data key="lat">59.93667</data></node>
+    <node id="RU-STA"><data key="name">Stavropol'</data><data key="code">RU-STA</data><data key="wikidata">Q5207</data><data key="lon">43.66596</data><data key="lat">44.94217</data></node>
+    <node id="RU-SVE"><data key="name">Sverdlovsk</data><data key="code">RU-SVE</data><data key="wikidata">Q5462</data><data key="lon">62.20449</data><data key="lat">59.02976</data></node>
+    <node id="RU-TA"><data key="name">Tatarstan</data><data key="code">RU-TA</data><data key="wikidata">Q5481</data><data key="lon">51.92435</data><data key="lat">55.32214</data></node>
+    <node id="RU-TAM"><data key="name">Tambov</data><data key="code">RU-TAM</data><data key="wikidata">Q3550</data><data key="lon">41.59378</data><data key="lat">52.70652</data></node>
+    <node id="RU-TOM"><data key="name">Tomsk</data><data key="code">RU-TOM</data><data key="wikidata">Q5884</data><data key="lon">81.57544</data><data key="lat">58.4023</data></node>
+    <node id="RU-TUL"><data key="name">Tula</data><data key="code">RU-TUL</data><data key="wikidata">Q2792</data><data key="lon">37.39626</data><data key="lat">53.89862</data></node>
+    <node id="RU-TVE"><data key="name">Tver'</data><data key="code">RU-TVE</data><data key="wikidata">Q2292</data><data key="lon">35.32915</data><data key="lat">57.24927</data></node>
+    <node id="RU-TY"><data key="name">Tuva</data><data key="code">RU-TY</data><data key="wikidata">Q960</data><data key="lon">94.13665</data><data key="lat">51.72701</data></node>
+    <node id="RU-TYU"><data key="name">Tyumen'</data><data key="code">RU-TYU</data><data key="wikidata">Q5824</data><data key="lon">67.82592</data><data key="lat">57.56222</data></node>
+    <node id="RU-UD"><data key="name">Udmurt</data><data key="code">RU-UD</data><data key="wikidata">Q5422</data><data key="lon">52.75661</data><data key="lat">57.20925</data></node>
+    <node id="RU-ULY"><data key="name">Ul'yanovsk</data><data key="code">RU-ULY</data><data key="wikidata">Q5634</data><data key="lon">47.3817</data><data key="lat">53.66962</data></node>
+    <node id="RU-VGG"><data key="name">Volgograd</data><data key="code">RU-VGG</data><data key="wikidata">Q3819</data><data key="lon">45.24745</data><data key="lat">49.34062</data></node>
+    <node id="RU-VLA"><data key="name">Vladimir</data><data key="code">RU-VLA</data><data key="wikidata">Q2702</data><data key="lon">40.60556</data><data key="lat">55.96689</data></node>
+    <node id="RU-VLG"><data key="name">Vologda</data><data key="code">RU-VLG</data><data key="wikidata">Q2015</data><data key="lon">41.05451</data><data key="lat">60.04605</data></node>
+    <node id="RU-VOR"><data key="name">Voronezh</data><data key="code">RU-VOR</data><data key="wikidata">Q3447</data><data key="lon">40.03727</data><data key="lat">50.82342</data></node>
+    <node id="RU-YAN"><data key="name">Yamal-Nenets</data><data key="code">RU-YAN</data><data key="wikidata">Q6407</data><data key="lon">69.17106</data><data key="lat">67.57631</data></node>
+    <node id="RU-YAR"><data key="name">Yaroslavl'</data><data key="code">RU-YAR</data><data key="wikidata">Q2448</data><data key="lon">38.95181</data><data key="lat">57.7457</data></node>
+    <node id="RU-YEV"><data key="name">Yevrey</data><data key="code">RU-YEV</data><data key="wikidata">Q7730</data><data key="lon">132.65851</data><data key="lat">48.57502</data></node>
+    <node id="RU-ZAB"><data key="name">Chita</data><data key="code">RU-ZAB</data><data key="wikidata">Q6838</data><data key="lon">118.06537</data><data key="lat">53.77233</data></node>
+    <node id="UA-40"><data key="name">Sevastopol</data><data key="code">UA-40</data><data key="wikidata">Q7525</data><data key="lon">33.64469</data><data key="lat">44.62659</data></node>
+    <node id="UA-43"><data key="name">Crimea</data><data key="code">UA-43</data><data key="wikidata">Q756294</data><data key="lon">34.15853</data><data key="lat">45.29895</data></node>
+    <edge source="RU-AD" target="RU-KDA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AL" target="RU-ALT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AL" target="RU-KEM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AL" target="RU-KK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AL" target="RU-TY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ALT" target="RU-KEM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ALT" target="RU-NVS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AMU" target="RU-KHA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AMU" target="RU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AMU" target="RU-YEV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AMU" target="RU-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ARK" target="RU-KIR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ARK" target="RU-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ARK" target="RU-KR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ARK" target="RU-NEN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ARK" target="RU-VLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AST" target="RU-KL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-AST" target="RU-VGG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BA" target="RU-CHE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BA" target="RU-ORE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BA" target="RU-PER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BA" target="RU-SVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BA" target="RU-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BA" target="RU-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BEL" target="RU-KRS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BEL" target="RU-VOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BRY" target="RU-KLU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BRY" target="RU-KRS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BRY" target="RU-ORL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BRY" target="RU-SMO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BU" target="RU-IRK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BU" target="RU-TY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-BU" target="RU-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CE" target="RU-DA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CE" target="RU-IN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CE" target="RU-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CE" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CHE" target="RU-KGN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CHE" target="RU-ORE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CHE" target="RU-SVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CHU" target="RU-KAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CHU" target="RU-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CHU" target="RU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CU" target="RU-ME"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CU" target="RU-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CU" target="RU-NIZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CU" target="RU-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-CU" target="RU-ULY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-DA" target="RU-KL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-DA" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IN" target="RU-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IRK" target="RU-KYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IRK" target="RU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IRK" target="RU-TY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IRK" target="RU-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IVA" target="RU-KOS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IVA" target="RU-NIZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IVA" target="RU-VLA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-IVA" target="RU-YAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KAM" target="RU-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KB" target="RU-KC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KB" target="RU-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KB" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KC" target="RU-KDA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KC" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KDA" target="RU-ROS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KDA" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KEM" target="RU-KK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KEM" target="RU-KYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KEM" target="RU-NVS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KEM" target="RU-TOM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KGN" target="RU-SVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KGN" target="RU-TYU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHA" target="RU-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHA" target="RU-PRI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHA" target="RU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHA" target="RU-YEV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHM" target="RU-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHM" target="RU-KYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHM" target="RU-SVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHM" target="RU-TOM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHM" target="RU-TYU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KHM" target="RU-YAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-KOS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-ME"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-NIZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-PER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KIR" target="RU-VLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KK" target="RU-KYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KK" target="RU-TY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KL" target="RU-ROS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KL" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KL" target="RU-VGG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KLU" target="RU-MOS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KLU" target="RU-MOW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KLU" target="RU-ORL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KLU" target="RU-SMO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KLU" target="RU-TUL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KO" target="RU-NEN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KO" target="RU-PER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KO" target="RU-SVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KO" target="RU-YAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KOS" target="RU-NIZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KOS" target="RU-VLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KOS" target="RU-YAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KR" target="RU-LEN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KR" target="RU-MUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KR" target="RU-VLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KRS" target="RU-LIP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KRS" target="RU-ORL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KRS" target="RU-VOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KYA" target="RU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KYA" target="RU-TOM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KYA" target="RU-TY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-KYA" target="RU-YAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LEN" target="RU-NGR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LEN" target="RU-PSK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LEN" target="RU-SPE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LEN" target="RU-VLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LIP" target="RU-ORL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LIP" target="RU-RYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LIP" target="RU-TAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LIP" target="RU-TUL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-LIP" target="RU-VOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MAG" target="RU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ME" target="RU-NIZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ME" target="RU-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MO" target="RU-NIZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MO" target="RU-PNZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MO" target="RU-RYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MO" target="RU-ULY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MOS" target="RU-MOW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MOS" target="RU-RYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MOS" target="RU-SMO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MOS" target="RU-TUL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MOS" target="RU-TVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MOS" target="RU-VLA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-MOS" target="RU-YAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NEN" target="RU-YAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NGR" target="RU-PSK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NGR" target="RU-TVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NGR" target="RU-VLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NIZ" target="RU-RYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NIZ" target="RU-VLA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NVS" target="RU-OMS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-NVS" target="RU-TOM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-OMS" target="RU-TOM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-OMS" target="RU-TYU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ORE" target="RU-SAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ORE" target="RU-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ORL" target="RU-TUL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PER" target="RU-SVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PER" target="RU-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PNZ" target="RU-RYA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PNZ" target="RU-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PNZ" target="RU-TAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PNZ" target="RU-ULY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PSK" target="RU-SMO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-PSK" target="RU-TVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ROS" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ROS" target="RU-VGG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-ROS" target="RU-VOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-RYA" target="RU-TAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-RYA" target="RU-TUL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-RYA" target="RU-VLA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SA" target="RU-ZAB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SAM" target="RU-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SAM" target="RU-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SAM" target="RU-ULY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SAR" target="RU-TAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SAR" target="RU-ULY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SAR" target="RU-VGG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SAR" target="RU-VOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SE" target="RU-STA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SMO" target="RU-TVE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-SVE" target="RU-TYU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-TA" target="RU-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-TA" target="RU-ULY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-TAM" target="RU-VOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-TOM" target="RU-TYU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-TVE" target="RU-VLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-TVE" target="RU-YAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-VGG" target="RU-VOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-VLA" target="RU-YAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RU-VLG" target="RU-YAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-40" target="UA-43"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

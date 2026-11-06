@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ZA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ZA-EC"><data key="name">Eastern Cape</data><data key="code">ZA-EC</data><data key="wikidata">Q130840</data><data key="lon">26.57707</data><data key="lat">-32.09174</data></node>
+    <node id="ZA-FS"><data key="name">Free State</data><data key="code">ZA-FS</data><data key="wikidata">Q160284</data><data key="lon">26.60609</data><data key="lat">-28.66809</data></node>
+    <node id="ZA-GT"><data key="name">Gauteng</data><data key="code">ZA-GT</data><data key="wikidata">Q133083</data><data key="lon">28.02004</data><data key="lat">-26.00964</data></node>
+    <node id="ZA-LP"><data key="name">Limpopo</data><data key="code">ZA-LP</data><data key="wikidata">Q134907</data><data key="lon">29.33342</data><data key="lat">-23.77904</data></node>
+    <node id="ZA-MP"><data key="name">Mpumalanga</data><data key="code">ZA-MP</data><data key="wikidata">Q132410</data><data key="lon">30.16039</data><data key="lat">-25.74003</data></node>
+    <node id="ZA-NC"><data key="name">Northern Cape</data><data key="code">ZA-NC</data><data key="wikidata">Q132418</data><data key="lon">22.02237</data><data key="lat">-28.8487</data></node>
+    <node id="ZA-NL"><data key="name">KwaZulu-Natal</data><data key="code">ZA-NL</data><data key="wikidata">Q81725</data><data key="lon">30.4146</data><data key="lat">-28.94199</data></node>
+    <node id="ZA-NW"><data key="name">North West</data><data key="code">ZA-NW</data><data key="wikidata">Q165956</data><data key="lon">25.24337</data><data key="lat">-26.3709</data></node>
+    <node id="ZA-WC"><data key="name">Western Cape</data><data key="code">ZA-WC</data><data key="wikidata">Q127167</data><data key="lon">22.14967</data><data key="lat">-32.64268</data></node>
+    <edge source="ZA-EC" target="ZA-FS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-EC" target="ZA-NC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-EC" target="ZA-NL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-EC" target="ZA-WC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-FS" target="ZA-GT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-FS" target="ZA-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-FS" target="ZA-NC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-FS" target="ZA-NL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-FS" target="ZA-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-GT" target="ZA-LP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-GT" target="ZA-MP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-GT" target="ZA-NW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-LP" target="ZA-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-LP" target="ZA-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-MP" target="ZA-NL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-NC" target="ZA-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZA-NC" target="ZA-WC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

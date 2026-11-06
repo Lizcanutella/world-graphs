@@ -1,0 +1,387 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CG",
+ "kind": "country",
+ "name": "Congo",
+ "level": "departments",
+ "n": 12,
+ "m": 16,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CG-11",
+   "name": "Bouenza",
+   "wikidata": "Q827015",
+   "lon": 13.51293,
+   "lat": -4.11215
+  },
+  {
+   "code": "CG-12",
+   "name": "Pool",
+   "wikidata": "Q864647",
+   "lon": 14.70586,
+   "lat": -3.81276
+  },
+  {
+   "code": "CG-13",
+   "name": "Sangha",
+   "wikidata": "Q775410",
+   "lon": 15.61446,
+   "lat": 1.38397
+  },
+  {
+   "code": "CG-14",
+   "name": "Plateaux",
+   "wikidata": "Q765370",
+   "lon": 15.4322,
+   "lat": -2.01024
+  },
+  {
+   "code": "CG-15",
+   "name": "Cuvette-Ouest",
+   "wikidata": "Q125711",
+   "lon": 14.55181,
+   "lat": 0.09547
+  },
+  {
+   "code": "CG-16",
+   "name": "Pointe Noire",
+   "wikidata": "Q7208306",
+   "lon": 11.8781,
+   "lat": -4.82613
+  },
+  {
+   "code": "CG-2",
+   "name": "Lékoumou",
+   "wikidata": "Q862753",
+   "lon": 13.63341,
+   "lat": -3.06715
+  },
+  {
+   "code": "CG-5",
+   "name": "Kouilou",
+   "wikidata": "Q855327",
+   "lon": 11.99795,
+   "lat": -4.26061
+  },
+  {
+   "code": "CG-7",
+   "name": "Likouala",
+   "wikidata": "Q863554",
+   "lon": 17.36901,
+   "lat": 1.47942
+  },
+  {
+   "code": "CG-8",
+   "name": "Cuvette",
+   "wikidata": "Q780884",
+   "lon": 16.32262,
+   "lat": -0.7906
+  },
+  {
+   "code": "CG-9",
+   "name": "Niari",
+   "wikidata": "Q969317",
+   "lon": 12.30749,
+   "lat": -3.34762
+  },
+  {
+   "code": "CG-BZV",
+   "name": "Brazzaville",
+   "wikidata": "Q3844",
+   "lon": 15.44591,
+   "lat": -3.98224
+  }
+ ],
+ "edges": [
+  {
+   "u": "CG-11",
+   "v": "CG-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 211660
+  },
+  {
+   "u": "CG-11",
+   "v": "CG-2",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 224390
+  },
+  {
+   "u": "CG-11",
+   "v": "CG-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 197876
+  },
+  {
+   "u": "CG-12",
+   "v": "CG-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 273891
+  },
+  {
+   "u": "CG-12",
+   "v": "CG-2",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80569
+  },
+  {
+   "u": "CG-12",
+   "v": "CG-BZV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 247324
+  },
+  {
+   "u": "CG-13",
+   "v": "CG-15",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 211422
+  },
+  {
+   "u": "CG-13",
+   "v": "CG-7",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 305554
+  },
+  {
+   "u": "CG-13",
+   "v": "CG-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 244160
+  },
+  {
+   "u": "CG-14",
+   "v": "CG-2",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 94287
+  },
+  {
+   "u": "CG-14",
+   "v": "CG-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 364909
+  },
+  {
+   "u": "CG-15",
+   "v": "CG-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 311379
+  },
+  {
+   "u": "CG-16",
+   "v": "CG-5",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20104
+  },
+  {
+   "u": "CG-2",
+   "v": "CG-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 197839
+  },
+  {
+   "u": "CG-5",
+   "v": "CG-9",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 142543
+  },
+  {
+   "u": "CG-7",
+   "v": "CG-8",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 193391
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "COG-ADM1-67827341",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

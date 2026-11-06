@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GL-KU"><data key="name">Kommune Kujalleq</data><data key="code">GL-KU</data><data key="wikidata">Q478813</data><data key="lon">-44.72958</data><data key="lat">61.37169</data></node>
+    <node id="GL-QA"><data key="name">Qaasuitsup Kommunia</data><data key="code">GL-QA</data><data key="wikidata">Q641460</data><data key="lon">-50.26406</data><data key="lat">74.36164</data></node>
+    <node id="GL-QE"><data key="name">Qeqqata Kommunia</data><data key="code">GL-QE</data><data key="wikidata">Q476233</data><data key="lon">-48.50032</data><data key="lat">66.17109</data></node>
+    <node id="GL-SM"><data key="name">Kommuneqarfik Sermersooq</data><data key="code">GL-SM</data><data key="wikidata">Q695387</data><data key="lon">-41.00102</data><data key="lat">66.04049</data></node>
+    <node id="GL-UO:Nationalparken"><data key="name">Nationalparken</data><data key="code">GL-UO:Nationalparken</data><data key="wikidata">Q309276</data><data key="lon">-31.83064</data><data key="lat">77.3133</data></node>
+    <node id="GL-UO:Pituffik"><data key="name">Pituffik</data><data key="code">GL-UO:Pituffik</data><data key="wikidata">Q1991632</data><data key="lon">-68.57291</data><data key="lat">76.45503</data></node>
+    <edge source="GL-KU" target="GL-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GL-QA" target="GL-QE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GL-QA" target="GL-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GL-QA" target="GL-UO:Nationalparken"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GL-QA" target="GL-UO:Pituffik"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GL-QE" target="GL-SM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GL-SM" target="GL-UO:Nationalparken"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

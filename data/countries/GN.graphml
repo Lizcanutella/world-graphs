@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GN-BE"><data key="name">Beyla</data><data key="code">GN-BE</data><data key="wikidata">Q853169</data><data key="lon">-8.37066</data><data key="lat">8.72274</data></node>
+    <node id="GN-BF"><data key="name">Boffa</data><data key="code">GN-BF</data><data key="wikidata">Q890340</data><data key="lon">-14.14342</data><data key="lat">10.28407</data></node>
+    <node id="GN-BK"><data key="name">Boke</data><data key="code">GN-BK</data><data key="wikidata">Q891238</data><data key="lon">-14.3611</data><data key="lat">11.0692</data></node>
+    <node id="GN-C"><data key="name">Conakry</data><data key="code">GN-C</data><data key="wikidata">Q3733</data><data key="lon">-13.67829</data><data key="lat">9.5353</data></node>
+    <node id="GN-CO"><data key="name">Coyah</data><data key="code">GN-CO</data><data key="wikidata">Q616816</data><data key="lon">-13.35544</data><data key="lat">9.75672</data></node>
+    <node id="GN-DB"><data key="name">Dabola</data><data key="code">GN-DB</data><data key="wikidata">Q1156587</data><data key="lon">-11.31256</data><data key="lat">10.5619</data></node>
+    <node id="GN-DI"><data key="name">Dinguiraye</data><data key="code">GN-DI</data><data key="wikidata">Q1226479</data><data key="lon">-10.61653</data><data key="lat">11.60148</data></node>
+    <node id="GN-DL"><data key="name">Dalaba</data><data key="code">GN-DL</data><data key="wikidata">Q623302</data><data key="lon">-12.09111</data><data key="lat">10.89839</data></node>
+    <node id="GN-DU"><data key="name">Dubréka</data><data key="code">GN-DU</data><data key="wikidata">Q1263263</data><data key="lon">-13.56622</data><data key="lat">9.95172</data></node>
+    <node id="GN-FA"><data key="name">Faranah</data><data key="code">GN-FA</data><data key="wikidata">Q1396210</data><data key="lon">-10.73831</data><data key="lat">9.85476</data></node>
+    <node id="GN-FO"><data key="name">Forécariah</data><data key="code">GN-FO</data><data key="wikidata">Q1439329</data><data key="lon">-13.09972</data><data key="lat">9.36774</data></node>
+    <node id="GN-FR"><data key="name">Fria</data><data key="code">GN-FR</data><data key="wikidata">Q1456055</data><data key="lon">-13.47577</data><data key="lat">10.48378</data></node>
+    <node id="GN-GA"><data key="name">Gaoual</data><data key="code">GN-GA</data><data key="wikidata">Q614669</data><data key="lon">-13.26735</data><data key="lat">11.71971</data></node>
+    <node id="GN-GU"><data key="name">Guéckédou</data><data key="code">GN-GU</data><data key="wikidata">Q623142</data><data key="lon">-10.2134</data><data key="lat">8.7106</data></node>
+    <node id="GN-K"><data key="name">Kankan</data><data key="code">GN-K</data><data key="wikidata">Q870191</data><data key="lon">-9.03271</data><data key="lat">10.02561</data></node>
+    <node id="GN-KB"><data key="name">Koubia</data><data key="code">GN-KB</data><data key="wikidata">Q623409</data><data key="lon">-11.58137</data><data key="lat">11.70808</data></node>
+    <node id="GN-KD"><data key="name">Kindia</data><data key="code">GN-KD</data><data key="wikidata">Q1741960</data><data key="lon">-12.66412</data><data key="lat">10.09069</data></node>
+    <node id="GN-KE"><data key="name">Kérouané</data><data key="code">GN-KE</data><data key="wikidata">Q962654</data><data key="lon">-8.88913</data><data key="lat">9.32093</data></node>
+    <node id="GN-KN"><data key="name">Koundara</data><data key="code">GN-KN</data><data key="wikidata">Q1781312</data><data key="lon">-13.14217</data><data key="lat">12.34467</data></node>
+    <node id="GN-KO"><data key="name">Kouroussa</data><data key="code">GN-KO</data><data key="wikidata">Q1471573</data><data key="lon">-9.94125</data><data key="lat">10.53114</data></node>
+    <node id="GN-KS"><data key="name">Kissidougou</data><data key="code">GN-KS</data><data key="wikidata">Q1470920</data><data key="lon">-9.82367</data><data key="lat">9.27752</data></node>
+    <node id="GN-LA"><data key="name">Labé</data><data key="code">GN-LA</data><data key="wikidata">Q1781303</data><data key="lon">-12.31967</data><data key="lat">11.45131</data></node>
+    <node id="GN-LE"><data key="name">Lélouma</data><data key="code">GN-LE</data><data key="wikidata">Q253661</data><data key="lon">-12.73538</data><data key="lat">11.34408</data></node>
+    <node id="GN-LO"><data key="name">Lola</data><data key="code">GN-LO</data><data key="wikidata">Q623145</data><data key="lon">-8.33955</data><data key="lat">7.87701</data></node>
+    <node id="GN-MC"><data key="name">Macenta</data><data key="code">GN-MC</data><data key="wikidata">Q949332</data><data key="lon">-9.26991</data><data key="lat">8.41663</data></node>
+    <node id="GN-MD"><data key="name">Mandiana</data><data key="code">GN-MD</data><data key="wikidata">Q1470878</data><data key="lon">-8.84887</data><data key="lat">10.80826</data></node>
+    <node id="GN-ML"><data key="name">Mali</data><data key="code">GN-ML</data><data key="wikidata">Q1781017</data><data key="lon">-12.15384</data><data key="lat">12.0243</data></node>
+    <node id="GN-MM"><data key="name">Mamou</data><data key="code">GN-MM</data><data key="wikidata">Q623295</data><data key="lon">-11.87116</data><data key="lat">10.61448</data></node>
+    <node id="GN-NZ"><data key="name">Nzérékoré</data><data key="code">GN-NZ</data><data key="wikidata">Q1471203</data><data key="lon">-8.76469</data><data key="lat">7.97957</data></node>
+    <node id="GN-PI"><data key="name">Pita</data><data key="code">GN-PI</data><data key="wikidata">Q736507</data><data key="lon">-12.67635</data><data key="lat">10.89377</data></node>
+    <node id="GN-SI"><data key="name">Siguiri</data><data key="code">GN-SI</data><data key="wikidata">Q1780649</data><data key="lon">-9.471</data><data key="lat">11.67682</data></node>
+    <node id="GN-TE"><data key="name">Télimélé</data><data key="code">GN-TE</data><data key="wikidata">Q922545</data><data key="lon">-13.41527</data><data key="lat">10.88213</data></node>
+    <node id="GN-TO"><data key="name">Tougué</data><data key="code">GN-TO</data><data key="wikidata">Q1432094</data><data key="lon">-11.40406</data><data key="lat">11.5209</data></node>
+    <node id="GN-YO"><data key="name">Yomou</data><data key="code">GN-YO</data><data key="wikidata">Q623139</data><data key="lon">-9.04354</data><data key="lat">7.61814</data></node>
+    <edge source="GN-BE" target="GN-K"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BE" target="GN-KE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BE" target="GN-LO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BE" target="GN-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BE" target="GN-NZ"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BF" target="GN-BK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BF" target="GN-DU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BF" target="GN-FR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BF" target="GN-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BK" target="GN-GA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-BK" target="GN-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-C" target="GN-DU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-CO" target="GN-DU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-CO" target="GN-FO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-CO" target="GN-KD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DB" target="GN-DI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DB" target="GN-FA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DB" target="GN-KO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DB" target="GN-MM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DI" target="GN-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DI" target="GN-MM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DI" target="GN-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DI" target="GN-TO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DL" target="GN-KB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GN-DL" target="GN-KD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DL" target="GN-LA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DL" target="GN-MM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DL" target="GN-PI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DL" target="GN-TO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DU" target="GN-FR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DU" target="GN-KD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-DU" target="GN-TE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-FA" target="GN-GU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-FA" target="GN-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-FA" target="GN-KS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-FO" target="GN-KD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-FR" target="GN-TE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-GA" target="GN-KN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-GA" target="GN-LE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-GA" target="GN-ML"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-GA" target="GN-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-GU" target="GN-KS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-GU" target="GN-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-K" target="GN-KE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GN-K" target="GN-KO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-K" target="GN-KS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GN-K" target="GN-MD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KB" target="GN-LA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KB" target="GN-ML"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KB" target="GN-TO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KD" target="GN-MM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KD" target="GN-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KD" target="GN-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KE" target="GN-KS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KE" target="GN-MC"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KN" target="GN-ML"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KO" target="GN-KS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KO" target="GN-MD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KO" target="GN-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-KS" target="GN-MC"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-LA" target="GN-LE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-LA" target="GN-ML"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-LA" target="GN-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-LE" target="GN-ML"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-LE" target="GN-PI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-LE" target="GN-TE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-LO" target="GN-NZ"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-MC" target="GN-NZ"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-MC" target="GN-YO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-MD" target="GN-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GN-MM" target="GN-TO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-NZ" target="GN-YO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GN-PI" target="GN-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

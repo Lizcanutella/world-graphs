@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="UM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="UM-67"><data key="name">Johnston Atoll</data><data key="code">UM-67</data><data key="wikidata">Q131008</data><data key="lon">-169.54185</data><data key="lat">16.72541</data></node>
+    <node id="UM-71"><data key="name">Midway Islands</data><data key="code">UM-71</data><data key="wikidata">Q47863</data><data key="lon">-177.37755</data><data key="lat">28.20466</data></node>
+    <node id="UM-76"><data key="name">Navassa Island</data><data key="code">UM-76</data><data key="wikidata">Q25359</data><data key="lon">-75.01284</data><data key="lat">18.40561</data></node>
+    <node id="UM-79"><data key="name">Wake Atoll</data><data key="code">UM-79</data><data key="wikidata">Q43296</data><data key="lon">166.64501</data><data key="lat">19.29023</data></node>
+    <node id="UM-81"><data key="name">Baker Island</data><data key="code">UM-81</data><data key="wikidata">Q46879</data><data key="lon">-176.47903</data><data key="lat">0.19371</data></node>
+    <node id="UM-84"><data key="name">Howland Island</data><data key="code">UM-84</data><data key="wikidata">Q131305</data><data key="lon">-176.63724</data><data key="lat">0.79609</data></node>
+    <node id="UM-86"><data key="name">Jarvis Island</data><data key="code">UM-86</data><data key="wikidata">Q62218</data><data key="lon">-160.02005</data><data key="lat">-0.37912</data></node>
+    <node id="UM-95"><data key="name">Palmyra Atoll</data><data key="code">UM-95</data><data key="wikidata">Q123076</data><data key="lon">-162.071</data><data key="lat">5.88036</data></node>
+  </graph>
+</graphml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MY" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MY-01"><data key="name">Johor</data><data key="code">MY-01</data><data key="wikidata">Q183032</data><data key="lon">103.30668</data><data key="lat">2.05225</data></node>
+    <node id="MY-02"><data key="name">Kedah</data><data key="code">MY-02</data><data key="wikidata">Q188947</data><data key="lon">100.67051</data><data key="lat">5.79826</data></node>
+    <node id="MY-03"><data key="name">Kelantan</data><data key="code">MY-03</data><data key="wikidata">Q185944</data><data key="lon">102.07701</data><data key="lat">5.40886</data></node>
+    <node id="MY-04"><data key="name">Melaka</data><data key="code">MY-04</data><data key="wikidata">Q185221</data><data key="lon">102.3011</data><data key="lat">2.29796</data></node>
+    <node id="MY-05"><data key="name">Negeri Sembilan</data><data key="code">MY-05</data><data key="wikidata">Q213893</data><data key="lon">102.23234</data><data key="lat">2.82376</data></node>
+    <node id="MY-06"><data key="name">Pahang</data><data key="code">MY-06</data><data key="wikidata">Q191346</data><data key="lon">102.59556</data><data key="lat">3.61841</data></node>
+    <node id="MY-07"><data key="name">Pulau Pinang</data><data key="code">MY-07</data><data key="wikidata">Q188096</data><data key="lon">100.25764</data><data key="lat">5.36791</data></node>
+    <node id="MY-08"><data key="name">Perak</data><data key="code">MY-08</data><data key="wikidata">Q188953</data><data key="lon">101.01825</data><data key="lat">4.79118</data></node>
+    <node id="MY-09"><data key="name">Perlis</data><data key="code">MY-09</data><data key="wikidata">Q213467</data><data key="lon">100.25952</data><data key="lat">6.48986</data></node>
+    <node id="MY-10"><data key="name">Selangor</data><data key="code">MY-10</data><data key="wikidata">Q189710</data><data key="lon">101.48505</data><data key="lat">3.22973</data></node>
+    <node id="MY-11"><data key="name">Terengganu</data><data key="code">MY-11</data><data key="wikidata">Q189701</data><data key="lon">103.00266</data><data key="lat">4.88005</data></node>
+    <node id="MY-12"><data key="name">Sabah</data><data key="code">MY-12</data><data key="wikidata">Q179029</data><data key="lon">117.21633</data><data key="lat">5.58541</data></node>
+    <node id="MY-13"><data key="name">Sarawak</data><data key="code">MY-13</data><data key="wikidata">Q170462</data><data key="lon">113.59621</data><data key="lat">2.90249</data></node>
+    <node id="MY-14"><data key="name">Kuala Lumpur</data><data key="code">MY-14</data><data key="wikidata">Q1865</data><data key="lon">101.68781</data><data key="lat">3.12896</data></node>
+    <node id="MY-15"><data key="name">Labuan</data><data key="code">MY-15</data><data key="wikidata">Q214504</data><data key="lon">115.22014</data><data key="lat">5.33008</data></node>
+    <node id="MY-16"><data key="name">Putrajaya</data><data key="code">MY-16</data><data key="wikidata">Q182378</data><data key="lon">101.70156</data><data key="lat">2.92385</data></node>
+    <edge source="MY-01" target="MY-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-01" target="MY-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-01" target="MY-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-02" target="MY-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-02" target="MY-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-02" target="MY-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-03" target="MY-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-03" target="MY-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-03" target="MY-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-04" target="MY-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-05" target="MY-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-05" target="MY-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-06" target="MY-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-06" target="MY-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-06" target="MY-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-07" target="MY-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-08" target="MY-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-10" target="MY-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-10" target="MY-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MY-12" target="MY-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

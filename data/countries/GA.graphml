@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GA-1"><data key="name">Estuaire</data><data key="code">GA-1</data><data key="wikidata">Q281109</data><data key="lon">10.23278</data><data key="lat">0.24239</data></node>
+    <node id="GA-2"><data key="name">Haut-Ogooué</data><data key="code">GA-2</data><data key="wikidata">Q654438</data><data key="lon">13.81836</data><data key="lat">-1.23189</data></node>
+    <node id="GA-3"><data key="name">Moyen-Ogooué</data><data key="code">GA-3</data><data key="wikidata">Q590802</data><data key="lon">10.51587</data><data key="lat">-0.52464</data></node>
+    <node id="GA-4"><data key="name">Ngounié</data><data key="code">GA-4</data><data key="wikidata">Q823774</data><data key="lon">10.98614</data><data key="lat">-1.69041</data></node>
+    <node id="GA-5"><data key="name">Nyanga</data><data key="code">GA-5</data><data key="wikidata">Q846017</data><data key="lon">11.05809</data><data key="lat">-3.11277</data></node>
+    <node id="GA-6"><data key="name">Ogooué-Ivindo</data><data key="code">GA-6</data><data key="wikidata">Q823822</data><data key="lon">12.71006</data><data key="lat">0.34176</data></node>
+    <node id="GA-7"><data key="name">Ogooué-Lolo</data><data key="code">GA-7</data><data key="wikidata">Q823762</data><data key="lon">12.51796</data><data key="lat">-0.8206</data></node>
+    <node id="GA-8"><data key="name">Ogooué-Maritime</data><data key="code">GA-8</data><data key="wikidata">Q823751</data><data key="lon">9.73032</data><data key="lat">-1.50884</data></node>
+    <node id="GA-9"><data key="name">Wouleu-Ntem</data><data key="code">GA-9</data><data key="wikidata">Q823800</data><data key="lon">12.2566</data><data key="lat">1.27786</data></node>
+    <edge source="GA-1" target="GA-3"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-1" target="GA-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-1" target="GA-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-2" target="GA-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-2" target="GA-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-3" target="GA-4"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-3" target="GA-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-3" target="GA-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-3" target="GA-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-4" target="GA-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-4" target="GA-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-4" target="GA-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-5" target="GA-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-6" target="GA-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GA-6" target="GA-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

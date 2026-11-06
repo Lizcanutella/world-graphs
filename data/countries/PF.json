@@ -1,0 +1,50 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PF",
+ "kind": "country",
+ "name": "French Polynesia",
+ "level": null,
+ "n": 5,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PF-X01~",
+   "name": "Windward Islands",
+   "wikidata": null,
+   "lon": -149.46577,
+   "lat": -17.67799
+  },
+  {
+   "code": "PF-X02~",
+   "name": "Leeward Islands",
+   "wikidata": null,
+   "lon": -151.43718,
+   "lat": -16.81805
+  },
+  {
+   "code": "PF-X03~",
+   "name": "Tuamotu-Gambier",
+   "wikidata": null,
+   "lon": -140.7287,
+   "lat": -17.76601
+  },
+  {
+   "code": "PF-X04~",
+   "name": "Austral Islands",
+   "wikidata": null,
+   "lon": -149.48957,
+   "lat": -23.37461
+  },
+  {
+   "code": "PF-X05~",
+   "name": "Marquesas Islands",
+   "wikidata": null,
+   "lon": -139.01493,
+   "lat": -9.78216
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": null
+}

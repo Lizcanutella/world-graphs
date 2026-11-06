@@ -1,0 +1,49 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "NC",
+ "kind": "country",
+ "name": "New Caledonia",
+ "level": "provinces",
+ "n": 3,
+ "m": 1,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "NC-X01~",
+   "name": "Îles Loyauté",
+   "wikidata": "Q18655787",
+   "lon": 167.17945,
+   "lat": -20.92742
+  },
+  {
+   "code": "NC-X02~",
+   "name": "Sud",
+   "wikidata": "Q965632",
+   "lon": 166.1825,
+   "lat": -21.85499
+  },
+  {
+   "code": "NC-X03~",
+   "name": "Nord",
+   "wikidata": "Q1612920",
+   "lon": 164.85725,
+   "lat": -20.83856
+  }
+ ],
+ "edges": [
+  {
+   "u": "NC-X02~",
+   "v": "NC-X03~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 124159
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": null
+}

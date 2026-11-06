@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="natural_earth" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ABW"><data key="name">Aruba</data><data key="code">ABW</data><data key="wikidata">Q21203</data><data key="lon">-69.98494</data><data key="lat">12.52704</data></node>
+    <node id="AFG"><data key="name">Afghanistan</data><data key="code">AFG</data><data key="wikidata">Q889</data><data key="lon">65.17784</data><data key="lat">33.93283</data></node>
+    <node id="AGO"><data key="name">Angola</data><data key="code">AGO</data><data key="wikidata">Q916</data><data key="lon">18.86364</data><data key="lat">-11.93149</data></node>
+    <node id="AIA"><data key="name">Anguilla</data><data key="code">AIA</data><data key="wikidata">Q25228</data><data key="lon">-63.04297</data><data key="lat">18.2239</data></node>
+    <node id="ALB"><data key="name">Albania</data><data key="code">ALB</data><data key="wikidata">Q222</data><data key="lon">20.00649</data><data key="lat">41.14564</data></node>
+    <node id="ALD"><data key="name">Aland</data><data key="code">ALD</data><data key="wikidata">Q5689</data><data key="lon">19.93175</data><data key="lat">60.22864</data></node>
+    <node id="AND"><data key="name">Andorra</data><data key="code">AND</data><data key="wikidata">Q228</data><data key="lon">1.56174</data><data key="lat">42.53604</data></node>
+    <node id="ARE"><data key="name">United Arab Emirates</data><data key="code">ARE</data><data key="wikidata">Q878</data><data key="lon">55.13711</data><data key="lat">24.35262</data></node>
+    <node id="ARG"><data key="name">Argentina</data><data key="code">ARG</data><data key="wikidata">Q414</data><data key="lon">-63.96988</data><data key="lat">-37.0905</data></node>
+    <node id="ARM"><data key="name">Armenia</data><data key="code">ARM</data><data key="wikidata">Q399</data><data key="lon">44.83659</data><data key="lat">40.07887</data></node>
+    <node id="ASM"><data key="name">American Samoa</data><data key="code">ASM</data><data key="wikidata">Q16641</data><data key="lon">-170.75345</data><data key="lat">-14.31113</data></node>
+    <node id="ATA"><data key="name">Antarctica</data><data key="code">ATA</data><data key="wikidata">Q51</data><data key="lon">66.27535</data><data key="lat">-76.60565</data></node>
+    <node id="ATC"><data key="name">Ashmore and Cartier Islands</data><data key="code">ATC</data><data key="wikidata">Q133888</data><data key="lon">123.58635</data><data key="lat">-12.43255</data></node>
+    <node id="ATF"><data key="name">French Southern and Antarctic Lands</data><data key="code">ATF</data><data key="wikidata">Q129003</data><data key="lon">70.22451</data><data key="lat">-49.18816</data></node>
+    <node id="ATG"><data key="name">Antigua and Barbuda</data><data key="code">ATG</data><data key="wikidata">Q781</data><data key="lon">-61.78822</data><data key="lat">17.07917</data></node>
+    <node id="AUS"><data key="name">Australia</data><data key="code">AUS</data><data key="wikidata">Q408</data><data key="lon">141.88213</data><data key="lat">-24.91531</data></node>
+    <node id="AUT"><data key="name">Austria</data><data key="code">AUT</data><data key="wikidata">Q40</data><data key="lon">14.7636</data><data key="lat">47.69458</data></node>
+    <node id="AZE"><data key="name">Azerbaijan</data><data key="code">AZE</data><data key="wikidata">Q227</data><data key="lon">47.72576</data><data key="lat">40.13704</data></node>
+    <node id="BDI"><data key="name">Burundi</data><data key="code">BDI</data><data key="wikidata">Q967</data><data key="lon">29.98108</data><data key="lat">-3.38459</data></node>
+    <node id="BEL"><data key="name">Belgium</data><data key="code">BEL</data><data key="wikidata">Q31</data><data key="lon">4.84248</data><data key="lat">50.49821</data></node>
+    <node id="BEN"><data key="name">Benin</data><data key="code">BEN</data><data key="wikidata">Q962</data><data key="lon">2.28103</data><data key="lat">9.30679</data></node>
+    <node id="BFA"><data key="name">Burkina Faso</data><data key="code">BFA</data><data key="wikidata">Q965</data><data key="lon">-1.21098</data><data key="lat">12.22261</data></node>
+    <node id="BGD"><data key="name">Bangladesh</data><data key="code">BGD</data><data key="wikidata">Q902</data><data key="lon">89.85934</data><data key="lat">23.67772</data></node>
+    <node id="BGR"><data key="name">Bulgaria</data><data key="code">BGR</data><data key="wikidata">Q219</data><data key="lon">25.18968</data><data key="lat">42.73222</data></node>
+    <node id="BHR"><data key="name">Bahrain</data><data key="code">BHR</data><data key="wikidata">Q398</data><data key="lon">50.54479</data><data key="lat">26.00208</data></node>
+    <node id="BHS"><data key="name">The Bahamas</data><data key="code">BHS</data><data key="wikidata">Q778</data><data key="lon">-78.33549</data><data key="lat">26.65282</data></node>
+    <node id="BIH"><data key="name">Bosnia and Herzegovina</data><data key="code">BIH</data><data key="wikidata">Q225</data><data key="lon">17.93568</data><data key="lat">43.919</data></node>
+    <node id="BLM"><data key="name">Saint Barthelemy</data><data key="code">BLM</data><data key="wikidata">Q25362</data><data key="lon">-62.82916</data><data key="lat">17.91045</data></node>
+    <node id="BLR"><data key="name">Belarus</data><data key="code">BLR</data><data key="wikidata">Q184</data><data key="lon">28.01873</data><data key="lat">53.69944</data></node>
+    <node id="BLZ"><data key="name">Belize</data><data key="code">BLZ</data><data key="wikidata">Q242</data><data key="lon">-88.72441</data><data key="lat">17.19756</data></node>
+    <node id="BMU"><data key="name">Bermuda</data><data key="code">BMU</data><data key="wikidata">Q23635</data><data key="lon">-64.72802</data><data key="lat">32.3192</data></node>
+    <node id="BOL"><data key="name">Bolivia</data><data key="code">BOL</data><data key="wikidata">Q750</data><data key="lon">-64.17305</data><data key="lat">-16.2865</data></node>
+    <node id="BRA"><data key="name">Brazil</data><data key="code">BRA</data><data key="wikidata">Q155</data><data key="lon">-49.72801</data><data key="lat">-14.23886</data></node>
+    <node id="BRB"><data key="name">Barbados</data><data key="code">BRB</data><data key="wikidata">Q244</data><data key="lon">-59.56616</data><data key="lat">13.19367</data></node>
+    <node id="BRN"><data key="name">Brunei</data><data key="code">BRN</data><data key="wikidata">Q921</data><data key="lon">114.46844</data><data key="lat">4.53794</data></node>
+    <node id="BTN"><data key="name">Bhutan</data><data key="code">BTN</data><data key="wikidata">Q917</data><data key="lon">90.29573</data><data key="lat">27.52397</data></node>
+    <node id="BWA"><data key="name">Botswana</data><data key="code">BWA</data><data key="wikidata">Q963</data><data key="lon">24.47144</data><data key="lat">-22.3453</data></node>
+    <node id="CAF"><data key="name">Central African Republic</data><data key="code">CAF</data><data key="wikidata">Q929</data><data key="lon">20.63312</data><data key="lat">6.61479</data></node>
+    <node id="CAN"><data key="name">Canada</data><data key="code">CAN</data><data key="wikidata">Q16</data><data key="lon">-117.30053</data><data key="lat">56.95795</data></node>
+    <node id="CHE"><data key="name">Switzerland</data><data key="code">CHE</data><data key="wikidata">Q39</data><data key="lon">8.427</data><data key="lat">46.81195</data></node>
+    <node id="CHL"><data key="name">Chile</data><data key="code">CHL</data><data key="wikidata">Q298</data><data key="lon">-71.4964</data><data key="lat">-35.71034</data></node>
+    <node id="CHN"><data key="name">China</data><data key="code">CHN</data><data key="wikidata">Q148</data><data key="lon">87.49381</data><data key="lat">36.90367</data></node>
+    <node id="CIV"><data key="name">Ivory Coast</data><data key="code">CIV</data><data key="wikidata">Q1008</data><data key="lon">-7.10088</data><data key="lat">7.53544</data></node>
+    <node id="CLP"><data key="name">Clipperton Island</data><data key="code">CLP</data><data key="wikidata">Q161258</data><data key="lon">-109.22075</data><data key="lat">10.29741</data></node>
+    <node id="CMR"><data key="name">Cameroon</data><data key="code">CMR</data><data key="wikidata">Q1009</data><data key="lon">13.61094</data><data key="lat">7.37245</data></node>
+    <node id="COD"><data key="name">Democratic Republic of the Congo</data><data key="code">COD</data><data key="wikidata">Q974</data><data key="lon">22.32185</data><data key="lat">-4.04356</data></node>
+    <node id="COG"><data key="name">Republic of the Congo</data><data key="code">COG</data><data key="wikidata">Q971</data><data key="lon">16.06792</data><data key="lat">-0.65422</data></node>
+    <node id="COK"><data key="name">Cook Islands</data><data key="code">COK</data><data key="wikidata">Q26988</data><data key="lon">-159.7868</data><data key="lat">-21.22153</data></node>
+    <node id="COL"><data key="name">Colombia</data><data key="code">COL</data><data key="wikidata">Q739</data><data key="lon">-72.58619</data><data key="lat">4.11347</data></node>
+    <node id="COM"><data key="name">Comoros</data><data key="code">COM</data><data key="wikidata">Q970</data><data key="lon">44.41879</data><data key="lat">-12.22584</data></node>
+    <node id="CPV"><data key="name">Cabo Verde</data><data key="code">CPV</data><data key="wikidata">Q1011</data><data key="lon">-25.18022</data><data key="lat">17.0624</data></node>
+    <node id="CRI"><data key="name">Costa Rica</data><data key="code">CRI</data><data key="wikidata">Q800</data><data key="lon">-83.6334</data><data key="lat">9.62102</data></node>
+    <node id="CSI"><data key="name">Coral Sea Islands</data><data key="code">CSI</data><data key="wikidata">Q172216</data><data key="lon">154.39059</data><data key="lat">-21.02955</data></node>
+    <node id="CUB"><data key="name">Cuba</data><data key="code">CUB</data><data key="wikidata">Q241</data><data key="lon">-77.95216</data><data key="lat">21.51976</data></node>
+    <node id="CUW"><data key="name">Curaçao</data><data key="code">CUW</data><data key="wikidata">Q25279</data><data key="lon">-69.03453</data><data key="lat">12.21206</data></node>
+    <node id="CYM"><data key="name">Cayman Islands</data><data key="code">CYM</data><data key="wikidata">Q5785</data><data key="lon">-81.18109</data><data key="lat">19.32947</data></node>
+    <node id="CYN"><data key="name">Northern Cyprus</data><data key="code">CYN</data><data key="wikidata">Q23681</data><data key="lon">33.81512</data><data key="lat">35.34591</data></node>
+    <node id="CYP"><data key="name">Cyprus</data><data key="code">CYP</data><data key="wikidata">Q229</data><data key="lon">32.97995</data><data key="lat">34.90489</data></node>
+    <node id="CZE"><data key="name">Czechia</data><data key="code">CZE</data><data key="wikidata">Q213</data><data key="lon">15.51259</data><data key="lat">49.80045</data></node>
+    <node id="DEU"><data key="name">Germany</data><data key="code">DEU</data><data key="wikidata">Q183</data><data key="lon">10.48123</data><data key="lat">51.08513</data></node>
+    <node id="DJI"><data key="name">Djibouti</data><data key="code">DJI</data><data key="wikidata">Q977</data><data key="lon">42.49629</data><data key="lat">11.81993</data></node>
+    <node id="DMA"><data key="name">Dominica</data><data key="code">DMA</data><data key="wikidata">Q784</data><data key="lon">-61.34543</data><data key="lat">15.42534</data></node>
+    <node id="DNK"><data key="name">Denmark</data><data key="code">DNK</data><data key="wikidata">Q35</data><data key="lon">9.26047</data><data key="lat">56.27434</data></node>
+    <node id="DOM"><data key="name">Dominican Republic</data><data key="code">DOM</data><data key="wikidata">Q786</data><data key="lon">-70.12528</data><data key="lat">18.77655</data></node>
+    <node id="DZA"><data key="name">Algeria</data><data key="code">DZA</data><data key="wikidata">Q262</data><data key="lon">0.5875</data><data key="lat">28.05099</data></node>
+    <node id="ECU"><data key="name">Ecuador</data><data key="code">ECU</data><data key="wikidata">Q736</data><data key="lon">-78.28143</data><data key="lat">-1.78872</data></node>
+    <node id="EGY"><data key="name">Egypt</data><data key="code">EGY</data><data key="wikidata">Q79</data><data key="lon">29.46414</data><data key="lat">26.82439</data></node>
+    <node id="ERI"><data key="name">Eritrea</data><data key="code">ERI</data><data key="wikidata">Q986</data><data key="lon">38.08383</data><data key="lat">15.18181</data></node>
+    <node id="ESB"><data key="name">Dhekelia Sovereign Base Area</data><data key="code">ESB</data><data key="wikidata">Q9206745</data><data key="lon">33.75969</data><data key="lat">35.02616</data></node>
+    <node id="ESP"><data key="name">Spain</data><data key="code">ESP</data><data key="wikidata">Q29</data><data key="lon">-3.47653</data><data key="lat">39.89948</data></node>
+    <node id="EST"><data key="name">Estonia</data><data key="code">EST</data><data key="wikidata">Q191</data><data key="lon">25.35703</data><data key="lat">58.58849</data></node>
+    <node id="ETH"><data key="name">Ethiopia</data><data key="code">ETH</data><data key="wikidata">Q115</data><data key="lon">38.96907</data><data key="lat">9.1291</data></node>
+    <node id="FIN"><data key="name">Finland</data><data key="code">FIN</data><data key="wikidata">Q33</data><data key="lon">27.41573</data><data key="lat">64.94389</data></node>
+    <node id="FJI"><data key="name">Fiji</data><data key="code">FJI</data><data key="wikidata">Q712</data><data key="lon">177.98577</data><data key="lat">-17.79201</data></node>
+    <node id="FLK"><data key="name">Falkland Islands</data><data key="code">FLK</data><data key="wikidata">Q9648</data><data key="lon">-58.61389</data><data key="lat">-51.79424</data></node>
+    <node id="FRA"><data key="name">France</data><data key="code">FRA</data><data key="wikidata">Q142</data><data key="lon">2.18759</data><data key="lat">46.70585</data></node>
+    <node id="FRO"><data key="name">Faroe Islands</data><data key="code">FRO</data><data key="wikidata">Q4628</data><data key="lon">-6.78831</data><data key="lat">62.19918</data></node>
+    <node id="FSM"><data key="name">Federated States of Micronesia</data><data key="code">FSM</data><data key="wikidata">Q702</data><data key="lon">158.24746</data><data key="lat">6.88504</data></node>
+    <node id="GAB"><data key="name">Gabon</data><data key="code">GAB</data><data key="wikidata">Q1000</data><data key="lon">11.7338</data><data key="lat">-0.8152</data></node>
+    <node id="GBR"><data key="name">United Kingdom</data><data key="code">GBR</data><data key="wikidata">Q145</data><data key="lon">-1.91165</data><data key="lat">54.31409</data></node>
+    <node id="GEO"><data key="name">Georgia</data><data key="code">GEO</data><data key="wikidata">Q230</data><data key="lon">43.63696</data><data key="lat">42.28696</data></node>
+    <node id="GGY"><data key="name">Guernsey</data><data key="code">GGY</data><data key="wikidata">Q25230</data><data key="lon">-2.56847</data><data key="lat">49.47285</data></node>
+    <node id="GHA"><data key="name">Ghana</data><data key="code">GHA</data><data key="wikidata">Q117</data><data key="lon">-1.4706</data><data key="lat">7.95118</data></node>
+    <node id="GIB"><data key="name">Gibraltar</data><data key="code">GIB</data><data key="wikidata">Q1410</data><data key="lon">-5.34628</data><data key="lat">36.12684</data></node>
+    <node id="GIN"><data key="name">Guinea</data><data key="code">GIN</data><data key="wikidata">Q1006</data><data key="lon">-9.67599</data><data key="lat">9.93226</data></node>
+    <node id="GMB"><data key="name">Gambia</data><data key="code">GMB</data><data key="wikidata">Q1005</data><data key="lon">-14.34047</data><data key="lat">13.44278</data></node>
+    <node id="GNB"><data key="name">Guinea-Bissau</data><data key="code">GNB</data><data key="wikidata">Q1007</data><data key="lon">-14.35413</data><data key="lat">11.80178</data></node>
+    <node id="GNQ"><data key="name">Equatorial Guinea</data><data key="code">GNQ</data><data key="wikidata">Q983</data><data key="lon">10.4737</data><data key="lat">1.6306</data></node>
+    <node id="GRC"><data key="name">Greece</data><data key="code">GRC</data><data key="wikidata">Q41</data><data key="lon">21.95268</data><data key="lat">39.07032</data></node>
+    <node id="GRD"><data key="name">Grenada</data><data key="code">GRD</data><data key="wikidata">Q769</data><data key="lon">-61.67748</data><data key="lat">12.12332</data></node>
+    <node id="GRL"><data key="name">Greenland</data><data key="code">GRL</data><data key="wikidata">Q223</data><data key="lon">-40.33342</data><data key="lat">71.811</data></node>
+    <node id="GTM"><data key="name">Guatemala</data><data key="code">GTM</data><data key="wikidata">Q774</data><data key="lon">-90.38592</data><data key="lat">15.77389</data></node>
+    <node id="GUM"><data key="name">Guam</data><data key="code">GUM</data><data key="wikidata">Q16635</data><data key="lon">144.76055</data><data key="lat">13.45962</data></node>
+    <node id="GUY"><data key="name">Guyana</data><data key="code">GUY</data><data key="wikidata">Q734</data><data key="lon">-58.95626</data><data key="lat">4.8625</data></node>
+    <node id="HKG"><data key="name">Hong Kong S.A.R.</data><data key="code">HKG</data><data key="wikidata">Q8646</data><data key="lon">114.056</data><data key="lat">22.4112</data></node>
+    <node id="HMD"><data key="name">Heard Island and McDonald Islands</data><data key="code">HMD</data><data key="wikidata">Q131198</data><data key="lon">73.52287</data><data key="lat">-53.08253</data></node>
+    <node id="HND"><data key="name">Honduras</data><data key="code">HND</data><data key="wikidata">Q783</data><data key="lon">-87.23045</data><data key="lat">14.50466</data></node>
+    <node id="HRV"><data key="name">Croatia</data><data key="code">HRV</data><data key="wikidata">Q224</data><data key="lon">15.32158</data><data key="lat">44.74512</data></node>
+    <node id="HTI"><data key="name">Haiti</data><data key="code">HTI</data><data key="wikidata">Q790</data><data key="lon">-72.28342</data><data key="lat">18.98205</data></node>
+    <node id="HUN"><data key="name">Hungary</data><data key="code">HUN</data><data key="wikidata">Q28</data><data key="lon">19.11919</data><data key="lat">47.15799</data></node>
+    <node id="IDN"><data key="name">Indonesia</data><data key="code">IDN</data><data key="wikidata">Q252</data><data key="lon">113.32523</data><data key="lat">0.10491</data></node>
+    <node id="IMN"><data key="name">Isle of Man</data><data key="code">IMN</data><data key="wikidata">Q9676</data><data key="lon">-4.50997</data><data key="lat">54.23865</data></node>
+    <node id="IND"><data key="name">India</data><data key="code">IND</data><data key="wikidata">Q668</data><data key="lon">80.22651</data><data key="lat">21.78675</data></node>
+    <node id="IOA"><data key="name">Indian Ocean Territories</data><data key="code">IOA</data><data key="wikidata">Q4824275</data><data key="lon">105.64974</data><data key="lat">-10.49635</data></node>
+    <node id="IOT"><data key="name">British Indian Ocean Territory</data><data key="code">IOT</data><data key="wikidata">Q43448</data><data key="lon">71.34757</data><data key="lat">-6.19232</data></node>
+    <node id="IRL"><data key="name">Ireland</data><data key="code">IRL</data><data key="wikidata">Q27</data><data key="lon">-7.95824</data><data key="lat">53.41606</data></node>
+    <node id="IRN"><data key="name">Iran</data><data key="code">IRN</data><data key="wikidata">Q794</data><data key="lon">54.07558</data><data key="lat">32.42167</data></node>
+    <node id="IRQ"><data key="name">Iraq</data><data key="code">IRQ</data><data key="wikidata">Q796</data><data key="lon">42.49211</data><data key="lat">33.22145</data></node>
+    <node id="ISL"><data key="name">Iceland</data><data key="code">ISL</data><data key="wikidata">Q189</data><data key="lon">-18.46765</data><data key="lat">64.96471</data></node>
+    <node id="ISR"><data key="name">Israel</data><data key="code">ISR</data><data key="wikidata">Q801</data><data key="lon">34.66383</data><data key="lat">31.44733</data></node>
+    <node id="ITA"><data key="name">Italy</data><data key="code">ITA</data><data key="wikidata">Q38</data><data key="lon">12.69203</data><data key="lat">42.49249</data></node>
+    <node id="JAM"><data key="name">Jamaica</data><data key="code">JAM</data><data key="wikidata">Q766</data><data key="lon">-77.17583</data><data key="lat">18.11915</data></node>
+    <node id="JEY"><data key="name">Jersey</data><data key="code">JEY</data><data key="wikidata">Q785</data><data key="lon">-2.12238</data><data key="lat">49.21833</data></node>
+    <node id="JOR"><data key="name">Jordan</data><data key="code">JOR</data><data key="wikidata">Q810</data><data key="lon">36.2997</data><data key="lat">31.26985</data></node>
+    <node id="JPN"><data key="name">Japan</data><data key="code">JPN</data><data key="wikidata">Q17</data><data key="lon">143.33765</data><data key="lat">43.46212</data></node>
+    <node id="KAB"><data key="name">Baykonur Cosmodrome</data><data key="code">KAB</data><data key="wikidata">Q165413</data><data key="lon">63.38387</data><data key="lat">45.95725</data></node>
+    <node id="KAZ"><data key="name">Kazakhstan</data><data key="code">KAZ</data><data key="wikidata">Q232</data><data key="lon">65.37557</data><data key="lat">48.00211</data></node>
+    <node id="KEN"><data key="name">Kenya</data><data key="code">KEN</data><data key="wikidata">Q114</data><data key="lon">37.47943</data><data key="lat">0.17276</data></node>
+    <node id="KGZ"><data key="name">Kyrgyzstan</data><data key="code">KGZ</data><data key="wikidata">Q813</data><data key="lon">75.06975</data><data key="lat">41.22467</data></node>
+    <node id="KHM"><data key="name">Cambodia</data><data key="code">KHM</data><data key="wikidata">Q424</data><data key="lon">106.04462</data><data key="lat">12.55931</data></node>
+    <node id="KIR"><data key="name">Kiribati</data><data key="code">KIR</data><data key="wikidata">Q710</data><data key="lon">-155.89462</data><data key="lat">-5.62094</data></node>
+    <node id="KNA"><data key="name">Saint Kitts and Nevis</data><data key="code">KNA</data><data key="wikidata">Q763</data><data key="lon">-62.74947</data><data key="lat">17.31741</data></node>
+    <node id="KOR"><data key="name">South Korea</data><data key="code">KOR</data><data key="wikidata">Q884</data><data key="lon">128.01105</data><data key="lat">36.46045</data></node>
+    <node id="KOS"><data key="name">Kosovo</data><data key="code">KOS</data><data key="wikidata">Q1246</data><data key="lon">20.8963</data><data key="lat">42.55553</data></node>
+    <node id="KWT"><data key="name">Kuwait</data><data key="code">KWT</data><data key="wikidata">Q817</data><data key="lon">47.41774</data><data key="lat">29.3143</data></node>
+    <node id="LAO"><data key="name">Laos</data><data key="code">LAO</data><data key="wikidata">Q819</data><data key="lon">104.68352</data><data key="lat">18.2055</data></node>
+    <node id="LBN"><data key="name">Lebanon</data><data key="code">LBN</data><data key="wikidata">Q822</data><data key="lon">35.90693</data><data key="lat">33.8692</data></node>
+    <node id="LBR"><data key="name">Liberia</data><data key="code">LBR</data><data key="wikidata">Q1014</data><data key="lon">-9.6852</data><data key="lat">6.45568</data></node>
+    <node id="LBY"><data key="name">Libya</data><data key="code">LBY</data><data key="wikidata">Q1016</data><data key="lon">17.23161</data><data key="lat">26.34258</data></node>
+    <node id="LCA"><data key="name">Saint Lucia</data><data key="code">LCA</data><data key="wikidata">Q760</data><data key="lon">-60.9777</data><data key="lat">13.91315</data></node>
+    <node id="LIE"><data key="name">Liechtenstein</data><data key="code">LIE</data><data key="wikidata">Q347</data><data key="lon">9.5351</data><data key="lat">47.15736</data></node>
+    <node id="LKA"><data key="name">Sri Lanka</data><data key="code">LKA</data><data key="wikidata">Q854</data><data key="lon">80.66733</data><data key="lat">7.87889</data></node>
+    <node id="LSO"><data key="name">Lesotho</data><data key="code">LSO</data><data key="wikidata">Q1013</data><data key="lon">28.16436</data><data key="lat">-29.6153</data></node>
+    <node id="LTU"><data key="name">Lithuania</data><data key="code">LTU</data><data key="wikidata">Q37</data><data key="lon">24.14687</data><data key="lat">55.17273</data></node>
+    <node id="LUX"><data key="name">Luxembourg</data><data key="code">LUX</data><data key="wikidata">Q32</data><data key="lon">6.06511</data><data key="lat">49.80704</data></node>
+    <node id="LVA"><data key="name">Latvia</data><data key="code">LVA</data><data key="wikidata">Q211</data><data key="lon">24.38329</data><data key="lat">56.86803</data></node>
+    <node id="MAC"><data key="name">Macao S.A.R</data><data key="code">MAC</data><data key="wikidata">Q14773</data><data key="lon">113.55943</data><data key="lat">22.13618</data></node>
+    <node id="MAF"><data key="name">Saint Martin</data><data key="code">MAF</data><data key="wikidata">Q126125</data><data key="lon">-63.0587</data><data key="lat">18.07673</data></node>
+    <node id="MAR"><data key="name">Morocco</data><data key="code">MAR</data><data key="wikidata">Q1028</data><data key="lon">-9.9063</data><data key="lat">28.67975</data></node>
+    <node id="MCO"><data key="name">Monaco</data><data key="code">MCO</data><data key="wikidata">Q235</data><data key="lon">7.40293</data><data key="lat">43.74161</data></node>
+    <node id="MDA"><data key="name">Moldova</data><data key="code">MDA</data><data key="wikidata">Q217</data><data key="lon">28.82301</data><data key="lat">46.97301</data></node>
+    <node id="MDG"><data key="name">Madagascar</data><data key="code">MDG</data><data key="wikidata">Q1019</data><data key="lon">46.72857</data><data key="lat">-18.76902</data></node>
+    <node id="MDV"><data key="name">Maldives</data><data key="code">MDV</data><data key="wikidata">Q826</data><data key="lon">73.53386</data><data key="lat">4.19947</data></node>
+    <node id="MEX"><data key="name">Mexico</data><data key="code">MEX</data><data key="wikidata">Q96</data><data key="lon">-102.25815</data><data key="lat">23.62927</data></node>
+    <node id="MHL"><data key="name">Marshall Islands</data><data key="code">MHL</data><data key="wikidata">Q709</data><data key="lon">166.86686</data><data key="lat">11.15721</data></node>
+    <node id="MKD"><data key="name">North Macedonia</data><data key="code">MKD</data><data key="wikidata">Q221</data><data key="lon">21.73102</data><data key="lat">41.60515</data></node>
+    <node id="MLI"><data key="name">Mali</data><data key="code">MLI</data><data key="wikidata">Q912</data><data key="lon">-0.75406</data><data key="lat">17.60567</data></node>
+    <node id="MLT"><data key="name">Malta</data><data key="code">MLT</data><data key="wikidata">Q233</data><data key="lon">14.43814</data><data key="lat">35.89501</data></node>
+    <node id="MMR"><data key="name">Myanmar</data><data key="code">MMR</data><data key="wikidata">Q836</data><data key="lon">95.90828</data><data key="lat">19.26184</data></node>
+    <node id="MNE"><data key="name">Montenegro</data><data key="code">MNE</data><data key="wikidata">Q236</data><data key="lon">19.28945</data><data key="lat">42.70141</data></node>
+    <node id="MNG"><data key="name">Mongolia</data><data key="code">MNG</data><data key="wikidata">Q711</data><data key="lon">105.40843</data><data key="lat">46.85869</data></node>
+    <node id="MNP"><data key="name">Northern Mariana Islands</data><data key="code">MNP</data><data key="wikidata">Q16644</data><data key="lon">145.21334</data><data key="lat">14.15843</data></node>
+    <node id="MOZ"><data key="name">Mozambique</data><data key="code">MOZ</data><data key="wikidata">Q1029</data><data key="lon">34.67106</data><data key="lat">-18.63747</data></node>
+    <node id="MRT"><data key="name">Mauritania</data><data key="code">MRT</data><data key="wikidata">Q1025</data><data key="lon">-11.48265</data><data key="lat">21.01144</data></node>
+    <node id="MSR"><data key="name">Montserrat</data><data key="code">MSR</data><data key="wikidata">Q13353</data><data key="lon">-62.18813</data><data key="lat">16.75231</data></node>
+    <node id="MUS"><data key="name">Mauritius</data><data key="code">MUS</data><data key="wikidata">Q1027</data><data key="lon">57.583</data><data key="lat">-20.25364</data></node>
+    <node id="MWI"><data key="name">Malawi</data><data key="code">MWI</data><data key="wikidata">Q1020</data><data key="lon">33.63929</data><data key="lat">-13.26388</data></node>
+    <node id="MYS"><data key="name">Malaysia</data><data key="code">MYS</data><data key="wikidata">Q833</data><data key="lon">102.11153</data><data key="lat">3.98945</data></node>
+    <node id="NAM"><data key="name">Namibia</data><data key="code">NAM</data><data key="wikidata">Q1030</data><data key="lon">17.23377</data><data key="lat">-22.95749</data></node>
+    <node id="NCL"><data key="name">New Caledonia</data><data key="code">NCL</data><data key="wikidata">Q33788</data><data key="lon">165.24243</data><data key="lat">-21.23382</data></node>
+    <node id="NER"><data key="name">Niger</data><data key="code">NER</data><data key="wikidata">Q1032</data><data key="lon">9.88311</data><data key="lat">17.60355</data></node>
+    <node id="NFK"><data key="name">Norfolk Island</data><data key="code">NFK</data><data key="wikidata">Q31057</data><data key="lon">167.95695</data><data key="lat">-29.03948</data></node>
+    <node id="NGA"><data key="name">Nigeria</data><data key="code">NGA</data><data key="wikidata">Q1033</data><data key="lon">7.93263</data><data key="lat">9.07622</data></node>
+    <node id="NIC"><data key="name">Nicaragua</data><data key="code">NIC</data><data key="wikidata">Q811</data><data key="lon">-85.55804</data><data key="lat">12.84573</data></node>
+    <node id="NIU"><data key="name">Niue</data><data key="code">NIU</data><data key="wikidata">Q34020</data><data key="lon">-169.86431</data><data key="lat">-19.05804</data></node>
+    <node id="NLD"><data key="name">Netherlands</data><data key="code">NLD</data><data key="wikidata">Q55</data><data key="lon">5.51641</data><data key="lat">52.10563</data></node>
+    <node id="NOR"><data key="name">Norway</data><data key="code">NOR</data><data key="wikidata">Q20</data><data key="lon">22.69698</data><data key="lat">79.85177</data></node>
+    <node id="NPL"><data key="name">Nepal</data><data key="code">NPL</data><data key="wikidata">Q837</data><data key="lon">83.10311</data><data key="lat">28.37663</data></node>
+    <node id="NRU"><data key="name">Nauru</data><data key="code">NRU</data><data key="wikidata">Q697</data><data key="lon">166.93252</data><data key="lat">-0.52125</data></node>
+    <node id="NZL"><data key="name">New Zealand</data><data key="code">NZL</data><data key="wikidata">Q664</data><data key="lon">171.23435</data><data key="lat">-43.59547</data></node>
+    <node id="OMN"><data key="name">Oman</data><data key="code">OMN</data><data key="wikidata">Q842</data><data key="lon">56.96465</data><data key="lat">20.81733</data></node>
+    <node id="PAK"><data key="name">Pakistan</data><data key="code">PAK</data><data key="wikidata">Q843</data><data key="lon">70.08668</data><data key="lat">30.38006</data></node>
+    <node id="PAN"><data key="name">Panama</data><data key="code">PAN</data><data key="wikidata">Q804</data><data key="lon">-81.46731</data><data key="lat">8.41721</data></node>
+    <node id="PCN"><data key="name">Pitcairn Islands</data><data key="code">PCN</data><data key="wikidata">Q35672</data><data key="lon">-128.31689</data><data key="lat">-24.36871</data></node>
+    <node id="PER"><data key="name">Peru</data><data key="code">PER</data><data key="wikidata">Q419</data><data key="lon">-75.76765</data><data key="lat">-9.18342</data></node>
+    <node id="PHL"><data key="name">Philippines</data><data key="code">PHL</data><data key="wikidata">Q928</data><data key="lon">125.24433</data><data key="lat">7.698</data></node>
+    <node id="PLW"><data key="name">Palau</data><data key="code">PLW</data><data key="wikidata">Q695</data><data key="lon">134.58089</data><data key="lat">7.54428</data></node>
+    <node id="PNG"><data key="name">Papua New Guinea</data><data key="code">PNG</data><data key="wikidata">Q691</data><data key="lon">144.36179</data><data key="lat">-6.6399</data></node>
+    <node id="POL"><data key="name">Poland</data><data key="code">POL</data><data key="wikidata">Q36</data><data key="lon">19.15627</data><data key="lat">51.91992</data></node>
+    <node id="PRI"><data key="name">Puerto Rico</data><data key="code">PRI</data><data key="wikidata">Q1183</data><data key="lon">-66.40149</data><data key="lat">18.22116</data></node>
+    <node id="PRK"><data key="name">North Korea</data><data key="code">PRK</data><data key="wikidata">Q423</data><data key="lon">126.7444</data><data key="lat">40.34274</data></node>
+    <node id="PRT"><data key="name">Portugal</data><data key="code">PRT</data><data key="wikidata">Q45</data><data key="lon">-8.29157</data><data key="lat">39.56508</data></node>
+    <node id="PRY"><data key="name">Paraguay</data><data key="code">PRY</data><data key="wikidata">Q733</data><data key="lon">-58.47196</data><data key="lat">-23.43862</data></node>
+    <node id="PSX"><data key="name">Palestine</data><data key="code">PSX</data><data key="wikidata">Q23792</data><data key="lon">35.27563</data><data key="lat">31.94189</data></node>
+    <node id="PYF"><data key="name">French Polynesia</data><data key="code">PYF</data><data key="wikidata">Q30971</data><data key="lon">-139.01493</data><data key="lat">-9.78216</data></node>
+    <node id="QAT"><data key="name">Qatar</data><data key="code">QAT</data><data key="wikidata">Q846</data><data key="lon">51.13794</data><data key="lat">25.36365</data></node>
+    <node id="ROU"><data key="name">Romania</data><data key="code">ROU</data><data key="wikidata">Q218</data><data key="lon">24.24782</data><data key="lat">45.96169</data></node>
+    <node id="RUS"><data key="name">Russia</data><data key="code">RUS</data><data key="wikidata">Q159</data><data key="lon">102.71694</data><data key="lat">59.46461</data></node>
+    <node id="RWA"><data key="name">Rwanda</data><data key="code">RWA</data><data key="wikidata">Q1037</data><data key="lon">30.07342</data><data key="lat">-1.93957</data></node>
+    <node id="SAH"><data key="name">Western Sahara</data><data key="code">SAH</data><data key="wikidata">Q6250</data><data key="lon">-12.59297</data><data key="lat">24.20026</data></node>
+    <node id="SAU"><data key="name">Saudi Arabia</data><data key="code">SAU</data><data key="wikidata">Q851</data><data key="lon">44.66298</data><data key="lat">24.24414</data></node>
+    <node id="SDN"><data key="name">Sudan</data><data key="code">SDN</data><data key="wikidata">Q1049</data><data key="lon">29.77732</data><data key="lat">15.4506</data></node>
+    <node id="SDS"><data key="name">South Sudan</data><data key="code">SDS</data><data key="wikidata">Q958</data><data key="lon">29.11779</data><data key="lat">7.85784</data></node>
+    <node id="SEN"><data key="name">Senegal</data><data key="code">SEN</data><data key="wikidata">Q1041</data><data key="lon">-14.65724</data><data key="lat">14.48858</data></node>
+    <node id="SGP"><data key="name">Singapore</data><data key="code">SGP</data><data key="wikidata">Q334</data><data key="lon">103.83054</data><data key="lat">1.36455</data></node>
+    <node id="SGS"><data key="name">South Georgia and the Islands</data><data key="code">SGS</data><data key="wikidata">Q35086</data><data key="lon">-36.49215</data><data key="lat">-54.42978</data></node>
+    <node id="SHN"><data key="name">Saint Helena</data><data key="code">SHN</data><data key="wikidata">Q34497</data><data key="lon">-12.26518</data><data key="lat">-37.10133</data></node>
+    <node id="SLB"><data key="name">Solomon Islands</data><data key="code">SLB</data><data key="wikidata">Q685</data><data key="lon">160.14815</data><data key="lat">-9.58872</data></node>
+    <node id="SLE"><data key="name">Sierra Leone</data><data key="code">SLE</data><data key="wikidata">Q1044</data><data key="lon">-11.89019</data><data key="lat">8.45964</data></node>
+    <node id="SLV"><data key="name">El Salvador</data><data key="code">SLV</data><data key="wikidata">Q792</data><data key="lon">-88.91183</data><data key="lat">13.80623</data></node>
+    <node id="SMR"><data key="name">San Marino</data><data key="code">SMR</data><data key="wikidata">Q238</data><data key="lon">12.43819</data><data key="lat">43.93418</data></node>
+    <node id="SOL"><data key="name">Somaliland</data><data key="code">SOL</data><data key="wikidata">Q34754</data><data key="lon">46.08281</data><data key="lat">9.7401</data></node>
+    <node id="SOM"><data key="name">Somalia</data><data key="code">SOM</data><data key="wikidata">Q1045</data><data key="lon">46.75713</data><data key="lat">5.12795</data></node>
+    <node id="SPM"><data key="name">Saint Pierre and Miquelon</data><data key="code">SPM</data><data key="wikidata">Q34617</data><data key="lon">-56.19375</data><data key="lat">46.78162</data></node>
+    <node id="SRB"><data key="name">Republic of Serbia</data><data key="code">SRB</data><data key="wikidata">Q403</data><data key="lon">20.99724</data><data key="lat">44.20567</data></node>
+    <node id="STP"><data key="name">São Tomé and Principe</data><data key="code">STP</data><data key="wikidata">Q1039</data><data key="lon">6.60119</data><data key="lat">0.21552</data></node>
+    <node id="SUR"><data key="name">Suriname</data><data key="code">SUR</data><data key="wikidata">Q730</data><data key="lon">-56.1187</data><data key="lat">3.92603</data></node>
+    <node id="SVK"><data key="name">Slovakia</data><data key="code">SVK</data><data key="wikidata">Q214</data><data key="lon">19.64504</data><data key="lat">48.67465</data></node>
+    <node id="SVN"><data key="name">Slovenia</data><data key="code">SVN</data><data key="wikidata">Q215</data><data key="lon">14.61594</data><data key="lat">46.15021</data></node>
+    <node id="SWE"><data key="name">Sweden</data><data key="code">SWE</data><data key="wikidata">Q34</data><data key="lon">14.90512</data><data key="lat">62.19453</data></node>
+    <node id="SWZ"><data key="name">eSwatini</data><data key="code">SWZ</data><data key="wikidata">Q1050</data><data key="lon">31.44785</data><data key="lat">-26.53957</data></node>
+    <node id="SXM"><data key="name">Sint Maarten</data><data key="code">SXM</data><data key="wikidata">Q26273</data><data key="lon">-63.06954</data><data key="lat">18.0395</data></node>
+    <node id="SYC"><data key="name">Seychelles</data><data key="code">SYC</data><data key="wikidata">Q1042</data><data key="lon">46.3496</data><data key="lat">-9.34161</data></node>
+    <node id="SYR"><data key="name">Syria</data><data key="code">SYR</data><data key="wikidata">Q858</data><data key="lon">38.56182</data><data key="lat">34.80813</data></node>
+    <node id="TCA"><data key="name">Turks and Caicos Islands</data><data key="code">TCA</data><data key="wikidata">Q18221</data><data key="lon">-71.75744</data><data key="lat">21.80378</data></node>
+    <node id="TCD"><data key="name">Chad</data><data key="code">TCD</data><data key="wikidata">Q657</data><data key="lon">18.53982</data><data key="lat">15.44434</data></node>
+    <node id="TGO"><data key="name">Togo</data><data key="code">TGO</data><data key="wikidata">Q945</data><data key="lon">1.01512</data><data key="lat">8.63447</data></node>
+    <node id="THA"><data key="name">Thailand</data><data key="code">THA</data><data key="wikidata">Q869</data><data key="lon">101.69302</data><data key="lat">13.03238</data></node>
+    <node id="TJK"><data key="name">Tajikistan</data><data key="code">TJK</data><data key="wikidata">Q863</data><data key="lon">70.92804</data><data key="lat">38.86113</data></node>
+    <node id="TKM"><data key="name">Turkmenistan</data><data key="code">TKM</data><data key="wikidata">Q874</data><data key="lon">59.01532</data><data key="lat">38.96607</data></node>
+    <node id="TLS"><data key="name">East Timor</data><data key="code">TLS</data><data key="wikidata">Q574</data><data key="lon">125.76398</data><data key="lat">-8.88108</data></node>
+    <node id="TON"><data key="name">Tonga</data><data key="code">TON</data><data key="wikidata">Q678</data><data key="lon">-175.28329</data><data key="lat">-21.16607</data></node>
+    <node id="TTO"><data key="name">Trinidad and Tobago</data><data key="code">TTO</data><data key="wikidata">Q754</data><data key="lon">-61.25956</data><data key="lat">10.43999</data></node>
+    <node id="TUN"><data key="name">Tunisia</data><data key="code">TUN</data><data key="wikidata">Q948</data><data key="lon">8.86273</data><data key="lat">33.79141</data></node>
+    <node id="TUR"><data key="name">Turkey</data><data key="code">TUR</data><data key="wikidata">Q43</data><data key="lon">30.06781</data><data key="lat">38.95863</data></node>
+    <node id="TUV"><data key="name">Tuvalu</data><data key="code">TUV</data><data key="wikidata">Q672</data><data key="lon">178.68437</data><data key="lat">-7.47967</data></node>
+    <node id="TWN"><data key="name">Taiwan</data><data key="code">TWN</data><data key="wikidata">Q865</data><data key="lon">120.82792</data><data key="lat">23.61665</data></node>
+    <node id="TZA"><data key="name">United Republic of Tanzania</data><data key="code">TZA</data><data key="wikidata">Q924</data><data key="lon">34.3374</data><data key="lat">-6.36118</data></node>
+    <node id="UGA"><data key="name">Uganda</data><data key="code">UGA</data><data key="wikidata">Q1036</data><data key="lon">31.76406</data><data key="lat">1.37303</data></node>
+    <node id="UKR"><data key="name">Ukraine</data><data key="code">UKR</data><data key="wikidata">Q212</data><data key="lon">28.16684</data><data key="lat">48.79097</data></node>
+    <node id="UMI"><data key="name">United States Minor Outlying Islands</data><data key="code">UMI</data><data key="wikidata">Q16645</data><data key="lon">-162.071</data><data key="lat">5.88036</data></node>
+    <node id="URY"><data key="name">Uruguay</data><data key="code">URY</data><data key="wikidata">Q77</data><data key="lon">-57.06709</data><data key="lat">-32.53522</data></node>
+    <node id="USA"><data key="name">United States of America</data><data key="code">USA</data><data key="wikidata">Q30</data><data key="lon">-93.91575</data><data key="lat">37.05455</data></node>
+    <node id="USG"><data key="name">US Naval Base Guantanamo Bay</data><data key="code">USG</data><data key="wikidata">Q762570</data><data key="lon">-75.20366</data><data key="lat">19.93469</data></node>
+    <node id="UZB"><data key="name">Uzbekistan</data><data key="code">UZB</data><data key="wikidata">Q265</data><data key="lon">63.38958</data><data key="lat">41.37143</data></node>
+    <node id="VAT"><data key="name">Vatican</data><data key="code">VAT</data><data key="wikidata">Q237</data><data key="lon">12.45338</data><data key="lat">41.90323</data></node>
+    <node id="VCT"><data key="name">Saint Vincent and the Grenadines</data><data key="code">VCT</data><data key="wikidata">Q757</data><data key="lon">-61.19705</data><data key="lat">13.26317</data></node>
+    <node id="VEN"><data key="name">Venezuela</data><data key="code">VEN</data><data key="wikidata">Q717</data><data key="lon">-65.41033</data><data key="lat">6.42063</data></node>
+    <node id="VGB"><data key="name">British Virgin Islands</data><data key="code">VGB</data><data key="wikidata">Q25305</data><data key="lon">-64.64193</data><data key="lat">18.41846</data></node>
+    <node id="VIR"><data key="name">United States Virgin Islands</data><data key="code">VIR</data><data key="wikidata">Q11703</data><data key="lon">-64.75742</data><data key="lat">17.73298</data></node>
+    <node id="VNM"><data key="name">Vietnam</data><data key="code">VNM</data><data key="wikidata">Q881</data><data key="lon">107.85285</data><data key="lat">15.96243</data></node>
+    <node id="VUT"><data key="name">Vanuatu</data><data key="code">VUT</data><data key="wikidata">Q686</data><data key="lon">168.35423</data><data key="lat">-17.67514</data></node>
+    <node id="WLF"><data key="name">Wallis and Futuna</data><data key="code">WLF</data><data key="wikidata">Q35555</data><data key="lon">-178.15221</data><data key="lat">-14.26263</data></node>
+    <node id="WSB"><data key="name">Akrotiri Sovereign Base Area</data><data key="code">WSB</data><data key="wikidata">Q9143535</data><data key="lon">32.93607</data><data key="lat">34.63691</data></node>
+    <node id="WSM"><data key="name">Samoa</data><data key="code">WSM</data><data key="wikidata">Q683</data><data key="lon">-172.43057</data><data key="lat">-13.63539</data></node>
+    <node id="YEM"><data key="name">Yemen</data><data key="code">YEM</data><data key="wikidata">Q805</data><data key="lon">47.48585</data><data key="lat">15.80239</data></node>
+    <node id="ZAF"><data key="name">South Africa</data><data key="code">ZAF</data><data key="wikidata">Q258</data><data key="lon">26.12089</data><data key="lat">-28.47459</data></node>
+    <node id="ZMB"><data key="name">Zambia</data><data key="code">ZMB</data><data key="wikidata">Q953</data><data key="lon">25.43363</data><data key="lat">-13.14545</data></node>
+    <node id="ZWE"><data key="name">Zimbabwe</data><data key="code">ZWE</data><data key="wikidata">Q954</data><data key="lon">29.32827</data><data key="lat">-19.00762</data></node>
+    <edge source="AFG" target="CHN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AFG" target="IRN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AFG" target="PAK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AFG" target="TJK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AFG" target="TKM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AFG" target="UZB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AGO" target="COD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AGO" target="COG"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AGO" target="NAM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AGO" target="ZMB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ALB" target="GRC"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ALB" target="KOS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ALB" target="MKD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ALB" target="MNE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AND" target="ESP"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AND" target="FRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARE" target="OMN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARE" target="SAU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARG" target="BOL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARG" target="BRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARG" target="CHL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARG" target="PRY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARG" target="URY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARM" target="AZE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARM" target="GEO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARM" target="IRN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ARM" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="CHE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="CZE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="DEU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="HUN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="ITA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="LIE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="SVK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AUT" target="SVN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AZE" target="GEO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AZE" target="IRN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AZE" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="AZE" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BDI" target="COD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BDI" target="RWA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BDI" target="TZA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEL" target="DEU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEL" target="FRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEL" target="LUX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEL" target="NLD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEN" target="BFA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEN" target="NER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEN" target="NGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BEN" target="TGO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BFA" target="CIV"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BFA" target="GHA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BFA" target="MLI"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BFA" target="NER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BFA" target="TGO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BGD" target="IND"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BGD" target="MMR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BGR" target="GRC"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BGR" target="MKD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BGR" target="ROU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BGR" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BGR" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BIH" target="HRV"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BIH" target="MNE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BIH" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BLR" target="LTU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BLR" target="LVA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BLR" target="POL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BLR" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BLR" target="UKR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BLZ" target="GTM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BLZ" target="MEX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BOL" target="BRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BOL" target="CHL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BOL" target="PER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BOL" target="PRY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="COL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="FRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="GUY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="PER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="PRY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="SUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="URY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRA" target="VEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BRN" target="MYS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BTN" target="CHN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BTN" target="IND"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BWA" target="NAM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BWA" target="ZAF"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="BWA" target="ZWE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CAF" target="CMR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CAF" target="COD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CAF" target="COG"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CAF" target="SDN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CAF" target="SDS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CAF" target="TCD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CAN" target="USA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHE" target="DEU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHE" target="FRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHE" target="ITA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHE" target="LIE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHL" target="PER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="HKG"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="CHN" target="IND"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="KAZ"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="KGZ"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="LAO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="MMR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="MNG"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="NPL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="PAK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="PRK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="TJK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CHN" target="VNM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CIV" target="GHA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CIV" target="GIN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CIV" target="LBR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CIV" target="MLI"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CMR" target="COG"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CMR" target="GAB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CMR" target="GNQ"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CMR" target="NGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CMR" target="TCD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COD" target="COG"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COD" target="RWA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COD" target="SDS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COD" target="UGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COD" target="ZMB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COG" target="GAB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COL" target="ECU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COL" target="PAN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COL" target="PER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="COL" target="VEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CRI" target="NIC"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CRI" target="PAN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CUB" target="USG"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="CYN" target="ESB"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="CYP" target="ESB"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="CYP" target="WSB"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="CZE" target="DEU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CZE" target="POL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="CZE" target="SVK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DEU" target="DNK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DEU" target="FRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DEU" target="LUX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DEU" target="NLD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DEU" target="POL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DJI" target="ERI"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DJI" target="ETH"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DJI" target="SOL"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="DOM" target="HTI"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DZA" target="LBY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DZA" target="MAR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DZA" target="MLI"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DZA" target="MRT"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DZA" target="NER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DZA" target="SAH"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="DZA" target="TUN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ECU" target="PER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="EGY" target="ISR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="EGY" target="LBY"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="EGY" target="PSX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="EGY" target="SDN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ERI" target="ETH"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ERI" target="SDN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ESP" target="FRA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ESP" target="GIB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ESP" target="MAR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ESP" target="PRT"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="EST" target="LVA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="EST" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ETH" target="KEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ETH" target="SDN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ETH" target="SDS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ETH" target="SOL"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="ETH" target="SOM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="FIN" target="NOR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="FIN" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="FIN" target="SWE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="FRA" target="ITA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="FRA" target="LUX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="FRA" target="MCO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="FRA" target="SUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GAB" target="GNQ"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GBR" target="IRL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GEO" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GEO" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GHA" target="TGO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GIN" target="GNB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GIN" target="LBR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GIN" target="MLI"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GIN" target="SEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GIN" target="SLE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GMB" target="SEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GNB" target="SEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GRC" target="MKD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GRC" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GTM" target="HND"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GTM" target="MEX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GTM" target="SLV"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GUY" target="SUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="GUY" target="VEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HND" target="NIC"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HND" target="SLV"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HRV" target="HUN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HRV" target="MNE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HRV" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HRV" target="SVN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HUN" target="ROU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HUN" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HUN" target="SVK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HUN" target="SVN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="HUN" target="UKR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IDN" target="MYS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IDN" target="PNG"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IDN" target="TLS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IND" target="MMR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IND" target="NPL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IND" target="PAK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRN" target="IRQ"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRN" target="PAK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRN" target="TKM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRN" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRQ" target="JOR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRQ" target="KWT"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRQ" target="SAU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRQ" target="SYR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="IRQ" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ISR" target="JOR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ISR" target="LBN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ISR" target="PSX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ISR" target="SYR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ITA" target="SMR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ITA" target="SVN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ITA" target="VAT"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="JOR" target="PSX"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="JOR" target="SAU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="JOR" target="SYR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KAB" target="KAZ"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="KAZ" target="KGZ"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KAZ" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KAZ" target="TKM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KAZ" target="UZB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KEN" target="SDS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KEN" target="SOM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KEN" target="TZA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KEN" target="UGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KGZ" target="TJK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KGZ" target="UZB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KHM" target="LAO"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KHM" target="THA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KHM" target="VNM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KOR" target="PRK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KOS" target="MKD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KOS" target="MNE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KOS" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="KWT" target="SAU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LAO" target="MMR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LAO" target="THA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LAO" target="VNM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LBN" target="SYR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LBR" target="SLE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LBY" target="NER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LBY" target="SDN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LBY" target="TCD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LBY" target="TUN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LSO" target="ZAF"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LTU" target="LVA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LTU" target="POL"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LTU" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="LVA" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MAF" target="SXM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MAR" target="SAH"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MDA" target="ROU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MDA" target="UKR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MEX" target="USA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MKD" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MLI" target="MRT"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MLI" target="NER"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MLI" target="SEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MMR" target="THA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MNE" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MNG" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MOZ" target="MWI"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MOZ" target="SWZ"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MOZ" target="TZA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MOZ" target="ZAF"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MOZ" target="ZMB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MOZ" target="ZWE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MRT" target="SAH"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MRT" target="SEN"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MWI" target="TZA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MWI" target="ZMB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="MYS" target="THA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="NAM" target="ZAF"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="NAM" target="ZMB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="NER" target="NGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="NER" target="TCD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="NGA" target="TCD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="NOR" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="NOR" target="SWE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="OMN" target="SAU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="OMN" target="YEM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="POL" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="POL" target="SVK"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="POL" target="UKR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="PRK" target="RUS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="QAT" target="SAU"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ROU" target="SRB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ROU" target="UKR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="RUS" target="UKR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="RWA" target="TZA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="RWA" target="UGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="SAU" target="YEM"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="SDN" target="SDS"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="SDN" target="TCD"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="SDS" target="UGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="SOL" target="SOM"><data key="sources"></data><data key="corroborated">false</data></edge>
+    <edge source="SVK" target="UKR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="SWZ" target="ZAF"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="SYR" target="TUR"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="TJK" target="UZB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="TKM" target="UZB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="TZA" target="UGA"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="TZA" target="ZMB"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ZAF" target="ZWE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+    <edge source="ZMB" target="ZWE"><data key="sources">wikidata_code</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

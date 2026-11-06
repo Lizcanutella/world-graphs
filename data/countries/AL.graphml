@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AL-01"><data key="name">Berat</data><data key="code">AL-01</data><data key="wikidata">Q189296</data><data key="lon">20.08935</data><data key="lat">40.61812</data></node>
+    <node id="AL-02"><data key="name">Durrës</data><data key="code">AL-02</data><data key="wikidata">Q192853</data><data key="lon">19.53282</data><data key="lat">41.41878</data></node>
+    <node id="AL-03"><data key="name">Elbasan</data><data key="code">AL-03</data><data key="wikidata">Q193790</data><data key="lon">20.1358</data><data key="lat">41.05256</data></node>
+    <node id="AL-04"><data key="name">Fier</data><data key="code">AL-04</data><data key="wikidata">Q231900</data><data key="lon">19.56255</data><data key="lat">40.75037</data></node>
+    <node id="AL-05"><data key="name">Gjirokastër</data><data key="code">AL-05</data><data key="wikidata">Q193454</data><data key="lon">20.20955</data><data key="lat">40.15453</data></node>
+    <node id="AL-06"><data key="name">Korçë</data><data key="code">AL-06</data><data key="wikidata">Q193464</data><data key="lon">20.72578</data><data key="lat">40.58339</data></node>
+    <node id="AL-07"><data key="name">Kukës</data><data key="code">AL-07</data><data key="wikidata">Q231896</data><data key="lon">20.37846</data><data key="lat">42.18394</data></node>
+    <node id="AL-08"><data key="name">Lezhë</data><data key="code">AL-08</data><data key="wikidata">Q193436</data><data key="lon">19.88042</data><data key="lat">41.7941</data></node>
+    <node id="AL-09"><data key="name">Dibër</data><data key="code">AL-09</data><data key="wikidata">Q192866</data><data key="lon">20.17538</data><data key="lat">41.6095</data></node>
+    <node id="AL-10"><data key="name">Shkodër</data><data key="code">AL-10</data><data key="wikidata">Q193438</data><data key="lon">19.57573</data><data key="lat">42.24207</data></node>
+    <node id="AL-11"><data key="name">Tiranë</data><data key="code">AL-11</data><data key="wikidata">Q229892</data><data key="lon">19.84194</data><data key="lat">41.25959</data></node>
+    <node id="AL-12"><data key="name">Vlorë</data><data key="code">AL-12</data><data key="wikidata">Q192849</data><data key="lon">19.75817</data><data key="lat">40.1456</data></node>
+    <edge source="AL-01" target="AL-03"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-01" target="AL-04"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-01" target="AL-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-01" target="AL-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-02" target="AL-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-02" target="AL-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-02" target="AL-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-03" target="AL-04"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-03" target="AL-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-03" target="AL-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-03" target="AL-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-04" target="AL-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-04" target="AL-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-04" target="AL-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-05" target="AL-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-05" target="AL-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-07" target="AL-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-07" target="AL-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-07" target="AL-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-08" target="AL-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-08" target="AL-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AL-09" target="AL-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

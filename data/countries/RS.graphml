@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="RS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="RS-00"><data key="name">Grad Beograd</data><data key="code">RS-00</data><data key="wikidata">Q2074197</data><data key="lon">20.38894</data><data key="lat">44.65144</data></node>
+    <node id="RS-01"><data key="name">Severno-Backi</data><data key="code">RS-01</data><data key="wikidata">Q648758</data><data key="lon">19.55907</data><data key="lat">45.89786</data></node>
+    <node id="RS-02"><data key="name">Srednje-Banatski</data><data key="code">RS-02</data><data key="wikidata">Q425782</data><data key="lon">20.53701</data><data key="lat">45.43087</data></node>
+    <node id="RS-03"><data key="name">Severno-Banatski</data><data key="code">RS-03</data><data key="wikidata">Q728041</data><data key="lon">20.17867</data><data key="lat">45.88425</data></node>
+    <node id="RS-04"><data key="name">Južno-Banatski</data><data key="code">RS-04</data><data key="wikidata">Q720030</data><data key="lon">20.90031</data><data key="lat">44.99088</data></node>
+    <node id="RS-05"><data key="name">Zapadno-Backi</data><data key="code">RS-05</data><data key="wikidata">Q735169</data><data key="lon">19.23749</data><data key="lat">45.73195</data></node>
+    <node id="RS-06"><data key="name">Južno-Backi</data><data key="code">RS-06</data><data key="wikidata">Q648718</data><data key="lon">19.7914</data><data key="lat">45.45652</data></node>
+    <node id="RS-07"><data key="name">Sremski</data><data key="code">RS-07</data><data key="wikidata">Q217331</data><data key="lon">20.0083</data><data key="lat">44.91591</data></node>
+    <node id="RS-08"><data key="name">Macvanski</data><data key="code">RS-08</data><data key="wikidata">Q867803</data><data key="lon">19.49329</data><data key="lat">44.51646</data></node>
+    <node id="RS-09"><data key="name">Kolubarski</data><data key="code">RS-09</data><data key="wikidata">Q1048139</data><data key="lon">19.82655</data><data key="lat">44.30877</data></node>
+    <node id="RS-10"><data key="name">Podunavski</data><data key="code">RS-10</data><data key="wikidata">Q778561</data><data key="lon">20.99069</data><data key="lat">44.45376</data></node>
+    <node id="RS-11"><data key="name">Branicevski</data><data key="code">RS-11</data><data key="wikidata">Q861539</data><data key="lon">21.54524</data><data key="lat">44.44654</data></node>
+    <node id="RS-12"><data key="name">Šumadijski</data><data key="code">RS-12</data><data key="wikidata">Q544118</data><data key="lon">20.83862</data><data key="lat">44.09502</data></node>
+    <node id="RS-13"><data key="name">Pomoravski okrug</data><data key="code">RS-13</data><data key="wikidata">Q867816</data><data key="lon">21.41509</data><data key="lat">43.9883</data></node>
+    <node id="RS-14"><data key="name">Borski</data><data key="code">RS-14</data><data key="wikidata">Q477586</data><data key="lon">22.24719</data><data key="lat">44.30432</data></node>
+    <node id="RS-15"><data key="name">Zajecarski</data><data key="code">RS-15</data><data key="wikidata">Q967339</data><data key="lon">22.03527</data><data key="lat">43.7469</data></node>
+    <node id="RS-16"><data key="name">Zlatiborski</data><data key="code">RS-16</data><data key="wikidata">Q478278</data><data key="lon">19.74161</data><data key="lat">43.58364</data></node>
+    <node id="RS-17"><data key="name">Moravicki</data><data key="code">RS-17</data><data key="wikidata">Q915380</data><data key="lon">20.32619</data><data key="lat">43.75059</data></node>
+    <node id="RS-18"><data key="name">Raški</data><data key="code">RS-18</data><data key="wikidata">Q1061082</data><data key="lon">20.62361</data><data key="lat">43.34402</data></node>
+    <node id="RS-19"><data key="name">Rasinski okrug</data><data key="code">RS-19</data><data key="wikidata">Q1043446</data><data key="lon">21.16157</data><data key="lat">43.4908</data></node>
+    <node id="RS-20"><data key="name">Nišavski</data><data key="code">RS-20</data><data key="wikidata">Q1061076</data><data key="lon">21.95755</data><data key="lat">43.42895</data></node>
+    <node id="RS-21"><data key="name">Toplicki</data><data key="code">RS-21</data><data key="wikidata">Q1048184</data><data key="lon">21.38632</data><data key="lat">43.1148</data></node>
+    <node id="RS-22"><data key="name">Pirotski</data><data key="code">RS-22</data><data key="wikidata">Q580069</data><data key="lon">22.6234</data><data key="lat">43.13646</data></node>
+    <node id="RS-23"><data key="name">Jablanicki</data><data key="code">RS-23</data><data key="wikidata">Q876541</data><data key="lon">21.91855</data><data key="lat">42.91821</data></node>
+    <node id="RS-24"><data key="name">Pcinjski</data><data key="code">RS-24</data><data key="wikidata">Q1061099</data><data key="lon">22.09755</data><data key="lat">42.52741</data></node>
+    <edge source="RS-00" target="RS-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-00" target="RS-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-00" target="RS-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-00" target="RS-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-00" target="RS-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-00" target="RS-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-00" target="RS-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-01" target="RS-03"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-01" target="RS-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-01" target="RS-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-02" target="RS-03"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-02" target="RS-04"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-02" target="RS-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-02" target="RS-07"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-03" target="RS-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-04" target="RS-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-04" target="RS-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-05" target="RS-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-06" target="RS-07"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-07" target="RS-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-08" target="RS-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-08" target="RS-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-09" target="RS-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-09" target="RS-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-09" target="RS-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-10" target="RS-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-10" target="RS-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-10" target="RS-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-11" target="RS-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-11" target="RS-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-12" target="RS-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-12" target="RS-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-12" target="RS-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-13" target="RS-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-13" target="RS-15"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-13" target="RS-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-13" target="RS-19"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-13" target="RS-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-14" target="RS-15"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-15" target="RS-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-15" target="RS-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-16" target="RS-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-16" target="RS-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-17" target="RS-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-18" target="RS-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-19" target="RS-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-19" target="RS-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-20" target="RS-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-20" target="RS-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-20" target="RS-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-21" target="RS-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-22" target="RS-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="RS-23" target="RS-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

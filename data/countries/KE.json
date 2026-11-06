@@ -1,0 +1,297 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KE",
+ "kind": "country",
+ "name": "Kenya",
+ "level": "provinces",
+ "n": 8,
+ "m": 13,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KE-110",
+   "name": "Nairobi",
+   "wikidata": "Q3870",
+   "lon": 36.89659,
+   "lat": -1.27408
+  },
+  {
+   "code": "KE-200",
+   "name": "Central",
+   "wikidata": "Q318666",
+   "lon": 36.97011,
+   "lat": -0.58989
+  },
+  {
+   "code": "KE-300",
+   "name": "Coast",
+   "wikidata": "Q185371",
+   "lon": 39.78715,
+   "lat": -2.35267
+  },
+  {
+   "code": "KE-400",
+   "name": "Eastern",
+   "wikidata": "Q328493",
+   "lon": 38.45964,
+   "lat": 0.69066
+  },
+  {
+   "code": "KE-500",
+   "name": "North-Eastern",
+   "wikidata": "Q390213",
+   "lon": 40.19519,
+   "lat": 1.06053
+  },
+  {
+   "code": "KE-600",
+   "name": "Nyanza",
+   "wikidata": "Q38589",
+   "lon": 34.56364,
+   "lat": -0.55314
+  },
+  {
+   "code": "KE-700",
+   "name": "Rift Valley",
+   "wikidata": "Q38587",
+   "lon": 36.36093,
+   "lat": 0.96697
+  },
+  {
+   "code": "KE-800",
+   "name": "Western",
+   "wikidata": "Q38585",
+   "lon": 34.47921,
+   "lat": 0.5272
+  }
+ ],
+ "edges": [
+  {
+   "u": "KE-110",
+   "v": "KE-200",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67047
+  },
+  {
+   "u": "KE-110",
+   "v": "KE-400",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43403
+  },
+  {
+   "u": "KE-110",
+   "v": "KE-700",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26277
+  },
+  {
+   "u": "KE-200",
+   "v": "KE-400",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 213851
+  },
+  {
+   "u": "KE-200",
+   "v": "KE-700",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 373208
+  },
+  {
+   "u": "KE-300",
+   "v": "KE-400",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 569630
+  },
+  {
+   "u": "KE-300",
+   "v": "KE-500",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 492642
+  },
+  {
+   "u": "KE-300",
+   "v": "KE-700",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61291
+  },
+  {
+   "u": "KE-400",
+   "v": "KE-500",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 514004
+  },
+  {
+   "u": "KE-400",
+   "v": "KE-700",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 851412,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Eastern_Province_(Kenya)"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Eastern_Province,_Kenya"
+    }
+   ]
+  },
+  {
+   "u": "KE-600",
+   "v": "KE-700",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 306745
+  },
+  {
+   "u": "KE-600",
+   "v": "KE-800",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136384
+  },
+  {
+   "u": "KE-700",
+   "v": "KE-800",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 219116
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "KEN-ADM1-32016919",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Public Domain"
+ }
+}

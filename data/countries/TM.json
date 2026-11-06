@@ -1,0 +1,182 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TM",
+ "kind": "country",
+ "name": "Turkmenistan",
+ "level": "regions",
+ "n": 5,
+ "m": 7,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TM-A",
+   "name": "Ahal",
+   "wikidata": "Q399899",
+   "lon": 59.34263,
+   "lat": 37.88014
+  },
+  {
+   "code": "TM-B",
+   "name": "Balkan",
+   "wikidata": "Q486073",
+   "lon": 55.25017,
+   "lat": 39.83582
+  },
+  {
+   "code": "TM-D",
+   "name": "Tashauz",
+   "wikidata": "Q487393",
+   "lon": 58.79243,
+   "lat": 41.1512
+  },
+  {
+   "code": "TM-L",
+   "name": "Chardzhou",
+   "wikidata": "Q487389",
+   "lon": 62.81075,
+   "lat": 39.09025
+  },
+  {
+   "code": "TM-M",
+   "name": "Mary",
+   "wikidata": "Q487401",
+   "lon": 62.35009,
+   "lat": 37.33338
+  }
+ ],
+ "edges": [
+  {
+   "u": "TM-A",
+   "v": "TM-B",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 262132
+  },
+  {
+   "u": "TM-A",
+   "v": "TM-D",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 358930
+  },
+  {
+   "u": "TM-A",
+   "v": "TM-L",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43583
+  },
+  {
+   "u": "TM-A",
+   "v": "TM-M",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 634080
+  },
+  {
+   "u": "TM-B",
+   "v": "TM-D",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 153267
+  },
+  {
+   "u": "TM-D",
+   "v": "TM-L",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 273626
+  },
+  {
+   "u": "TM-L",
+   "v": "TM-M",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 522435
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TKM-ADM1-27578892",
+  "level": "ADM1",
+  "year": "2007",
+  "license": "Public Domain"
+ }
+}

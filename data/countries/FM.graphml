@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="FM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="FM-KSA"><data key="name">Kosrae</data><data key="code">FM-KSA</data><data key="wikidata">Q1785093</data><data key="lon">162.98823</data><data key="lat">5.32726</data></node>
+    <node id="FM-PNI"><data key="name">Pohnpei</data><data key="code">FM-PNI</data><data key="wikidata">Q7771127</data><data key="lon">158.24746</data><data key="lat">6.88504</data></node>
+    <node id="FM-TRK"><data key="name">Chuuk</data><data key="code">FM-TRK</data><data key="wikidata">Q221684</data><data key="lon">151.87824</data><data key="lat">7.44194</data></node>
+    <node id="FM-YAP"><data key="name">Yap</data><data key="code">FM-YAP</data><data key="wikidata">Q11342951</data><data key="lon">138.10812</data><data key="lat">9.50068</data></node>
+  </graph>
+</graphml>

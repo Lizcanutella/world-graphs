@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SH" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SH-AC"><data key="name">Ascension</data><data key="code">SH-AC</data><data key="wikidata">Q31890709</data><data key="lon">-14.35937</data><data key="lat">-7.93336</data></node>
+    <node id="SH-HL"><data key="name">Saint Helena</data><data key="code">SH-HL</data><data key="wikidata">Q134978852</data><data key="lon">-5.71285</data><data key="lat">-15.95452</data></node>
+    <node id="SH-TA"><data key="name">Tristan da Cunha</data><data key="code">SH-TA</data><data key="wikidata">Q34625512</data><data key="lon">-12.26518</data><data key="lat">-37.10133</data></node>
+  </graph>
+</graphml>

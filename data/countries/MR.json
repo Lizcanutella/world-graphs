@@ -1,0 +1,451 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MR",
+ "kind": "country",
+ "name": "Mauritania",
+ "level": "regions",
+ "n": 13,
+ "m": 21,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MR-01",
+   "name": "Hodh ech Chargui",
+   "wikidata": "Q12621",
+   "lon": -7.05359,
+   "lat": 19.32874
+  },
+  {
+   "code": "MR-02",
+   "name": "Hodh el Gharbi",
+   "wikidata": "Q850435",
+   "lon": -9.73333,
+   "lat": 16.55386
+  },
+  {
+   "code": "MR-03",
+   "name": "Assaba",
+   "wikidata": "Q738546",
+   "lon": -11.85654,
+   "lat": 16.71504
+  },
+  {
+   "code": "MR-04",
+   "name": "Gorgol",
+   "wikidata": "Q859831",
+   "lon": -12.69665,
+   "lat": 16.00233
+  },
+  {
+   "code": "MR-05",
+   "name": "Brakna",
+   "wikidata": "Q12632",
+   "lon": -13.26029,
+   "lat": 17.31549
+  },
+  {
+   "code": "MR-06",
+   "name": "Trarza",
+   "wikidata": "Q859581",
+   "lon": -15.11235,
+   "lat": 17.40359
+  },
+  {
+   "code": "MR-07",
+   "name": "Adrar",
+   "wikidata": "Q366626",
+   "lon": -9.43971,
+   "lat": 21.42347
+  },
+  {
+   "code": "MR-08",
+   "name": "Dakhlet Nouadhibou",
+   "wikidata": "Q859573",
+   "lon": -16.04967,
+   "lat": 20.36347
+  },
+  {
+   "code": "MR-09",
+   "name": "Tagant",
+   "wikidata": "Q843903",
+   "lon": -10.5941,
+   "lat": 18.43397
+  },
+  {
+   "code": "MR-10",
+   "name": "Guidimaka",
+   "wikidata": "Q768119",
+   "lon": -12.20461,
+   "lat": 15.40154
+  },
+  {
+   "code": "MR-11",
+   "name": "Tiris Zemmour",
+   "wikidata": "Q859567",
+   "lon": -9.26246,
+   "lat": 24.30393
+  },
+  {
+   "code": "MR-12",
+   "name": "Inchiri",
+   "wikidata": "Q850022",
+   "lon": -15.04707,
+   "lat": 20.16449
+  },
+  {
+   "code": "MR-NKC",
+   "name": "Nouakchott",
+   "wikidata": "Q3688",
+   "lon": -15.90515,
+   "lat": 18.05079
+  }
+ ],
+ "edges": [
+  {
+   "u": "MR-01",
+   "v": "MR-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 313975
+  },
+  {
+   "u": "MR-01",
+   "v": "MR-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 411900
+  },
+  {
+   "u": "MR-01",
+   "v": "MR-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 296950
+  },
+  {
+   "u": "MR-02",
+   "v": "MR-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 309982
+  },
+  {
+   "u": "MR-02",
+   "v": "MR-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 215360
+  },
+  {
+   "u": "MR-03",
+   "v": "MR-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 189244
+  },
+  {
+   "u": "MR-03",
+   "v": "MR-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79025
+  },
+  {
+   "u": "MR-03",
+   "v": "MR-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 361652
+  },
+  {
+   "u": "MR-03",
+   "v": "MR-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 130278
+  },
+  {
+   "u": "MR-04",
+   "v": "MR-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 138616
+  },
+  {
+   "u": "MR-04",
+   "v": "MR-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 128232
+  },
+  {
+   "u": "MR-05",
+   "v": "MR-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 323520
+  },
+  {
+   "u": "MR-05",
+   "v": "MR-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 159103
+  },
+  {
+   "u": "MR-06",
+   "v": "MR-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 180949
+  },
+  {
+   "u": "MR-06",
+   "v": "MR-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 209382
+  },
+  {
+   "u": "MR-06",
+   "v": "MR-NKC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 112111
+  },
+  {
+   "u": "MR-07",
+   "v": "MR-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24456
+  },
+  {
+   "u": "MR-07",
+   "v": "MR-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 557473
+  },
+  {
+   "u": "MR-07",
+   "v": "MR-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 773161
+  },
+  {
+   "u": "MR-07",
+   "v": "MR-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 238061
+  },
+  {
+   "u": "MR-08",
+   "v": "MR-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 389104
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MRT-ADM1-64602211",
+  "level": "ADM1",
+  "year": "2015",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 Unported"
+ }
+}

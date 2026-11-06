@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="PH" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="PH-ABR"><data key="name">Abra</data><data key="code">PH-ABR</data><data key="wikidata">Q13711</data><data key="lon">120.79431</data><data key="lat">17.56094</data></node>
+    <node id="PH-AGN"><data key="name">Agusan del Norte</data><data key="code">PH-AGN</data><data key="wikidata">Q13714</data><data key="lon">125.63096</data><data key="lat">9.24386</data></node>
+    <node id="PH-AGN:Butuan"><data key="name">Butuan</data><data key="code">PH-AGN:Butuan</data><data key="wikidata">Q13714</data><data key="lon">125.5657</data><data key="lat">8.91702</data></node>
+    <node id="PH-AGS"><data key="name">Agusan del Sur</data><data key="code">PH-AGS</data><data key="wikidata">Q13721</data><data key="lon">125.72928</data><data key="lat">8.61048</data></node>
+    <node id="PH-AKL"><data key="name">Aklan</data><data key="code">PH-AKL</data><data key="wikidata">Q13723</data><data key="lon">122.31299</data><data key="lat">11.62663</data></node>
+    <node id="PH-ALB"><data key="name">Albay</data><data key="code">PH-ALB</data><data key="wikidata">Q13726</data><data key="lon">123.56085</data><data key="lat">13.25296</data></node>
+    <node id="PH-ANT"><data key="name">Antique</data><data key="code">PH-ANT</data><data key="wikidata">Q13727</data><data key="lon">122.16005</data><data key="lat">11.13224</data></node>
+    <node id="PH-APA"><data key="name">Apayao</data><data key="code">PH-APA</data><data key="wikidata">Q13728</data><data key="lon">121.20423</data><data key="lat">18.10706</data></node>
+    <node id="PH-AUR"><data key="name">Aurora</data><data key="code">PH-AUR</data><data key="wikidata">Q13730</data><data key="lon">121.42491</data><data key="lat">15.7699</data></node>
+    <node id="PH-BAN"><data key="name">Bataan</data><data key="code">PH-BAN</data><data key="wikidata">Q13739</data><data key="lon">120.414</data><data key="lat">14.67902</data></node>
+    <node id="PH-BAS"><data key="name">Basilan</data><data key="code">PH-BAS</data><data key="wikidata">Q13737</data><data key="lon">122.05711</data><data key="lat">6.57302</data></node>
+    <node id="PH-BCD"><data key="name">Bacolod</data><data key="code">PH-BCD</data><data key="wikidata"></data><data key="lon">123.00177</data><data key="lat">10.66966</data></node>
+    <node id="PH-BEN"><data key="name">Benguet</data><data key="code">PH-BEN</data><data key="wikidata">Q13750</data><data key="lon">120.70042</data><data key="lat">16.54134</data></node>
+    <node id="PH-BEN:Baguio"><data key="name">Baguio</data><data key="code">PH-BEN:Baguio</data><data key="wikidata">Q13750</data><data key="lon">120.61156</data><data key="lat">16.39541</data></node>
+    <node id="PH-BIL"><data key="name">Biliran</data><data key="code">PH-BIL</data><data key="wikidata">Q13751</data><data key="lon">124.4882</data><data key="lat">11.59431</data></node>
+    <node id="PH-BOH"><data key="name">Bohol</data><data key="code">PH-BOH</data><data key="wikidata">Q13752</data><data key="lon">124.2274</data><data key="lat">9.88231</data></node>
+    <node id="PH-BTG"><data key="name">Batangas</data><data key="code">PH-BTG</data><data key="wikidata">Q13744</data><data key="lon">121.1036</data><data key="lat">13.90672</data></node>
+    <node id="PH-BTN"><data key="name">Batanes</data><data key="code">PH-BTN</data><data key="wikidata">Q13740</data><data key="lon">121.84215</data><data key="lat">20.76465</data></node>
+    <node id="PH-BUK"><data key="name">Bukidnon</data><data key="code">PH-BUK</data><data key="wikidata">Q13753</data><data key="lon">125.01264</data><data key="lat">7.99163</data></node>
+    <node id="PH-BUL"><data key="name">Bulacan</data><data key="code">PH-BUL</data><data key="wikidata">Q13755</data><data key="lon">121.10302</data><data key="lat">14.97345</data></node>
+    <node id="PH-CAG"><data key="name">Cagayan</data><data key="code">PH-CAG</data><data key="wikidata">Q13759</data><data key="lon">121.81207</data><data key="lat">18.08377</data></node>
+    <node id="PH-CAM"><data key="name">Camiguin</data><data key="code">PH-CAM</data><data key="wikidata">Q13769</data><data key="lon">124.72358</data><data key="lat">9.16645</data></node>
+    <node id="PH-CAN"><data key="name">Camarines Norte</data><data key="code">PH-CAN</data><data key="wikidata">Q13763</data><data key="lon">122.83196</data><data key="lat">14.08646</data></node>
+    <node id="PH-CAP"><data key="name">Capiz</data><data key="code">PH-CAP</data><data key="wikidata">Q13772</data><data key="lon">122.69013</data><data key="lat">11.38246</data></node>
+    <node id="PH-CAS"><data key="name">Camarines Sur</data><data key="code">PH-CAS</data><data key="wikidata">Q13767</data><data key="lon">123.19366</data><data key="lat">13.67563</data></node>
+    <node id="PH-CAS:Naga"><data key="name">Naga</data><data key="code">PH-CAS:Naga</data><data key="wikidata">Q13767</data><data key="lon">123.24411</data><data key="lat">13.59428</data></node>
+    <node id="PH-CAT"><data key="name">Catanduanes</data><data key="code">PH-CAT</data><data key="wikidata">Q13778</data><data key="lon">124.2711</data><data key="lat">13.80473</data></node>
+    <node id="PH-CAV"><data key="name">Cavite</data><data key="code">PH-CAV</data><data key="wikidata">Q13785</data><data key="lon">120.87618</data><data key="lat">14.28667</data></node>
+    <node id="PH-CEB"><data key="name">Cebu</data><data key="code">PH-CEB</data><data key="wikidata">Q13786</data><data key="lon">123.76495</data><data key="lat">10.33968</data></node>
+    <node id="PH-COM"><data key="name">Compostela Valley</data><data key="code">PH-COM</data><data key="wikidata">Q13789</data><data key="lon">126.04736</data><data key="lat">7.5148</data></node>
+    <node id="PH-DAO"><data key="name">Davao Oriental</data><data key="code">PH-DAO</data><data key="wikidata">Q13806</data><data key="lon">126.32691</data><data key="lat">7.16128</data></node>
+    <node id="PH-DAS"><data key="name">Davao del Sur</data><data key="code">PH-DAS</data><data key="wikidata">Q13794</data><data key="lon">125.55701</data><data key="lat">6.2954</data></node>
+    <node id="PH-DAV"><data key="name">Davao del Norte</data><data key="code">PH-DAV</data><data key="wikidata">Q13792</data><data key="lon">125.61123</data><data key="lat">7.60731</data></node>
+    <node id="PH-DAV:Davao"><data key="name">Davao</data><data key="code">PH-DAV:Davao</data><data key="wikidata"></data><data key="lon">125.37046</data><data key="lat">7.31875</data></node>
+    <node id="PH-EAS"><data key="name">Eastern Samar</data><data key="code">PH-EAS</data><data key="wikidata">Q13809</data><data key="lon">125.38526</data><data key="lat">11.68848</data></node>
+    <node id="PH-GUI"><data key="name">Guimaras</data><data key="code">PH-GUI</data><data key="wikidata">Q13810</data><data key="lon">122.62539</data><data key="lat">10.5882</data></node>
+    <node id="PH-IFU"><data key="name">Ifugao</data><data key="code">PH-IFU</data><data key="wikidata">Q13812</data><data key="lon">121.21666</data><data key="lat">16.84406</data></node>
+    <node id="PH-ILI"><data key="name">Iloilo</data><data key="code">PH-ILI</data><data key="wikidata">Q13825</data><data key="lon">122.60277</data><data key="lat">11.02934</data></node>
+    <node id="PH-ILN"><data key="name">Ilocos Norte</data><data key="code">PH-ILN</data><data key="wikidata">Q13813</data><data key="lon">120.74636</data><data key="lat">18.17558</data></node>
+    <node id="PH-ILS"><data key="name">Ilocos Sur</data><data key="code">PH-ILS</data><data key="wikidata">Q12741</data><data key="lon">120.5175</data><data key="lat">17.2776</data></node>
+    <node id="PH-ISA"><data key="name">Isabela</data><data key="code">PH-ISA</data><data key="wikidata">Q13826</data><data key="lon">122.01974</data><data key="lat">16.95085</data></node>
+    <node id="PH-ISA:Santiago"><data key="name">Santiago</data><data key="code">PH-ISA:Santiago</data><data key="wikidata">Q13826</data><data key="lon">121.54117</data><data key="lat">16.71825</data></node>
+    <node id="PH-KAL"><data key="name">Kalinga</data><data key="code">PH-KAL</data><data key="wikidata">Q13827</data><data key="lon">121.31465</data><data key="lat">17.44085</data></node>
+    <node id="PH-LAG"><data key="name">Laguna</data><data key="code">PH-LAG</data><data key="wikidata">Q13840</data><data key="lon">121.48477</data><data key="lat">14.26632</data></node>
+    <node id="PH-LAN"><data key="name">Lanao del Norte</data><data key="code">PH-LAN</data><data key="wikidata">Q13841</data><data key="lon">123.91466</data><data key="lat">7.95734</data></node>
+    <node id="PH-LAN:Iligan"><data key="name">Iligan</data><data key="code">PH-LAN:Iligan</data><data key="wikidata">Q13841</data><data key="lon">124.47361</data><data key="lat">8.19146</data></node>
+    <node id="PH-LAP"><data key="name">Lapu-Lapu</data><data key="code">PH-LAP</data><data key="wikidata">Q574903</data><data key="lon">123.96715</data><data key="lat">10.28044</data></node>
+    <node id="PH-LAS"><data key="name">Lanao del Sur</data><data key="code">PH-LAS</data><data key="wikidata">Q13843</data><data key="lon">124.35859</data><data key="lat">7.82472</data></node>
+    <node id="PH-LEY"><data key="name">Leyte</data><data key="code">PH-LEY</data><data key="wikidata">Q13844</data><data key="lon">124.87672</data><data key="lat">10.87092</data></node>
+    <node id="PH-LEY:Ormoc"><data key="name">Ormoc</data><data key="code">PH-LEY:Ormoc</data><data key="wikidata">Q13844</data><data key="lon">124.5732</data><data key="lat">11.08762</data></node>
+    <node id="PH-LEY:Tacloban"><data key="name">Tacloban</data><data key="code">PH-LEY:Tacloban</data><data key="wikidata">Q13844</data><data key="lon">124.95967</data><data key="lat">11.26327</data></node>
+    <node id="PH-LUN"><data key="name">La Union</data><data key="code">PH-LUN</data><data key="wikidata">Q13829</data><data key="lon">120.40516</data><data key="lat">16.55574</data></node>
+    <node id="PH-MAD"><data key="name">Marinduque</data><data key="code">PH-MAD</data><data key="wikidata">Q13846</data><data key="lon">121.97264</data><data key="lat">13.38459</data></node>
+    <node id="PH-MAG"><data key="name">Maguindanao</data><data key="code">PH-MAG</data><data key="wikidata">Q13845</data><data key="lon">124.28545</data><data key="lat">7.15837</data></node>
+    <node id="PH-MAS"><data key="name">Masbate</data><data key="code">PH-MAS</data><data key="wikidata">Q13847</data><data key="lon">123.7407</data><data key="lat">12.16173</data></node>
+    <node id="PH-MDC"><data key="name">Mindoro Occidental</data><data key="code">PH-MDC</data><data key="wikidata">Q13867</data><data key="lon">121.01287</data><data key="lat">12.89199</data></node>
+    <node id="PH-MDE"><data key="name">Mandaue</data><data key="code">PH-MDE</data><data key="wikidata"></data><data key="lon">123.94438</data><data key="lat">10.35421</data></node>
+    <node id="PH-MDR"><data key="name">Mindoro Oriental</data><data key="code">PH-MDR</data><data key="wikidata">Q13868</data><data key="lon">121.36756</data><data key="lat">12.89273</data></node>
+    <node id="PH-MNL:Caloocan"><data key="name">Caloocan</data><data key="code">PH-MNL:Caloocan</data><data key="wikidata"></data><data key="lon">121.0563</data><data key="lat">14.73156</data></node>
+    <node id="PH-MNL:Las Pinas"><data key="name">Las Pinas</data><data key="code">PH-MNL:Las Pinas</data><data key="wikidata"></data><data key="lon">120.99567</data><data key="lat">14.45497</data></node>
+    <node id="PH-MNL:Makati"><data key="name">Makati</data><data key="code">PH-MNL:Makati</data><data key="wikidata"></data><data key="lon">121.03007</data><data key="lat">14.55037</data></node>
+    <node id="PH-MNL:Malabon"><data key="name">Malabon</data><data key="code">PH-MNL:Malabon</data><data key="wikidata"></data><data key="lon">120.96592</data><data key="lat">14.6654</data></node>
+    <node id="PH-MNL:Mandaluyong City"><data key="name">Mandaluyong City</data><data key="code">PH-MNL:Mandaluyong City</data><data key="wikidata"></data><data key="lon">121.05018</data><data key="lat">14.57778</data></node>
+    <node id="PH-MNL:Manila"><data key="name">Manila</data><data key="code">PH-MNL:Manila</data><data key="wikidata"></data><data key="lon">120.99501</data><data key="lat">14.5946</data></node>
+    <node id="PH-MNL:Marikina"><data key="name">Marikina</data><data key="code">PH-MNL:Marikina</data><data key="wikidata"></data><data key="lon">121.1227</data><data key="lat">14.63303</data></node>
+    <node id="PH-MNL:Muntinlupa"><data key="name">Muntinlupa</data><data key="code">PH-MNL:Muntinlupa</data><data key="wikidata"></data><data key="lon">121.04028</data><data key="lat">14.40953</data></node>
+    <node id="PH-MNL:Navotas"><data key="name">Navotas</data><data key="code">PH-MNL:Navotas</data><data key="wikidata"></data><data key="lon">120.94564</data><data key="lat">14.66047</data></node>
+    <node id="PH-MNL:Paranaque"><data key="name">Paranaque</data><data key="code">PH-MNL:Paranaque</data><data key="wikidata"></data><data key="lon">121.02451</data><data key="lat">14.48734</data></node>
+    <node id="PH-MNL:Pasay"><data key="name">Pasay</data><data key="code">PH-MNL:Pasay</data><data key="wikidata">Q17189</data><data key="lon">121.00794</data><data key="lat">14.5329</data></node>
+    <node id="PH-MNL:Pasig"><data key="name">Pasig</data><data key="code">PH-MNL:Pasig</data><data key="wikidata"></data><data key="lon">121.09388</data><data key="lat">14.5685</data></node>
+    <node id="PH-MNL:Pateros"><data key="name">Pateros</data><data key="code">PH-MNL:Pateros</data><data key="wikidata"></data><data key="lon">121.08298</data><data key="lat">14.54217</data></node>
+    <node id="PH-MNL:Quezon City"><data key="name">Quezon City</data><data key="code">PH-MNL:Quezon City</data><data key="wikidata"></data><data key="lon">121.07856</data><data key="lat">14.67296</data></node>
+    <node id="PH-MNL:San Juan"><data key="name">San Juan</data><data key="code">PH-MNL:San Juan</data><data key="wikidata"></data><data key="lon">121.05101</data><data key="lat">14.59591</data></node>
+    <node id="PH-MNL:Taguig"><data key="name">Taguig</data><data key="code">PH-MNL:Taguig</data><data key="wikidata"></data><data key="lon">121.06426</data><data key="lat">14.51282</data></node>
+    <node id="PH-MNL:Valenzuela"><data key="name">Valenzuela</data><data key="code">PH-MNL:Valenzuela</data><data key="wikidata"></data><data key="lon">120.97964</data><data key="lat">14.70058</data></node>
+    <node id="PH-MOU"><data key="name">Mountain Province</data><data key="code">PH-MOU</data><data key="wikidata">Q13861</data><data key="lon">121.07651</data><data key="lat">17.07196</data></node>
+    <node id="PH-MSC"><data key="name">Misamis Occidental</data><data key="code">PH-MSC</data><data key="wikidata">Q13857</data><data key="lon">123.71124</data><data key="lat">8.30382</data></node>
+    <node id="PH-MSR"><data key="name">Misamis Oriental</data><data key="code">PH-MSR</data><data key="wikidata">Q13860</data><data key="lon">125.04084</data><data key="lat">8.80075</data></node>
+    <node id="PH-MSR:Cagayan de Oro"><data key="name">Cagayan de Oro</data><data key="code">PH-MSR:Cagayan de Oro</data><data key="wikidata">Q13860</data><data key="lon">124.53708</data><data key="lat">8.37624</data></node>
+    <node id="PH-NCO"><data key="name">Cotabato</data><data key="code">PH-NCO</data><data key="wikidata">Q13791</data><data key="lon">124.86107</data><data key="lat">7.20729</data></node>
+    <node id="PH-NEC"><data key="name">Negros Occidental</data><data key="code">PH-NEC</data><data key="wikidata">Q13862</data><data key="lon">123.00199</data><data key="lat">10.20673</data></node>
+    <node id="PH-NER"><data key="name">Negros Oriental</data><data key="code">PH-NER</data><data key="wikidata">Q13863</data><data key="lon">123.01607</data><data key="lat">9.78181</data></node>
+    <node id="PH-NSA"><data key="name">Northern Samar</data><data key="code">PH-NSA</data><data key="wikidata">Q13864</data><data key="lon">124.83735</data><data key="lat">12.40603</data></node>
+    <node id="PH-NUE"><data key="name">Nueva Ecija</data><data key="code">PH-NUE</data><data key="wikidata">Q13865</data><data key="lon">120.99708</data><data key="lat">15.64013</data></node>
+    <node id="PH-NUV"><data key="name">Nueva Vizcaya</data><data key="code">PH-NUV</data><data key="wikidata">Q13866</data><data key="lon">121.04194</data><data key="lat">16.27947</data></node>
+    <node id="PH-PAM"><data key="name">Pampanga</data><data key="code">PH-PAM</data><data key="wikidata">Q13870</data><data key="lon">120.66811</data><data key="lat">15.02187</data></node>
+    <node id="PH-PAM:Angeles"><data key="name">Angeles</data><data key="code">PH-PAM:Angeles</data><data key="wikidata">Q13870</data><data key="lon">120.58475</data><data key="lat">15.13977</data></node>
+    <node id="PH-PAN"><data key="name">Pangasinan</data><data key="code">PH-PAN</data><data key="wikidata">Q13871</data><data key="lon">120.6384</data><data key="lat">16.00657</data></node>
+    <node id="PH-PAN:Dagupan"><data key="name">Dagupan</data><data key="code">PH-PAN:Dagupan</data><data key="wikidata">Q13871</data><data key="lon">120.36153</data><data key="lat">16.04662</data></node>
+    <node id="PH-PLW"><data key="name">Palawan</data><data key="code">PH-PLW</data><data key="wikidata">Q13869</data><data key="lon">117.85858</data><data key="lat">9.00802</data></node>
+    <node id="PH-PLW:Puerto Princesa"><data key="name">Puerto Princesa</data><data key="code">PH-PLW:Puerto Princesa</data><data key="wikidata">Q13869</data><data key="lon">118.68575</data><data key="lat">9.90681</data></node>
+    <node id="PH-QUE"><data key="name">Quezon</data><data key="code">PH-QUE</data><data key="wikidata">Q13872</data><data key="lon">121.65325</data><data key="lat">14.19164</data></node>
+    <node id="PH-QUE:Lucena"><data key="name">Lucena</data><data key="code">PH-QUE:Lucena</data><data key="wikidata">Q13872</data><data key="lon">121.56778</data><data key="lat">13.93342</data></node>
+    <node id="PH-QUI"><data key="name">Quirino</data><data key="code">PH-QUI</data><data key="wikidata">Q13873</data><data key="lon">121.62786</data><data key="lat">16.30795</data></node>
+    <node id="PH-RIZ"><data key="name">Rizal</data><data key="code">PH-RIZ</data><data key="wikidata">Q13874</data><data key="lon">121.28134</data><data key="lat">14.60195</data></node>
+    <node id="PH-ROM"><data key="name">Romblon</data><data key="code">PH-ROM</data><data key="wikidata">Q13875</data><data key="lon">122.59261</data><data key="lat">12.38168</data></node>
+    <node id="PH-SAR"><data key="name">Sarangani</data><data key="code">PH-SAR</data><data key="wikidata">Q13877</data><data key="lon">125.39127</data><data key="lat">5.99512</data></node>
+    <node id="PH-SCO"><data key="name">South Cotabato</data><data key="code">PH-SCO</data><data key="wikidata">Q13882</data><data key="lon">124.88735</data><data key="lat">6.3066</data></node>
+    <node id="PH-SCO:General Santos"><data key="name">General Santos</data><data key="code">PH-SCO:General Santos</data><data key="wikidata">Q13882</data><data key="lon">125.13587</data><data key="lat">6.14629</data></node>
+    <node id="PH-SIG"><data key="name">Siquijor</data><data key="code">PH-SIG</data><data key="wikidata">Q13879</data><data key="lon">123.57845</data><data key="lat">9.19269</data></node>
+    <node id="PH-SLE"><data key="name">Southern Leyte</data><data key="code">PH-SLE</data><data key="wikidata">Q13884</data><data key="lon">125.15994</data><data key="lat">10.32125</data></node>
+    <node id="PH-SLU"><data key="name">Sulu</data><data key="code">PH-SLU</data><data key="wikidata">Q13887</data><data key="lon">121.15105</data><data key="lat">5.97425</data></node>
+    <node id="PH-SOR"><data key="name">Sorsogon</data><data key="code">PH-SOR</data><data key="wikidata">Q13881</data><data key="lon">123.97235</data><data key="lat">12.82506</data></node>
+    <node id="PH-SUK"><data key="name">Sultan Kudarat</data><data key="code">PH-SUK</data><data key="wikidata">Q13885</data><data key="lon">124.32758</data><data key="lat">6.49689</data></node>
+    <node id="PH-SUN"><data key="name">Surigao del Norte</data><data key="code">PH-SUN</data><data key="wikidata">Q13889</data><data key="lon">125.59679</data><data key="lat">9.56517</data></node>
+    <node id="PH-SUR"><data key="name">Surigao del Sur</data><data key="code">PH-SUR</data><data key="wikidata">Q13891</data><data key="lon">126.13917</data><data key="lat">8.69579</data></node>
+    <node id="PH-TAR"><data key="name">Tarlac</data><data key="code">PH-TAR</data><data key="wikidata">Q13892</data><data key="lon">120.46602</data><data key="lat">15.51859</data></node>
+    <node id="PH-TAW"><data key="name">Tawi-Tawi</data><data key="code">PH-TAW</data><data key="wikidata">Q13893</data><data key="lon">120.02917</data><data key="lat">5.19961</data></node>
+    <node id="PH-WSA"><data key="name">Samar</data><data key="code">PH-WSA</data><data key="wikidata">Q13876</data><data key="lon">125.14525</data><data key="lat">11.71027</data></node>
+    <node id="PH-ZAN"><data key="name">Zamboanga del Norte</data><data key="code">PH-ZAN</data><data key="wikidata">Q13899</data><data key="lon">122.4633</data><data key="lat">7.93194</data></node>
+    <node id="PH-ZAN:Zamboanga"><data key="name">Zamboanga</data><data key="code">PH-ZAN:Zamboanga</data><data key="wikidata">Q13899</data><data key="lon">122.20702</data><data key="lat">7.19987</data></node>
+    <node id="PH-ZAS"><data key="name">Zamboanga del Sur</data><data key="code">PH-ZAS</data><data key="wikidata">Q13900</data><data key="lon">123.26743</data><data key="lat">7.78388</data></node>
+    <node id="PH-ZMB"><data key="name">Zambales</data><data key="code">PH-ZMB</data><data key="wikidata">Q13895</data><data key="lon">120.11897</data><data key="lat">15.30041</data></node>
+    <node id="PH-ZMB:Olongapo"><data key="name">Olongapo</data><data key="code">PH-ZMB:Olongapo</data><data key="wikidata">Q13895</data><data key="lon">120.32515</data><data key="lat">14.86868</data></node>
+    <node id="PH-ZSI"><data key="name">Zamboanga Sibugay</data><data key="code">PH-ZSI</data><data key="wikidata">Q13902</data><data key="lon">122.9485</data><data key="lat">7.70254</data></node>
+    <edge source="PH-ABR" target="PH-APA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ABR" target="PH-ILN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ABR" target="PH-ILS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ABR" target="PH-KAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ABR" target="PH-MOU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGN" target="PH-AGN:Butuan"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-AGN" target="PH-AGS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-AGN" target="PH-MSR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGN" target="PH-SUN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGN" target="PH-SUR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGN:Butuan" target="PH-AGS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-AGS" target="PH-BUK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGS" target="PH-COM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGS" target="PH-DAO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGS" target="PH-DAV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGS" target="PH-MSR"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AGS" target="PH-SUR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AKL" target="PH-ANT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AKL" target="PH-CAP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ALB" target="PH-CAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ALB" target="PH-SOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ANT" target="PH-CAP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ANT" target="PH-ILI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-APA" target="PH-CAG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-APA" target="PH-ILN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-APA" target="PH-KAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AUR" target="PH-BUL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AUR" target="PH-ISA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AUR" target="PH-NUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AUR" target="PH-NUV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AUR" target="PH-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-AUR" target="PH-QUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BAN" target="PH-PAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BAN" target="PH-ZMB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BAN" target="PH-ZMB:Olongapo"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BCD" target="PH-NEC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-BEN" target="PH-BEN:Baguio"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-BEN" target="PH-IFU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BEN" target="PH-ILS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BEN" target="PH-LUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BEN" target="PH-MOU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BEN" target="PH-NUV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BEN" target="PH-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BTG" target="PH-CAV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BTG" target="PH-LAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BTG" target="PH-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUK" target="PH-DAV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUK" target="PH-DAV:Davao"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUK" target="PH-LAN:Iligan"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUK" target="PH-LAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUK" target="PH-MSR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUK" target="PH-MSR:Cagayan de Oro"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUK" target="PH-NCO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUL" target="PH-MNL:Caloocan"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-BUL" target="PH-MNL:Malabon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-BUL" target="PH-MNL:Navotas"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-BUL" target="PH-MNL:Quezon City"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-BUL" target="PH-MNL:Valenzuela"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-BUL" target="PH-NUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUL" target="PH-PAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUL" target="PH-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-BUL" target="PH-RIZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAG" target="PH-ILN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAG" target="PH-ISA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAG" target="PH-KAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAN" target="PH-CAS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAN" target="PH-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAP" target="PH-ILI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAS" target="PH-CAS:Naga"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-CAS" target="PH-QUE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAV" target="PH-LAG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-CAV" target="PH-MNL:Las Pinas"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-CAV" target="PH-MNL:Muntinlupa"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-CEB" target="PH-MDE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-COM" target="PH-DAO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-COM" target="PH-DAV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAO" target="PH-SUR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAS" target="PH-DAV:Davao"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAS" target="PH-NCO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAS" target="PH-SAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAS" target="PH-SCO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAS" target="PH-SUK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAV" target="PH-DAV:Davao"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-DAV:Davao" target="PH-NCO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-EAS" target="PH-NSA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-EAS" target="PH-WSA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-IFU" target="PH-ISA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-IFU" target="PH-ISA:Santiago"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-IFU" target="PH-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-IFU" target="PH-NUV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ILN" target="PH-ILS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ILS" target="PH-LUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ILS" target="PH-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ISA" target="PH-ISA:Santiago"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-ISA" target="PH-KAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ISA" target="PH-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ISA" target="PH-QUI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ISA:Santiago" target="PH-NUV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-ISA:Santiago" target="PH-QUI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-KAL" target="PH-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAG" target="PH-MNL:Muntinlupa"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-LAG" target="PH-QUE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAG" target="PH-RIZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAN" target="PH-LAN:Iligan"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-LAN" target="PH-LAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAN" target="PH-ZAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAN:Iligan" target="PH-LAS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAN:Iligan" target="PH-MSR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAN:Iligan" target="PH-MSR:Cagayan de Oro"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAS" target="PH-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LAS" target="PH-NCO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LEY" target="PH-LEY:Ormoc"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-LEY" target="PH-LEY:Tacloban"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-LEY" target="PH-SLE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-LUN" target="PH-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-MAG" target="PH-NCO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-MAG" target="PH-SUK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-MDC" target="PH-MDR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-MNL:Caloocan" target="PH-MNL:Malabon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Caloocan" target="PH-MNL:Manila"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Caloocan" target="PH-MNL:Navotas"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Caloocan" target="PH-MNL:Quezon City"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Caloocan" target="PH-MNL:Valenzuela"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Las Pinas" target="PH-MNL:Muntinlupa"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Las Pinas" target="PH-MNL:Paranaque"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Makati" target="PH-MNL:Mandaluyong City"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Makati" target="PH-MNL:Manila"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Makati" target="PH-MNL:Pasay"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Makati" target="PH-MNL:Pasig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Makati" target="PH-MNL:Pateros"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Makati" target="PH-MNL:Taguig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Malabon" target="PH-MNL:Navotas"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Malabon" target="PH-MNL:Valenzuela"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Mandaluyong City" target="PH-MNL:Manila"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Mandaluyong City" target="PH-MNL:Pasig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Mandaluyong City" target="PH-MNL:Quezon City"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Mandaluyong City" target="PH-MNL:San Juan"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Manila" target="PH-MNL:Navotas"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Manila" target="PH-MNL:Pasay"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Manila" target="PH-MNL:Quezon City"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Manila" target="PH-MNL:San Juan"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Marikina" target="PH-MNL:Pasig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Marikina" target="PH-MNL:Quezon City"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Marikina" target="PH-RIZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Muntinlupa" target="PH-MNL:Paranaque"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Muntinlupa" target="PH-MNL:Taguig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Paranaque" target="PH-MNL:Pasay"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Paranaque" target="PH-MNL:Taguig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Pasay" target="PH-MNL:Taguig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Pasig" target="PH-MNL:Pateros"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Pasig" target="PH-MNL:Quezon City"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Pasig" target="PH-MNL:Taguig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Pasig" target="PH-RIZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Pateros" target="PH-MNL:Taguig"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Quezon City" target="PH-MNL:San Juan"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Quezon City" target="PH-MNL:Valenzuela"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MNL:Quezon City" target="PH-RIZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-MSC" target="PH-ZAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-MSC" target="PH-ZAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-MSR" target="PH-MSR:Cagayan de Oro"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-NCO" target="PH-SUK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NEC" target="PH-NER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NSA" target="PH-WSA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NUE" target="PH-NUV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NUE" target="PH-PAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NUE" target="PH-PAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NUE" target="PH-TAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NUV" target="PH-PAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-NUV" target="PH-QUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-PAM" target="PH-PAM:Angeles"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-PAM" target="PH-TAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-PAM" target="PH-ZMB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-PAN" target="PH-PAN:Dagupan"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-PAN" target="PH-TAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-PAN" target="PH-ZMB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-PLW" target="PH-PLW:Puerto Princesa"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-QUE" target="PH-QUE:Lucena"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-QUE" target="PH-RIZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-SAR" target="PH-SCO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-SAR" target="PH-SCO:General Santos"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="PH-SAR" target="PH-SUK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-SCO" target="PH-SCO:General Santos"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="PH-SCO" target="PH-SUK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-SUN" target="PH-SUR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-TAR" target="PH-ZMB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ZAN" target="PH-ZAN:Zamboanga"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ZAN" target="PH-ZAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ZAN" target="PH-ZSI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ZAN:Zamboanga" target="PH-ZSI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ZAS" target="PH-ZSI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PH-ZMB" target="PH-ZMB:Olongapo"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

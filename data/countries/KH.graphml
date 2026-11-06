@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KH" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KH-1"><data key="name">Bântéay Méanchey</data><data key="code">KH-1</data><data key="wikidata">Q3817</data><data key="lon">103.06972</data><data key="lat">13.82128</data></node>
+    <node id="KH-10"><data key="name">Krâchéh</data><data key="code">KH-10</data><data key="wikidata">Q785896</data><data key="lon">106.05159</data><data key="lat">12.65654</data></node>
+    <node id="KH-11"><data key="name">Môndól Kiri</data><data key="code">KH-11</data><data key="wikidata">Q652830</data><data key="lon">106.98983</data><data key="lat">12.74214</data></node>
+    <node id="KH-12"><data key="name">Phnom Penh</data><data key="code">KH-12</data><data key="wikidata">Q1850</data><data key="lon">104.87028</data><data key="lat">11.55544</data></node>
+    <node id="KH-13"><data key="name">Preah Vihéar</data><data key="code">KH-13</data><data key="wikidata">Q502151</data><data key="lon">104.96963</data><data key="lat">13.77907</data></node>
+    <node id="KH-14"><data key="name">Prey Vêng</data><data key="code">KH-14</data><data key="wikidata">Q856788</data><data key="lon">105.4585</data><data key="lat">11.3628</data></node>
+    <node id="KH-15"><data key="name">Pouthisat</data><data key="code">KH-15</data><data key="wikidata">Q834464</data><data key="lon">103.68106</data><data key="lat">12.48477</data></node>
+    <node id="KH-16"><data key="name">Rôtânôkiri</data><data key="code">KH-16</data><data key="wikidata">Q747846</data><data key="lon">107.03854</data><data key="lat">13.94132</data></node>
+    <node id="KH-17"><data key="name">Siemréab</data><data key="code">KH-17</data><data key="wikidata">Q652818</data><data key="lon">103.94814</data><data key="lat">13.58831</data></node>
+    <node id="KH-18"><data key="name">Krong Preah Sihanouk</data><data key="code">KH-18</data><data key="wikidata">Q220966</data><data key="lon">103.81971</data><data key="lat">10.74199</data></node>
+    <node id="KH-19"><data key="name">Stœng Trêng</data><data key="code">KH-19</data><data key="wikidata">Q837889</data><data key="lon">106.14404</data><data key="lat">13.85294</data></node>
+    <node id="KH-2"><data key="name">Batdâmbâng</data><data key="code">KH-2</data><data key="wikidata">Q810923</data><data key="lon">103.22077</data><data key="lat">12.94337</data></node>
+    <node id="KH-20"><data key="name">Svay Rieng</data><data key="code">KH-20</data><data key="wikidata">Q751864</data><data key="lon">105.80118</data><data key="lat">11.17126</data></node>
+    <node id="KH-21"><data key="name">Takêv</data><data key="code">KH-21</data><data key="wikidata">Q613345</data><data key="lon">104.79196</data><data key="lat">10.93446</data></node>
+    <node id="KH-22"><data key="name">Otdar Mean Chey</data><data key="code">KH-22</data><data key="wikidata">Q629538</data><data key="lon">103.49469</data><data key="lat">14.16001</data></node>
+    <node id="KH-23"><data key="name">Kep</data><data key="code">KH-23</data><data key="wikidata">Q852089</data><data key="lon">104.34772</data><data key="lat">10.51639</data></node>
+    <node id="KH-24"><data key="name">Krong Pailin</data><data key="code">KH-24</data><data key="wikidata">Q506646</data><data key="lon">102.61739</data><data key="lat">12.89368</data></node>
+    <node id="KH-3"><data key="name">Kâmpóng Cham</data><data key="code">KH-3</data><data key="wikidata">Q142258</data><data key="lon">105.48159</data><data key="lat">12.07393</data></node>
+    <node id="KH-4"><data key="name">Kâmpóng Chhnang</data><data key="code">KH-4</data><data key="wikidata">Q877468</data><data key="lon">104.53927</data><data key="lat">12.15598</data></node>
+    <node id="KH-5"><data key="name">Kâmpóng Spœ</data><data key="code">KH-5</data><data key="wikidata">Q652867</data><data key="lon">104.28235</data><data key="lat">11.59835</data></node>
+    <node id="KH-6"><data key="name">Kâmpóng Thum</data><data key="code">KH-6</data><data key="wikidata">Q502148</data><data key="lon">104.96219</data><data key="lat">12.81808</data></node>
+    <node id="KH-7"><data key="name">Kâmpôt</data><data key="code">KH-7</data><data key="wikidata">Q748470</data><data key="lon">104.33604</data><data key="lat">10.78224</data></node>
+    <node id="KH-8"><data key="name">Kândal</data><data key="code">KH-8</data><data key="wikidata">Q466031</data><data key="lon">105.03011</data><data key="lat">11.39772</data></node>
+    <node id="KH-9"><data key="name">Kaôh Kong</data><data key="code">KH-9</data><data key="wikidata">Q466000</data><data key="lon">103.61643</data><data key="lat">11.44292</data></node>
+    <edge source="KH-1" target="KH-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-1" target="KH-2"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-1" target="KH-22"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KH-10" target="KH-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-10" target="KH-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-10" target="KH-3"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-10" target="KH-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-11" target="KH-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-11" target="KH-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-12" target="KH-8"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KH-13" target="KH-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-13" target="KH-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-13" target="KH-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-14" target="KH-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-14" target="KH-3"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-14" target="KH-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-15" target="KH-2"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-15" target="KH-4"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-15" target="KH-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-15" target="KH-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-16" target="KH-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-17" target="KH-2"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-17" target="KH-22"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KH-17" target="KH-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-18" target="KH-7"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KH-18" target="KH-9"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KH-19" target="KH-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-2" target="KH-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-21" target="KH-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-21" target="KH-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-21" target="KH-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-23" target="KH-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-3" target="KH-4"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-3" target="KH-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-3" target="KH-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-4" target="KH-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-4" target="KH-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-4" target="KH-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-5" target="KH-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-5" target="KH-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KH-5" target="KH-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,79 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MS",
+ "kind": "country",
+ "name": "Montserrat",
+ "level": "parishes",
+ "n": 3,
+ "m": 3,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MS-A",
+   "name": "Saint Anthony",
+   "wikidata": "Q3463656",
+   "lon": -62.18574,
+   "lat": 16.71243
+  },
+  {
+   "code": "MS-G",
+   "name": "Saint Georges",
+   "wikidata": "Q3463799",
+   "lon": -62.16794,
+   "lat": 16.74944
+  },
+  {
+   "code": "MS-P",
+   "name": "Saint Peter",
+   "wikidata": "Q3464018",
+   "lon": -62.19492,
+   "lat": 16.78575
+  }
+ ],
+ "edges": [
+  {
+   "u": "MS-A",
+   "v": "MS-G",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4700,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Saint_Anthony_Parish,_Montserrat"
+    }
+   ]
+  },
+  {
+   "u": "MS-A",
+   "v": "MS-P",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4092
+  },
+  {
+   "u": "MS-G",
+   "v": "MS-P",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4713
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": null
+}

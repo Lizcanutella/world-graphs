@@ -1,0 +1,421 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CL",
+ "kind": "country",
+ "name": "Chile",
+ "level": "regions",
+ "n": 16,
+ "m": 16,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CL-AI",
+   "name": "Aisén del General Carlos Ibáñez del Campo",
+   "wikidata": "Q2181",
+   "lon": -72.88064,
+   "lat": -46.44244
+  },
+  {
+   "code": "CL-AN",
+   "name": "Antofagasta",
+   "wikidata": "Q2118",
+   "lon": -68.82048,
+   "lat": -23.4775
+  },
+  {
+   "code": "CL-AP",
+   "name": "Arica y Parinacota",
+   "wikidata": "Q2109",
+   "lon": -69.73672,
+   "lat": -18.33865
+  },
+  {
+   "code": "CL-AR",
+   "name": "La Araucanía",
+   "wikidata": "Q2176",
+   "lon": -72.1531,
+   "lat": -38.68919
+  },
+  {
+   "code": "CL-AT",
+   "name": "Atacama",
+   "wikidata": "Q2120",
+   "lon": -69.95963,
+   "lat": -27.51343
+  },
+  {
+   "code": "CL-BI",
+   "name": "Bío-Bío",
+   "wikidata": "Q2170",
+   "lon": -72.35942,
+   "lat": -37.45717
+  },
+  {
+   "code": "CL-CO",
+   "name": "Coquimbo",
+   "wikidata": "Q2121",
+   "lon": -70.98535,
+   "lat": -30.6419
+  },
+  {
+   "code": "CL-LI",
+   "name": "Libertador General Bernardo O'Higgins",
+   "wikidata": "Q2133",
+   "lon": -71.086,
+   "lat": -34.45943
+  },
+  {
+   "code": "CL-LL",
+   "name": "Los Lagos",
+   "wikidata": "Q2178",
+   "lon": -72.2513,
+   "lat": -42.16052
+  },
+  {
+   "code": "CL-LR",
+   "name": "Los Ríos",
+   "wikidata": "Q2177",
+   "lon": -72.68082,
+   "lat": -40.0236
+  },
+  {
+   "code": "CL-MA",
+   "name": "Magallanes y Antártica Chilena",
+   "wikidata": "Q2189",
+   "lon": -73.0187,
+   "lat": -51.30462
+  },
+  {
+   "code": "CL-ML",
+   "name": "Maule",
+   "wikidata": "Q2166",
+   "lon": -71.52803,
+   "lat": -35.62563
+  },
+  {
+   "code": "CL-NB",
+   "name": "Ñuble",
+   "wikidata": "Q24076693",
+   "lon": -71.91896,
+   "lat": -36.60536
+  },
+  {
+   "code": "CL-RM",
+   "name": "Región Metropolitana de Santiago",
+   "wikidata": "Q2131",
+   "lon": -70.62156,
+   "lat": -33.60774
+  },
+  {
+   "code": "CL-TA",
+   "name": "Tarapacá",
+   "wikidata": "Q2114",
+   "lon": -69.44614,
+   "lat": -20.20265
+  },
+  {
+   "code": "CL-VS",
+   "name": "Valparaíso",
+   "wikidata": "Q219458",
+   "lon": -71.19269,
+   "lat": -32.96897
+  }
+ ],
+ "edges": [
+  {
+   "u": "CL-AI",
+   "v": "CL-LL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136389
+  },
+  {
+   "u": "CL-AI",
+   "v": "CL-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86635
+  },
+  {
+   "u": "CL-AN",
+   "v": "CL-AT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 255726
+  },
+  {
+   "u": "CL-AN",
+   "v": "CL-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 187674
+  },
+  {
+   "u": "CL-AP",
+   "v": "CL-TA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 148858
+  },
+  {
+   "u": "CL-AR",
+   "v": "CL-BI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 365802
+  },
+  {
+   "u": "CL-AR",
+   "v": "CL-LR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 198930
+  },
+  {
+   "u": "CL-AT",
+   "v": "CL-CO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 231526
+  },
+  {
+   "u": "CL-BI",
+   "v": "CL-NB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 258841
+  },
+  {
+   "u": "CL-CO",
+   "v": "CL-VS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 143082
+  },
+  {
+   "u": "CL-LI",
+   "v": "CL-ML",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 180302
+  },
+  {
+   "u": "CL-LI",
+   "v": "CL-RM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 205145
+  },
+  {
+   "u": "CL-LI",
+   "v": "CL-VS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15718
+  },
+  {
+   "u": "CL-LL",
+   "v": "CL-LR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 182909
+  },
+  {
+   "u": "CL-ML",
+   "v": "CL-NB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 186797
+  },
+  {
+   "u": "CL-RM",
+   "v": "CL-VS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 250672
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CHL-ADM1-47653553",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "DK",
+ "kind": "country",
+ "name": "Denmark",
+ "level": "regions",
+ "n": 5,
+ "m": 3,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "DK-81",
+   "name": "Nordjylland",
+   "wikidata": "Q26067",
+   "lon": 9.88144,
+   "lat": 57.1518
+  },
+  {
+   "code": "DK-82",
+   "name": "Midtjylland",
+   "wikidata": "Q26586",
+   "lon": 9.23927,
+   "lat": 56.24384
+  },
+  {
+   "code": "DK-83",
+   "name": "Syddanmark",
+   "wikidata": "Q26061",
+   "lon": 9.12252,
+   "lat": 55.36964
+  },
+  {
+   "code": "DK-84",
+   "name": "Hovedstaden",
+   "wikidata": "Q26073",
+   "lon": 12.30816,
+   "lat": 55.86054
+  },
+  {
+   "code": "DK-85",
+   "name": "Sjaælland",
+   "wikidata": "Q26589",
+   "lon": 11.84543,
+   "lat": 55.28185
+  }
+ ],
+ "edges": [
+  {
+   "u": "DK-81",
+   "v": "DK-82",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78374
+  },
+  {
+   "u": "DK-82",
+   "v": "DK-83",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 132467
+  },
+  {
+   "u": "DK-84",
+   "v": "DK-85",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51062
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "DNK-ADM1-84455774",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

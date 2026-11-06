@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KM-A"><data key="name">Andjouân</data><data key="code">KM-A</data><data key="wikidata">Q231324</data><data key="lon">44.41879</data><data key="lat">-12.22584</data></node>
+    <node id="KM-G"><data key="name">Andjazîdja</data><data key="code">KM-G</data><data key="wikidata">Q244978</data><data key="lon">43.31474</data><data key="lat">-11.64857</data></node>
+    <node id="KM-M"><data key="name">Moûhîlî</data><data key="code">KM-M</data><data key="wikidata">Q271797</data><data key="lon">43.71119</data><data key="lat">-12.30372</data></node>
+  </graph>
+</graphml>

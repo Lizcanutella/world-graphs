@@ -1,0 +1,2302 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "US",
+ "kind": "country",
+ "name": "United States",
+ "level": "states",
+ "n": 51,
+ "m": 107,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "US-AK",
+   "name": "Alaska",
+   "wikidata": "Q797",
+   "lon": -152.00629,
+   "lat": 63.08649
+  },
+  {
+   "code": "US-AL",
+   "name": "Alabama",
+   "wikidata": "Q173",
+   "lon": -86.73497,
+   "lat": 32.62193
+  },
+  {
+   "code": "US-AR",
+   "name": "Arkansas",
+   "wikidata": "Q1612",
+   "lon": -92.45874,
+   "lat": 34.75273
+  },
+  {
+   "code": "US-AZ",
+   "name": "Arizona",
+   "wikidata": "Q816",
+   "lon": -111.68256,
+   "lat": 34.1497
+  },
+  {
+   "code": "US-CA",
+   "name": "California",
+   "wikidata": "Q99",
+   "lon": -119.98368,
+   "lat": 37.26058
+  },
+  {
+   "code": "US-CO",
+   "name": "Colorado",
+   "wikidata": "Q1261",
+   "lon": -105.54702,
+   "lat": 39.03116
+  },
+  {
+   "code": "US-CT",
+   "name": "Connecticut",
+   "wikidata": "Q779",
+   "lon": -72.66025,
+   "lat": 41.53211
+  },
+  {
+   "code": "US-DC",
+   "name": "District of Columbia",
+   "wikidata": "Q3551781",
+   "lon": -76.9916,
+   "lat": 38.9005
+  },
+  {
+   "code": "US-DE",
+   "name": "Delaware",
+   "wikidata": "Q1393",
+   "lon": -75.57669,
+   "lat": 39.1437
+  },
+  {
+   "code": "US-FL",
+   "name": "Florida",
+   "wikidata": "Q812",
+   "lon": -81.68063,
+   "lat": 28.05988
+  },
+  {
+   "code": "US-GA",
+   "name": "Georgia",
+   "wikidata": "Q1428",
+   "lon": -83.25031,
+   "lat": 32.68147
+  },
+  {
+   "code": "US-HI",
+   "name": "Hawaii",
+   "wikidata": "Q782",
+   "lon": -155.45329,
+   "lat": 19.59369
+  },
+  {
+   "code": "US-IA",
+   "name": "Iowa",
+   "wikidata": "Q1546",
+   "lon": -93.15651,
+   "lat": 41.93984
+  },
+  {
+   "code": "US-ID",
+   "name": "Idaho",
+   "wikidata": "Q1221",
+   "lon": -115.44289,
+   "lat": 45.49551
+  },
+  {
+   "code": "US-IL",
+   "name": "Illinois",
+   "wikidata": "Q1204",
+   "lon": -89.45592,
+   "lat": 39.75257
+  },
+  {
+   "code": "US-IN",
+   "name": "Indiana",
+   "wikidata": "Q1415",
+   "lon": -86.17341,
+   "lat": 39.78883
+  },
+  {
+   "code": "US-KS",
+   "name": "Kansas",
+   "wikidata": "Q1558",
+   "lon": -98.33166,
+   "lat": 38.51606
+  },
+  {
+   "code": "US-KY",
+   "name": "Kentucky",
+   "wikidata": "Q1603",
+   "lon": -84.73596,
+   "lat": 37.81955
+  },
+  {
+   "code": "US-LA",
+   "name": "Louisiana",
+   "wikidata": "Q1588",
+   "lon": -91.64762,
+   "lat": 30.97464
+  },
+  {
+   "code": "US-MA",
+   "name": "Massachusetts",
+   "wikidata": "Q771",
+   "lon": -72.09045,
+   "lat": 42.19025
+  },
+  {
+   "code": "US-MD",
+   "name": "Maryland",
+   "wikidata": "Q1391",
+   "lon": -76.73971,
+   "lat": 38.83238
+  },
+  {
+   "code": "US-ME",
+   "name": "Maine",
+   "wikidata": "Q724",
+   "lon": -69.17216,
+   "lat": 45.27024
+  },
+  {
+   "code": "US-MI",
+   "name": "Michigan",
+   "wikidata": "Q1166",
+   "lon": -86.66898,
+   "lat": 46.16912
+  },
+  {
+   "code": "US-MN",
+   "name": "Minnesota",
+   "wikidata": "Q1527",
+   "lon": -94.44494,
+   "lat": 46.24779
+  },
+  {
+   "code": "US-MO",
+   "name": "Missouri",
+   "wikidata": "Q1581",
+   "lon": -92.49892,
+   "lat": 38.31905
+  },
+  {
+   "code": "US-MS",
+   "name": "Mississippi",
+   "wikidata": "Q1494",
+   "lon": -89.76456,
+   "lat": 32.59126
+  },
+  {
+   "code": "US-MT",
+   "name": "Montana",
+   "wikidata": "Q1212",
+   "lon": -109.34277,
+   "lat": 46.68727
+  },
+  {
+   "code": "US-NC",
+   "name": "North Carolina",
+   "wikidata": "Q1454",
+   "lon": -80.42473,
+   "lat": 35.2364
+  },
+  {
+   "code": "US-ND",
+   "name": "North Dakota",
+   "wikidata": "Q1207",
+   "lon": -99.37773,
+   "lat": 47.4672
+  },
+  {
+   "code": "US-NE",
+   "name": "Nebraska",
+   "wikidata": "Q1553",
+   "lon": -100.02854,
+   "lat": 41.50092
+  },
+  {
+   "code": "US-NH",
+   "name": "New Hampshire",
+   "wikidata": "Q759",
+   "lon": -71.55265,
+   "lat": 44.00884
+  },
+  {
+   "code": "US-NJ",
+   "name": "New Jersey",
+   "wikidata": "Q1408",
+   "lon": -74.389,
+   "lat": 40.13537
+  },
+  {
+   "code": "US-NM",
+   "name": "New Mexico",
+   "wikidata": "Q1522",
+   "lon": -106.05063,
+   "lat": 34.12658
+  },
+  {
+   "code": "US-NV",
+   "name": "Nevada",
+   "wikidata": "Q1227",
+   "lon": -116.6332,
+   "lat": 38.45863
+  },
+  {
+   "code": "US-NY",
+   "name": "New York",
+   "wikidata": "Q1384",
+   "lon": -76.08277,
+   "lat": 42.90544
+  },
+  {
+   "code": "US-OH",
+   "name": "Ohio",
+   "wikidata": "Q1397",
+   "lon": -82.74716,
+   "lat": 40.20463
+  },
+  {
+   "code": "US-OK",
+   "name": "Oklahoma",
+   "wikidata": "Q1649",
+   "lon": -97.22029,
+   "lat": 35.35007
+  },
+  {
+   "code": "US-OR",
+   "name": "Oregon",
+   "wikidata": "Q824",
+   "lon": -120.52003,
+   "lat": 44.11861
+  },
+  {
+   "code": "US-PA",
+   "name": "Pennsylvania",
+   "wikidata": "Q1400",
+   "lon": -77.82721,
+   "lat": 40.99013
+  },
+  {
+   "code": "US-RI",
+   "name": "Rhode Island",
+   "wikidata": "Q1387",
+   "lon": -71.60653,
+   "lat": 41.65626
+  },
+  {
+   "code": "US-SC",
+   "name": "South Carolina",
+   "wikidata": "Q1456",
+   "lon": -80.56808,
+   "lat": 33.62555
+  },
+  {
+   "code": "US-SD",
+   "name": "South Dakota",
+   "wikidata": "Q1211",
+   "lon": -100.25433,
+   "lat": 44.20469
+  },
+  {
+   "code": "US-TN",
+   "name": "Tennessee",
+   "wikidata": "Q1509",
+   "lon": -86.33024,
+   "lat": 35.83818
+  },
+  {
+   "code": "US-TX",
+   "name": "Texas",
+   "wikidata": "Q1439",
+   "lon": -99.69436,
+   "lat": 31.17357
+  },
+  {
+   "code": "US-UT",
+   "name": "Utah",
+   "wikidata": "Q829",
+   "lon": -111.54391,
+   "lat": 39.5007
+  },
+  {
+   "code": "US-VA",
+   "name": "Virginia",
+   "wikidata": "Q1370",
+   "lon": -78.46739,
+   "lat": 37.99325
+  },
+  {
+   "code": "US-VT",
+   "name": "Vermont",
+   "wikidata": "Q16551",
+   "lon": -72.77557,
+   "lat": 43.87223
+  },
+  {
+   "code": "US-WA",
+   "name": "Washington",
+   "wikidata": "Q1223",
+   "lon": -119.72209,
+   "lat": 47.27961
+  },
+  {
+   "code": "US-WI",
+   "name": "Wisconsin",
+   "wikidata": "Q1537",
+   "lon": -90.37908,
+   "lat": 44.73492
+  },
+  {
+   "code": "US-WV",
+   "name": "West Virginia",
+   "wikidata": "Q1371",
+   "lon": -80.29551,
+   "lat": 38.92615
+  },
+  {
+   "code": "US-WY",
+   "name": "Wyoming",
+   "wikidata": "Q1214",
+   "lon": -107.55187,
+   "lat": 42.96849
+  }
+ ],
+ "edges": [
+  {
+   "u": "US-AL",
+   "v": "US-FL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 317253
+  },
+  {
+   "u": "US-AL",
+   "v": "US-GA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 479491
+  },
+  {
+   "u": "US-AL",
+   "v": "US-MS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 517330
+  },
+  {
+   "u": "US-AL",
+   "v": "US-TN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 236993
+  },
+  {
+   "u": "US-AR",
+   "v": "US-LA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 268622
+  },
+  {
+   "u": "US-AR",
+   "v": "US-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 532309
+  },
+  {
+   "u": "US-AR",
+   "v": "US-MS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 320806
+  },
+  {
+   "u": "US-AR",
+   "v": "US-OK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 317551
+  },
+  {
+   "u": "US-AR",
+   "v": "US-TN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 166509
+  },
+  {
+   "u": "US-AR",
+   "v": "US-TX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 114429
+  },
+  {
+   "u": "US-AZ",
+   "v": "US-CA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 344799
+  },
+  {
+   "u": "US-AZ",
+   "v": "US-NM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 629217
+  },
+  {
+   "u": "US-AZ",
+   "v": "US-NV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 210453
+  },
+  {
+   "u": "US-AZ",
+   "v": "US-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 431494
+  },
+  {
+   "u": "US-CA",
+   "v": "US-NV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 985082
+  },
+  {
+   "u": "US-CA",
+   "v": "US-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 349116
+  },
+  {
+   "u": "US-CO",
+   "v": "US-KS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 333052
+  },
+  {
+   "u": "US-CO",
+   "v": "US-NE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 279421
+  },
+  {
+   "u": "US-CO",
+   "v": "US-NM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 538150
+  },
+  {
+   "u": "US-CO",
+   "v": "US-OK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85561
+  },
+  {
+   "u": "US-CO",
+   "v": "US-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 444065
+  },
+  {
+   "u": "US-CO",
+   "v": "US-WY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 420054
+  },
+  {
+   "u": "US-CT",
+   "v": "US-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 145510
+  },
+  {
+   "u": "US-CT",
+   "v": "US-NY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 131582
+  },
+  {
+   "u": "US-CT",
+   "v": "US-RI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79079
+  },
+  {
+   "u": "US-DC",
+   "v": "US-MD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39928
+  },
+  {
+   "u": "US-DC",
+   "v": "US-VA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6110
+  },
+  {
+   "u": "US-DE",
+   "v": "US-MD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 194698
+  },
+  {
+   "u": "US-DE",
+   "v": "US-NJ",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "wikidata_p47"
+    },
+    {
+     "source": "hand",
+     "reason": "land_border: Delaware owns land on the New Jersey shore (Finns Point, Artificial Island; New Jersey v. Delaware, 1934). The sea rule takes most of gB's border off as bay, leaving 0.5 km, and NE draws the river boundary only"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "US-DE",
+   "v": "US-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37678
+  },
+  {
+   "u": "US-FL",
+   "v": "US-GA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 428809
+  },
+  {
+   "u": "US-GA",
+   "v": "US-NC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 110465
+  },
+  {
+   "u": "US-GA",
+   "v": "US-SC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 469643
+  },
+  {
+   "u": "US-GA",
+   "v": "US-TN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116970
+  },
+  {
+   "u": "US-IA",
+   "v": "US-IL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 337578
+  },
+  {
+   "u": "US-IA",
+   "v": "US-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 420831
+  },
+  {
+   "u": "US-IA",
+   "v": "US-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 381133
+  },
+  {
+   "u": "US-IA",
+   "v": "US-NE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 264597
+  },
+  {
+   "u": "US-IA",
+   "v": "US-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 144212
+  },
+  {
+   "u": "US-IA",
+   "v": "US-WI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 142806
+  },
+  {
+   "u": "US-ID",
+   "v": "US-MT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 974654
+  },
+  {
+   "u": "US-ID",
+   "v": "US-NV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 246405
+  },
+  {
+   "u": "US-ID",
+   "v": "US-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 507266
+  },
+  {
+   "u": "US-ID",
+   "v": "US-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 247915
+  },
+  {
+   "u": "US-ID",
+   "v": "US-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 338380
+  },
+  {
+   "u": "US-ID",
+   "v": "US-WY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 277527
+  },
+  {
+   "u": "US-IL",
+   "v": "US-IN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 516641
+  },
+  {
+   "u": "US-IL",
+   "v": "US-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 202750
+  },
+  {
+   "u": "US-IL",
+   "v": "US-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 546739
+  },
+  {
+   "u": "US-IL",
+   "v": "US-WI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 233205
+  },
+  {
+   "u": "US-IN",
+   "v": "US-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 536793
+  },
+  {
+   "u": "US-IN",
+   "v": "US-MI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 176231
+  },
+  {
+   "u": "US-IN",
+   "v": "US-OH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 288658
+  },
+  {
+   "u": "US-KS",
+   "v": "US-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 406538
+  },
+  {
+   "u": "US-KS",
+   "v": "US-NE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 575042
+  },
+  {
+   "u": "US-KS",
+   "v": "US-OK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 660605
+  },
+  {
+   "u": "US-KY",
+   "v": "US-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98752
+  },
+  {
+   "u": "US-KY",
+   "v": "US-OH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 264926
+  },
+  {
+   "u": "US-KY",
+   "v": "US-TN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 547949
+  },
+  {
+   "u": "US-KY",
+   "v": "US-VA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 195867
+  },
+  {
+   "u": "US-KY",
+   "v": "US-WV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 132716
+  },
+  {
+   "u": "US-LA",
+   "v": "US-MS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 595250
+  },
+  {
+   "u": "US-LA",
+   "v": "US-TX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 268336
+  },
+  {
+   "u": "US-MA",
+   "v": "US-NH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 144215
+  },
+  {
+   "u": "US-MA",
+   "v": "US-NY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80177
+  },
+  {
+   "u": "US-MA",
+   "v": "US-RI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 97289
+  },
+  {
+   "u": "US-MA",
+   "v": "US-VT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65437
+  },
+  {
+   "u": "US-MD",
+   "v": "US-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 316276
+  },
+  {
+   "u": "US-MD",
+   "v": "US-VA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 114650
+  },
+  {
+   "u": "US-MD",
+   "v": "US-WV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 309027
+  },
+  {
+   "u": "US-ME",
+   "v": "US-NH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 254364
+  },
+  {
+   "u": "US-MI",
+   "v": "US-OH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111703
+  },
+  {
+   "u": "US-MI",
+   "v": "US-WI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 347204
+  },
+  {
+   "u": "US-MN",
+   "v": "US-ND",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 358674
+  },
+  {
+   "u": "US-MN",
+   "v": "US-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 296387
+  },
+  {
+   "u": "US-MN",
+   "v": "US-WI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 487458
+  },
+  {
+   "u": "US-MO",
+   "v": "US-NE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92781
+  },
+  {
+   "u": "US-MO",
+   "v": "US-OK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55484
+  },
+  {
+   "u": "US-MO",
+   "v": "US-TN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 97131
+  },
+  {
+   "u": "US-MS",
+   "v": "US-TN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 194003
+  },
+  {
+   "u": "US-MT",
+   "v": "US-ND",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 339166
+  },
+  {
+   "u": "US-MT",
+   "v": "US-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 106076
+  },
+  {
+   "u": "US-MT",
+   "v": "US-WY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 607267
+  },
+  {
+   "u": "US-NC",
+   "v": "US-SC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 502093
+  },
+  {
+   "u": "US-NC",
+   "v": "US-TN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 379488
+  },
+  {
+   "u": "US-NC",
+   "v": "US-VA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 514560
+  },
+  {
+   "u": "US-ND",
+   "v": "US-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 572493
+  },
+  {
+   "u": "US-NE",
+   "v": "US-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 653458
+  },
+  {
+   "u": "US-NE",
+   "v": "US-WY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 222207
+  },
+  {
+   "u": "US-NH",
+   "v": "US-VT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 298868
+  },
+  {
+   "u": "US-NJ",
+   "v": "US-NY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77863
+  },
+  {
+   "u": "US-NJ",
+   "v": "US-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 212672
+  },
+  {
+   "u": "US-NM",
+   "v": "US-OK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55443
+  },
+  {
+   "u": "US-NM",
+   "v": "US-TX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 874399
+  },
+  {
+   "u": "US-NV",
+   "v": "US-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 247239
+  },
+  {
+   "u": "US-NV",
+   "v": "US-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 554787
+  },
+  {
+   "u": "US-NY",
+   "v": "US-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 504362
+  },
+  {
+   "u": "US-NY",
+   "v": "US-VT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 135040
+  },
+  {
+   "u": "US-OH",
+   "v": "US-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 148563
+  },
+  {
+   "u": "US-OH",
+   "v": "US-WV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 421203
+  },
+  {
+   "u": "US-OK",
+   "v": "US-TX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1206426
+  },
+  {
+   "u": "US-OR",
+   "v": "US-WA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 558137
+  },
+  {
+   "u": "US-PA",
+   "v": "US-WV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 192081
+  },
+  {
+   "u": "US-SD",
+   "v": "US-WY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 222195
+  },
+  {
+   "u": "US-TN",
+   "v": "US-VA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 180470
+  },
+  {
+   "u": "US-UT",
+   "v": "US-WY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 279642
+  },
+  {
+   "u": "US-VA",
+   "v": "US-WV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 637076
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "USA-ADM1-66186276",
+  "level": "ADM1",
+  "year": "2018",
+  "license": "Public Domain"
+ }
+}

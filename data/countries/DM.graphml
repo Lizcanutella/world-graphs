@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="DM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="DM-02"><data key="name">Saint Andrew</data><data key="code">DM-02</data><data key="wikidata">Q732322</data><data key="lon">-61.3539</data><data key="lat">15.53983</data></node>
+    <node id="DM-03"><data key="name">Saint David</data><data key="code">DM-03</data><data key="wikidata">Q1431129</data><data key="lon">-61.29336</data><data key="lat">15.42192</data></node>
+    <node id="DM-04"><data key="name">Saint George</data><data key="code">DM-04</data><data key="wikidata">Q617801</data><data key="lon">-61.35121</data><data key="lat">15.30229</data></node>
+    <node id="DM-05"><data key="name">Saint John</data><data key="code">DM-05</data><data key="wikidata">Q1476285</data><data key="lon">-61.441</data><data key="lat">15.57032</data></node>
+    <node id="DM-06"><data key="name">Saint Joseph</data><data key="code">DM-06</data><data key="wikidata">Q1476302</data><data key="lon">-61.38254</data><data key="lat">15.44085</data></node>
+    <node id="DM-07"><data key="name">Saint Luke</data><data key="code">DM-07</data><data key="wikidata">Q1431099</data><data key="lon">-61.36456</data><data key="lat">15.2488</data></node>
+    <node id="DM-08"><data key="name">Saint Mark</data><data key="code">DM-08</data><data key="wikidata">Q1431115</data><data key="lon">-61.3623</data><data key="lat">15.22438</data></node>
+    <node id="DM-09"><data key="name">Saint Patrick</data><data key="code">DM-09</data><data key="wikidata">Q1431108</data><data key="lon">-61.30937</data><data key="lat">15.26407</data></node>
+    <node id="DM-10"><data key="name">Saint Paul</data><data key="code">DM-10</data><data key="wikidata">Q339063</data><data key="lon">-61.36708</data><data key="lat">15.36585</data></node>
+    <node id="DM-11"><data key="name">Saint Peter</data><data key="code">DM-11</data><data key="wikidata">Q1476294</data><data key="lon">-61.44059</data><data key="lat">15.49873</data></node>
+    <edge source="DM-02" target="DM-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-02" target="DM-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-02" target="DM-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-02" target="DM-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-03" target="DM-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-03" target="DM-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-03" target="DM-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-03" target="DM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-04" target="DM-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="DM-04" target="DM-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-04" target="DM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-05" target="DM-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-06" target="DM-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-06" target="DM-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DM-07" target="DM-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="DM-07" target="DM-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="DM-08" target="DM-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

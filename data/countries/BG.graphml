@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BG-01"><data key="name">Blagoevgrad</data><data key="code">BG-01</data><data key="wikidata">Q804311</data><data key="lon">23.48209</data><data key="lat">41.75046</data></node>
+    <node id="BG-02"><data key="name">Burgas</data><data key="code">BG-02</data><data key="wikidata">Q369220</data><data key="lon">27.18912</data><data key="lat">42.44593</data></node>
+    <node id="BG-03"><data key="name">Varna</data><data key="code">BG-03</data><data key="wikidata">Q183487</data><data key="lon">27.53408</data><data key="lat">43.19892</data></node>
+    <node id="BG-04"><data key="name">Veliko Tarnovo</data><data key="code">BG-04</data><data key="wikidata">Q2012621</data><data key="lon">25.59749</data><data key="lat">43.2309</data></node>
+    <node id="BG-05"><data key="name">Vidin</data><data key="code">BG-05</data><data key="wikidata">Q2012772</data><data key="lon">22.69893</data><data key="lat">43.80748</data></node>
+    <node id="BG-06"><data key="name">Vratsa</data><data key="code">BG-06</data><data key="wikidata">Q2012785</data><data key="lon">23.82795</data><data key="lat">43.42898</data></node>
+    <node id="BG-07"><data key="name">Gabrovo</data><data key="code">BG-07</data><data key="wikidata">Q1007272</data><data key="lon">25.21844</data><data key="lat">42.96456</data></node>
+    <node id="BG-08"><data key="name">Dobrich</data><data key="code">BG-08</data><data key="wikidata">Q907395</data><data key="lon">27.90003</data><data key="lat">43.68432</data></node>
+    <node id="BG-09"><data key="name">Kardzhali</data><data key="code">BG-09</data><data key="wikidata">Q1104675</data><data key="lon">25.45063</data><data key="lat">41.56892</data></node>
+    <node id="BG-10"><data key="name">Kyustendil</data><data key="code">BG-10</data><data key="wikidata">Q1112985</data><data key="lon">22.85506</data><data key="lat">42.32127</data></node>
+    <node id="BG-11"><data key="name">Lovech</data><data key="code">BG-11</data><data key="wikidata">Q6587068</data><data key="lon">24.47299</data><data key="lat">43.03963</data></node>
+    <node id="BG-12"><data key="name">Montana</data><data key="code">BG-12</data><data key="wikidata">Q2012057</data><data key="lon">23.13697</data><data key="lat">43.49678</data></node>
+    <node id="BG-13"><data key="name">Pazardzhik</data><data key="code">BG-13</data><data key="wikidata">Q2012227</data><data key="lon">24.13981</data><data key="lat">42.15595</data></node>
+    <node id="BG-14"><data key="name">Pernik</data><data key="code">BG-14</data><data key="wikidata">Q2012234</data><data key="lon">22.87248</data><data key="lat">42.62763</data></node>
+    <node id="BG-15"><data key="name">Pleven</data><data key="code">BG-15</data><data key="wikidata">Q2012242</data><data key="lon">24.67781</data><data key="lat">43.50144</data></node>
+    <node id="BG-16"><data key="name">Plovdiv</data><data key="code">BG-16</data><data key="wikidata">Q187874</data><data key="lon">24.80421</data><data key="lat">42.29326</data></node>
+    <node id="BG-17"><data key="name">Razgrad</data><data key="code">BG-17</data><data key="wikidata">Q2790675</data><data key="lon">26.59884</data><data key="lat">43.64759</data></node>
+    <node id="BG-18"><data key="name">Ruse</data><data key="code">BG-18</data><data key="wikidata">Q1251933</data><data key="lon">25.95991</data><data key="lat">43.68421</data></node>
+    <node id="BG-19"><data key="name">Silistra</data><data key="code">BG-19</data><data key="wikidata">Q2012423</data><data key="lon">27.09635</data><data key="lat">43.92202</data></node>
+    <node id="BG-20"><data key="name">Sliven</data><data key="code">BG-20</data><data key="wikidata">Q113120</data><data key="lon">26.22562</data><data key="lat">42.59762</data></node>
+    <node id="BG-21"><data key="name">Smolyan</data><data key="code">BG-21</data><data key="wikidata">Q2012430</data><data key="lon">24.58793</data><data key="lat">41.62663</data></node>
+    <node id="BG-22"><data key="name">Grad Sofiya</data><data key="code">BG-22</data><data key="wikidata">Q1585725</data><data key="lon">23.33065</data><data key="lat">42.65117</data></node>
+    <node id="BG-23"><data key="name">Sofia</data><data key="code">BG-23</data><data key="wikidata">Q202904</data><data key="lon">23.96774</data><data key="lat">42.64047</data></node>
+    <node id="BG-24"><data key="name">Stara Zagora</data><data key="code">BG-24</data><data key="wikidata">Q2012583</data><data key="lon">25.54579</data><data key="lat">42.40338</data></node>
+    <node id="BG-25"><data key="name">Targovishte</data><data key="code">BG-25</data><data key="wikidata">Q2012589</data><data key="lon">26.4148</data><data key="lat">43.24938</data></node>
+    <node id="BG-26"><data key="name">Haskovo</data><data key="code">BG-26</data><data key="wikidata">Q182809</data><data key="lon">25.86583</data><data key="lat">41.87646</data></node>
+    <node id="BG-27"><data key="name">Shumen</data><data key="code">BG-27</data><data key="wikidata">Q184981</data><data key="lon">27.01359</data><data key="lat">43.31187</data></node>
+    <node id="BG-28"><data key="name">Yambol</data><data key="code">BG-28</data><data key="wikidata">Q220736</data><data key="lon">26.61339</data><data key="lat">42.28314</data></node>
+    <edge source="BG-01" target="BG-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-01" target="BG-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-01" target="BG-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-01" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-02" target="BG-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-02" target="BG-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-02" target="BG-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-02" target="BG-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-03" target="BG-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-03" target="BG-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-04" target="BG-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-04" target="BG-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-04" target="BG-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-04" target="BG-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-04" target="BG-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-04" target="BG-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-04" target="BG-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-05" target="BG-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-06" target="BG-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-06" target="BG-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-06" target="BG-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-06" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-07" target="BG-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-07" target="BG-16"><data key="sources">natural_earth</data><data key="rule">review</data><data key="corroborated">false</data></edge>
+    <edge source="BG-07" target="BG-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-08" target="BG-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-08" target="BG-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-09" target="BG-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-09" target="BG-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-09" target="BG-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-10" target="BG-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-10" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-11" target="BG-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-11" target="BG-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-11" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-12" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-13" target="BG-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-13" target="BG-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-13" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-14" target="BG-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-14" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-16" target="BG-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-16" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-16" target="BG-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-16" target="BG-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-17" target="BG-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-17" target="BG-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-17" target="BG-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-17" target="BG-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-18" target="BG-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-18" target="BG-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-19" target="BG-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-20" target="BG-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-20" target="BG-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-20" target="BG-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-20" target="BG-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-22" target="BG-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-24" target="BG-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-24" target="BG-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-25" target="BG-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BG-26" target="BG-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

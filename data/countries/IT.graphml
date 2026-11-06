@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="IT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="IT-AG"><data key="name">Agrigento</data><data key="code">IT-AG</data><data key="wikidata">Q16112</data><data key="lon">13.5596</data><data key="lat">37.41665</data></node>
+    <node id="IT-AL"><data key="name">Alessandria</data><data key="code">IT-AL</data><data key="wikidata">Q15097</data><data key="lon">8.74048</data><data key="lat">44.84095</data></node>
+    <node id="IT-AN"><data key="name">Ancona</data><data key="code">IT-AN</data><data key="wikidata">Q16114</data><data key="lon">13.22596</data><data key="lat">43.5033</data></node>
+    <node id="IT-AO"><data key="name">Aoste</data><data key="code">IT-AO</data><data key="wikidata">Q3367</data><data key="lon">7.35527</data><data key="lat">45.7239</data></node>
+    <node id="IT-AP"><data key="name">Ascoli Piceno</data><data key="code">IT-AP</data><data key="wikidata">Q16117</data><data key="lon">13.51257</data><data key="lat">42.8779</data></node>
+    <node id="IT-AQ"><data key="name">L'Aquila</data><data key="code">IT-AQ</data><data key="wikidata">Q16189</data><data key="lon">13.55524</data><data key="lat">42.14429</data></node>
+    <node id="IT-AR"><data key="name">Arezzo</data><data key="code">IT-AR</data><data key="wikidata">Q16115</data><data key="lon">11.7715</data><data key="lat">43.5205</data></node>
+    <node id="IT-AT"><data key="name">Asti</data><data key="code">IT-AT</data><data key="wikidata">Q15099</data><data key="lon">8.20671</data><data key="lat">44.82818</data></node>
+    <node id="IT-AV"><data key="name">Avellino</data><data key="code">IT-AV</data><data key="wikidata">Q16120</data><data key="lon">15.14049</data><data key="lat">41.00149</data></node>
+    <node id="IT-BA"><data key="name">Bari</data><data key="code">IT-BA</data><data key="wikidata">Q16123</data><data key="lon">16.77148</data><data key="lat">40.96352</data></node>
+    <node id="IT-BG"><data key="name">Bergamo</data><data key="code">IT-BG</data><data key="wikidata">Q16137</data><data key="lon">9.75871</data><data key="lat">45.75535</data></node>
+    <node id="IT-BI"><data key="name">Biella</data><data key="code">IT-BI</data><data key="wikidata">Q15094</data><data key="lon">8.08906</data><data key="lat">45.56705</data></node>
+    <node id="IT-BL"><data key="name">Belluno</data><data key="code">IT-BL</data><data key="wikidata">Q16126</data><data key="lon">12.09571</data><data key="lat">46.27954</data></node>
+    <node id="IT-BN"><data key="name">Benevento</data><data key="code">IT-BN</data><data key="wikidata">Q16134</data><data key="lon">14.70218</data><data key="lat">41.24558</data></node>
+    <node id="IT-BO"><data key="name">Bologna</data><data key="code">IT-BO</data><data key="wikidata">Q16139</data><data key="lon">11.39988</data><data key="lat">44.43332</data></node>
+    <node id="IT-BR"><data key="name">Brindisi</data><data key="code">IT-BR</data><data key="wikidata">Q16148</data><data key="lon">17.71918</data><data key="lat">40.63899</data></node>
+    <node id="IT-BS"><data key="name">Brescia</data><data key="code">IT-BS</data><data key="wikidata">Q16144</data><data key="lon">10.42777</data><data key="lat">45.77424</data></node>
+    <node id="IT-BT"><data key="name">Barletta-Andria Trani</data><data key="code">IT-BT</data><data key="wikidata">Q16124</data><data key="lon">16.16369</data><data key="lat">41.18008</data></node>
+    <node id="IT-BZ"><data key="name">Bozen</data><data key="code">IT-BZ</data><data key="wikidata">Q1237</data><data key="lon">11.22928</data><data key="lat">46.65408</data></node>
+    <node id="IT-CA"><data key="name">Cagliari</data><data key="code">IT-CA</data><data key="wikidata">Q16149</data><data key="lon">9.16727</data><data key="lat">39.38609</data></node>
+    <node id="IT-CB"><data key="name">Campobasso</data><data key="code">IT-CB</data><data key="wikidata">Q16151</data><data key="lon">14.81286</data><data key="lat">41.72398</data></node>
+    <node id="IT-CE"><data key="name">Caserta</data><data key="code">IT-CE</data><data key="wikidata">Q16153</data><data key="lon">14.10609</data><data key="lat">41.21518</data></node>
+    <node id="IT-CH"><data key="name">Chieti</data><data key="code">IT-CH</data><data key="wikidata">Q16160</data><data key="lon">14.41974</data><data key="lat">42.10762</data></node>
+    <node id="IT-CI"><data key="name">Carbonia-Iglesias</data><data key="code">IT-CI</data><data key="wikidata">Q16152</data><data key="lon">8.56512</data><data key="lat">39.21483</data></node>
+    <node id="IT-CL"><data key="name">Caltanissetta</data><data key="code">IT-CL</data><data key="wikidata">Q16150</data><data key="lon">13.98122</data><data key="lat">37.36371</data></node>
+    <node id="IT-CN"><data key="name">Cuneo</data><data key="code">IT-CN</data><data key="wikidata">Q15091</data><data key="lon">7.53002</data><data key="lat">44.47204</data></node>
+    <node id="IT-CO"><data key="name">Como</data><data key="code">IT-CO</data><data key="wikidata">Q16161</data><data key="lon">9.13343</data><data key="lat">45.9411</data></node>
+    <node id="IT-CR"><data key="name">Cremona</data><data key="code">IT-CR</data><data key="wikidata">Q16163</data><data key="lon">10.04431</data><data key="lat">45.21046</data></node>
+    <node id="IT-CS"><data key="name">Cosenza</data><data key="code">IT-CS</data><data key="wikidata">Q16162</data><data key="lon">16.33186</data><data key="lat">39.59726</data></node>
+    <node id="IT-CT"><data key="name">Catania</data><data key="code">IT-CT</data><data key="wikidata">Q16154</data><data key="lon">14.9417</data><data key="lat">37.5061</data></node>
+    <node id="IT-CZ"><data key="name">Catanzaro</data><data key="code">IT-CZ</data><data key="wikidata">Q16159</data><data key="lon">16.43491</data><data key="lat">38.83305</data></node>
+    <node id="IT-EN"><data key="name">Enna</data><data key="code">IT-EN</data><data key="wikidata">Q16166</data><data key="lon">14.48895</data><data key="lat">37.58557</data></node>
+    <node id="IT-FC"><data key="name">Forlì-Cesena</data><data key="code">IT-FC</data><data key="wikidata">Q16180</data><data key="lon">12.03595</data><data key="lat">44.04044</data></node>
+    <node id="IT-FE"><data key="name">Ferrara</data><data key="code">IT-FE</data><data key="wikidata">Q16168</data><data key="lon">11.82945</data><data key="lat">44.76858</data></node>
+    <node id="IT-FG"><data key="name">Foggia</data><data key="code">IT-FG</data><data key="wikidata">Q15129</data><data key="lon">15.45081</data><data key="lat">41.49247</data></node>
+    <node id="IT-FI"><data key="name">Firenze</data><data key="code">IT-FI</data><data key="wikidata">Q16172</data><data key="lon">11.37567</data><data key="lat">43.84207</data></node>
+    <node id="IT-FM"><data key="name">Fermo</data><data key="code">IT-FM</data><data key="wikidata">Q16167</data><data key="lon">13.64295</data><data key="lat">43.09102</data></node>
+    <node id="IT-FR"><data key="name">Frosinone</data><data key="code">IT-FR</data><data key="wikidata">Q16181</data><data key="lon">13.57554</data><data key="lat">41.62665</data></node>
+    <node id="IT-GE"><data key="name">Genova</data><data key="code">IT-GE</data><data key="wikidata">Q16183</data><data key="lon">9.05435</data><data key="lat">44.45094</data></node>
+    <node id="IT-GO"><data key="name">Gorizia</data><data key="code">IT-GO</data><data key="wikidata">Q16184</data><data key="lon">13.49109</data><data key="lat">45.84744</data></node>
+    <node id="IT-GR"><data key="name">Grosseto</data><data key="code">IT-GR</data><data key="wikidata">Q16185</data><data key="lon">11.30411</data><data key="lat">42.77873</data></node>
+    <node id="IT-IM"><data key="name">Imperia</data><data key="code">IT-IM</data><data key="wikidata">Q16186</data><data key="lon">7.84687</data><data key="lat">43.95536</data></node>
+    <node id="IT-IS"><data key="name">Isernia</data><data key="code">IT-IS</data><data key="wikidata">Q16187</data><data key="lon">14.20084</data><data key="lat">41.64852</data></node>
+    <node id="IT-KR"><data key="name">Crotene</data><data key="code">IT-KR</data><data key="wikidata">Q16165</data><data key="lon">16.8798</data><data key="lat">39.18454</data></node>
+    <node id="IT-LC"><data key="name">Lecco</data><data key="code">IT-LC</data><data key="wikidata">Q16199</data><data key="lon">9.4005</data><data key="lat">45.90645</data></node>
+    <node id="IT-LE"><data key="name">Lecce</data><data key="code">IT-LE</data><data key="wikidata">Q16197</data><data key="lon">18.22307</data><data key="lat">40.15776</data></node>
+    <node id="IT-LI"><data key="name">Livorno</data><data key="code">IT-LI</data><data key="wikidata">Q16200</data><data key="lon">10.27017</data><data key="lat">42.79442</data></node>
+    <node id="IT-LO"><data key="name">Lodi</data><data key="code">IT-LO</data><data key="wikidata">Q16201</data><data key="lon">9.50599</data><data key="lat">45.26955</data></node>
+    <node id="IT-LT"><data key="name">Latina</data><data key="code">IT-LT</data><data key="wikidata">Q16196</data><data key="lon">13.01783</data><data key="lat">41.45913</data></node>
+    <node id="IT-LU"><data key="name">Lucca</data><data key="code">IT-LU</data><data key="wikidata">Q16202</data><data key="lon">10.45633</data><data key="lat">44.01755</data></node>
+    <node id="IT-MB"><data key="name">Monza e Brianza</data><data key="code">IT-MB</data><data key="wikidata">Q16210</data><data key="lon">9.2745</data><data key="lat">45.64026</data></node>
+    <node id="IT-MC"><data key="name">Macerata</data><data key="code">IT-MC</data><data key="wikidata">Q16203</data><data key="lon">13.14248</data><data key="lat">43.15061</data></node>
+    <node id="IT-ME"><data key="name">Messina</data><data key="code">IT-ME</data><data key="wikidata">Q16208</data><data key="lon">15.03124</data><data key="lat">38.06544</data></node>
+    <node id="IT-MI"><data key="name">Milano</data><data key="code">IT-MI</data><data key="wikidata">Q15121</data><data key="lon">9.11014</data><data key="lat">45.45674</data></node>
+    <node id="IT-MN"><data key="name">Mantova</data><data key="code">IT-MN</data><data key="wikidata">Q16204</data><data key="lon">10.68099</data><data key="lat">45.16842</data></node>
+    <node id="IT-MO"><data key="name">Modena</data><data key="code">IT-MO</data><data key="wikidata">Q16209</data><data key="lon">10.9462</data><data key="lat">44.5473</data></node>
+    <node id="IT-MS"><data key="name">Massa-Carrara</data><data key="code">IT-MS</data><data key="wikidata">Q16205</data><data key="lon">10.04337</data><data key="lat">44.2308</data></node>
+    <node id="IT-MT"><data key="name">Matera</data><data key="code">IT-MT</data><data key="wikidata">Q16206</data><data key="lon">16.46846</data><data key="lat">40.45432</data></node>
+    <node id="IT-NA"><data key="name">Napoli</data><data key="code">IT-NA</data><data key="wikidata">Q15123</data><data key="lon">14.46395</data><data key="lat">40.79324</data></node>
+    <node id="IT-NO"><data key="name">Novara</data><data key="code">IT-NO</data><data key="wikidata">Q16216</data><data key="lon">8.54516</data><data key="lat">45.58931</data></node>
+    <node id="IT-NU"><data key="name">Nuoro</data><data key="code">IT-NU</data><data key="wikidata">Q16220</data><data key="lon">9.13844</data><data key="lat">40.25902</data></node>
+    <node id="IT-OG"><data key="name">Ogliastra</data><data key="code">IT-OG</data><data key="wikidata">Q16223</data><data key="lon">9.48185</data><data key="lat">39.8885</data></node>
+    <node id="IT-OR"><data key="name">Oristrano</data><data key="code">IT-OR</data><data key="wikidata">Q16225</data><data key="lon">8.68029</data><data key="lat">40.02568</data></node>
+    <node id="IT-OT"><data key="name">Olbia-Tempio</data><data key="code">IT-OT</data><data key="wikidata">Q16224</data><data key="lon">9.29822</data><data key="lat">40.90015</data></node>
+    <node id="IT-PA"><data key="name">Palermo</data><data key="code">IT-PA</data><data key="wikidata">Q16227</data><data key="lon">13.60723</data><data key="lat">37.87744</data></node>
+    <node id="IT-PC"><data key="name">Piacenza</data><data key="code">IT-PC</data><data key="wikidata">Q16243</data><data key="lon">9.65639</data><data key="lat">44.84289</data></node>
+    <node id="IT-PD"><data key="name">Padova</data><data key="code">IT-PD</data><data key="wikidata">Q16226</data><data key="lon">11.80139</data><data key="lat">45.39237</data></node>
+    <node id="IT-PE"><data key="name">Pescara</data><data key="code">IT-PE</data><data key="wikidata">Q16242</data><data key="lon">13.95414</data><data key="lat">42.30417</data></node>
+    <node id="IT-PG"><data key="name">Perugia</data><data key="code">IT-PG</data><data key="wikidata">Q16240</data><data key="lon">12.40125</data><data key="lat">43.10945</data></node>
+    <node id="IT-PI"><data key="name">Pisa</data><data key="code">IT-PI</data><data key="wikidata">Q16244</data><data key="lon">10.68225</data><data key="lat">43.46718</data></node>
+    <node id="IT-PN"><data key="name">Pordenone</data><data key="code">IT-PN</data><data key="wikidata">Q16247</data><data key="lon">12.7149</data><data key="lat">46.10303</data></node>
+    <node id="IT-PO"><data key="name">Prato</data><data key="code">IT-PO</data><data key="wikidata">Q16250</data><data key="lon">11.09431</data><data key="lat">43.93662</data></node>
+    <node id="IT-PR"><data key="name">Parma</data><data key="code">IT-PR</data><data key="wikidata">Q16228</data><data key="lon">10.09854</data><data key="lat">44.69731</data></node>
+    <node id="IT-PT"><data key="name">Pistoia</data><data key="code">IT-PT</data><data key="wikidata">Q16245</data><data key="lon">10.86517</data><data key="lat">43.97892</data></node>
+    <node id="IT-PU"><data key="name">Pesaro e Urbino</data><data key="code">IT-PU</data><data key="wikidata">Q16241</data><data key="lon">12.70499</data><data key="lat">43.70432</data></node>
+    <node id="IT-PV"><data key="name">Pavia</data><data key="code">IT-PV</data><data key="wikidata">Q16231</data><data key="lon">9.13116</data><data key="lat">45.04313</data></node>
+    <node id="IT-PZ"><data key="name">Potenza</data><data key="code">IT-PZ</data><data key="wikidata">Q16249</data><data key="lon">15.82137</data><data key="lat">40.51768</data></node>
+    <node id="IT-RA"><data key="name">Ravenna</data><data key="code">IT-RA</data><data key="wikidata">Q16252</data><data key="lon">12.05929</data><data key="lat">44.37417</data></node>
+    <node id="IT-RC"><data key="name">Reggio Calabria</data><data key="code">IT-RC</data><data key="wikidata">Q16253</data><data key="lon">15.97153</data><data key="lat">38.24708</data></node>
+    <node id="IT-RE"><data key="name">Reggio Emilia</data><data key="code">IT-RE</data><data key="wikidata">Q16254</data><data key="lon">10.59194</data><data key="lat">44.59821</data></node>
+    <node id="IT-RG"><data key="name">Ragusa</data><data key="code">IT-RG</data><data key="wikidata">Q16251</data><data key="lon">14.64611</data><data key="lat">36.90683</data></node>
+    <node id="IT-RI"><data key="name">Rieti</data><data key="code">IT-RI</data><data key="wikidata">Q16267</data><data key="lon">12.87144</data><data key="lat">42.42136</data></node>
+    <node id="IT-RM"><data key="name">Roma</data><data key="code">IT-RM</data><data key="wikidata">Q15119</data><data key="lon">12.68897</data><data key="lat">41.86283</data></node>
+    <node id="IT-RN"><data key="name">Rimini</data><data key="code">IT-RN</data><data key="wikidata">Q16268</data><data key="lon">12.61938</data><data key="lat">43.95425</data></node>
+    <node id="IT-RO"><data key="name">Rovigo</data><data key="code">IT-RO</data><data key="wikidata">Q16270</data><data key="lon">12.25282</data><data key="lat">44.97933</data></node>
+    <node id="IT-SA"><data key="name">Salerno</data><data key="code">IT-SA</data><data key="wikidata">Q16271</data><data key="lon">15.30425</data><data key="lat">40.4211</data></node>
+    <node id="IT-SI"><data key="name">Siena</data><data key="code">IT-SI</data><data key="wikidata">Q16275</data><data key="lon">11.46393</data><data key="lat">43.17053</data></node>
+    <node id="IT-SO"><data key="name">Sondrio</data><data key="code">IT-SO</data><data key="wikidata">Q16282</data><data key="lon">10.2496</data><data key="lat">46.31569</data></node>
+    <node id="IT-SP"><data key="name">La Spezia</data><data key="code">IT-SP</data><data key="wikidata">Q16188</data><data key="lon">9.68977</data><data key="lat">44.23488</data></node>
+    <node id="IT-SR"><data key="name">Siracusa</data><data key="code">IT-SR</data><data key="wikidata">Q16277</data><data key="lon">15.0843</data><data key="lat">37.03398</data></node>
+    <node id="IT-SS"><data key="name">Sassari</data><data key="code">IT-SS</data><data key="wikidata">Q16272</data><data key="lon">8.67611</data><data key="lat">40.63693</data></node>
+    <node id="IT-SV"><data key="name">Savona</data><data key="code">IT-SV</data><data key="wikidata">Q16274</data><data key="lon">8.25179</data><data key="lat">44.23751</data></node>
+    <node id="IT-TA"><data key="name">Taranto</data><data key="code">IT-TA</data><data key="wikidata">Q16283</data><data key="lon">17.08952</data><data key="lat">40.52853</data></node>
+    <node id="IT-TE"><data key="name">Teramo</data><data key="code">IT-TE</data><data key="wikidata">Q16284</data><data key="lon">13.68911</data><data key="lat">42.66157</data></node>
+    <node id="IT-TN"><data key="name">Trento</data><data key="code">IT-TN</data><data key="wikidata">Q16289</data><data key="lon">11.17778</data><data key="lat">46.10616</data></node>
+    <node id="IT-TO"><data key="name">Turin</data><data key="code">IT-TO</data><data key="wikidata">Q16287</data><data key="lon">7.50513</data><data key="lat">45.1574</data></node>
+    <node id="IT-TP"><data key="name">Trapani</data><data key="code">IT-TP</data><data key="wikidata">Q16288</data><data key="lon">12.71132</data><data key="lat">37.87785</data></node>
+    <node id="IT-TR"><data key="name">Terni</data><data key="code">IT-TR</data><data key="wikidata">Q16286</data><data key="lon">12.4432</data><data key="lat">42.65336</data></node>
+    <node id="IT-TS"><data key="name">Trieste</data><data key="code">IT-TS</data><data key="wikidata">Q16293</data><data key="lon">13.77507</data><data key="lat">45.69768</data></node>
+    <node id="IT-TV"><data key="name">Treviso</data><data key="code">IT-TV</data><data key="wikidata">Q16292</data><data key="lon">12.2122</data><data key="lat">45.80763</data></node>
+    <node id="IT-UD"><data key="name">Udine</data><data key="code">IT-UD</data><data key="wikidata">Q16294</data><data key="lon">13.2855</data><data key="lat">46.14159</data></node>
+    <node id="IT-VA"><data key="name">Varese</data><data key="code">IT-VA</data><data key="wikidata">Q16299</data><data key="lon">8.75111</data><data key="lat">45.83079</data></node>
+    <node id="IT-VB"><data key="name">Verbano-Cusio-Ossola</data><data key="code">IT-VB</data><data key="wikidata">Q16312</data><data key="lon">8.36162</data><data key="lat">46.11212</data></node>
+    <node id="IT-VC"><data key="name">Vercelli</data><data key="code">IT-VC</data><data key="wikidata">Q15096</data><data key="lon">8.34231</data><data key="lat">45.54927</data></node>
+    <node id="IT-VE"><data key="name">Venezia</data><data key="code">IT-VE</data><data key="wikidata">Q16310</data><data key="lon">12.61948</data><data key="lat">45.57393</data></node>
+    <node id="IT-VI"><data key="name">Vicenza</data><data key="code">IT-VI</data><data key="wikidata">Q16316</data><data key="lon">11.40588</data><data key="lat">45.62876</data></node>
+    <node id="IT-VR"><data key="name">Verona</data><data key="code">IT-VR</data><data key="wikidata">Q16314</data><data key="lon">10.98593</data><data key="lat">45.44484</data></node>
+    <node id="IT-VS"><data key="name">Medio Campidano</data><data key="code">IT-VS</data><data key="wikidata">Q16207</data><data key="lon">8.73385</data><data key="lat">39.58061</data></node>
+    <node id="IT-VT"><data key="name">Viterbo</data><data key="code">IT-VT</data><data key="wikidata">Q16318</data><data key="lon">11.9377</data><data key="lat">42.50212</data></node>
+    <node id="IT-VV"><data key="name">Vibo Valentia</data><data key="code">IT-VV</data><data key="wikidata">Q16315</data><data key="lon">16.09654</data><data key="lat">38.63101</data></node>
+    <edge source="IT-AG" target="IT-CL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AG" target="IT-PA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AG" target="IT-TP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AL" target="IT-AT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AL" target="IT-GE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AL" target="IT-PC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AL" target="IT-PV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AL" target="IT-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AL" target="IT-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AL" target="IT-VC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AN" target="IT-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AN" target="IT-PG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AN" target="IT-PU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AO" target="IT-BI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AO" target="IT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AO" target="IT-VC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AP" target="IT-FM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AP" target="IT-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AP" target="IT-PG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AP" target="IT-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AP" target="IT-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AQ" target="IT-CH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AQ" target="IT-FR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AQ" target="IT-IS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AQ" target="IT-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AQ" target="IT-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AQ" target="IT-RM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AQ" target="IT-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AR" target="IT-FC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AR" target="IT-FI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AR" target="IT-PG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AR" target="IT-PU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AR" target="IT-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AR" target="IT-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AT" target="IT-CN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AT" target="IT-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AT" target="IT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AV" target="IT-BN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AV" target="IT-FG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AV" target="IT-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AV" target="IT-PZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-AV" target="IT-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BA" target="IT-BR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BA" target="IT-BT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BA" target="IT-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BA" target="IT-PZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BA" target="IT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BG" target="IT-BS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BG" target="IT-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BG" target="IT-LC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BG" target="IT-MB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BG" target="IT-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BG" target="IT-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BI" target="IT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BI" target="IT-VC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BL" target="IT-BZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BL" target="IT-PN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BL" target="IT-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BL" target="IT-TV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BL" target="IT-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BL" target="IT-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BN" target="IT-CB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BN" target="IT-CE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BN" target="IT-FG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BN" target="IT-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BO" target="IT-FE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BO" target="IT-FI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BO" target="IT-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BO" target="IT-PO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BO" target="IT-PT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BO" target="IT-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BR" target="IT-LE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BR" target="IT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BS" target="IT-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BS" target="IT-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BS" target="IT-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BS" target="IT-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BS" target="IT-VR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BT" target="IT-FG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BT" target="IT-PZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BZ" target="IT-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-BZ" target="IT-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CA" target="IT-CI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IT-CA" target="IT-NU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CA" target="IT-OG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CA" target="IT-OR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CA" target="IT-VS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CB" target="IT-CE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CB" target="IT-CH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CB" target="IT-FG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CB" target="IT-IS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CE" target="IT-FR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CE" target="IT-IS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CE" target="IT-LT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CE" target="IT-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CH" target="IT-IS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CH" target="IT-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CI" target="IT-VS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CL" target="IT-CT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CL" target="IT-EN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CL" target="IT-PA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CL" target="IT-RG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CN" target="IT-IM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CN" target="IT-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CN" target="IT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CO" target="IT-LC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CO" target="IT-MB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CO" target="IT-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CO" target="IT-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CR" target="IT-LO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CR" target="IT-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CR" target="IT-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CR" target="IT-PC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CR" target="IT-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CS" target="IT-CZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CS" target="IT-KR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CS" target="IT-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CS" target="IT-PZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CT" target="IT-EN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CT" target="IT-ME"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CT" target="IT-RG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CT" target="IT-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CZ" target="IT-KR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CZ" target="IT-RC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-CZ" target="IT-VV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-EN" target="IT-ME"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-EN" target="IT-PA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FC" target="IT-FI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FC" target="IT-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FC" target="IT-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FE" target="IT-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FE" target="IT-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FE" target="IT-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FE" target="IT-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FG" target="IT-PZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FI" target="IT-LU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FI" target="IT-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FI" target="IT-PO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FI" target="IT-PT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FI" target="IT-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FI" target="IT-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FM" target="IT-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FR" target="IT-IS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FR" target="IT-LT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-FR" target="IT-RM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GE" target="IT-PC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GE" target="IT-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GE" target="IT-SP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GE" target="IT-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GO" target="IT-TS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GO" target="IT-UD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GR" target="IT-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GR" target="IT-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GR" target="IT-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-GR" target="IT-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-IM" target="IT-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LC" target="IT-MB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LC" target="IT-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LE" target="IT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LI" target="IT-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LO" target="IT-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LO" target="IT-PC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LO" target="IT-PV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LT" target="IT-RM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LU" target="IT-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LU" target="IT-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LU" target="IT-PI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LU" target="IT-PT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-LU" target="IT-RE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MB" target="IT-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MB" target="IT-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MC" target="IT-PG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-ME" target="IT-PA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MI" target="IT-NO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MI" target="IT-PV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MI" target="IT-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MN" target="IT-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MN" target="IT-PR"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MN" target="IT-RE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MN" target="IT-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MN" target="IT-VR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MO" target="IT-PT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MO" target="IT-RE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MS" target="IT-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MS" target="IT-RE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MS" target="IT-SP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MT" target="IT-PZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-MT" target="IT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NA" target="IT-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NO" target="IT-PV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NO" target="IT-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NO" target="IT-VB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NO" target="IT-VC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NU" target="IT-OG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NU" target="IT-OR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NU" target="IT-OT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-NU" target="IT-SS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-OR" target="IT-SS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-OR" target="IT-VS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-OT" target="IT-SS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PA" target="IT-TP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PC" target="IT-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PC" target="IT-PV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PD" target="IT-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PD" target="IT-TV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PD" target="IT-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PD" target="IT-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PD" target="IT-VR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PE" target="IT-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PG" target="IT-PU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PG" target="IT-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PG" target="IT-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PG" target="IT-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PI" target="IT-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PN" target="IT-TV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PN" target="IT-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PN" target="IT-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PO" target="IT-PT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PR" target="IT-RE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PR" target="IT-SP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PU" target="IT-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PV" target="IT-VC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-PZ" target="IT-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RC" target="IT-VV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RG" target="IT-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RI" target="IT-RM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RI" target="IT-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RI" target="IT-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RI" target="IT-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RM" target="IT-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RO" target="IT-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-RO" target="IT-VR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-SI" target="IT-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-SI" target="IT-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-SO" target="IT-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-TN" target="IT-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-TN" target="IT-VR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-TO" target="IT-VC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-TR" target="IT-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-TV" target="IT-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-TV" target="IT-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-UD" target="IT-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-VA" target="IT-VB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-VB" target="IT-VC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IT-VI" target="IT-VR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

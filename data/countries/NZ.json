@@ -1,0 +1,596 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "NZ",
+ "kind": "country",
+ "name": "New Zealand",
+ "level": "regions",
+ "n": 23,
+ "m": 23,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "NZ-AUK",
+   "name": "Auckland",
+   "wikidata": "Q726917",
+   "lon": 174.57962,
+   "lat": -36.7219
+  },
+  {
+   "code": "NZ-BOP",
+   "name": "Bay of Plenty",
+   "wikidata": "Q2192924",
+   "lon": 176.87212,
+   "lat": -38.17896
+  },
+  {
+   "code": "NZ-CAN",
+   "name": "Canterbury",
+   "wikidata": "Q657004",
+   "lon": 171.5719,
+   "lat": -43.46469
+  },
+  {
+   "code": "NZ-CIT",
+   "name": "Chatham Islands Territory",
+   "wikidata": "Q115459",
+   "lon": -176.17698,
+   "lat": -44.27752
+  },
+  {
+   "code": "NZ-GIS",
+   "name": "Gisborne District",
+   "wikidata": "Q140246",
+   "lon": 177.90739,
+   "lat": -38.25143
+  },
+  {
+   "code": "NZ-HKB",
+   "name": "Hawke's Bay",
+   "wikidata": "Q251825",
+   "lon": 176.56839,
+   "lat": -39.51015
+  },
+  {
+   "code": "NZ-MBH",
+   "name": "Marlborough District",
+   "wikidata": "Q140083",
+   "lon": 173.61455,
+   "lat": -41.68507
+  },
+  {
+   "code": "NZ-MWT",
+   "name": "Manawatu-Wanganui",
+   "wikidata": "Q139907",
+   "lon": 175.57832,
+   "lat": -39.63743
+  },
+  {
+   "code": "NZ-NSN",
+   "name": "Nelson City",
+   "wikidata": "Q1995856",
+   "lon": 173.41102,
+   "lat": -41.21685
+  },
+  {
+   "code": "NZ-NTL",
+   "name": "Northland",
+   "wikidata": "Q59596",
+   "lon": 173.97741,
+   "lat": -35.40163
+  },
+  {
+   "code": "NZ-OTA",
+   "name": "Otago",
+   "wikidata": "Q692912",
+   "lon": 170.00004,
+   "lat": -45.31262
+  },
+  {
+   "code": "NZ-STL",
+   "name": "Southland",
+   "wikidata": "Q864971",
+   "lon": 168.17107,
+   "lat": -45.47247
+  },
+  {
+   "code": "NZ-TAS",
+   "name": "Tasman District",
+   "wikidata": "Q666142",
+   "lon": 172.91835,
+   "lat": -41.40132
+  },
+  {
+   "code": "NZ-TKI",
+   "name": "Taranaki",
+   "wikidata": "Q140207",
+   "lon": 174.28047,
+   "lat": -39.28368
+  },
+  {
+   "code": "NZ-WGN",
+   "name": "Wellington",
+   "wikidata": "Q856010",
+   "lon": 175.41008,
+   "lat": -41.14931
+  },
+  {
+   "code": "NZ-WKO",
+   "name": "Waikato",
+   "wikidata": "Q139918",
+   "lon": 175.37434,
+   "lat": -37.88195
+  },
+  {
+   "code": "NZ-WTC",
+   "name": "West Coast",
+   "wikidata": "Q541468",
+   "lon": 171.57432,
+   "lat": -42.634
+  },
+  {
+   "code": "NZ-X01~",
+   "name": "Kermadec Islands",
+   "wikidata": null,
+   "lon": -177.89335,
+   "lat": -29.25962
+  },
+  {
+   "code": "NZ-X03~",
+   "name": "Three Kings Islands",
+   "wikidata": null,
+   "lon": 172.13616,
+   "lat": -34.15899
+  },
+  {
+   "code": "NZ-X04~",
+   "name": "Antipodes Islands",
+   "wikidata": null,
+   "lon": 178.7794,
+   "lat": -49.66762
+  },
+  {
+   "code": "NZ-X05~",
+   "name": "Campbell Islands",
+   "wikidata": null,
+   "lon": 169.18696,
+   "lat": -52.53442
+  },
+  {
+   "code": "NZ-X06~",
+   "name": "Auckland Islands",
+   "wikidata": null,
+   "lon": 166.0862,
+   "lat": -50.88055
+  },
+  {
+   "code": "NZ-X07~",
+   "name": "The Snares",
+   "wikidata": null,
+   "lon": 166.60367,
+   "lat": -48.0254
+  }
+ ],
+ "edges": [
+  {
+   "u": "NZ-AUK",
+   "v": "NZ-NTL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16745
+  },
+  {
+   "u": "NZ-AUK",
+   "v": "NZ-WKO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72977
+  },
+  {
+   "u": "NZ-BOP",
+   "v": "NZ-GIS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 183246
+  },
+  {
+   "u": "NZ-BOP",
+   "v": "NZ-HKB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 122112
+  },
+  {
+   "u": "NZ-BOP",
+   "v": "NZ-WKO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 220327
+  },
+  {
+   "u": "NZ-CAN",
+   "v": "NZ-MBH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 179753
+  },
+  {
+   "u": "NZ-CAN",
+   "v": "NZ-OTA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 234700
+  },
+  {
+   "u": "NZ-CAN",
+   "v": "NZ-TAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29888
+  },
+  {
+   "u": "NZ-CAN",
+   "v": "NZ-WTC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 314260
+  },
+  {
+   "u": "NZ-GIS",
+   "v": "NZ-HKB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80082
+  },
+  {
+   "u": "NZ-HKB",
+   "v": "NZ-MWT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 186190
+  },
+  {
+   "u": "NZ-HKB",
+   "v": "NZ-WKO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29439
+  },
+  {
+   "u": "NZ-MBH",
+   "v": "NZ-NSN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46722
+  },
+  {
+   "u": "NZ-MBH",
+   "v": "NZ-TAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99208
+  },
+  {
+   "u": "NZ-MWT",
+   "v": "NZ-TKI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 145069
+  },
+  {
+   "u": "NZ-MWT",
+   "v": "NZ-WGN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 118413
+  },
+  {
+   "u": "NZ-MWT",
+   "v": "NZ-WKO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 241016
+  },
+  {
+   "u": "NZ-NSN",
+   "v": "NZ-TAS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12546
+  },
+  {
+   "u": "NZ-OTA",
+   "v": "NZ-STL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 341027
+  },
+  {
+   "u": "NZ-OTA",
+   "v": "NZ-WTC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 134298
+  },
+  {
+   "u": "NZ-STL",
+   "v": "NZ-WTC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38741
+  },
+  {
+   "u": "NZ-TAS",
+   "v": "NZ-WTC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 255750
+  },
+  {
+   "u": "NZ-TKI",
+   "v": "NZ-WKO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24282
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "NZL-ADM1-40311993",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

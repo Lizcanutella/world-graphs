@@ -1,0 +1,407 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KP",
+ "kind": "country",
+ "name": "Korea, Democratic People's Republic of",
+ "level": "provinces",
+ "n": 11,
+ "m": 18,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KP-01",
+   "name": "P'yŏngyang",
+   "wikidata": "Q18808",
+   "lon": 125.97741,
+   "lat": 38.9958
+  },
+  {
+   "code": "KP-02",
+   "name": "P'yŏngan-namdo",
+   "wikidata": "Q109380",
+   "lon": 126.04888,
+   "lat": 39.49634
+  },
+  {
+   "code": "KP-03",
+   "name": "P'yŏngan-bukto",
+   "wikidata": "Q109348",
+   "lon": 125.24886,
+   "lat": 40.09145
+  },
+  {
+   "code": "KP-04",
+   "name": "Chagang-do",
+   "wikidata": "Q272406",
+   "lon": 126.64973,
+   "lat": 40.89583
+  },
+  {
+   "code": "KP-05",
+   "name": "Hwanghae-namdo",
+   "wikidata": "Q626052",
+   "lon": 125.42259,
+   "lat": 38.19205
+  },
+  {
+   "code": "KP-06",
+   "name": "Hwanghae-bukto",
+   "wikidata": "Q109342",
+   "lon": 126.20639,
+   "lat": 38.47002
+  },
+  {
+   "code": "KP-07",
+   "name": "Kangwŏn-do",
+   "wikidata": "Q41416",
+   "lon": 127.50833,
+   "lat": 38.79079
+  },
+  {
+   "code": "KP-08",
+   "name": "Hamgyŏng-namdo",
+   "wikidata": "Q109368",
+   "lon": 127.87746,
+   "lat": 40.18895
+  },
+  {
+   "code": "KP-09",
+   "name": "Hamgyŏng-bukto",
+   "wikidata": "Q109361",
+   "lon": 129.32229,
+   "lat": 41.78662
+  },
+  {
+   "code": "KP-10",
+   "name": "Ryanggang",
+   "wikidata": "Q110171",
+   "lon": 127.9701,
+   "lat": 41.2225
+  },
+  {
+   "code": "KP-13",
+   "name": "Rasŏn",
+   "wikidata": "Q221734",
+   "lon": 130.45383,
+   "lat": 42.39566
+  }
+ ],
+ "edges": [
+  {
+   "u": "KP-01",
+   "v": "KP-02",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 168272
+  },
+  {
+   "u": "KP-01",
+   "v": "KP-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 117793
+  },
+  {
+   "u": "KP-02",
+   "v": "KP-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 109516
+  },
+  {
+   "u": "KP-02",
+   "v": "KP-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66510
+  },
+  {
+   "u": "KP-02",
+   "v": "KP-05",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "KP-02",
+   "v": "KP-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111927
+  },
+  {
+   "u": "KP-02",
+   "v": "KP-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19158
+  },
+  {
+   "u": "KP-02",
+   "v": "KP-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 212199
+  },
+  {
+   "u": "KP-03",
+   "v": "KP-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 124866
+  },
+  {
+   "u": "KP-04",
+   "v": "KP-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 107403
+  },
+  {
+   "u": "KP-04",
+   "v": "KP-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 132382
+  },
+  {
+   "u": "KP-05",
+   "v": "KP-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 157324
+  },
+  {
+   "u": "KP-06",
+   "v": "KP-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 129876
+  },
+  {
+   "u": "KP-07",
+   "v": "KP-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53745
+  },
+  {
+   "u": "KP-08",
+   "v": "KP-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70843
+  },
+  {
+   "u": "KP-08",
+   "v": "KP-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 297127
+  },
+  {
+   "u": "KP-09",
+   "v": "KP-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133102
+  },
+  {
+   "u": "KP-09",
+   "v": "KP-13",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 55674
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "PRK-ADM1-3916807",
+  "level": "ADM1",
+  "year": "2018",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

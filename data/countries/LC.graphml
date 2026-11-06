@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LC" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LC-01"><data key="name">Anse-la-Raye</data><data key="code">LC-01</data><data key="wikidata">Q1676934</data><data key="lon">-61.02085</data><data key="lat">13.92767</data></node>
+    <node id="LC-02"><data key="name">Castries</data><data key="code">LC-02</data><data key="wikidata">Q1049867</data><data key="lon">-60.96453</data><data key="lat">13.95985</data></node>
+    <node id="LC-03"><data key="name">Choiseul</data><data key="code">LC-03</data><data key="wikidata">Q1075816</data><data key="lon">-61.02835</data><data key="lat">13.79925</data></node>
+    <node id="LC-04"><data key="name">Dauphin</data><data key="code">LC-04</data><data key="wikidata">Q182988</data><data key="lon">-60.91125</data><data key="lat">14.02744</data></node>
+    <node id="LC-05"><data key="name">Dennery</data><data key="code">LC-05</data><data key="wikidata">Q1188890</data><data key="lon">-60.91847</data><data key="lat">13.94105</data></node>
+    <node id="LC-06"><data key="name">Gros Islet</data><data key="code">LC-06</data><data key="wikidata">Q953557</data><data key="lon">-60.94282</data><data key="lat">14.0663</data></node>
+    <node id="LC-07"><data key="name">Laborie</data><data key="code">LC-07</data><data key="wikidata">Q599347</data><data key="lon">-60.9863</data><data key="lat">13.78335</data></node>
+    <node id="LC-08"><data key="name">Micoud</data><data key="code">LC-08</data><data key="wikidata">Q1240193</data><data key="lon">-60.92453</data><data key="lat">13.81321</data></node>
+    <node id="LC-09"><data key="name">Praslin</data><data key="code">LC-09</data><data key="wikidata">Q1567791</data><data key="lon">-60.9277</data><data key="lat">13.87317</data></node>
+    <node id="LC-10"><data key="name">Soufrière</data><data key="code">LC-10</data><data key="wikidata">Q1472841</data><data key="lon">-61.01739</data><data key="lat">13.84848</data></node>
+    <node id="LC-11"><data key="name">Vieux Fort</data><data key="code">LC-11</data><data key="wikidata">Q1472864</data><data key="lon">-60.94545</data><data key="lat">13.78228</data></node>
+    <edge source="LC-01" target="LC-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LC-01" target="LC-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-02" target="LC-04"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LC-02" target="LC-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LC-02" target="LC-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-02" target="LC-09"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LC-02" target="LC-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-03" target="LC-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-03" target="LC-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-03" target="LC-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-04" target="LC-05"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LC-04" target="LC-06"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LC-05" target="LC-09"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LC-07" target="LC-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-08" target="LC-09"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LC-08" target="LC-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-08" target="LC-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LC-09" target="LC-10"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LC-10" target="LC-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

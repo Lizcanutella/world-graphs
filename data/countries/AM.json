@@ -1,0 +1,408 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AM",
+ "kind": "country",
+ "name": "Armenia",
+ "level": "regions",
+ "n": 11,
+ "m": 20,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AM-AG",
+   "name": "Aragatsotn",
+   "wikidata": "Q17915",
+   "lon": 44.30405,
+   "lat": 40.46449
+  },
+  {
+   "code": "AM-AR",
+   "name": "Ararat",
+   "wikidata": "Q199880",
+   "lon": 44.80254,
+   "lat": 39.93594
+  },
+  {
+   "code": "AM-AV",
+   "name": "Armavir",
+   "wikidata": "Q201147",
+   "lon": 44.05116,
+   "lat": 40.1469
+  },
+  {
+   "code": "AM-ER",
+   "name": "Erevan",
+   "wikidata": "Q1953",
+   "lon": 44.52421,
+   "lat": 40.14281
+  },
+  {
+   "code": "AM-GR",
+   "name": "Gegharkunik",
+   "wikidata": "Q199905",
+   "lon": 45.08894,
+   "lat": 40.31084
+  },
+  {
+   "code": "AM-KT",
+   "name": "Kotayk",
+   "wikidata": "Q4511",
+   "lon": 44.71495,
+   "lat": 40.39055
+  },
+  {
+   "code": "AM-LO",
+   "name": "Lori",
+   "wikidata": "Q200350",
+   "lon": 44.49948,
+   "lat": 40.94466
+  },
+  {
+   "code": "AM-SH",
+   "name": "Shirak",
+   "wikidata": "Q201063",
+   "lon": 43.87107,
+   "lat": 40.78782
+  },
+  {
+   "code": "AM-SU",
+   "name": "Syunik",
+   "wikidata": "Q2523428",
+   "lon": 46.08997,
+   "lat": 39.35677
+  },
+  {
+   "code": "AM-TV",
+   "name": "Tavush",
+   "wikidata": "Q201140",
+   "lon": 45.10875,
+   "lat": 40.96466
+  },
+  {
+   "code": "AM-VD",
+   "name": "Vayots Dzor",
+   "wikidata": "Q200124",
+   "lon": 45.39952,
+   "lat": 39.73962
+  }
+ ],
+ "edges": [
+  {
+   "u": "AM-AG",
+   "v": "AM-AV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76660
+  },
+  {
+   "u": "AM-AG",
+   "v": "AM-ER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1434,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Aragatsotn_Province"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Aragatsotn_Province"
+    }
+   ]
+  },
+  {
+   "u": "AM-AG",
+   "v": "AM-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67005
+  },
+  {
+   "u": "AM-AG",
+   "v": "AM-LO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26331
+  },
+  {
+   "u": "AM-AG",
+   "v": "AM-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 95048
+  },
+  {
+   "u": "AM-AR",
+   "v": "AM-AV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20151
+  },
+  {
+   "u": "AM-AR",
+   "v": "AM-ER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28091
+  },
+  {
+   "u": "AM-AR",
+   "v": "AM-GR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35288
+  },
+  {
+   "u": "AM-AR",
+   "v": "AM-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36177
+  },
+  {
+   "u": "AM-AR",
+   "v": "AM-VD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13426
+  },
+  {
+   "u": "AM-AV",
+   "v": "AM-ER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4575
+  },
+  {
+   "u": "AM-ER",
+   "v": "AM-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33316
+  },
+  {
+   "u": "AM-GR",
+   "v": "AM-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63563
+  },
+  {
+   "u": "AM-GR",
+   "v": "AM-TV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57688
+  },
+  {
+   "u": "AM-GR",
+   "v": "AM-VD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45372
+  },
+  {
+   "u": "AM-KT",
+   "v": "AM-LO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31493
+  },
+  {
+   "u": "AM-KT",
+   "v": "AM-TV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2637
+  },
+  {
+   "u": "AM-LO",
+   "v": "AM-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71969
+  },
+  {
+   "u": "AM-LO",
+   "v": "AM-TV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 93079
+  },
+  {
+   "u": "AM-SU",
+   "v": "AM-VD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34981
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ARM-ADM1-6114869",
+  "level": "ADM1",
+  "year": "2005",
+  "license": "Creative Commons Attribution 2.5 Generic"
+ }
+}

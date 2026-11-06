@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MP" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MP-X01~"><data key="name">Rota</data><data key="code">MP-X01~</data><data key="wikidata">Q27728202</data><data key="lon">145.21334</data><data key="lat">14.15843</data></node>
+    <node id="MP-X02~"><data key="name">Tinian</data><data key="code">MP-X02~</data><data key="wikidata">Q7808227</data><data key="lon">145.61777</data><data key="lat">15.00222</data></node>
+    <node id="MP-X03~"><data key="name">Saipan</data><data key="code">MP-X03~</data><data key="wikidata">Q9332790</data><data key="lon">145.73647</data><data key="lat">15.18604</data></node>
+    <node id="MP-X04~"><data key="name">Northern Islands</data><data key="code">MP-X04~</data><data key="wikidata">Q16644</data><data key="lon">145.67266</data><data key="lat">16.35865</data></node>
+  </graph>
+</graphml>

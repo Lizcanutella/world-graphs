@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BZ-BZ"><data key="name">Belize</data><data key="code">BZ-BZ</data><data key="wikidata">Q506056</data><data key="lon">-88.4342</data><data key="lat">17.54316</data></node>
+    <node id="BZ-CY"><data key="name">Cayo</data><data key="code">BZ-CY</data><data key="wikidata">Q508773</data><data key="lon">-88.90217</data><data key="lat">16.92782</data></node>
+    <node id="BZ-CZL"><data key="name">Corozal</data><data key="code">BZ-CZL</data><data key="wikidata">Q512273</data><data key="lon">-88.32855</data><data key="lat">18.23156</data></node>
+    <node id="BZ-OW"><data key="name">Orange Walk</data><data key="code">BZ-OW</data><data key="wikidata">Q506036</data><data key="lon">-88.86507</data><data key="lat">17.7843</data></node>
+    <node id="BZ-SC"><data key="name">Stann Creek</data><data key="code">BZ-SC</data><data key="wikidata">Q502652</data><data key="lon">-88.46093</data><data key="lat">16.81773</data></node>
+    <node id="BZ-TOL"><data key="name">Toledo</data><data key="code">BZ-TOL</data><data key="wikidata">Q506049</data><data key="lon">-88.92475</data><data key="lat">16.28608</data></node>
+    <edge source="BZ-BZ" target="BZ-CY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-BZ" target="BZ-CZL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-BZ" target="BZ-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-BZ" target="BZ-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-CY" target="BZ-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-CY" target="BZ-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-CY" target="BZ-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-CZL" target="BZ-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BZ-SC" target="BZ-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

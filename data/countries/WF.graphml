@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="WF" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="WF-AL"><data key="name">Alo</data><data key="code">WF-AL</data><data key="wikidata">Q2734700</data><data key="lon">-178.02956</data><data key="lat">-14.35719</data></node>
+    <node id="WF-SG"><data key="name">Sigave</data><data key="code">WF-SG</data><data key="wikidata">Q2554877</data><data key="lon">-178.15628</data><data key="lat">-14.26478</data></node>
+    <node id="WF-UV"><data key="name">`Uvea</data><data key="code">WF-UV</data><data key="wikidata">Q7903676</data><data key="lon">-176.16064</data><data key="lat">-13.28135</data></node>
+    <edge source="WF-AL" target="WF-SG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

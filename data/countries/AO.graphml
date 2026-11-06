@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AO-BGO"><data key="name">Bengo</data><data key="code">AO-BGO</data><data key="wikidata">Q191299</data><data key="lon">13.81551</data><data key="lat">-9.04185</data></node>
+    <node id="AO-BGU"><data key="name">Benguela</data><data key="code">AO-BGU</data><data key="wikidata">Q212786</data><data key="lon">13.88667</data><data key="lat">-12.80063</data></node>
+    <node id="AO-BIE"><data key="name">Bié</data><data key="code">AO-BIE</data><data key="wikidata">Q213977</data><data key="lon">17.4126</data><data key="lat">-12.44779</data></node>
+    <node id="AO-CAB"><data key="name">Cabinda</data><data key="code">AO-CAB</data><data key="wikidata">Q168787</data><data key="lon">12.27187</data><data key="lat">-5.07777</data></node>
+    <node id="AO-CCU"><data key="name">Cuando Cubango</data><data key="code">AO-CCU</data><data key="wikidata">Q215268</data><data key="lon">19.43404</data><data key="lat">-15.78467</data></node>
+    <node id="AO-CNN"><data key="name">Cunene</data><data key="code">AO-CNN</data><data key="wikidata">Q216987</data><data key="lon">15.59604</data><data key="lat">-16.29224</data></node>
+    <node id="AO-CNO"><data key="name">Cuanza Norte</data><data key="code">AO-CNO</data><data key="wikidata">Q216834</data><data key="lon">14.96594</data><data key="lat">-8.84964</data></node>
+    <node id="AO-CUS"><data key="name">Cuanza Sul</data><data key="code">AO-CUS</data><data key="wikidata">Q216998</data><data key="lon">15.0435</data><data key="lat">-10.9297</data></node>
+    <node id="AO-HUA"><data key="name">Huambo</data><data key="code">AO-HUA</data><data key="wikidata">Q218848</data><data key="lon">15.61072</data><data key="lat">-12.61088</data></node>
+    <node id="AO-HUI"><data key="name">Huíla</data><data key="code">AO-HUI</data><data key="wikidata">Q214572</data><data key="lon">15.01287</data><data key="lat">-14.84359</data></node>
+    <node id="AO-LNO"><data key="name">Lunda Norte</data><data key="code">AO-LNO</data><data key="wikidata">Q214221</data><data key="lon">19.2597</data><data key="lat">-8.67642</data></node>
+    <node id="AO-LSU"><data key="name">Lunda Sul</data><data key="code">AO-LSU</data><data key="wikidata">Q219648</data><data key="lon">20.92279</data><data key="lat">-9.90353</data></node>
+    <node id="AO-LUA"><data key="name">Luanda</data><data key="code">AO-LUA</data><data key="wikidata">Q190066</data><data key="lon">13.31682</data><data key="lat">-8.95517</data></node>
+    <node id="AO-MAL"><data key="name">Malanje</data><data key="code">AO-MAL</data><data key="wikidata">Q219072</data><data key="lon">16.26629</data><data key="lat">-9.52125</data></node>
+    <node id="AO-MOX"><data key="name">Moxico</data><data key="code">AO-MOX</data><data key="wikidata">Q173988</data><data key="lon">19.9668</data><data key="lat">-13.38342</data></node>
+    <node id="AO-NAM"><data key="name">Namibe</data><data key="code">AO-NAM</data><data key="wikidata">Q216819</data><data key="lon">12.73217</data><data key="lat">-15.37753</data></node>
+    <node id="AO-UIG"><data key="name">Uíge</data><data key="code">AO-UIG</data><data key="wikidata">Q216972</data><data key="lon">15.40027</data><data key="lat">-7.12378</data></node>
+    <node id="AO-ZAI"><data key="name">Zaire</data><data key="code">AO-ZAI</data><data key="wikidata">Q196674</data><data key="lon">13.45475</data><data key="lat">-6.83579</data></node>
+    <edge source="AO-BGO" target="AO-CNO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGO" target="AO-CUS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGO" target="AO-LUA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGO" target="AO-UIG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGO" target="AO-ZAI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGU" target="AO-CUS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGU" target="AO-HUA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGU" target="AO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BGU" target="AO-NAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BIE" target="AO-CCU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BIE" target="AO-CUS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BIE" target="AO-HUA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BIE" target="AO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BIE" target="AO-LSU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BIE" target="AO-MAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-BIE" target="AO-MOX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CCU" target="AO-CNN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CCU" target="AO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CCU" target="AO-MOX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CNN" target="AO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CNN" target="AO-NAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CNO" target="AO-CUS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CNO" target="AO-MAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CNO" target="AO-UIG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CUS" target="AO-HUA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-CUS" target="AO-MAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-HUA" target="AO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-HUI" target="AO-NAM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-LNO" target="AO-LSU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-LNO" target="AO-MAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-LSU" target="AO-MAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-LSU" target="AO-MOX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-MAL" target="AO-UIG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AO-UIG" target="AO-ZAI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

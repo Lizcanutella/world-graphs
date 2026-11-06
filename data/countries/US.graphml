@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="US" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="US-AK"><data key="name">Alaska</data><data key="code">US-AK</data><data key="wikidata">Q797</data><data key="lon">-152.00629</data><data key="lat">63.08649</data></node>
+    <node id="US-AL"><data key="name">Alabama</data><data key="code">US-AL</data><data key="wikidata">Q173</data><data key="lon">-86.73497</data><data key="lat">32.62193</data></node>
+    <node id="US-AR"><data key="name">Arkansas</data><data key="code">US-AR</data><data key="wikidata">Q1612</data><data key="lon">-92.45874</data><data key="lat">34.75273</data></node>
+    <node id="US-AZ"><data key="name">Arizona</data><data key="code">US-AZ</data><data key="wikidata">Q816</data><data key="lon">-111.68256</data><data key="lat">34.1497</data></node>
+    <node id="US-CA"><data key="name">California</data><data key="code">US-CA</data><data key="wikidata">Q99</data><data key="lon">-119.98368</data><data key="lat">37.26058</data></node>
+    <node id="US-CO"><data key="name">Colorado</data><data key="code">US-CO</data><data key="wikidata">Q1261</data><data key="lon">-105.54702</data><data key="lat">39.03116</data></node>
+    <node id="US-CT"><data key="name">Connecticut</data><data key="code">US-CT</data><data key="wikidata">Q779</data><data key="lon">-72.66025</data><data key="lat">41.53211</data></node>
+    <node id="US-DC"><data key="name">District of Columbia</data><data key="code">US-DC</data><data key="wikidata">Q3551781</data><data key="lon">-76.9916</data><data key="lat">38.9005</data></node>
+    <node id="US-DE"><data key="name">Delaware</data><data key="code">US-DE</data><data key="wikidata">Q1393</data><data key="lon">-75.57669</data><data key="lat">39.1437</data></node>
+    <node id="US-FL"><data key="name">Florida</data><data key="code">US-FL</data><data key="wikidata">Q812</data><data key="lon">-81.68063</data><data key="lat">28.05988</data></node>
+    <node id="US-GA"><data key="name">Georgia</data><data key="code">US-GA</data><data key="wikidata">Q1428</data><data key="lon">-83.25031</data><data key="lat">32.68147</data></node>
+    <node id="US-HI"><data key="name">Hawaii</data><data key="code">US-HI</data><data key="wikidata">Q782</data><data key="lon">-155.45329</data><data key="lat">19.59369</data></node>
+    <node id="US-IA"><data key="name">Iowa</data><data key="code">US-IA</data><data key="wikidata">Q1546</data><data key="lon">-93.15651</data><data key="lat">41.93984</data></node>
+    <node id="US-ID"><data key="name">Idaho</data><data key="code">US-ID</data><data key="wikidata">Q1221</data><data key="lon">-115.44289</data><data key="lat">45.49551</data></node>
+    <node id="US-IL"><data key="name">Illinois</data><data key="code">US-IL</data><data key="wikidata">Q1204</data><data key="lon">-89.45592</data><data key="lat">39.75257</data></node>
+    <node id="US-IN"><data key="name">Indiana</data><data key="code">US-IN</data><data key="wikidata">Q1415</data><data key="lon">-86.17341</data><data key="lat">39.78883</data></node>
+    <node id="US-KS"><data key="name">Kansas</data><data key="code">US-KS</data><data key="wikidata">Q1558</data><data key="lon">-98.33166</data><data key="lat">38.51606</data></node>
+    <node id="US-KY"><data key="name">Kentucky</data><data key="code">US-KY</data><data key="wikidata">Q1603</data><data key="lon">-84.73596</data><data key="lat">37.81955</data></node>
+    <node id="US-LA"><data key="name">Louisiana</data><data key="code">US-LA</data><data key="wikidata">Q1588</data><data key="lon">-91.64762</data><data key="lat">30.97464</data></node>
+    <node id="US-MA"><data key="name">Massachusetts</data><data key="code">US-MA</data><data key="wikidata">Q771</data><data key="lon">-72.09045</data><data key="lat">42.19025</data></node>
+    <node id="US-MD"><data key="name">Maryland</data><data key="code">US-MD</data><data key="wikidata">Q1391</data><data key="lon">-76.73971</data><data key="lat">38.83238</data></node>
+    <node id="US-ME"><data key="name">Maine</data><data key="code">US-ME</data><data key="wikidata">Q724</data><data key="lon">-69.17216</data><data key="lat">45.27024</data></node>
+    <node id="US-MI"><data key="name">Michigan</data><data key="code">US-MI</data><data key="wikidata">Q1166</data><data key="lon">-86.66898</data><data key="lat">46.16912</data></node>
+    <node id="US-MN"><data key="name">Minnesota</data><data key="code">US-MN</data><data key="wikidata">Q1527</data><data key="lon">-94.44494</data><data key="lat">46.24779</data></node>
+    <node id="US-MO"><data key="name">Missouri</data><data key="code">US-MO</data><data key="wikidata">Q1581</data><data key="lon">-92.49892</data><data key="lat">38.31905</data></node>
+    <node id="US-MS"><data key="name">Mississippi</data><data key="code">US-MS</data><data key="wikidata">Q1494</data><data key="lon">-89.76456</data><data key="lat">32.59126</data></node>
+    <node id="US-MT"><data key="name">Montana</data><data key="code">US-MT</data><data key="wikidata">Q1212</data><data key="lon">-109.34277</data><data key="lat">46.68727</data></node>
+    <node id="US-NC"><data key="name">North Carolina</data><data key="code">US-NC</data><data key="wikidata">Q1454</data><data key="lon">-80.42473</data><data key="lat">35.2364</data></node>
+    <node id="US-ND"><data key="name">North Dakota</data><data key="code">US-ND</data><data key="wikidata">Q1207</data><data key="lon">-99.37773</data><data key="lat">47.4672</data></node>
+    <node id="US-NE"><data key="name">Nebraska</data><data key="code">US-NE</data><data key="wikidata">Q1553</data><data key="lon">-100.02854</data><data key="lat">41.50092</data></node>
+    <node id="US-NH"><data key="name">New Hampshire</data><data key="code">US-NH</data><data key="wikidata">Q759</data><data key="lon">-71.55265</data><data key="lat">44.00884</data></node>
+    <node id="US-NJ"><data key="name">New Jersey</data><data key="code">US-NJ</data><data key="wikidata">Q1408</data><data key="lon">-74.389</data><data key="lat">40.13537</data></node>
+    <node id="US-NM"><data key="name">New Mexico</data><data key="code">US-NM</data><data key="wikidata">Q1522</data><data key="lon">-106.05063</data><data key="lat">34.12658</data></node>
+    <node id="US-NV"><data key="name">Nevada</data><data key="code">US-NV</data><data key="wikidata">Q1227</data><data key="lon">-116.6332</data><data key="lat">38.45863</data></node>
+    <node id="US-NY"><data key="name">New York</data><data key="code">US-NY</data><data key="wikidata">Q1384</data><data key="lon">-76.08277</data><data key="lat">42.90544</data></node>
+    <node id="US-OH"><data key="name">Ohio</data><data key="code">US-OH</data><data key="wikidata">Q1397</data><data key="lon">-82.74716</data><data key="lat">40.20463</data></node>
+    <node id="US-OK"><data key="name">Oklahoma</data><data key="code">US-OK</data><data key="wikidata">Q1649</data><data key="lon">-97.22029</data><data key="lat">35.35007</data></node>
+    <node id="US-OR"><data key="name">Oregon</data><data key="code">US-OR</data><data key="wikidata">Q824</data><data key="lon">-120.52003</data><data key="lat">44.11861</data></node>
+    <node id="US-PA"><data key="name">Pennsylvania</data><data key="code">US-PA</data><data key="wikidata">Q1400</data><data key="lon">-77.82721</data><data key="lat">40.99013</data></node>
+    <node id="US-RI"><data key="name">Rhode Island</data><data key="code">US-RI</data><data key="wikidata">Q1387</data><data key="lon">-71.60653</data><data key="lat">41.65626</data></node>
+    <node id="US-SC"><data key="name">South Carolina</data><data key="code">US-SC</data><data key="wikidata">Q1456</data><data key="lon">-80.56808</data><data key="lat">33.62555</data></node>
+    <node id="US-SD"><data key="name">South Dakota</data><data key="code">US-SD</data><data key="wikidata">Q1211</data><data key="lon">-100.25433</data><data key="lat">44.20469</data></node>
+    <node id="US-TN"><data key="name">Tennessee</data><data key="code">US-TN</data><data key="wikidata">Q1509</data><data key="lon">-86.33024</data><data key="lat">35.83818</data></node>
+    <node id="US-TX"><data key="name">Texas</data><data key="code">US-TX</data><data key="wikidata">Q1439</data><data key="lon">-99.69436</data><data key="lat">31.17357</data></node>
+    <node id="US-UT"><data key="name">Utah</data><data key="code">US-UT</data><data key="wikidata">Q829</data><data key="lon">-111.54391</data><data key="lat">39.5007</data></node>
+    <node id="US-VA"><data key="name">Virginia</data><data key="code">US-VA</data><data key="wikidata">Q1370</data><data key="lon">-78.46739</data><data key="lat">37.99325</data></node>
+    <node id="US-VT"><data key="name">Vermont</data><data key="code">US-VT</data><data key="wikidata">Q16551</data><data key="lon">-72.77557</data><data key="lat">43.87223</data></node>
+    <node id="US-WA"><data key="name">Washington</data><data key="code">US-WA</data><data key="wikidata">Q1223</data><data key="lon">-119.72209</data><data key="lat">47.27961</data></node>
+    <node id="US-WI"><data key="name">Wisconsin</data><data key="code">US-WI</data><data key="wikidata">Q1537</data><data key="lon">-90.37908</data><data key="lat">44.73492</data></node>
+    <node id="US-WV"><data key="name">West Virginia</data><data key="code">US-WV</data><data key="wikidata">Q1371</data><data key="lon">-80.29551</data><data key="lat">38.92615</data></node>
+    <node id="US-WY"><data key="name">Wyoming</data><data key="code">US-WY</data><data key="wikidata">Q1214</data><data key="lon">-107.55187</data><data key="lat">42.96849</data></node>
+    <edge source="US-AL" target="US-FL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AL" target="US-GA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AL" target="US-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AL" target="US-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AR" target="US-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AR" target="US-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AR" target="US-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AR" target="US-OK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AR" target="US-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AR" target="US-TX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AZ" target="US-CA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AZ" target="US-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AZ" target="US-NV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-AZ" target="US-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CA" target="US-NV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CA" target="US-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CO" target="US-KS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CO" target="US-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CO" target="US-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CO" target="US-OK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CO" target="US-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CO" target="US-WY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CT" target="US-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CT" target="US-NY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-CT" target="US-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-DC" target="US-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-DC" target="US-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-DE" target="US-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-DE" target="US-NJ"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="US-DE" target="US-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-FL" target="US-GA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-GA" target="US-NC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-GA" target="US-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-GA" target="US-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IA" target="US-IL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IA" target="US-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IA" target="US-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IA" target="US-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IA" target="US-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IA" target="US-WI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ID" target="US-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ID" target="US-NV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ID" target="US-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ID" target="US-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ID" target="US-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ID" target="US-WY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IL" target="US-IN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IL" target="US-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IL" target="US-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IL" target="US-WI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IN" target="US-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IN" target="US-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-IN" target="US-OH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KS" target="US-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KS" target="US-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KS" target="US-OK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KY" target="US-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KY" target="US-OH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KY" target="US-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KY" target="US-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-KY" target="US-WV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-LA" target="US-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-LA" target="US-TX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MA" target="US-NH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MA" target="US-NY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MA" target="US-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MA" target="US-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MD" target="US-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MD" target="US-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MD" target="US-WV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ME" target="US-NH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MI" target="US-OH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MI" target="US-WI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MN" target="US-ND"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MN" target="US-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MN" target="US-WI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MO" target="US-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MO" target="US-OK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MO" target="US-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MS" target="US-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MT" target="US-ND"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MT" target="US-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-MT" target="US-WY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NC" target="US-SC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NC" target="US-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NC" target="US-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-ND" target="US-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NE" target="US-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NE" target="US-WY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NH" target="US-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NJ" target="US-NY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NJ" target="US-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NM" target="US-OK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NM" target="US-TX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NV" target="US-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NV" target="US-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NY" target="US-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-NY" target="US-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-OH" target="US-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-OH" target="US-WV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-OK" target="US-TX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-OR" target="US-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-PA" target="US-WV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-SD" target="US-WY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-TN" target="US-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-UT" target="US-WY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="US-VA" target="US-WV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

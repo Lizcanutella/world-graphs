@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GR-69"><data key="name">Ayion Oros</data><data key="code">GR-69</data><data key="wikidata">Q780149</data><data key="lon">24.21122</data><data key="lat">40.28217</data></node>
+    <node id="GR-A"><data key="name">Anatoliki Makedonia kai Thraki</data><data key="code">GR-A</data><data key="wikidata">Q171314</data><data key="lon">25.01751</data><data key="lat">41.2335</data></node>
+    <node id="GR-A1"><data key="name">Attiki</data><data key="code">GR-A1</data><data key="wikidata">Q758056</data><data key="lon">23.80194</data><data key="lat">37.99641</data></node>
+    <node id="GR-B"><data key="name">Kentriki Makedonia</data><data key="code">GR-B</data><data key="wikidata">Q17152</data><data key="lon">22.78902</data><data key="lat">40.6558</data></node>
+    <node id="GR-C"><data key="name">Dytiki Makedonia</data><data key="code">GR-C</data><data key="wikidata">Q165408</data><data key="lon">21.42826</data><data key="lat">40.35842</data></node>
+    <node id="GR-D"><data key="name">Ipeiros</data><data key="code">GR-D</data><data key="wikidata">Q180484</data><data key="lon">20.65555</data><data key="lat">39.63879</data></node>
+    <node id="GR-E"><data key="name">Thessalia</data><data key="code">GR-E</data><data key="wikidata">Q166919</data><data key="lon">22.06092</data><data key="lat">39.56762</data></node>
+    <node id="GR-F"><data key="name">Ionioi Nisoi</data><data key="code">GR-F</data><data key="wikidata">Q1147674</data><data key="lon">20.78915</data><data key="lat">37.7812</data></node>
+    <node id="GR-G"><data key="name">Dytiki Ellada</data><data key="code">GR-G</data><data key="wikidata">Q170291</data><data key="lon">21.48149</data><data key="lat">37.85768</data></node>
+    <node id="GR-H"><data key="name">Stereá Elláda</data><data key="code">GR-H</data><data key="wikidata">Q199580</data><data key="lon">22.53106</data><data key="lat">38.68433</data></node>
+    <node id="GR-J"><data key="name">Peloponnisos</data><data key="code">GR-J</data><data key="wikidata">Q202484</data><data key="lon">22.26333</data><data key="lat">37.2789</data></node>
+    <node id="GR-K"><data key="name">Voreio Aigaio</data><data key="code">GR-K</data><data key="wikidata">Q173620</data><data key="lon">26.81395</data><data key="lat">37.72816</data></node>
+    <node id="GR-L"><data key="name">Notio Aigaio</data><data key="code">GR-L</data><data key="wikidata">Q173616</data><data key="lon">27.90578</data><data key="lat">36.17117</data></node>
+    <node id="GR-M"><data key="name">Kriti</data><data key="code">GR-M</data><data key="wikidata">Q1267522</data><data key="lon">24.46711</data><data key="lat">35.30919</data></node>
+    <edge source="GR-69" target="GR-B"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-A" target="GR-B"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-A1" target="GR-H"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-A1" target="GR-J"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-B" target="GR-C"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-B" target="GR-E"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-C" target="GR-D"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-C" target="GR-E"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-D" target="GR-E"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-D" target="GR-G"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-E" target="GR-H"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-G" target="GR-H"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GR-G" target="GR-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

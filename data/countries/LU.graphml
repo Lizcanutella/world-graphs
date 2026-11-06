@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LU" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LU-D"><data key="name">Diekirch</data><data key="code">LU-D</data><data key="wikidata">Q208747</data><data key="lon">5.97373</data><data key="lat">49.93995</data></node>
+    <node id="LU-G"><data key="name">Grevenmacher</data><data key="code">LU-G</data><data key="wikidata">Q208284</data><data key="lon">6.35082</data><data key="lat">49.65105</data></node>
+    <node id="LU-L"><data key="name">Luxembourg</data><data key="code">LU-L</data><data key="wikidata">Q2032</data><data key="lon">6.09248</data><data key="lat">49.63919</data></node>
+    <edge source="LU-D" target="LU-G"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LU-D" target="LU-L"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LU-G" target="LU-L"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

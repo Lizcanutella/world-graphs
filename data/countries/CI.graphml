@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CI-01"><data key="name">Lagunes</data><data key="code">CI-01</data><data key="wikidata">Q639491</data><data key="lon">-3.67021</data><data key="lat">5.75508</data></node>
+    <node id="CI-02"><data key="name">Haut-Sassandra</data><data key="code">CI-02</data><data key="wikidata">Q845709</data><data key="lon">-6.61717</data><data key="lat">7.01635</data></node>
+    <node id="CI-03"><data key="name">Savanes</data><data key="code">CI-03</data><data key="wikidata">Q853460</data><data key="lon">-5.58988</data><data key="lat">9.62776</data></node>
+    <node id="CI-04"><data key="name">Vallée du Bandama</data><data key="code">CI-04</data><data key="wikidata">Q845721</data><data key="lon">-4.68679</data><data key="lat">8.30739</data></node>
+    <node id="CI-05"><data key="name">Comoe</data><data key="code">CI-05</data><data key="wikidata">Q303645</data><data key="lon">-3.45926</data><data key="lat">6.56337</data></node>
+    <node id="CI-06"><data key="name">Dix-Huit Montagnes</data><data key="code">CI-06</data><data key="wikidata">Q820486</data><data key="lon">-7.73718</data><data key="lat">7.37569</data></node>
+    <node id="CI-07"><data key="name">Lacs</data><data key="code">CI-07</data><data key="wikidata">Q845706</data><data key="lon">-5.16852</data><data key="lat">6.89304</data></node>
+    <node id="CI-08"><data key="name">Zanzan</data><data key="code">CI-08</data><data key="wikidata">Q147081</data><data key="lon">-3.25722</data><data key="lat">8.49958</data></node>
+    <node id="CI-09"><data key="name">Bas-Sassandra</data><data key="code">CI-09</data><data key="wikidata">Q809733</data><data key="lon">-6.60491</data><data key="lat">5.38106</data></node>
+    <node id="CI-10"><data key="name">Denguélé</data><data key="code">CI-10</data><data key="wikidata">Q729010</data><data key="lon">-7.44379</data><data key="lat">9.49397</data></node>
+    <node id="CI-11"><data key="name">N'zi-Comoé</data><data key="code">CI-11</data><data key="wikidata">Q842491</data><data key="lon">-4.18355</data><data key="lat">7.10692</data></node>
+    <node id="CI-12"><data key="name">Marahoué</data><data key="code">CI-12</data><data key="wikidata">Q839083</data><data key="lon">-5.87226</data><data key="lat">7.12257</data></node>
+    <node id="CI-13"><data key="name">Sud-Comoé</data><data key="code">CI-13</data><data key="wikidata">Q842495</data><data key="lon">-3.20353</data><data key="lat">5.67577</data></node>
+    <node id="CI-14"><data key="name">Worodougou</data><data key="code">CI-14</data><data key="wikidata">Q846056</data><data key="lon">-6.37761</data><data key="lat">8.41844</data></node>
+    <node id="CI-15"><data key="name">Sud-Bandama</data><data key="code">CI-15</data><data key="wikidata">Q845713</data><data key="lon">-5.50562</data><data key="lat">5.63114</data></node>
+    <node id="CI-16"><data key="name">Agnéby</data><data key="code">CI-16</data><data key="wikidata">Q395166</data><data key="lon">-3.95165</data><data key="lat">6.13751</data></node>
+    <node id="CI-17"><data key="name">Bafing</data><data key="code">CI-17</data><data key="wikidata">Q799800</data><data key="lon">-7.42714</data><data key="lat">8.45812</data></node>
+    <node id="CI-18"><data key="name">Fromager</data><data key="code">CI-18</data><data key="wikidata">Q818774</data><data key="lon">-6.06769</data><data key="lat">6.1588</data></node>
+    <node id="CI-19"><data key="name">Cavally</data><data key="code">CI-19</data><data key="wikidata">Q842499</data><data key="lon">-7.61053</data><data key="lat">6.29938</data></node>
+    <edge source="CI-01" target="CI-05"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="CI-01" target="CI-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-01" target="CI-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-01" target="CI-13"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-01" target="CI-15"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-01" target="CI-16"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-01" target="CI-18"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-02" target="CI-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-02" target="CI-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-02" target="CI-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-02" target="CI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-02" target="CI-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-02" target="CI-19"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-03" target="CI-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-03" target="CI-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-03" target="CI-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-03" target="CI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-04" target="CI-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-04" target="CI-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-04" target="CI-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-04" target="CI-12"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="CI-04" target="CI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-05" target="CI-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-05" target="CI-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-05" target="CI-13"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-05" target="CI-16"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-06" target="CI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-06" target="CI-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-06" target="CI-19"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-07" target="CI-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-07" target="CI-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-07" target="CI-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-08" target="CI-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-09" target="CI-15"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-09" target="CI-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-09" target="CI-19"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-10" target="CI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-10" target="CI-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-11" target="CI-16"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CI-12" target="CI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-12" target="CI-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-14" target="CI-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CI-15" target="CI-18"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

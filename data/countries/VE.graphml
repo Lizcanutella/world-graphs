@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="VE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="VE-A"><data key="name">Distrito Capital</data><data key="code">VE-A</data><data key="wikidata">Q492791</data><data key="lon">-66.96571</data><data key="lat">10.48528</data></node>
+    <node id="VE-B"><data key="name">Anzoátegui</data><data key="code">VE-B</data><data key="wikidata">Q190922</data><data key="lon">-64.12296</data><data key="lat">8.95509</data></node>
+    <node id="VE-C"><data key="name">Apure</data><data key="code">VE-C</data><data key="wikidata">Q41146</data><data key="lon">-68.82654</data><data key="lat">7.07673</data></node>
+    <node id="VE-D"><data key="name">Aragua</data><data key="code">VE-D</data><data key="wikidata">Q190687</data><data key="lon">-67.02212</data><data key="lat">9.96983</data></node>
+    <node id="VE-E"><data key="name">Barinas</data><data key="code">VE-E</data><data key="wikidata">Q43271</data><data key="lon">-69.96843</data><data key="lat">8.15471</data></node>
+    <node id="VE-F"><data key="name">Bolívar</data><data key="code">VE-F</data><data key="wikidata">Q191164</data><data key="lon">-63.46065</data><data key="lat">6.0051</data></node>
+    <node id="VE-G"><data key="name">Carabobo</data><data key="code">VE-G</data><data key="wikidata">Q191186</data><data key="lon">-68.03439</data><data key="lat">10.21112</data></node>
+    <node id="VE-H"><data key="name">Cojedes</data><data key="code">VE-H</data><data key="wikidata">Q205460</data><data key="lon">-68.33334</data><data key="lat">9.34159</data></node>
+    <node id="VE-I"><data key="name">Falcón</data><data key="code">VE-I</data><data key="wikidata">Q202071</data><data key="lon">-69.52525</data><data key="lat">11.25125</data></node>
+    <node id="VE-J"><data key="name">Guárico</data><data key="code">VE-J</data><data key="wikidata">Q202075</data><data key="lon">-66.4214</data><data key="lat">8.82478</data></node>
+    <node id="VE-K"><data key="name">Lara</data><data key="code">VE-K</data><data key="wikidata">Q205796</data><data key="lon">-70.0305</data><data key="lat">10.07853</data></node>
+    <node id="VE-L"><data key="name">Mérida</data><data key="code">VE-L</data><data key="wikidata">Q165582</data><data key="lon">-71.38171</data><data key="lat">8.51621</data></node>
+    <node id="VE-M"><data key="name">Miranda</data><data key="code">VE-M</data><data key="wikidata">Q191174</data><data key="lon">-66.54342</data><data key="lat">10.29213</data></node>
+    <node id="VE-N"><data key="name">Monagas</data><data key="code">VE-N</data><data key="wikidata">Q205776</data><data key="lon">-63.14482</data><data key="lat">9.3519</data></node>
+    <node id="VE-O"><data key="name">Nueva Esparta</data><data key="code">VE-O</data><data key="wikidata">Q204876</data><data key="lon">-64.26153</data><data key="lat">11.01756</data></node>
+    <node id="VE-P"><data key="name">Portuguesa</data><data key="code">VE-P</data><data key="wikidata">Q205784</data><data key="lon">-69.40123</data><data key="lat">8.98143</data></node>
+    <node id="VE-R"><data key="name">Sucre</data><data key="code">VE-R</data><data key="wikidata">Q205824</data><data key="lon">-63.65642</data><data key="lat">10.40032</data></node>
+    <node id="VE-S"><data key="name">Táchira</data><data key="code">VE-S</data><data key="wikidata">Q41144</data><data key="lon">-71.96568</data><data key="lat">7.98689</data></node>
+    <node id="VE-T"><data key="name">Trujillo</data><data key="code">VE-T</data><data key="wikidata">Q202068</data><data key="lon">-70.57173</data><data key="lat">9.49467</data></node>
+    <node id="VE-U"><data key="name">Yaracuy</data><data key="code">VE-U</data><data key="wikidata">Q201121</data><data key="lon">-68.69028</data><data key="lat">10.27773</data></node>
+    <node id="VE-V"><data key="name">Zulia</data><data key="code">VE-V</data><data key="wikidata">Q43269</data><data key="lon">-72.45774</data><data key="lat">10.11172</data></node>
+    <node id="VE-W"><data key="name">Dependencias Federales</data><data key="code">VE-W</data><data key="wikidata">Q130343</data><data key="lon">-65.31014</data><data key="lat">10.93218</data></node>
+    <node id="VE-X"><data key="name">Vargas</data><data key="code">VE-X</data><data key="wikidata">Q205843</data><data key="lon">-67.23032</data><data key="lat">10.51437</data></node>
+    <node id="VE-Y"><data key="name">Delta Amacuro</data><data key="code">VE-Y</data><data key="wikidata">Q201137</data><data key="lon">-61.5623</data><data key="lat">8.88287</data></node>
+    <node id="VE-Z"><data key="name">Amazonas</data><data key="code">VE-Z</data><data key="wikidata">Q170453</data><data key="lon">-65.77508</data><data key="lat">3.42232</data></node>
+    <edge source="VE-A" target="VE-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-A" target="VE-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-B" target="VE-F"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-B" target="VE-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-B" target="VE-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-B" target="VE-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-B" target="VE-R"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-C" target="VE-E"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-C" target="VE-F"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-C" target="VE-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-C" target="VE-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-C" target="VE-Z"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="VE-D" target="VE-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-D" target="VE-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-D" target="VE-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-D" target="VE-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-E" target="VE-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-E" target="VE-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-E" target="VE-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-E" target="VE-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-E" target="VE-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-E" target="VE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-F" target="VE-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-F" target="VE-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-F" target="VE-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-F" target="VE-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-G" target="VE-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-G" target="VE-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-G" target="VE-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-H" target="VE-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-H" target="VE-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-H" target="VE-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-H" target="VE-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-I" target="VE-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-I" target="VE-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-I" target="VE-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-J" target="VE-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-K" target="VE-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-K" target="VE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-K" target="VE-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-K" target="VE-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-L" target="VE-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-L" target="VE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-L" target="VE-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-M" target="VE-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-N" target="VE-R"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-N" target="VE-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-P" target="VE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-S" target="VE-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VE-T" target="VE-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

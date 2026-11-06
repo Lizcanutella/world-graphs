@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GT-AV"><data key="name">Alta Verapaz</data><data key="code">GT-AV</data><data key="wikidata">Q504637</data><data key="lon">-90.12928</data><data key="lat">15.61577</data></node>
+    <node id="GT-BV"><data key="name">Baja Verapaz</data><data key="code">GT-BV</data><data key="wikidata">Q504647</data><data key="lon">-90.4528</data><data key="lat">15.089</data></node>
+    <node id="GT-CM"><data key="name">Chimaltenango</data><data key="code">GT-CM</data><data key="wikidata">Q765975</data><data key="lon">-90.93412</data><data key="lat">14.66236</data></node>
+    <node id="GT-CQ"><data key="name">Chiquimula</data><data key="code">GT-CQ</data><data key="wikidata">Q753037</data><data key="lon">-89.40869</data><data key="lat">14.67785</data></node>
+    <node id="GT-ES"><data key="name">Escuintla</data><data key="code">GT-ES</data><data key="wikidata">Q795587</data><data key="lon">-90.98859</data><data key="lat">14.19621</data></node>
+    <node id="GT-GU"><data key="name">Guatemala</data><data key="code">GT-GU</data><data key="wikidata">Q695660</data><data key="lon">-90.45301</data><data key="lat">14.58717</data></node>
+    <node id="GT-HU"><data key="name">Huehuetenango</data><data key="code">GT-HU</data><data key="wikidata">Q842266</data><data key="lon">-91.65603</data><data key="lat">15.61277</data></node>
+    <node id="GT-IZ"><data key="name">Izabal</data><data key="code">GT-IZ</data><data key="wikidata">Q693658</data><data key="lon">-88.72891</data><data key="lat">15.51987</data></node>
+    <node id="GT-JA"><data key="name">Jalapa</data><data key="code">GT-JA</data><data key="wikidata">Q795441</data><data key="lon">-89.94296</data><data key="lat">14.66314</data></node>
+    <node id="GT-JU"><data key="name">Jutiapa</data><data key="code">GT-JU</data><data key="wikidata">Q765984</data><data key="lon">-89.87926</data><data key="lat">14.15424</data></node>
+    <node id="GT-PE"><data key="name">Petén</data><data key="code">GT-PE</data><data key="wikidata">Q466061</data><data key="lon">-90.0362</data><data key="lat">16.83117</data></node>
+    <node id="GT-PR"><data key="name">El Progreso</data><data key="code">GT-PR</data><data key="wikidata">Q795591</data><data key="lon">-90.02903</data><data key="lat">14.92415</data></node>
+    <node id="GT-QC"><data key="name">Quiché</data><data key="code">GT-QC</data><data key="wikidata">Q669802</data><data key="lon">-91.00009</data><data key="lat">15.44464</data></node>
+    <node id="GT-QZ"><data key="name">Quezaltenango</data><data key="code">GT-QZ</data><data key="wikidata">Q844502</data><data key="lon">-91.60674</data><data key="lat">14.87568</data></node>
+    <node id="GT-RE"><data key="name">Retalhuleu</data><data key="code">GT-RE</data><data key="wikidata">Q888307</data><data key="lon">-91.8496</data><data key="lat">14.43896</data></node>
+    <node id="GT-SA"><data key="name">Sacatepéquez</data><data key="code">GT-SA</data><data key="wikidata">Q508804</data><data key="lon">-90.73505</data><data key="lat">14.59265</data></node>
+    <node id="GT-SM"><data key="name">San Marcos</data><data key="code">GT-SM</data><data key="wikidata">Q883907</data><data key="lon">-91.92193</data><data key="lat">14.97482</data></node>
+    <node id="GT-SO"><data key="name">Sololá</data><data key="code">GT-SO</data><data key="wikidata">Q178136</data><data key="lon">-91.26508</data><data key="lat">14.71117</data></node>
+    <node id="GT-SR"><data key="name">Santa Rosa</data><data key="code">GT-SR</data><data key="wikidata">Q885656</data><data key="lon">-90.31617</data><data key="lat">14.15355</data></node>
+    <node id="GT-SU"><data key="name">Suchitepéquez</data><data key="code">GT-SU</data><data key="wikidata">Q883734</data><data key="lon">-91.36316</data><data key="lat">14.40065</data></node>
+    <node id="GT-TO"><data key="name">Totonicapán</data><data key="code">GT-TO</data><data key="wikidata">Q885644</data><data key="lon">-91.42434</data><data key="lat">15.04012</data></node>
+    <node id="GT-ZA"><data key="name">Zacapa</data><data key="code">GT-ZA</data><data key="wikidata">Q780784</data><data key="lon">-89.48546</data><data key="lat">15.03602</data></node>
+    <edge source="GT-AV" target="GT-BV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-AV" target="GT-IZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-AV" target="GT-PE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-AV" target="GT-PR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-AV" target="GT-QC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-AV" target="GT-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-BV" target="GT-CM"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GT-BV" target="GT-GU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-BV" target="GT-PR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-BV" target="GT-QC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CM" target="GT-ES"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CM" target="GT-GU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CM" target="GT-QC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CM" target="GT-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CM" target="GT-SO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CM" target="GT-SU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CQ" target="GT-JA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CQ" target="GT-JU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-CQ" target="GT-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-ES" target="GT-GU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-ES" target="GT-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-ES" target="GT-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-ES" target="GT-SU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-GU" target="GT-JA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-GU" target="GT-PR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-GU" target="GT-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-GU" target="GT-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-HU" target="GT-QC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-HU" target="GT-QZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-HU" target="GT-SM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-HU" target="GT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-IZ" target="GT-PE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-IZ" target="GT-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-JA" target="GT-JU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-JA" target="GT-PR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-JA" target="GT-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-JA" target="GT-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-JU" target="GT-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-PR" target="GT-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-QC" target="GT-SO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-QC" target="GT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-QZ" target="GT-RE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-QZ" target="GT-SM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-QZ" target="GT-SO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-QZ" target="GT-SU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-QZ" target="GT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-RE" target="GT-SM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-RE" target="GT-SU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-SO" target="GT-SU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GT-SO" target="GT-TO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

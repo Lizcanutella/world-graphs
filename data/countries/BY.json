@@ -1,0 +1,265 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BY",
+ "kind": "country",
+ "name": "Belarus",
+ "level": "oblasts",
+ "n": 7,
+ "m": 11,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BY-BR",
+   "name": "Brest",
+   "wikidata": "Q173822",
+   "lon": 25.24549,
+   "lat": 52.45644
+  },
+  {
+   "code": "BY-HM",
+   "name": "City of Minsk",
+   "wikidata": "Q2280",
+   "lon": 27.57495,
+   "lat": 53.90054
+  },
+  {
+   "code": "BY-HO",
+   "name": "Gomel",
+   "wikidata": "Q188732",
+   "lon": 29.47919,
+   "lat": 52.30059
+  },
+  {
+   "code": "BY-HR",
+   "name": "Grodno",
+   "wikidata": "Q191061",
+   "lon": 24.86358,
+   "lat": 53.86426
+  },
+  {
+   "code": "BY-MA",
+   "name": "Mogilev",
+   "wikidata": "Q189822",
+   "lon": 30.68692,
+   "lat": 53.56712
+  },
+  {
+   "code": "BY-MI",
+   "name": "Minsk",
+   "wikidata": "Q192959",
+   "lon": 27.81586,
+   "lat": 53.68168
+  },
+  {
+   "code": "BY-VI",
+   "name": "Vitebsk",
+   "wikidata": "Q185700",
+   "lon": 28.77774,
+   "lat": 55.18175
+  }
+ ],
+ "edges": [
+  {
+   "u": "BY-BR",
+   "v": "BY-HO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99981
+  },
+  {
+   "u": "BY-BR",
+   "v": "BY-HR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 275811
+  },
+  {
+   "u": "BY-BR",
+   "v": "BY-MI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 208106
+  },
+  {
+   "u": "BY-HM",
+   "v": "BY-MI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 105492
+  },
+  {
+   "u": "BY-HO",
+   "v": "BY-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 329404
+  },
+  {
+   "u": "BY-HO",
+   "v": "BY-MI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136220
+  },
+  {
+   "u": "BY-HR",
+   "v": "BY-MI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 282007
+  },
+  {
+   "u": "BY-HR",
+   "v": "BY-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16507
+  },
+  {
+   "u": "BY-MA",
+   "v": "BY-MI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 352883
+  },
+  {
+   "u": "BY-MA",
+   "v": "BY-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 181159
+  },
+  {
+   "u": "BY-MI",
+   "v": "BY-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 350090
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BLR-ADM1-45462678",
+  "level": "ADM1",
+  "year": "2005",
+  "license": "Creative Commons Attribution 3.0 License"
+ }
+}

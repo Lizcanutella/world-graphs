@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AZ-ABS"><data key="name">Abşeron</data><data key="code">AZ-ABS</data><data key="wikidata">Q179538</data><data key="lon">49.18556</data><data key="lat">40.29674</data></node>
+    <node id="AZ-AGA"><data key="name">Ağstafa</data><data key="code">AZ-AGA</data><data key="wikidata">Q275744</data><data key="lon">45.5404</data><data key="lat">41.196</data></node>
+    <node id="AZ-AGC"><data key="name">Ağcabədi</data><data key="code">AZ-AGC</data><data key="wikidata">Q330818</data><data key="lon">47.37754</data><data key="lat">39.97781</data></node>
+    <node id="AZ-AGM"><data key="name">Ağdam</data><data key="code">AZ-AGM</data><data key="wikidata">Q201647</data><data key="lon">46.90448</data><data key="lat">40.01187</data></node>
+    <node id="AZ-AGS"><data key="name">Ağdaş</data><data key="code">AZ-AGS</data><data key="wikidata">Q275784</data><data key="lon">47.40777</data><data key="lat">40.54551</data></node>
+    <node id="AZ-AGU"><data key="name">Ağsu</data><data key="code">AZ-AGU</data><data key="wikidata">Q330800</data><data key="lon">48.30979</data><data key="lat">40.53647</data></node>
+    <node id="AZ-AST"><data key="name">Astara</data><data key="code">AZ-AST</data><data key="wikidata">Q269680</data><data key="lon">48.71312</data><data key="lat">38.50491</data></node>
+    <node id="AZ-BA"><data key="name">Bakı</data><data key="code">AZ-BA</data><data key="wikidata">Q9248</data><data key="lon">49.42533</data><data key="lat">40.1182</data></node>
+    <node id="AZ-BAB"><data key="name">Babək</data><data key="code">AZ-BAB</data><data key="wikidata">Q643895</data><data key="lon">45.34264</data><data key="lat">39.28223</data></node>
+    <node id="AZ-BAL"><data key="name">Balakən</data><data key="code">AZ-BAL</data><data key="wikidata">Q330850</data><data key="lon">46.39917</data><data key="lat">41.7227</data></node>
+    <node id="AZ-BAR"><data key="name">Bərdə</data><data key="code">AZ-BAR</data><data key="wikidata">Q330857</data><data key="lon">47.21522</data><data key="lat">40.35511</data></node>
+    <node id="AZ-BEY"><data key="name">Beyləqan</data><data key="code">AZ-BEY</data><data key="wikidata">Q330807</data><data key="lon">47.62431</data><data key="lat">39.86343</data></node>
+    <node id="AZ-BIL"><data key="name">Biləsuvar</data><data key="code">AZ-BIL</data><data key="wikidata">Q330834</data><data key="lon">48.46307</data><data key="lat">39.52826</data></node>
+    <node id="AZ-CAB"><data key="name">Cəbrayıl</data><data key="code">AZ-CAB</data><data key="wikidata">Q457491</data><data key="lon">46.92785</data><data key="lat">39.31595</data></node>
+    <node id="AZ-CAL"><data key="name">Cəlilabad</data><data key="code">AZ-CAL</data><data key="wikidata">Q372795</data><data key="lon">48.43907</data><data key="lat">39.19462</data></node>
+    <node id="AZ-CUL"><data key="name">Culfa</data><data key="code">AZ-CUL</data><data key="wikidata">Q644035</data><data key="lon">45.66397</data><data key="lat">39.14845</data></node>
+    <node id="AZ-DAS"><data key="name">Daşkəsən</data><data key="code">AZ-DAS</data><data key="wikidata">Q457494</data><data key="lon">45.99592</data><data key="lat">40.46528</data></node>
+    <node id="AZ-FUZ"><data key="name">Füzuli</data><data key="code">AZ-FUZ</data><data key="wikidata">Q331687</data><data key="lon">47.3455</data><data key="lat">39.55181</data></node>
+    <node id="AZ-GA"><data key="name">Gəncə</data><data key="code">AZ-GA</data><data key="wikidata">Q131290</data><data key="lon">46.35795</data><data key="lat">40.6795</data></node>
+    <node id="AZ-GAD"><data key="name">Gədəbəy</data><data key="code">AZ-GAD</data><data key="wikidata">Q330749</data><data key="lon">45.67771</data><data key="lat">40.56178</data></node>
+    <node id="AZ-GOR"><data key="name">Goranboy</data><data key="code">AZ-GOR</data><data key="wikidata">Q330843</data><data key="lon">46.69252</data><data key="lat">40.5776</data></node>
+    <node id="AZ-GOY"><data key="name">Göyçay</data><data key="code">AZ-GOY</data><data key="wikidata">Q477163</data><data key="lon">47.80732</data><data key="lat">40.55594</data></node>
+    <node id="AZ-GYG"><data key="name">Xanlar</data><data key="code">AZ-GYG</data><data key="wikidata">Q388087</data><data key="lon">46.34291</data><data key="lat">40.55211</data></node>
+    <node id="AZ-HAC"><data key="name">Hajigabul</data><data key="code">AZ-HAC</data><data key="wikidata">Q476690</data><data key="lon">48.93408</data><data key="lat">40.08183</data></node>
+    <node id="AZ-IMI"><data key="name">İmişli</data><data key="code">AZ-IMI</data><data key="wikidata">Q343908</data><data key="lon">47.98586</data><data key="lat">39.85294</data></node>
+    <node id="AZ-ISM"><data key="name">İsmayıllı</data><data key="code">AZ-ISM</data><data key="wikidata">Q344252</data><data key="lon">48.15714</data><data key="lat">40.78291</data></node>
+    <node id="AZ-KAL"><data key="name">Kəlbəcər</data><data key="code">AZ-KAL</data><data key="wikidata">Q457513</data><data key="lon">46.31835</data><data key="lat">40.05814</data></node>
+    <node id="AZ-KAN"><data key="name">Kangarli</data><data key="code">AZ-KAN</data><data key="wikidata">Q734030</data><data key="lon">45.16757</data><data key="lat">39.44888</data></node>
+    <node id="AZ-KUR"><data key="name">Kürdəmir</data><data key="code">AZ-KUR</data><data key="wikidata">Q688589</data><data key="lon">48.17842</data><data key="lat">40.28931</data></node>
+    <node id="AZ-LA"><data key="name">Lənkəran (District) (AZ-LA)</data><data key="code">AZ-LA</data><data key="wikidata">Q228811</data><data key="lon">48.75856</data><data key="lat">38.74173</data></node>
+    <node id="AZ-LAN"><data key="name">Lənkəran (District) (AZ-LAN)</data><data key="code">AZ-LAN</data><data key="wikidata"></data><data key="lon">46.296</data><data key="lat">39.70107</data></node>
+    <node id="AZ-LER"><data key="name">Lerik</data><data key="code">AZ-LER</data><data key="wikidata">Q688626</data><data key="lon">48.45685</data><data key="lat">38.70591</data></node>
+    <node id="AZ-MAS"><data key="name">Masallı</data><data key="code">AZ-MAS</data><data key="wikidata">Q476695</data><data key="lon">48.69916</data><data key="lat">38.9909</data></node>
+    <node id="AZ-MI"><data key="name">Mingəçevir</data><data key="code">AZ-MI</data><data key="wikidata">Q230932</data><data key="lon">46.9883</data><data key="lat">40.7572</data></node>
+    <node id="AZ-NA"><data key="name">Naftalan</data><data key="code">AZ-NA</data><data key="wikidata">Q21979624</data><data key="lon">46.82721</data><data key="lat">40.50863</data></node>
+    <node id="AZ-NEF"><data key="name">Neftçala</data><data key="code">AZ-NEF</data><data key="wikidata">Q688633</data><data key="lon">48.99779</data><data key="lat">39.33952</data></node>
+    <node id="AZ-NX"><data key="name">Naxçıvan</data><data key="code">AZ-NX</data><data key="wikidata">Q230104</data><data key="lon">45.41721</data><data key="lat">39.21418</data></node>
+    <node id="AZ-OGU"><data key="name">Oğuz</data><data key="code">AZ-OGU</data><data key="wikidata">Q643989</data><data key="lon">47.45976</data><data key="lat">41.03496</data></node>
+    <node id="AZ-ORD"><data key="name">Ordubad</data><data key="code">AZ-ORD</data><data key="wikidata">Q512623</data><data key="lon">45.88186</data><data key="lat">39.07349</data></node>
+    <node id="AZ-QAB"><data key="name">Qəbələ</data><data key="code">AZ-QAB</data><data key="wikidata">Q593872</data><data key="lon">47.78734</data><data key="lat">40.92584</data></node>
+    <node id="AZ-QAX"><data key="name">Qax</data><data key="code">AZ-QAX</data><data key="wikidata">Q330796</data><data key="lon">46.751</data><data key="lat">41.24411</data></node>
+    <node id="AZ-QAZ"><data key="name">Qazax</data><data key="code">AZ-QAZ</data><data key="wikidata">Q389381</data><data key="lon">45.27218</data><data key="lat">41.17237</data></node>
+    <node id="AZ-QBA"><data key="name">Quba</data><data key="code">AZ-QBA</data><data key="wikidata">Q457499</data><data key="lon">48.34568</data><data key="lat">41.19772</data></node>
+    <node id="AZ-QBI"><data key="name">Qubadli</data><data key="code">AZ-QBI</data><data key="wikidata">Q644048</data><data key="lon">46.6222</data><data key="lat">39.30153</data></node>
+    <node id="AZ-QOB"><data key="name">Qobustan</data><data key="code">AZ-QOB</data><data key="wikidata">Q457508</data><data key="lon">48.96784</data><data key="lat">40.52549</data></node>
+    <node id="AZ-QUS"><data key="name">Qusar</data><data key="code">AZ-QUS</data><data key="wikidata">Q386506</data><data key="lon">48.24191</data><data key="lat">41.4394</data></node>
+    <node id="AZ-SA"><data key="name">Şəki</data><data key="code">AZ-SA</data><data key="wikidata">Q234783</data><data key="lon">47.0759</data><data key="lat">41.11851</data></node>
+    <node id="AZ-SAB"><data key="name">Sabirabad</data><data key="code">AZ-SAB</data><data key="wikidata">Q382132</data><data key="lon">48.81258</data><data key="lat">39.86264</data></node>
+    <node id="AZ-SAD"><data key="name">Sədərək</data><data key="code">AZ-SAD</data><data key="wikidata">Q641468</data><data key="lon">44.82623</data><data key="lat">39.6799</data></node>
+    <node id="AZ-SAH"><data key="name">Şahbuz</data><data key="code">AZ-SAH</data><data key="wikidata">Q388081</data><data key="lon">45.58065</data><data key="lat">39.42858</data></node>
+    <node id="AZ-SAL"><data key="name">Salyan</data><data key="code">AZ-SAL</data><data key="wikidata">Q457485</data><data key="lon">49.11571</data><data key="lat">39.63784</data></node>
+    <node id="AZ-SAR"><data key="name">Şərur</data><data key="code">AZ-SAR</data><data key="wikidata">Q390820</data><data key="lon">45.02348</data><data key="lat">39.57981</data></node>
+    <node id="AZ-SAT"><data key="name">Saatlı</data><data key="code">AZ-SAT</data><data key="wikidata">Q601105</data><data key="lon">48.45475</data><data key="lat">39.81114</data></node>
+    <node id="AZ-SBN"><data key="name">Dəvəçi</data><data key="code">AZ-SBN</data><data key="wikidata">Q387994</data><data key="lon">48.79274</data><data key="lat">41.11602</data></node>
+    <node id="AZ-SIY"><data key="name">Siyəzən</data><data key="code">AZ-SIY</data><data key="wikidata">Q820940</data><data key="lon">49.04772</data><data key="lat">41.02744</data></node>
+    <node id="AZ-SKR"><data key="name">Şəmkir</data><data key="code">AZ-SKR</data><data key="wikidata">Q467491</data><data key="lon">45.99705</data><data key="lat">40.84349</data></node>
+    <node id="AZ-SM"><data key="name">Sumqayıt</data><data key="code">AZ-SM</data><data key="wikidata">Q179833</data><data key="lon">49.61347</data><data key="lat">40.60014</data></node>
+    <node id="AZ-SMI"><data key="name">Şamaxı</data><data key="code">AZ-SMI</data><data key="wikidata">Q330839</data><data key="lon">48.56851</data><data key="lat">40.60301</data></node>
+    <node id="AZ-SMX"><data key="name">Samux</data><data key="code">AZ-SMX</data><data key="wikidata">Q498437</data><data key="lon">46.39243</data><data key="lat">40.95106</data></node>
+    <node id="AZ-SR"><data key="name">Shirvan</data><data key="code">AZ-SR</data><data key="wikidata">Q241116</data><data key="lon">48.91516</data><data key="lat">39.94522</data></node>
+    <node id="AZ-SUS"><data key="name">Şuşa (District)</data><data key="code">AZ-SUS</data><data key="wikidata">Q388960</data><data key="lon">46.66856</data><data key="lat">39.68057</data></node>
+    <node id="AZ-TAR"><data key="name">Tərtər</data><data key="code">AZ-TAR</data><data key="wikidata">Q477168</data><data key="lon">46.78824</data><data key="lat">40.25227</data></node>
+    <node id="AZ-TOV"><data key="name">Tovuz</data><data key="code">AZ-TOV</data><data key="wikidata">Q388980</data><data key="lon">45.65144</data><data key="lat">40.92047</data></node>
+    <node id="AZ-UCA"><data key="name">Ucar</data><data key="code">AZ-UCA</data><data key="wikidata">Q476703</data><data key="lon">47.75031</data><data key="lat">40.40695</data></node>
+    <node id="AZ-X01~"><data key="name">Şuşa (Municipality)</data><data key="code">AZ-X01~</data><data key="wikidata">Q388960</data><data key="lon">46.75319</data><data key="lat">39.75916</data></node>
+    <node id="AZ-XA"><data key="name">Stepanakert</data><data key="code">AZ-XA</data><data key="wikidata">Q129352</data><data key="lon">46.76747</data><data key="lat">39.8343</data></node>
+    <node id="AZ-XAC"><data key="name">Xaçmaz</data><data key="code">AZ-XAC</data><data key="wikidata">Q6398826</data><data key="lon">48.70161</data><data key="lat">41.59528</data></node>
+    <node id="AZ-XCI"><data key="name">Xocalı</data><data key="code">AZ-XCI</data><data key="wikidata">Q330790</data><data key="lon">46.63222</data><data key="lat">39.8219</data></node>
+    <node id="AZ-XIZ"><data key="name">Xizı</data><data key="code">AZ-XIZ</data><data key="wikidata">Q476708</data><data key="lon">49.20233</data><data key="lat">40.73875</data></node>
+    <node id="AZ-XVD"><data key="name">Xocavənd</data><data key="code">AZ-XVD</data><data key="wikidata">Q330813</data><data key="lon">46.94528</data><data key="lat">39.63241</data></node>
+    <node id="AZ-YAR"><data key="name">Yardımlı</data><data key="code">AZ-YAR</data><data key="wikidata">Q127255</data><data key="lon">48.20267</data><data key="lat">38.87065</data></node>
+    <node id="AZ-YEV:Yevlakh"><data key="name">Yevlakh</data><data key="code">AZ-YEV:Yevlakh</data><data key="wikidata">Q175459</data><data key="lon">47.14073</data><data key="lat">40.60216</data></node>
+    <node id="AZ-YEV:Yevlakh Rayon"><data key="name">Yevlakh Rayon</data><data key="code">AZ-YEV:Yevlakh Rayon</data><data key="wikidata">Q458524</data><data key="lon">47.02152</data><data key="lat">40.6956</data></node>
+    <node id="AZ-ZAN"><data key="name">Zəngilan</data><data key="code">AZ-ZAN</data><data key="wikidata">Q249252</data><data key="lon">46.62636</data><data key="lat">39.06206</data></node>
+    <node id="AZ-ZAQ"><data key="name">Zaqatala</data><data key="code">AZ-ZAQ</data><data key="wikidata">Q147553</data><data key="lon">46.73872</data><data key="lat">41.59672</data></node>
+    <node id="AZ-ZAR"><data key="name">Zərdab</data><data key="code">AZ-ZAR</data><data key="wikidata">Q249293</data><data key="lon">47.71349</data><data key="lat">40.24466</data></node>
+    <edge source="AZ-ABS" target="AZ-BA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-ABS" target="AZ-HAC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-ABS" target="AZ-QOB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-ABS" target="AZ-SM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-ABS" target="AZ-XIZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGA" target="AZ-QAZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGA" target="AZ-TOV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGC" target="AZ-AGM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGC" target="AZ-BAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGC" target="AZ-BEY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGC" target="AZ-FUZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGC" target="AZ-XVD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGC" target="AZ-ZAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGM" target="AZ-BAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGM" target="AZ-KAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGM" target="AZ-TAR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGM" target="AZ-XCI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGM" target="AZ-XVD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGS" target="AZ-BAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGS" target="AZ-GOY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGS" target="AZ-QAB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGS" target="AZ-SA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGS" target="AZ-UCA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGS" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGS" target="AZ-ZAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AGU" target="AZ-HAC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGU" target="AZ-ISM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGU" target="AZ-KUR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-AGU" target="AZ-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AST" target="AZ-LA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-AST" target="AZ-LER"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BA" target="AZ-HAC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BA" target="AZ-SAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BA" target="AZ-SM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BAB" target="AZ-CUL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BAB" target="AZ-KAN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BAB" target="AZ-NX"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BAB" target="AZ-SAH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BAL" target="AZ-ZAQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BAR" target="AZ-TAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BAR" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BAR" target="AZ-ZAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BEY" target="AZ-FUZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BEY" target="AZ-IMI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BEY" target="AZ-ZAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-BIL" target="AZ-CAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BIL" target="AZ-IMI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BIL" target="AZ-SAB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BIL" target="AZ-SAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-BIL" target="AZ-SAT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-CAB" target="AZ-FUZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CAB" target="AZ-QBI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CAB" target="AZ-XVD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CAB" target="AZ-ZAN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CAL" target="AZ-MAS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CAL" target="AZ-NEF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CAL" target="AZ-YAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CUL" target="AZ-NX"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-CUL" target="AZ-ORD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-CUL" target="AZ-SAH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-DAS" target="AZ-GAD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-DAS" target="AZ-GYG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-DAS" target="AZ-KAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-DAS" target="AZ-SKR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-FUZ" target="AZ-XVD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GA" target="AZ-GYG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GA" target="AZ-SMX"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GAD" target="AZ-SKR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GAD" target="AZ-TOV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GOR" target="AZ-GYG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GOR" target="AZ-KAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GOR" target="AZ-NA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GOR" target="AZ-SMX"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GOR" target="AZ-TAR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GOR" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GOY" target="AZ-ISM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GOY" target="AZ-KUR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GOY" target="AZ-QAB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GOY" target="AZ-UCA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-GYG" target="AZ-KAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GYG" target="AZ-SKR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-GYG" target="AZ-SMX"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-HAC" target="AZ-KUR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-HAC" target="AZ-QOB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-HAC" target="AZ-SAB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-HAC" target="AZ-SAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-HAC" target="AZ-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-HAC" target="AZ-SR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-IMI" target="AZ-KUR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-IMI" target="AZ-SAB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-IMI" target="AZ-SAT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-IMI" target="AZ-ZAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-ISM" target="AZ-KUR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-ISM" target="AZ-QAB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-ISM" target="AZ-QBA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-ISM" target="AZ-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-KAL" target="AZ-LAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-KAL" target="AZ-TAR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-KAL" target="AZ-XCI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-KAN" target="AZ-SAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-KUR" target="AZ-SAB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-KUR" target="AZ-UCA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-KUR" target="AZ-ZAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-LA" target="AZ-LER"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-LA" target="AZ-MAS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-LA" target="AZ-NEF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-LAN" target="AZ-QBI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-LAN" target="AZ-SUS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-LAN" target="AZ-XCI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-LAN" target="AZ-XVD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-LER" target="AZ-MAS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-LER" target="AZ-YAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-MAS" target="AZ-NEF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-MAS" target="AZ-YAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-MI" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-NEF" target="AZ-SAL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-OGU" target="AZ-QAB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-OGU" target="AZ-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QAB" target="AZ-QBA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QAB" target="AZ-QUS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-QAB" target="AZ-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QAX" target="AZ-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QAX" target="AZ-SMX"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QAX" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-QAX" target="AZ-ZAQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QBA" target="AZ-QUS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-QBA" target="AZ-SBN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-QBA" target="AZ-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-QBA" target="AZ-XAC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-QBI" target="AZ-XVD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QBI" target="AZ-ZAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QOB" target="AZ-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-QOB" target="AZ-XIZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-QUS" target="AZ-XAC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SA" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SAB" target="AZ-SAL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-SAB" target="AZ-SAT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-SAB" target="AZ-SR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SAD" target="AZ-SAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SAL" target="AZ-SR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SBN" target="AZ-SIY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SBN" target="AZ-SMI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SBN" target="AZ-XAC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SBN" target="AZ-XIZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SIY" target="AZ-XIZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SKR" target="AZ-SMX"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-SKR" target="AZ-TOV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-SM" target="AZ-XIZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SMI" target="AZ-XIZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SMX" target="AZ-TOV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-SUS" target="AZ-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SUS" target="AZ-XCI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-SUS" target="AZ-XVD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-TAR" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-UCA" target="AZ-ZAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-X01~" target="AZ-XCI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-XA" target="AZ-XCI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AZ-XCI" target="AZ-XVD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AZ-YEV:Yevlakh" target="AZ-YEV:Yevlakh Rayon"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

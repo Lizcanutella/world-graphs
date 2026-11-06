@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BW" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BW-CE"><data key="name">Central</data><data key="code">BW-CE</data><data key="wikidata">Q57525</data><data key="lon">25.89957</data><data key="lat">-21.48571</data></node>
+    <node id="BW-FR"><data key="name">Francistown</data><data key="code">BW-FR</data><data key="wikidata">Q165422</data><data key="lon">27.49991</data><data key="lat">-21.16186</data></node>
+    <node id="BW-GA"><data key="name">Gaborone</data><data key="code">BW-GA</data><data key="wikidata">Q3919</data><data key="lon">25.93635</data><data key="lat">-24.60239</data></node>
+    <node id="BW-GH"><data key="name">Ghanzi</data><data key="code">BW-GH</data><data key="wikidata">Q57571</data><data key="lon">22.39371</data><data key="lat">-22.16201</data></node>
+    <node id="BW-JW"><data key="name">Jwaneng</data><data key="code">BW-JW</data><data key="wikidata">Q165954</data><data key="lon">24.72777</data><data key="lat">-24.58195</data></node>
+    <node id="BW-KG"><data key="name">Kgalagadi</data><data key="code">BW-KG</data><data key="wikidata">Q57581</data><data key="lon">22.31364</data><data key="lat">-25.07697</data></node>
+    <node id="BW-KL"><data key="name">Kgatleng</data><data key="code">BW-KL</data><data key="wikidata">Q57593</data><data key="lon">26.43243</data><data key="lat">-24.03187</data></node>
+    <node id="BW-KW"><data key="name">Kweneng</data><data key="code">BW-KW</data><data key="wikidata">Q57599</data><data key="lon">24.52276</data><data key="lat">-23.8209</data></node>
+    <node id="BW-LO"><data key="name">Lobatse</data><data key="code">BW-LO</data><data key="wikidata">Q165768</data><data key="lon">25.68427</data><data key="lat">-25.20625</data></node>
+    <node id="BW-NE"><data key="name">North-East</data><data key="code">BW-NE</data><data key="wikidata">Q57636</data><data key="lon">27.47966</data><data key="lat">-21.02743</data></node>
+    <node id="BW-NW"><data key="name">North-West</data><data key="code">BW-NW</data><data key="wikidata">Q57617</data><data key="lon">22.98392</data><data key="lat">-19.43835</data></node>
+    <node id="BW-SE"><data key="name">South-East</data><data key="code">BW-SE</data><data key="wikidata">Q57695</data><data key="lon">25.74538</data><data key="lat">-25.00951</data></node>
+    <node id="BW-SO"><data key="name">Southern</data><data key="code">BW-SO</data><data key="wikidata">Q57609</data><data key="lon">24.89785</data><data key="lat">-24.94259</data></node>
+    <node id="BW-SP"><data key="name">Selebi-Phikwe</data><data key="code">BW-SP</data><data key="wikidata">Q141263</data><data key="lon">27.86053</data><data key="lat">-21.95895</data></node>
+    <node id="BW-ST"><data key="name">Sowa</data><data key="code">BW-ST</data><data key="wikidata">Q141310</data><data key="lon">26.19406</data><data key="lat">-20.57394</data></node>
+    <edge source="BW-CE" target="BW-GH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-CE" target="BW-KL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-CE" target="BW-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-CE" target="BW-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-CE" target="BW-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-CE" target="BW-SP"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-CE" target="BW-ST"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-FR" target="BW-NE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-GA" target="BW-KL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-GA" target="BW-KW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-GA" target="BW-SE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-GH" target="BW-KG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-GH" target="BW-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-GH" target="BW-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-JW" target="BW-KW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-JW" target="BW-SO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-KG" target="BW-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-KG" target="BW-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-KL" target="BW-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-KL" target="BW-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-KW" target="BW-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-KW" target="BW-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BW-LO" target="BW-SE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BW-SE" target="BW-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ES" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ES-A"><data key="name">Alicante</data><data key="code">ES-A</data><data key="wikidata">Q54936</data><data key="lon">-0.76725</data><data key="lat">38.36174</data></node>
+    <node id="ES-AB"><data key="name">Albacete</data><data key="code">ES-AB</data><data key="wikidata">Q54889</data><data key="lon">-1.95381</data><data key="lat">38.7233</data></node>
+    <node id="ES-AL"><data key="name">Almería</data><data key="code">ES-AL</data><data key="wikidata">Q81802</data><data key="lon">-2.18734</data><data key="lat">37.29767</data></node>
+    <node id="ES-AV"><data key="name">Ávila</data><data key="code">ES-AV</data><data key="wikidata">Q55288</data><data key="lon">-4.83538</data><data key="lat">40.62505</data></node>
+    <node id="ES-B"><data key="name">Barcelona</data><data key="code">ES-B</data><data key="wikidata">Q81949</data><data key="lon">1.95317</data><data key="lat">41.7567</data></node>
+    <node id="ES-BA"><data key="name">Badajoz</data><data key="code">ES-BA</data><data key="wikidata">Q81803</data><data key="lon">-6.22775</data><data key="lat">38.69729</data></node>
+    <node id="ES-BI"><data key="name">Bizkaia</data><data key="code">ES-BI</data><data key="wikidata">Q93366</data><data key="lon">-2.85981</data><data key="lat">43.23545</data></node>
+    <node id="ES-BU"><data key="name">Burgos</data><data key="code">ES-BU</data><data key="wikidata">Q55271</data><data key="lon">-3.68044</data><data key="lat">42.32881</data></node>
+    <node id="ES-C"><data key="name">La Coruña</data><data key="code">ES-C</data><data key="wikidata">Q82119</data><data key="lon">-8.57424</data><data key="lat">43.17204</data></node>
+    <node id="ES-CA"><data key="name">Cádiz</data><data key="code">ES-CA</data><data key="wikidata">Q81978</data><data key="lon">-5.91872</data><data key="lat">36.52609</data></node>
+    <node id="ES-CC"><data key="name">Cáceres</data><data key="code">ES-CC</data><data key="wikidata">Q81977</data><data key="lon">-6.14749</data><data key="lat">39.75566</data></node>
+    <node id="ES-CE"><data key="name">Ceuta</data><data key="code">ES-CE</data><data key="wikidata">Q5823</data><data key="lon">-5.33979</data><data key="lat">35.88611</data></node>
+    <node id="ES-CO"><data key="name">Córdoba</data><data key="code">ES-CO</data><data key="wikidata">Q81972</data><data key="lon">-4.85031</data><data key="lat">37.95211</data></node>
+    <node id="ES-CR"><data key="name">Ciudad Real</data><data key="code">ES-CR</data><data key="wikidata">Q54932</data><data key="lon">-3.89303</data><data key="lat">38.96191</data></node>
+    <node id="ES-CS"><data key="name">Castellón</data><data key="code">ES-CS</data><data key="wikidata">Q54942</data><data key="lon">-0.05514</data><data key="lat">40.24895</data></node>
+    <node id="ES-CU"><data key="name">Cuenca</data><data key="code">ES-CU</data><data key="wikidata">Q54888</data><data key="lon">-2.15106</data><data key="lat">39.94145</data></node>
+    <node id="ES-GC"><data key="name">Las Palmas</data><data key="code">ES-GC</data><data key="wikidata">Q95080</data><data key="lon">-15.59756</data><data key="lat">27.95519</data></node>
+    <node id="ES-GI"><data key="name">Gerona</data><data key="code">ES-GI</data><data key="wikidata">Q7194</data><data key="lon">2.83831</data><data key="lat">42.07079</data></node>
+    <node id="ES-GR"><data key="name">Granada</data><data key="code">ES-GR</data><data key="wikidata">Q82142</data><data key="lon">-3.23446</data><data key="lat">37.39124</data></node>
+    <node id="ES-GU"><data key="name">Guadalajara</data><data key="code">ES-GU</data><data key="wikidata">Q54925</data><data key="lon">-2.49953</data><data key="lat">40.74092</data></node>
+    <node id="ES-H"><data key="name">Huelva</data><data key="code">ES-H</data><data key="wikidata">Q95015</data><data key="lon">-6.92494</data><data key="lat">37.50602</data></node>
+    <node id="ES-HU"><data key="name">Huesca</data><data key="code">ES-HU</data><data key="wikidata">Q55182</data><data key="lon">-0.02138</data><data key="lat">42.13099</data></node>
+    <node id="ES-J"><data key="name">Jaén</data><data key="code">ES-J</data><data key="wikidata">Q95025</data><data key="lon">-3.50812</data><data key="lat">37.93697</data></node>
+    <node id="ES-L"><data key="name">Lérida</data><data key="code">ES-L</data><data key="wikidata">Q13904</data><data key="lon">1.17359</data><data key="lat">42.03772</data></node>
+    <node id="ES-LE"><data key="name">León</data><data key="code">ES-LE</data><data key="wikidata">Q71140</data><data key="lon">-5.96184</data><data key="lat">42.6335</data></node>
+    <node id="ES-LO"><data key="name">La Rioja</data><data key="code">ES-LO</data><data key="wikidata">Q5727</data><data key="lon">-2.47459</data><data key="lat">42.28117</data></node>
+    <node id="ES-LU"><data key="name">Lugo</data><data key="code">ES-LU</data><data key="wikidata">Q95027</data><data key="lon">-7.4486</data><data key="lat">43.0406</data></node>
+    <node id="ES-M"><data key="name">Madrid</data><data key="code">ES-M</data><data key="wikidata">Q24004405</data><data key="lon">-3.77081</data><data key="lat">40.52696</data></node>
+    <node id="ES-MA"><data key="name">Málaga</data><data key="code">ES-MA</data><data key="wikidata">Q95028</data><data key="lon">-4.54362</data><data key="lat">36.78631</data></node>
+    <node id="ES-ML"><data key="name">Melilla</data><data key="code">ES-ML</data><data key="wikidata">Q5831</data><data key="lon">-2.94773</data><data key="lat">35.30093</data></node>
+    <node id="ES-MU"><data key="name">Murcia</data><data key="code">ES-MU</data><data key="wikidata">Q5772</data><data key="lon">-1.66942</data><data key="lat">38.06544</data></node>
+    <node id="ES-NA"><data key="name">Navarra</data><data key="code">ES-NA</data><data key="wikidata">Q24004404</data><data key="lon">-1.82594</data><data key="lat">42.60739</data></node>
+    <node id="ES-O"><data key="name">Asturias</data><data key="code">ES-O</data><data key="wikidata">Q24004403</data><data key="lon">-5.84861</data><data key="lat">43.27788</data></node>
+    <node id="ES-OR"><data key="name">Orense</data><data key="code">ES-OR</data><data key="wikidata">Q95038</data><data key="lon">-7.54879</data><data key="lat">42.18714</data></node>
+    <node id="ES-P"><data key="name">Palencia</data><data key="code">ES-P</data><data key="wikidata">Q55269</data><data key="lon">-4.61943</data><data key="lat">42.42213</data></node>
+    <node id="ES-PM"><data key="name">Baleares</data><data key="code">ES-PM</data><data key="wikidata">Q107356469</data><data key="lon">2.88504</data><data key="lat">39.61756</data></node>
+    <node id="ES-PO"><data key="name">Pontevedra</data><data key="code">ES-PO</data><data key="wikidata">Q95086</data><data key="lon">-8.53012</data><data key="lat">42.37528</data></node>
+    <node id="ES-S"><data key="name">Cantabria</data><data key="code">ES-S</data><data key="wikidata">Q31920747</data><data key="lon">-4.26588</data><data key="lat">43.13974</data></node>
+    <node id="ES-SA"><data key="name">Salamanca</data><data key="code">ES-SA</data><data key="wikidata">Q71080</data><data key="lon">-6.02625</data><data key="lat">40.77465</data></node>
+    <node id="ES-SE"><data key="name">Sevilla</data><data key="code">ES-SE</data><data key="wikidata">Q95088</data><data key="lon">-5.64384</data><data key="lat">37.50816</data></node>
+    <node id="ES-SG"><data key="name">Segovia</data><data key="code">ES-SG</data><data key="wikidata">Q55283</data><data key="lon">-4.18346</data><data key="lat">41.10869</data></node>
+    <node id="ES-SO"><data key="name">Soria</data><data key="code">ES-SO</data><data key="wikidata">Q55276</data><data key="lon">-2.71356</data><data key="lat">41.6041</data></node>
+    <node id="ES-SS"><data key="name">Gipuzkoa</data><data key="code">ES-SS</data><data key="wikidata">Q95010</data><data key="lon">-2.20832</data><data key="lat">43.151</data></node>
+    <node id="ES-T"><data key="name">Tarragona</data><data key="code">ES-T</data><data key="wikidata">Q98392</data><data key="lon">0.61693</data><data key="lat">41.04748</data></node>
+    <node id="ES-TE"><data key="name">Teruel</data><data key="code">ES-TE</data><data key="wikidata">Q54955</data><data key="lon">-0.92336</data><data key="lat">40.59967</data></node>
+    <node id="ES-TF"><data key="name">Santa Cruz de Tenerife</data><data key="code">ES-TF</data><data key="wikidata">Q99976</data><data key="lon">-16.62119</data><data key="lat">28.29273</data></node>
+    <node id="ES-TO"><data key="name">Toledo</data><data key="code">ES-TO</data><data key="wikidata">Q54929</data><data key="lon">-4.09882</data><data key="lat">39.78212</data></node>
+    <node id="ES-V"><data key="name">Valencia</data><data key="code">ES-V</data><data key="wikidata">Q54939</data><data key="lon">-0.79174</data><data key="lat">39.32965</data></node>
+    <node id="ES-VA"><data key="name">Valladolid</data><data key="code">ES-VA</data><data key="wikidata">Q71097</data><data key="lon">-4.69864</data><data key="lat">41.71025</data></node>
+    <node id="ES-VI"><data key="name">Álava</data><data key="code">ES-VI</data><data key="wikidata">Q81801</data><data key="lon">-2.68197</data><data key="lat">42.85224</data></node>
+    <node id="ES-Z"><data key="name">Zaragoza</data><data key="code">ES-Z</data><data key="wikidata">Q55180</data><data key="lon">-1.17149</data><data key="lat">41.84202</data></node>
+    <node id="ES-ZA"><data key="name">Zamora</data><data key="code">ES-ZA</data><data key="wikidata">Q71113</data><data key="lon">-5.94552</data><data key="lat">41.68154</data></node>
+    <edge source="ES-A" target="ES-AB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-A" target="ES-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-A" target="ES-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AB" target="ES-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AB" target="ES-CU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AB" target="ES-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AB" target="ES-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AB" target="ES-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AB" target="ES-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AL" target="ES-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AL" target="ES-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AV" target="ES-CC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AV" target="ES-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AV" target="ES-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AV" target="ES-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AV" target="ES-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-AV" target="ES-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-B" target="ES-GI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-B" target="ES-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-B" target="ES-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BA" target="ES-CC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BA" target="ES-CO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BA" target="ES-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BA" target="ES-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BA" target="ES-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BA" target="ES-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BI" target="ES-BU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BI" target="ES-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BI" target="ES-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BI" target="ES-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BU" target="ES-LO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BU" target="ES-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BU" target="ES-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BU" target="ES-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BU" target="ES-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BU" target="ES-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-BU" target="ES-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-C" target="ES-LU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-C" target="ES-PO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CA" target="ES-H"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CA" target="ES-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CA" target="ES-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CC" target="ES-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CC" target="ES-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CO" target="ES-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CO" target="ES-GR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CO" target="ES-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CO" target="ES-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CO" target="ES-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CR" target="ES-CU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CR" target="ES-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CR" target="ES-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CS" target="ES-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CS" target="ES-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CS" target="ES-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CU" target="ES-GU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CU" target="ES-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CU" target="ES-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CU" target="ES-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-CU" target="ES-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GI" target="ES-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GR" target="ES-J"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GR" target="ES-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GR" target="ES-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GU" target="ES-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GU" target="ES-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GU" target="ES-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GU" target="ES-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-GU" target="ES-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-H" target="ES-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-HU" target="ES-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-HU" target="ES-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-HU" target="ES-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-L" target="ES-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-L" target="ES-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LE" target="ES-LU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LE" target="ES-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LE" target="ES-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LE" target="ES-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LE" target="ES-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LE" target="ES-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LE" target="ES-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LO" target="ES-NA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LO" target="ES-SO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LO" target="ES-VI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LO" target="ES-Z"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LU" target="ES-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LU" target="ES-OR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-LU" target="ES-PO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-M" target="ES-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-M" target="ES-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-MA" target="ES-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-NA" target="ES-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-NA" target="ES-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-NA" target="ES-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-O" target="ES-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-OR" target="ES-PO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-OR" target="ES-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-P" target="ES-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-P" target="ES-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-SA" target="ES-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-SA" target="ES-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-SG" target="ES-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-SG" target="ES-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-SO" target="ES-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-SS" target="ES-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-T" target="ES-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-T" target="ES-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-TE" target="ES-V"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-TE" target="ES-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ES-VA" target="ES-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

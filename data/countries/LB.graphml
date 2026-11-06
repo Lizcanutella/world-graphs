@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LB" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LB-AS"><data key="name">North Lebanon</data><data key="code">LB-AS</data><data key="wikidata">Q390267</data><data key="lon">36.01638</data><data key="lat">34.41887</data></node>
+    <node id="LB-BA"><data key="name">Beirut</data><data key="code">LB-BA</data><data key="wikidata">Q651688</data><data key="lon">35.50995</data><data key="lat">33.88906</data></node>
+    <node id="LB-BI"><data key="name">Beqaa</data><data key="code">LB-BI</data><data key="wikidata">Q319632</data><data key="lon">36.11378</data><data key="lat">33.96109</data></node>
+    <node id="LB-JA"><data key="name">South Lebanon</data><data key="code">LB-JA</data><data key="wikidata">Q223643</data><data key="lon">35.28856</data><data key="lat">33.33957</data></node>
+    <node id="LB-JL"><data key="name">Mount Lebanon</data><data key="code">LB-JL</data><data key="wikidata">Q216945</data><data key="lon">35.67143</data><data key="lat">33.86315</data></node>
+    <node id="LB-NA"><data key="name">An Nabatiyah</data><data key="code">LB-NA</data><data key="wikidata">Q458417</data><data key="lon">35.48434</data><data key="lat">33.2789</data></node>
+    <edge source="LB-AS" target="LB-BI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LB-AS" target="LB-JL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LB-BA" target="LB-JL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LB-BI" target="LB-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LB-BI" target="LB-JL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LB-BI" target="LB-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LB-JA" target="LB-JL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LB-JA" target="LB-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,217 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GD",
+ "kind": "country",
+ "name": "Grenada",
+ "level": "parishes",
+ "n": 7,
+ "m": 9,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GD-01",
+   "name": "Saint Andrew",
+   "wikidata": "Q977183",
+   "lon": -61.64813,
+   "lat": 12.12418
+  },
+  {
+   "code": "GD-02",
+   "name": "Saint David",
+   "wikidata": "Q2087806",
+   "lon": -61.6611,
+   "lat": 12.05565
+  },
+  {
+   "code": "GD-03",
+   "name": "Saint George",
+   "wikidata": "Q576651",
+   "lon": -61.72156,
+   "lat": 12.05459
+  },
+  {
+   "code": "GD-04",
+   "name": "Saint John",
+   "wikidata": "Q1476289",
+   "lon": -61.70314,
+   "lat": 12.14245
+  },
+  {
+   "code": "GD-05",
+   "name": "Saint Mark",
+   "wikidata": "Q1291077",
+   "lon": -61.68326,
+   "lat": 12.19184
+  },
+  {
+   "code": "GD-06",
+   "name": "Saint Patrick",
+   "wikidata": "Q1476309",
+   "lon": -61.63666,
+   "lat": 12.20672
+  },
+  {
+   "code": "GD-10",
+   "name": "Carriacou and Petite Martinique",
+   "wikidata": "Q3044818",
+   "lon": -61.44166,
+   "lat": 12.48741
+  }
+ ],
+ "edges": [
+  {
+   "u": "GD-01",
+   "v": "GD-02",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6410
+  },
+  {
+   "u": "GD-01",
+   "v": "GD-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3154
+  },
+  {
+   "u": "GD-01",
+   "v": "GD-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6155
+  },
+  {
+   "u": "GD-01",
+   "v": "GD-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2385
+  },
+  {
+   "u": "GD-01",
+   "v": "GD-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5751
+  },
+  {
+   "u": "GD-02",
+   "v": "GD-03",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8264
+  },
+  {
+   "u": "GD-03",
+   "v": "GD-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7040
+  },
+  {
+   "u": "GD-04",
+   "v": "GD-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6467
+  },
+  {
+   "u": "GD-05",
+   "v": "GD-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5958
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "GRD-ADM1-93511190",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Creative Commons Attribution-ShareAlike 2.0"
+ }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TF" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TF-X01~"><data key="name">Archipel des Kerguelen</data><data key="code">TF-X01~</data><data key="wikidata"></data><data key="lon">70.22451</data><data key="lat">-49.18816</data></node>
+    <node id="TF-X02~"><data key="name">Archipel des Crozet</data><data key="code">TF-X02~</data><data key="wikidata"></data><data key="lon">51.75472</data><data key="lat">-46.38665</data></node>
+    <node id="TF-X03~"><data key="name">Iles Eparses de l'ocean Indien</data><data key="code">TF-X03~</data><data key="wikidata"></data><data key="lon">40.34386</data><data key="lat">-22.34222</data></node>
+    <node id="TF-X1~"><data key="name">Iles Saint-Paul et Nouvelle-Amsterdam</data><data key="code">TF-X1~</data><data key="wikidata"></data><data key="lon">77.53759</data><data key="lat">-37.86293</data></node>
+  </graph>
+</graphml>

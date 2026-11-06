@@ -1,0 +1,274 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ER",
+ "kind": "country",
+ "name": "Eritrea",
+ "level": "regions",
+ "n": 6,
+ "m": 9,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ER-AN",
+   "name": "Anseba",
+   "wikidata": "Q569468",
+   "lon": 37.61003,
+   "lat": 16.53493
+  },
+  {
+   "code": "ER-DK",
+   "name": "Debubawi Keyih Bahri",
+   "wikidata": "Q27928",
+   "lon": 41.63255,
+   "lat": 13.65943
+  },
+  {
+   "code": "ER-DU",
+   "name": "Debub",
+   "wikidata": "Q27728",
+   "lon": 38.88214,
+   "lat": 14.79831
+  },
+  {
+   "code": "ER-GB",
+   "name": "Gash Barka",
+   "wikidata": "Q873012",
+   "lon": 37.66882,
+   "lat": 15.32067
+  },
+  {
+   "code": "ER-MA",
+   "name": "Maekel",
+   "wikidata": "Q27710",
+   "lon": 38.91645,
+   "lat": 15.41819
+  },
+  {
+   "code": "ER-SK",
+   "name": "Semenawi Keyih Bahri",
+   "wikidata": "Q27910",
+   "lon": 38.8738,
+   "lat": 16.1758
+  }
+ ],
+ "edges": [
+  {
+   "u": "ER-AN",
+   "v": "ER-GB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 248371
+  },
+  {
+   "u": "ER-AN",
+   "v": "ER-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19676
+  },
+  {
+   "u": "ER-AN",
+   "v": "ER-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 277840
+  },
+  {
+   "u": "ER-DK",
+   "v": "ER-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75398
+  },
+  {
+   "u": "ER-DU",
+   "v": "ER-GB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99772
+  },
+  {
+   "u": "ER-DU",
+   "v": "ER-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58772
+  },
+  {
+   "u": "ER-DU",
+   "v": "ER-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86005
+  },
+  {
+   "u": "ER-GB",
+   "v": "ER-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44393
+  },
+  {
+   "u": "ER-MA",
+   "v": "ER-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60895
+  }
+ ],
+ "relabels": [
+  {
+   "ne_id": "1159310225",
+   "was": {
+    "iso_3166_2": "ER-DU",
+    "name": "Debub"
+   },
+   "set": {
+    "iso_3166_2": "ER-SK",
+    "name": "Semenawi Keyih Bahri"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159310247",
+   "was": {
+    "iso_3166_2": "ER-AN",
+    "name": "Anseba"
+   },
+   "set": {
+    "iso_3166_2": "ER-MA",
+    "name": "Maekel"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159310249",
+   "was": {
+    "iso_3166_2": "ER-SK",
+    "name": "Semenawi Keyih Bahri"
+   },
+   "set": {
+    "iso_3166_2": "ER-AN",
+    "name": "Anseba"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159310251",
+   "was": {
+    "iso_3166_2": "ER-MA",
+    "name": "Maekel"
+   },
+   "set": {
+    "iso_3166_2": "ER-DU",
+    "name": "Debub"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  }
+ ],
+ "geoboundaries": {
+  "boundaryID": "ERI-ADM1-12472421",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

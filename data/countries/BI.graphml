@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BI-BB"><data key="name">Bubanza</data><data key="code">BI-BB</data><data key="wikidata">Q460538</data><data key="lon">29.3954</data><data key="lat">-3.11139</data></node>
+    <node id="BI-BL"><data key="name">Bujumbura Rural</data><data key="code">BI-BL</data><data key="wikidata">Q645043</data><data key="lon">29.48758</data><data key="lat">-3.49628</data></node>
+    <node id="BI-BM"><data key="name">Bujumbura Mairie</data><data key="code">BI-BM</data><data key="wikidata">Q1816580</data><data key="lon">29.36773</data><data key="lat">-3.43698</data></node>
+    <node id="BI-BR"><data key="name">Bururi</data><data key="code">BI-BR</data><data key="wikidata">Q431385</data><data key="lon">29.64303</data><data key="lat">-3.86431</data></node>
+    <node id="BI-CA"><data key="name">Cankuzo</data><data key="code">BI-CA</data><data key="wikidata">Q645033</data><data key="lon">30.58753</data><data key="lat">-3.14299</data></node>
+    <node id="BI-CI"><data key="name">Cibitoke</data><data key="code">BI-CI</data><data key="wikidata">Q505596</data><data key="lon">29.2603</data><data key="lat">-2.84334</data></node>
+    <node id="BI-GI"><data key="name">Gitega</data><data key="code">BI-GI</data><data key="wikidata">Q720843</data><data key="lon">29.97656</data><data key="lat">-3.44656</data></node>
+    <node id="BI-KI"><data key="name">Kirundo</data><data key="code">BI-KI</data><data key="wikidata">Q600840</data><data key="lon">30.1661</data><data key="lat">-2.54669</data></node>
+    <node id="BI-KR"><data key="name">Karuzi</data><data key="code">BI-KR</data><data key="wikidata">Q735463</data><data key="lon">30.08528</data><data key="lat">-3.13567</data></node>
+    <node id="BI-KY"><data key="name">Kayanza</data><data key="code">BI-KY</data><data key="wikidata">Q720848</data><data key="lon">29.68821</data><data key="lat">-2.99372</data></node>
+    <node id="BI-MA"><data key="name">Makamba</data><data key="code">BI-MA</data><data key="wikidata">Q823740</data><data key="lon">29.78676</data><data key="lat">-4.21121</data></node>
+    <node id="BI-MU"><data key="name">Muramvya</data><data key="code">BI-MU</data><data key="wikidata">Q671086</data><data key="lon">29.68675</data><data key="lat">-3.25006</data></node>
+    <node id="BI-MW"><data key="name">Mwaro</data><data key="code">BI-MW</data><data key="wikidata">Q847718</data><data key="lon">29.68759</data><data key="lat">-3.53428</data></node>
+    <node id="BI-MY"><data key="name">Muyinga</data><data key="code">BI-MY</data><data key="wikidata">Q822571</data><data key="lon">30.31173</data><data key="lat">-2.72469</data></node>
+    <node id="BI-NG"><data key="name">Ngozi</data><data key="code">BI-NG</data><data key="wikidata">Q720852</data><data key="lon">29.85226</data><data key="lat">-2.86569</data></node>
+    <node id="BI-RT"><data key="name">Rutana</data><data key="code">BI-RT</data><data key="wikidata">Q822566</data><data key="lon">30.08563</data><data key="lat">-3.88302</data></node>
+    <node id="BI-RY"><data key="name">Ruyigi</data><data key="code">BI-RY</data><data key="wikidata">Q822578</data><data key="lon">30.35204</data><data key="lat">-3.43483</data></node>
+    <edge source="BI-BB" target="BI-BL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BB" target="BI-CI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BB" target="BI-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BB" target="BI-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BL" target="BI-BM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BI-BL" target="BI-BR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BL" target="BI-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BL" target="BI-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BR" target="BI-GI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BR" target="BI-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BR" target="BI-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-BR" target="BI-RT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-CA" target="BI-KR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-CA" target="BI-MY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-CA" target="BI-RY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-CI" target="BI-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-GI" target="BI-KR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-GI" target="BI-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-GI" target="BI-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-GI" target="BI-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-GI" target="BI-NG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-GI" target="BI-RT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-GI" target="BI-RY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-KI" target="BI-MY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-KI" target="BI-NG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-KR" target="BI-MY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-KR" target="BI-NG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-KR" target="BI-RY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-KY" target="BI-MU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-KY" target="BI-NG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-MA" target="BI-RT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-MU" target="BI-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-MY" target="BI-NG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BI-RT" target="BI-RY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

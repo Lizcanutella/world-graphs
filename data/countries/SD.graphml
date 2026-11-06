@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SD" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SD-DC"><data key="name">Central Darfur</data><data key="code">SD-DC</data><data key="wikidata">Q4116493</data><data key="lon">23.31353</data><data key="lat">12.1742</data></node>
+    <node id="SD-DE"><data key="name">Eastern Darfur</data><data key="code">SD-DE</data><data key="wikidata">Q3545641</data><data key="lon">26.35916</data><data key="lat">11.28768</data></node>
+    <node id="SD-DN"><data key="name">North Darfur</data><data key="code">SD-DN</data><data key="wikidata">Q688306</data><data key="lon">25.49583</data><data key="lat">15.8958</data></node>
+    <node id="SD-DS"><data key="name">Southern Darfur</data><data key="code">SD-DS</data><data key="wikidata">Q838778</data><data key="lon">24.44235</data><data key="lat">10.95622</data></node>
+    <node id="SD-DW"><data key="name">Western Darfur</data><data key="code">SD-DW</data><data key="wikidata">Q846331</data><data key="lon">22.8893</data><data key="lat">13.89425</data></node>
+    <node id="SD-GD"><data key="name">Gedarif</data><data key="code">SD-GD</data><data key="wikidata">Q309478</data><data key="lon">35.21038</data><data key="lat">14.18844</data></node>
+    <node id="SD-GZ"><data key="name">Gezira</data><data key="code">SD-GZ</data><data key="wikidata">Q309469</data><data key="lon">33.29635</data><data key="lat">14.47036</data></node>
+    <node id="SD-KA"><data key="name">Kassala</data><data key="code">SD-KA</data><data key="wikidata">Q954963</data><data key="lon">35.50042</data><data key="lat">15.91643</data></node>
+    <node id="SD-KH"><data key="name">Khartoum</data><data key="code">SD-KH</data><data key="wikidata">Q310385</data><data key="lon">32.79879</data><data key="lat">15.92334</data></node>
+    <node id="SD-KN"><data key="name">North Kordufan</data><data key="code">SD-KN</data><data key="wikidata">Q864093</data><data key="lon">29.52415</data><data key="lat">14.01652</data></node>
+    <node id="SD-KS"><data key="name">South Kordufan</data><data key="code">SD-KS</data><data key="wikidata">Q465490</data><data key="lon">29.84185</data><data key="lat">11.02544</data></node>
+    <node id="SD-NB"><data key="name">Blue Nile</data><data key="code">SD-NB</data><data key="wikidata">Q309489</data><data key="lon">34.05022</data><data key="lat">11.05961</data></node>
+    <node id="SD-NO"><data key="name">Northern</data><data key="code">SD-NO</data><data key="wikidata">Q310118</data><data key="lon">29.85719</data><data key="lat">19.45943</data></node>
+    <node id="SD-NR"><data key="name">River Nile</data><data key="code">SD-NR</data><data key="wikidata">Q849297</data><data key="lon">32.98269</data><data key="lat">19.19269</data></node>
+    <node id="SD-NW"><data key="name">White Nile</data><data key="code">SD-NW</data><data key="wikidata">Q311371</data><data key="lon">32.26339</data><data key="lat">13.60042</data></node>
+    <node id="SD-RS"><data key="name">Red Sea</data><data key="code">SD-RS</data><data key="wikidata">Q310120</data><data key="lon">35.46342</data><data key="lat">19.4916</data></node>
+    <node id="SD-SI"><data key="name">Sennar</data><data key="code">SD-SI</data><data key="wikidata">Q865534</data><data key="lon">34.03566</data><data key="lat">12.95608</data></node>
+    <edge source="SD-DC" target="SD-DN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-DC" target="SD-DS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-DC" target="SD-DW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SD-DE" target="SD-DN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-DE" target="SD-DS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-DE" target="SD-KN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-DE" target="SD-KS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SD-DN" target="SD-DS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-DN" target="SD-DW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SD-DN" target="SD-KN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-DN" target="SD-NO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-GD" target="SD-GZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-GD" target="SD-KA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-GD" target="SD-KH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-GD" target="SD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-GZ" target="SD-KH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-GZ" target="SD-NW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-GZ" target="SD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KA" target="SD-KH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KA" target="SD-NR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KA" target="SD-RS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KH" target="SD-KN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KH" target="SD-NO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KH" target="SD-NR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KH" target="SD-NW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KN" target="SD-KS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SD-KN" target="SD-NO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KN" target="SD-NW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-KS" target="SD-NW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SD-NB" target="SD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-NO" target="SD-NR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-NR" target="SD-RS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SD-NW" target="SD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

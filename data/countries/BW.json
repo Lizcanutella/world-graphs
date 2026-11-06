@@ -1,0 +1,530 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BW",
+ "kind": "country",
+ "name": "Botswana",
+ "level": "districts",
+ "n": 15,
+ "m": 24,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BW-CE",
+   "name": "Central",
+   "wikidata": "Q57525",
+   "lon": 25.89957,
+   "lat": -21.48571
+  },
+  {
+   "code": "BW-FR",
+   "name": "Francistown",
+   "wikidata": "Q165422",
+   "lon": 27.49991,
+   "lat": -21.16186
+  },
+  {
+   "code": "BW-GA",
+   "name": "Gaborone",
+   "wikidata": "Q3919",
+   "lon": 25.93635,
+   "lat": -24.60239
+  },
+  {
+   "code": "BW-GH",
+   "name": "Ghanzi",
+   "wikidata": "Q57571",
+   "lon": 22.39371,
+   "lat": -22.16201
+  },
+  {
+   "code": "BW-JW",
+   "name": "Jwaneng",
+   "wikidata": "Q165954",
+   "lon": 24.72777,
+   "lat": -24.58195
+  },
+  {
+   "code": "BW-KG",
+   "name": "Kgalagadi",
+   "wikidata": "Q57581",
+   "lon": 22.31364,
+   "lat": -25.07697
+  },
+  {
+   "code": "BW-KL",
+   "name": "Kgatleng",
+   "wikidata": "Q57593",
+   "lon": 26.43243,
+   "lat": -24.03187
+  },
+  {
+   "code": "BW-KW",
+   "name": "Kweneng",
+   "wikidata": "Q57599",
+   "lon": 24.52276,
+   "lat": -23.8209
+  },
+  {
+   "code": "BW-LO",
+   "name": "Lobatse",
+   "wikidata": "Q165768",
+   "lon": 25.68427,
+   "lat": -25.20625
+  },
+  {
+   "code": "BW-NE",
+   "name": "North-East",
+   "wikidata": "Q57636",
+   "lon": 27.47966,
+   "lat": -21.02743
+  },
+  {
+   "code": "BW-NW",
+   "name": "North-West",
+   "wikidata": "Q57617",
+   "lon": 22.98392,
+   "lat": -19.43835
+  },
+  {
+   "code": "BW-SE",
+   "name": "South-East",
+   "wikidata": "Q57695",
+   "lon": 25.74538,
+   "lat": -25.00951
+  },
+  {
+   "code": "BW-SO",
+   "name": "Southern",
+   "wikidata": "Q57609",
+   "lon": 24.89785,
+   "lat": -24.94259
+  },
+  {
+   "code": "BW-SP",
+   "name": "Selebi-Phikwe",
+   "wikidata": "Q141263",
+   "lon": 27.86053,
+   "lat": -21.95895
+  },
+  {
+   "code": "BW-ST",
+   "name": "Sowa",
+   "wikidata": "Q141310",
+   "lon": 26.19406,
+   "lat": -20.57394
+  }
+ ],
+ "edges": [
+  {
+   "u": "BW-CE",
+   "v": "BW-GH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 269446
+  },
+  {
+   "u": "BW-CE",
+   "v": "BW-KL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 121858
+  },
+  {
+   "u": "BW-CE",
+   "v": "BW-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92112
+  },
+  {
+   "u": "BW-CE",
+   "v": "BW-NE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 169087
+  },
+  {
+   "u": "BW-CE",
+   "v": "BW-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 491427
+  },
+  {
+   "u": "BW-CE",
+   "v": "BW-SP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28323,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "BW-CE",
+   "v": "BW-ST",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35219,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "BW-FR",
+   "v": "BW-NE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 43936,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "BW-GA",
+   "v": "BW-KL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10089
+  },
+  {
+   "u": "BW-GA",
+   "v": "BW-KW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17371
+  },
+  {
+   "u": "BW-GA",
+   "v": "BW-SE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38997,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaborone"
+    }
+   ]
+  },
+  {
+   "u": "BW-GH",
+   "v": "BW-KG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 314801
+  },
+  {
+   "u": "BW-GH",
+   "v": "BW-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 268774
+  },
+  {
+   "u": "BW-GH",
+   "v": "BW-NW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 301498
+  },
+  {
+   "u": "BW-JW",
+   "v": "BW-KW",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18504
+  },
+  {
+   "u": "BW-JW",
+   "v": "BW-SO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 56143
+  },
+  {
+   "u": "BW-KG",
+   "v": "BW-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 90404
+  },
+  {
+   "u": "BW-KG",
+   "v": "BW-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 316466
+  },
+  {
+   "u": "BW-KL",
+   "v": "BW-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 109170
+  },
+  {
+   "u": "BW-KL",
+   "v": "BW-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17693
+  },
+  {
+   "u": "BW-KW",
+   "v": "BW-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22051
+  },
+  {
+   "u": "BW-KW",
+   "v": "BW-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 262566
+  },
+  {
+   "u": "BW-LO",
+   "v": "BW-SE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22820,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "BW-SE",
+   "v": "BW-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 93400
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BWA-ADM1-57670837",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Creative Commons Attribution-ShareAlike 2.0"
+ }
+}

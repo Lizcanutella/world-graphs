@@ -1,0 +1,677 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CF",
+ "kind": "country",
+ "name": "Central African Republic",
+ "level": "prefectures",
+ "n": 17,
+ "m": 30,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CF-AC",
+   "name": "Ouham",
+   "wikidata": "Q726620",
+   "lon": 17.74439,
+   "lat": 7.10015
+  },
+  {
+   "code": "CF-BB",
+   "name": "Bamingui-Bangoran",
+   "wikidata": "Q741025",
+   "lon": 20.58091,
+   "lat": 8.39736
+  },
+  {
+   "code": "CF-BGF",
+   "name": "Bangui",
+   "wikidata": "Q3832",
+   "lon": 18.5385,
+   "lat": 4.37201
+  },
+  {
+   "code": "CF-BK",
+   "name": "Basse-Kotto",
+   "wikidata": "Q810484",
+   "lon": 21.3646,
+   "lat": 4.97806
+  },
+  {
+   "code": "CF-HK",
+   "name": "Haute-Kotto",
+   "wikidata": "Q848596",
+   "lon": 22.97168,
+   "lat": 7.36433
+  },
+  {
+   "code": "CF-HM",
+   "name": "Haut-Mbomou",
+   "wikidata": "Q848578",
+   "lon": 25.3854,
+   "lat": 6.59465
+  },
+  {
+   "code": "CF-HS",
+   "name": "Mambéré-Kadéï",
+   "wikidata": "Q848567",
+   "lon": 15.86407,
+   "lat": 4.52957
+  },
+  {
+   "code": "CF-KB",
+   "name": "Nana-Grébizi",
+   "wikidata": "Q856227",
+   "lon": 19.24265,
+   "lat": 7.5133
+  },
+  {
+   "code": "CF-KG",
+   "name": "Kémo",
+   "wikidata": "Q848572",
+   "lon": 19.14886,
+   "lat": 5.73685
+  },
+  {
+   "code": "CF-LB",
+   "name": "Lobaye",
+   "wikidata": "Q821037",
+   "lon": 17.53501,
+   "lat": 4.27321
+  },
+  {
+   "code": "CF-MB",
+   "name": "Mbomou",
+   "wikidata": "Q848582",
+   "lon": 23.42766,
+   "lat": 5.44132
+  },
+  {
+   "code": "CF-MP",
+   "name": "Ombella-M'Poko",
+   "wikidata": "Q378970",
+   "lon": 18.18828,
+   "lat": 4.88271
+  },
+  {
+   "code": "CF-NM",
+   "name": "Nana-Mambéré",
+   "wikidata": "Q742455",
+   "lon": 15.27779,
+   "lat": 5.8528
+  },
+  {
+   "code": "CF-OP",
+   "name": "Ouham-Pendé",
+   "wikidata": "Q848591",
+   "lon": 15.96838,
+   "lat": 6.71795
+  },
+  {
+   "code": "CF-SE",
+   "name": "Sangha-Mbaéré",
+   "wikidata": "Q856237",
+   "lon": 16.08865,
+   "lat": 3.23797
+  },
+  {
+   "code": "CF-UK",
+   "name": "Ouaka",
+   "wikidata": "Q848560",
+   "lon": 20.82108,
+   "lat": 6.11275
+  },
+  {
+   "code": "CF-VK",
+   "name": "Vakaga",
+   "wikidata": "Q848585",
+   "lon": 22.38218,
+   "lat": 9.78497
+  }
+ ],
+ "edges": [
+  {
+   "u": "CF-AC",
+   "v": "CF-KB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 298577
+  },
+  {
+   "u": "CF-AC",
+   "v": "CF-KG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 112258
+  },
+  {
+   "u": "CF-AC",
+   "v": "CF-MP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 241786
+  },
+  {
+   "u": "CF-AC",
+   "v": "CF-OP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 249505
+  },
+  {
+   "u": "CF-BB",
+   "v": "CF-HK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 252784
+  },
+  {
+   "u": "CF-BB",
+   "v": "CF-KB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 271289
+  },
+  {
+   "u": "CF-BB",
+   "v": "CF-UK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 158456
+  },
+  {
+   "u": "CF-BB",
+   "v": "CF-VK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 275146
+  },
+  {
+   "u": "CF-BGF",
+   "v": "CF-MP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31048
+  },
+  {
+   "u": "CF-BK",
+   "v": "CF-HK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27919
+  },
+  {
+   "u": "CF-BK",
+   "v": "CF-MB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 196552
+  },
+  {
+   "u": "CF-BK",
+   "v": "CF-UK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 278606
+  },
+  {
+   "u": "CF-HK",
+   "v": "CF-HM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 221755
+  },
+  {
+   "u": "CF-HK",
+   "v": "CF-MB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 363428
+  },
+  {
+   "u": "CF-HK",
+   "v": "CF-UK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 322502
+  },
+  {
+   "u": "CF-HK",
+   "v": "CF-VK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 165626
+  },
+  {
+   "u": "CF-HM",
+   "v": "CF-MB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 376580
+  },
+  {
+   "u": "CF-HS",
+   "v": "CF-LB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 149519
+  },
+  {
+   "u": "CF-HS",
+   "v": "CF-MP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 105660
+  },
+  {
+   "u": "CF-HS",
+   "v": "CF-NM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 259763
+  },
+  {
+   "u": "CF-HS",
+   "v": "CF-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 215817
+  },
+  {
+   "u": "CF-KB",
+   "v": "CF-KG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 115596
+  },
+  {
+   "u": "CF-KB",
+   "v": "CF-UK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98878
+  },
+  {
+   "u": "CF-KG",
+   "v": "CF-MP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 117352
+  },
+  {
+   "u": "CF-KG",
+   "v": "CF-UK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 259689
+  },
+  {
+   "u": "CF-LB",
+   "v": "CF-MP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 248627
+  },
+  {
+   "u": "CF-LB",
+   "v": "CF-SE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 102513
+  },
+  {
+   "u": "CF-MP",
+   "v": "CF-NM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33090
+  },
+  {
+   "u": "CF-MP",
+   "v": "CF-OP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62768
+  },
+  {
+   "u": "CF-NM",
+   "v": "CF-OP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 300976
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CAF-ADM1-63714938",
+  "level": "ADM1",
+  "year": "2006",
+  "license": "Creative Commons Attribution 2.5 Generic"
+ }
+}

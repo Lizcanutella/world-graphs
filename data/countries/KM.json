@@ -1,0 +1,41 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KM",
+ "kind": "country",
+ "name": "Comoros",
+ "level": "island",
+ "n": 3,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KM-A",
+   "name": "Andjouân",
+   "wikidata": "Q231324",
+   "lon": 44.41879,
+   "lat": -12.22584
+  },
+  {
+   "code": "KM-G",
+   "name": "Andjazîdja",
+   "wikidata": "Q244978",
+   "lon": 43.31474,
+   "lat": -11.64857
+  },
+  {
+   "code": "KM-M",
+   "name": "Moûhîlî",
+   "wikidata": "Q271797",
+   "lon": 43.71119,
+   "lat": -12.30372
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "COM-ADM1-22816118",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

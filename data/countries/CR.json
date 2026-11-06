@@ -1,0 +1,286 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CR",
+ "kind": "country",
+ "name": "Costa Rica",
+ "level": "provinces",
+ "n": 7,
+ "m": 12,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CR-A",
+   "name": "Alajuela",
+   "wikidata": "Q502188",
+   "lon": -84.46842,
+   "lat": 10.46365
+  },
+  {
+   "code": "CR-C",
+   "name": "Cartago",
+   "wikidata": "Q502181",
+   "lon": -83.7079,
+   "lat": 9.79651
+  },
+  {
+   "code": "CR-G",
+   "name": "Guanacaste",
+   "wikidata": "Q690026",
+   "lon": -85.28585,
+   "lat": 10.4746
+  },
+  {
+   "code": "CR-H",
+   "name": "Heredia",
+   "wikidata": "Q502192",
+   "lon": -84.01233,
+   "lat": 10.37151
+  },
+  {
+   "code": "CR-L",
+   "name": "Limón",
+   "wikidata": "Q642644",
+   "lon": -83.36947,
+   "lat": 10.00359
+  },
+  {
+   "code": "CR-P",
+   "name": "Puntarenas",
+   "wikidata": "Q502170",
+   "lon": -83.26923,
+   "lat": 9.18288
+  },
+  {
+   "code": "CR-SJ",
+   "name": "San José",
+   "wikidata": "Q647808",
+   "lon": -84.05984,
+   "lat": 9.63225
+  }
+ ],
+ "edges": [
+  {
+   "u": "CR-A",
+   "v": "CR-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 141611
+  },
+  {
+   "u": "CR-A",
+   "v": "CR-H",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92981
+  },
+  {
+   "u": "CR-A",
+   "v": "CR-P",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88216
+  },
+  {
+   "u": "CR-A",
+   "v": "CR-SJ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46905
+  },
+  {
+   "u": "CR-C",
+   "v": "CR-L",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 135792
+  },
+  {
+   "u": "CR-C",
+   "v": "CR-SJ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 145937
+  },
+  {
+   "u": "CR-G",
+   "v": "CR-P",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 109562
+  },
+  {
+   "u": "CR-H",
+   "v": "CR-L",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 82553
+  },
+  {
+   "u": "CR-H",
+   "v": "CR-SJ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60554
+  },
+  {
+   "u": "CR-L",
+   "v": "CR-P",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73053
+  },
+  {
+   "u": "CR-L",
+   "v": "CR-SJ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22205
+  },
+  {
+   "u": "CR-P",
+   "v": "CR-SJ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 231678
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CRI-ADM1-80129987",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

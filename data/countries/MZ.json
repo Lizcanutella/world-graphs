@@ -1,0 +1,361 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MZ",
+ "kind": "country",
+ "name": "Mozambique",
+ "level": "provinces",
+ "n": 10,
+ "m": 15,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MZ-A",
+   "name": "Niassa",
+   "wikidata": "Q622799",
+   "lon": 36.46629,
+   "lat": -13.36968
+  },
+  {
+   "code": "MZ-B",
+   "name": "Manica",
+   "wikidata": "Q622792",
+   "lon": 33.35284,
+   "lat": -18.9946
+  },
+  {
+   "code": "MZ-G",
+   "name": "Gaza",
+   "wikidata": "Q466526",
+   "lon": 32.70832,
+   "lat": -23.33369
+  },
+  {
+   "code": "MZ-I",
+   "name": "Inhambane",
+   "wikidata": "Q466547",
+   "lon": 34.57336,
+   "lat": -22.9017
+  },
+  {
+   "code": "MZ-L",
+   "name": "Maputo",
+   "wikidata": "Q379658",
+   "lon": 32.43235,
+   "lat": -25.53772
+  },
+  {
+   "code": "MZ-N",
+   "name": "Nampula",
+   "wikidata": "Q622794",
+   "lon": 39.0443,
+   "lat": -15.16298
+  },
+  {
+   "code": "MZ-P",
+   "name": "Cabo Delgado",
+   "wikidata": "Q466538",
+   "lon": 39.34861,
+   "lat": -12.31316
+  },
+  {
+   "code": "MZ-Q",
+   "name": "Zambezia",
+   "wikidata": "Q622803",
+   "lon": 37.19521,
+   "lat": -16.95265
+  },
+  {
+   "code": "MZ-S",
+   "name": "Sofala",
+   "wikidata": "Q622801",
+   "lon": 34.90003,
+   "lat": -19.03546
+  },
+  {
+   "code": "MZ-T",
+   "name": "Tete",
+   "wikidata": "Q605787",
+   "lon": 32.3164,
+   "lat": -15.87547
+  }
+ ],
+ "edges": [
+  {
+   "u": "MZ-A",
+   "v": "MZ-N",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 233767
+  },
+  {
+   "u": "MZ-A",
+   "v": "MZ-P",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 373622
+  },
+  {
+   "u": "MZ-A",
+   "v": "MZ-Q",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127548
+  },
+  {
+   "u": "MZ-B",
+   "v": "MZ-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104650
+  },
+  {
+   "u": "MZ-B",
+   "v": "MZ-I",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 87102
+  },
+  {
+   "u": "MZ-B",
+   "v": "MZ-S",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 727081
+  },
+  {
+   "u": "MZ-B",
+   "v": "MZ-T",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 261841
+  },
+  {
+   "u": "MZ-G",
+   "v": "MZ-I",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 510593
+  },
+  {
+   "u": "MZ-G",
+   "v": "MZ-L",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 220684
+  },
+  {
+   "u": "MZ-I",
+   "v": "MZ-S",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 135369
+  },
+  {
+   "u": "MZ-N",
+   "v": "MZ-P",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 262821
+  },
+  {
+   "u": "MZ-N",
+   "v": "MZ-Q",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 413250
+  },
+  {
+   "u": "MZ-Q",
+   "v": "MZ-S",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 181879
+  },
+  {
+   "u": "MZ-Q",
+   "v": "MZ-T",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67257
+  },
+  {
+   "u": "MZ-S",
+   "v": "MZ-T",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133640
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MOZ-ADM1-27363107",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SZ",
+ "kind": "country",
+ "name": "Eswatini",
+ "level": "regions",
+ "n": 4,
+ "m": 5,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SZ-HH",
+   "name": "Hhohho",
+   "wikidata": "Q735570",
+   "lon": 31.36972,
+   "lat": -26.04187
+  },
+  {
+   "code": "SZ-LU",
+   "name": "Lubombo",
+   "wikidata": "Q856657",
+   "lon": 31.8514,
+   "lat": -26.54448
+  },
+  {
+   "code": "SZ-MA",
+   "name": "Manzini",
+   "wikidata": "Q305395",
+   "lon": 31.18582,
+   "lat": -26.51505
+  },
+  {
+   "code": "SZ-SH",
+   "name": "Shiselweni",
+   "wikidata": "Q845934",
+   "lon": 31.33569,
+   "lat": -27.03633
+  }
+ ],
+ "edges": [
+  {
+   "u": "SZ-HH",
+   "v": "SZ-LU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31750
+  },
+  {
+   "u": "SZ-HH",
+   "v": "SZ-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104776
+  },
+  {
+   "u": "SZ-LU",
+   "v": "SZ-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78716
+  },
+  {
+   "u": "SZ-LU",
+   "v": "SZ-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83951
+  },
+  {
+   "u": "SZ-MA",
+   "v": "SZ-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80808
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "SWZ-ADM1-75366066",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

@@ -1,0 +1,48 @@
+name: Problem with a graph
+description: A border that is missing or shouldn't be there, a wrong name or code, a missing region.
+title: "[graph] "
+labels: ["graph problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking the graphs. Two regions are joined when they share **more than 100 m of land border**.
+        Regions that meet at a single point, or only across water or a lake over 500 km², are not joined on purpose.
+        Dashed edges in the viewer are supported by the map geometry alone, so they are the most useful ones to check.
+  - type: input
+    id: graph
+    attributes:
+      label: Graph
+      description: The country's ISO code and name, or the world graph (un195 or natural_earth).
+      placeholder: CO (Colombia)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - A border is missing (two regions that touch are not joined)
+        - A border shouldn't be there (two joined regions don't share a land border)
+        - A region's name or code is wrong
+        - A region is missing, duplicated or split
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: regions
+    attributes:
+      label: Regions involved
+      description: Codes as shown in the viewer (hover a vertex) or in the JSON files.
+      placeholder: CO-BOY, CO-MET
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links to an official map, a government source, OpenStreetMap, Wikipedia or similar. Quote the relevant sentence if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

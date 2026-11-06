@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="HT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="HT-AR"><data key="name">L'Artibonite</data><data key="code">HT-AR</data><data key="wikidata">Q844024</data><data key="lon">-72.49654</data><data key="lat">19.34593</data></node>
+    <node id="HT-CE"><data key="name">Centre</data><data key="code">HT-CE</data><data key="wikidata">Q844528</data><data key="lon">-72.00572</data><data key="lat">19.0067</data></node>
+    <node id="HT-GA"><data key="name">Grand'Anse</data><data key="code">HT-GA</data><data key="wikidata">Q913231</data><data key="lon">-74.09816</data><data key="lat">18.51789</data></node>
+    <node id="HT-ND"><data key="name">Nord</data><data key="code">HT-ND</data><data key="wikidata">Q943932</data><data key="lon">-72.22455</data><data key="lat">19.5703</data></node>
+    <node id="HT-NE"><data key="name">Nord-Est</data><data key="code">HT-NE</data><data key="wikidata">Q928694</data><data key="lon">-71.89396</data><data key="lat">19.49995</data></node>
+    <node id="HT-NI"><data key="name">Nippes</data><data key="code">HT-NI</data><data key="wikidata">Q125232</data><data key="lon">-73.31837</data><data key="lat">18.40141</data></node>
+    <node id="HT-NO"><data key="name">Nord-Ouest</data><data key="code">HT-NO</data><data key="wikidata">Q608361</data><data key="lon">-73.09425</data><data key="lat">19.78241</data></node>
+    <node id="HT-OU"><data key="name">Ouest</data><data key="code">HT-OU</data><data key="wikidata">Q1434621</data><data key="lon">-72.16011</data><data key="lat">18.61456</data></node>
+    <node id="HT-SD"><data key="name">Sud</data><data key="code">HT-SD</data><data key="wikidata">Q936704</data><data key="lon">-73.88603</data><data key="lat">18.22911</data></node>
+    <node id="HT-SE"><data key="name">Sud-Est</data><data key="code">HT-SE</data><data key="wikidata">Q936717</data><data key="lon">-72.7843</data><data key="lat">18.22035</data></node>
+    <edge source="HT-AR" target="HT-CE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-AR" target="HT-ND"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-AR" target="HT-NO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-AR" target="HT-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-CE" target="HT-ND"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-CE" target="HT-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-CE" target="HT-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-GA" target="HT-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-GA" target="HT-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-ND" target="HT-NE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-ND" target="HT-NO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-NI" target="HT-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-NI" target="HT-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-NI" target="HT-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-OU" target="HT-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HT-SD" target="HT-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

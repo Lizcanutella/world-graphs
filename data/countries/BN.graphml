@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BN-BE"><data key="name">Belait</data><data key="code">BN-BE</data><data key="wikidata">Q40395</data><data key="lon">114.5143</data><data key="lat">4.35369</data></node>
+    <node id="BN-BM"><data key="name">Brunei and Muara</data><data key="code">BN-BM</data><data key="wikidata">Q153009</data><data key="lon">114.87263</data><data key="lat">4.89391</data></node>
+    <node id="BN-TE"><data key="name">Temburong</data><data key="code">BN-TE</data><data key="wikidata">Q263285</data><data key="lon">115.1594</data><data key="lat">4.6044</data></node>
+    <node id="BN-TU"><data key="name">Tutong</data><data key="code">BN-TU</data><data key="wikidata">Q40398</data><data key="lon">114.66407</data><data key="lat">4.60061</data></node>
+    <edge source="BN-BE" target="BN-TU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BN-BM" target="BN-TU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

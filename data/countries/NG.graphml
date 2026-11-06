@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NG-AB"><data key="name">Abia</data><data key="code">NG-AB</data><data key="wikidata">Q320852</data><data key="lon">7.48787</data><data key="lat">5.42126</data></node>
+    <node id="NG-AD"><data key="name">Adamawa</data><data key="code">NG-AD</data><data key="wikidata">Q337514</data><data key="lon">12.35287</data><data key="lat">9.21219</data></node>
+    <node id="NG-AK"><data key="name">Akwa Ibom</data><data key="code">NG-AK</data><data key="wikidata">Q424388</data><data key="lon">7.78123</data><data key="lat">5.00168</data></node>
+    <node id="NG-AN"><data key="name">Anambra</data><data key="code">NG-AN</data><data key="wikidata">Q117714</data><data key="lon">6.93265</data><data key="lat">6.2357</data></node>
+    <node id="NG-BA"><data key="name">Bauchi</data><data key="code">NG-BA</data><data key="wikidata">Q503936</data><data key="lon">9.30779</data><data key="lat">11.00404</data></node>
+    <node id="NG-BE"><data key="name">Benue</data><data key="code">NG-BE</data><data key="wikidata">Q429908</data><data key="lon">8.85741</data><data key="lat">7.28003</data></node>
+    <node id="NG-BO"><data key="name">Borno</data><data key="code">NG-BO</data><data key="wikidata">Q130626</data><data key="lon">13.45688</data><data key="lat">11.87433</data></node>
+    <node id="NG-BY"><data key="name">Bayelsa</data><data key="code">NG-BY</data><data key="wikidata">Q532153</data><data key="lon">5.94703</data><data key="lat">4.83104</data></node>
+    <node id="NG-CR"><data key="name">Cross River</data><data key="code">NG-CR</data><data key="wikidata">Q739676</data><data key="lon">8.38632</data><data key="lat">5.79766</data></node>
+    <node id="NG-DE"><data key="name">Delta</data><data key="code">NG-DE</data><data key="wikidata">Q503910</data><data key="lon">5.52163</data><data key="lat">5.78014</data></node>
+    <node id="NG-EB"><data key="name">Ebonyi</data><data key="code">NG-EB</data><data key="wikidata">Q506808</data><data key="lon">8.04492</data><data key="lat">6.24193</data></node>
+    <node id="NG-ED"><data key="name">Edo</data><data key="code">NG-ED</data><data key="wikidata">Q682704</data><data key="lon">5.86392</data><data key="lat">6.65746</data></node>
+    <node id="NG-EK"><data key="name">Ekiti</data><data key="code">NG-EK</data><data key="wikidata">Q534917</data><data key="lon">5.29315</data><data key="lat">7.67258</data></node>
+    <node id="NG-EN"><data key="name">Enugu</data><data key="code">NG-EN</data><data key="wikidata">Q3817714</data><data key="lon">7.37739</data><data key="lat">6.50946</data></node>
+    <node id="NG-FC"><data key="name">Federal Capital Territory</data><data key="code">NG-FC</data><data key="wikidata">Q509300</data><data key="lon">7.1458</data><data key="lat">8.85982</data></node>
+    <node id="NG-GO"><data key="name">Gombe</data><data key="code">NG-GO</data><data key="wikidata">Q376241</data><data key="lon">11.23927</data><data key="lat">10.46538</data></node>
+    <node id="NG-IM"><data key="name">Imo</data><data key="code">NG-IM</data><data key="wikidata">Q842939</data><data key="lon">7.0208</data><data key="lat">5.55692</data></node>
+    <node id="NG-JI"><data key="name">Jigawa</data><data key="code">NG-JI</data><data key="wikidata">Q682691</data><data key="lon">9.62817</data><data key="lat">11.97166</data></node>
+    <node id="NG-KD"><data key="name">Kaduna</data><data key="code">NG-KD</data><data key="wikidata">Q878284</data><data key="lon">7.90592</data><data key="lat">10.25324</data></node>
+    <node id="NG-KE"><data key="name">Kebbi</data><data key="code">NG-KE</data><data key="wikidata">Q748523</data><data key="lon">4.05188</data><data key="lat">11.66251</data></node>
+    <node id="NG-KN"><data key="name">Kano</data><data key="code">NG-KN</data><data key="wikidata">Q682571</data><data key="lon">8.52855</data><data key="lat">11.55948</data></node>
+    <node id="NG-KO"><data key="name">Kogi</data><data key="code">NG-KO</data><data key="wikidata">Q387745</data><data key="lon">6.86956</data><data key="lat">7.62269</data></node>
+    <node id="NG-KT"><data key="name">Katsina</data><data key="code">NG-KT</data><data key="wikidata">Q657821</data><data key="lon">7.48706</data><data key="lat">12.24286</data></node>
+    <node id="NG-KW"><data key="name">Kwara</data><data key="code">NG-KW</data><data key="wikidata">Q464953</data><data key="lon">4.58686</data><data key="lat">9.05838</data></node>
+    <node id="NG-LA"><data key="name">Lagos</data><data key="code">NG-LA</data><data key="wikidata">Q815913</data><data key="lon">3.96749</data><data key="lat">6.53638</data></node>
+    <node id="NG-NA"><data key="name">Nassarawa</data><data key="code">NG-NA</data><data key="wikidata">Q836645</data><data key="lon">8.17742</data><data key="lat">8.56943</data></node>
+    <node id="NG-NI"><data key="name">Niger</data><data key="code">NG-NI</data><data key="wikidata">Q503932</data><data key="lon">5.79725</data><data key="lat">9.77076</data></node>
+    <node id="NG-OG"><data key="name">Ogun</data><data key="code">NG-OG</data><data key="wikidata">Q836657</data><data key="lon">3.26136</data><data key="lat">7.13373</data></node>
+    <node id="NG-ON"><data key="name">Ondo</data><data key="code">NG-ON</data><data key="wikidata">Q836654</data><data key="lon">4.84108</data><data key="lat">6.81867</data></node>
+    <node id="NG-OS"><data key="name">Osun</data><data key="code">NG-OS</data><data key="wikidata">Q682721</data><data key="lon">4.52825</data><data key="lat">7.54174</data></node>
+    <node id="NG-OY"><data key="name">Oyo</data><data key="code">NG-OY</data><data key="wikidata">Q503905</data><data key="lon">3.60343</data><data key="lat">8.09399</data></node>
+    <node id="NG-PL"><data key="name">Plateau</data><data key="code">NG-PL</data><data key="wikidata">Q503928</data><data key="lon">9.62339</data><data key="lat">9.35398</data></node>
+    <node id="NG-RI"><data key="name">Rivers</data><data key="code">NG-RI</data><data key="wikidata">Q503923</data><data key="lon">6.82071</data><data key="lat">5.029</data></node>
+    <node id="NG-SO"><data key="name">Sokoto</data><data key="code">NG-SO</data><data key="wikidata">Q503941</data><data key="lon">5.26071</data><data key="lat">12.69643</data></node>
+    <node id="NG-TA"><data key="name">Taraba</data><data key="code">NG-TA</data><data key="wikidata">Q463959</data><data key="lon">10.35611</data><data key="lat">7.99568</data></node>
+    <node id="NG-YO"><data key="name">Yobe</data><data key="code">NG-YO</data><data key="wikidata">Q682777</data><data key="lon">11.5554</data><data key="lat">11.99512</data></node>
+    <node id="NG-ZA"><data key="name">Zamfara</data><data key="code">NG-ZA</data><data key="wikidata">Q145793</data><data key="lon">6.07603</data><data key="lat">12.02636</data></node>
+    <edge source="NG-AB" target="NG-AK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AB" target="NG-AN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AB" target="NG-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AB" target="NG-EB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AB" target="NG-EN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AB" target="NG-IM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AB" target="NG-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AD" target="NG-BO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AD" target="NG-GO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AD" target="NG-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AK" target="NG-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AK" target="NG-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AN" target="NG-DE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AN" target="NG-ED"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AN" target="NG-EN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AN" target="NG-IM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AN" target="NG-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-AN" target="NG-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BA" target="NG-GO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BA" target="NG-JI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BA" target="NG-KD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BA" target="NG-KN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BA" target="NG-PL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BA" target="NG-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BA" target="NG-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BE" target="NG-CR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BE" target="NG-EB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BE" target="NG-EN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BE" target="NG-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BE" target="NG-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BE" target="NG-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BO" target="NG-GO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BO" target="NG-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BY" target="NG-DE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-BY" target="NG-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-CR" target="NG-EB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-DE" target="NG-ED"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-DE" target="NG-ON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-DE" target="NG-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-EB" target="NG-EN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-ED" target="NG-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-ED" target="NG-ON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-EK" target="NG-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-EK" target="NG-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-EK" target="NG-ON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-EK" target="NG-OS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-EN" target="NG-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-FC" target="NG-KD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-FC" target="NG-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-FC" target="NG-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-FC" target="NG-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-GO" target="NG-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-GO" target="NG-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-IM" target="NG-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-JI" target="NG-KN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-JI" target="NG-KT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-JI" target="NG-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KD" target="NG-KN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KD" target="NG-KT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KD" target="NG-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KD" target="NG-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KD" target="NG-PL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KD" target="NG-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KE" target="NG-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KE" target="NG-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KE" target="NG-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KN" target="NG-KT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KO" target="NG-KW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KO" target="NG-NA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KO" target="NG-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KO" target="NG-ON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KT" target="NG-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KW" target="NG-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KW" target="NG-OS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-KW" target="NG-OY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-LA" target="NG-OG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-NA" target="NG-PL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-NA" target="NG-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-NI" target="NG-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-OG" target="NG-ON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-OG" target="NG-OS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-OG" target="NG-OY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-ON" target="NG-OS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-OS" target="NG-OY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-PL" target="NG-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NG-SO" target="NG-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

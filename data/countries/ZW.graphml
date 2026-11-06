@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ZW" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ZW-BU"><data key="name">Bulawayo</data><data key="code">ZW-BU</data><data key="wikidata">Q24045859</data><data key="lon">28.54541</data><data key="lat">-20.13867</data></node>
+    <node id="ZW-HA"><data key="name">Harare</data><data key="code">ZW-HA</data><data key="wikidata">Q16928358</data><data key="lon">31.06316</data><data key="lat">-17.8603</data></node>
+    <node id="ZW-MA"><data key="name">Manicaland</data><data key="code">ZW-MA</data><data key="wikidata">Q465847</data><data key="lon">32.04285</data><data key="lat">-19.29293</data></node>
+    <node id="ZW-MC"><data key="name">Mashonaland Central</data><data key="code">ZW-MC</data><data key="wikidata">Q596156</data><data key="lon">31.59778</data><data key="lat">-16.68919</data></node>
+    <node id="ZW-ME"><data key="name">Mashonaland East</data><data key="code">ZW-ME</data><data key="wikidata">Q465853</data><data key="lon">31.62702</data><data key="lat">-17.97758</data></node>
+    <node id="ZW-MI"><data key="name">Midlands</data><data key="code">ZW-MI</data><data key="wikidata">Q456556</data><data key="lon">29.85698</data><data key="lat">-19.07395</data></node>
+    <node id="ZW-MN"><data key="name">Matabeleland North</data><data key="code">ZW-MN</data><data key="wikidata">Q456562</data><data key="lon">27.38735</data><data key="lat">-18.68447</data></node>
+    <node id="ZW-MS"><data key="name">Matabeleland South</data><data key="code">ZW-MS</data><data key="wikidata">Q498355</data><data key="lon">28.64146</data><data key="lat">-20.91862</data></node>
+    <node id="ZW-MV"><data key="name">Masvingo</data><data key="code">ZW-MV</data><data key="wikidata">Q498351</data><data key="lon">31.3351</data><data key="lat">-20.78279</data></node>
+    <node id="ZW-MW"><data key="name">Mashonaland West</data><data key="code">ZW-MW</data><data key="wikidata">Q457189</data><data key="lon">29.84285</data><data key="lat">-17.23654</data></node>
+    <edge source="ZW-BU" target="ZW-MN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-BU" target="ZW-MS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-HA" target="ZW-MC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-HA" target="ZW-ME"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-HA" target="ZW-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MA" target="ZW-ME"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MA" target="ZW-MV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MC" target="ZW-ME"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MC" target="ZW-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-ME" target="ZW-MI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-ME" target="ZW-MV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-ME" target="ZW-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MI" target="ZW-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MI" target="ZW-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MI" target="ZW-MV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MI" target="ZW-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MN" target="ZW-MS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MN" target="ZW-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ZW-MS" target="ZW-MV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

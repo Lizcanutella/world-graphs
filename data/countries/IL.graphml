@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="IL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="IL-D"><data key="name">HaDarom</data><data key="code">IL-D</data><data key="wikidata">Q188781</data><data key="lon">34.85481</data><data key="lat">30.68549</data></node>
+    <node id="IL-HA"><data key="name">Haifa</data><data key="code">IL-HA</data><data key="wikidata">Q185845</data><data key="lon">34.9791</data><data key="lat">32.63705</data></node>
+    <node id="IL-JM"><data key="name">Jerusalem</data><data key="code">IL-JM</data><data key="wikidata">Q192232</data><data key="lon">35.06591</data><data key="lat">31.74373</data></node>
+    <node id="IL-M"><data key="name">HaMerkaz</data><data key="code">IL-M</data><data key="wikidata">Q188785</data><data key="lon">34.91447</data><data key="lat">32.08773</data></node>
+    <node id="IL-TA"><data key="name">Tel Aviv</data><data key="code">IL-TA</data><data key="wikidata">Q192811</data><data key="lon">34.80742</data><data key="lat">32.09812</data></node>
+    <node id="IL-Z"><data key="name">HaZafon</data><data key="code">IL-Z</data><data key="wikidata">Q189942</data><data key="lon">35.46256</data><data key="lat">32.89445</data></node>
+    <edge source="IL-D" target="IL-JM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IL-D" target="IL-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IL-HA" target="IL-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IL-HA" target="IL-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IL-JM" target="IL-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IL-M" target="IL-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

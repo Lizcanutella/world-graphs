@@ -1,0 +1,105 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AX",
+ "kind": "country",
+ "name": "Åland Islands",
+ "level": null,
+ "n": 11,
+ "m": 1,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AX-X02~",
+   "name": "Jomala",
+   "wikidata": null,
+   "lon": 19.92124,
+   "lat": 60.13666
+  },
+  {
+   "code": "AX-X04~",
+   "name": "Eckerö",
+   "wikidata": null,
+   "lon": 19.63149,
+   "lat": 60.19522
+  },
+  {
+   "code": "AX-X06~",
+   "name": "Föglö",
+   "wikidata": null,
+   "lon": 20.35814,
+   "lat": 59.98859
+  },
+  {
+   "code": "AX-X09~",
+   "name": "Mariehamn",
+   "wikidata": null,
+   "lon": 19.94109,
+   "lat": 60.07701
+  },
+  {
+   "code": "AX-X10~",
+   "name": "Lemland",
+   "wikidata": null,
+   "lon": 20.14294,
+   "lat": 60.03208
+  },
+  {
+   "code": "AX-X11~",
+   "name": "Lumparland",
+   "wikidata": null,
+   "lon": 20.24296,
+   "lat": 60.10602
+  },
+  {
+   "code": "AX-X12~",
+   "name": "Vårdö",
+   "wikidata": null,
+   "lon": 20.4088,
+   "lat": 60.23534
+  },
+  {
+   "code": "AX-X13~",
+   "name": "Sottunga",
+   "wikidata": null,
+   "lon": 20.66337,
+   "lat": 60.12853
+  },
+  {
+   "code": "AX-X14~",
+   "name": "Kumlinge",
+   "wikidata": null,
+   "lon": 20.81731,
+   "lat": 60.25863
+  },
+  {
+   "code": "AX-X15~",
+   "name": "Brändö",
+   "wikidata": null,
+   "lon": 21.07823,
+   "lat": 60.46509
+  },
+  {
+   "code": "AX-X16~",
+   "name": "Kökar",
+   "wikidata": null,
+   "lon": 20.95127,
+   "lat": 59.93917
+  }
+ ],
+ "edges": [
+  {
+   "u": "AX-X02~",
+   "v": "AX-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4574
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": null
+}

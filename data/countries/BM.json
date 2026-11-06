@@ -1,0 +1,264 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BM",
+ "kind": "country",
+ "name": "Bermuda",
+ "level": null,
+ "n": 11,
+ "m": 10,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BM-DEV",
+   "name": "Devonshire",
+   "wikidata": "Q1207018",
+   "lon": -64.7596,
+   "lat": 32.30129
+  },
+  {
+   "code": "BM-HA",
+   "name": "City of Hamilton",
+   "wikidata": null,
+   "lon": -64.78928,
+   "lat": 32.29346
+  },
+  {
+   "code": "BM-HAM",
+   "name": "Hamilton",
+   "wikidata": "Q289876",
+   "lon": -64.7274,
+   "lat": 32.34129
+  },
+  {
+   "code": "BM-PAG",
+   "name": "Paget",
+   "wikidata": "Q2046204",
+   "lon": -64.77995,
+   "lat": 32.28083
+  },
+  {
+   "code": "BM-PEM",
+   "name": "Pembroke",
+   "wikidata": "Q1756036",
+   "lon": -64.79545,
+   "lat": 32.30038
+  },
+  {
+   "code": "BM-SAN",
+   "name": "Sandys",
+   "wikidata": "Q121782",
+   "lon": -64.87235,
+   "lat": 32.28859
+  },
+  {
+   "code": "BM-SG",
+   "name": "City of Saint George",
+   "wikidata": "Q31498852",
+   "lon": -64.67471,
+   "lat": 32.37515
+  },
+  {
+   "code": "BM-SGE",
+   "name": "Saint George's",
+   "wikidata": "Q1521745",
+   "lon": -64.67689,
+   "lat": 32.369
+  },
+  {
+   "code": "BM-SMI",
+   "name": "Smith's",
+   "wikidata": "Q1735847",
+   "lon": -64.73197,
+   "lat": 32.31602
+  },
+  {
+   "code": "BM-SOU",
+   "name": "Southampton",
+   "wikidata": "Q1323054",
+   "lon": -64.82698,
+   "lat": 32.25874
+  },
+  {
+   "code": "BM-WAR",
+   "name": "Warwick",
+   "wikidata": "Q1468860",
+   "lon": -64.80691,
+   "lat": 32.26707
+  }
+ ],
+ "edges": [
+  {
+   "u": "BM-DEV",
+   "v": "BM-PAG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2547,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Devonshire_Parish"
+    }
+   ]
+  },
+  {
+   "u": "BM-DEV",
+   "v": "BM-PEM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1370,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pembroke_Parish"
+    }
+   ]
+  },
+  {
+   "u": "BM-DEV",
+   "v": "BM-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1864,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Devonshire_Parish"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Smith%27s_Parish"
+    }
+   ]
+  },
+  {
+   "u": "BM-HA",
+   "v": "BM-PEM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2402,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Hamilton,_Bermuda"
+    }
+   ]
+  },
+  {
+   "u": "BM-HAM",
+   "v": "BM-SGE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3649
+  },
+  {
+   "u": "BM-HAM",
+   "v": "BM-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2758,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Hamilton_Parish"
+    }
+   ]
+  },
+  {
+   "u": "BM-PAG",
+   "v": "BM-WAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2317,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Paget_Parish"
+    }
+   ]
+  },
+  {
+   "u": "BM-SAN",
+   "v": "BM-SOU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1640
+  },
+  {
+   "u": "BM-SG",
+   "v": "BM-SGE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3555,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "BM-SOU",
+   "v": "BM-WAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2169,
+   "prior_evidence": [
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Warwick_Parish"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": null
+}

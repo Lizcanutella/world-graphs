@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MZ-A"><data key="name">Niassa</data><data key="code">MZ-A</data><data key="wikidata">Q622799</data><data key="lon">36.46629</data><data key="lat">-13.36968</data></node>
+    <node id="MZ-B"><data key="name">Manica</data><data key="code">MZ-B</data><data key="wikidata">Q622792</data><data key="lon">33.35284</data><data key="lat">-18.9946</data></node>
+    <node id="MZ-G"><data key="name">Gaza</data><data key="code">MZ-G</data><data key="wikidata">Q466526</data><data key="lon">32.70832</data><data key="lat">-23.33369</data></node>
+    <node id="MZ-I"><data key="name">Inhambane</data><data key="code">MZ-I</data><data key="wikidata">Q466547</data><data key="lon">34.57336</data><data key="lat">-22.9017</data></node>
+    <node id="MZ-L"><data key="name">Maputo</data><data key="code">MZ-L</data><data key="wikidata">Q379658</data><data key="lon">32.43235</data><data key="lat">-25.53772</data></node>
+    <node id="MZ-N"><data key="name">Nampula</data><data key="code">MZ-N</data><data key="wikidata">Q622794</data><data key="lon">39.0443</data><data key="lat">-15.16298</data></node>
+    <node id="MZ-P"><data key="name">Cabo Delgado</data><data key="code">MZ-P</data><data key="wikidata">Q466538</data><data key="lon">39.34861</data><data key="lat">-12.31316</data></node>
+    <node id="MZ-Q"><data key="name">Zambezia</data><data key="code">MZ-Q</data><data key="wikidata">Q622803</data><data key="lon">37.19521</data><data key="lat">-16.95265</data></node>
+    <node id="MZ-S"><data key="name">Sofala</data><data key="code">MZ-S</data><data key="wikidata">Q622801</data><data key="lon">34.90003</data><data key="lat">-19.03546</data></node>
+    <node id="MZ-T"><data key="name">Tete</data><data key="code">MZ-T</data><data key="wikidata">Q605787</data><data key="lon">32.3164</data><data key="lat">-15.87547</data></node>
+    <edge source="MZ-A" target="MZ-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-A" target="MZ-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-A" target="MZ-Q"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-B" target="MZ-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-B" target="MZ-I"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-B" target="MZ-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-B" target="MZ-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-G" target="MZ-I"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-G" target="MZ-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-I" target="MZ-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-N" target="MZ-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-N" target="MZ-Q"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-Q" target="MZ-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-Q" target="MZ-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MZ-S" target="MZ-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

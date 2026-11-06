@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LI-01"><data key="name">Balzers</data><data key="code">LI-01</data><data key="wikidata">Q49663</data><data key="lon">9.50184</data><data key="lat">47.07584</data></node>
+    <node id="LI-02"><data key="name">Eschen</data><data key="code">LI-02</data><data key="wikidata">Q4540</data><data key="lon">9.53287</data><data key="lat">47.20775</data></node>
+    <node id="LI-03"><data key="name">Gamprin</data><data key="code">LI-03</data><data key="wikidata">Q49662</data><data key="lon">9.49854</data><data key="lat">47.21236</data></node>
+    <node id="LI-04"><data key="name">Mauren</data><data key="code">LI-04</data><data key="wikidata">Q49661</data><data key="lon">9.53249</data><data key="lat">47.2228</data></node>
+    <node id="LI-05"><data key="name">Planken</data><data key="code">LI-05</data><data key="wikidata">Q49660</data><data key="lon">9.54526</data><data key="lat">47.1882</data></node>
+    <node id="LI-06"><data key="name">Ruggell</data><data key="code">LI-06</data><data key="wikidata">Q49659</data><data key="lon">9.51709</data><data key="lat">47.24423</data></node>
+    <node id="LI-07"><data key="name">Schaan</data><data key="code">LI-07</data><data key="wikidata">Q49657</data><data key="lon">9.51941</data><data key="lat">47.17234</data></node>
+    <node id="LI-08"><data key="name">Schellenberg</data><data key="code">LI-08</data><data key="wikidata">Q49655</data><data key="lon">9.53659</data><data key="lat">47.24055</data></node>
+    <node id="LI-09"><data key="name">Triesen</data><data key="code">LI-09</data><data key="wikidata">Q49654</data><data key="lon">9.53304</data><data key="lat">47.09186</data></node>
+    <node id="LI-10"><data key="name">Triesenberg</data><data key="code">LI-10</data><data key="wikidata">Q49651</data><data key="lon">9.55345</data><data key="lat">47.12434</data></node>
+    <node id="LI-11"><data key="name">Vaduz</data><data key="code">LI-11</data><data key="wikidata">Q1844</data><data key="lon">9.52238</data><data key="lat">47.14881</data></node>
+    <edge source="LI-01" target="LI-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-01" target="LI-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-01" target="LI-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-01" target="LI-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-01" target="LI-11"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="LI-02" target="LI-03"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-02" target="LI-04"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-02" target="LI-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-02" target="LI-06"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LI-02" target="LI-07"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="LI-03" target="LI-05"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="LI-03" target="LI-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-03" target="LI-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-04" target="LI-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-05" target="LI-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-05" target="LI-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-05" target="LI-11"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="LI-06" target="LI-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-07" target="LI-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-07" target="LI-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-07" target="LI-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-09" target="LI-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-09" target="LI-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LI-10" target="LI-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

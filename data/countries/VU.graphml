@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="VU" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="VU-MAP"><data key="name">Malampa</data><data key="code">VU-MAP</data><data key="wikidata">Q740656</data><data key="lon">168.07608</data><data key="lat">-16.22377</data></node>
+    <node id="VU-PAM"><data key="name">Penama</data><data key="code">VU-PAM</data><data key="wikidata">Q836649</data><data key="lon">167.83963</data><data key="lat">-15.38152</data></node>
+    <node id="VU-SAM"><data key="name">Sanma</data><data key="code">VU-SAM</data><data key="wikidata">Q740640</data><data key="lon">167.0355</data><data key="lat">-15.14153</data></node>
+    <node id="VU-SEE"><data key="name">Shefa</data><data key="code">VU-SEE</data><data key="wikidata">Q650617</data><data key="lon">168.35423</data><data key="lat">-17.67514</data></node>
+    <node id="VU-TAE"><data key="name">Tafea</data><data key="code">VU-TAE</data><data key="wikidata">Q576417</data><data key="lon">169.10678</data><data key="lat">-18.80836</data></node>
+    <node id="VU-TOB"><data key="name">Torba</data><data key="code">VU-TOB</data><data key="wikidata">Q822514</data><data key="lon">167.50244</data><data key="lat">-14.22739</data></node>
+  </graph>
+</graphml>

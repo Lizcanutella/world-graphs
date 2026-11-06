@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="UZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="UZ-AN"><data key="name">Andijon</data><data key="code">UZ-AN</data><data key="wikidata">Q487384</data><data key="lon">72.28848</data><data key="lat">40.72604</data></node>
+    <node id="UZ-BU"><data key="name">Bukhoro</data><data key="code">UZ-BU</data><data key="wikidata">Q487372</data><data key="lon">63.64971</data><data key="lat">40.20751</data></node>
+    <node id="UZ-FA"><data key="name">Ferghana</data><data key="code">UZ-FA</data><data key="wikidata">Q487089</data><data key="lon">71.28072</data><data key="lat">40.4587</data></node>
+    <node id="UZ-JI"><data key="name">Jizzakh</data><data key="code">UZ-JI</data><data key="wikidata">Q488811</data><data key="lon">67.3017</data><data key="lat">41.02152</data></node>
+    <node id="UZ-NG"><data key="name">Namangan</data><data key="code">UZ-NG</data><data key="wikidata">Q474876</data><data key="lon">71.32276</data><data key="lat">41.08439</data></node>
+    <node id="UZ-NW"><data key="name">Navoi</data><data key="code">UZ-NW</data><data key="wikidata">Q487570</data><data key="lon">64.30432</data><data key="lat">41.55555</data></node>
+    <node id="UZ-QA"><data key="name">Kashkadarya</data><data key="code">UZ-QA</data><data key="wikidata">Q487577</data><data key="lon">66.08332</data><data key="lat">38.75886</data></node>
+    <node id="UZ-QR"><data key="name">Karakalpakstan</data><data key="code">UZ-QR</data><data key="wikidata">Q484245</data><data key="lon">59.14879</data><data key="lat">43.28661</data></node>
+    <node id="UZ-SA"><data key="name">Samarkand</data><data key="code">UZ-SA</data><data key="wikidata">Q487532</data><data key="lon">66.41389</data><data key="lat">39.95038</data></node>
+    <node id="UZ-SI"><data key="name">Sirdaryo</data><data key="code">UZ-SI</data><data key="wikidata">Q487547</data><data key="lon">68.62925</data><data key="lat">40.56361</data></node>
+    <node id="UZ-SU"><data key="name">Surkhandarya</data><data key="code">UZ-SU</data><data key="wikidata">Q487537</data><data key="lon">67.53269</data><data key="lat">38.09972</data></node>
+    <node id="UZ-TK"><data key="name">Toshkent (Region) (UZ-TK)</data><data key="code">UZ-TK</data><data key="wikidata">Q269</data><data key="lon">69.25418</data><data key="lat">41.31118</data></node>
+    <node id="UZ-TO"><data key="name">Toshkent (Region) (UZ-TO)</data><data key="code">UZ-TO</data><data key="wikidata">Q487585</data><data key="lon">69.84152</data><data key="lat">41.23229</data></node>
+    <node id="UZ-XO"><data key="name">Khorezm</data><data key="code">UZ-XO</data><data key="wikidata">Q487561</data><data key="lon">60.88699</data><data key="lat">41.26198</data></node>
+    <edge source="UZ-AN" target="UZ-FA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-AN" target="UZ-NG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-BU" target="UZ-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-BU" target="UZ-QA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-BU" target="UZ-QR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-BU" target="UZ-XO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-FA" target="UZ-NG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-JI" target="UZ-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-JI" target="UZ-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-JI" target="UZ-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-NG" target="UZ-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-NW" target="UZ-QA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-NW" target="UZ-QR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-NW" target="UZ-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-QA" target="UZ-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-QA" target="UZ-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-QR" target="UZ-XO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-SI" target="UZ-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UZ-TK" target="UZ-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

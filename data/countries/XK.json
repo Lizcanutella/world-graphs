@@ -1,0 +1,1177 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "XK",
+ "kind": "country",
+ "name": "Kosovo",
+ "level": "districts",
+ "n": 30,
+ "m": 69,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "XK-X01~",
+   "name": "Đakovica",
+   "wikidata": "Q3656386",
+   "lon": 20.35229,
+   "lat": 42.39057
+  },
+  {
+   "code": "XK-X02~",
+   "name": "Dečani",
+   "wikidata": "Q860148",
+   "lon": 20.2077,
+   "lat": 42.54605
+  },
+  {
+   "code": "XK-X03~",
+   "name": "Dragaš",
+   "wikidata": "Q3191420",
+   "lon": 20.66727,
+   "lat": 41.9836
+  },
+  {
+   "code": "XK-X04~",
+   "name": "Glogovac",
+   "wikidata": "Q860365",
+   "lon": 20.8694,
+   "lat": 42.60114
+  },
+  {
+   "code": "XK-X05~",
+   "name": "Gnjilane",
+   "wikidata": "Q2513453",
+   "lon": 21.49095,
+   "lat": 42.4058
+  },
+  {
+   "code": "XK-X06~",
+   "name": "Istok",
+   "wikidata": "Q2043104",
+   "lon": 20.48783,
+   "lat": 42.78213
+  },
+  {
+   "code": "XK-X07~",
+   "name": "Kačanik",
+   "wikidata": "Q2043130",
+   "lon": 21.22047,
+   "lat": 42.20596
+  },
+  {
+   "code": "XK-X08~",
+   "name": "Klina",
+   "wikidata": "Q860157",
+   "lon": 20.61235,
+   "lat": 42.6043
+  },
+  {
+   "code": "XK-X09~",
+   "name": "Kosovo Polje",
+   "wikidata": "Q2447449",
+   "lon": 21.03632,
+   "lat": 42.60816
+  },
+  {
+   "code": "XK-X10~",
+   "name": "Kosovska Kamenica",
+   "wikidata": null,
+   "lon": 21.59569,
+   "lat": 42.58885
+  },
+  {
+   "code": "XK-X11~",
+   "name": "Kosovska Mitrovica",
+   "wikidata": "Q2017517",
+   "lon": 20.91714,
+   "lat": 42.92997
+  },
+  {
+   "code": "XK-X12~",
+   "name": "Leposavić",
+   "wikidata": "Q2048354",
+   "lon": 20.79905,
+   "lat": 43.11679
+  },
+  {
+   "code": "XK-X13~",
+   "name": "Lipljan",
+   "wikidata": "Q16036965",
+   "lon": 21.10362,
+   "lat": 42.52611
+  },
+  {
+   "code": "XK-X14~",
+   "name": "Mališevo",
+   "wikidata": "Q794063",
+   "lon": 20.70858,
+   "lat": 42.48788
+  },
+  {
+   "code": "XK-X15~",
+   "name": "Novo Brdo",
+   "wikidata": "Q6081267",
+   "lon": 21.39464,
+   "lat": 42.57381
+  },
+  {
+   "code": "XK-X16~",
+   "name": "Obilić",
+   "wikidata": "Q4329229",
+   "lon": 21.06151,
+   "lat": 42.70639
+  },
+  {
+   "code": "XK-X17~",
+   "name": "Orahovac",
+   "wikidata": "Q794039",
+   "lon": 20.59683,
+   "lat": 42.3979
+  },
+  {
+   "code": "XK-X18~",
+   "name": "Peć",
+   "wikidata": "Q2507287",
+   "lon": 20.26684,
+   "lat": 42.67227
+  },
+  {
+   "code": "XK-X19~",
+   "name": "Podujevo",
+   "wikidata": "Q860399",
+   "lon": 21.14549,
+   "lat": 42.93066
+  },
+  {
+   "code": "XK-X20~",
+   "name": "Priština",
+   "wikidata": null,
+   "lon": 21.25258,
+   "lat": 42.68565
+  },
+  {
+   "code": "XK-X21~",
+   "name": "Prizren",
+   "wikidata": null,
+   "lon": 20.68111,
+   "lat": 42.19596
+  },
+  {
+   "code": "XK-X22~",
+   "name": "Srbica",
+   "wikidata": "Q2043122",
+   "lon": 20.76626,
+   "lat": 42.72854
+  },
+  {
+   "code": "XK-X23~",
+   "name": "Štimlje",
+   "wikidata": "Q4526883",
+   "lon": 21.00868,
+   "lat": 42.41154
+  },
+  {
+   "code": "XK-X24~",
+   "name": "Štrpce",
+   "wikidata": "Q2043155",
+   "lon": 20.97271,
+   "lat": 42.22548
+  },
+  {
+   "code": "XK-X25~",
+   "name": "Suva Reka",
+   "wikidata": "Q794044",
+   "lon": 20.83113,
+   "lat": 42.34646
+  },
+  {
+   "code": "XK-X26~",
+   "name": "Uroševac",
+   "wikidata": "Q2048755",
+   "lon": 21.12254,
+   "lat": 42.35844
+  },
+  {
+   "code": "XK-X27~",
+   "name": "Vitina",
+   "wikidata": "Q860303",
+   "lon": 21.36217,
+   "lat": 42.32144
+  },
+  {
+   "code": "XK-X28~",
+   "name": "Vučitrn",
+   "wikidata": "Q3657833",
+   "lon": 20.97092,
+   "lat": 42.81322
+  },
+  {
+   "code": "XK-X29~",
+   "name": "Zubin Potok",
+   "wikidata": "Q2500688",
+   "lon": 20.62904,
+   "lat": 42.90435
+  },
+  {
+   "code": "XK-X30~",
+   "name": "Zvečan",
+   "wikidata": "Q2048373",
+   "lon": 20.77085,
+   "lat": 42.96715
+  }
+ ],
+ "edges": [
+  {
+   "u": "XK-X01~",
+   "v": "XK-X02~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33573
+  },
+  {
+   "u": "XK-X01~",
+   "v": "XK-X08~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3994
+  },
+  {
+   "u": "XK-X01~",
+   "v": "XK-X17~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27762
+  },
+  {
+   "u": "XK-X01~",
+   "v": "XK-X18~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5790
+  },
+  {
+   "u": "XK-X01~",
+   "v": "XK-X21~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11200
+  },
+  {
+   "u": "XK-X02~",
+   "v": "XK-X18~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36168
+  },
+  {
+   "u": "XK-X03~",
+   "v": "XK-X21~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25983
+  },
+  {
+   "u": "XK-X04~",
+   "v": "XK-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8192
+  },
+  {
+   "u": "XK-X04~",
+   "v": "XK-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13159
+  },
+  {
+   "u": "XK-X04~",
+   "v": "XK-X14~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21674
+  },
+  {
+   "u": "XK-X04~",
+   "v": "XK-X16~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8934
+  },
+  {
+   "u": "XK-X04~",
+   "v": "XK-X22~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21567
+  },
+  {
+   "u": "XK-X04~",
+   "v": "XK-X28~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4758
+  },
+  {
+   "u": "XK-X05~",
+   "v": "XK-X10~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20233
+  },
+  {
+   "u": "XK-X05~",
+   "v": "XK-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15287
+  },
+  {
+   "u": "XK-X05~",
+   "v": "XK-X15~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19401
+  },
+  {
+   "u": "XK-X05~",
+   "v": "XK-X26~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5544
+  },
+  {
+   "u": "XK-X05~",
+   "v": "XK-X27~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31325
+  },
+  {
+   "u": "XK-X06~",
+   "v": "XK-X08~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14990
+  },
+  {
+   "u": "XK-X06~",
+   "v": "XK-X18~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24119
+  },
+  {
+   "u": "XK-X06~",
+   "v": "XK-X22~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14443
+  },
+  {
+   "u": "XK-X06~",
+   "v": "XK-X29~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14511
+  },
+  {
+   "u": "XK-X07~",
+   "v": "XK-X24~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10566
+  },
+  {
+   "u": "XK-X07~",
+   "v": "XK-X26~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13767
+  },
+  {
+   "u": "XK-X07~",
+   "v": "XK-X27~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19268
+  },
+  {
+   "u": "XK-X08~",
+   "v": "XK-X14~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22694
+  },
+  {
+   "u": "XK-X08~",
+   "v": "XK-X17~",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_quadripoint"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "XK-X08~",
+   "v": "XK-X18~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18390
+  },
+  {
+   "u": "XK-X08~",
+   "v": "XK-X22~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16414
+  },
+  {
+   "u": "XK-X09~",
+   "v": "XK-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9259
+  },
+  {
+   "u": "XK-X09~",
+   "v": "XK-X16~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13946
+  },
+  {
+   "u": "XK-X09~",
+   "v": "XK-X20~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9687
+  },
+  {
+   "u": "XK-X10~",
+   "v": "XK-X15~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9112
+  },
+  {
+   "u": "XK-X10~",
+   "v": "XK-X20~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20032
+  },
+  {
+   "u": "XK-X11~",
+   "v": "XK-X12~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19973
+  },
+  {
+   "u": "XK-X11~",
+   "v": "XK-X19~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16471
+  },
+  {
+   "u": "XK-X11~",
+   "v": "XK-X22~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8136
+  },
+  {
+   "u": "XK-X11~",
+   "v": "XK-X28~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29838
+  },
+  {
+   "u": "XK-X11~",
+   "v": "XK-X29~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10800
+  },
+  {
+   "u": "XK-X11~",
+   "v": "XK-X30~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17083
+  },
+  {
+   "u": "XK-X12~",
+   "v": "XK-X19~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5747
+  },
+  {
+   "u": "XK-X12~",
+   "v": "XK-X30~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18109
+  },
+  {
+   "u": "XK-X13~",
+   "v": "XK-X14~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2699
+  },
+  {
+   "u": "XK-X13~",
+   "v": "XK-X15~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3955
+  },
+  {
+   "u": "XK-X13~",
+   "v": "XK-X20~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27134
+  },
+  {
+   "u": "XK-X13~",
+   "v": "XK-X23~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18164
+  },
+  {
+   "u": "XK-X13~",
+   "v": "XK-X25~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4370,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://sq.wikipedia.org/wiki/Komuna_e_Therandës"
+    }
+   ]
+  },
+  {
+   "u": "XK-X13~",
+   "v": "XK-X26~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12718
+  },
+  {
+   "u": "XK-X14~",
+   "v": "XK-X17~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22916
+  },
+  {
+   "u": "XK-X14~",
+   "v": "XK-X25~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21904
+  },
+  {
+   "u": "XK-X15~",
+   "v": "XK-X20~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9768
+  },
+  {
+   "u": "XK-X16~",
+   "v": "XK-X19~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3668
+  },
+  {
+   "u": "XK-X16~",
+   "v": "XK-X20~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13273
+  },
+  {
+   "u": "XK-X16~",
+   "v": "XK-X28~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17394
+  },
+  {
+   "u": "XK-X17~",
+   "v": "XK-X21~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15612
+  },
+  {
+   "u": "XK-X17~",
+   "v": "XK-X25~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6044
+  },
+  {
+   "u": "XK-X19~",
+   "v": "XK-X20~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30644
+  },
+  {
+   "u": "XK-X19~",
+   "v": "XK-X28~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15246
+  },
+  {
+   "u": "XK-X21~",
+   "v": "XK-X24~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17620
+  },
+  {
+   "u": "XK-X21~",
+   "v": "XK-X25~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18993
+  },
+  {
+   "u": "XK-X22~",
+   "v": "XK-X28~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15778
+  },
+  {
+   "u": "XK-X22~",
+   "v": "XK-X29~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17175
+  },
+  {
+   "u": "XK-X23~",
+   "v": "XK-X25~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14110
+  },
+  {
+   "u": "XK-X23~",
+   "v": "XK-X26~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18777
+  },
+  {
+   "u": "XK-X24~",
+   "v": "XK-X25~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12928
+  },
+  {
+   "u": "XK-X24~",
+   "v": "XK-X26~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19009
+  },
+  {
+   "u": "XK-X25~",
+   "v": "XK-X26~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7404
+  },
+  {
+   "u": "XK-X26~",
+   "v": "XK-X27~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14003
+  },
+  {
+   "u": "XK-X29~",
+   "v": "XK-X30~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21796
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "XKX-ADM2-46174442",
+  "level": "ADM2",
+  "year": "2017",
+  "license": "Creative Commons Attribution-ShareAlike 2.0"
+ }
+}

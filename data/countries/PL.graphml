@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="PL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="PL-DS"><data key="name">Lower Silesian</data><data key="code">PL-DS</data><data key="wikidata">Q54150</data><data key="lon">16.34637</data><data key="lat">50.93157</data></node>
+    <node id="PL-KP"><data key="name">Kuyavian-Pomeranian</data><data key="code">PL-KP</data><data key="wikidata">Q54153</data><data key="lon">18.51183</data><data key="lat">53.00193</data></node>
+    <node id="PL-LB"><data key="name">Lubusz</data><data key="code">PL-LB</data><data key="wikidata">Q54157</data><data key="lon">15.29128</data><data key="lat">52.24469</data></node>
+    <node id="PL-LD"><data key="name">Łódź</data><data key="code">PL-LD</data><data key="wikidata">Q54158</data><data key="lon">19.39285</data><data key="lat">51.57392</data></node>
+    <node id="PL-LU"><data key="name">Lublin</data><data key="code">PL-LU</data><data key="wikidata">Q54155</data><data key="lon">22.74075</data><data key="lat">51.30215</data></node>
+    <node id="PL-MA"><data key="name">Lesser Poland</data><data key="code">PL-MA</data><data key="wikidata">Q54159</data><data key="lon">20.24131</data><data key="lat">49.83328</data></node>
+    <node id="PL-MZ"><data key="name">Masovian</data><data key="code">PL-MZ</data><data key="wikidata">Q54169</data><data key="lon">21.4941</data><data key="lat">52.23317</data></node>
+    <node id="PL-OP"><data key="name">Opole</data><data key="code">PL-OP</data><data key="wikidata">Q54171</data><data key="lon">17.80216</data><data key="lat">50.55786</data></node>
+    <node id="PL-PD"><data key="name">Podlachian</data><data key="code">PL-PD</data><data key="wikidata">Q54177</data><data key="lon">22.65923</data><data key="lat">53.35124</data></node>
+    <node id="PL-PK"><data key="name">Subcarpathian</data><data key="code">PL-PK</data><data key="wikidata">Q54175</data><data key="lon">22.15621</data><data key="lat">49.91485</data></node>
+    <node id="PL-PM"><data key="name">Pomeranian</data><data key="code">PL-PM</data><data key="wikidata">Q54180</data><data key="lon">18.06512</data><data key="lat">54.13737</data></node>
+    <node id="PL-SK"><data key="name">Świętokrzyskie</data><data key="code">PL-SK</data><data key="wikidata">Q54183</data><data key="lon">20.80021</data><data key="lat">50.73197</data></node>
+    <node id="PL-SL"><data key="name">Silesian</data><data key="code">PL-SL</data><data key="wikidata">Q54181</data><data key="lon">18.86272</data><data key="lat">50.21371</data></node>
+    <node id="PL-WN"><data key="name">Warmian-Masurian</data><data key="code">PL-WN</data><data key="wikidata">Q54184</data><data key="lon">20.99735</data><data key="lat">53.76354</data></node>
+    <node id="PL-WP"><data key="name">Greater Poland</data><data key="code">PL-WP</data><data key="wikidata">Q54187</data><data key="lon">17.3107</data><data key="lat">52.33872</data></node>
+    <node id="PL-ZP"><data key="name">West Pomeranian</data><data key="code">PL-ZP</data><data key="wikidata">Q54188</data><data key="lon">15.57022</data><data key="lat">53.58655</data></node>
+    <edge source="PL-DS" target="PL-LB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-DS" target="PL-OP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-DS" target="PL-WP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-KP" target="PL-LD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-KP" target="PL-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-KP" target="PL-PM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-KP" target="PL-WN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-KP" target="PL-WP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LB" target="PL-WP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LB" target="PL-ZP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LD" target="PL-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LD" target="PL-OP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LD" target="PL-SK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LD" target="PL-SL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LD" target="PL-WP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LU" target="PL-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LU" target="PL-PD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LU" target="PL-PK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-LU" target="PL-SK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-MA" target="PL-PK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-MA" target="PL-SK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-MA" target="PL-SL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-MZ" target="PL-PD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-MZ" target="PL-SK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-MZ" target="PL-WN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-OP" target="PL-SL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-OP" target="PL-WP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-PD" target="PL-WN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-PK" target="PL-SK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-PM" target="PL-WN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-PM" target="PL-WP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-PM" target="PL-ZP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-SK" target="PL-SL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PL-WP" target="PL-ZP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

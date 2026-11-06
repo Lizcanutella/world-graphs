@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="DZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="DZ-01"><data key="name">Adrar</data><data key="code">DZ-01</data><data key="wikidata">Q188166</data><data key="lon">-2.06117</data><data key="lat">25.36972</data></node>
+    <node id="DZ-02"><data key="name">Chlef</data><data key="code">DZ-02</data><data key="wikidata">Q231752</data><data key="lon">1.26375</data><data key="lat">36.19353</data></node>
+    <node id="DZ-03"><data key="name">Laghouat</data><data key="code">DZ-03</data><data key="wikidata">Q231748</data><data key="lon">2.65374</data><data key="lat">33.73343</data></node>
+    <node id="DZ-04"><data key="name">Oum el Bouaghi</data><data key="code">DZ-04</data><data key="wikidata">Q235705</data><data key="lon">7.17259</data><data key="lat">35.81987</data></node>
+    <node id="DZ-05"><data key="name">Batna</data><data key="code">DZ-05</data><data key="wikidata">Q215452</data><data key="lon">5.74169</data><data key="lat">35.33844</data></node>
+    <node id="DZ-06"><data key="name">Béjaïa</data><data key="code">DZ-06</data><data key="wikidata">Q233665</data><data key="lon">4.78918</data><data key="lat">36.55727</data></node>
+    <node id="DZ-07"><data key="name">Biskra</data><data key="code">DZ-07</data><data key="wikidata">Q458402</data><data key="lon">4.74148</data><data key="lat">34.43002</data></node>
+    <node id="DZ-08"><data key="name">Béchar</data><data key="code">DZ-08</data><data key="wikidata">Q215467</data><data key="lon">-2.28933</data><data key="lat">30.25704</data></node>
+    <node id="DZ-09"><data key="name">Blida</data><data key="code">DZ-09</data><data key="wikidata">Q233637</data><data key="lon">2.97987</data><data key="lat">36.52736</data></node>
+    <node id="DZ-10"><data key="name">Bouira</data><data key="code">DZ-10</data><data key="wikidata">Q233655</data><data key="lon">3.92276</data><data key="lat">36.26044</data></node>
+    <node id="DZ-11"><data key="name">Tamanghasset</data><data key="code">DZ-11</data><data key="wikidata">Q229467</data><data key="lon">4.95931</data><data key="lat">24.08657</data></node>
+    <node id="DZ-12"><data key="name">Tébessa</data><data key="code">DZ-12</data><data key="wikidata">Q267224</data><data key="lon">7.80243</data><data key="lat">35.04307</data></node>
+    <node id="DZ-13"><data key="name">Tlemcen</data><data key="code">DZ-13</data><data key="wikidata">Q233632</data><data key="lon">-1.27802</data><data key="lat">34.70715</data></node>
+    <node id="DZ-14"><data key="name">Tiaret</data><data key="code">DZ-14</data><data key="wikidata">Q233258</data><data key="lon">1.60261</data><data key="lat">34.90265</data></node>
+    <node id="DZ-15"><data key="name">Tizi Ouzou</data><data key="code">DZ-15</data><data key="wikidata">Q233645</data><data key="lon">4.27007</data><data key="lat">36.68916</data></node>
+    <node id="DZ-16"><data key="name">Alger</data><data key="code">DZ-16</data><data key="wikidata">Q141026</data><data key="lon">3.10981</data><data key="lat">36.7217</data></node>
+    <node id="DZ-17"><data key="name">Djelfa</data><data key="code">DZ-17</data><data key="wikidata">Q233233</data><data key="lon">3.24491</data><data key="lat">34.30792</data></node>
+    <node id="DZ-18"><data key="name">Jijel</data><data key="code">DZ-18</data><data key="wikidata">Q235718</data><data key="lon">5.96962</data><data key="lat">36.72577</data></node>
+    <node id="DZ-19"><data key="name">Sétif</data><data key="code">DZ-19</data><data key="wikidata">Q237164</data><data key="lon">5.5594</data><data key="lat">36.11283</data></node>
+    <node id="DZ-20"><data key="name">Saïda</data><data key="code">DZ-20</data><data key="wikidata">Q233640</data><data key="lon">0.38179</data><data key="lat">34.54241</data></node>
+    <node id="DZ-21"><data key="name">Skikda</data><data key="code">DZ-21</data><data key="wikidata">Q234227</data><data key="lon">6.869</data><data key="lat">36.7544</data></node>
+    <node id="DZ-22"><data key="name">Sidi Bel Abbès</data><data key="code">DZ-22</data><data key="wikidata">Q235714</data><data key="lon">-0.59384</data><data key="lat">34.82373</data></node>
+    <node id="DZ-23"><data key="name">Annaba</data><data key="code">DZ-23</data><data key="wikidata">Q213944</data><data key="lon">7.55444</data><data key="lat">36.84186</data></node>
+    <node id="DZ-24"><data key="name">Guelma</data><data key="code">DZ-24</data><data key="wikidata">Q235727</data><data key="lon">7.38999</data><data key="lat">36.38016</data></node>
+    <node id="DZ-25"><data key="name">Constantine</data><data key="code">DZ-25</data><data key="wikidata">Q232043</data><data key="lon">6.6591</data><data key="lat">36.35677</data></node>
+    <node id="DZ-26"><data key="name">Médéa</data><data key="code">DZ-26</data><data key="wikidata">Q235810</data><data key="lon">3.01125</data><data key="lat">35.97096</data></node>
+    <node id="DZ-27"><data key="name">Mostaganem</data><data key="code">DZ-27</data><data key="wikidata">Q221445</data><data key="lon">0.32678</data><data key="lat">36.00876</data></node>
+    <node id="DZ-28"><data key="name">M'Sila</data><data key="code">DZ-28</data><data key="wikidata">Q240870</data><data key="lon">4.22295</data><data key="lat">35.12755</data></node>
+    <node id="DZ-29"><data key="name">Mascara</data><data key="code">DZ-29</data><data key="wikidata">Q236776</data><data key="lon">0.19971</data><data key="lat">35.39966</data></node>
+    <node id="DZ-30"><data key="name">Ouargla</data><data key="code">DZ-30</data><data key="wikidata">Q235709</data><data key="lon">6.6447</data><data key="lat">30.94421</data></node>
+    <node id="DZ-31"><data key="name">Oran</data><data key="code">DZ-31</data><data key="wikidata">Q231331</data><data key="lon">-0.73464</data><data key="lat">35.592</data></node>
+    <node id="DZ-32"><data key="name">El Bayadh</data><data key="code">DZ-32</data><data key="wikidata">Q235703</data><data key="lon">1.10188</data><data key="lat">32.57889</data></node>
+    <node id="DZ-33"><data key="name">Illizi</data><data key="code">DZ-33</data><data key="wikidata">Q233659</data><data key="lon">7.8652</data><data key="lat">26.97285</data></node>
+    <node id="DZ-34"><data key="name">Bordj Bou Arréridj</data><data key="code">DZ-34</data><data key="wikidata">Q266411</data><data key="lon">4.66998</data><data key="lat">36.09511</data></node>
+    <node id="DZ-35"><data key="name">Boumerdès</data><data key="code">DZ-35</data><data key="wikidata">Q236752</data><data key="lon">3.56965</data><data key="lat">36.75564</data></node>
+    <node id="DZ-36"><data key="name">El Tarf</data><data key="code">DZ-36</data><data key="wikidata">Q236788</data><data key="lon">8.04756</data><data key="lat">36.67445</data></node>
+    <node id="DZ-37"><data key="name">Tindouf</data><data key="code">DZ-37</data><data key="wikidata">Q231151</data><data key="lon">-5.91861</data><data key="lat">27.52044</data></node>
+    <node id="DZ-38"><data key="name">Tissemsilt</data><data key="code">DZ-38</data><data key="wikidata">Q235805</data><data key="lon">1.80597</data><data key="lat">35.77266</data></node>
+    <node id="DZ-39"><data key="name">El Oued</data><data key="code">DZ-39</data><data key="wikidata">Q233651</data><data key="lon">7.06488</data><data key="lat">33.25478</data></node>
+    <node id="DZ-40"><data key="name">Khenchela</data><data key="code">DZ-40</data><data key="wikidata">Q213950</data><data key="lon">6.90641</data><data key="lat">34.92136</data></node>
+    <node id="DZ-41"><data key="name">Souk Ahras</data><data key="code">DZ-41</data><data key="wikidata">Q236772</data><data key="lon">7.84904</data><data key="lat">36.1549</data></node>
+    <node id="DZ-42"><data key="name">Tipaza</data><data key="code">DZ-42</data><data key="wikidata">Q235814</data><data key="lon">2.29562</data><data key="lat">36.59292</data></node>
+    <node id="DZ-43"><data key="name">Mila</data><data key="code">DZ-43</data><data key="wikidata">Q235723</data><data key="lon">6.17146</data><data key="lat">36.26461</data></node>
+    <node id="DZ-44"><data key="name">Aïn Defla</data><data key="code">DZ-44</data><data key="wikidata">Q168953</data><data key="lon">2.09399</data><data key="lat">36.14907</data></node>
+    <node id="DZ-45"><data key="name">Naâma</data><data key="code">DZ-45</data><data key="wikidata">Q233675</data><data key="lon">-0.80645</data><data key="lat">33.21729</data></node>
+    <node id="DZ-46"><data key="name">Aïn Témouchent</data><data key="code">DZ-46</data><data key="wikidata">Q233670</data><data key="lon">-0.97958</data><data key="lat">35.35815</data></node>
+    <node id="DZ-47"><data key="name">Ghardaïa</data><data key="code">DZ-47</data><data key="wikidata">Q17601</data><data key="lon">3.03663</data><data key="lat">31.20661</data></node>
+    <node id="DZ-48"><data key="name">Relizane</data><data key="code">DZ-48</data><data key="wikidata">Q236758</data><data key="lon">0.91675</data><data key="lat">35.82222</data></node>
+    <edge source="DZ-01" target="DZ-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-01" target="DZ-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-01" target="DZ-32"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-01" target="DZ-37"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-01" target="DZ-47"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-02" target="DZ-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-02" target="DZ-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-02" target="DZ-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-02" target="DZ-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-02" target="DZ-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-03" target="DZ-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-03" target="DZ-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-03" target="DZ-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-03" target="DZ-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-04" target="DZ-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-04" target="DZ-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-04" target="DZ-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-04" target="DZ-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-04" target="DZ-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-04" target="DZ-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-04" target="DZ-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-05" target="DZ-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-05" target="DZ-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-05" target="DZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-05" target="DZ-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-05" target="DZ-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-06" target="DZ-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-06" target="DZ-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-06" target="DZ-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-06" target="DZ-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-06" target="DZ-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-07" target="DZ-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-07" target="DZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-07" target="DZ-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-07" target="DZ-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-08" target="DZ-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-08" target="DZ-37"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-08" target="DZ-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-09" target="DZ-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-09" target="DZ-16"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-09" target="DZ-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-09" target="DZ-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-09" target="DZ-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-09" target="DZ-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-10" target="DZ-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-10" target="DZ-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-10" target="DZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-10" target="DZ-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-10" target="DZ-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-11" target="DZ-30"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-11" target="DZ-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-11" target="DZ-47"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-12" target="DZ-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-12" target="DZ-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-12" target="DZ-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-13" target="DZ-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-13" target="DZ-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-13" target="DZ-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-14" target="DZ-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-14" target="DZ-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-14" target="DZ-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-14" target="DZ-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-14" target="DZ-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-14" target="DZ-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-15" target="DZ-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-16" target="DZ-35"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-16" target="DZ-42"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-17" target="DZ-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-17" target="DZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-17" target="DZ-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-17" target="DZ-38"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-17" target="DZ-39"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-17" target="DZ-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-18" target="DZ-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-18" target="DZ-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-18" target="DZ-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-19" target="DZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-19" target="DZ-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-19" target="DZ-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-20" target="DZ-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-20" target="DZ-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-20" target="DZ-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-20" target="DZ-45"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-21" target="DZ-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-21" target="DZ-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-21" target="DZ-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-21" target="DZ-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-22" target="DZ-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-22" target="DZ-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-22" target="DZ-32"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-22" target="DZ-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-22" target="DZ-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-23" target="DZ-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-23" target="DZ-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-24" target="DZ-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-24" target="DZ-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-24" target="DZ-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-25" target="DZ-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-26" target="DZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-26" target="DZ-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-26" target="DZ-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-27" target="DZ-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-27" target="DZ-31"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-27" target="DZ-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-28" target="DZ-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-29" target="DZ-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-29" target="DZ-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-30" target="DZ-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-30" target="DZ-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-30" target="DZ-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-31" target="DZ-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-32" target="DZ-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-32" target="DZ-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-36" target="DZ-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-38" target="DZ-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-38" target="DZ-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-39" target="DZ-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DZ-42" target="DZ-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

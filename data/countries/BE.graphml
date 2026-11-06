@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BE-BRU"><data key="name">Brussels</data><data key="code">BE-BRU</data><data key="wikidata">Q240</data><data key="lon">4.37451</data><data key="lat">50.84642</data></node>
+    <node id="BE-VAN"><data key="name">Antwerp</data><data key="code">BE-VAN</data><data key="wikidata">Q1116</data><data key="lon">4.76166</data><data key="lat">51.23279</data></node>
+    <node id="BE-VBR"><data key="name">Flemish Brabant</data><data key="code">BE-VBR</data><data key="wikidata">Q1118</data><data key="lon">4.78687</data><data key="lat">50.87247</data></node>
+    <node id="BE-VLI"><data key="name">Limburg</data><data key="code">BE-VLI</data><data key="wikidata">Q1095</data><data key="lon">5.42921</data><data key="lat">50.99345</data></node>
+    <node id="BE-VOV"><data key="name">East Flanders</data><data key="code">BE-VOV</data><data key="wikidata">Q1114</data><data key="lon">3.81561</data><data key="lat">51.04696</data></node>
+    <node id="BE-VWV"><data key="name">West Flanders</data><data key="code">BE-VWV</data><data key="wikidata">Q1113</data><data key="lon">2.9879</data><data key="lat">51.02997</data></node>
+    <node id="BE-WBR"><data key="name">Walloon Brabant</data><data key="code">BE-WBR</data><data key="wikidata">Q1122</data><data key="lon">4.54598</data><data key="lat">50.67838</data></node>
+    <node id="BE-WHT"><data key="name">Hainaut</data><data key="code">BE-WHT</data><data key="wikidata">Q1129</data><data key="lon">4.11837</data><data key="lat">50.35424</data></node>
+    <node id="BE-WLG"><data key="name">Liege</data><data key="code">BE-WLG</data><data key="wikidata">Q1127</data><data key="lon">5.77259</data><data key="lat">50.46085</data></node>
+    <node id="BE-WLX"><data key="name">Luxembourg</data><data key="code">BE-WLX</data><data key="wikidata">Q1126</data><data key="lon">5.44866</data><data key="lat">49.96269</data></node>
+    <node id="BE-WNA"><data key="name">Namur</data><data key="code">BE-WNA</data><data key="wikidata">Q1125</data><data key="lon">4.80892</data><data key="lat">50.21305</data></node>
+    <edge source="BE-BRU" target="BE-VBR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VAN" target="BE-VBR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VAN" target="BE-VLI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VAN" target="BE-VOV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VBR" target="BE-VLI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VBR" target="BE-VOV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VBR" target="BE-WBR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VBR" target="BE-WHT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VBR" target="BE-WLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VLI" target="BE-WLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VOV" target="BE-VWV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VOV" target="BE-WHT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-VWV" target="BE-WHT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-WBR" target="BE-WHT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-WBR" target="BE-WLG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-WBR" target="BE-WNA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-WHT" target="BE-WNA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-WLG" target="BE-WLX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-WLG" target="BE-WNA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BE-WLX" target="BE-WNA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

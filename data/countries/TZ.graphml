@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TZ-01"><data key="name">Arusha</data><data key="code">TZ-01</data><data key="wikidata">Q329261</data><data key="lon">36.09266</data><data key="lat">-2.91564</data></node>
+    <node id="TZ-02"><data key="name">Dar-Es-Salaam</data><data key="code">TZ-02</data><data key="wikidata">Q557539</data><data key="lon">39.28322</data><data key="lat">-6.87412</data></node>
+    <node id="TZ-03"><data key="name">Dodoma</data><data key="code">TZ-03</data><data key="wikidata">Q213268</data><data key="lon">35.93708</data><data key="lat">-5.7727</data></node>
+    <node id="TZ-04"><data key="name">Iringa</data><data key="code">TZ-04</data><data key="wikidata">Q309352</data><data key="lon">35.68832</data><data key="lat">-7.96083</data></node>
+    <node id="TZ-05"><data key="name">Kagera</data><data key="code">TZ-05</data><data key="wikidata">Q309190</data><data key="lon">31.21948</data><data key="lat">-1.9889</data></node>
+    <node id="TZ-06"><data key="name">Kaskazini-Pemba</data><data key="code">TZ-06</data><data key="wikidata">Q498073</data><data key="lon">39.7665</data><data key="lat">-5.05055</data></node>
+    <node id="TZ-07"><data key="name">Kaskazini-Unguja</data><data key="code">TZ-07</data><data key="wikidata">Q147116</data><data key="lon">39.30396</data><data key="lat">-5.87107</data></node>
+    <node id="TZ-08"><data key="name">Kigoma</data><data key="code">TZ-08</data><data key="wikidata">Q747943</data><data key="lon">30.50735</data><data key="lat">-4.70312</data></node>
+    <node id="TZ-09"><data key="name">Kilimanjaro</data><data key="code">TZ-09</data><data key="wikidata">Q328922</data><data key="lon">37.65815</data><data key="lat">-3.73822</data></node>
+    <node id="TZ-10"><data key="name">Kusini-Pemba</data><data key="code">TZ-10</data><data key="wikidata">Q498067</data><data key="lon">39.75373</data><data key="lat">-5.31544</data></node>
+    <node id="TZ-11"><data key="name">Zanzibar South and Central</data><data key="code">TZ-11</data><data key="wikidata">Q643120</data><data key="lon">39.4187</data><data key="lat">-6.22941</data></node>
+    <node id="TZ-12"><data key="name">Lindi</data><data key="code">TZ-12</data><data key="wikidata">Q309339</data><data key="lon">38.41923</data><data key="lat">-9.37705</data></node>
+    <node id="TZ-13"><data key="name">Mara</data><data key="code">TZ-13</data><data key="wikidata">Q458406</data><data key="lon">34.44235</data><data key="lat">-1.77343</data></node>
+    <node id="TZ-14"><data key="name">Mbeya</data><data key="code">TZ-14</data><data key="wikidata">Q458382</data><data key="lon">33.74519</data><data key="lat">-8.28776</data></node>
+    <node id="TZ-15"><data key="name">Zanzibar West</data><data key="code">TZ-15</data><data key="wikidata">Q180822</data><data key="lon">39.22852</data><data key="lat">-6.16688</data></node>
+    <node id="TZ-16"><data key="name">Morogoro</data><data key="code">TZ-16</data><data key="wikidata">Q458388</data><data key="lon">37.30726</data><data key="lat">-7.88345</data></node>
+    <node id="TZ-17"><data key="name">Mtwara</data><data key="code">TZ-17</data><data key="wikidata">Q499465</data><data key="lon">39.15774</data><data key="lat">-10.74797</data></node>
+    <node id="TZ-18"><data key="name">Mwanza</data><data key="code">TZ-18</data><data key="wikidata">Q331153</data><data key="lon">33.26021</data><data key="lat">-2.84904</data></node>
+    <node id="TZ-19"><data key="name">Pwani</data><data key="code">TZ-19</data><data key="wikidata">Q458412</data><data key="lon">38.93254</data><data key="lat">-7.17532</data></node>
+    <node id="TZ-20"><data key="name">Rukwa</data><data key="code">TZ-20</data><data key="wikidata">Q153329</data><data key="lon">31.41685</data><data key="lat">-7.99069</data></node>
+    <node id="TZ-21"><data key="name">Ruvuma</data><data key="code">TZ-21</data><data key="wikidata">Q115318</data><data key="lon">36.26817</data><data key="lat">-10.4436</data></node>
+    <node id="TZ-22"><data key="name">Shinyanga</data><data key="code">TZ-22</data><data key="wikidata">Q153339</data><data key="lon">33.02276</data><data key="lat">-3.779</data></node>
+    <node id="TZ-23"><data key="name">Singida</data><data key="code">TZ-23</data><data key="wikidata">Q153326</data><data key="lon">34.71178</data><data key="lat">-5.65653</data></node>
+    <node id="TZ-24"><data key="name">Tabora</data><data key="code">TZ-24</data><data key="wikidata">Q153335</data><data key="lon">32.62341</data><data key="lat">-5.48832</data></node>
+    <node id="TZ-25"><data key="name">Tanga</data><data key="code">TZ-25</data><data key="wikidata">Q389737</data><data key="lon">38.28997</data><data key="lat">-5.11981</data></node>
+    <node id="TZ-26"><data key="name">Manyara</data><data key="code">TZ-26</data><data key="wikidata">Q331117</data><data key="lon">37.16582</data><data key="lat">-4.73731</data></node>
+    <node id="TZ-27"><data key="name">Geita</data><data key="code">TZ-27</data><data key="wikidata">Q1848521</data><data key="lon">31.6408</data><data key="lat">-3.3052</data></node>
+    <node id="TZ-28"><data key="name">Katavi</data><data key="code">TZ-28</data><data key="wikidata">Q2682731</data><data key="lon">31.5095</data><data key="lat">-6.47516</data></node>
+    <node id="TZ-29"><data key="name">Njombe</data><data key="code">TZ-29</data><data key="wikidata">Q2086273</data><data key="lon">34.76776</data><data key="lat">-9.57275</data></node>
+    <node id="TZ-30"><data key="name">Simiyu</data><data key="code">TZ-30</data><data key="wikidata">Q2787568</data><data key="lon">34.20283</data><data key="lat">-3.05658</data></node>
+    <edge source="TZ-01" target="TZ-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-01" target="TZ-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-01" target="TZ-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-01" target="TZ-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-01" target="TZ-30"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-02" target="TZ-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-03" target="TZ-04"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-03" target="TZ-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-03" target="TZ-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-03" target="TZ-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-04" target="TZ-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-04" target="TZ-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-04" target="TZ-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-04" target="TZ-29"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-05" target="TZ-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-05" target="TZ-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-06" target="TZ-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-07" target="TZ-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-07" target="TZ-15"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-08" target="TZ-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-08" target="TZ-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-08" target="TZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-09" target="TZ-25"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-09" target="TZ-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-11" target="TZ-15"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-12" target="TZ-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-12" target="TZ-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-12" target="TZ-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-12" target="TZ-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-13" target="TZ-30"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-14" target="TZ-20"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-14" target="TZ-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-14" target="TZ-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-14" target="TZ-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-14" target="TZ-29"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-16" target="TZ-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-16" target="TZ-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-16" target="TZ-25"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-16" target="TZ-26"><data key="sources">natural_earth</data><data key="rule">review</data><data key="corroborated">false</data></edge>
+    <edge source="TZ-16" target="TZ-29"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-17" target="TZ-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-18" target="TZ-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-18" target="TZ-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-18" target="TZ-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-19" target="TZ-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-20" target="TZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-21" target="TZ-29"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-22" target="TZ-23"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-22" target="TZ-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-22" target="TZ-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-22" target="TZ-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-23" target="TZ-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-23" target="TZ-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-23" target="TZ-30"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-24" target="TZ-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-24" target="TZ-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TZ-25" target="TZ-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

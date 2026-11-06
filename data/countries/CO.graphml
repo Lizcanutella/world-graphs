@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CO" edgedefault="undirected">
+    <data key="verified">true</data>
+    <node id="CO-AMA"><data key="name">Amazonas</data><data key="code">CO-AMA</data><data key="wikidata">Q44724</data><data key="lon">-71.342</data><data key="lat">-2.05031</data></node>
+    <node id="CO-ANT"><data key="name">Antioquia</data><data key="code">CO-ANT</data><data key="wikidata">Q123304</data><data key="lon">-75.44851</data><data key="lat">7.14865</data></node>
+    <node id="CO-ARA"><data key="name">Arauca</data><data key="code">CO-ARA</data><data key="wikidata">Q230223</data><data key="lon">-70.9666</data><data key="lat">6.58857</data></node>
+    <node id="CO-ATL"><data key="name">Atlántico</data><data key="code">CO-ATL</data><data key="wikidata">Q230882</data><data key="lon">-74.99582</data><data key="lat">10.67684</data></node>
+    <node id="CO-BOL"><data key="name">Bolívar</data><data key="code">CO-BOL</data><data key="wikidata">Q230597</data><data key="lon">-74.22511</data><data key="lat">8.87725</data></node>
+    <node id="CO-BOY"><data key="name">Boyacá</data><data key="code">CO-BOY</data><data key="wikidata">Q121233</data><data key="lon">-72.89832</data><data key="lat">5.85044</data></node>
+    <node id="CO-CAL"><data key="name">Caldas</data><data key="code">CO-CAL</data><data key="wikidata">Q230607</data><data key="lon">-75.33713</data><data key="lat">5.28959</data></node>
+    <node id="CO-CAQ"><data key="name">Caquetá</data><data key="code">CO-CAQ</data><data key="wikidata">Q13985</data><data key="lon">-74.75946</data><data key="lat">1.13394</data></node>
+    <node id="CO-CAS"><data key="name">Casanare</data><data key="code">CO-CAS</data><data key="wikidata">Q13984</data><data key="lon">-71.66236</data><data key="lat">5.32549</data></node>
+    <node id="CO-CAU"><data key="name">Cauca</data><data key="code">CO-CAU</data><data key="wikidata">Q230602</data><data key="lon">-76.86123</data><data key="lat">2.14535</data></node>
+    <node id="CO-CES"><data key="name">Cesar</data><data key="code">CO-CES</data><data key="wikidata">Q234916</data><data key="lon">-73.63545</data><data key="lat">9.26782</data></node>
+    <node id="CO-CHO"><data key="name">Chocó</data><data key="code">CO-CHO</data><data key="wikidata">Q230584</data><data key="lon">-77.0878</data><data key="lat">6.33653</data></node>
+    <node id="CO-COR"><data key="name">Córdoba</data><data key="code">CO-COR</data><data key="wikidata">Q234912</data><data key="lon">-75.70419</data><data key="lat">8.40605</data></node>
+    <node id="CO-CUN"><data key="name">Cundinamarca</data><data key="code">CO-CUN</data><data key="wikidata">Q232564</data><data key="lon">-73.6691</data><data key="lat">4.76706</data></node>
+    <node id="CO-DC"><data key="name">Bogota</data><data key="code">CO-DC</data><data key="wikidata">Q2841</data><data key="lon">-74.18414</data><data key="lat">4.25243</data></node>
+    <node id="CO-GUA"><data key="name">Guainía</data><data key="code">CO-GUA</data><data key="wikidata">Q238645</data><data key="lon">-69.17359</data><data key="lat">2.60679</data></node>
+    <node id="CO-GUV"><data key="name">Guaviare</data><data key="code">CO-GUV</data><data key="wikidata">Q272885</data><data key="lon">-72.38952</data><data key="lat">1.77798</data></node>
+    <node id="CO-HUI"><data key="name">Huila</data><data key="code">CO-HUI</data><data key="wikidata">Q234920</data><data key="lon">-75.39031</data><data key="lat">2.66245</data></node>
+    <node id="CO-LAG"><data key="name">La Guajira</data><data key="code">CO-LAG</data><data key="wikidata">Q272747</data><data key="lon">-72.6204</data><data key="lat">11.43297</data></node>
+    <node id="CO-MAG"><data key="name">Magdalena</data><data key="code">CO-MAG</data><data key="wikidata">Q199910</data><data key="lon">-74.49205</data><data key="lat">10.12407</data></node>
+    <node id="CO-MET"><data key="name">Meta</data><data key="code">CO-MET</data><data key="wikidata">Q238629</data><data key="lon">-72.85525</data><data key="lat">3.27612</data></node>
+    <node id="CO-NAR"><data key="name">Nariño</data><data key="code">CO-NAR</data><data key="wikidata">Q230217</data><data key="lon">-77.89042</data><data key="lat">1.49657</data></node>
+    <node id="CO-NSA"><data key="name">Norte de Santander</data><data key="code">CO-NSA</data><data key="wikidata">Q233058</data><data key="lon">-72.85969</data><data key="lat">8.09429</data></node>
+    <node id="CO-PUT"><data key="name">Putumayo</data><data key="code">CO-PUT</data><data key="wikidata">Q232953</data><data key="lon">-75.62946</data><data key="lat">0.43922</data></node>
+    <node id="CO-QUI"><data key="name">Quindío</data><data key="code">CO-QUI</data><data key="wikidata">Q13995</data><data key="lon">-75.70782</data><data key="lat">4.40641</data></node>
+    <node id="CO-RIS"><data key="name">Risaralda</data><data key="code">CO-RIS</data><data key="wikidata">Q13993</data><data key="lon">-75.98894</data><data key="lat">5.12331</data></node>
+    <node id="CO-SAN"><data key="name">Santander</data><data key="code">CO-SAN</data><data key="wikidata">Q235166</data><data key="lon">-73.27394</data><data key="lat">6.93804</data></node>
+    <node id="CO-SAP"><data key="name">San Andrés y Providencia</data><data key="code">CO-SAP</data><data key="wikidata">Q26855</data><data key="lon">-81.36632</data><data key="lat">13.34508</data></node>
+    <node id="CO-SUC"><data key="name">Sucre</data><data key="code">CO-SUC</data><data key="wikidata">Q235188</data><data key="lon">-75.18402</data><data key="lat">9.20674</data></node>
+    <node id="CO-TOL"><data key="name">Tolima</data><data key="code">CO-TOL</data><data key="wikidata">Q234501</data><data key="lon">-75.11484</data><data key="lat">4.10316</data></node>
+    <node id="CO-VAC"><data key="name">Valle del Cauca</data><data key="code">CO-VAC</data><data key="wikidata">Q13990</data><data key="lon">-76.16359</data><data key="lat">4.06529</data></node>
+    <node id="CO-VAU"><data key="name">Vaupés</data><data key="code">CO-VAU</data><data key="wikidata">Q234505</data><data key="lon">-70.9586</data><data key="lat">0.43114</data></node>
+    <node id="CO-VID"><data key="name">Vichada</data><data key="code">CO-VID</data><data key="wikidata">Q268729</data><data key="lon">-69.46582</data><data key="lat">4.54984</data></node>
+    <edge source="CO-AMA" target="CO-CAQ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-AMA" target="CO-PUT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-AMA" target="CO-VAU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ANT" target="CO-BOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ANT" target="CO-BOY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ANT" target="CO-CAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ANT" target="CO-CHO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ANT" target="CO-COR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ANT" target="CO-RIS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ANT" target="CO-SAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ARA" target="CO-BOY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ARA" target="CO-CAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ARA" target="CO-VID"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ATL" target="CO-BOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-ATL" target="CO-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOL" target="CO-CES"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOL" target="CO-COR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOL" target="CO-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOL" target="CO-SAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOL" target="CO-SUC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOY" target="CO-CAL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOY" target="CO-CAS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOY" target="CO-CUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOY" target="CO-MET"><data key="sources">hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOY" target="CO-NSA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-BOY" target="CO-SAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAL" target="CO-CUN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAL" target="CO-RIS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAL" target="CO-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAQ" target="CO-CAU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAQ" target="CO-GUV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAQ" target="CO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAQ" target="CO-MET"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAQ" target="CO-PUT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAQ" target="CO-VAU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAS" target="CO-MET"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAS" target="CO-VID"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAU" target="CO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAU" target="CO-NAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAU" target="CO-PUT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAU" target="CO-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CAU" target="CO-VAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CES" target="CO-LAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CES" target="CO-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CES" target="CO-NSA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CES" target="CO-SAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CHO" target="CO-RIS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CHO" target="CO-VAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-COR" target="CO-SUC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CUN" target="CO-DC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CUN" target="CO-HUI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CUN" target="CO-MET"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-CUN" target="CO-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-DC" target="CO-HUI"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="CO-DC" target="CO-MET"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-GUA" target="CO-GUV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-GUA" target="CO-VAU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-GUA" target="CO-VID"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-GUV" target="CO-MET"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-GUV" target="CO-VAU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-GUV" target="CO-VID"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-HUI" target="CO-MET"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-HUI" target="CO-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-LAG" target="CO-MAG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-MET" target="CO-VID"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-NAR" target="CO-PUT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-NSA" target="CO-SAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-QUI" target="CO-RIS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-QUI" target="CO-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-QUI" target="CO-VAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-RIS" target="CO-TOL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-RIS" target="CO-VAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CO-TOL" target="CO-VAC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

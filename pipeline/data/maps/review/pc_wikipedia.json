@@ -1,0 +1,3254 @@
+[
+{
+"iso": "AD",
+"u": "AD-02",
+"v": "AD-04",
+"lu": "Canillo",
+"lv": "La Massana",
+"qu": "Q24260",
+"qv": "Q24276",
+"lon": 1.55561,
+"lat": 42.56265,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "AD",
+"u": "AD-03",
+"v": "AD-07",
+"lu": "Encamp",
+"lv": "Andorra la Vella",
+"qu": "Q24269",
+"qv": "Q2522163",
+"lon": 1.55635,
+"lat": 42.53811,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "AD",
+"u": "AD-03",
+"v": "AD-05",
+"lu": "Encamp",
+"lv": "Ordino",
+"qu": "Q24269",
+"qv": "Q24272",
+"lon": 1.55561,
+"lat": 42.56265,
+"p47": true,
+"meeting": [],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Ordino",
+"name": "encamp",
+"quote": "The parish has borders with France ([[Occitania]]) and also with the parishes of [[La Massana]], [[Canillo]], and [[Encamp]]."
+}
+]
+},
+{
+"iso": "AI",
+"u": "AI-X03~",
+"v": "AI-X05~",
+"lu": "George Hill",
+"lv": "North Hill",
+"qu": null,
+"qv": null,
+"lon": -63.06131,
+"lat": 18.21915,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "AI",
+"u": "AI-X05~",
+"v": "AI-X12~",
+"lu": "North Hill",
+"lv": "The Quarter",
+"qu": null,
+"qv": null,
+"lon": -63.04697,
+"lat": 18.22672,
+"p47": false,
+"meeting": [
+"AI-X05~",
+"AI-X11~",
+"AI-X12~",
+"AI-X13~"
+],
+"wp": []
+},
+{
+"iso": "AI",
+"u": "AI-X09~",
+"v": "AI-X11~",
+"lu": "South Hill",
+"lv": "The Farrington",
+"qu": null,
+"qv": null,
+"lon": -63.06131,
+"lat": 18.21915,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "AI",
+"u": "AI-X11~",
+"v": "AI-X13~",
+"lu": "The Farrington",
+"lv": "The Valley",
+"qu": null,
+"qv": null,
+"lon": -63.04697,
+"lat": 18.22672,
+"p47": false,
+"meeting": [
+"AI-X05~",
+"AI-X11~",
+"AI-X12~",
+"AI-X13~"
+],
+"wp": []
+},
+{
+"iso": "AR",
+"u": "AR-M",
+"v": "AR-R",
+"lu": "Mendoza",
+"lv": "Río Negro",
+"qu": "Q44797",
+"qv": "Q44802",
+"lon": -68.24939,
+"lat": -37.55704,
+"p47": false,
+"meeting": [
+"AR-M",
+"AR-R"
+],
+"wp": [
+{
+"url": "https://es.wikipedia.org/wiki/Provincia_de_Mendoza",
+"name": "rio negro",
+"quote": "Los límites de las provincias de La Pampa, [[Provincia de Río Negro|Río Negro]], Mendoza y [[Provincia de Neuquén|Neuquén]], se encuentran en un punto, en la intersección del río Colorado con el meridiano 68°15′O (o [[meridiano X]])."
+},
+{
+"url": "https://en.wikipedia.org/wiki/R%C3%ADo_Negro_Province",
+"name": "mendoza",
+"quote": "'''Río Negro''' ({{IPA|es|ˈri.o ˈneɣɾo}}, ''Black River'') is a [[Provinces of Argentina|province]] of [[Argentina]], located in northern [[Patagonia]].<ref>{{Cite web |title=Constitución Nacional y Constitución Provincial |url=https://web.legisrn.gov.ar/institucional/pagina/constitucion-de-la-provi"
+},
+{
+"url": "https://es.wikipedia.org/wiki/Provincia_de_R%C3%ADo_Negro",
+"name": "mendoza",
+"quote": "Los límites de las provincias de La Pampa, Río Negro, [[Provincia de Mendoza|Mendoza]] y Neuquén, se encuentran en un [[cuatrifinio]]."
+}
+]
+},
+{
+"iso": "AZ",
+"u": "AZ-BIL",
+"v": "AZ-NEF",
+"lu": "Biləsuvar",
+"lv": "Neftçala",
+"qu": "Q330834",
+"qv": "Q688633",
+"lon": 48.76377,
+"lat": 39.40884,
+"p47": false,
+"meeting": [
+"AZ-BIL",
+"AZ-CAL",
+"AZ-NEF",
+"AZ-SAL"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Bilasuvar_District",
+"name": "neftchala",
+"quote": "The district borders the districts of [[Imishli District|Imishli]], [[Saatly District|Saatly]], [[Sabirabad District|Sabirabad]], [[Salyan District (Azerbaijan)|Salyan]], [[Neftchala District|Neftchala]], [[Jalilabad District (Azerbaijan)|Jalilabad]], and [[Ardabil Province]] of [[Iran]]."
+},
+{
+"url": "https://en.wikipedia.org/wiki/Neftchala_District",
+"name": "bilasuvar",
+"quote": "The district borders [[Jalilabad District (Azerbaijan)|Jalilabad]] and [[Bilasuvar District|Bilasuvar]] Districts to the west, [[Salyan District (Azerbaijan)|Salyan District]] to the north, [[Lankaran District|Lankaran]] and [[Masally District|Masally]] Districts to the south, and [[Caspian Sea]] to"
+}
+]
+},
+{
+"iso": "AZ",
+"u": "AZ-CAL",
+"v": "AZ-SAL",
+"lu": "Cəlilabad",
+"lv": "Salyan",
+"qu": "Q372795",
+"qv": "Q457485",
+"lon": 48.76377,
+"lat": 39.40884,
+"p47": false,
+"meeting": [
+"AZ-BIL",
+"AZ-CAL",
+"AZ-NEF",
+"AZ-SAL"
+],
+"wp": []
+},
+{
+"iso": "AZ",
+"u": "AZ-GOR",
+"v": "AZ-QAX",
+"lu": "Goranboy",
+"lv": "Qax",
+"qu": "Q330843",
+"qv": "Q330796",
+"lon": 46.75971,
+"lat": 40.96598,
+"p47": false,
+"meeting": [
+"AZ-GOR",
+"AZ-QAX",
+"AZ-SMX",
+"AZ-YEV:Yevlakh Rayon"
+],
+"wp": []
+},
+{
+"iso": "AZ",
+"u": "AZ-SMX",
+"v": "AZ-YEV:Yevlakh Rayon",
+"lu": "Samux",
+"lv": "Yevlakh Rayon",
+"qu": "Q498437",
+"qv": "Q458524",
+"lon": 46.75971,
+"lat": 40.96598,
+"p47": false,
+"meeting": [
+"AZ-GOR",
+"AZ-QAX",
+"AZ-SMX",
+"AZ-YEV:Yevlakh Rayon"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Samukh_District",
+"name": "yevlakh",
+"quote": "The district borders the districts of [[Goranboy District|Goranboy]], [[Goygol District|Goygol]], [[Shamkir District|Shamkir]], [[Tovuz District|Tovuz]], [[Qakh District|Qakh]], [[Yevlakh District|Yevlakh]], city of [[Ganja, Azerbaijan|Ganja]] and the [[Kakheti]] region of [[Georgia (country)|Georgi"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Yevlakh_District",
+"name": "samukh",
+"quote": "The district borders the districts of [[Qakh District|Qakh]], [[Shaki District|Shaki]], [[Agdash District|Agdash]], [[Barda District|Barda]], [[Tartar District|Tartar]], [[Goranboy District|Goranboy]], and [[Samukh District|Samukh]]."
+}
+]
+},
+{
+"iso": "BH",
+"u": "BH-13",
+"v": "BH-16",
+"lu": "Al Manāmah",
+"lv": "Al Wusţá",
+"qu": "Q528953",
+"qv": "Q856539",
+"lon": 50.55161,
+"lat": 26.19424,
+"p47": false,
+"meeting": [
+"BH-13",
+"BH-16"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Capital_Governorate%2C_Bahrain",
+"name": "central",
+"quote": "In addition to this, the borders of the existing constituencies changed, which altered the demographics of the voters within them.<ref>{{cite web |title=Implications of redrawn constituency borders in Bahrain |url=https://www.citizensforbahrain.com/2014/10/02/implications-of-redrawn-constituency-bor"
+}
+]
+},
+{
+"iso": "BM",
+"u": "BM-PAG",
+"v": "BM-PEM",
+"lu": "Paget",
+"lv": "Pembroke",
+"qu": "Q2046204",
+"qv": "Q1756036",
+"lon": -64.77902,
+"lat": 32.2911,
+"p47": false,
+"meeting": [
+"BM-PAG",
+"BM-PEM"
+],
+"wp": []
+},
+{
+"iso": "BR",
+"u": "BR-DF",
+"v": "BR-MG",
+"lu": "Distrito Federal",
+"lv": "Minas Gerais",
+"qu": "Q119158",
+"qv": "Q39109",
+"lon": -47.30248,
+"lat": -16.04005,
+"p47": true,
+"meeting": [
+"BR-DF",
+"BR-MG"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Federal_District_%28Brazil%29",
+"name": "minas gerais",
+"quote": "The Federal District shares a small border with [[Minas Gerais]] and is otherwise surrounded by the state of [[Goiás]]."
+},
+{
+"url": "https://en.wikipedia.org/wiki/Minas_Gerais",
+"name": "federal",
+"quote": "Located in the [[Southeast Region, Brazil|Southeast Region]] of the country, it is bordered by [[São Paulo (state)|São Paulo]] in the south and southwest; [[Mato Grosso do Sul]] to the west; [[Goiás]] and the [[Federal District (Brazil)|Federal District]] to the northwest; [[Bahia]] to the north and"
+},
+{
+"url": "https://pt.wikipedia.org/wiki/Minas_Gerais",
+"name": "federal",
+"quote": "'''Minas Gerais''' é uma das 27 [[Unidades federativas do Brasil|unidades federativas]] do [[Brasil]], sendo o [[Lista de unidades federativas do Brasil por área|quarto estado]] com a maior [[Território|área territorial]] e [[Lista de unidades federativas do Brasil por população|o segundo]] em [[Pop"
+}
+]
+},
+{
+"iso": "BT",
+"u": "BT-33",
+"v": "BT-GA",
+"lu": "Bumthang",
+"lv": "Gasa",
+"qu": "Q463242",
+"qv": "Q578294",
+"lon": 90.47523,
+"lat": 28.07234,
+"p47": false,
+"meeting": [
+"BT-33",
+"BT-GA"
+],
+"wp": []
+},
+{
+"iso": "BT",
+"u": "BT-34",
+"v": "BT-43",
+"lu": "Shemgang",
+"lv": "Pemagatsel",
+"qu": "Q197564",
+"qv": "Q167279",
+"lon": 91.18423,
+"lat": 26.94215,
+"p47": false,
+"meeting": [
+"BT-34",
+"BT-42",
+"BT-43",
+"BT-45"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Zhemgang_District",
+"name": "pemagatshel",
+"quote": "It is bordered by [[Sarpang District|Sarpang]], [[Trongsa District|Trongsa]], [[Bumthang District|Bumthang]], [[Mongar District|Mongar]] and [[Pemagatshel District]]s, and borders [[Assam]] in [[India]] to the south."
+}
+]
+},
+{
+"iso": "BT",
+"u": "BT-42",
+"v": "BT-45",
+"lu": "Mongar",
+"lv": "Samdrup Jongkhar",
+"qu": "Q389734",
+"qv": "Q728929",
+"lon": 91.18423,
+"lat": 26.94215,
+"p47": false,
+"meeting": [
+"BT-34",
+"BT-42",
+"BT-43",
+"BT-45"
+],
+"wp": []
+},
+{
+"iso": "CO",
+"u": "CO-BOY",
+"v": "CO-MET",
+"lu": "Boyacá",
+"lv": "Meta",
+"qu": "Q121233",
+"qv": "Q238629",
+"lon": -73.05298,
+"lat": 4.73483,
+"p47": false,
+"meeting": [
+"CO-BOY",
+"CO-CAS",
+"CO-CUN",
+"CO-MET"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Boyac%C3%A1_Department",
+"name": "meta",
+"quote": "Boyacá is located in the [[Andean Region (Colombia)|Andean Region]] in central Colombia, over the [[Cordillera Oriental (Colombia)|Cordillera Oriental mountain range]]<ref name=\"Aspectos\">{{Cite web|title=Boyacá Nuestro Departamento: Aspectos Geográfícos|publisher=Gobernación del Boyacá|url=http://w"
+}
+]
+},
+{
+"iso": "CO",
+"u": "CO-CAS",
+"v": "CO-CUN",
+"lu": "Casanare",
+"lv": "Cundinamarca",
+"qu": "Q13984",
+"qv": "Q232564",
+"lon": -73.05298,
+"lat": 4.73483,
+"p47": true,
+"meeting": [
+"CO-BOY",
+"CO-CAS",
+"CO-CUN",
+"CO-MET"
+],
+"wp": []
+},
+{
+"iso": "DO",
+"u": "DO-03",
+"v": "DO-07",
+"lu": "Bahoruco",
+"lv": "La Estrelleta",
+"qu": "Q807079",
+"qv": "Q1137545",
+"lon": -71.53498,
+"lat": 18.65077,
+"p47": false,
+"meeting": [
+"DO-03",
+"DO-07",
+"DO-10",
+"DO-22"
+],
+"wp": []
+},
+{
+"iso": "DO",
+"u": "DO-10",
+"v": "DO-22",
+"lu": "Independencia",
+"lv": "San Juan",
+"qu": "Q1424401",
+"qv": "Q2001793",
+"lon": -71.53498,
+"lat": 18.65077,
+"p47": true,
+"meeting": [
+"DO-03",
+"DO-07",
+"DO-10",
+"DO-22"
+],
+"wp": []
+},
+{
+"iso": "EC",
+"u": "EC-B",
+"v": "EC-F",
+"lu": "Bolivar",
+"lv": "Cañar",
+"qu": "Q261165",
+"qv": "Q335471",
+"lon": -79.13007,
+"lat": -2.20369,
+"p47": false,
+"meeting": [
+"EC-B",
+"EC-F"
+],
+"wp": []
+},
+{
+"iso": "ES",
+"u": "ES-CC",
+"v": "ES-CR",
+"lu": "Cáceres",
+"lv": "Ciudad Real",
+"qu": "Q81977",
+"qv": "Q54932",
+"lon": -4.94437,
+"lat": 39.39191,
+"p47": false,
+"meeting": [
+"ES-CC",
+"ES-CR"
+],
+"wp": [
+{
+"url": "https://es.wikipedia.org/wiki/Provincia_de_Ciudad_Real",
+"name": "caceres",
+"quote": "Con una extensión de {{unidad|19813|km²}} (tercera mayor de España tras [[provincia de Badajoz|Badajoz]] y [[provincia de Cáceres|Cáceres]]), limita al norte con [[provincia de Toledo|Toledo]], al noreste con [[provincia de Cuenca|Cuenca]], al este con [[provincia de Albacete|Albacete]], al sur con "
+}
+]
+},
+{
+"iso": "FR",
+"u": "FR-04",
+"v": "FR-13",
+"lu": "Alpes-de-Haute-Provence",
+"lv": "Bouches-du-Rhône",
+"qu": "Q3131",
+"qv": "Q3240",
+"lon": 5.75378,
+"lat": 43.73205,
+"p47": false,
+"meeting": [
+"FR-04",
+"FR-13"
+],
+"wp": []
+},
+{
+"iso": "FR",
+"u": "FR-57",
+"v": "FR-88",
+"lu": "Moselle",
+"lv": "Vosges",
+"qu": "Q12652",
+"qv": "Q3105",
+"lon": 7.08865,
+"lat": 48.52344,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "GA",
+"u": "GA-3",
+"v": "GA-7",
+"lu": "Moyen-Ogooué",
+"lv": "Ogooué-Lolo",
+"qu": "Q590802",
+"qv": "Q823762",
+"lon": 11.56253,
+"lat": -0.75349,
+"p47": false,
+"meeting": [
+"GA-3",
+"GA-4",
+"GA-6",
+"GA-7"
+],
+"wp": []
+},
+{
+"iso": "GA",
+"u": "GA-4",
+"v": "GA-6",
+"lu": "Ngounié",
+"lv": "Ogooué-Ivindo",
+"qu": "Q823774",
+"qv": "Q823822",
+"lon": 11.56253,
+"lat": -0.75349,
+"p47": false,
+"meeting": [
+"GA-3",
+"GA-4",
+"GA-6",
+"GA-7"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Ogoou%C3%A9-Ivindo_Province",
+"name": "ngounie",
+"quote": "B.|year=2016|isbn=9780230271227|page=596}}</ref> Ogooué-Ivindo borders the [[Sangha Department (Republic of the Congo)|Sangha]] and [[Cuvette-Ouest Department|Cuvette-Ouest]] departments of the [[Republic of the Congo]] to the south and southeast, [[Haut-Ogooué]] to the southeast, [[Ogooué-Lolo]] to"
+}
+]
+},
+{
+"iso": "GB",
+"u": "GB-BNS",
+"v": "GB-DBY",
+"lu": "Barnsley",
+"lv": "Derbyshire",
+"qu": "Q1857382",
+"qv": null,
+"lon": -1.81614,
+"lat": 53.51606,
+"p47": false,
+"meeting": [
+"GB-BNS",
+"GB-DBY",
+"GB-KIR",
+"GB-SHF"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Metropolitan_Borough_of_Barnsley",
+"name": "derbyshire",
+"quote": "The neighbouring districts are [[City of Doncaster|Doncaster]], [[Metropolitan Borough of Rotherham|Rotherham]], [[City of Sheffield|Sheffield]], [[High Peak, Derbyshire|High Peak]], [[Kirklees]] and [[City of Wakefield|Wakefield]]."
+}
+]
+},
+{
+"iso": "GB",
+"u": "GB-GRE",
+"v": "GB-SWK",
+"lu": "Greenwich",
+"lv": "Southwark",
+"qu": "Q693450",
+"qv": "Q730706",
+"lon": -0.02315,
+"lat": 51.48869,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "GB",
+"u": "GB-HMF",
+"v": "GB-WSM",
+"lu": "Hammersmith and Fulham",
+"lv": "Westminster",
+"qu": "Q40478",
+"qv": "Q179351",
+"lon": -0.21109,
+"lat": 51.52205,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "GB",
+"u": "GB-KIR",
+"v": "GB-SHF",
+"lu": "Kirklees",
+"lv": "Sheffield",
+"qu": "Q918975",
+"qv": "Q12956644",
+"lon": -1.81614,
+"lat": 53.51606,
+"p47": false,
+"meeting": [
+"GB-BNS",
+"GB-DBY",
+"GB-KIR",
+"GB-SHF"
+],
+"wp": []
+},
+{
+"iso": "GB",
+"u": "GB-LEW",
+"v": "GB-TWH",
+"lu": "Lewisham",
+"lv": "Tower Hamlets",
+"qu": "Q215030",
+"qv": "Q208152",
+"lon": -0.02315,
+"lat": 51.48869,
+"p47": false,
+"meeting": [],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/London_Borough_of_Lewisham",
+"name": "tower hamlets",
+"quote": "The [[River Thames]] forms a short section of northern boundary with the [[Isle of Dogs]] in the [[London Borough of Tower Hamlets]]."
+}
+]
+},
+{
+"iso": "GB",
+"u": "GB-LIN",
+"v": "GB-NTH",
+"lu": "Lincolnshire",
+"lv": "Northamptonshire",
+"qu": null,
+"qv": "Q23115",
+"lon": -0.49071,
+"lat": 52.63648,
+"p47": false,
+"meeting": [
+"GB-LIN",
+"GB-NTH",
+"GB-PTE",
+"GB-RUT"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Northamptonshire",
+"name": "lincolnshire",
+"quote": "It is bordered by [[Leicestershire]], [[Rutland]] and [[Lincolnshire]] to the north; [[Cambridgeshire]] to the east; [[Bedfordshire]] and [[Buckinghamshire]] to the south; [[Oxfordshire]] to the south west; and [[Warwickshire]] to the west."
+}
+]
+},
+{
+"iso": "GB",
+"u": "GB-MRT",
+"v": "GB-RIC",
+"lu": "Merton",
+"lv": "Richmond upon Thames",
+"qu": "Q32504",
+"qv": "Q32515",
+"lon": -0.24432,
+"lat": 51.43247,
+"p47": false,
+"meeting": [
+"GB-MRT",
+"GB-RIC"
+],
+"wp": []
+},
+{
+"iso": "GB",
+"u": "GB-PTE",
+"v": "GB-RUT",
+"lu": "Peterborough",
+"lv": "Rutland",
+"qu": "Q12956645",
+"qv": "Q23107",
+"lon": -0.49071,
+"lat": 52.63648,
+"p47": false,
+"meeting": [
+"GB-LIN",
+"GB-NTH",
+"GB-PTE",
+"GB-RUT"
+],
+"wp": []
+},
+{
+"iso": "GR",
+"u": "GR-D",
+"v": "GR-H",
+"lu": "Ipeiros",
+"lv": "Stereá Elláda",
+"qu": "Q180484",
+"qv": "Q199580",
+"lon": 21.36235,
+"lat": 39.15394,
+"p47": false,
+"meeting": [
+"GR-D",
+"GR-E",
+"GR-G",
+"GR-H"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Central_Greece_%28administrative_region%29",
+"name": "epirus",
+"quote": "To the south it borders the regions of [[Attica (region)|Attica]] and the [[Peloponnese (region)|Peloponnese]], to the west the region of [[Western Greece]], to the north the region of [[Thessaly]] and to the northwest it shares a small border with [[Epirus (region)|Epirus]]."
+}
+]
+},
+{
+"iso": "GR",
+"u": "GR-E",
+"v": "GR-G",
+"lu": "Thessalia",
+"lv": "Dytiki Ellada",
+"qu": "Q166919",
+"qv": "Q170291",
+"lon": 21.36235,
+"lat": 39.15394,
+"p47": false,
+"meeting": [
+"GR-D",
+"GR-E",
+"GR-G",
+"GR-H"
+],
+"wp": []
+},
+{
+"iso": "GT",
+"u": "GT-BV",
+"v": "GT-CM",
+"lu": "Baja Verapaz",
+"lv": "Chimaltenango",
+"qu": "Q504647",
+"qv": "Q765975",
+"lon": -90.65761,
+"lat": 14.90395,
+"p47": false,
+"meeting": [],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Chimaltenango_Department",
+"name": "baja verapaz",
+"quote": "Located to the east are [[Guatemala Department]], home to [[Guatemala City]], and [[Sacatepéquez Department]], while also bordered by [[Quiché Department]] and [[Baja Verapaz Department]] to the north, [[Escuintla Department]] and [[Suchitepéquez Department]] to the south, and [[Sololá Department]] "
+},
+{
+"url": "https://es.wikipedia.org/wiki/Departamento_de_Chimaltenango",
+"name": "baja verapaz",
+"quote": "Limita al norte con los departamentos de [[El Quiché]] y [[Baja Verapaz]]; al este con [[Guatemala (Departamento)|Guatemala]] y [[Sacatepéquez]]; al sur con [[Escuintla (Guatemala)|Escuintla]] y [[Suchitepéquez]], y al oeste con [[Sololá]]."
+}
+]
+},
+{
+"iso": "GT",
+"u": "GT-GU",
+"v": "GT-QC",
+"lu": "Guatemala",
+"lv": "Quiché",
+"qu": "Q695660",
+"qv": "Q669802",
+"lon": -90.65761,
+"lat": 14.90395,
+"p47": false,
+"meeting": [],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Quich%C3%A9_Department",
+"name": "guatemala",
+"quote": "| image_map = {{switcher | [[File:El Quiche in Guatemala.svg | frameless]] | Location in [[Guatemala]] | [[File:Quiché and its neighbors.svg | frameless]] | Quiché and its neighbors: {{hlist |In Guatemala: {{hlist |class=inline | to the East, [[Huehuetenango Department|Huehuetenango]] | to the South"
+},
+{
+"url": "https://es.wikipedia.org/wiki/Departamento_de_Quich%C3%A9",
+"name": "guatemala",
+"quote": "[[Fray Bartolomé de las Casas (Guatemala)|Sebol]], en ese entonces, era considerado como un punto estratégico y vía fluvial a través del río Cancuén, que comunicaba con Petén hasta el río Usumacinta en la frontera con México y la única carretera que existía era la de terrecería que construyó el pres"
+}
+]
+},
+{
+"iso": "HU",
+"u": "HU-DU",
+"v": "HU-TO",
+"lu": "Dunaújváros",
+"lv": "Tolna",
+"qu": "Q187812",
+"qv": "Q191625",
+"lon": 18.92673,
+"lat": 46.84841,
+"p47": false,
+"meeting": [
+"HU-DU",
+"HU-TO"
+],
+"wp": []
+},
+{
+"iso": "IN",
+"u": "IN-HR",
+"v": "IN-UT",
+"lu": "Haryana",
+"lv": "Uttarakhand",
+"qu": "Q1174",
+"qv": "Q1499",
+"lon": 77.58506,
+"lat": 30.38293,
+"p47": false,
+"meeting": [
+"IN-HR",
+"IN-UT"
+],
+"wp": []
+},
+{
+"iso": "IT",
+"u": "IT-CR",
+"v": "IT-RE",
+"lu": "Cremona",
+"lv": "Reggio Emilia",
+"qu": "Q16163",
+"qv": "Q16254",
+"lon": 10.50151,
+"lat": 44.91943,
+"p47": false,
+"meeting": [
+"IT-CR",
+"IT-RE"
+],
+"wp": []
+},
+{
+"iso": "JM",
+"u": "JM-06",
+"v": "JM-12",
+"lu": "Saint Ann",
+"lv": "Manchester",
+"qu": "Q1326284",
+"qv": "Q920496",
+"lon": -77.49116,
+"lat": 18.1961,
+"p47": false,
+"meeting": [
+"JM-06",
+"JM-07",
+"JM-12",
+"JM-13"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Saint_Ann_Parish",
+"name": "manchester",
+"quote": "The [[Armadale Juvenile Correctional Centre]] for girls was located in [[Alexandria, Jamaica|Alexandria]] but on 22 May 2009 a fire went through the facility, killing 5 girls and injuring 13 more.<ref name=fire>{{cite news |author=<!--none given--> |date=May 31, 2009 |title=Armadale girls get fresh "
+}
+]
+},
+{
+"iso": "JM",
+"u": "JM-07",
+"v": "JM-13",
+"lu": "Trelawny",
+"lv": "Clarendon",
+"qu": "Q1123340",
+"qv": "Q1095557",
+"lon": -77.49116,
+"lat": 18.1961,
+"p47": false,
+"meeting": [
+"JM-06",
+"JM-07",
+"JM-12",
+"JM-13"
+],
+"wp": []
+},
+{
+"iso": "KN",
+"u": "KN-02",
+"v": "KN-06",
+"lu": "Saint Anne Sandy Point",
+"lv": "Saint John Capesterre",
+"qu": "Q1473654",
+"qv": "Q668498",
+"lon": -62.80762,
+"lat": 17.36671,
+"p47": false,
+"meeting": [
+"KN-02",
+"KN-06",
+"KN-09",
+"KN-13"
+],
+"wp": []
+},
+{
+"iso": "KN",
+"u": "KN-04",
+"v": "KN-10",
+"lu": "Saint George Gingerland",
+"lv": "Saint Paul Charlestown",
+"qu": "Q1472520",
+"qv": "Q1752127",
+"lon": -62.57862,
+"lat": 17.1455,
+"p47": false,
+"meeting": [
+"KN-04",
+"KN-05",
+"KN-07",
+"KN-10",
+"KN-12"
+],
+"wp": []
+},
+{
+"iso": "KN",
+"u": "KN-04",
+"v": "KN-12",
+"lu": "Saint George Gingerland",
+"lv": "Saint Thomas Lowland",
+"qu": "Q1472520",
+"qv": "Q1752122",
+"lon": -62.57862,
+"lat": 17.1455,
+"p47": false,
+"meeting": [
+"KN-04",
+"KN-05",
+"KN-07",
+"KN-10",
+"KN-12"
+],
+"wp": []
+},
+{
+"iso": "KN",
+"u": "KN-05",
+"v": "KN-07",
+"lu": "Saint James Windward",
+"lv": "Saint John Figtree",
+"qu": "Q1342139",
+"qv": "Q657318",
+"lon": -62.57862,
+"lat": 17.1455,
+"p47": false,
+"meeting": [
+"KN-04",
+"KN-05",
+"KN-07",
+"KN-10",
+"KN-12"
+],
+"wp": []
+},
+{
+"iso": "KN",
+"u": "KN-05",
+"v": "KN-10",
+"lu": "Saint James Windward",
+"lv": "Saint Paul Charlestown",
+"qu": "Q1342139",
+"qv": "Q1752127",
+"lon": -62.57862,
+"lat": 17.1455,
+"p47": false,
+"meeting": [
+"KN-04",
+"KN-05",
+"KN-07",
+"KN-10",
+"KN-12"
+],
+"wp": []
+},
+{
+"iso": "KN",
+"u": "KN-07",
+"v": "KN-12",
+"lu": "Saint John Figtree",
+"lv": "Saint Thomas Lowland",
+"qu": "Q657318",
+"qv": "Q1752122",
+"lon": -62.57862,
+"lat": 17.1455,
+"p47": false,
+"meeting": [
+"KN-04",
+"KN-05",
+"KN-07",
+"KN-10",
+"KN-12"
+],
+"wp": []
+},
+{
+"iso": "KN",
+"u": "KN-09",
+"v": "KN-13",
+"lu": "Saint Paul Capesterre",
+"lv": "Saint Thomas Middle Island",
+"qu": "Q952735",
+"qv": "Q1752101",
+"lon": -62.80762,
+"lat": 17.36671,
+"p47": false,
+"meeting": [
+"KN-02",
+"KN-06",
+"KN-09",
+"KN-13"
+],
+"wp": []
+},
+{
+"iso": "LI",
+"u": "LI-02",
+"v": "LI-08",
+"lu": "Eschen",
+"lv": "Schellenberg",
+"qu": "Q4540",
+"qv": "Q49655",
+"lon": 9.51993,
+"lat": 47.22527,
+"p47": true,
+"meeting": [
+"LI-02",
+"LI-04",
+"LI-06",
+"LI-08"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Eschen",
+"name": "schellenberg",
+"quote": "Locally, it shares land borders with the capital of [[Vaduz]], and other municipalities of [[Mauren]], [[Schellenberg]], [[Gamprin]], [[Planken]] and [[Schaan]].<ref>{{cite web|url=https://www.mindat.org/loc-404574.html|title=Eschen|work=Mineral Data|access-date=1 June 2024}}</ref>"
+},
+{
+"url": "https://de.wikipedia.org/wiki/Eschen_%28Liechtenstein%29",
+"name": "schellenberg",
+"quote": "Angrenzende Gemeinden sind [[Gamprin]], [[Schellenberg]], [[Mauren (Liechtenstein)|Mauren]], [[Frastanz]] in [[Österreich]], [[Planken]], [[Schaan]], [[Vaduz]] (Teilstück ''Riet'') sowie, getrennt durch den Rhein, [[Buchs&nbsp;SG]] und [[Sennwald]] in der [[Schweiz]]."
+},
+{
+"url": "https://en.wikipedia.org/wiki/Schellenberg",
+"name": "eschen",
+"quote": "Its territory borders the Liechtensteiner municipalities of [[Eschen]], [[Gamprin]], [[Mauren]] and [[Ruggell]]."
+}
+]
+},
+{
+"iso": "LI",
+"u": "LI-04",
+"v": "LI-06",
+"lu": "Mauren",
+"lv": "Ruggell",
+"qu": "Q49661",
+"qv": "Q49659",
+"lon": 9.51993,
+"lat": 47.22527,
+"p47": false,
+"meeting": [
+"LI-02",
+"LI-04",
+"LI-06",
+"LI-08"
+],
+"wp": []
+},
+{
+"iso": "LV",
+"u": "LV-001",
+"v": "LV-073",
+"lu": "Aglonas",
+"lv": "Preilu",
+"qu": "Q2045300",
+"qv": "Q2277469",
+"lon": 26.88847,
+"lat": 56.12887,
+"p47": false,
+"meeting": [
+"LV-001",
+"LV-073",
+"LV-078",
+"LV-DGV"
+],
+"wp": []
+},
+{
+"iso": "LV",
+"u": "LV-011",
+"v": "LV-037",
+"lu": "Ādaži",
+"lv": "Incukalna",
+"qu": "Q3019837",
+"qv": "Q2252820",
+"lon": 24.50873,
+"lat": 57.10595,
+"p47": true,
+"meeting": [
+"LV-011",
+"LV-031",
+"LV-037",
+"LV-090"
+],
+"wp": [
+{
+"url": "https://lv.wikipedia.org/wiki/%C4%80da%C5%BEu_novads_%282006%E2%80%942021%29",
+"name": "incukalna",
+"quote": "Robežojās ar [[Saulkrastu novads|Saulkrastu]] un [[Sējas novads|Sējas]] novadiem ziemeļos, [[Carnikavas novads|Carnikavas novadu]] ziemeļrietumos, [[Inčukalna novads|Inčukalna novadu]] austrumos un [[Garkalnes novads|Garkalnes novadu]] dienvidos."
+}
+]
+},
+{
+"iso": "LV",
+"u": "LV-017",
+"v": "LV-076",
+"lu": "Beverinas",
+"lv": "Raunas",
+"qu": "Q2018692",
+"qv": "Q2124808",
+"lon": 25.65795,
+"lat": 57.46461,
+"p47": false,
+"meeting": [
+"LV-017",
+"LV-076"
+],
+"wp": []
+},
+{
+"iso": "LV",
+"u": "LV-031",
+"v": "LV-090",
+"lu": "Garkalnes",
+"lv": "Sejas",
+"qu": "Q2171669",
+"qv": "Q2299447",
+"lon": 24.50873,
+"lat": 57.10595,
+"p47": false,
+"meeting": [
+"LV-011",
+"LV-031",
+"LV-037",
+"LV-090"
+],
+"wp": []
+},
+{
+"iso": "LV",
+"u": "LV-059",
+"v": "LV-109",
+"lu": "Madona",
+"lv": "Vilanu",
+"qu": "Q2198472",
+"qv": "Q2018681",
+"lon": 26.77256,
+"lat": 56.68101,
+"p47": false,
+"meeting": [
+"LV-059",
+"LV-102",
+"LV-109",
+"LV-REZ:Rezeknes"
+],
+"wp": []
+},
+{
+"iso": "LV",
+"u": "LV-078",
+"v": "LV-DGV",
+"lu": "Riebinu",
+"lv": "Daugavpils",
+"qu": "Q2106159",
+"qv": "Q80021",
+"lon": 26.88847,
+"lat": 56.12887,
+"p47": false,
+"meeting": [
+"LV-001",
+"LV-073",
+"LV-078",
+"LV-DGV"
+],
+"wp": []
+},
+{
+"iso": "LV",
+"u": "LV-102",
+"v": "LV-REZ:Rezeknes",
+"lu": "Varaklanu",
+"lv": "Rezeknes",
+"qu": "Q432596",
+"qv": "Q180379",
+"lon": 26.77256,
+"lat": 56.68101,
+"p47": false,
+"meeting": [
+"LV-059",
+"LV-102",
+"LV-109",
+"LV-REZ:Rezeknes"
+],
+"wp": [
+{
+"url": "https://lv.wikipedia.org/wiki/Varak%C4%BC%C4%81nu_novads",
+"name": "rezeknes",
+"quote": "Robežojās ziemeļos un rietumos ar [[Madonas novads|Madonas novadu]], austrumos ar [[Rēzeknes novads|Rēzeknes novadu]] un dienvidos ar [[Preiļu novads|Preiļu]] un [[Jēkabpils novads|Jēkabpils]] novadiem."
+}
+]
+},
+{
+"iso": "LY",
+"u": "LY-GD",
+"v": "LY-ZA",
+"lu": "Ghadamis",
+"lv": "Az Zawiyah",
+"qu": "Q27659",
+"qv": "Q26153",
+"lon": 11.86267,
+"lat": 32.30756,
+"p47": false,
+"meeting": [
+"LY-GD",
+"LY-MZ",
+"LY-NQ",
+"LY-ZA"
+],
+"wp": []
+},
+{
+"iso": "LY",
+"u": "LY-MZ",
+"v": "LY-NQ",
+"lu": "Mizdah",
+"lv": "An Nuqat al Khams",
+"qu": "Q25632",
+"qv": "Q26161",
+"lon": 11.86267,
+"lat": 32.30756,
+"p47": false,
+"meeting": [
+"LY-GD",
+"LY-MZ",
+"LY-NQ",
+"LY-ZA"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Jabal_al_Gharbi_District",
+"name": "nuqat al khams",
+"quote": "It was formed in 2007 from the former districts of [[Yafran District|Yafran]], [[Gharyan District|Gharyan]] and [[Mizda District|Mizda]].<ref>[http://gpco.gov.ly/online/shabyat.php ''شعبيات الجماهيرية العظمى''&nbsp;– Sha'biyat of Great Jamahiriya] {{webarchive|url=https://web.archive.org/web/2009020"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Nuqat_al_Khams",
+"name": "jabal al gharbi",
+"quote": "Domestically, it borders the districts of [[Zawiya District|Zawiya]] to the east, [[Jabal al Gharbi District|Jabal al Gharbi]] to the southeast, and [[Nalut District|Nalut]] to the southwest."
+}
+]
+},
+{
+"iso": "MA",
+"u": "MA-02",
+"v": "MA-05",
+"lu": "Gharb - Chrarda - Béni Hssen",
+"lv": "Fès - Boulemane",
+"qu": "Q477968",
+"qv": "Q648249",
+"lon": -5.42052,
+"lat": 34.28065,
+"p47": false,
+"meeting": [],
+"wp": [
+{
+"url": "https://fr.wikipedia.org/wiki/Gharb-Chrarda-Beni_Hssen",
+"name": "fes-boulmane",
+"quote": "L'ancienne région de Gharb-Chrarda-Beni Hssen était limitée au nord par la région de [[Tanger-Tétouan]], au nord-est par la région de [[Taza-Al Hoceima-Taounate]], au sud-est par les régions de [[Fès-Boulmane]] et de [[Meknès-Tafilalet]], au sud par la région de [[Rabat-Salé-Zemmour-Zaër]] et à l'ou"
+}
+]
+},
+{
+"iso": "MA",
+"u": "MA-03",
+"v": "MA-06",
+"lu": "Taza - Al Hoceima - Taounate",
+"lv": "Meknès - Tafilalet",
+"qu": "Q818390",
+"qv": "Q497006",
+"lon": -5.42052,
+"lat": 34.28065,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "MD",
+"u": "MD-AN",
+"v": "MD-SN:Stîngă Nistrului",
+"lu": "Anenii Noi",
+"lv": "Stîngă Nistrului",
+"qu": "Q769224",
+"qv": "Q648767",
+"lon": 29.29225,
+"lat": 47.13578,
+"p47": true,
+"meeting": [
+"MD-AN",
+"MD-SN:Stîngă Nistrului"
+],
+"wp": []
+},
+{
+"iso": "MR",
+"u": "MR-05",
+"v": "MR-07",
+"lu": "Brakna",
+"lv": "Adrar",
+"qu": "Q12632",
+"qv": "Q366626",
+"lon": -12.66907,
+"lat": 18.55701,
+"p47": true,
+"meeting": [
+"MR-05",
+"MR-06",
+"MR-07",
+"MR-09"
+],
+"wp": []
+},
+{
+"iso": "MR",
+"u": "MR-06",
+"v": "MR-09",
+"lu": "Trarza",
+"lv": "Tagant",
+"qu": "Q859581",
+"qv": "Q843903",
+"lon": -12.66907,
+"lat": 18.55701,
+"p47": false,
+"meeting": [
+"MR-05",
+"MR-06",
+"MR-07",
+"MR-09"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-01",
+"v": "MT-04",
+"lu": "Attard",
+"lv": "Birkirkara",
+"qu": "Q44557",
+"qv": "Q39583",
+"lon": 14.45777,
+"lat": 35.88896,
+"p47": true,
+"meeting": [
+"MT-01",
+"MT-02",
+"MT-04",
+"MT-43"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-02",
+"v": "MT-43",
+"lu": "Balzan",
+"lv": "Qormi",
+"qu": "Q789794",
+"qv": "Q39578",
+"lon": 14.45777,
+"lat": 35.88896,
+"p47": false,
+"meeting": [
+"MT-01",
+"MT-02",
+"MT-04",
+"MT-43"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Qormi",
+"name": "balzan",
+"quote": "Its bordering towns are [[Marsa, Malta|Marsa]], [[Luqa]], [[Żebbuġ]], [[Siġġiewi]], [[Ħamrun]], [[Birkirkara]], [[Attard]], [[Santa Venera]] and [[Balzan]]."
+}
+]
+},
+{
+"iso": "MT",
+"u": "MT-03",
+"v": "MT-64",
+"lu": "Birgu",
+"lv": "Żabbar",
+"qu": "Q752346",
+"qv": "Q39518",
+"lon": 14.52937,
+"lat": 35.88156,
+"p47": false,
+"meeting": [
+"MT-03",
+"MT-06",
+"MT-21",
+"MT-64"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/%C5%BBabbar",
+"name": "vittoriosa",
+"quote": "Ħaż-Żabbar is bound to the north by [[Kalkara]] and [[Xgħajra]], to the west by [[Fgura]] and the [[Cottonera Lines]] (enclosing the localities of [[Vittoriosa]] and [[Cospicua]]), to the east by [[Marsaskala]] and to the south by [[Żejtun]]."
+}
+]
+},
+{
+"iso": "MT",
+"u": "MT-05",
+"v": "MT-25",
+"lu": "Birżebbuġa",
+"lv": "Luqa",
+"qu": "Q258028",
+"qv": "Q475585",
+"lon": 14.50895,
+"lat": 35.82979,
+"p47": false,
+"meeting": [
+"MT-05",
+"MT-17",
+"MT-25",
+"MT-68"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-06",
+"v": "MT-21",
+"lu": "Cospicua",
+"lv": "Kalkara",
+"qu": "Q757225",
+"qv": "Q533257",
+"lon": 14.52937,
+"lat": 35.88156,
+"p47": false,
+"meeting": [
+"MT-03",
+"MT-06",
+"MT-21",
+"MT-64"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-09",
+"v": "MT-12",
+"lu": "Floriana",
+"lv": "Gżira",
+"qu": "Q832807",
+"qv": "Q632097",
+"lon": 14.50156,
+"lat": 35.89517,
+"p47": false,
+"meeting": [
+"MT-09",
+"MT-12",
+"MT-58",
+"MT-60"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-13",
+"v": "MT-61",
+"lu": "Għajnsielem",
+"lv": "Xagħra",
+"qu": "Q761675",
+"qv": "Q605343",
+"lon": 14.28065,
+"lat": 36.03344,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-17",
+"v": "MT-68",
+"lu": "Għaxaq",
+"lv": "Żurrieq",
+"qu": "Q426385",
+"qv": "Q44417",
+"lon": 14.50895,
+"lat": 35.82979,
+"p47": false,
+"meeting": [
+"MT-05",
+"MT-17",
+"MT-25",
+"MT-68"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-18",
+"v": "MT-34",
+"lu": "Ħamrun",
+"lv": "Msida",
+"qu": "Q343001",
+"qv": "Q585187",
+"lon": 14.48663,
+"lat": 35.88636,
+"p47": false,
+"meeting": [
+"MT-18",
+"MT-34",
+"MT-41",
+"MT-54"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Msida",
+"name": "hamrun",
+"quote": "The neighbouring towns of Msida are [[Ta' Xbiex]], [[Gżira]], [[San Ġwann]], [[Birkirkara]], [[Santa Venera]], [[Hamrun]] and [[Pietà, Malta|Pietà]]."
+}
+]
+},
+{
+"iso": "MT",
+"u": "MT-29",
+"v": "MT-66",
+"lu": "Mdina",
+"lv": "Żebbuġ Malta",
+"qu": "Q207277",
+"qv": "Q44573",
+"lon": 14.4128,
+"lat": 35.87949,
+"p47": false,
+"meeting": [
+"MT-29",
+"MT-66"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-37",
+"v": "MT-62",
+"lu": "Nadur",
+"lv": "Xewkija",
+"qu": "Q929969",
+"qv": "Q919921",
+"lon": 14.28065,
+"lat": 36.03344,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-39",
+"v": "MT-53",
+"lu": "Paola",
+"lv": "Santa Luċija",
+"qu": "Q846589",
+"qv": "Q1087776",
+"lon": 14.49475,
+"lat": 35.85849,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-41",
+"v": "MT-54",
+"lu": "Pietà",
+"lv": "Santa Venera",
+"qu": "Q744070",
+"qv": "Q585420",
+"lon": 14.48663,
+"lat": 35.88636,
+"p47": false,
+"meeting": [
+"MT-18",
+"MT-34",
+"MT-41",
+"MT-54"
+],
+"wp": []
+},
+{
+"iso": "MT",
+"u": "MT-58",
+"v": "MT-60",
+"lu": "Ta' Xbiex",
+"lv": "Valletta",
+"qu": "Q1017348",
+"qv": "Q23800",
+"lon": 14.50156,
+"lat": 35.89517,
+"p47": false,
+"meeting": [
+"MT-09",
+"MT-12",
+"MT-58",
+"MT-60"
+],
+"wp": []
+},
+{
+"iso": "MX",
+"u": "MX-COA",
+"v": "MX-SLP",
+"lu": "Coahuila",
+"lv": "San Luis Potosí",
+"qu": "Q53079",
+"qv": "Q78980",
+"lon": -100.82844,
+"lat": 24.56496,
+"p47": false,
+"meeting": [
+"MX-COA",
+"MX-SLP"
+],
+"wp": [
+{
+"url": "https://es.wikipedia.org/wiki/Coahuila",
+"name": "san luis potosi",
+"quote": "Está ubicado en la [[Regiones de México|región]] [[Noreste de México|noreste]] del país, limitando al norte con el [[río Bravo]] que lo separa de [[Estados Unidos]], al este con [[Nuevo León]], al sur con [[Zacatecas]], en un vértice al sureste con [[San Luis Potosí]]<ref name=\":1\">{{Cita web|url=ht"
+},
+{
+"url": "https://es.wikipedia.org/wiki/San_Luis_Potos%C3%AD",
+"name": "coahuila",
+"quote": "Está ubicado en la [[Regiones de México|región]] [[Centronorte de México|centronorte]] del país, limitando al norte con [[Coahuila de Zaragoza]], [[Nuevo León]] y [[Tamaulipas]], al este con [[Veracruz de Ignacio de la Llave]], al sur con [[Estado de Hidalgo|Hidalgo]], [[Querétaro]] y [[Guanajuato]]"
+}
+]
+},
+{
+"iso": "MX",
+"u": "MX-JAL",
+"v": "MX-SLP",
+"lu": "Jalisco",
+"lv": "San Luis Potosí",
+"qu": "Q13160",
+"qv": "Q78980",
+"lon": -101.52054,
+"lat": 21.84094,
+"p47": false,
+"meeting": [
+"MX-JAL",
+"MX-SLP"
+],
+"wp": [
+{
+"url": "https://es.wikipedia.org/wiki/Jalisco",
+"name": "san luis potosi",
+"quote": "Jalisco está ubicado en la [[Regiones de México|región]] [[Occidente de México|oeste]] del país, limitando al norte con [[Nayarit]], [[Zacatecas]] y [[Aguascalientes]], al noreste con [[San Luis Potosí]], al este con [[Guanajuato]], al sur con [[Michoacán]] y [[Colima]], y al oeste con el [[océano P"
+}
+]
+},
+{
+"iso": "NG",
+"u": "NG-AN",
+"v": "NG-ED",
+"lu": "Anambra",
+"lv": "Edo",
+"qu": "Q117714",
+"qv": "Q682704",
+"lon": 6.67673,
+"lat": 6.53511,
+"p47": false,
+"meeting": [
+"NG-AN",
+"NG-DE",
+"NG-ED",
+"NG-KO"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Anambra_State",
+"name": "edo state",
+"quote": "Boundaries are formed by [[Delta State]] and [[Edo State]] to the west for about 97&nbsp;km across the [[River Niger]], [[Imo State]] and [[Rivers State]] (for four km) to the south, [[Abia State]] to the southeast for 18&nbsp;km, [[Enugu State]] to the east for 139&nbsp;km, and [[Kogi State]] to th"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Edo_State",
+"name": "anambra state",
+"quote": "|url=http://www.world-gazetteer.com/wg.php?x=1133987757&men=gadm&lng=en&gln=xx&dat=32&geo=-158&srt=pnan&col=aohdq&srt=apnn |archive-url=https://archive.today/20130105064307/http://www.world-gazetteer.com/wg.php?x=1133987757&men=gadm&lng=en&gln=xx&dat=32&geo=-158&srt=pnan&col=aohdq&srt=apnn |url-stat"
+}
+]
+},
+{
+"iso": "NG",
+"u": "NG-DE",
+"v": "NG-KO",
+"lu": "Delta",
+"lv": "Kogi",
+"qu": "Q503910",
+"qv": "Q387745",
+"lon": 6.67673,
+"lat": 6.53511,
+"p47": false,
+"meeting": [
+"NG-AN",
+"NG-DE",
+"NG-ED",
+"NG-KO"
+],
+"wp": []
+},
+{
+"iso": "NR",
+"u": "NR-02",
+"v": "NR-04",
+"lu": "Anabar",
+"lv": "Anibare",
+"qu": "Q328735",
+"qv": "Q328733",
+"lon": 166.93899,
+"lat": -0.50418,
+"p47": true,
+"meeting": [
+"NR-02",
+"NR-03",
+"NR-04",
+"NR-09",
+"NR-10"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Anabar_district",
+"name": "anibare",
+"quote": "Anabar, along with neighbouring district of [[Ijuw district|Ijuw]], is believed to be the 3rd area to submerged after Buada first and Anibare second about 3000+ years ago.{{citation needed|date=August 2024}}"
+}
+]
+},
+{
+"iso": "NR",
+"u": "NR-02",
+"v": "NR-09",
+"lu": "Anabar",
+"lv": "Ewa",
+"qu": "Q328735",
+"qv": "Q274381",
+"lon": 166.93899,
+"lat": -0.50418,
+"p47": true,
+"meeting": [
+"NR-02",
+"NR-03",
+"NR-04",
+"NR-09",
+"NR-10"
+],
+"wp": []
+},
+{
+"iso": "NR",
+"u": "NR-03",
+"v": "NR-04",
+"lu": "Anetan",
+"lv": "Anibare",
+"qu": "Q378813",
+"qv": "Q328733",
+"lon": 166.93899,
+"lat": -0.50418,
+"p47": false,
+"meeting": [
+"NR-02",
+"NR-03",
+"NR-04",
+"NR-09",
+"NR-10"
+],
+"wp": []
+},
+{
+"iso": "NR",
+"u": "NR-03",
+"v": "NR-10",
+"lu": "Anetan",
+"lv": "Ijuw",
+"qu": "Q378813",
+"qv": "Q328738",
+"lon": 166.93899,
+"lat": -0.50418,
+"p47": false,
+"meeting": [
+"NR-02",
+"NR-03",
+"NR-04",
+"NR-09",
+"NR-10"
+],
+"wp": []
+},
+{
+"iso": "NR",
+"u": "NR-09",
+"v": "NR-10",
+"lu": "Ewa",
+"lv": "Ijuw",
+"qu": "Q274381",
+"qv": "Q328738",
+"lon": 166.93899,
+"lat": -0.50418,
+"p47": false,
+"meeting": [
+"NR-02",
+"NR-03",
+"NR-04",
+"NR-09",
+"NR-10"
+],
+"wp": []
+},
+{
+"iso": "PH",
+"u": "PH-AGN",
+"v": "PH-BUK",
+"lu": "Agusan del Norte",
+"lv": "Bukidnon",
+"qu": "Q13714",
+"qv": "Q13753",
+"lon": 125.3207,
+"lat": 8.58984,
+"p47": false,
+"meeting": [
+"PH-AGN",
+"PH-BUK"
+],
+"wp": []
+},
+{
+"iso": "PH",
+"u": "PH-LAG",
+"v": "PH-MNL:Pasig",
+"lu": "Laguna",
+"lv": "Pasig",
+"qu": "Q13840",
+"qv": null,
+"lon": 121.12535,
+"lat": 14.5249,
+"p47": false,
+"meeting": [
+"PH-LAG",
+"PH-MNL:Pasig",
+"PH-MNL:Taguig",
+"PH-RIZ"
+],
+"wp": []
+},
+{
+"iso": "PH",
+"u": "PH-MNL:Taguig",
+"v": "PH-RIZ",
+"lu": "Taguig",
+"lv": "Rizal",
+"qu": null,
+"qv": "Q13874",
+"lon": 121.12535,
+"lat": 14.5249,
+"p47": false,
+"meeting": [
+"PH-LAG",
+"PH-MNL:Pasig",
+"PH-MNL:Taguig",
+"PH-RIZ"
+],
+"wp": []
+},
+{
+"iso": "PW",
+"u": "PW-002",
+"v": "PW-226",
+"lu": "Aimeliik",
+"lv": "Ngchesar",
+"qu": "Q405589",
+"qv": "Q1070180",
+"lon": 134.56574,
+"lat": 7.432,
+"p47": false,
+"meeting": [
+"PW-002",
+"PW-004",
+"PW-224",
+"PW-226"
+],
+"wp": []
+},
+{
+"iso": "PW",
+"u": "PW-004",
+"v": "PW-224",
+"lu": "Airai",
+"lv": "Ngatpang",
+"qu": "Q407967",
+"qv": "Q430385",
+"lon": 134.56574,
+"lat": 7.432,
+"p47": false,
+"meeting": [
+"PW-002",
+"PW-004",
+"PW-224",
+"PW-226"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Airai",
+"name": "ngatpang",
+"quote": "From here, the Rael Kedam extends north through Rois Ngetechum to the corner of Aimeliik, Ngatpang and Airai, and then extends on to Rois Ormuul and the boundary with Ngchesar."
+}
+]
+},
+{
+"iso": "QA",
+"u": "QA-DA",
+"v": "QA-US",
+"lu": "Ad Dawhah",
+"lv": "Umm Salal",
+"qu": "Q3861",
+"qv": "Q990414",
+"lon": 51.44506,
+"lat": 25.35969,
+"p47": false,
+"meeting": [
+"QA-DA",
+"QA-RA",
+"QA-US",
+"QA-ZA"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Umm_Salal",
+"name": "doha",
+"quote": "Umm Salal shares land borders with [[Ad-Dawhah (municipality)|Doha]] to the southeast, [[Al Rayyan]] to the south, [[Al-Shahaniya]] to the west, [[Al Khor]] to the north, and [[Al Daayen]] to the east."
+}
+]
+},
+{
+"iso": "QA",
+"u": "QA-RA",
+"v": "QA-ZA",
+"lu": "Ar Rayyān",
+"lv": "Al Daayen",
+"qu": "Q311272",
+"qv": "Q310786",
+"lon": 51.44506,
+"lat": 25.35969,
+"p47": false,
+"meeting": [
+"QA-DA",
+"QA-RA",
+"QA-US",
+"QA-ZA"
+],
+"wp": []
+},
+{
+"iso": "RU",
+"u": "RU-ORE",
+"v": "RU-SAR",
+"lu": "Orenburg",
+"lv": "Saratov",
+"qu": "Q5338",
+"qv": "Q5334",
+"lon": 50.76701,
+"lat": 51.7594,
+"p47": true,
+"meeting": [
+"RU-ORE",
+"RU-SAR"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Orenburg_Oblast",
+"name": "saratov",
+"quote": "Orenburg Oblast's internal borders are with the republics of [[Bashkortostan]] and [[Tatarstan]] to the north, [[Chelyabinsk Oblast]] to the north-east, and with [[Samara Oblast|Samara]] and [[Saratov Oblast|Saratov]] oblasts to the west."
+},
+{
+"url": "https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+"name": "саратовская область",
+"quote": "С [[Саратовская область|Саратовской областью]] граничит в одной точке, которая расположена на [[Казахстано-российская граница|государственной границе с Казахстаном]] — стык границ Оренбургской, Самарской и Саратовской областей."
+},
+{
+"url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C",
+"name": "оренбургская область",
+"quote": "С [[Оренбургская область|Оренбургской]] областью граничит в одной точке, которая расположена на государственной границе с Казахстаном — стык границ Оренбургской, Самарской и Саратовской областей."
+}
+]
+},
+{
+"iso": "SC",
+"u": "SC-03",
+"v": "SC-17",
+"lu": "Anse Etoile",
+"lv": "Mont Buxton",
+"qu": "Q387293",
+"qv": "Q3241682",
+"lon": 55.44074,
+"lat": -4.60452,
+"p47": false,
+"meeting": [
+"SC-03",
+"SC-08",
+"SC-16",
+"SC-17"
+],
+"wp": []
+},
+{
+"iso": "SC",
+"u": "SC-08",
+"v": "SC-21",
+"lu": "Beau Vallon",
+"lv": "Port Glaud",
+"qu": "Q7479348",
+"qv": "Q1808165",
+"lon": 55.43152,
+"lat": -4.62384,
+"p47": false,
+"meeting": [
+"SC-08",
+"SC-10",
+"SC-21",
+"SC-22"
+],
+"wp": []
+},
+{
+"iso": "SC",
+"u": "SC-08",
+"v": "SC-16",
+"lu": "Beau Vallon",
+"lv": "English River",
+"qu": "Q7479348",
+"qv": "Q1819963",
+"lon": 55.44074,
+"lat": -4.60452,
+"p47": false,
+"meeting": [
+"SC-03",
+"SC-08",
+"SC-16",
+"SC-17"
+],
+"wp": []
+},
+{
+"iso": "SC",
+"u": "SC-09",
+"v": "SC-13",
+"lu": "Bel Air",
+"lv": "Grand'Anse",
+"qu": "Q815077",
+"qv": "Q3241690",
+"lon": 55.45918,
+"lat": -4.65764,
+"p47": false,
+"meeting": [
+"SC-09",
+"SC-13",
+"SC-19",
+"SC-21"
+],
+"wp": []
+},
+{
+"iso": "SC",
+"u": "SC-09",
+"v": "SC-17",
+"lu": "Bel Air",
+"lv": "Mont Buxton",
+"qu": "Q815077",
+"qv": "Q3241682",
+"lon": 55.44733,
+"lat": -4.62076,
+"p47": false,
+"meeting": [
+"SC-09",
+"SC-16",
+"SC-17",
+"SC-22"
+],
+"wp": []
+},
+{
+"iso": "SC",
+"u": "SC-10",
+"v": "SC-22",
+"lu": "Bel Ombre",
+"lv": "Saint Louis",
+"qu": "Q3245439",
+"qv": "Q2278695",
+"lon": 55.43152,
+"lat": -4.62384,
+"p47": false,
+"meeting": [
+"SC-08",
+"SC-10",
+"SC-21",
+"SC-22"
+],
+"wp": []
+},
+{
+"iso": "SC",
+"u": "SC-16",
+"v": "SC-22",
+"lu": "English River",
+"lv": "Saint Louis",
+"qu": "Q1819963",
+"qv": "Q2278695",
+"lon": 55.44733,
+"lat": -4.62076,
+"p47": false,
+"meeting": [
+"SC-09",
+"SC-16",
+"SC-17",
+"SC-22"
+],
+"wp": []
+},
+{
+"iso": "SC",
+"u": "SC-19",
+"v": "SC-21",
+"lu": "Plaisance",
+"lv": "Port Glaud",
+"qu": "Q2199897",
+"qv": "Q1808165",
+"lon": 55.45918,
+"lat": -4.65764,
+"p47": false,
+"meeting": [
+"SC-09",
+"SC-13",
+"SC-19",
+"SC-21"
+],
+"wp": []
+},
+{
+"iso": "SD",
+"u": "SD-NB",
+"v": "SD-NW",
+"lu": "Blue Nile",
+"lv": "White Nile",
+"qu": "Q309489",
+"qv": "Q311371",
+"lon": 33.20922,
+"lat": 12.21037,
+"p47": false,
+"meeting": [
+"SD-NB",
+"SD-NW"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-002",
+"v": "SI-166",
+"lu": "Beltinci",
+"lv": "Križevci",
+"qu": "Q778542",
+"qv": "Q999563",
+"lon": 16.1608,
+"lat": 46.60589,
+"p47": false,
+"meeting": [
+"SI-002",
+"SI-166"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-008",
+"v": "SI-134",
+"lu": "Brezovica",
+"lv": "Velike Lašče",
+"qu": "Q849320",
+"qv": "Q13378281",
+"lon": 14.49015,
+"lat": 45.88087,
+"p47": false,
+"meeting": [],
+"wp": [
+{
+"url": "https://sl.wikipedia.org/wiki/Ob%C4%8Dina_Brezovica",
+"name": "velike lasce",
+"quote": "* Meji na občine [[Mestna občina Ljubljana|Ljubljana]], [[Občina Ig|Ig]] in [[Občina Velike Lašče|Velike Lašče]] (vzhod), [[Občina Cerknica|Cerknica]] (jug), [[Občina Borovnica|Borovnica]], [[Log-Dragomer]] in [[Občina Vrhnika|Vrhnika]] (zahod) ter [[Občina Dobrova - Polhov Gradec|Dobrova-Polhov Gra"
+}
+]
+},
+{
+"iso": "SI",
+"u": "SI-009",
+"v": "SI-054:Krsko",
+"lu": "Brežice",
+"lv": "Krsko",
+"qu": "Q906879",
+"qv": null,
+"lon": 15.58368,
+"lat": 45.99399,
+"p47": true,
+"meeting": [
+"SI-009",
+"SI-054:Krsko"
+],
+"wp": [
+{
+"url": "https://sl.wikipedia.org/wiki/Ob%C4%8Dina_Bre%C5%BEice",
+"name": "krsko",
+"quote": "Brežice so po tej delitve ostale znotraj novomeškega okrožja in znotraj okraja Krško."
+}
+]
+},
+{
+"iso": "SI",
+"u": "SI-013",
+"v": "SI-037",
+"lu": "Cerknica",
+"lv": "Ig",
+"qu": "Q13107298",
+"qv": "Q917397",
+"lon": 14.49015,
+"lat": 45.88087,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-014",
+"v": "SI-147",
+"lu": "Cerkno",
+"lv": "Žiri",
+"qu": "Q13220435",
+"qv": "Q394087",
+"lon": 14.03008,
+"lat": 46.07316,
+"p47": false,
+"meeting": [
+"SI-014",
+"SI-027",
+"SI-036",
+"SI-147"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-021",
+"v": "SI-147",
+"lu": "Dobrova-Polhov Gradec",
+"lv": "Žiri",
+"qu": "Q1005208",
+"qv": "Q394087",
+"lon": 14.18681,
+"lat": 46.03791,
+"p47": false,
+"meeting": [
+"SI-021",
+"SI-027",
+"SI-064",
+"SI-147"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-027",
+"v": "SI-064",
+"lu": "Gorenja vas-Poljane",
+"lv": "Logatec",
+"qu": "Q1005224",
+"qv": "Q15893",
+"lon": 14.18681,
+"lat": 46.03791,
+"p47": false,
+"meeting": [
+"SI-021",
+"SI-027",
+"SI-064",
+"SI-147"
+],
+"wp": [
+{
+"url": "https://sl.wikipedia.org/wiki/Ob%C4%8Dina_Gorenja_vas_-_Poljane",
+"name": "logatec",
+"quote": "Občina meji še na [[Občina Železniki|občino Železnike]] na severu, [[Občina Škofja Loka|Škofjo Loko]] na vzhodu, [[Občina Dobrova - Polhov Gradec|Dobrovo-Polhov Gradec]] na jugovzhodu ter v skrajnem južnem delu zelo kratko tudi na [[Logatec]]."
+}
+]
+},
+{
+"iso": "SI",
+"u": "SI-027",
+"v": "SI-036",
+"lu": "Gorenja vas-Poljane",
+"lv": "Idrija",
+"qu": "Q1005224",
+"qv": "Q3441842",
+"lon": 14.03008,
+"lat": 46.07316,
+"p47": false,
+"meeting": [
+"SI-014",
+"SI-027",
+"SI-036",
+"SI-147"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-034",
+"v": "SI-190",
+"lu": "Hrastnik",
+"lv": "Žalec",
+"qu": "Q13377780",
+"qv": "Q15931",
+"lon": 15.11332,
+"lat": 46.18338,
+"p47": false,
+"meeting": [
+"SI-034",
+"SI-057",
+"SI-129",
+"SI-190"
+],
+"wp": [
+{
+"url": "https://sl.wikipedia.org/wiki/Ob%C4%8Dina_Hrastnik",
+"name": "zalec",
+"quote": "Na zahodu meji na občino [[Občina Trbovlje|Trbovlje]], na jugu na [[občina Radeče|Radeče]], na vzhodu na [[Občina Laško|Laško]], ter na severu na [[Občina Žalec|Žalec]]."
+},
+{
+"url": "https://sl.wikipedia.org/wiki/Ob%C4%8Dina_%C5%BDalec",
+"name": "hrastnik",
+"quote": "Občina meji na severu na [[Mestna občina Velenje|mestno občino Velenje]], na vzhodu na občino [[Dobrna]] in Mestno občino [[Celje]], na jugu na občini [[Laško]] in [[Hrastnik]], na zahodu pa na občini [[Prebold]] in [[Polzela]]."
+}
+]
+},
+{
+"iso": "SI",
+"u": "SI-042",
+"v": "SI-063",
+"lu": "Juršinci",
+"lv": "Ljutomer",
+"qu": "Q1003984",
+"qv": "Q15892",
+"lon": 16.02035,
+"lat": 46.5113,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-052",
+"v": "SI-163",
+"lu": "Kranj",
+"lv": "Jezersko",
+"qu": "Q1021",
+"qv": "Q1688771",
+"lon": 14.40546,
+"lat": 46.35164,
+"p47": false,
+"meeting": [
+"SI-052",
+"SI-095",
+"SI-131",
+"SI-163"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-057",
+"v": "SI-129",
+"lu": "Laško",
+"lv": "Trbovlje",
+"qu": "Q15887",
+"qv": "Q15925",
+"lon": 15.11332,
+"lat": 46.18338,
+"p47": false,
+"meeting": [
+"SI-034",
+"SI-057",
+"SI-129",
+"SI-190"
+],
+"wp": [
+{
+"url": "https://sl.wikipedia.org/wiki/Ob%C4%8Dina_La%C5%A1ko",
+"name": "trbovlje",
+"quote": "Razdeljeno je bilo na dva okraja: Celje in Trbovlje."
+}
+]
+},
+{
+"iso": "SI",
+"u": "SI-080",
+"v": "SI-100",
+"lu": "Murska Sobota",
+"lv": "Radenci",
+"qu": "Q9273677",
+"qv": "Q338743",
+"lon": 16.11031,
+"lat": 46.62387,
+"p47": false,
+"meeting": [
+"SI-080",
+"SI-100",
+"SI-152",
+"SI-166"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-085",
+"v": "SI-110",
+"lu": "Novo Mesto",
+"lv": "Sevnica",
+"qu": "Q398116",
+"qv": "Q11214302",
+"lon": 15.23858,
+"lat": 45.92435,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-086",
+"v": "SI-132",
+"lu": "Odranci",
+"lv": "Turnišče",
+"qu": null,
+"qv": "Q201074",
+"lon": 16.30054,
+"lat": 46.59734,
+"p47": false,
+"meeting": [
+"SI-086",
+"SI-132"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-087",
+"v": "SI-116",
+"lu": "Ormož",
+"lv": "Sveti Jurij",
+"qu": "Q15900",
+"qv": "Q920353",
+"lon": 16.02035,
+"lat": 46.5113,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-095",
+"v": "SI-131",
+"lu": "Preddvor",
+"lv": "Tržič",
+"qu": "Q539864",
+"qv": "Q15927",
+"lon": 14.40546,
+"lat": 46.35164,
+"p47": false,
+"meeting": [
+"SI-052",
+"SI-095",
+"SI-131",
+"SI-163"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-121",
+"v": "SI-130",
+"lu": "Škocjan",
+"lv": "Trebnje",
+"qu": "Q391800",
+"qv": "Q13378243",
+"lon": 15.23858,
+"lat": 45.92435,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-125",
+"v": "SI-133",
+"lu": "Šmartno ob Paki",
+"lv": "Velenje",
+"qu": "Q392188",
+"qv": "Q3441849",
+"lon": 15.06661,
+"lat": 46.35169,
+"p47": false,
+"meeting": [
+"SI-125",
+"SI-126",
+"SI-133",
+"SI-173"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-126",
+"v": "SI-173",
+"lu": "Šoštanj",
+"lv": "Polzela",
+"qu": "Q15923",
+"qv": "Q938443",
+"lon": 15.06661,
+"lat": 46.35169,
+"p47": false,
+"meeting": [
+"SI-125",
+"SI-126",
+"SI-133",
+"SI-173"
+],
+"wp": []
+},
+{
+"iso": "SI",
+"u": "SI-152",
+"v": "SI-166",
+"lu": "Cankova",
+"lv": "Križevci",
+"qu": "Q13377751",
+"qv": "Q999563",
+"lon": 16.11031,
+"lat": 46.62387,
+"p47": false,
+"meeting": [
+"SI-080",
+"SI-100",
+"SI-152",
+"SI-166"
+],
+"wp": []
+},
+{
+"iso": "SR",
+"u": "SR-CR",
+"v": "SR-PR",
+"lu": "Coronie",
+"lv": "Para",
+"qu": "Q1130141",
+"qv": "Q1140891",
+"lon": -55.91687,
+"lat": 5.53987,
+"p47": false,
+"meeting": [
+"SR-CR",
+"SR-PR",
+"SR-SA",
+"SR-SI"
+],
+"wp": []
+},
+{
+"iso": "SR",
+"u": "SR-SA",
+"v": "SR-SI",
+"lu": "Saramacca",
+"lv": "Sipaliwini",
+"qu": "Q1351157",
+"qv": "Q1130138",
+"lon": -55.91687,
+"lat": 5.53987,
+"p47": true,
+"meeting": [
+"SR-CR",
+"SR-PR",
+"SR-SA",
+"SR-SI"
+],
+"wp": []
+},
+{
+"iso": "SS",
+"u": "SS-BW",
+"v": "SS-LK",
+"lu": "Western Bahr el Ghazal",
+"lv": "Lakes",
+"qu": "Q332095",
+"qv": "Q491096",
+"lon": 28.63958,
+"lat": 6.73597,
+"p47": false,
+"meeting": [
+"SS-BW",
+"SS-LK"
+],
+"wp": []
+},
+{
+"iso": "TH",
+"u": "TH-16",
+"v": "TH-36",
+"lu": "Lop Buri",
+"lv": "Chaiyaphum",
+"qu": "Q336122",
+"qv": "Q275377",
+"lon": 101.30041,
+"lat": 15.30201,
+"p47": true,
+"meeting": [
+"TH-16",
+"TH-30",
+"TH-36",
+"TH-67"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Lopburi_province",
+"name": "chaiyaphum",
+"quote": "There are eight neighbouring provinces, [[Phetchabun province|Phetchabun]], [[Chaiyaphum province|Chaiyaphum]], [[Nakhon Ratchasima province|Nakhon Ratchasima]], [[Saraburi province|Saraburi]], [[Phra Nakhon Si Ayutthaya province|Phra Nakhon Si Ayutthaya]], [[Ang Thong province|Ang Thong]], [[Sing B"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Chaiyaphum_province",
+"name": "lopburi",
+"quote": "Neighboring provinces are (from north clockwise) [[Khon Kaen province|Khon Kaen]], [[Nakhon Ratchasima province|Nakhon Ratchasima]], [[Lopburi province|Lopburi]], and [[Phetchabun province|Phetchabun]]."
+}
+]
+},
+{
+"iso": "TH",
+"u": "TH-30",
+"v": "TH-67",
+"lu": "Nakhon Ratchasima",
+"lv": "Phetchabun",
+"qu": "Q271737",
+"qv": "Q240520",
+"lon": 101.30041,
+"lat": 15.30201,
+"p47": false,
+"meeting": [
+"TH-16",
+"TH-30",
+"TH-36",
+"TH-67"
+],
+"wp": []
+},
+{
+"iso": "TR",
+"u": "TR-25",
+"v": "TR-61",
+"lu": "Erzurum",
+"lv": "Trabzon",
+"qu": "Q376797",
+"qv": "Q388995",
+"lon": 40.48945,
+"lat": 40.54213,
+"p47": false,
+"meeting": [
+"TR-25",
+"TR-61"
+],
+"wp": []
+},
+{
+"iso": "TR",
+"u": "TR-31",
+"v": "TR-79",
+"lu": "Hatay",
+"lv": "Kilis",
+"qu": "Q83274",
+"qv": "Q128978",
+"lon": 36.65956,
+"lat": 36.82724,
+"p47": false,
+"meeting": [
+"TR-31",
+"TR-79"
+],
+"wp": []
+},
+{
+"iso": "TR",
+"u": "TR-47",
+"v": "TR-56",
+"lu": "Mardin",
+"lv": "Siirt",
+"qu": "Q131293",
+"qv": "Q482825",
+"lon": 41.81691,
+"lat": 37.71382,
+"p47": true,
+"meeting": [
+"TR-47",
+"TR-56",
+"TR-72",
+"TR-73"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Siirt_Province",
+"name": "mardin",
+"quote": "İçişleri Bakanlığı |language=tr}}</ref> The province borders [[Bitlis Province|Bitlis]] to the north, [[Batman Province|Batman]] to the west, [[Mardin Province|Mardin]] to the southwest, [[Şırnak Province|Şırnak]] to the south, and [[Van Province|Van]] to the east."
+}
+]
+},
+{
+"iso": "TR",
+"u": "TR-72",
+"v": "TR-73",
+"lu": "Batman",
+"lv": "Sirnak",
+"qu": "Q80370",
+"qv": "Q647378",
+"lon": 41.81691,
+"lat": 37.71382,
+"p47": false,
+"meeting": [
+"TR-47",
+"TR-56",
+"TR-72",
+"TR-73"
+],
+"wp": []
+},
+{
+"iso": "UG",
+"u": "UG-105",
+"v": "UG-118",
+"lu": "Masaka",
+"lv": "Bukomansimbi",
+"qu": "Q1032233",
+"qv": "Q3321599",
+"lon": 31.72109,
+"lat": -0.26218,
+"p47": false,
+"meeting": [
+"UG-105",
+"UG-118",
+"UG-122",
+"UG-124"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Bukomansimbi_District",
+"name": "masaka",
+"quote": "Bukomansimbi District is bordered by [[Gomba District]] to the north, [[Kalungu District]] to the east, [[Masaka District]] to the southeast, [[Lwengo District]] to the southwest and [[Sembabule District]] to the northwest.<ref>[[Districts of uganda|Districts of Uganda]]</ref> [[Bukomansimbi]], wher"
+}
+]
+},
+{
+"iso": "UG",
+"u": "UG-122",
+"v": "UG-124",
+"lu": "Kalungu",
+"lv": "Lwengo",
+"qu": "Q3321614",
+"qv": "Q1114954",
+"lon": 31.72109,
+"lat": -0.26218,
+"p47": false,
+"meeting": [
+"UG-105",
+"UG-118",
+"UG-122",
+"UG-124"
+],
+"wp": []
+},
+{
+"iso": "UG",
+"u": "UG-206",
+"v": "UG-223",
+"lu": "Kapchorwa",
+"lv": "Bududa",
+"qu": "Q1229921",
+"qv": "Q1365449",
+"lon": 34.50748,
+"lat": 1.10252,
+"p47": false,
+"meeting": [
+"UG-206",
+"UG-223"
+],
+"wp": []
+},
+{
+"iso": "UG",
+"u": "UG-208",
+"v": "UG-225",
+"lu": "Kumi",
+"lv": "Bulambuli",
+"qu": "Q1151062",
+"qv": "Q1114868",
+"lon": 34.22967,
+"lat": 1.55572,
+"p47": false,
+"meeting": [
+"UG-208",
+"UG-224",
+"UG-225",
+"UG-311"
+],
+"wp": []
+},
+{
+"iso": "UG",
+"u": "UG-210",
+"v": "UG-222",
+"lu": "Pallisa",
+"lv": "Namutumba",
+"qu": "Q1375843",
+"qv": "Q1375819",
+"lon": 33.63291,
+"lat": 1.08763,
+"p47": false,
+"meeting": [
+"UG-210",
+"UG-220",
+"UG-222",
+"UG-227"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Namutumba_District",
+"name": "pallisa",
+"quote": "Namutumba District is bordered by [[Pallisa District]] to the north, [[Kibuku District]] to the northeast, [[Butaleja District]] to the southeast, [[Bugiri District]] to the south, [[Iganga District]] to the southwest and [[Kaliro District]] to the northwest.<ref>[[Districts of uganda|Uganda Distric"
+}
+]
+},
+{
+"iso": "UG",
+"u": "UG-213",
+"v": "UG-302",
+"lu": "Kaberamaido",
+"lv": "Apac",
+"qu": "Q1229906",
+"qv": "Q1229750",
+"lon": 32.98934,
+"lat": 1.71545,
+"p47": false,
+"meeting": [],
+"wp": []
+},
+{
+"iso": "UG",
+"u": "UG-220",
+"v": "UG-227",
+"lu": "Kaliro",
+"lv": "Kibuku",
+"qu": "Q1375859",
+"qv": "Q1114885",
+"lon": 33.63291,
+"lat": 1.08763,
+"p47": false,
+"meeting": [
+"UG-210",
+"UG-220",
+"UG-222",
+"UG-227"
+],
+"wp": []
+},
+{
+"iso": "UG",
+"u": "UG-224",
+"v": "UG-311",
+"lu": "Bukedea",
+"lv": "Nakapiripirit",
+"qu": "Q1375812",
+"qv": "Q1375853",
+"lon": 34.22967,
+"lat": 1.55572,
+"p47": false,
+"meeting": [
+"UG-208",
+"UG-224",
+"UG-225",
+"UG-311"
+],
+"wp": []
+},
+{
+"iso": "UG",
+"u": "UG-303",
+"v": "UG-316",
+"lu": "Arua",
+"lv": "Koboko",
+"qu": "Q1229758",
+"qv": "Q1318857",
+"lon": 31.05374,
+"lat": 3.31298,
+"p47": false,
+"meeting": [
+"UG-303",
+"UG-313",
+"UG-316",
+"UG-320"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Arua_District",
+"name": "koboko",
+"quote": "The development of Vurra-Arua-Koboko-Oraba Road has further enhanced regional connectivity and trade within the west Nile sub-region and neighbouring countries."
+}
+]
+},
+{
+"iso": "UG",
+"u": "UG-313",
+"v": "UG-320",
+"lu": "Yumbe",
+"lv": "Maracha",
+"qu": "Q1362587",
+"qv": "Q588927",
+"lon": 31.05374,
+"lat": 3.31298,
+"p47": false,
+"meeting": [
+"UG-303",
+"UG-313",
+"UG-316",
+"UG-320"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Yumbe_District",
+"name": "maracha",
+"quote": "The district is bordered by [[South Sudan]] to the north, [[Moyo District]] to the east, [[Adjumani District]] to the southeast, [[Arua District]] to the south, [[Maracha District]] to the southwest and [[Koboko District]] to the west.<ref>[[Districts of Uganda|Uganda District Map]]</ref> The distri"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Maracha_District",
+"name": "yumbe",
+"quote": "Maracha District is bordered by [[Koboko District]] to the north, [[Yumbe District]] to the north-east,  Democratic Republic of Congo to the west, Arua district to the south and south east and Terego District to the east <ref>{{Cite web |title=Maracha District |url=https://www.maracha.go.ug/ |access"
+}
+]
+},
+{
+"iso": "UG",
+"u": "UG-314",
+"v": "UG-318",
+"lu": "Amolatar",
+"lv": "Dokolo",
+"qu": "Q1318822",
+"qv": "Q1318872",
+"lon": 32.98934,
+"lat": 1.71545,
+"p47": false,
+"meeting": [],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Amolatar_District",
+"name": "dokolo",
+"quote": "Amolatar [[District]] is bordered by [[Apac District]] to the north, [[Dokolo District]] to the northeast, [[Kaberamaido District]] to the east, [[Buyende District]] to the southeast, [[Kayunga District]] to the south and [[Nakasongola District]] to the west."
+},
+{
+"url": "https://en.wikipedia.org/wiki/Dokolo_District",
+"name": "amolatar",
+"quote": "Dokolo District is bordered by [[Lira District]] to the northwest, [[Alebtong District]] to the northeast, [[Kaberamaido District]] to the east and south, [[Amolatar District]] to the southwest, and [[Kwania District|Kwania district]] to the west."
+}
+]
+},
+{
+"iso": "US",
+"u": "US-AZ",
+"v": "US-CO",
+"lu": "Arizona",
+"lv": "Colorado",
+"qu": "Q816",
+"qv": "Q1261",
+"lon": -109.04662,
+"lat": 36.99981,
+"p47": true,
+"meeting": [
+"US-AZ",
+"US-CO",
+"US-NM",
+"US-UT"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Arizona",
+"name": "colorado",
+"quote": "| elevation_min_point = [[Colorado River]] at the {{nowrap|[[Mexico–United States border|Mexico border]]}}<ref name=USGS/>{{efn|name=NAVD88}}"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Colorado",
+"name": "arizona",
+"quote": "The [[Four Corners Monument]] in the southwest corner of Colorado marks the common boundary of Colorado, [[New Mexico]], [[Arizona]], and [[Utah]], the only such place in the United States.<ref>{{Cite web |title=Four Corners Colorado, Utah, New Mexico, Arizona, USA Vacation |url=http://explorefourco"
+}
+]
+},
+{
+"iso": "US",
+"u": "US-NM",
+"v": "US-UT",
+"lu": "New Mexico",
+"lv": "Utah",
+"qu": "Q1522",
+"qv": "Q829",
+"lon": -109.04662,
+"lat": 36.99981,
+"p47": true,
+"meeting": [
+"US-AZ",
+"US-CO",
+"US-NM",
+"US-UT"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/New_Mexico",
+"name": "utah",
+"quote": "government to drop their claims, Texas received $10{{spaces}}million in federal funds, California was granted statehood, and officially establishing the [[Utah Territory]]; therein recognizing most of New Mexico's historically established land claims.<ref name=\"Simmons 1988\" />{{Rp|135}} Pursuant to"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Utah",
+"name": "new mexico",
+"quote": "It is one of the [[Four Corners]] states, sharing a border with [[Arizona]], [[Colorado]], and [[New Mexico]]."
+}
+]
+},
+{
+"iso": "UY",
+"u": "UY-DU",
+"v": "UY-SO",
+"lu": "Durazno",
+"lv": "Soriano",
+"qu": "Q16591",
+"qv": "Q16584",
+"lon": -57.12713,
+"lat": -33.12309,
+"p47": false,
+"meeting": [
+"UY-DU",
+"UY-SO"
+],
+"wp": []
+},
+{
+"iso": "UY",
+"u": "UY-SJ",
+"v": "UY-SO",
+"lu": "San José",
+"lv": "Soriano",
+"qu": "Q16579",
+"qv": "Q16584",
+"lon": -57.07772,
+"lat": -33.96299,
+"p47": true,
+"meeting": [
+"UY-SJ",
+"UY-SO"
+],
+"wp": [
+{
+"url": "https://es.wikipedia.org/wiki/Departamento_de_San_Jos%C3%A9",
+"name": "soriano",
+"quote": "Pese a estar muy próximo al límite de [[Departamento de Soriano|Soriano]], no mantiene límites con este."
+},
+{
+"url": "https://es.wikipedia.org/wiki/Departamento_de_Soriano",
+"name": "san jose",
+"quote": "Pese a estar muy próximo al límite de [[Departamento de San José|San José]], no mantiene límites con este ni tampoco se crea un [[cuatrifinio]].<!--debido a una pequeña intersección del municipio poronguero de [[Ismael Cortinas (localidad)|Ismael Cortinas]] como impedimento.-->"
+}
+]
+},
+{
+"iso": "VN",
+"u": "VN-03",
+"v": "VN-53",
+"lu": "Hà Giang",
+"lv": "Đông Bắc",
+"qu": "Q36685",
+"qv": "Q36404",
+"lon": 105.56764,
+"lat": 22.59224,
+"p47": false,
+"meeting": [
+"VN-03",
+"VN-53"
+],
+"wp": []
+},
+{
+"iso": "VN",
+"u": "VN-46",
+"v": "VN-CT",
+"lu": "Tiền Giang",
+"lv": "Can Tho",
+"qu": "Q36666",
+"qv": "Q216075",
+"lon": 105.84902,
+"lat": 10.30144,
+"p47": false,
+"meeting": [
+"VN-46",
+"VN-CT"
+],
+"wp": []
+},
+{
+"iso": "XK",
+"u": "XK-X01~",
+"v": "XK-X14~",
+"lu": "Đakovica",
+"lv": "Mališevo",
+"qu": "Q3656386",
+"qv": "Q794063",
+"lon": 20.541,
+"lat": 42.50206,
+"p47": false,
+"meeting": [
+"XK-X01~",
+"XK-X08~",
+"XK-X14~",
+"XK-X17~"
+],
+"wp": []
+},
+{
+"iso": "XK",
+"u": "XK-X04~",
+"v": "XK-X08~",
+"lu": "Glogovac",
+"lv": "Klina",
+"qu": "Q860365",
+"qv": "Q860157",
+"lon": 20.75918,
+"lat": 42.60941,
+"p47": false,
+"meeting": [
+"XK-X04~",
+"XK-X08~",
+"XK-X14~",
+"XK-X22~"
+],
+"wp": []
+},
+{
+"iso": "XK",
+"u": "XK-X08~",
+"v": "XK-X17~",
+"lu": "Klina",
+"lv": "Orahovac",
+"qu": "Q860157",
+"qv": "Q794039",
+"lon": 20.541,
+"lat": 42.50206,
+"p47": false,
+"meeting": [
+"XK-X01~",
+"XK-X08~",
+"XK-X14~",
+"XK-X17~"
+],
+"wp": [
+{
+"url": "https://en.wikipedia.org/wiki/Orahovac_Municipality",
+"name": "klina",
+"quote": "To the north, it shortly borders [[Klina]], to the northeast [[Malisheva]], to the southeast [[Suhareka]] and [[Mamusha]], to the south [[Prizren]], and to the west [[Gjakova]]."
+},
+{
+"url": "https://sq.wikipedia.org/wiki/Komuna_e_Rahovecit",
+"name": "komuna e klines",
+"quote": "Komuna e Rahovecit ndodhet në jug-perëndim të Kosovës.Kufizohet me  [[Komuna e Gjakovës|Gjakovën]] në perëndim, me [[Komuna e Klinës|Klinën]] dhe [[Komuna e Malishevës|Malishevën]] në veri, [[ Komuna e Suharekës |Suhareka]] dhe [[Komuna e Mamushës|Mamushën]] në lindje dhe [[Komuna e Prizrenit|Prizre"
+}
+]
+},
+{
+"iso": "XK",
+"u": "XK-X14~",
+"v": "XK-X22~",
+"lu": "Mališevo",
+"lv": "Srbica",
+"qu": "Q794063",
+"qv": "Q2043122",
+"lon": 20.75918,
+"lat": 42.60941,
+"p47": false,
+"meeting": [
+"XK-X04~",
+"XK-X08~",
+"XK-X14~",
+"XK-X22~"
+],
+"wp": []
+}
+]

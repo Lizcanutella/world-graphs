@@ -1,0 +1,828 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ME",
+ "kind": "country",
+ "name": "Montenegro",
+ "level": "municipalities",
+ "n": 21,
+ "m": 41,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ME-01",
+   "name": "Andrijevica",
+   "wikidata": "Q2384773",
+   "lon": 19.77591,
+   "lat": 42.70889
+  },
+  {
+   "code": "ME-02",
+   "name": "Bar",
+   "wikidata": "Q2604068",
+   "lon": 19.13255,
+   "lat": 42.16589
+  },
+  {
+   "code": "ME-03",
+   "name": "Berane",
+   "wikidata": "Q4853794",
+   "lon": 19.86936,
+   "lat": 42.84727
+  },
+  {
+   "code": "ME-04",
+   "name": "Bijelo Polje",
+   "wikidata": "Q4086488",
+   "lon": 19.72791,
+   "lat": 43.05972
+  },
+  {
+   "code": "ME-05",
+   "name": "Budva",
+   "wikidata": "Q3739214",
+   "lon": 18.9165,
+   "lat": 42.27326
+  },
+  {
+   "code": "ME-06",
+   "name": "Cetinje",
+   "wikidata": "Q3305075",
+   "lon": 18.86067,
+   "lat": 42.49943
+  },
+  {
+   "code": "ME-07",
+   "name": "Danilovgrad",
+   "wikidata": "Q3741507",
+   "lon": 19.12473,
+   "lat": 42.62857
+  },
+  {
+   "code": "ME-08",
+   "name": "Herceg Novi",
+   "wikidata": "Q3317366",
+   "lon": 18.53164,
+   "lat": 42.50331
+  },
+  {
+   "code": "ME-09",
+   "name": "Kolašin",
+   "wikidata": "Q3303233",
+   "lon": 19.42239,
+   "lat": 42.79798
+  },
+  {
+   "code": "ME-10",
+   "name": "Kotor",
+   "wikidata": "Q4856305",
+   "lon": 18.74645,
+   "lat": 42.44551
+  },
+  {
+   "code": "ME-11",
+   "name": "Mojkovac",
+   "wikidata": "Q3299782",
+   "lon": 19.50082,
+   "lat": 42.96623
+  },
+  {
+   "code": "ME-12",
+   "name": "Nikšic",
+   "wikidata": "Q4865016",
+   "lon": 18.79443,
+   "lat": 42.87337
+  },
+  {
+   "code": "ME-13",
+   "name": "Plav",
+   "wikidata": "Q4859821",
+   "lon": 19.91173,
+   "lat": 42.58345
+  },
+  {
+   "code": "ME-14",
+   "name": "Pljevlja",
+   "wikidata": "Q3299950",
+   "lon": 19.24707,
+   "lat": 43.29491
+  },
+  {
+   "code": "ME-15",
+   "name": "Plužine",
+   "wikidata": "Q4864476",
+   "lon": 18.81366,
+   "lat": 43.14651
+  },
+  {
+   "code": "ME-16",
+   "name": "Podgorica",
+   "wikidata": "Q3305250",
+   "lon": 19.26695,
+   "lat": 42.46488
+  },
+  {
+   "code": "ME-17",
+   "name": "Rožaje",
+   "wikidata": "Q3296677",
+   "lon": 20.21492,
+   "lat": 42.86133
+  },
+  {
+   "code": "ME-18",
+   "name": "Šavnik",
+   "wikidata": "Q13365880",
+   "lon": 19.1615,
+   "lat": 42.9665
+  },
+  {
+   "code": "ME-19",
+   "name": "Tivat",
+   "wikidata": "Q3738564",
+   "lon": 18.71867,
+   "lat": 42.41694
+  },
+  {
+   "code": "ME-20",
+   "name": "Ulcinj",
+   "wikidata": "Q3305169",
+   "lon": 19.25553,
+   "lat": 41.98145
+  },
+  {
+   "code": "ME-21",
+   "name": "Žabljak",
+   "wikidata": "Q3304454",
+   "lon": 19.1409,
+   "lat": 43.14229
+  }
+ ],
+ "edges": [
+  {
+   "u": "ME-01",
+   "v": "ME-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28585
+  },
+  {
+   "u": "ME-01",
+   "v": "ME-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22434
+  },
+  {
+   "u": "ME-01",
+   "v": "ME-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17614
+  },
+  {
+   "u": "ME-01",
+   "v": "ME-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4198
+  },
+  {
+   "u": "ME-02",
+   "v": "ME-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16132
+  },
+  {
+   "u": "ME-02",
+   "v": "ME-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19246
+  },
+  {
+   "u": "ME-02",
+   "v": "ME-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19181
+  },
+  {
+   "u": "ME-02",
+   "v": "ME-20",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32534
+  },
+  {
+   "u": "ME-03",
+   "v": "ME-04",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33777
+  },
+  {
+   "u": "ME-03",
+   "v": "ME-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6423
+  },
+  {
+   "u": "ME-03",
+   "v": "ME-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3370,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mojkovac_Municipality"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Mojkovac"
+    }
+   ]
+  },
+  {
+   "u": "ME-03",
+   "v": "ME-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10652
+  },
+  {
+   "u": "ME-03",
+   "v": "ME-17",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24699
+  },
+  {
+   "u": "ME-04",
+   "v": "ME-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28545
+  },
+  {
+   "u": "ME-04",
+   "v": "ME-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21080,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pljevlja_Municipality"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Pljevlja"
+    }
+   ]
+  },
+  {
+   "u": "ME-05",
+   "v": "ME-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13658
+  },
+  {
+   "u": "ME-05",
+   "v": "ME-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8847
+  },
+  {
+   "u": "ME-06",
+   "v": "ME-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15648
+  },
+  {
+   "u": "ME-06",
+   "v": "ME-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34877
+  },
+  {
+   "u": "ME-06",
+   "v": "ME-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35229
+  },
+  {
+   "u": "ME-06",
+   "v": "ME-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32630
+  },
+  {
+   "u": "ME-07",
+   "v": "ME-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13128
+  },
+  {
+   "u": "ME-07",
+   "v": "ME-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34789
+  },
+  {
+   "u": "ME-07",
+   "v": "ME-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41531
+  },
+  {
+   "u": "ME-08",
+   "v": "ME-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20856
+  },
+  {
+   "u": "ME-08",
+   "v": "ME-19",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3851
+  },
+  {
+   "u": "ME-09",
+   "v": "ME-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26480
+  },
+  {
+   "u": "ME-09",
+   "v": "ME-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11354
+  },
+  {
+   "u": "ME-09",
+   "v": "ME-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36127
+  },
+  {
+   "u": "ME-09",
+   "v": "ME-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20732
+  },
+  {
+   "u": "ME-10",
+   "v": "ME-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8699
+  },
+  {
+   "u": "ME-10",
+   "v": "ME-19",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15554
+  },
+  {
+   "u": "ME-11",
+   "v": "ME-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4129,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pljevlja_Municipality"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Pljevlja"
+    }
+   ]
+  },
+  {
+   "u": "ME-11",
+   "v": "ME-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7428
+  },
+  {
+   "u": "ME-11",
+   "v": "ME-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9808
+  },
+  {
+   "u": "ME-12",
+   "v": "ME-15",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39189
+  },
+  {
+   "u": "ME-12",
+   "v": "ME-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20922
+  },
+  {
+   "u": "ME-14",
+   "v": "ME-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46181
+  },
+  {
+   "u": "ME-15",
+   "v": "ME-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25440
+  },
+  {
+   "u": "ME-15",
+   "v": "ME-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20340
+  },
+  {
+   "u": "ME-18",
+   "v": "ME-21",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30188
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MNE-ADM1-59799669",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

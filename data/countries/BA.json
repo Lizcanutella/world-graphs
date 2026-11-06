@@ -1,0 +1,740 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BA",
+ "kind": "country",
+ "name": "Bosnia and Herzegovina",
+ "level": "entity",
+ "n": 18,
+ "m": 39,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BA-BIH:Bosnian Podrinje",
+   "name": "Bosnian Podrinje",
+   "wikidata": "Q18256",
+   "lon": 18.82579,
+   "lat": 43.67255
+  },
+  {
+   "code": "BA-BIH:Central Bosnia",
+   "name": "Central Bosnia",
+   "wikidata": "Q18262",
+   "lon": 17.58982,
+   "lat": 44.12088
+  },
+  {
+   "code": "BA-BIH:Herzegovina-Neretva",
+   "name": "Herzegovina-Neretva",
+   "wikidata": "Q18273",
+   "lon": 17.84607,
+   "lat": 43.2292
+  },
+  {
+   "code": "BA-BIH:Sarajevo",
+   "name": "Sarajevo",
+   "wikidata": "Q18276",
+   "lon": 18.32844,
+   "lat": 43.84258
+  },
+  {
+   "code": "BA-BIH:Tuzla",
+   "name": "Tuzla",
+   "wikidata": "Q18250",
+   "lon": 18.65815,
+   "lat": 44.53517
+  },
+  {
+   "code": "BA-BIH:Una-Sana",
+   "name": "Una-Sana",
+   "wikidata": "Q18248",
+   "lon": 16.27012,
+   "lat": 44.77778
+  },
+  {
+   "code": "BA-BIH:West Bosnia",
+   "name": "West Bosnia",
+   "wikidata": null,
+   "lon": 16.90661,
+   "lat": 43.98613
+  },
+  {
+   "code": "BA-BIH:West Herzegovina",
+   "name": "West Herzegovina",
+   "wikidata": "Q18275",
+   "lon": 17.49385,
+   "lat": 43.3604
+  },
+  {
+   "code": "BA-BIH:Zenica-Doboj",
+   "name": "Zenica-Doboj",
+   "wikidata": "Q18253",
+   "lon": 18.14165,
+   "lat": 44.31094
+  },
+  {
+   "code": "BA-BRC",
+   "name": "Brčko Distrikt",
+   "wikidata": "Q194483",
+   "lon": 18.84331,
+   "lat": 44.81965
+  },
+  {
+   "code": "BA-SRP",
+   "name": "Posavina",
+   "wikidata": "Q18249",
+   "lon": 18.30028,
+   "lat": 45.07846
+  },
+  {
+   "code": "BA-X01~",
+   "name": "Doboj",
+   "wikidata": null,
+   "lon": 18.02337,
+   "lat": 44.85425
+  },
+  {
+   "code": "BA-X02~",
+   "name": "Banja Luka",
+   "wikidata": null,
+   "lon": 17.35051,
+   "lat": 44.67902
+  },
+  {
+   "code": "BA-X03~",
+   "name": "Bijeljina",
+   "wikidata": null,
+   "lon": 19.06579,
+   "lat": 44.7308
+  },
+  {
+   "code": "BA-X04~",
+   "name": "Vlasenica",
+   "wikidata": null,
+   "lon": 19.05524,
+   "lat": 44.2551
+  },
+  {
+   "code": "BA-X05~",
+   "name": "Sarajevo-romanija",
+   "wikidata": null,
+   "lon": 18.86169,
+   "lat": 43.89667
+  },
+  {
+   "code": "BA-X06~",
+   "name": "Foča",
+   "wikidata": null,
+   "lon": 19.09918,
+   "lat": 43.59245
+  },
+  {
+   "code": "BA-X07~",
+   "name": "Trebinje",
+   "wikidata": null,
+   "lon": 18.24077,
+   "lat": 43.00287
+  }
+ ],
+ "edges": [
+  {
+   "u": "BA-BIH:Bosnian Podrinje",
+   "v": "BA-BIH:Sarajevo",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5835,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "BA-BIH:Bosnian Podrinje",
+   "v": "BA-X05~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34947
+  },
+  {
+   "u": "BA-BIH:Bosnian Podrinje",
+   "v": "BA-X06~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 56624
+  },
+  {
+   "u": "BA-BIH:Central Bosnia",
+   "v": "BA-BIH:Herzegovina-Neretva",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50362
+  },
+  {
+   "u": "BA-BIH:Central Bosnia",
+   "v": "BA-BIH:Sarajevo",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23002,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "BA-BIH:Central Bosnia",
+   "v": "BA-BIH:West Bosnia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30909
+  },
+  {
+   "u": "BA-BIH:Central Bosnia",
+   "v": "BA-BIH:Zenica-Doboj",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72457
+  },
+  {
+   "u": "BA-BIH:Central Bosnia",
+   "v": "BA-X02~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 97220
+  },
+  {
+   "u": "BA-BIH:Herzegovina-Neretva",
+   "v": "BA-BIH:Sarajevo",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46666,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "BA-BIH:Herzegovina-Neretva",
+   "v": "BA-BIH:West Bosnia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37796
+  },
+  {
+   "u": "BA-BIH:Herzegovina-Neretva",
+   "v": "BA-BIH:West Herzegovina",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101064
+  },
+  {
+   "u": "BA-BIH:Herzegovina-Neretva",
+   "v": "BA-X06~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19980
+  },
+  {
+   "u": "BA-BIH:Herzegovina-Neretva",
+   "v": "BA-X07~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 142955
+  },
+  {
+   "u": "BA-BIH:Sarajevo",
+   "v": "BA-BIH:Zenica-Doboj",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54717,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "BA-BIH:Sarajevo",
+   "v": "BA-X05~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 92217
+  },
+  {
+   "u": "BA-BIH:Sarajevo",
+   "v": "BA-X06~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 873
+  },
+  {
+   "u": "BA-BIH:Tuzla",
+   "v": "BA-BIH:Zenica-Doboj",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73952
+  },
+  {
+   "u": "BA-BIH:Tuzla",
+   "v": "BA-BRC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13482
+  },
+  {
+   "u": "BA-BIH:Tuzla",
+   "v": "BA-X01~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 112168
+  },
+  {
+   "u": "BA-BIH:Tuzla",
+   "v": "BA-X03~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56158
+  },
+  {
+   "u": "BA-BIH:Tuzla",
+   "v": "BA-X04~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61270
+  },
+  {
+   "u": "BA-BIH:Una-Sana",
+   "v": "BA-BIH:West Bosnia",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30585,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Una-Sana_Canton"
+    }
+   ]
+  },
+  {
+   "u": "BA-BIH:Una-Sana",
+   "v": "BA-X02~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136685
+  },
+  {
+   "u": "BA-BIH:West Bosnia",
+   "v": "BA-BIH:West Herzegovina",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46528
+  },
+  {
+   "u": "BA-BIH:West Bosnia",
+   "v": "BA-X02~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77439
+  },
+  {
+   "u": "BA-BIH:Zenica-Doboj",
+   "v": "BA-X01~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40691
+  },
+  {
+   "u": "BA-BIH:Zenica-Doboj",
+   "v": "BA-X02~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49285
+  },
+  {
+   "u": "BA-BIH:Zenica-Doboj",
+   "v": "BA-X04~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3856
+  },
+  {
+   "u": "BA-BIH:Zenica-Doboj",
+   "v": "BA-X05~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14955
+  },
+  {
+   "u": "BA-BRC",
+   "v": "BA-SRP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13017
+  },
+  {
+   "u": "BA-BRC",
+   "v": "BA-X01~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5512
+  },
+  {
+   "u": "BA-BRC",
+   "v": "BA-X03~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21019
+  },
+  {
+   "u": "BA-SRP",
+   "v": "BA-X01~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 71255
+  },
+  {
+   "u": "BA-X01~",
+   "v": "BA-X02~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55403
+  },
+  {
+   "u": "BA-X03~",
+   "v": "BA-X04~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15477
+  },
+  {
+   "u": "BA-X04~",
+   "v": "BA-X05~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46134
+  },
+  {
+   "u": "BA-X04~",
+   "v": "BA-X06~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3662
+  },
+  {
+   "u": "BA-X05~",
+   "v": "BA-X06~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61127
+  },
+  {
+   "u": "BA-X06~",
+   "v": "BA-X07~",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41827
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BIH-ADM3-43093233",
+  "level": "ADM3",
+  "year": "2013",
+  "license": "Public Domain"
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MV",
+ "kind": "country",
+ "name": "Maldives",
+ "level": "administrative atoll",
+ "n": 21,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MV-00",
+   "name": "Alifu Dhaalu",
+   "wikidata": "Q2316922",
+   "lon": 72.69313,
+   "lat": 3.72093
+  },
+  {
+   "code": "MV-01",
+   "name": "Addu",
+   "wikidata": "Q353375",
+   "lon": 73.10318,
+   "lat": -0.61183
+  },
+  {
+   "code": "MV-02",
+   "name": "Alifu Alifu",
+   "wikidata": "Q775323",
+   "lon": 72.95081,
+   "lat": 4.42733
+  },
+  {
+   "code": "MV-03",
+   "name": "Lhaviyani",
+   "wikidata": "Q1390048",
+   "lon": 73.58,
+   "lat": 5.27835
+  },
+  {
+   "code": "MV-04",
+   "name": "Vaavu",
+   "wikidata": "Q2709111",
+   "lon": 73.74856,
+   "lat": 3.44982
+  },
+  {
+   "code": "MV-05",
+   "name": "Laamu",
+   "wikidata": "Q1996432",
+   "lon": 73.56726,
+   "lat": 2.10057
+  },
+  {
+   "code": "MV-07",
+   "name": "Haa Alifu",
+   "wikidata": "Q2360912",
+   "lon": 73.18746,
+   "lat": 6.82577
+  },
+  {
+   "code": "MV-08",
+   "name": "Thaa",
+   "wikidata": "Q2709118",
+   "lon": 73.36263,
+   "lat": 2.40477
+  },
+  {
+   "code": "MV-12:Malé",
+   "name": "Malé",
+   "wikidata": "Q9347",
+   "lon": 73.53386,
+   "lat": 4.19947
+  },
+  {
+   "code": "MV-12:Meemu",
+   "name": "Meemu",
+   "wikidata": "Q2210716",
+   "lon": 73.35951,
+   "lat": 2.9005
+  },
+  {
+   "code": "MV-13",
+   "name": "Raa",
+   "wikidata": "Q1457965",
+   "lon": 72.97345,
+   "lat": 5.80943
+  },
+  {
+   "code": "MV-14",
+   "name": "Faafu",
+   "wikidata": "Q2469227",
+   "lon": 72.97858,
+   "lat": 3.10617
+  },
+  {
+   "code": "MV-17",
+   "name": "Dhaalu",
+   "wikidata": "Q2290784",
+   "lon": 72.87021,
+   "lat": 2.68781
+  },
+  {
+   "code": "MV-20",
+   "name": "Baa",
+   "wikidata": "Q949513",
+   "lon": 73.04807,
+   "lat": 5.12958
+  },
+  {
+   "code": "MV-23",
+   "name": "Haa Dhaalu",
+   "wikidata": "Q2360368",
+   "lon": 73.15186,
+   "lat": 6.75871
+  },
+  {
+   "code": "MV-24",
+   "name": "Shaviyani",
+   "wikidata": "Q2190334",
+   "lon": 73.19811,
+   "lat": 6.32294
+  },
+  {
+   "code": "MV-25",
+   "name": "Noonu",
+   "wikidata": "Q2406322",
+   "lon": 73.38925,
+   "lat": 5.96336
+  },
+  {
+   "code": "MV-26",
+   "name": "Kaafu",
+   "wikidata": "Q1468407",
+   "lon": 73.44166,
+   "lat": 4.97219
+  },
+  {
+   "code": "MV-27",
+   "name": "Gaafu Alifu",
+   "wikidata": "Q1116203",
+   "lon": 73.38558,
+   "lat": 0.63784
+  },
+  {
+   "code": "MV-28",
+   "name": "Gaafu Dhaalu",
+   "wikidata": "Q2640183",
+   "lon": 73.21326,
+   "lat": 0.23668
+  },
+  {
+   "code": "MV-29",
+   "name": "Gnaviyani",
+   "wikidata": "Q1811116",
+   "lon": 73.44029,
+   "lat": -0.29559
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MDV-ADM1-51498476",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

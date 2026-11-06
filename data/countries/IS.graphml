@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="IS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="IS-0"><data key="name">Reykjavík</data><data key="code">IS-0</data><data key="wikidata">Q1764</data><data key="lon">-21.71032</data><data key="lat">64.14037</data></node>
+    <node id="IS-1"><data key="name">Höfuðborgarsvæði</data><data key="code">IS-1</data><data key="wikidata">Q203304</data><data key="lon">-21.5081</data><data key="lat">64.20058</data></node>
+    <node id="IS-2"><data key="name">Suðurnes</data><data key="code">IS-2</data><data key="wikidata">Q212768</data><data key="lon">-22.19353</data><data key="lat">63.95087</data></node>
+    <node id="IS-3"><data key="name">Vesturland</data><data key="code">IS-3</data><data key="wikidata">Q221791</data><data key="lon">-21.71749</data><data key="lat">64.89981</data></node>
+    <node id="IS-4"><data key="name">Vestfirðir</data><data key="code">IS-4</data><data key="wikidata">Q727267</data><data key="lon">-22.60213</data><data key="lat">65.72106</data></node>
+    <node id="IS-5"><data key="name">Norðurland vestra</data><data key="code">IS-5</data><data key="wikidata">Q210866</data><data key="lon">-19.87314</data><data key="lat">65.45518</data></node>
+    <node id="IS-6"><data key="name">Norðurland eystra</data><data key="code">IS-6</data><data key="wikidata">Q241551</data><data key="lon">-17.39813</data><data key="lat">65.5028</data></node>
+    <node id="IS-7"><data key="name">Austurland</data><data key="code">IS-7</data><data key="wikidata">Q220663</data><data key="lon">-15.21523</data><data key="lat">64.88329</data></node>
+    <node id="IS-8"><data key="name">Suðurland</data><data key="code">IS-8</data><data key="wikidata">Q204796</data><data key="lon">-19.35533</data><data key="lat">64.12501</data></node>
+    <edge source="IS-0" target="IS-1"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IS-0" target="IS-2"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IS-1" target="IS-2"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IS-1" target="IS-3"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IS-1" target="IS-8"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IS-2" target="IS-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-3" target="IS-4"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-3" target="IS-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-3" target="IS-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-4" target="IS-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-5" target="IS-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-5" target="IS-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-6" target="IS-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-6" target="IS-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IS-7" target="IS-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

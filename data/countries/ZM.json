@@ -1,0 +1,379 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ZM",
+ "kind": "country",
+ "name": "Zambia",
+ "level": "provinces",
+ "n": 10,
+ "m": 16,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ZM-01",
+   "name": "Western",
+   "wikidata": "Q748486",
+   "lon": 23.6306,
+   "lat": -15.65863
+  },
+  {
+   "code": "ZM-02",
+   "name": "Central",
+   "wikidata": "Q190718",
+   "lon": 29.73058,
+   "lat": -13.87308
+  },
+  {
+   "code": "ZM-03",
+   "name": "Eastern",
+   "wikidata": "Q823810",
+   "lon": 32.27908,
+   "lat": -13.31665
+  },
+  {
+   "code": "ZM-04",
+   "name": "Luapula",
+   "wikidata": "Q386667",
+   "lon": 29.03753,
+   "lat": -10.41582
+  },
+  {
+   "code": "ZM-05",
+   "name": "Northern",
+   "wikidata": "Q778738",
+   "lon": 30.56992,
+   "lat": -9.86467
+  },
+  {
+   "code": "ZM-06",
+   "name": "North-Western",
+   "wikidata": "Q846320",
+   "lon": 25.38091,
+   "lat": -12.80043
+  },
+  {
+   "code": "ZM-07",
+   "name": "Southern",
+   "wikidata": "Q738382",
+   "lon": 26.67726,
+   "lat": -16.68131
+  },
+  {
+   "code": "ZM-08",
+   "name": "Copperbelt",
+   "wikidata": "Q1131523",
+   "lon": 27.95016,
+   "lat": -13.08204
+  },
+  {
+   "code": "ZM-09",
+   "name": "Lusaka",
+   "wikidata": "Q819998",
+   "lon": 29.32063,
+   "lat": -15.30211
+  },
+  {
+   "code": "ZM-10",
+   "name": "Muchinga",
+   "wikidata": "Q6714242",
+   "lon": 32.01815,
+   "lat": -11.2857
+  }
+ ],
+ "edges": [
+  {
+   "u": "ZM-01",
+   "v": "ZM-02",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 93013
+  },
+  {
+   "u": "ZM-01",
+   "v": "ZM-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 567337
+  },
+  {
+   "u": "ZM-01",
+   "v": "ZM-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 342988
+  },
+  {
+   "u": "ZM-02",
+   "v": "ZM-03",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 288209
+  },
+  {
+   "u": "ZM-02",
+   "v": "ZM-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 265698
+  },
+  {
+   "u": "ZM-02",
+   "v": "ZM-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 329362
+  },
+  {
+   "u": "ZM-02",
+   "v": "ZM-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 329123
+  },
+  {
+   "u": "ZM-02",
+   "v": "ZM-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 347756
+  },
+  {
+   "u": "ZM-02",
+   "v": "ZM-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 320421
+  },
+  {
+   "u": "ZM-03",
+   "v": "ZM-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41923
+  },
+  {
+   "u": "ZM-03",
+   "v": "ZM-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 331375
+  },
+  {
+   "u": "ZM-04",
+   "v": "ZM-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 646381
+  },
+  {
+   "u": "ZM-04",
+   "v": "ZM-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 126294
+  },
+  {
+   "u": "ZM-05",
+   "v": "ZM-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 529614
+  },
+  {
+   "u": "ZM-06",
+   "v": "ZM-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 272273
+  },
+  {
+   "u": "ZM-07",
+   "v": "ZM-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 147287
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ZMB-ADM1-6923714",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

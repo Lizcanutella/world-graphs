@@ -1,0 +1,13 @@
+[project]
+name = "world-graphs-pipeline"
+version = "0.2.0"
+description = "Build, review and export pipeline for the region-adjacency graphs (Natural Earth based)"
+requires-python = ">=3.10"
+dependencies = ["geopandas", "shapely", "pyproj", "pycountry"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = ["pytest"]

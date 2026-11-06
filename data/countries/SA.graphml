@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SA-01"><data key="name">Ar Riyad</data><data key="code">SA-01</data><data key="wikidata">Q1249255</data><data key="lon">45.23453</data><data key="lat">23.35568</data></node>
+    <node id="SA-02"><data key="name">Makkah</data><data key="code">SA-02</data><data key="wikidata">Q234167</data><data key="lon">41.42896</data><data key="lat">21.04631</data></node>
+    <node id="SA-03"><data key="name">Al Madinah</data><data key="code">SA-03</data><data key="wikidata">Q236027</data><data key="lon">39.94831</data><data key="lat">24.95181</data></node>
+    <node id="SA-04"><data key="name">Ash Sharqiyah</data><data key="code">SA-04</data><data key="wikidata">Q953508</data><data key="lon">50.3169</data><data key="lat">23.11139</data></node>
+    <node id="SA-05"><data key="name">Al Quassim</data><data key="code">SA-05</data><data key="wikidata">Q1105411</data><data key="lon">43.41925</data><data key="lat">25.96811</data></node>
+    <node id="SA-06"><data key="name">Ha'il</data><data key="code">SA-06</data><data key="wikidata">Q243656</data><data key="lon">41.74959</data><data key="lat">27.09955</data></node>
+    <node id="SA-07"><data key="name">Tabuk</data><data key="code">SA-07</data><data key="wikidata">Q1315953</data><data key="lon">36.54209</data><data key="lat">26.76291</data></node>
+    <node id="SA-08"><data key="name">Al Hudud ash Shamaliyah</data><data key="code">SA-08</data><data key="wikidata">Q201781</data><data key="lon">42.64601</data><data key="lat">29.79068</data></node>
+    <node id="SA-09"><data key="name">Jizan</data><data key="code">SA-09</data><data key="wikidata">Q269973</data><data key="lon">42.74533</data><data key="lat">17.34211</data></node>
+    <node id="SA-10"><data key="name">Najran</data><data key="code">SA-10</data><data key="wikidata">Q464718</data><data key="lon">45.61776</data><data key="lat">18.24018</data></node>
+    <node id="SA-11"><data key="name">Al Bahah</data><data key="code">SA-11</data><data key="wikidata">Q852774</data><data key="lon">41.30804</data><data key="lat">20.05903</data></node>
+    <node id="SA-12"><data key="name">Al Jawf</data><data key="code">SA-12</data><data key="wikidata">Q1471266</data><data key="lon">39.42515</data><data key="lat">29.93621</data></node>
+    <node id="SA-14"><data key="name">`Asir</data><data key="code">SA-14</data><data key="wikidata">Q779855</data><data key="lon">42.96382</data><data key="lat">19.20741</data></node>
+    <edge source="SA-01" target="SA-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-01" target="SA-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-01" target="SA-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-01" target="SA-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-01" target="SA-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-01" target="SA-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-01" target="SA-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-02" target="SA-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-02" target="SA-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-02" target="SA-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-02" target="SA-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-03" target="SA-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-03" target="SA-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-03" target="SA-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-04" target="SA-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-04" target="SA-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-05" target="SA-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-05" target="SA-08"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="SA-06" target="SA-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-06" target="SA-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-06" target="SA-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-07" target="SA-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-08" target="SA-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-09" target="SA-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-10" target="SA-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SA-11" target="SA-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

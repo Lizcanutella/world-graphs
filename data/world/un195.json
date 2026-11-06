@@ -1,0 +1,4948 @@
+{
+ "schema": "region-adjacency/1",
+ "id": "un195",
+ "kind": "world",
+ "name": "World: 193 UN members + Vatican + Palestine",
+ "level": null,
+ "n": 195,
+ "m": 315,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AFG",
+   "name": "Afghanistan",
+   "wikidata": "Q889",
+   "lon": 65.17784,
+   "lat": 33.93283
+  },
+  {
+   "code": "AGO",
+   "name": "Angola",
+   "wikidata": "Q916",
+   "lon": 18.86364,
+   "lat": -11.93149
+  },
+  {
+   "code": "ALB",
+   "name": "Albania",
+   "wikidata": "Q222",
+   "lon": 20.00649,
+   "lat": 41.14564
+  },
+  {
+   "code": "AND",
+   "name": "Andorra",
+   "wikidata": "Q228",
+   "lon": 1.56174,
+   "lat": 42.53604
+  },
+  {
+   "code": "ARE",
+   "name": "United Arab Emirates",
+   "wikidata": "Q878",
+   "lon": 55.13711,
+   "lat": 24.35262
+  },
+  {
+   "code": "ARG",
+   "name": "Argentina",
+   "wikidata": "Q414",
+   "lon": -63.96988,
+   "lat": -37.0905
+  },
+  {
+   "code": "ARM",
+   "name": "Armenia",
+   "wikidata": "Q399",
+   "lon": 44.83659,
+   "lat": 40.07887
+  },
+  {
+   "code": "ATG",
+   "name": "Antigua and Barbuda",
+   "wikidata": "Q781",
+   "lon": -61.78822,
+   "lat": 17.07917
+  },
+  {
+   "code": "AUS",
+   "name": "Australia",
+   "wikidata": "Q408",
+   "lon": 141.88213,
+   "lat": -24.91531
+  },
+  {
+   "code": "AUT",
+   "name": "Austria",
+   "wikidata": "Q40",
+   "lon": 14.7636,
+   "lat": 47.69458
+  },
+  {
+   "code": "AZE",
+   "name": "Azerbaijan",
+   "wikidata": "Q227",
+   "lon": 47.72576,
+   "lat": 40.13704
+  },
+  {
+   "code": "BDI",
+   "name": "Burundi",
+   "wikidata": "Q967",
+   "lon": 29.98108,
+   "lat": -3.38459
+  },
+  {
+   "code": "BEL",
+   "name": "Belgium",
+   "wikidata": "Q31",
+   "lon": 4.84248,
+   "lat": 50.49821
+  },
+  {
+   "code": "BEN",
+   "name": "Benin",
+   "wikidata": "Q962",
+   "lon": 2.28103,
+   "lat": 9.30679
+  },
+  {
+   "code": "BFA",
+   "name": "Burkina Faso",
+   "wikidata": "Q965",
+   "lon": -1.21098,
+   "lat": 12.22261
+  },
+  {
+   "code": "BGD",
+   "name": "Bangladesh",
+   "wikidata": "Q902",
+   "lon": 89.85934,
+   "lat": 23.67772
+  },
+  {
+   "code": "BGR",
+   "name": "Bulgaria",
+   "wikidata": "Q219",
+   "lon": 25.18968,
+   "lat": 42.73222
+  },
+  {
+   "code": "BHR",
+   "name": "Bahrain",
+   "wikidata": "Q398",
+   "lon": 50.54479,
+   "lat": 26.00208
+  },
+  {
+   "code": "BHS",
+   "name": "The Bahamas",
+   "wikidata": "Q778",
+   "lon": -78.33549,
+   "lat": 26.65282
+  },
+  {
+   "code": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "wikidata": "Q225",
+   "lon": 17.93568,
+   "lat": 43.919
+  },
+  {
+   "code": "BLR",
+   "name": "Belarus",
+   "wikidata": "Q184",
+   "lon": 28.01873,
+   "lat": 53.69944
+  },
+  {
+   "code": "BLZ",
+   "name": "Belize",
+   "wikidata": "Q242",
+   "lon": -88.72441,
+   "lat": 17.19756
+  },
+  {
+   "code": "BOL",
+   "name": "Bolivia",
+   "wikidata": "Q750",
+   "lon": -64.17305,
+   "lat": -16.2865
+  },
+  {
+   "code": "BRA",
+   "name": "Brazil",
+   "wikidata": "Q155",
+   "lon": -49.72801,
+   "lat": -14.23886
+  },
+  {
+   "code": "BRB",
+   "name": "Barbados",
+   "wikidata": "Q244",
+   "lon": -59.56616,
+   "lat": 13.19367
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "wikidata": "Q921",
+   "lon": 114.46844,
+   "lat": 4.53794
+  },
+  {
+   "code": "BTN",
+   "name": "Bhutan",
+   "wikidata": "Q917",
+   "lon": 90.29573,
+   "lat": 27.52397
+  },
+  {
+   "code": "BWA",
+   "name": "Botswana",
+   "wikidata": "Q963",
+   "lon": 24.47144,
+   "lat": -22.3453
+  },
+  {
+   "code": "CAF",
+   "name": "Central African Republic",
+   "wikidata": "Q929",
+   "lon": 20.63312,
+   "lat": 6.61479
+  },
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "wikidata": "Q16",
+   "lon": -117.30053,
+   "lat": 56.95795
+  },
+  {
+   "code": "CHE",
+   "name": "Switzerland",
+   "wikidata": "Q39",
+   "lon": 8.427,
+   "lat": 46.81195
+  },
+  {
+   "code": "CHL",
+   "name": "Chile",
+   "wikidata": "Q298",
+   "lon": -71.4964,
+   "lat": -35.71034
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "wikidata": "Q148",
+   "lon": 87.49381,
+   "lat": 36.90367
+  },
+  {
+   "code": "CIV",
+   "name": "Ivory Coast",
+   "wikidata": "Q1008",
+   "lon": -7.10088,
+   "lat": 7.53544
+  },
+  {
+   "code": "CMR",
+   "name": "Cameroon",
+   "wikidata": "Q1009",
+   "lon": 13.61094,
+   "lat": 7.37245
+  },
+  {
+   "code": "COD",
+   "name": "Democratic Republic of the Congo",
+   "wikidata": "Q974",
+   "lon": 22.32185,
+   "lat": -4.04356
+  },
+  {
+   "code": "COG",
+   "name": "Republic of the Congo",
+   "wikidata": "Q971",
+   "lon": 16.06792,
+   "lat": -0.65422
+  },
+  {
+   "code": "COL",
+   "name": "Colombia",
+   "wikidata": "Q739",
+   "lon": -72.58619,
+   "lat": 4.11347
+  },
+  {
+   "code": "COM",
+   "name": "Comoros",
+   "wikidata": "Q970",
+   "lon": 44.41879,
+   "lat": -12.22584
+  },
+  {
+   "code": "CPV",
+   "name": "Cabo Verde",
+   "wikidata": "Q1011",
+   "lon": -25.18022,
+   "lat": 17.0624
+  },
+  {
+   "code": "CRI",
+   "name": "Costa Rica",
+   "wikidata": "Q800",
+   "lon": -83.6334,
+   "lat": 9.62102
+  },
+  {
+   "code": "CUB",
+   "name": "Cuba",
+   "wikidata": "Q241",
+   "lon": -77.95216,
+   "lat": 21.51976
+  },
+  {
+   "code": "CYP",
+   "name": "Cyprus",
+   "wikidata": "Q229",
+   "lon": 32.97995,
+   "lat": 34.90489
+  },
+  {
+   "code": "CZE",
+   "name": "Czechia",
+   "wikidata": "Q213",
+   "lon": 15.51259,
+   "lat": 49.80045
+  },
+  {
+   "code": "DEU",
+   "name": "Germany",
+   "wikidata": "Q183",
+   "lon": 10.48123,
+   "lat": 51.08513
+  },
+  {
+   "code": "DJI",
+   "name": "Djibouti",
+   "wikidata": "Q977",
+   "lon": 42.49629,
+   "lat": 11.81993
+  },
+  {
+   "code": "DMA",
+   "name": "Dominica",
+   "wikidata": "Q784",
+   "lon": -61.34543,
+   "lat": 15.42534
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "wikidata": "Q35",
+   "lon": -40.33342,
+   "lat": 71.811
+  },
+  {
+   "code": "DOM",
+   "name": "Dominican Republic",
+   "wikidata": "Q786",
+   "lon": -70.12528,
+   "lat": 18.77655
+  },
+  {
+   "code": "DZA",
+   "name": "Algeria",
+   "wikidata": "Q262",
+   "lon": 0.5875,
+   "lat": 28.05099
+  },
+  {
+   "code": "ECU",
+   "name": "Ecuador",
+   "wikidata": "Q736",
+   "lon": -78.28143,
+   "lat": -1.78872
+  },
+  {
+   "code": "EGY",
+   "name": "Egypt",
+   "wikidata": "Q79",
+   "lon": 29.46414,
+   "lat": 26.82439
+  },
+  {
+   "code": "ERI",
+   "name": "Eritrea",
+   "wikidata": "Q986",
+   "lon": 38.08383,
+   "lat": 15.18181
+  },
+  {
+   "code": "ESP",
+   "name": "Spain",
+   "wikidata": "Q29",
+   "lon": -3.47653,
+   "lat": 39.89948
+  },
+  {
+   "code": "EST",
+   "name": "Estonia",
+   "wikidata": "Q191",
+   "lon": 25.35703,
+   "lat": 58.58849
+  },
+  {
+   "code": "ETH",
+   "name": "Ethiopia",
+   "wikidata": "Q115",
+   "lon": 38.96907,
+   "lat": 9.1291
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "wikidata": "Q33",
+   "lon": 27.41573,
+   "lat": 64.94389
+  },
+  {
+   "code": "FJI",
+   "name": "Fiji",
+   "wikidata": "Q712",
+   "lon": 177.98577,
+   "lat": -17.79201
+  },
+  {
+   "code": "FRA",
+   "name": "France",
+   "wikidata": "Q142",
+   "lon": 2.18759,
+   "lat": 46.70585
+  },
+  {
+   "code": "FSM",
+   "name": "Federated States of Micronesia",
+   "wikidata": "Q702",
+   "lon": 158.24746,
+   "lat": 6.88504
+  },
+  {
+   "code": "GAB",
+   "name": "Gabon",
+   "wikidata": "Q1000",
+   "lon": 11.7338,
+   "lat": -0.8152
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "wikidata": "Q145",
+   "lon": -1.91165,
+   "lat": 54.31409
+  },
+  {
+   "code": "GEO",
+   "name": "Georgia",
+   "wikidata": "Q230",
+   "lon": 43.63696,
+   "lat": 42.28696
+  },
+  {
+   "code": "GHA",
+   "name": "Ghana",
+   "wikidata": "Q117",
+   "lon": -1.4706,
+   "lat": 7.95118
+  },
+  {
+   "code": "GIN",
+   "name": "Guinea",
+   "wikidata": "Q1006",
+   "lon": -9.67599,
+   "lat": 9.93226
+  },
+  {
+   "code": "GMB",
+   "name": "Gambia",
+   "wikidata": "Q1005",
+   "lon": -14.34047,
+   "lat": 13.44278
+  },
+  {
+   "code": "GNB",
+   "name": "Guinea-Bissau",
+   "wikidata": "Q1007",
+   "lon": -14.35413,
+   "lat": 11.80178
+  },
+  {
+   "code": "GNQ",
+   "name": "Equatorial Guinea",
+   "wikidata": "Q983",
+   "lon": 10.4737,
+   "lat": 1.6306
+  },
+  {
+   "code": "GRC",
+   "name": "Greece",
+   "wikidata": "Q41",
+   "lon": 21.95268,
+   "lat": 39.07032
+  },
+  {
+   "code": "GRD",
+   "name": "Grenada",
+   "wikidata": "Q769",
+   "lon": -61.67748,
+   "lat": 12.12332
+  },
+  {
+   "code": "GTM",
+   "name": "Guatemala",
+   "wikidata": "Q774",
+   "lon": -90.38592,
+   "lat": 15.77389
+  },
+  {
+   "code": "GUY",
+   "name": "Guyana",
+   "wikidata": "Q734",
+   "lon": -58.95626,
+   "lat": 4.8625
+  },
+  {
+   "code": "HND",
+   "name": "Honduras",
+   "wikidata": "Q783",
+   "lon": -87.23045,
+   "lat": 14.50466
+  },
+  {
+   "code": "HRV",
+   "name": "Croatia",
+   "wikidata": "Q224",
+   "lon": 15.32158,
+   "lat": 44.74512
+  },
+  {
+   "code": "HTI",
+   "name": "Haiti",
+   "wikidata": "Q790",
+   "lon": -72.28342,
+   "lat": 18.98205
+  },
+  {
+   "code": "HUN",
+   "name": "Hungary",
+   "wikidata": "Q28",
+   "lon": 19.11919,
+   "lat": 47.15799
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "wikidata": "Q252",
+   "lon": 113.32523,
+   "lat": 0.10491
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "wikidata": "Q668",
+   "lon": 80.22651,
+   "lat": 21.78675
+  },
+  {
+   "code": "IRL",
+   "name": "Ireland",
+   "wikidata": "Q27",
+   "lon": -7.95824,
+   "lat": 53.41606
+  },
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "wikidata": "Q794",
+   "lon": 54.07558,
+   "lat": 32.42167
+  },
+  {
+   "code": "IRQ",
+   "name": "Iraq",
+   "wikidata": "Q796",
+   "lon": 42.49211,
+   "lat": 33.22145
+  },
+  {
+   "code": "ISL",
+   "name": "Iceland",
+   "wikidata": "Q189",
+   "lon": -18.46765,
+   "lat": 64.96471
+  },
+  {
+   "code": "ISR",
+   "name": "Israel",
+   "wikidata": "Q801",
+   "lon": 34.66383,
+   "lat": 31.44733
+  },
+  {
+   "code": "ITA",
+   "name": "Italy",
+   "wikidata": "Q38",
+   "lon": 12.69203,
+   "lat": 42.49249
+  },
+  {
+   "code": "JAM",
+   "name": "Jamaica",
+   "wikidata": "Q766",
+   "lon": -77.17583,
+   "lat": 18.11915
+  },
+  {
+   "code": "JOR",
+   "name": "Jordan",
+   "wikidata": "Q810",
+   "lon": 36.2997,
+   "lat": 31.26985
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "wikidata": "Q17",
+   "lon": 143.33765,
+   "lat": 43.46212
+  },
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "wikidata": "Q232",
+   "lon": 65.37557,
+   "lat": 48.00211
+  },
+  {
+   "code": "KEN",
+   "name": "Kenya",
+   "wikidata": "Q114",
+   "lon": 37.47943,
+   "lat": 0.17276
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "wikidata": "Q813",
+   "lon": 75.06975,
+   "lat": 41.22467
+  },
+  {
+   "code": "KHM",
+   "name": "Cambodia",
+   "wikidata": "Q424",
+   "lon": 106.04462,
+   "lat": 12.55931
+  },
+  {
+   "code": "KIR",
+   "name": "Kiribati",
+   "wikidata": "Q710",
+   "lon": -155.89462,
+   "lat": -5.62094
+  },
+  {
+   "code": "KNA",
+   "name": "Saint Kitts and Nevis",
+   "wikidata": "Q763",
+   "lon": -62.74947,
+   "lat": 17.31741
+  },
+  {
+   "code": "KOR",
+   "name": "South Korea",
+   "wikidata": "Q884",
+   "lon": 128.01105,
+   "lat": 36.46045
+  },
+  {
+   "code": "KWT",
+   "name": "Kuwait",
+   "wikidata": "Q817",
+   "lon": 47.41774,
+   "lat": 29.3143
+  },
+  {
+   "code": "LAO",
+   "name": "Laos",
+   "wikidata": "Q819",
+   "lon": 104.68352,
+   "lat": 18.2055
+  },
+  {
+   "code": "LBN",
+   "name": "Lebanon",
+   "wikidata": "Q822",
+   "lon": 35.90693,
+   "lat": 33.8692
+  },
+  {
+   "code": "LBR",
+   "name": "Liberia",
+   "wikidata": "Q1014",
+   "lon": -9.6852,
+   "lat": 6.45568
+  },
+  {
+   "code": "LBY",
+   "name": "Libya",
+   "wikidata": "Q1016",
+   "lon": 17.23161,
+   "lat": 26.34258
+  },
+  {
+   "code": "LCA",
+   "name": "Saint Lucia",
+   "wikidata": "Q760",
+   "lon": -60.9777,
+   "lat": 13.91315
+  },
+  {
+   "code": "LIE",
+   "name": "Liechtenstein",
+   "wikidata": "Q347",
+   "lon": 9.5351,
+   "lat": 47.15736
+  },
+  {
+   "code": "LKA",
+   "name": "Sri Lanka",
+   "wikidata": "Q854",
+   "lon": 80.66733,
+   "lat": 7.87889
+  },
+  {
+   "code": "LSO",
+   "name": "Lesotho",
+   "wikidata": "Q1013",
+   "lon": 28.16436,
+   "lat": -29.6153
+  },
+  {
+   "code": "LTU",
+   "name": "Lithuania",
+   "wikidata": "Q37",
+   "lon": 24.14687,
+   "lat": 55.17273
+  },
+  {
+   "code": "LUX",
+   "name": "Luxembourg",
+   "wikidata": "Q32",
+   "lon": 6.06511,
+   "lat": 49.80704
+  },
+  {
+   "code": "LVA",
+   "name": "Latvia",
+   "wikidata": "Q211",
+   "lon": 24.38329,
+   "lat": 56.86803
+  },
+  {
+   "code": "MAR",
+   "name": "Morocco",
+   "wikidata": "Q1028",
+   "lon": -9.9063,
+   "lat": 28.67975
+  },
+  {
+   "code": "MCO",
+   "name": "Monaco",
+   "wikidata": "Q235",
+   "lon": 7.40293,
+   "lat": 43.74161
+  },
+  {
+   "code": "MDA",
+   "name": "Moldova",
+   "wikidata": "Q217",
+   "lon": 28.82301,
+   "lat": 46.97301
+  },
+  {
+   "code": "MDG",
+   "name": "Madagascar",
+   "wikidata": "Q1019",
+   "lon": 46.72857,
+   "lat": -18.76902
+  },
+  {
+   "code": "MDV",
+   "name": "Maldives",
+   "wikidata": "Q826",
+   "lon": 73.53386,
+   "lat": 4.19947
+  },
+  {
+   "code": "MEX",
+   "name": "Mexico",
+   "wikidata": "Q96",
+   "lon": -102.25815,
+   "lat": 23.62927
+  },
+  {
+   "code": "MHL",
+   "name": "Marshall Islands",
+   "wikidata": "Q709",
+   "lon": 166.86686,
+   "lat": 11.15721
+  },
+  {
+   "code": "MKD",
+   "name": "North Macedonia",
+   "wikidata": "Q221",
+   "lon": 21.73102,
+   "lat": 41.60515
+  },
+  {
+   "code": "MLI",
+   "name": "Mali",
+   "wikidata": "Q912",
+   "lon": -0.75406,
+   "lat": 17.60567
+  },
+  {
+   "code": "MLT",
+   "name": "Malta",
+   "wikidata": "Q233",
+   "lon": 14.43814,
+   "lat": 35.89501
+  },
+  {
+   "code": "MMR",
+   "name": "Myanmar",
+   "wikidata": "Q836",
+   "lon": 95.90828,
+   "lat": 19.26184
+  },
+  {
+   "code": "MNE",
+   "name": "Montenegro",
+   "wikidata": "Q236",
+   "lon": 19.28945,
+   "lat": 42.70141
+  },
+  {
+   "code": "MNG",
+   "name": "Mongolia",
+   "wikidata": "Q711",
+   "lon": 105.40843,
+   "lat": 46.85869
+  },
+  {
+   "code": "MOZ",
+   "name": "Mozambique",
+   "wikidata": "Q1029",
+   "lon": 34.67106,
+   "lat": -18.63747
+  },
+  {
+   "code": "MRT",
+   "name": "Mauritania",
+   "wikidata": "Q1025",
+   "lon": -11.48265,
+   "lat": 21.01144
+  },
+  {
+   "code": "MUS",
+   "name": "Mauritius",
+   "wikidata": "Q1027",
+   "lon": 57.583,
+   "lat": -20.25364
+  },
+  {
+   "code": "MWI",
+   "name": "Malawi",
+   "wikidata": "Q1020",
+   "lon": 33.63929,
+   "lat": -13.26388
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "wikidata": "Q833",
+   "lon": 102.11153,
+   "lat": 3.98945
+  },
+  {
+   "code": "NAM",
+   "name": "Namibia",
+   "wikidata": "Q1030",
+   "lon": 17.23377,
+   "lat": -22.95749
+  },
+  {
+   "code": "NER",
+   "name": "Niger",
+   "wikidata": "Q1032",
+   "lon": 9.88311,
+   "lat": 17.60355
+  },
+  {
+   "code": "NGA",
+   "name": "Nigeria",
+   "wikidata": "Q1033",
+   "lon": 7.93263,
+   "lat": 9.07622
+  },
+  {
+   "code": "NIC",
+   "name": "Nicaragua",
+   "wikidata": "Q811",
+   "lon": -85.55804,
+   "lat": 12.84573
+  },
+  {
+   "code": "NLD",
+   "name": "Netherlands",
+   "wikidata": "Q55",
+   "lon": 5.51641,
+   "lat": 52.10563
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "wikidata": "Q20",
+   "lon": 22.69698,
+   "lat": 79.85177
+  },
+  {
+   "code": "NPL",
+   "name": "Nepal",
+   "wikidata": "Q837",
+   "lon": 83.10311,
+   "lat": 28.37663
+  },
+  {
+   "code": "NRU",
+   "name": "Nauru",
+   "wikidata": "Q697",
+   "lon": 166.93252,
+   "lat": -0.52125
+  },
+  {
+   "code": "NZL",
+   "name": "New Zealand",
+   "wikidata": "Q664",
+   "lon": 171.23435,
+   "lat": -43.59547
+  },
+  {
+   "code": "OMN",
+   "name": "Oman",
+   "wikidata": "Q842",
+   "lon": 56.96465,
+   "lat": 20.81733
+  },
+  {
+   "code": "PAK",
+   "name": "Pakistan",
+   "wikidata": "Q843",
+   "lon": 70.08668,
+   "lat": 30.38006
+  },
+  {
+   "code": "PAN",
+   "name": "Panama",
+   "wikidata": "Q804",
+   "lon": -81.46731,
+   "lat": 8.41721
+  },
+  {
+   "code": "PER",
+   "name": "Peru",
+   "wikidata": "Q419",
+   "lon": -75.76765,
+   "lat": -9.18342
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "wikidata": "Q928",
+   "lon": 125.24433,
+   "lat": 7.698
+  },
+  {
+   "code": "PLW",
+   "name": "Palau",
+   "wikidata": "Q695",
+   "lon": 134.58089,
+   "lat": 7.54428
+  },
+  {
+   "code": "PNG",
+   "name": "Papua New Guinea",
+   "wikidata": "Q691",
+   "lon": 144.36179,
+   "lat": -6.6399
+  },
+  {
+   "code": "POL",
+   "name": "Poland",
+   "wikidata": "Q36",
+   "lon": 19.15627,
+   "lat": 51.91992
+  },
+  {
+   "code": "PRK",
+   "name": "North Korea",
+   "wikidata": "Q423",
+   "lon": 126.7444,
+   "lat": 40.34274
+  },
+  {
+   "code": "PRT",
+   "name": "Portugal",
+   "wikidata": "Q45",
+   "lon": -8.29157,
+   "lat": 39.56508
+  },
+  {
+   "code": "PRY",
+   "name": "Paraguay",
+   "wikidata": "Q733",
+   "lon": -58.47196,
+   "lat": -23.43862
+  },
+  {
+   "code": "PSX",
+   "name": "Palestine",
+   "wikidata": "Q23792",
+   "lon": 35.27563,
+   "lat": 31.94189
+  },
+  {
+   "code": "QAT",
+   "name": "Qatar",
+   "wikidata": "Q846",
+   "lon": 51.13794,
+   "lat": 25.36365
+  },
+  {
+   "code": "ROU",
+   "name": "Romania",
+   "wikidata": "Q218",
+   "lon": 24.24782,
+   "lat": 45.96169
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "wikidata": "Q159",
+   "lon": 102.71694,
+   "lat": 59.46461
+  },
+  {
+   "code": "RWA",
+   "name": "Rwanda",
+   "wikidata": "Q1037",
+   "lon": 30.07342,
+   "lat": -1.93957
+  },
+  {
+   "code": "SAU",
+   "name": "Saudi Arabia",
+   "wikidata": "Q851",
+   "lon": 44.66298,
+   "lat": 24.24414
+  },
+  {
+   "code": "SDN",
+   "name": "Sudan",
+   "wikidata": "Q1049",
+   "lon": 29.77732,
+   "lat": 15.4506
+  },
+  {
+   "code": "SDS",
+   "name": "South Sudan",
+   "wikidata": "Q958",
+   "lon": 29.11779,
+   "lat": 7.85784
+  },
+  {
+   "code": "SEN",
+   "name": "Senegal",
+   "wikidata": "Q1041",
+   "lon": -14.65724,
+   "lat": 14.48858
+  },
+  {
+   "code": "SGP",
+   "name": "Singapore",
+   "wikidata": "Q334",
+   "lon": 103.83054,
+   "lat": 1.36455
+  },
+  {
+   "code": "SLB",
+   "name": "Solomon Islands",
+   "wikidata": "Q685",
+   "lon": 160.14815,
+   "lat": -9.58872
+  },
+  {
+   "code": "SLE",
+   "name": "Sierra Leone",
+   "wikidata": "Q1044",
+   "lon": -11.89019,
+   "lat": 8.45964
+  },
+  {
+   "code": "SLV",
+   "name": "El Salvador",
+   "wikidata": "Q792",
+   "lon": -88.91183,
+   "lat": 13.80623
+  },
+  {
+   "code": "SMR",
+   "name": "San Marino",
+   "wikidata": "Q238",
+   "lon": 12.43819,
+   "lat": 43.93418
+  },
+  {
+   "code": "SOM",
+   "name": "Somalia",
+   "wikidata": "Q1045",
+   "lon": 46.75713,
+   "lat": 5.12795
+  },
+  {
+   "code": "SRB",
+   "name": "Republic of Serbia",
+   "wikidata": "Q403",
+   "lon": 21.00692,
+   "lat": 44.0085
+  },
+  {
+   "code": "STP",
+   "name": "São Tomé and Principe",
+   "wikidata": "Q1039",
+   "lon": 6.60119,
+   "lat": 0.21552
+  },
+  {
+   "code": "SUR",
+   "name": "Suriname",
+   "wikidata": "Q730",
+   "lon": -56.1187,
+   "lat": 3.92603
+  },
+  {
+   "code": "SVK",
+   "name": "Slovakia",
+   "wikidata": "Q214",
+   "lon": 19.64504,
+   "lat": 48.67465
+  },
+  {
+   "code": "SVN",
+   "name": "Slovenia",
+   "wikidata": "Q215",
+   "lon": 14.61594,
+   "lat": 46.15021
+  },
+  {
+   "code": "SWE",
+   "name": "Sweden",
+   "wikidata": "Q34",
+   "lon": 14.90512,
+   "lat": 62.19453
+  },
+  {
+   "code": "SWZ",
+   "name": "eSwatini",
+   "wikidata": "Q1050",
+   "lon": 31.44785,
+   "lat": -26.53957
+  },
+  {
+   "code": "SYC",
+   "name": "Seychelles",
+   "wikidata": "Q1042",
+   "lon": 46.3496,
+   "lat": -9.34161
+  },
+  {
+   "code": "SYR",
+   "name": "Syria",
+   "wikidata": "Q858",
+   "lon": 38.56182,
+   "lat": 34.80813
+  },
+  {
+   "code": "TCD",
+   "name": "Chad",
+   "wikidata": "Q657",
+   "lon": 18.53982,
+   "lat": 15.44434
+  },
+  {
+   "code": "TGO",
+   "name": "Togo",
+   "wikidata": "Q945",
+   "lon": 1.01512,
+   "lat": 8.63447
+  },
+  {
+   "code": "THA",
+   "name": "Thailand",
+   "wikidata": "Q869",
+   "lon": 101.69302,
+   "lat": 13.03238
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "wikidata": "Q863",
+   "lon": 70.92804,
+   "lat": 38.86113
+  },
+  {
+   "code": "TKM",
+   "name": "Turkmenistan",
+   "wikidata": "Q874",
+   "lon": 59.01532,
+   "lat": 38.96607
+  },
+  {
+   "code": "TLS",
+   "name": "East Timor",
+   "wikidata": "Q574",
+   "lon": 125.76398,
+   "lat": -8.88108
+  },
+  {
+   "code": "TON",
+   "name": "Tonga",
+   "wikidata": "Q678",
+   "lon": -175.28329,
+   "lat": -21.16607
+  },
+  {
+   "code": "TTO",
+   "name": "Trinidad and Tobago",
+   "wikidata": "Q754",
+   "lon": -61.25956,
+   "lat": 10.43999
+  },
+  {
+   "code": "TUN",
+   "name": "Tunisia",
+   "wikidata": "Q948",
+   "lon": 8.86273,
+   "lat": 33.79141
+  },
+  {
+   "code": "TUR",
+   "name": "Turkey",
+   "wikidata": "Q43",
+   "lon": 30.06781,
+   "lat": 38.95863
+  },
+  {
+   "code": "TUV",
+   "name": "Tuvalu",
+   "wikidata": "Q672",
+   "lon": 178.68437,
+   "lat": -7.47967
+  },
+  {
+   "code": "TZA",
+   "name": "United Republic of Tanzania",
+   "wikidata": "Q924",
+   "lon": 34.3374,
+   "lat": -6.36118
+  },
+  {
+   "code": "UGA",
+   "name": "Uganda",
+   "wikidata": "Q1036",
+   "lon": 31.76406,
+   "lat": 1.37303
+  },
+  {
+   "code": "UKR",
+   "name": "Ukraine",
+   "wikidata": "Q212",
+   "lon": 28.16684,
+   "lat": 48.79097
+  },
+  {
+   "code": "URY",
+   "name": "Uruguay",
+   "wikidata": "Q77",
+   "lon": -57.06709,
+   "lat": -32.53522
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "wikidata": "Q30",
+   "lon": -93.91575,
+   "lat": 37.05455
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "wikidata": "Q265",
+   "lon": 63.38958,
+   "lat": 41.37143
+  },
+  {
+   "code": "VAT",
+   "name": "Vatican",
+   "wikidata": "Q237",
+   "lon": 12.45338,
+   "lat": 41.90323
+  },
+  {
+   "code": "VCT",
+   "name": "Saint Vincent and the Grenadines",
+   "wikidata": "Q757",
+   "lon": -61.19705,
+   "lat": 13.26317
+  },
+  {
+   "code": "VEN",
+   "name": "Venezuela",
+   "wikidata": "Q717",
+   "lon": -65.41033,
+   "lat": 6.42063
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "wikidata": "Q881",
+   "lon": 107.85285,
+   "lat": 15.96243
+  },
+  {
+   "code": "VUT",
+   "name": "Vanuatu",
+   "wikidata": "Q686",
+   "lon": 168.35423,
+   "lat": -17.67514
+  },
+  {
+   "code": "WSM",
+   "name": "Samoa",
+   "wikidata": "Q683",
+   "lon": -172.43057,
+   "lat": -13.63539
+  },
+  {
+   "code": "YEM",
+   "name": "Yemen",
+   "wikidata": "Q805",
+   "lon": 47.48585,
+   "lat": 15.80239
+  },
+  {
+   "code": "ZAF",
+   "name": "South Africa",
+   "wikidata": "Q258",
+   "lon": 26.12089,
+   "lat": -28.47459
+  },
+  {
+   "code": "ZMB",
+   "name": "Zambia",
+   "wikidata": "Q953",
+   "lon": 25.43363,
+   "lat": -13.14545
+  },
+  {
+   "code": "ZWE",
+   "name": "Zimbabwe",
+   "wikidata": "Q954",
+   "lon": 29.32827,
+   "lat": -19.00762
+  }
+ ],
+ "edges": [
+  {
+   "u": "AFG",
+   "v": "CHN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AFG",
+   "v": "IRN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AFG",
+   "v": "PAK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AFG",
+   "v": "TJK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AFG",
+   "v": "TKM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AFG",
+   "v": "UZB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AGO",
+   "v": "COD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AGO",
+   "v": "COG",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AGO",
+   "v": "NAM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AGO",
+   "v": "ZMB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ALB",
+   "v": "GRC",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ALB",
+   "v": "MKD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ALB",
+   "v": "MNE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ALB",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AND",
+   "v": "ESP",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AND",
+   "v": "FRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARE",
+   "v": "OMN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARE",
+   "v": "SAU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARG",
+   "v": "BOL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARG",
+   "v": "BRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARG",
+   "v": "CHL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARG",
+   "v": "PRY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARG",
+   "v": "URY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARM",
+   "v": "AZE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARM",
+   "v": "GEO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARM",
+   "v": "IRN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ARM",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "CHE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "CZE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "DEU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "HUN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "ITA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "LIE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "SVK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AUT",
+   "v": "SVN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AZE",
+   "v": "GEO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AZE",
+   "v": "IRN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AZE",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "AZE",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BDI",
+   "v": "COD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BDI",
+   "v": "RWA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BDI",
+   "v": "TZA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEL",
+   "v": "DEU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEL",
+   "v": "FRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEL",
+   "v": "LUX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEL",
+   "v": "NLD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEN",
+   "v": "BFA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEN",
+   "v": "NER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEN",
+   "v": "NGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BEN",
+   "v": "TGO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BFA",
+   "v": "CIV",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BFA",
+   "v": "GHA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BFA",
+   "v": "MLI",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BFA",
+   "v": "NER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BFA",
+   "v": "TGO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BGD",
+   "v": "IND",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BGD",
+   "v": "MMR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BGR",
+   "v": "GRC",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BGR",
+   "v": "MKD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BGR",
+   "v": "ROU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BGR",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BGR",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BIH",
+   "v": "HRV",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BIH",
+   "v": "MNE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BIH",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BLR",
+   "v": "LTU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BLR",
+   "v": "LVA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BLR",
+   "v": "POL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BLR",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BLR",
+   "v": "UKR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BLZ",
+   "v": "GTM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BLZ",
+   "v": "MEX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BOL",
+   "v": "BRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BOL",
+   "v": "CHL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BOL",
+   "v": "PER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BOL",
+   "v": "PRY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "COL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "FRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "GUY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "PER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "PRY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "SUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "URY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRA",
+   "v": "VEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BRN",
+   "v": "MYS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BTN",
+   "v": "CHN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BTN",
+   "v": "IND",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BWA",
+   "v": "NAM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BWA",
+   "v": "ZAF",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "BWA",
+   "v": "ZWE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CAF",
+   "v": "CMR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CAF",
+   "v": "COD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CAF",
+   "v": "COG",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CAF",
+   "v": "SDN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CAF",
+   "v": "SDS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CAF",
+   "v": "TCD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CAN",
+   "v": "USA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHE",
+   "v": "DEU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHE",
+   "v": "FRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHE",
+   "v": "ITA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHE",
+   "v": "LIE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHL",
+   "v": "PER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "IND",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "KAZ",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "KGZ",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "LAO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "MMR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "MNG",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "NPL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "PAK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "PRK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "TJK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CHN",
+   "v": "VNM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CIV",
+   "v": "GHA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CIV",
+   "v": "GIN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CIV",
+   "v": "LBR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CIV",
+   "v": "MLI",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CMR",
+   "v": "COG",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CMR",
+   "v": "GAB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CMR",
+   "v": "GNQ",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CMR",
+   "v": "NGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CMR",
+   "v": "TCD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COD",
+   "v": "COG",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COD",
+   "v": "RWA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COD",
+   "v": "SDS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COD",
+   "v": "UGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COD",
+   "v": "ZMB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COG",
+   "v": "GAB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COL",
+   "v": "ECU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COL",
+   "v": "PAN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COL",
+   "v": "PER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "COL",
+   "v": "VEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CRI",
+   "v": "NIC",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CRI",
+   "v": "PAN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CYP",
+   "v": "GBR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CZE",
+   "v": "DEU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CZE",
+   "v": "POL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "CZE",
+   "v": "SVK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DEU",
+   "v": "DNK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DEU",
+   "v": "FRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DEU",
+   "v": "LUX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DEU",
+   "v": "NLD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DEU",
+   "v": "POL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DJI",
+   "v": "ERI",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DJI",
+   "v": "ETH",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DJI",
+   "v": "SOM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DOM",
+   "v": "HTI",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DZA",
+   "v": "LBY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DZA",
+   "v": "MAR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DZA",
+   "v": "MLI",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DZA",
+   "v": "MRT",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DZA",
+   "v": "NER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "DZA",
+   "v": "TUN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ECU",
+   "v": "PER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "EGY",
+   "v": "ISR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "EGY",
+   "v": "LBY",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "EGY",
+   "v": "PSX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "EGY",
+   "v": "SDN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ERI",
+   "v": "ETH",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ERI",
+   "v": "SDN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ESP",
+   "v": "FRA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ESP",
+   "v": "GBR",
+   "sources": [],
+   "corroborated": false
+  },
+  {
+   "u": "ESP",
+   "v": "MAR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ESP",
+   "v": "PRT",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "EST",
+   "v": "LVA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "EST",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ETH",
+   "v": "KEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ETH",
+   "v": "SDN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ETH",
+   "v": "SDS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ETH",
+   "v": "SOM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FIN",
+   "v": "NOR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FIN",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FIN",
+   "v": "SWE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FRA",
+   "v": "ITA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FRA",
+   "v": "LUX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FRA",
+   "v": "MCO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FRA",
+   "v": "NLD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "FRA",
+   "v": "SUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GAB",
+   "v": "GNQ",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GBR",
+   "v": "IRL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GEO",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GEO",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GHA",
+   "v": "TGO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GIN",
+   "v": "GNB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GIN",
+   "v": "LBR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GIN",
+   "v": "MLI",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GIN",
+   "v": "SEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GIN",
+   "v": "SLE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GMB",
+   "v": "SEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GNB",
+   "v": "SEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GRC",
+   "v": "MKD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GRC",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GTM",
+   "v": "HND",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GTM",
+   "v": "MEX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GTM",
+   "v": "SLV",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GUY",
+   "v": "SUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "GUY",
+   "v": "VEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HND",
+   "v": "NIC",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HND",
+   "v": "SLV",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HRV",
+   "v": "HUN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HRV",
+   "v": "MNE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HRV",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HRV",
+   "v": "SVN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HUN",
+   "v": "ROU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HUN",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HUN",
+   "v": "SVK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HUN",
+   "v": "SVN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "HUN",
+   "v": "UKR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IDN",
+   "v": "MYS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IDN",
+   "v": "PNG",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IDN",
+   "v": "TLS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IND",
+   "v": "MMR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IND",
+   "v": "NPL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IND",
+   "v": "PAK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRN",
+   "v": "IRQ",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRN",
+   "v": "PAK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRN",
+   "v": "TKM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRN",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRQ",
+   "v": "JOR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRQ",
+   "v": "KWT",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRQ",
+   "v": "SAU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRQ",
+   "v": "SYR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "IRQ",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ISR",
+   "v": "JOR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ISR",
+   "v": "LBN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ISR",
+   "v": "PSX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ISR",
+   "v": "SYR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ITA",
+   "v": "SMR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ITA",
+   "v": "SVN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ITA",
+   "v": "VAT",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "JOR",
+   "v": "PSX",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "JOR",
+   "v": "SAU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "JOR",
+   "v": "SYR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KAZ",
+   "v": "KGZ",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KAZ",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KAZ",
+   "v": "TKM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KAZ",
+   "v": "UZB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KEN",
+   "v": "SDS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KEN",
+   "v": "SOM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KEN",
+   "v": "TZA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KEN",
+   "v": "UGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KGZ",
+   "v": "TJK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KGZ",
+   "v": "UZB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KHM",
+   "v": "LAO",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KHM",
+   "v": "THA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KHM",
+   "v": "VNM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KOR",
+   "v": "PRK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "KWT",
+   "v": "SAU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LAO",
+   "v": "MMR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LAO",
+   "v": "THA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LAO",
+   "v": "VNM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LBN",
+   "v": "SYR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LBR",
+   "v": "SLE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LBY",
+   "v": "NER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LBY",
+   "v": "SDN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LBY",
+   "v": "TCD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LBY",
+   "v": "TUN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LSO",
+   "v": "ZAF",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LTU",
+   "v": "LVA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LTU",
+   "v": "POL",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LTU",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "LVA",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MDA",
+   "v": "ROU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MDA",
+   "v": "UKR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MEX",
+   "v": "USA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MKD",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MLI",
+   "v": "MRT",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MLI",
+   "v": "NER",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MLI",
+   "v": "SEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MMR",
+   "v": "THA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MNE",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MNG",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MOZ",
+   "v": "MWI",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MOZ",
+   "v": "SWZ",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MOZ",
+   "v": "TZA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MOZ",
+   "v": "ZAF",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MOZ",
+   "v": "ZMB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MOZ",
+   "v": "ZWE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MRT",
+   "v": "SEN",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MWI",
+   "v": "TZA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MWI",
+   "v": "ZMB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "MYS",
+   "v": "THA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "NAM",
+   "v": "ZAF",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "NAM",
+   "v": "ZMB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "NER",
+   "v": "NGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "NER",
+   "v": "TCD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "NGA",
+   "v": "TCD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "NOR",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "NOR",
+   "v": "SWE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "OMN",
+   "v": "SAU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "OMN",
+   "v": "YEM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "POL",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "POL",
+   "v": "SVK",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "POL",
+   "v": "UKR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "PRK",
+   "v": "RUS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "QAT",
+   "v": "SAU",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ROU",
+   "v": "SRB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ROU",
+   "v": "UKR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "RUS",
+   "v": "UKR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "RWA",
+   "v": "TZA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "RWA",
+   "v": "UGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "SAU",
+   "v": "YEM",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "SDN",
+   "v": "SDS",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "SDN",
+   "v": "TCD",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "SDS",
+   "v": "UGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "SVK",
+   "v": "UKR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "SWZ",
+   "v": "ZAF",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "SYR",
+   "v": "TUR",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "TJK",
+   "v": "UZB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "TKM",
+   "v": "UZB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "TZA",
+   "v": "UGA",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "TZA",
+   "v": "ZMB",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ZAF",
+   "v": "ZWE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  },
+  {
+   "u": "ZMB",
+   "v": "ZWE",
+   "sources": [
+    {
+     "source": "wikidata_code"
+    }
+   ],
+   "corroborated": true
+  }
+ ],
+ "wikidata_disagreements": [
+  [
+   "AFG",
+   "IND"
+  ],
+  [
+   "AGO",
+   "GAB"
+  ],
+  [
+   "ARE",
+   "IRN"
+  ],
+  [
+   "ARG",
+   "GBR"
+  ],
+  [
+   "ATG",
+   "GBR"
+  ],
+  [
+   "AUS",
+   "IDN"
+  ],
+  [
+   "AUS",
+   "NZL"
+  ],
+  [
+   "AUS",
+   "PNG"
+  ],
+  [
+   "AUS",
+   "SLB"
+  ],
+  [
+   "AUS",
+   "TLS"
+  ],
+  [
+   "AUS",
+   "VUT"
+  ],
+  [
+   "BHR",
+   "IRN"
+  ],
+  [
+   "BHR",
+   "SAU"
+  ],
+  [
+   "BHS",
+   "GBR"
+  ],
+  [
+   "BHS",
+   "USA"
+  ],
+  [
+   "BWA",
+   "ZMB"
+  ],
+  [
+   "CHN",
+   "JPN"
+  ],
+  [
+   "CHN",
+   "KOR"
+  ],
+  [
+   "CHN",
+   "PHL"
+  ],
+  [
+   "CMR",
+   "COD"
+  ],
+  [
+   "COD",
+   "SDN"
+  ],
+  [
+   "COD",
+   "TZA"
+  ],
+  [
+   "COL",
+   "NIC"
+  ],
+  [
+   "COM",
+   "FRA"
+  ],
+  [
+   "COM",
+   "MDG"
+  ],
+  [
+   "COM",
+   "MOZ"
+  ],
+  [
+   "COM",
+   "SYC"
+  ],
+  [
+   "COM",
+   "TZA"
+  ],
+  [
+   "CUB",
+   "GBR"
+  ],
+  [
+   "CUB",
+   "USA"
+  ],
+  [
+   "CYP",
+   "ISR"
+  ],
+  [
+   "CYP",
+   "TUR"
+  ],
+  [
+   "DMA",
+   "VEN"
+  ],
+  [
+   "DNK",
+   "NOR"
+  ],
+  [
+   "DNK",
+   "SWE"
+  ],
+  [
+   "DOM",
+   "USA"
+  ],
+  [
+   "DOM",
+   "VEN"
+  ],
+  [
+   "DZA",
+   "ESP"
+  ],
+  [
+   "DZA",
+   "ITA"
+  ],
+  [
+   "EGY",
+   "SAU"
+  ],
+  [
+   "FJI",
+   "SLB"
+  ],
+  [
+   "FRA",
+   "KIR"
+  ],
+  [
+   "FRA",
+   "MDG"
+  ],
+  [
+   "FRA",
+   "MUS"
+  ],
+  [
+   "FRA",
+   "SLB"
+  ],
+  [
+   "FRA",
+   "SYC"
+  ],
+  [
+   "FRA",
+   "VEN"
+  ],
+  [
+   "FSM",
+   "MHL"
+  ],
+  [
+   "FSM",
+   "PLW"
+  ],
+  [
+   "FSM",
+   "PNG"
+  ],
+  [
+   "FSM",
+   "USA"
+  ],
+  [
+   "GAB",
+   "STP"
+  ],
+  [
+   "GBR",
+   "JAM"
+  ],
+  [
+   "GBR",
+   "KNA"
+  ],
+  [
+   "GBR",
+   "MDV"
+  ],
+  [
+   "GBR",
+   "VEN"
+  ],
+  [
+   "GNQ",
+   "STP"
+  ],
+  [
+   "GRD",
+   "VEN"
+  ],
+  [
+   "HTI",
+   "USA"
+  ],
+  [
+   "IDN",
+   "IND"
+  ],
+  [
+   "IDN",
+   "PHL"
+  ],
+  [
+   "IDN",
+   "PLW"
+  ],
+  [
+   "IDN",
+   "SGP"
+  ],
+  [
+   "IDN",
+   "THA"
+  ],
+  [
+   "IDN",
+   "VNM"
+  ],
+  [
+   "IND",
+   "LKA"
+  ],
+  [
+   "IRN",
+   "KWT"
+  ],
+  [
+   "IRN",
+   "OMN"
+  ],
+  [
+   "IRN",
+   "QAT"
+  ],
+  [
+   "IRN",
+   "SAU"
+  ],
+  [
+   "ITA",
+   "MLT"
+  ],
+  [
+   "JPN",
+   "KOR"
+  ],
+  [
+   "JPN",
+   "PHL"
+  ],
+  [
+   "JPN",
+   "RUS"
+  ],
+  [
+   "JPN",
+   "USA"
+  ],
+  [
+   "KEN",
+   "SDN"
+  ],
+  [
+   "KIR",
+   "MHL"
+  ],
+  [
+   "KIR",
+   "USA"
+  ],
+  [
+   "KNA",
+   "VEN"
+  ],
+  [
+   "LCA",
+   "VEN"
+  ],
+  [
+   "LTU",
+   "SWE"
+  ],
+  [
+   "LVA",
+   "SWE"
+  ],
+  [
+   "MDG",
+   "MOZ"
+  ],
+  [
+   "MDG",
+   "SYC"
+  ],
+  [
+   "MDV",
+   "MUS"
+  ],
+  [
+   "MHL",
+   "NRU"
+  ],
+  [
+   "MHL",
+   "USA"
+  ],
+  [
+   "MUS",
+   "SYC"
+  ],
+  [
+   "MYS",
+   "PHL"
+  ],
+  [
+   "MYS",
+   "SGP"
+  ],
+  [
+   "NGA",
+   "STP"
+  ],
+  [
+   "NLD",
+   "VEN"
+  ],
+  [
+   "PAN",
+   "USA"
+  ],
+  [
+   "PHL",
+   "PLW"
+  ],
+  [
+   "PNG",
+   "SLB"
+  ],
+  [
+   "RUS",
+   "SWE"
+  ],
+  [
+   "RUS",
+   "USA"
+  ],
+  [
+   "SDN",
+   "UGA"
+  ],
+  [
+   "SLB",
+   "VUT"
+  ],
+  [
+   "SYC",
+   "TZA"
+  ],
+  [
+   "TON",
+   "USA"
+  ],
+  [
+   "TTO",
+   "VEN"
+  ],
+  [
+   "USA",
+   "VEN"
+  ],
+  [
+   "USA",
+   "WSM"
+  ],
+  [
+   "VCT",
+   "VEN"
+  ]
+ ],
+ "overrides": []
+}

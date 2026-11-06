@@ -1,0 +1,227 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AG",
+ "kind": "country",
+ "name": "Antigua and Barbuda",
+ "level": "parishes",
+ "n": 8,
+ "m": 9,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AG-03",
+   "name": "Saint George",
+   "wikidata": "Q1770796",
+   "lon": -61.78243,
+   "lat": 17.1199
+  },
+  {
+   "code": "AG-04",
+   "name": "Saint John",
+   "wikidata": "Q548816",
+   "lon": -61.84188,
+   "lat": 17.10552
+  },
+  {
+   "code": "AG-05",
+   "name": "Saint Mary",
+   "wikidata": "Q1999872",
+   "lon": -61.85765,
+   "lat": 17.0541
+  },
+  {
+   "code": "AG-06",
+   "name": "Saint Paul",
+   "wikidata": "Q386093",
+   "lon": -61.77164,
+   "lat": 17.03024
+  },
+  {
+   "code": "AG-07",
+   "name": "Saint Peter",
+   "wikidata": "Q1952603",
+   "lon": -61.74292,
+   "lat": 17.10408
+  },
+  {
+   "code": "AG-08",
+   "name": "Saint Philip",
+   "wikidata": "Q1996895",
+   "lon": -61.70568,
+   "lat": 17.06361
+  },
+  {
+   "code": "AG-10",
+   "name": "Barbuda",
+   "wikidata": "Q238752",
+   "lon": -61.78176,
+   "lat": 17.63817
+  },
+  {
+   "code": "AG-11",
+   "name": "Redonda",
+   "wikidata": "Q457261",
+   "lon": -62.3453,
+   "lat": 16.93622
+  }
+ ],
+ "edges": [
+  {
+   "u": "AG-03",
+   "v": "AG-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13503
+  },
+  {
+   "u": "AG-03",
+   "v": "AG-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6108
+  },
+  {
+   "u": "AG-04",
+   "v": "AG-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13180
+  },
+  {
+   "u": "AG-04",
+   "v": "AG-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4847
+  },
+  {
+   "u": "AG-04",
+   "v": "AG-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1242,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Saint_John,_Antigua_and_Barbuda"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Saint_John,_Antigua_and_Barbuda"
+    }
+   ]
+  },
+  {
+   "u": "AG-05",
+   "v": "AG-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4870
+  },
+  {
+   "u": "AG-06",
+   "v": "AG-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4406
+  },
+  {
+   "u": "AG-06",
+   "v": "AG-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2956,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Saint_Paul,_Antigua_and_Barbuda"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Saint_Philip,_Antigua_and_Barbuda"
+    }
+   ]
+  },
+  {
+   "u": "AG-07",
+   "v": "AG-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3984,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Saint_Peter,_Antigua_and_Barbuda"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Saint_Peter_Parish_(Antigua_and_Barbuda)"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ATG-ADM1-74100532",
+  "level": "ADM1",
+  "year": "2009",
+  "license": "Public Domain"
+ }
+}

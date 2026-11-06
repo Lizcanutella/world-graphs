@@ -1,0 +1,251 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "QA",
+ "kind": "country",
+ "name": "Qatar",
+ "level": "municipalities",
+ "n": 7,
+ "m": 11,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "QA-DA",
+   "name": "Ad Dawhah",
+   "wikidata": "Q3861",
+   "lon": 51.45993,
+   "lat": 25.18846
+  },
+  {
+   "code": "QA-KH",
+   "name": "Al Khawr",
+   "wikidata": "Q1156471",
+   "lon": 51.32822,
+   "lat": 25.75355
+  },
+  {
+   "code": "QA-MS",
+   "name": "Madinat ach Shamal",
+   "wikidata": "Q310872",
+   "lon": 51.19931,
+   "lat": 25.99588
+  },
+  {
+   "code": "QA-RA",
+   "name": "Ar Rayyān",
+   "wikidata": "Q311272",
+   "lon": 51.09978,
+   "lat": 25.18309
+  },
+  {
+   "code": "QA-US",
+   "name": "Umm Salal",
+   "wikidata": "Q990414",
+   "lon": 51.34977,
+   "lat": 25.4563
+  },
+  {
+   "code": "QA-WA",
+   "name": "Al Wakrah",
+   "wikidata": "Q310893",
+   "lon": 51.38887,
+   "lat": 24.91663
+  },
+  {
+   "code": "QA-ZA",
+   "name": "Al Daayen",
+   "wikidata": "Q310786",
+   "lon": 51.4422,
+   "lat": 25.5042
+  }
+ ],
+ "edges": [
+  {
+   "u": "QA-DA",
+   "v": "QA-RA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32890
+  },
+  {
+   "u": "QA-DA",
+   "v": "QA-US",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_quadripoint"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "QA-DA",
+   "v": "QA-WA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12058
+  },
+  {
+   "u": "QA-DA",
+   "v": "QA-ZA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7560
+  },
+  {
+   "u": "QA-KH",
+   "v": "QA-MS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80594
+  },
+  {
+   "u": "QA-KH",
+   "v": "QA-RA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51488
+  },
+  {
+   "u": "QA-KH",
+   "v": "QA-US",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12094
+  },
+  {
+   "u": "QA-KH",
+   "v": "QA-ZA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22918
+  },
+  {
+   "u": "QA-RA",
+   "v": "QA-US",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34766
+  },
+  {
+   "u": "QA-RA",
+   "v": "QA-WA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 87597,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Al_Rayyan"
+    }
+   ]
+  },
+  {
+   "u": "QA-US",
+   "v": "QA-ZA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22080
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "QAT-ADM1-59647477",
+  "level": "ADM1",
+  "year": "2015",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

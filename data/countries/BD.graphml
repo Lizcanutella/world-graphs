@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BD" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BD-A"><data key="name">Barisal</data><data key="code">BD-A</data><data key="wikidata">Q459723</data><data key="lon">90.28451</data><data key="lat">22.43879</data></node>
+    <node id="BD-B"><data key="name">Chittagong</data><data key="code">BD-B</data><data key="wikidata">Q158087</data><data key="lon">91.95585</data><data key="lat">22.49763</data></node>
+    <node id="BD-C"><data key="name">Dhaka</data><data key="code">BD-C</data><data key="wikidata">Q330158</data><data key="lon">90.41951</data><data key="lat">24.13661</data></node>
+    <node id="BD-D"><data key="name">Khulna</data><data key="code">BD-D</data><data key="wikidata">Q501696</data><data key="lon">89.37531</data><data key="lat">22.90744</data></node>
+    <node id="BD-E"><data key="name">Rajshahi</data><data key="code">BD-E</data><data key="wikidata">Q379382</data><data key="lon">88.92599</data><data key="lat">24.55578</data></node>
+    <node id="BD-F"><data key="name">Rangpur</data><data key="code">BD-F</data><data key="wikidata">Q876023</data><data key="lon">88.94723</data><data key="lat">25.88591</data></node>
+    <node id="BD-G"><data key="name">Sylhet</data><data key="code">BD-G</data><data key="wikidata">Q459732</data><data key="lon">91.68138</data><data key="lat">24.60011</data></node>
+    <edge source="BD-A" target="BD-C"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-A" target="BD-D"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-B" target="BD-C"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-B" target="BD-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-C" target="BD-D"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-C" target="BD-E"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-C" target="BD-F"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-C" target="BD-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-D" target="BD-E"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BD-E" target="BD-F"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

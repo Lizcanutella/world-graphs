@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="FR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="FR-01"><data key="name">Ain</data><data key="code">FR-01</data><data key="wikidata">Q3083</data><data key="lon">5.29324</data><data key="lat">46.08517</data></node>
+    <node id="FR-02"><data key="name">Aisne</data><data key="code">FR-02</data><data key="wikidata">Q3093</data><data key="lon">3.61717</data><data key="lat">49.45389</data></node>
+    <node id="FR-03"><data key="name">Allier</data><data key="code">FR-03</data><data key="wikidata">Q3113</data><data key="lon">3.14387</data><data key="lat">46.37603</data></node>
+    <node id="FR-04"><data key="name">Alpes-de-Haute-Provence</data><data key="code">FR-04</data><data key="wikidata">Q3131</data><data key="lon">6.18564</data><data key="lat">44.16759</data></node>
+    <node id="FR-05"><data key="name">Hautes-Alpes</data><data key="code">FR-05</data><data key="wikidata">Q3125</data><data key="lon">6.35281</data><data key="lat">44.65644</data></node>
+    <node id="FR-06"><data key="name">Alpes-Maritimes</data><data key="code">FR-06</data><data key="wikidata">Q3139</data><data key="lon">7.2262</data><data key="lat">43.91798</data></node>
+    <node id="FR-07"><data key="name">Ardèche</data><data key="code">FR-07</data><data key="wikidata">Q3148</data><data key="lon">4.38446</data><data key="lat">44.82375</data></node>
+    <node id="FR-08"><data key="name">Ardennes</data><data key="code">FR-08</data><data key="wikidata">Q3164</data><data key="lon">4.6659</data><data key="lat">49.6976</data></node>
+    <node id="FR-09"><data key="name">Ariège</data><data key="code">FR-09</data><data key="wikidata">Q3184</data><data key="lon">1.40759</data><data key="lat">42.93875</data></node>
+    <node id="FR-10"><data key="name">Aube</data><data key="code">FR-10</data><data key="wikidata">Q3194</data><data key="lon">4.1831</data><data key="lat">48.31666</data></node>
+    <node id="FR-11"><data key="name">Aude</data><data key="code">FR-11</data><data key="wikidata">Q3207</data><data key="lon">2.513</data><data key="lat">43.04856</data></node>
+    <node id="FR-12"><data key="name">Aveyron</data><data key="code">FR-12</data><data key="wikidata">Q3216</data><data key="lon">2.50852</data><data key="lat">44.31386</data></node>
+    <node id="FR-13"><data key="name">Bouches-du-Rhône</data><data key="code">FR-13</data><data key="wikidata">Q3240</data><data key="lon">5.38497</data><data key="lat">43.54642</data></node>
+    <node id="FR-14"><data key="name">Calvados</data><data key="code">FR-14</data><data key="wikidata">Q3249</data><data key="lon">-0.23438</data><data key="lat">49.09235</data></node>
+    <node id="FR-15"><data key="name">Cantal</data><data key="code">FR-15</data><data key="wikidata">Q3259</data><data key="lon">2.69944</data><data key="lat">45.05179</data></node>
+    <node id="FR-16"><data key="name">Charente</data><data key="code">FR-16</data><data key="wikidata">Q3266</data><data key="lon">0.07915</data><data key="lat">45.65715</data></node>
+    <node id="FR-17"><data key="name">Charente-Maritime</data><data key="code">FR-17</data><data key="wikidata">Q3278</data><data key="lon">-0.70923</data><data key="lat">45.72886</data></node>
+    <node id="FR-18"><data key="name">Cher</data><data key="code">FR-18</data><data key="wikidata">Q3286</data><data key="lon">2.57539</data><data key="lat">47.01811</data></node>
+    <node id="FR-19"><data key="name">Corrèze</data><data key="code">FR-19</data><data key="wikidata">Q3326</data><data key="lon">1.81811</data><data key="lat">45.34427</data></node>
+    <node id="FR-21"><data key="name">Côte-d'Or</data><data key="code">FR-21</data><data key="wikidata">Q3342</data><data key="lon">4.7626</data><data key="lat">47.46121</data></node>
+    <node id="FR-22"><data key="name">Côtes-d'Armor</data><data key="code">FR-22</data><data key="wikidata">Q3349</data><data key="lon">-2.74655</data><data key="lat">48.45587</data></node>
+    <node id="FR-23"><data key="name">Creuse</data><data key="code">FR-23</data><data key="wikidata">Q3353</data><data key="lon">2.04735</data><data key="lat">46.0659</data></node>
+    <node id="FR-24"><data key="name">Dordogne</data><data key="code">FR-24</data><data key="wikidata">Q3357</data><data key="lon">0.64313</data><data key="lat">45.1437</data></node>
+    <node id="FR-25"><data key="name">Doubs</data><data key="code">FR-25</data><data key="wikidata">Q3361</data><data key="lon">6.22705</data><data key="lat">47.06035</data></node>
+    <node id="FR-26"><data key="name">Drôme</data><data key="code">FR-26</data><data key="wikidata">Q3364</data><data key="lon">5.20674</data><data key="lat">44.73515</data></node>
+    <node id="FR-27"><data key="name">Eure</data><data key="code">FR-27</data><data key="wikidata">Q3372</data><data key="lon">1.0118</data><data key="lat">49.07838</data></node>
+    <node id="FR-28"><data key="name">Eure-et-Loir</data><data key="code">FR-28</data><data key="wikidata">Q3377</data><data key="lon">1.41818</data><data key="lat">48.44686</data></node>
+    <node id="FR-29"><data key="name">Finistère</data><data key="code">FR-29</data><data key="wikidata">Q3389</data><data key="lon">-4.04105</data><data key="lat">48.25585</data></node>
+    <node id="FR-2A"><data key="name">Corse-du-Sud</data><data key="code">FR-2A</data><data key="wikidata">Q3336</data><data key="lon">9.01168</data><data key="lat">41.88032</data></node>
+    <node id="FR-2B"><data key="name">Haute-Corse</data><data key="code">FR-2B</data><data key="wikidata">Q3334</data><data key="lon">9.09859</data><data key="lat">42.42658</data></node>
+    <node id="FR-30"><data key="name">Gard</data><data key="code">FR-30</data><data key="wikidata">Q12515</data><data key="lon">4.30199</data><data key="lat">43.96052</data></node>
+    <node id="FR-31"><data key="name">Haute-Garonne</data><data key="code">FR-31</data><data key="wikidata">Q12538</data><data key="lon">0.96048</data><data key="lat">43.30102</data></node>
+    <node id="FR-32"><data key="name">Gers</data><data key="code">FR-32</data><data key="wikidata">Q12517</data><data key="lon">0.41548</data><data key="lat">43.69154</data></node>
+    <node id="FR-33"><data key="name">Gironde</data><data key="code">FR-33</data><data key="wikidata">Q12526</data><data key="lon">-0.60871</data><data key="lat">44.88813</data></node>
+    <node id="FR-34"><data key="name">Hérault</data><data key="code">FR-34</data><data key="wikidata">Q12545</data><data key="lon">3.37197</data><data key="lat">43.59153</data></node>
+    <node id="FR-35"><data key="name">Ille-et-Vilaine</data><data key="code">FR-35</data><data key="wikidata">Q12549</data><data key="lon">-1.64884</data><data key="lat">48.17122</data></node>
+    <node id="FR-36"><data key="name">Indre</data><data key="code">FR-36</data><data key="wikidata">Q12553</data><data key="lon">1.54189</data><data key="lat">46.81366</data></node>
+    <node id="FR-37"><data key="name">Indre-et-Loire</data><data key="code">FR-37</data><data key="wikidata">Q12556</data><data key="lon">0.69358</data><data key="lat">47.20824</data></node>
+    <node id="FR-38"><data key="name">Isère</data><data key="code">FR-38</data><data key="wikidata">Q12559</data><data key="lon">5.60571</data><data key="lat">45.29457</data></node>
+    <node id="FR-39"><data key="name">Jura</data><data key="code">FR-39</data><data key="wikidata">Q3120</data><data key="lon">5.78941</data><data key="lat">46.77459</data></node>
+    <node id="FR-40"><data key="name">Landes</data><data key="code">FR-40</data><data key="wikidata">Q12563</data><data key="lon">-0.63971</data><data key="lat">43.99515</data></node>
+    <node id="FR-41"><data key="name">Loir-et-Cher</data><data key="code">FR-41</data><data key="wikidata">Q12564</data><data key="lon">1.30674</data><data key="lat">47.65835</data></node>
+    <node id="FR-42"><data key="name">Loire</data><data key="code">FR-42</data><data key="wikidata">Q12569</data><data key="lon">4.03738</data><data key="lat">45.7575</data></node>
+    <node id="FR-43"><data key="name">Haute-Loire</data><data key="code">FR-43</data><data key="wikidata">Q12572</data><data key="lon">3.83582</data><data key="lat">45.08324</data></node>
+    <node id="FR-44"><data key="name">Loire-Atlantique</data><data key="code">FR-44</data><data key="wikidata">Q3068</data><data key="lon">-1.88623</data><data key="lat">47.34282</data></node>
+    <node id="FR-45"><data key="name">Loiret</data><data key="code">FR-45</data><data key="wikidata">Q12574</data><data key="lon">2.29535</data><data key="lat">47.91226</data></node>
+    <node id="FR-46"><data key="name">Lot</data><data key="code">FR-46</data><data key="wikidata">Q12576</data><data key="lon">1.66255</data><data key="lat">44.63544</data></node>
+    <node id="FR-47"><data key="name">Lot-et-Garonne</data><data key="code">FR-47</data><data key="wikidata">Q12578</data><data key="lon">0.43611</data><data key="lat">44.36427</data></node>
+    <node id="FR-48"><data key="name">Lozère</data><data key="code">FR-48</data><data key="wikidata">Q12580</data><data key="lon">3.52514</data><data key="lat">44.53306</data></node>
+    <node id="FR-49"><data key="name">Maine-et-Loire</data><data key="code">FR-49</data><data key="wikidata">Q12584</data><data key="lon">-0.37771</data><data key="lat">47.39961</data></node>
+    <node id="FR-50"><data key="name">Manche</data><data key="code">FR-50</data><data key="wikidata">Q12589</data><data key="lon">-1.24514</data><data key="lat">49.09711</data></node>
+    <node id="FR-51"><data key="name">Marne</data><data key="code">FR-51</data><data key="wikidata">Q12594</data><data key="lon">4.31488</data><data key="lat">48.97004</data></node>
+    <node id="FR-52"><data key="name">Haute-Marne</data><data key="code">FR-52</data><data key="wikidata">Q12607</data><data key="lon">5.25974</data><data key="lat">48.13561</data></node>
+    <node id="FR-53"><data key="name">Mayenne</data><data key="code">FR-53</data><data key="wikidata">Q12620</data><data key="lon">-0.65891</data><data key="lat">48.14871</data></node>
+    <node id="FR-54"><data key="name">Meurthe-et-Moselle</data><data key="code">FR-54</data><data key="wikidata">Q12626</data><data key="lon">5.98594</data><data key="lat">48.95044</data></node>
+    <node id="FR-55"><data key="name">Meuse</data><data key="code">FR-55</data><data key="wikidata">Q12631</data><data key="lon">5.42789</data><data key="lat">49.0093</data></node>
+    <node id="FR-56"><data key="name">Morbihan</data><data key="code">FR-56</data><data key="wikidata">Q12642</data><data key="lon">-2.76424</data><data key="lat">47.82961</data></node>
+    <node id="FR-57"><data key="name">Moselle</data><data key="code">FR-57</data><data key="wikidata">Q12652</data><data key="lon">6.54886</data><data key="lat">49.01069</data></node>
+    <node id="FR-58"><data key="name">Nièvre</data><data key="code">FR-58</data><data key="wikidata">Q12657</data><data key="lon">3.54484</data><data key="lat">47.11062</data></node>
+    <node id="FR-59"><data key="name">Nord</data><data key="code">FR-59</data><data key="wikidata">Q12661</data><data key="lon">3.07474</data><data key="lat">50.5294</data></node>
+    <node id="FR-60"><data key="name">Oise</data><data key="code">FR-60</data><data key="wikidata">Q12675</data><data key="lon">2.40828</data><data key="lat">49.41497</data></node>
+    <node id="FR-61"><data key="name">Orne</data><data key="code">FR-61</data><data key="wikidata">Q12679</data><data key="lon">0.0417</data><data key="lat">48.57848</data></node>
+    <node id="FR-62"><data key="name">Pas-de-Calais</data><data key="code">FR-62</data><data key="wikidata">Q12689</data><data key="lon">2.23654</data><data key="lat">50.51652</data></node>
+    <node id="FR-63"><data key="name">Puy-de-Dôme</data><data key="code">FR-63</data><data key="wikidata">Q12694</data><data key="lon">3.07036</data><data key="lat">45.77679</data></node>
+    <node id="FR-64"><data key="name">Pyrénées-Atlantiques</data><data key="code">FR-64</data><data key="wikidata">Q12703</data><data key="lon">-0.7387</data><data key="lat">43.19266</data></node>
+    <node id="FR-65"><data key="name">Hautes-Pyrénées</data><data key="code">FR-65</data><data key="wikidata">Q12700</data><data key="lon">0.16833</data><data key="lat">43.1464</data></node>
+    <node id="FR-66"><data key="name">Pyrénées-Orientales</data><data key="code">FR-66</data><data key="wikidata">Q12709</data><data key="lon">2.50222</data><data key="lat">42.61841</data></node>
+    <node id="FR-67"><data key="name">Bas-Rhin</data><data key="code">FR-67</data><data key="wikidata">Q12717</data><data key="lon">7.53893</data><data key="lat">48.59075</data></node>
+    <node id="FR-68"><data key="name">Haute-Rhin</data><data key="code">FR-68</data><data key="wikidata">Q12722</data><data key="lon">7.24307</data><data key="lat">47.85686</data></node>
+    <node id="FR-69"><data key="name">Rhône</data><data key="code">FR-69</data><data key="wikidata">Q46130</data><data key="lon">4.63493</data><data key="lat">45.87003</data></node>
+    <node id="FR-70"><data key="name">Haute-Saône</data><data key="code">FR-70</data><data key="wikidata">Q12730</data><data key="lon">6.08895</data><data key="lat">47.63175</data></node>
+    <node id="FR-71"><data key="name">Saône-et-Loire</data><data key="code">FR-71</data><data key="wikidata">Q12736</data><data key="lon">4.55349</data><data key="lat">46.66287</data></node>
+    <node id="FR-72"><data key="name">Sarthe</data><data key="code">FR-72</data><data key="wikidata">Q12740</data><data key="lon">0.24877</data><data key="lat">48.02697</data></node>
+    <node id="FR-73"><data key="name">Savoie</data><data key="code">FR-73</data><data key="wikidata">Q12745</data><data key="lon">6.35487</data><data key="lat">45.50213</data></node>
+    <node id="FR-74"><data key="name">Haute-Savoie</data><data key="code">FR-74</data><data key="wikidata">Q12751</data><data key="lon">6.33771</data><data key="lat">46.0544</data></node>
+    <node id="FR-75"><data key="name">Paris</data><data key="code">FR-75</data><data key="wikidata">Q90</data><data key="lon">2.35018</data><data key="lat">48.856</data></node>
+    <node id="FR-76"><data key="name">Seine-Maritime</data><data key="code">FR-76</data><data key="wikidata">Q12758</data><data key="lon">0.93523</data><data key="lat">49.66116</data></node>
+    <node id="FR-77"><data key="name">Seien-et-Marne</data><data key="code">FR-77</data><data key="wikidata">Q12753</data><data key="lon">3.02613</data><data key="lat">48.62157</data></node>
+    <node id="FR-78"><data key="name">Yvelines</data><data key="code">FR-78</data><data key="wikidata">Q12820</data><data key="lon">1.86814</data><data key="lat">48.76498</data></node>
+    <node id="FR-79"><data key="name">Deux-Sèvres</data><data key="code">FR-79</data><data key="wikidata">Q12765</data><data key="lon">-0.32053</data><data key="lat">46.5335</data></node>
+    <node id="FR-80"><data key="name">Somme</data><data key="code">FR-80</data><data key="wikidata">Q12770</data><data key="lon">2.37403</data><data key="lat">49.97249</data></node>
+    <node id="FR-81"><data key="name">Tarn</data><data key="code">FR-81</data><data key="wikidata">Q12772</data><data key="lon">2.13647</data><data key="lat">43.7873</data></node>
+    <node id="FR-82"><data key="name">Tarn-et-Garonne</data><data key="code">FR-82</data><data key="wikidata">Q12779</data><data key="lon">1.20489</data><data key="lat">44.08243</data></node>
+    <node id="FR-83"><data key="name">Var</data><data key="code">FR-83</data><data key="wikidata">Q12789</data><data key="lon">6.26049</data><data key="lat">43.42057</data></node>
+    <node id="FR-84"><data key="name">Vaucluse</data><data key="code">FR-84</data><data key="wikidata">Q12792</data><data key="lon">5.17265</data><data key="lat">43.99811</data></node>
+    <node id="FR-85"><data key="name">Vendée</data><data key="code">FR-85</data><data key="wikidata">Q12798</data><data key="lon">-1.28226</data><data key="lat">46.67811</data></node>
+    <node id="FR-86"><data key="name">Vienne</data><data key="code">FR-86</data><data key="wikidata">Q12804</data><data key="lon">0.46891</data><data key="lat">46.60903</data></node>
+    <node id="FR-87"><data key="name">Haute-Vienne</data><data key="code">FR-87</data><data key="wikidata">Q12808</data><data key="lon">1.19139</data><data key="lat">45.92141</data></node>
+    <node id="FR-88"><data key="name">Vosges</data><data key="code">FR-88</data><data key="wikidata">Q3105</data><data key="lon">6.39099</data><data key="lat">48.17059</data></node>
+    <node id="FR-89"><data key="name">Yonne</data><data key="code">FR-89</data><data key="wikidata">Q12816</data><data key="lon">3.63455</data><data key="lat">47.85938</data></node>
+    <node id="FR-90"><data key="name">Territoire de Belfort</data><data key="code">FR-90</data><data key="wikidata">Q12782</data><data key="lon">6.91152</data><data key="lat">47.63154</data></node>
+    <node id="FR-91"><data key="name">Essonne</data><data key="code">FR-91</data><data key="wikidata">Q3368</data><data key="lon">2.2237</data><data key="lat">48.53269</data></node>
+    <node id="FR-92"><data key="name">Hauts-de-Seine</data><data key="code">FR-92</data><data key="wikidata">Q12543</data><data key="lon">2.19088</data><data key="lat">48.84715</data></node>
+    <node id="FR-93"><data key="name">Seine-Saint-Denis</data><data key="code">FR-93</data><data key="wikidata">Q12761</data><data key="lon">2.43204</data><data key="lat">48.90662</data></node>
+    <node id="FR-94"><data key="name">Val-de-Marne</data><data key="code">FR-94</data><data key="wikidata">Q12788</data><data key="lon">2.45702</data><data key="lat">48.77218</data></node>
+    <node id="FR-95"><data key="name">Val-d'Oise</data><data key="code">FR-95</data><data key="wikidata">Q12784</data><data key="lon">2.21167</data><data key="lat">49.05881</data></node>
+    <node id="FR-GF"><data key="name">Guyane française</data><data key="code">FR-GF</data><data key="wikidata">Q3769</data><data key="lon">-53.03656</data><data key="lat">3.92603</data></node>
+    <node id="FR-GP"><data key="name">Guadeloupe</data><data key="code">FR-GP</data><data key="wikidata">Q17012</data><data key="lon">-61.66926</data><data key="lat">16.15371</data></node>
+    <node id="FR-MQ"><data key="name">Martinique</data><data key="code">FR-MQ</data><data key="wikidata">Q17054</data><data key="lon">-61.01815</data><data key="lat">14.64433</data></node>
+    <node id="FR-RE"><data key="name">La Réunion</data><data key="code">FR-RE</data><data key="wikidata">Q17070</data><data key="lon">55.54424</data><data key="lat">-21.11907</data></node>
+    <node id="FR-YT"><data key="name">Mayotte</data><data key="code">FR-YT</data><data key="wikidata">Q17063</data><data key="lon">45.14498</data><data key="lat">-12.82171</data></node>
+    <edge source="FR-01" target="FR-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-01" target="FR-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-01" target="FR-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-01" target="FR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-01" target="FR-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-01" target="FR-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-02" target="FR-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-02" target="FR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-02" target="FR-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-02" target="FR-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-02" target="FR-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-02" target="FR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-03" target="FR-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-03" target="FR-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-03" target="FR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-03" target="FR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-03" target="FR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-03" target="FR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-04" target="FR-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-04" target="FR-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-04" target="FR-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-04" target="FR-83"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-04" target="FR-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-05" target="FR-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-05" target="FR-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-05" target="FR-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-06" target="FR-83"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-07" target="FR-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-07" target="FR-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-07" target="FR-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-07" target="FR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-07" target="FR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-07" target="FR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-07" target="FR-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-08" target="FR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-08" target="FR-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-09" target="FR-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-09" target="FR-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-09" target="FR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-10" target="FR-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-10" target="FR-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-10" target="FR-52"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-10" target="FR-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-10" target="FR-89"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-11" target="FR-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-11" target="FR-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-11" target="FR-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-11" target="FR-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-12" target="FR-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-12" target="FR-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-12" target="FR-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-12" target="FR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-12" target="FR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-12" target="FR-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-12" target="FR-82"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-13" target="FR-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-13" target="FR-83"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-13" target="FR-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-14" target="FR-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-14" target="FR-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-14" target="FR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-15" target="FR-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-15" target="FR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-15" target="FR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-15" target="FR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-15" target="FR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-16" target="FR-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-16" target="FR-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-16" target="FR-79"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-16" target="FR-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-16" target="FR-87"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-17" target="FR-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-17" target="FR-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-17" target="FR-79"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-17" target="FR-85"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-18" target="FR-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-18" target="FR-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-18" target="FR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-18" target="FR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-18" target="FR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-19" target="FR-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-19" target="FR-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-19" target="FR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-19" target="FR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-19" target="FR-87"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-21" target="FR-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-21" target="FR-52"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-21" target="FR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-21" target="FR-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-21" target="FR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-21" target="FR-89"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-22" target="FR-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-22" target="FR-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-22" target="FR-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-23" target="FR-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-23" target="FR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-23" target="FR-87"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-24" target="FR-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-24" target="FR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-24" target="FR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-24" target="FR-87"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-25" target="FR-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-25" target="FR-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-25" target="FR-90"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-26" target="FR-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-26" target="FR-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-27" target="FR-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-27" target="FR-60"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-27" target="FR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-27" target="FR-76"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-27" target="FR-78"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-27" target="FR-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-28" target="FR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-28" target="FR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-28" target="FR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-28" target="FR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-28" target="FR-78"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-28" target="FR-91"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-29" target="FR-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-2A" target="FR-2B"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-30" target="FR-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-30" target="FR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-30" target="FR-84"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-31" target="FR-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-31" target="FR-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-31" target="FR-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-31" target="FR-82"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-32" target="FR-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-32" target="FR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-32" target="FR-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-32" target="FR-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-32" target="FR-82"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-33" target="FR-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-33" target="FR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-34" target="FR-81"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-35" target="FR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-35" target="FR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-35" target="FR-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-35" target="FR-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-35" target="FR-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-36" target="FR-37"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-36" target="FR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-36" target="FR-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-36" target="FR-87"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-37" target="FR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-37" target="FR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-37" target="FR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-37" target="FR-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-38" target="FR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-38" target="FR-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-38" target="FR-73"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-39" target="FR-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-39" target="FR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-40" target="FR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-40" target="FR-64"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-41" target="FR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-41" target="FR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-42" target="FR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-42" target="FR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-42" target="FR-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-42" target="FR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-43" target="FR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-43" target="FR-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-44" target="FR-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-44" target="FR-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-44" target="FR-85"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-45" target="FR-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-45" target="FR-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-45" target="FR-89"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-45" target="FR-91"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-46" target="FR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-46" target="FR-82"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-47" target="FR-82"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-49" target="FR-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-49" target="FR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-49" target="FR-79"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-49" target="FR-85"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-49" target="FR-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-50" target="FR-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-50" target="FR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-51" target="FR-52"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-51" target="FR-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-51" target="FR-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-52" target="FR-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-52" target="FR-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-52" target="FR-88"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-53" target="FR-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-53" target="FR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-54" target="FR-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-54" target="FR-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-54" target="FR-67"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="FR-54" target="FR-88"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-55" target="FR-88"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-57" target="FR-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-58" target="FR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-58" target="FR-89"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-59" target="FR-62"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-59" target="FR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-60" target="FR-76"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-60" target="FR-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-60" target="FR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-60" target="FR-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-61" target="FR-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-62" target="FR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-64" target="FR-65"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-67" target="FR-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-67" target="FR-88"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-68" target="FR-88"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-68" target="FR-90"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-69" target="FR-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-70" target="FR-88"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-70" target="FR-90"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-73" target="FR-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-75" target="FR-92"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="FR-75" target="FR-93"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="FR-75" target="FR-94"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="FR-76" target="FR-80"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-77" target="FR-89"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-77" target="FR-91"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-77" target="FR-93"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-77" target="FR-94"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-77" target="FR-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-78" target="FR-91"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-78" target="FR-92"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-78" target="FR-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-79" target="FR-85"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-79" target="FR-86"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-81" target="FR-82"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-83" target="FR-84"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="FR-86" target="FR-87"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-88" target="FR-90"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-91" target="FR-92"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-91" target="FR-94"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-92" target="FR-93"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-92" target="FR-94"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-92" target="FR-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-93" target="FR-94"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FR-93" target="FR-95"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

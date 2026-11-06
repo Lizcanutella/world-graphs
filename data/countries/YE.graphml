@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="YE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="YE-AB"><data key="name">Abyan</data><data key="code">YE-AB</data><data key="wikidata">Q241774</data><data key="lon">46.2923</data><data key="lat">13.62118</data></node>
+    <node id="YE-AD"><data key="name">`Adan</data><data key="code">YE-AD</data><data key="wikidata">Q275729</data><data key="lon">44.7848</data><data key="lat">12.79839</data></node>
+    <node id="YE-AM"><data key="name">Amran</data><data key="code">YE-AM</data><data key="wikidata">Q275720</data><data key="lon">44.01728</data><data key="lat">16.09999</data></node>
+    <node id="YE-BA"><data key="name">Al Bayda'</data><data key="code">YE-BA</data><data key="wikidata">Q221212</data><data key="lon">45.30429</data><data key="lat">14.31555</data></node>
+    <node id="YE-DA"><data key="name">Al Dali'</data><data key="code">YE-DA</data><data key="wikidata">Q328187</data><data key="lon">44.80871</data><data key="lat">13.87079</data></node>
+    <node id="YE-DH"><data key="name">Dhamar</data><data key="code">YE-DH</data><data key="wikidata">Q328193</data><data key="lon">44.36043</data><data key="lat">14.55246</data></node>
+    <node id="YE-HD"><data key="name">Hadramawt</data><data key="code">YE-HD</data><data key="wikidata">Q241135</data><data key="lon">48.66334</data><data key="lat">16.53438</data></node>
+    <node id="YE-HJ"><data key="name">Hajjah</data><data key="code">YE-HJ</data><data key="wikidata">Q328158</data><data key="lon">43.25006</data><data key="lat">16.09349</data></node>
+    <node id="YE-HU"><data key="name">Al Hudaydah</data><data key="code">YE-HU</data><data key="wikidata">Q275755</data><data key="lon">43.23915</data><data key="lat">14.79665</data></node>
+    <node id="YE-IB"><data key="name">Ibb</data><data key="code">YE-IB</data><data key="wikidata">Q388274</data><data key="lon">44.21633</data><data key="lat">14.0717</data></node>
+    <node id="YE-JA"><data key="name">Al Jawf</data><data key="code">YE-JA</data><data key="wikidata">Q328128</data><data key="lon">45.61733</data><data key="lat">16.61465</data></node>
+    <node id="YE-LA"><data key="name">Lahij</data><data key="code">YE-LA</data><data key="wikidata">Q388318</data><data key="lon">44.77092</data><data key="lat">13.30664</data></node>
+    <node id="YE-MA"><data key="name">Ma'rib</data><data key="code">YE-MA</data><data key="wikidata">Q498465</data><data key="lon">45.4785</data><data key="lat">15.32449</data></node>
+    <node id="YE-MR"><data key="name">Al Mahrah</data><data key="code">YE-MR</data><data key="wikidata">Q275752</data><data key="lon">51.9243</data><data key="lat">16.98059</data></node>
+    <node id="YE-MW"><data key="name">Al Mahwit</data><data key="code">YE-MW</data><data key="wikidata">Q388280</data><data key="lon">43.56779</data><data key="lat">15.29187</data></node>
+    <node id="YE-RA"><data key="name">Raymah</data><data key="code">YE-RA</data><data key="wikidata">Q475033</data><data key="lon">43.74274</data><data key="lat">14.65753</data></node>
+    <node id="YE-SA"><data key="name">Amanat Al Asimah</data><data key="code">YE-SA</data><data key="wikidata">Q32130189</data><data key="lon">44.18888</data><data key="lat">15.45373</data></node>
+    <node id="YE-SD"><data key="name">Sa`dah</data><data key="code">YE-SD</data><data key="wikidata">Q275732</data><data key="lon">43.91098</data><data key="lat">17.06596</data></node>
+    <node id="YE-SH"><data key="name">Shabwah</data><data key="code">YE-SH</data><data key="wikidata">Q328180</data><data key="lon">46.69083</data><data key="lat">14.65686</data></node>
+    <node id="YE-SN"><data key="name">Sana'a</data><data key="code">YE-SN</data><data key="wikidata">Q388291</data><data key="lon">44.45284</data><data key="lat">15.4075</data></node>
+    <node id="YE-TA"><data key="name">Ta`izz</data><data key="code">YE-TA</data><data key="wikidata">Q388330</data><data key="lon">43.79599</data><data key="lat">13.30458</data></node>
+    <edge source="YE-AB" target="YE-AD"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AB" target="YE-BA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AB" target="YE-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AB" target="YE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AD" target="YE-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AM" target="YE-HJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AM" target="YE-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AM" target="YE-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AM" target="YE-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-AM" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-BA" target="YE-DA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-BA" target="YE-DH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-BA" target="YE-IB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-BA" target="YE-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-BA" target="YE-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-BA" target="YE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-BA" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-DA" target="YE-IB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-DA" target="YE-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-DA" target="YE-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-DH" target="YE-HU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-DH" target="YE-IB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-DH" target="YE-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-DH" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HD" target="YE-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HD" target="YE-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HD" target="YE-MR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HD" target="YE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HJ" target="YE-HU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HJ" target="YE-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HJ" target="YE-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HU" target="YE-IB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HU" target="YE-MW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HU" target="YE-RA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HU" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-HU" target="YE-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-IB" target="YE-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-JA" target="YE-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-JA" target="YE-SD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-JA" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-LA" target="YE-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-MA" target="YE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-MA" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-MW" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-RA" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="YE-SA" target="YE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

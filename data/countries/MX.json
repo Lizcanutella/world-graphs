@@ -1,0 +1,1437 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "MX",
+ "kind": "country",
+ "name": "Mexico",
+ "level": "states",
+ "n": 32,
+ "m": 67,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "MX-AGU",
+   "name": "Aguascalientes",
+   "wikidata": "Q79952",
+   "lon": -102.3171,
+   "lat": 22.06155
+  },
+  {
+   "code": "MX-BCN",
+   "name": "Baja California",
+   "wikidata": "Q58731",
+   "lon": -115.2414,
+   "lat": 30.35282
+  },
+  {
+   "code": "MX-BCS",
+   "name": "Baja California Sur",
+   "wikidata": "Q46508",
+   "lon": -111.54477,
+   "lat": 25.43724
+  },
+  {
+   "code": "MX-CAM",
+   "name": "Campeche",
+   "wikidata": "Q80908",
+   "lon": -89.91206,
+   "lat": 19.3261
+  },
+  {
+   "code": "MX-CHH",
+   "name": "Chihuahua",
+   "wikidata": "Q655",
+   "lon": -106.06883,
+   "lat": 28.68631
+  },
+  {
+   "code": "MX-CHP",
+   "name": "Chiapas",
+   "wikidata": "Q60123",
+   "lon": -91.6001,
+   "lat": 16.27002
+  },
+  {
+   "code": "MX-COA",
+   "name": "Coahuila",
+   "wikidata": "Q53079",
+   "lon": -102.27837,
+   "lat": 27.22663
+  },
+  {
+   "code": "MX-COL",
+   "name": "Colima",
+   "wikidata": "Q61309",
+   "lon": -103.93906,
+   "lat": 19.11367
+  },
+  {
+   "code": "MX-DIF",
+   "name": "Distrito Federal",
+   "wikidata": "Q1489",
+   "lon": -99.14949,
+   "lat": 19.31402
+  },
+  {
+   "code": "MX-DUR",
+   "name": "Durango",
+   "wikidata": "Q79918",
+   "lon": -104.58545,
+   "lat": 24.58296
+  },
+  {
+   "code": "MX-GRO",
+   "name": "Guerrero",
+   "wikidata": "Q60158",
+   "lon": -99.91653,
+   "lat": 17.59213
+  },
+  {
+   "code": "MX-GUA",
+   "name": "Guanajuato",
+   "wikidata": "Q46475",
+   "lon": -101.2737,
+   "lat": 20.88991
+  },
+  {
+   "code": "MX-HID",
+   "name": "Hidalgo",
+   "wikidata": "Q80903",
+   "lon": -99.19484,
+   "lat": 20.49304
+  },
+  {
+   "code": "MX-JAL",
+   "name": "Jalisco",
+   "wikidata": "Q13160",
+   "lon": -103.16003,
+   "lat": 20.86415
+  },
+  {
+   "code": "MX-MEX",
+   "name": "México",
+   "wikidata": "Q82112",
+   "lon": -99.79779,
+   "lat": 19.35029
+  },
+  {
+   "code": "MX-MIC",
+   "name": "Michoacán",
+   "wikidata": "Q79861",
+   "lon": -101.65426,
+   "lat": 19.16172
+  },
+  {
+   "code": "MX-MOR",
+   "name": "Morelos",
+   "wikidata": "Q66117",
+   "lon": -99.08401,
+   "lat": 18.7494
+  },
+  {
+   "code": "MX-NAY",
+   "name": "Nayarit",
+   "wikidata": "Q79920",
+   "lon": -104.87226,
+   "lat": 21.86859
+  },
+  {
+   "code": "MX-NLE",
+   "name": "Nuevo León",
+   "wikidata": "Q15282",
+   "lon": -99.61649,
+   "lat": 25.49466
+  },
+  {
+   "code": "MX-OAX",
+   "name": "Oaxaca",
+   "wikidata": "Q34110",
+   "lon": -96.12431,
+   "lat": 17.1658
+  },
+  {
+   "code": "MX-PUE",
+   "name": "Puebla",
+   "wikidata": "Q79923",
+   "lon": -97.42821,
+   "lat": 19.35662
+  },
+  {
+   "code": "MX-QUE",
+   "name": "Querétaro",
+   "wikidata": "Q79754",
+   "lon": -100.02369,
+   "lat": 20.78992
+  },
+  {
+   "code": "MX-ROO",
+   "name": "Quintana Roo",
+   "wikidata": "Q80245",
+   "lon": -88.48696,
+   "lat": 19.76318
+  },
+  {
+   "code": "MX-SIN",
+   "name": "Sinaloa",
+   "wikidata": "Q80252",
+   "lon": -107.40418,
+   "lat": 24.76243
+  },
+  {
+   "code": "MX-SLP",
+   "name": "San Luis Potosí",
+   "wikidata": "Q78980",
+   "lon": -101.11728,
+   "lat": 22.87398
+  },
+  {
+   "code": "MX-SON",
+   "name": "Sonora",
+   "wikidata": "Q46422",
+   "lon": -110.50732,
+   "lat": 29.41322
+  },
+  {
+   "code": "MX-TAB",
+   "name": "Tabasco",
+   "wikidata": "Q80914",
+   "lon": -92.0676,
+   "lat": 17.95022
+  },
+  {
+   "code": "MX-TAM",
+   "name": "Tamaulipas",
+   "wikidata": "Q80007",
+   "lon": -98.39176,
+   "lat": 24.94029
+  },
+  {
+   "code": "MX-TLA",
+   "name": "Tlaxcala",
+   "wikidata": "Q82681",
+   "lon": -98.09629,
+   "lat": 19.41788
+  },
+  {
+   "code": "MX-VER",
+   "name": "Veracruz",
+   "wikidata": "Q60130",
+   "lon": -96.86906,
+   "lat": 19.82252
+  },
+  {
+   "code": "MX-YUC",
+   "name": "Yucatán",
+   "wikidata": "Q60176",
+   "lon": -89.04665,
+   "lat": 20.63058
+  },
+  {
+   "code": "MX-ZAC",
+   "name": "Zacatecas",
+   "wikidata": "Q80269",
+   "lon": -103.21012,
+   "lat": 23.10924
+  }
+ ],
+ "edges": [
+  {
+   "u": "MX-AGU",
+   "v": "MX-JAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116133
+  },
+  {
+   "u": "MX-AGU",
+   "v": "MX-ZAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 198546
+  },
+  {
+   "u": "MX-BCN",
+   "v": "MX-BCS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136309
+  },
+  {
+   "u": "MX-BCN",
+   "v": "MX-SON",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 82162
+  },
+  {
+   "u": "MX-CAM",
+   "v": "MX-ROO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 216613
+  },
+  {
+   "u": "MX-CAM",
+   "v": "MX-TAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 248359
+  },
+  {
+   "u": "MX-CAM",
+   "v": "MX-YUC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 196299
+  },
+  {
+   "u": "MX-CHH",
+   "v": "MX-COA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 283489
+  },
+  {
+   "u": "MX-CHH",
+   "v": "MX-DUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 500025
+  },
+  {
+   "u": "MX-CHH",
+   "v": "MX-SIN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 256442
+  },
+  {
+   "u": "MX-CHH",
+   "v": "MX-SON",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 605899
+  },
+  {
+   "u": "MX-CHP",
+   "v": "MX-OAX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133400
+  },
+  {
+   "u": "MX-CHP",
+   "v": "MX-TAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 431136
+  },
+  {
+   "u": "MX-CHP",
+   "v": "MX-VER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40108
+  },
+  {
+   "u": "MX-COA",
+   "v": "MX-DUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 325623
+  },
+  {
+   "u": "MX-COA",
+   "v": "MX-NLE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 680906
+  },
+  {
+   "u": "MX-COA",
+   "v": "MX-ZAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 248552
+  },
+  {
+   "u": "MX-COL",
+   "v": "MX-JAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 205806
+  },
+  {
+   "u": "MX-COL",
+   "v": "MX-MIC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48638
+  },
+  {
+   "u": "MX-DIF",
+   "v": "MX-MEX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 128113,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MX-DIF",
+   "v": "MX-MOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37697,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "MX-DUR",
+   "v": "MX-NAY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 202809
+  },
+  {
+   "u": "MX-DUR",
+   "v": "MX-SIN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 418698
+  },
+  {
+   "u": "MX-DUR",
+   "v": "MX-ZAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 467102
+  },
+  {
+   "u": "MX-GRO",
+   "v": "MX-MEX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 188462
+  },
+  {
+   "u": "MX-GRO",
+   "v": "MX-MIC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 284836
+  },
+  {
+   "u": "MX-GRO",
+   "v": "MX-MOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88292
+  },
+  {
+   "u": "MX-GRO",
+   "v": "MX-OAX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 240790
+  },
+  {
+   "u": "MX-GRO",
+   "v": "MX-PUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 107318
+  },
+  {
+   "u": "MX-GUA",
+   "v": "MX-JAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 205558
+  },
+  {
+   "u": "MX-GUA",
+   "v": "MX-MIC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 337208
+  },
+  {
+   "u": "MX-GUA",
+   "v": "MX-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 241240
+  },
+  {
+   "u": "MX-GUA",
+   "v": "MX-SLP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 220606
+  },
+  {
+   "u": "MX-GUA",
+   "v": "MX-ZAC",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "MX-HID",
+   "v": "MX-MEX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 253914
+  },
+  {
+   "u": "MX-HID",
+   "v": "MX-PUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 128325
+  },
+  {
+   "u": "MX-HID",
+   "v": "MX-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 170314
+  },
+  {
+   "u": "MX-HID",
+   "v": "MX-SLP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 82517
+  },
+  {
+   "u": "MX-HID",
+   "v": "MX-TLA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69586
+  },
+  {
+   "u": "MX-HID",
+   "v": "MX-VER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 318134
+  },
+  {
+   "u": "MX-JAL",
+   "v": "MX-MIC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 376589
+  },
+  {
+   "u": "MX-JAL",
+   "v": "MX-NAY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 362056
+  },
+  {
+   "u": "MX-JAL",
+   "v": "MX-ZAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 854284
+  },
+  {
+   "u": "MX-MEX",
+   "v": "MX-MIC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 147272
+  },
+  {
+   "u": "MX-MEX",
+   "v": "MX-MOR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 110916
+  },
+  {
+   "u": "MX-MEX",
+   "v": "MX-PUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50972
+  },
+  {
+   "u": "MX-MEX",
+   "v": "MX-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58839
+  },
+  {
+   "u": "MX-MEX",
+   "v": "MX-TLA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22161
+  },
+  {
+   "u": "MX-MIC",
+   "v": "MX-QUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38533
+  },
+  {
+   "u": "MX-MOR",
+   "v": "MX-PUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 134058
+  },
+  {
+   "u": "MX-NAY",
+   "v": "MX-SIN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 121796
+  },
+  {
+   "u": "MX-NAY",
+   "v": "MX-ZAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6366
+  },
+  {
+   "u": "MX-NLE",
+   "v": "MX-SLP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 207750
+  },
+  {
+   "u": "MX-NLE",
+   "v": "MX-TAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 840707
+  },
+  {
+   "u": "MX-NLE",
+   "v": "MX-ZAC",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "MX-OAX",
+   "v": "MX-PUE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 297382
+  },
+  {
+   "u": "MX-OAX",
+   "v": "MX-VER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 497258
+  },
+  {
+   "u": "MX-PUE",
+   "v": "MX-TLA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 252908
+  },
+  {
+   "u": "MX-PUE",
+   "v": "MX-VER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 583985
+  },
+  {
+   "u": "MX-QUE",
+   "v": "MX-SLP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 140366
+  },
+  {
+   "u": "MX-ROO",
+   "v": "MX-YUC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 352086
+  },
+  {
+   "u": "MX-SIN",
+   "v": "MX-SON",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 112264
+  },
+  {
+   "u": "MX-SLP",
+   "v": "MX-TAM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 266041
+  },
+  {
+   "u": "MX-SLP",
+   "v": "MX-VER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 183924
+  },
+  {
+   "u": "MX-SLP",
+   "v": "MX-ZAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 492355
+  },
+  {
+   "u": "MX-TAB",
+   "v": "MX-VER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 131339
+  },
+  {
+   "u": "MX-TAM",
+   "v": "MX-VER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116517
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "MEX-ADM1-31927357",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

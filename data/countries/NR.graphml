@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NR-01"><data key="name">Aiwo</data><data key="code">NR-01</data><data key="wikidata">Q240017</data><data key="lon">166.91351</data><data key="lat">-0.5321</data></node>
+    <node id="NR-02"><data key="name">Anabar</data><data key="code">NR-02</data><data key="wikidata">Q328735</data><data key="lon">166.94303</data><data key="lat">-0.4942</data></node>
+    <node id="NR-03"><data key="name">Anetan</data><data key="code">NR-03</data><data key="wikidata">Q378813</data><data key="lon">166.937</data><data key="lat">-0.49876</data></node>
+    <node id="NR-04"><data key="name">Anibare</data><data key="code">NR-04</data><data key="wikidata">Q328733</data><data key="lon">166.9474</data><data key="lat">-0.51894</data></node>
+    <node id="NR-05"><data key="name">Baiti</data><data key="code">NR-05</data><data key="wikidata">Q328727</data><data key="lon">166.92863</data><data key="lat">-0.50446</data></node>
+    <node id="NR-06"><data key="name">Boe</data><data key="code">NR-06</data><data key="wikidata">Q378829</data><data key="lon">166.91609</data><data key="lat">-0.54395</data></node>
+    <node id="NR-07"><data key="name">Buada</data><data key="code">NR-07</data><data key="wikidata">Q202747</data><data key="lon">166.9259</data><data key="lat">-0.52946</data></node>
+    <node id="NR-08"><data key="name">Denigomodu</data><data key="code">NR-08</data><data key="wikidata">Q1187200</data><data key="lon">166.91227</data><data key="lat">-0.5164</data></node>
+    <node id="NR-09"><data key="name">Ewa</data><data key="code">NR-09</data><data key="wikidata">Q274381</data><data key="lon">166.93238</data><data key="lat">-0.49993</data></node>
+    <node id="NR-10"><data key="name">Ijuw</data><data key="code">NR-10</data><data key="wikidata">Q328738</data><data key="lon">166.94979</data><data key="lat">-0.50647</data></node>
+    <node id="NR-11"><data key="name">Meneng</data><data key="code">NR-11</data><data key="wikidata">Q327788</data><data key="lon">166.93785</data><data key="lat">-0.54491</data></node>
+    <node id="NR-12"><data key="name">Nibok</data><data key="code">NR-12</data><data key="wikidata">Q378780</data><data key="lon">166.92357</data><data key="lat">-0.51615</data></node>
+    <node id="NR-13"><data key="name">Uaboe</data><data key="code">NR-13</data><data key="wikidata">Q473764</data><data key="lon">166.92578</data><data key="lat">-0.50835</data></node>
+    <node id="NR-14"><data key="name">Yaren</data><data key="code">NR-14</data><data key="wikidata">Q31026</data><data key="lon">166.92346</data><data key="lat">-0.54395</data></node>
+    <edge source="NR-01" target="NR-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-01" target="NR-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-01" target="NR-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-02" target="NR-03"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-02" target="NR-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-03" target="NR-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-04" target="NR-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-04" target="NR-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-04" target="NR-09"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="NR-04" target="NR-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-04" target="NR-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-04" target="NR-12"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-04" target="NR-13"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-05" target="NR-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-05" target="NR-13"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-06" target="NR-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-06" target="NR-14"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-07" target="NR-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-07" target="NR-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-07" target="NR-12"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-07" target="NR-14"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-08" target="NR-12"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-11" target="NR-14"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="NR-12" target="NR-13"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="VI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="VI-X01~"><data key="name">Saint Croix</data><data key="code">VI-X01~</data><data key="wikidata"></data><data key="lon">-64.75742</data><data key="lat">17.73298</data></node>
+    <node id="VI-X02~"><data key="name">Saint Thomas</data><data key="code">VI-X02~</data><data key="wikidata"></data><data key="lon">-64.92603</data><data key="lat">18.34408</data></node>
+    <node id="VI-X03~"><data key="name">Saint John</data><data key="code">VI-X03~</data><data key="wikidata">Q548816</data><data key="lon">-64.75052</data><data key="lat">18.33843</data></node>
+  </graph>
+</graphml>

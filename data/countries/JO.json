@@ -1,0 +1,519 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "JO",
+ "kind": "country",
+ "name": "Jordan",
+ "level": "governorates",
+ "n": 12,
+ "m": 23,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "JO-AJ",
+   "name": "Ajlun",
+   "wikidata": "Q506658",
+   "lon": 35.72025,
+   "lat": 32.27352
+  },
+  {
+   "code": "JO-AM",
+   "name": "Amman",
+   "wikidata": "Q472788",
+   "lon": 36.32744,
+   "lat": 31.63666
+  },
+  {
+   "code": "JO-AQ",
+   "name": "Aqaba",
+   "wikidata": "Q260796",
+   "lon": 35.19933,
+   "lat": 29.97516
+  },
+  {
+   "code": "JO-AT",
+   "name": "Tafilah",
+   "wikidata": "Q750259",
+   "lon": 35.63985,
+   "lat": 30.80218
+  },
+  {
+   "code": "JO-AZ",
+   "name": "Zarqa",
+   "wikidata": "Q721445",
+   "lon": 36.8591,
+   "lat": 31.853
+  },
+  {
+   "code": "JO-BA",
+   "name": "Balqa",
+   "wikidata": "Q721431",
+   "lon": 35.65166,
+   "lat": 31.93431
+  },
+  {
+   "code": "JO-IR",
+   "name": "Irbid",
+   "wikidata": "Q721441",
+   "lon": 35.82812,
+   "lat": 32.46564
+  },
+  {
+   "code": "JO-JA",
+   "name": "Jarash",
+   "wikidata": "Q750270",
+   "lon": 35.89122,
+   "lat": 32.2271
+  },
+  {
+   "code": "JO-KA",
+   "name": "Karak",
+   "wikidata": "Q735245",
+   "lon": 35.81296,
+   "lat": 31.09927
+  },
+  {
+   "code": "JO-MA",
+   "name": "Mafraq",
+   "wikidata": "Q854871",
+   "lon": 38.13099,
+   "lat": 32.54086
+  },
+  {
+   "code": "JO-MD",
+   "name": "Madaba",
+   "wikidata": "Q750447",
+   "lon": 35.70461,
+   "lat": 31.58803
+  },
+  {
+   "code": "JO-MN",
+   "name": "Ma`an",
+   "wikidata": "Q606340",
+   "lon": 36.4825,
+   "lat": 30.21782
+  }
+ ],
+ "edges": [
+  {
+   "u": "JO-AJ",
+   "v": "JO-BA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6687
+  },
+  {
+   "u": "JO-AJ",
+   "v": "JO-IR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49413
+  },
+  {
+   "u": "JO-AJ",
+   "v": "JO-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30094
+  },
+  {
+   "u": "JO-AM",
+   "v": "JO-AZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 146798
+  },
+  {
+   "u": "JO-AM",
+   "v": "JO-BA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48570
+  },
+  {
+   "u": "JO-AM",
+   "v": "JO-KA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46971
+  },
+  {
+   "u": "JO-AM",
+   "v": "JO-MD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60234
+  },
+  {
+   "u": "JO-AM",
+   "v": "JO-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101918
+  },
+  {
+   "u": "JO-AQ",
+   "v": "JO-AT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22279
+  },
+  {
+   "u": "JO-AQ",
+   "v": "JO-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 175998
+  },
+  {
+   "u": "JO-AT",
+   "v": "JO-KA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83800
+  },
+  {
+   "u": "JO-AT",
+   "v": "JO-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63847
+  },
+  {
+   "u": "JO-AZ",
+   "v": "JO-BA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7558
+  },
+  {
+   "u": "JO-AZ",
+   "v": "JO-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14993
+  },
+  {
+   "u": "JO-AZ",
+   "v": "JO-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 185147
+  },
+  {
+   "u": "JO-BA",
+   "v": "JO-IR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7214
+  },
+  {
+   "u": "JO-BA",
+   "v": "JO-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21767
+  },
+  {
+   "u": "JO-BA",
+   "v": "JO-MD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17795
+  },
+  {
+   "u": "JO-IR",
+   "v": "JO-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10992
+  },
+  {
+   "u": "JO-IR",
+   "v": "JO-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27751
+  },
+  {
+   "u": "JO-JA",
+   "v": "JO-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20088
+  },
+  {
+   "u": "JO-KA",
+   "v": "JO-MD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24968
+  },
+  {
+   "u": "JO-KA",
+   "v": "JO-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57468
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "JOR-ADM1-50493656",
+  "level": "ADM1",
+  "year": "2006",
+  "license": "Creative Commons Attribution 2.5 Generic"
+ }
+}

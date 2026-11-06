@@ -1,0 +1,810 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ID",
+ "kind": "country",
+ "name": "Indonesia",
+ "level": "provinces",
+ "n": 33,
+ "m": 31,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ID-AC",
+   "name": "Aceh",
+   "wikidata": "Q1823",
+   "lon": 97.14874,
+   "lat": 3.92498
+  },
+  {
+   "code": "ID-BA",
+   "name": "Bali",
+   "wikidata": "Q3125978",
+   "lon": 115.27453,
+   "lat": -8.44248
+  },
+  {
+   "code": "ID-BB",
+   "name": "Bangka-Belitung",
+   "wikidata": "Q1866",
+   "lon": 107.92649,
+   "lat": -2.88417
+  },
+  {
+   "code": "ID-BE",
+   "name": "Bengkulu",
+   "wikidata": "Q1890",
+   "lon": 102.4959,
+   "lat": -3.57668
+  },
+  {
+   "code": "ID-BT",
+   "name": "Banten",
+   "wikidata": "Q3540",
+   "lon": 106.12339,
+   "lat": -6.45134
+  },
+  {
+   "code": "ID-GO",
+   "name": "Gorontalo",
+   "wikidata": "Q5067",
+   "lon": 122.28156,
+   "lat": 0.64588
+  },
+  {
+   "code": "ID-JA",
+   "name": "Jambi",
+   "wikidata": "Q2051",
+   "lon": 102.73685,
+   "lat": -1.76095
+  },
+  {
+   "code": "ID-JB",
+   "name": "Jawa Barat",
+   "wikidata": "Q3724",
+   "lon": 107.64167,
+   "lat": -6.86591
+  },
+  {
+   "code": "ID-JI",
+   "name": "Jawa Timur",
+   "wikidata": "Q3586",
+   "lon": 112.27646,
+   "lat": -7.7562
+  },
+  {
+   "code": "ID-JK",
+   "name": "Jakarta Raya",
+   "wikidata": "Q3630",
+   "lon": 106.84892,
+   "lat": -6.22277
+  },
+  {
+   "code": "ID-JT",
+   "name": "Jawa Tengah",
+   "wikidata": "Q3557",
+   "lon": 109.88285,
+   "lat": -7.31413
+  },
+  {
+   "code": "ID-KB",
+   "name": "Kalimantan Barat",
+   "wikidata": "Q3916",
+   "lon": 111.1114,
+   "lat": -0.49562
+  },
+  {
+   "code": "ID-KI",
+   "name": "Kalimantan Timur",
+   "wikidata": "Q3899",
+   "lon": 115.9328,
+   "lat": 1.02047
+  },
+  {
+   "code": "ID-KR",
+   "name": "Kepulauan Riau",
+   "wikidata": "Q2223",
+   "lon": 108.21009,
+   "lat": 3.94424
+  },
+  {
+   "code": "ID-KS",
+   "name": "Kalimantan Selatan",
+   "wikidata": "Q3906",
+   "lon": 115.51473,
+   "lat": -2.77766
+  },
+  {
+   "code": "ID-KT",
+   "name": "Kalimantan Tengah",
+   "wikidata": "Q3891",
+   "lon": 113.36298,
+   "lat": -1.41655
+  },
+  {
+   "code": "ID-LA",
+   "name": "Lampung",
+   "wikidata": "Q2110",
+   "lon": 105.10354,
+   "lat": -4.84014
+  },
+  {
+   "code": "ID-MA",
+   "name": "Maluku",
+   "wikidata": "Q5093",
+   "lon": 126.65301,
+   "lat": -3.45867
+  },
+  {
+   "code": "ID-MU",
+   "name": "Maluku Utara",
+   "wikidata": "Q5094",
+   "lon": 124.82762,
+   "lat": -1.81736
+  },
+  {
+   "code": "ID-NB",
+   "name": "Nusa Tenggara Barat",
+   "wikidata": "Q5062",
+   "lon": 117.2738,
+   "lat": -8.59486
+  },
+  {
+   "code": "ID-NT",
+   "name": "Nusa Tenggara Timur",
+   "wikidata": "Q5061",
+   "lon": 120.58467,
+   "lat": -8.5084
+  },
+  {
+   "code": "ID-PA",
+   "name": "Papua",
+   "wikidata": "Q5095",
+   "lon": 139.3833,
+   "lat": -5.28765
+  },
+  {
+   "code": "ID-PB",
+   "name": "Papua Barat",
+   "wikidata": "Q5096",
+   "lon": 130.0717,
+   "lat": -1.87245
+  },
+  {
+   "code": "ID-RI",
+   "name": "Riau",
+   "wikidata": "Q2175",
+   "lon": 101.48372,
+   "lat": 0.73347
+  },
+  {
+   "code": "ID-SA",
+   "name": "Sulawesi Utara",
+   "wikidata": "Q5068",
+   "lon": 124.58129,
+   "lat": 1.00587
+  },
+  {
+   "code": "ID-SB",
+   "name": "Sumatera Barat",
+   "wikidata": "Q2772",
+   "lon": 100.82169,
+   "lat": -0.80179
+  },
+  {
+   "code": "ID-SG",
+   "name": "Sulawesi Tenggara",
+   "wikidata": "Q5075",
+   "lon": 121.89115,
+   "lat": -3.85833
+  },
+  {
+   "code": "ID-SN",
+   "name": "Sulawesi Selatan",
+   "wikidata": "Q5078",
+   "lon": 119.95705,
+   "lat": -3.78033
+  },
+  {
+   "code": "ID-SR",
+   "name": "Sulawesi Barat",
+   "wikidata": "Q5082",
+   "lon": 119.38456,
+   "lat": -2.20832
+  },
+  {
+   "code": "ID-SS",
+   "name": "Sumatera Selatan",
+   "wikidata": "Q2271",
+   "lon": 104.38565,
+   "lat": -3.31246
+  },
+  {
+   "code": "ID-ST",
+   "name": "Sulawesi Tengah",
+   "wikidata": "Q5065",
+   "lon": 120.00407,
+   "lat": -0.94716
+  },
+  {
+   "code": "ID-SU",
+   "name": "Sumatera Utara",
+   "wikidata": "Q2140",
+   "lon": 99.20384,
+   "lat": 2.26449
+  },
+  {
+   "code": "ID-YO",
+   "name": "Yogyakarta",
+   "wikidata": "Q3741",
+   "lon": 110.4153,
+   "lat": -7.88125
+  }
+ ],
+ "edges": [
+  {
+   "u": "ID-AC",
+   "v": "ID-SU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 310708
+  },
+  {
+   "u": "ID-BE",
+   "v": "ID-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 113075
+  },
+  {
+   "u": "ID-BE",
+   "v": "ID-LA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21627
+  },
+  {
+   "u": "ID-BE",
+   "v": "ID-SB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40426
+  },
+  {
+   "u": "ID-BE",
+   "v": "ID-SS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 429872
+  },
+  {
+   "u": "ID-BT",
+   "v": "ID-JB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 130701
+  },
+  {
+   "u": "ID-BT",
+   "v": "ID-JK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31985
+  },
+  {
+   "u": "ID-GO",
+   "v": "ID-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 90840
+  },
+  {
+   "u": "ID-GO",
+   "v": "ID-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 166921
+  },
+  {
+   "u": "ID-JA",
+   "v": "ID-RI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 220305
+  },
+  {
+   "u": "ID-JA",
+   "v": "ID-SB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 214336
+  },
+  {
+   "u": "ID-JA",
+   "v": "ID-SS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 409571
+  },
+  {
+   "u": "ID-JB",
+   "v": "ID-JK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57640
+  },
+  {
+   "u": "ID-JB",
+   "v": "ID-JT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 132503
+  },
+  {
+   "u": "ID-JI",
+   "v": "ID-JT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 243014
+  },
+  {
+   "u": "ID-JT",
+   "v": "ID-YO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 171785
+  },
+  {
+   "u": "ID-KB",
+   "v": "ID-KI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133174
+  },
+  {
+   "u": "ID-KB",
+   "v": "ID-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 662202
+  },
+  {
+   "u": "ID-KI",
+   "v": "ID-KS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 208492
+  },
+  {
+   "u": "ID-KI",
+   "v": "ID-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 504100
+  },
+  {
+   "u": "ID-KS",
+   "v": "ID-KT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 321922
+  },
+  {
+   "u": "ID-LA",
+   "v": "ID-SS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 361658
+  },
+  {
+   "u": "ID-PA",
+   "v": "ID-PB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 273270
+  },
+  {
+   "u": "ID-RI",
+   "v": "ID-SB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 320847
+  },
+  {
+   "u": "ID-RI",
+   "v": "ID-SU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 239924
+  },
+  {
+   "u": "ID-SB",
+   "v": "ID-SU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 210590
+  },
+  {
+   "u": "ID-SG",
+   "v": "ID-SN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64501
+  },
+  {
+   "u": "ID-SG",
+   "v": "ID-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 90921
+  },
+  {
+   "u": "ID-SN",
+   "v": "ID-SR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 240880
+  },
+  {
+   "u": "ID-SN",
+   "v": "ID-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 295871
+  },
+  {
+   "u": "ID-SR",
+   "v": "ID-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 152224
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "IDN-ADM1-65028918",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

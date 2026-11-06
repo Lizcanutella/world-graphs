@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SB" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SB-CE"><data key="name">Central</data><data key="code">SB-CE</data><data key="wikidata">Q293722</data><data key="lon">160.20184</data><data key="lat">-9.06093</data></node>
+    <node id="SB-CH"><data key="name">Choiseul</data><data key="code">SB-CH</data><data key="wikidata">Q399063</data><data key="lon">156.94811</data><data key="lat">-7.01316</data></node>
+    <node id="SB-CT"><data key="name">Capital Territory (Honiara)</data><data key="code">SB-CT</data><data key="wikidata">Q40921</data><data key="lon">159.99315</data><data key="lat">-9.44249</data></node>
+    <node id="SB-GU"><data key="name">Guadalcanal</data><data key="code">SB-GU</data><data key="wikidata">Q760888</data><data key="lon">160.14815</data><data key="lat">-9.58872</data></node>
+    <node id="SB-IS"><data key="name">Isabel</data><data key="code">SB-IS</data><data key="wikidata">Q1139082</data><data key="lon">159.21514</data><data key="lat">-8.04648</data></node>
+    <node id="SB-MK"><data key="name">Makira</data><data key="code">SB-MK</data><data key="wikidata">Q1116700</data><data key="lon">161.85386</data><data key="lat">-10.51637</data></node>
+    <node id="SB-ML"><data key="name">Malaita</data><data key="code">SB-ML</data><data key="wikidata">Q1190896</data><data key="lon">160.96492</data><data key="lat">-8.95957</data></node>
+    <node id="SB-RB"><data key="name">Rennell and Bellona</data><data key="code">SB-RB</data><data key="wikidata">Q1051475</data><data key="lon">160.33514</data><data key="lat">-11.65435</data></node>
+    <node id="SB-TE"><data key="name">Temotu</data><data key="code">SB-TE</data><data key="wikidata">Q936088</data><data key="lon">165.91269</data><data key="lat">-10.75775</data></node>
+    <node id="SB-WE"><data key="name">Western</data><data key="code">SB-WE</data><data key="wikidata">Q150325</data><data key="lon">157.07459</data><data key="lat">-7.99021</data></node>
+    <edge source="SB-CT" target="SB-GU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

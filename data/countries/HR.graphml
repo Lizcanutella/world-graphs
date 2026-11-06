@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="HR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="HR-01"><data key="name">Zagrebacka</data><data key="code">HR-01</data><data key="wikidata">Q27038</data><data key="lon">15.60773</data><data key="lat">45.76703</data></node>
+    <node id="HR-02"><data key="name">Krapinsko-Zagorska</data><data key="code">HR-02</data><data key="wikidata">Q57056</data><data key="lon">15.9332</data><data key="lat">46.0837</data></node>
+    <node id="HR-03"><data key="name">Sisacko-Moslavacka</data><data key="code">HR-03</data><data key="wikidata">Q57060</data><data key="lon">16.44318</data><data key="lat">45.41356</data></node>
+    <node id="HR-04"><data key="name">Karlovacka</data><data key="code">HR-04</data><data key="wikidata">Q57071</data><data key="lon">15.31982</data><data key="lat">45.28822</data></node>
+    <node id="HR-05"><data key="name">Varaždinska</data><data key="code">HR-05</data><data key="wikidata">Q57967</data><data key="lon">16.4041</data><data key="lat">46.20349</data></node>
+    <node id="HR-06"><data key="name">Koprivničko-Križevačka</data><data key="code">HR-06</data><data key="wikidata">Q58026</data><data key="lon">16.77679</data><data key="lat">46.11711</data></node>
+    <node id="HR-07"><data key="name">Bjelovarsko-bilogorska</data><data key="code">HR-07</data><data key="wikidata">Q58060</data><data key="lon">16.90026</data><data key="lat">45.77485</data></node>
+    <node id="HR-08"><data key="name">Primorsko-Goranska</data><data key="code">HR-08</data><data key="wikidata">Q58071</data><data key="lon">14.7648</data><data key="lat">45.35252</data></node>
+    <node id="HR-09"><data key="name">Licko-Senjska</data><data key="code">HR-09</data><data key="wikidata">Q58081</data><data key="lon">15.18315</data><data key="lat">44.72662</data></node>
+    <node id="HR-10"><data key="name">Viroviticko-Podravska</data><data key="code">HR-10</data><data key="wikidata">Q58092</data><data key="lon">17.65285</data><data key="lat">45.72943</data></node>
+    <node id="HR-11"><data key="name">Požega-Slavonia</data><data key="code">HR-11</data><data key="wikidata">Q58111</data><data key="lon">17.60971</data><data key="lat">45.40971</data></node>
+    <node id="HR-12"><data key="name">Brodsko-Posavska</data><data key="code">HR-12</data><data key="wikidata">Q58129</data><data key="lon">17.39936</data><data key="lat">45.22099</data></node>
+    <node id="HR-13"><data key="name">Zadarska</data><data key="code">HR-13</data><data key="wikidata">Q58146</data><data key="lon">15.89676</data><data key="lat">44.40889</data></node>
+    <node id="HR-14"><data key="name">Osjecko-Baranjska</data><data key="code">HR-14</data><data key="wikidata">Q58159</data><data key="lon">18.55813</data><data key="lat">45.56068</data></node>
+    <node id="HR-15"><data key="name">Šibensko-Kninska</data><data key="code">HR-15</data><data key="wikidata">Q58194</data><data key="lon">16.02439</data><data key="lat">43.76914</data></node>
+    <node id="HR-16"><data key="name">Vukovarsko-Srijemska</data><data key="code">HR-16</data><data key="wikidata">Q58225</data><data key="lon">18.82319</data><data key="lat">45.17048</data></node>
+    <node id="HR-17"><data key="name">Splitsko-Dalmatinska</data><data key="code">HR-17</data><data key="wikidata">Q58253</data><data key="lon">16.7556</data><data key="lat">43.52557</data></node>
+    <node id="HR-18"><data key="name">Istarska</data><data key="code">HR-18</data><data key="wikidata">Q58268</data><data key="lon">13.95813</data><data key="lat">45.14271</data></node>
+    <node id="HR-19"><data key="name">Dubrovacko-Neretvanska</data><data key="code">HR-19</data><data key="wikidata">Q58289</data><data key="lon">16.91281</data><data key="lat">42.94703</data></node>
+    <node id="HR-20"><data key="name">Medimurska</data><data key="code">HR-20</data><data key="wikidata">Q58330</data><data key="lon">16.47594</data><data key="lat">46.42139</data></node>
+    <node id="HR-21"><data key="name">Grad Zagreb</data><data key="code">HR-21</data><data key="wikidata">Q1435</data><data key="lon">15.9782</data><data key="lat">45.79664</data></node>
+    <edge source="HR-01" target="HR-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-01" target="HR-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-01" target="HR-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-01" target="HR-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-01" target="HR-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-01" target="HR-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-01" target="HR-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-02" target="HR-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-02" target="HR-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-03" target="HR-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-03" target="HR-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-03" target="HR-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-03" target="HR-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-04" target="HR-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-04" target="HR-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-04" target="HR-13"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HR-05" target="HR-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-05" target="HR-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-06" target="HR-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-06" target="HR-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-06" target="HR-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-07" target="HR-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-07" target="HR-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-08" target="HR-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-08" target="HR-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-09" target="HR-13"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="HR-10" target="HR-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-10" target="HR-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-11" target="HR-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-11" target="HR-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-12" target="HR-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-12" target="HR-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-13" target="HR-15"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="HR-13" target="HR-17"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HR-14" target="HR-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HR-15" target="HR-17"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="HR-17" target="HR-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

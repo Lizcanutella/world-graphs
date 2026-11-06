@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="HK" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="HK-X01~"><data key="name">Central and Western</data><data key="code">HK-X01~</data><data key="wikidata"></data><data key="lon">114.13898</data><data key="lat">22.27466</data></node>
+    <node id="HK-X02~"><data key="name">Wan Chai</data><data key="code">HK-X02~</data><data key="wikidata"></data><data key="lon">114.1791</data><data key="lat">22.27065</data></node>
+    <node id="HK-X03~"><data key="name">Eastern</data><data key="code">HK-X03~</data><data key="wikidata"></data><data key="lon">114.21696</data><data key="lat">22.27065</data></node>
+    <node id="HK-X04~"><data key="name">Southern</data><data key="code">HK-X04~</data><data key="wikidata"></data><data key="lon">114.20737</data><data key="lat">22.22942</data></node>
+    <node id="HK-X05~"><data key="name">Yau Tsim Mong</data><data key="code">HK-X05~</data><data key="wikidata"></data><data key="lon">114.17157</data><data key="lat">22.30803</data></node>
+    <node id="HK-X06~"><data key="name">Kowloon City</data><data key="code">HK-X06~</data><data key="wikidata"></data><data key="lon">114.19212</data><data key="lat">22.32066</data></node>
+    <node id="HK-X07~"><data key="name">Sham Shui Po</data><data key="code">HK-X07~</data><data key="wikidata"></data><data key="lon">114.16131</data><data key="lat">22.3341</data></node>
+    <node id="HK-X08~"><data key="name">Wong Tai Sin</data><data key="code">HK-X08~</data><data key="wikidata"></data><data key="lon">114.20961</data><data key="lat">22.34126</data></node>
+    <node id="HK-X09~"><data key="name">Kwun Tong</data><data key="code">HK-X09~</data><data key="wikidata"></data><data key="lon">114.22683</data><data key="lat">22.30583</data></node>
+    <node id="HK-X10~"><data key="name">Sai Kung</data><data key="code">HK-X10~</data><data key="wikidata"></data><data key="lon">114.35672</data><data key="lat">22.3523</data></node>
+    <node id="HK-X11~"><data key="name">Sha Tin</data><data key="code">HK-X11~</data><data key="wikidata"></data><data key="lon">114.20513</data><data key="lat">22.38653</data></node>
+    <node id="HK-X12~"><data key="name">Kwai Tsing</data><data key="code">HK-X12~</data><data key="wikidata"></data><data key="lon">114.13334</data><data key="lat">22.3559</data></node>
+    <node id="HK-X13~"><data key="name">Tsuen Wan</data><data key="code">HK-X13~</data><data key="wikidata"></data><data key="lon">114.11068</data><data key="lat">22.38848</data></node>
+    <node id="HK-X14~"><data key="name">Tuen Mun</data><data key="code">HK-X14~</data><data key="wikidata"></data><data key="lon">113.97493</data><data key="lat">22.39326</data></node>
+    <node id="HK-X15~"><data key="name">Yuen Long</data><data key="code">HK-X15~</data><data key="wikidata"></data><data key="lon">114.0486</data><data key="lat">22.45527</data></node>
+    <node id="HK-X16~"><data key="name">North</data><data key="code">HK-X16~</data><data key="wikidata"></data><data key="lon">114.1854</data><data key="lat">22.51576</data></node>
+    <node id="HK-X17~"><data key="name">Tai Po</data><data key="code">HK-X17~</data><data key="wikidata"></data><data key="lon">114.17207</data><data key="lat">22.46155</data></node>
+    <node id="HK-X18~"><data key="name">Islands</data><data key="code">HK-X18~</data><data key="wikidata"></data><data key="lon">113.92956</data><data key="lat">22.2545</data></node>
+    <edge source="HK-X01~" target="HK-X02~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X01~" target="HK-X04~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X02~" target="HK-X03~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X02~" target="HK-X04~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X03~" target="HK-X04~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X05~" target="HK-X06~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X05~" target="HK-X07~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X06~" target="HK-X07~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X06~" target="HK-X08~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X06~" target="HK-X09~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X06~" target="HK-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X07~" target="HK-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X07~" target="HK-X12~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X08~" target="HK-X09~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X08~" target="HK-X10~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X08~" target="HK-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X09~" target="HK-X10~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X10~" target="HK-X11~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X10~" target="HK-X17~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X11~" target="HK-X12~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X11~" target="HK-X13~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X11~" target="HK-X17~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X12~" target="HK-X13~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X13~" target="HK-X14~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X13~" target="HK-X15~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X13~" target="HK-X17~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X13~" target="HK-X18~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X14~" target="HK-X15~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X15~" target="HK-X16~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X15~" target="HK-X17~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HK-X16~" target="HK-X17~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

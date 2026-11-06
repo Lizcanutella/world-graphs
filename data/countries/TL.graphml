@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TL-AL"><data key="name">Aileu</data><data key="code">TL-AL</data><data key="wikidata">Q405100</data><data key="lon">125.64221</data><data key="lat">-8.70929</data></node>
+    <node id="TL-AN"><data key="name">Ainaro</data><data key="code">TL-AN</data><data key="wikidata">Q405926</data><data key="lon">125.49591</data><data key="lat">-9.00415</data></node>
+    <node id="TL-BA"><data key="name">Baucau</data><data key="code">TL-BA</data><data key="wikidata">Q811132</data><data key="lon">126.47161</data><data key="lat">-8.56842</data></node>
+    <node id="TL-BO"><data key="name">Bobonaro</data><data key="code">TL-BO</data><data key="wikidata">Q860913</data><data key="lon">125.12012</data><data key="lat">-8.97493</data></node>
+    <node id="TL-CO"><data key="name">Cova Lima</data><data key="code">TL-CO</data><data key="wikidata">Q165575</data><data key="lon">125.19818</data><data key="lat">-9.25876</data></node>
+    <node id="TL-DI"><data key="name">Dili</data><data key="code">TL-DI</data><data key="wikidata">Q860901</data><data key="lon">125.65908</data><data key="lat">-8.55729</data></node>
+    <node id="TL-ER"><data key="name">Ermera</data><data key="code">TL-ER</data><data key="wikidata">Q668171</data><data key="lon">125.35876</data><data key="lat">-8.81553</data></node>
+    <node id="TL-LA"><data key="name">Lautém</data><data key="code">TL-LA</data><data key="wikidata">Q686554</data><data key="lon">126.95591</data><data key="lat">-8.53833</data></node>
+    <node id="TL-LI"><data key="name">Liquica</data><data key="code">TL-LI</data><data key="wikidata">Q860897</data><data key="lon">125.27282</data><data key="lat">-8.66333</data></node>
+    <node id="TL-MF"><data key="name">Manufahi</data><data key="code">TL-MF</data><data key="wikidata">Q629934</data><data key="lon">125.7704</data><data key="lat">-8.97356</data></node>
+    <node id="TL-MT"><data key="name">Manatuto</data><data key="code">TL-MT</data><data key="wikidata">Q860630</data><data key="lon">125.92392</data><data key="lat">-8.76613</data></node>
+    <node id="TL-OE"><data key="name">Ambeno</data><data key="code">TL-OE</data><data key="wikidata">Q860639</data><data key="lon">124.21591</data><data key="lat">-9.33949</data></node>
+    <node id="TL-VI"><data key="name">Viqueque</data><data key="code">TL-VI</data><data key="wikidata">Q610726</data><data key="lon">126.31428</data><data key="lat">-8.80393</data></node>
+    <edge source="TL-AL" target="TL-AN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AL" target="TL-DI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AL" target="TL-ER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AL" target="TL-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AL" target="TL-MF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AL" target="TL-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AN" target="TL-BO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AN" target="TL-CO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AN" target="TL-ER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-AN" target="TL-MF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-BA" target="TL-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-BA" target="TL-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-BA" target="TL-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-BO" target="TL-CO"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="TL-BO" target="TL-ER"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-BO" target="TL-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-DI" target="TL-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-DI" target="TL-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-ER" target="TL-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-LA" target="TL-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-MF" target="TL-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TL-MT" target="TL-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

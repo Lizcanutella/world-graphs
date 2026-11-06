@@ -1,0 +1,62 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "VU",
+ "kind": "country",
+ "name": "Vanuatu",
+ "level": "provinces",
+ "n": 6,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "VU-MAP",
+   "name": "Malampa",
+   "wikidata": "Q740656",
+   "lon": 168.07608,
+   "lat": -16.22377
+  },
+  {
+   "code": "VU-PAM",
+   "name": "Penama",
+   "wikidata": "Q836649",
+   "lon": 167.83963,
+   "lat": -15.38152
+  },
+  {
+   "code": "VU-SAM",
+   "name": "Sanma",
+   "wikidata": "Q740640",
+   "lon": 167.0355,
+   "lat": -15.14153
+  },
+  {
+   "code": "VU-SEE",
+   "name": "Shefa",
+   "wikidata": "Q650617",
+   "lon": 168.35423,
+   "lat": -17.67514
+  },
+  {
+   "code": "VU-TAE",
+   "name": "Tafea",
+   "wikidata": "Q576417",
+   "lon": 169.10678,
+   "lat": -18.80836
+  },
+  {
+   "code": "VU-TOB",
+   "name": "Torba",
+   "wikidata": "Q822514",
+   "lon": 167.50244,
+   "lat": -14.22739
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "VUT-ADM1-32282491",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

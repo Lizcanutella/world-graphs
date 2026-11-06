@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="FJ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="FJ-C"><data key="name">Central</data><data key="code">FJ-C</data><data key="wikidata">Q1053789</data><data key="lon">178.28985</data><data key="lat">-17.91025</data></node>
+    <node id="FJ-E"><data key="name">Eastern</data><data key="code">FJ-E</data><data key="wikidata">Q182169</data><data key="lon">-178.29926</data><data key="lat">-17.92592</data></node>
+    <node id="FJ-N"><data key="name">Northern</data><data key="code">FJ-N</data><data key="wikidata">Q1062430</data><data key="lon">179.20293</data><data key="lat">-16.57802</data></node>
+    <node id="FJ-R"><data key="name">Rotuma</data><data key="code">FJ-R</data><data key="wikidata">Q459763</data><data key="lon">177.06793</data><data key="lat">-12.49818</data></node>
+    <node id="FJ-W"><data key="name">Western</data><data key="code">FJ-W</data><data key="wikidata">Q1062451</data><data key="lon">177.70206</data><data key="lat">-17.76124</data></node>
+    <edge source="FJ-C" target="FJ-W"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

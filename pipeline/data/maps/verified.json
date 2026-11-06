@@ -1,0 +1,20 @@
+{
+ "description": "Graphs a maintainer has checked end to end against the map and found correct. Each entry pins the graph it was checked against (graph_sha256 = maps_geo.verified.graph_sha256 of its vertex codes and edges); the export fails if a build changes a verified graph, so re-check it and update the entry. Written by hand; nothing writes it automatically.",
+ "graphs": [
+  {
+   "id": "CO",
+   "date": "2026-10-02",
+   "note": "All 33 departments and 73 borders checked by the maintainer, after adding the Boyacá-Meta border that every geometry source collapses to a quadripoint",
+   "n": 33,
+   "m": 73,
+   "graph_sha256": "aafea410d5325b68280d02e0dd6a29c573961d62e022efb1c887885bdf7e599b",
+   "repinned": [
+    {
+     "date": "2026-11-05",
+     "from": "45863482749234627148577449ae082f3549628170edf7cb67949c68fe653319",
+     "why": "v0.2 relabels Bogota from NE's CO-CUN:Bogota to its ISO code CO-DC (wg.units rule); the vertices and the 73 borders are otherwise identical to the verified graph"
+    }
+   ]
+  }
+ ]
+}

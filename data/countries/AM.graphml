@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AM-AG"><data key="name">Aragatsotn</data><data key="code">AM-AG</data><data key="wikidata">Q17915</data><data key="lon">44.30405</data><data key="lat">40.46449</data></node>
+    <node id="AM-AR"><data key="name">Ararat</data><data key="code">AM-AR</data><data key="wikidata">Q199880</data><data key="lon">44.80254</data><data key="lat">39.93594</data></node>
+    <node id="AM-AV"><data key="name">Armavir</data><data key="code">AM-AV</data><data key="wikidata">Q201147</data><data key="lon">44.05116</data><data key="lat">40.1469</data></node>
+    <node id="AM-ER"><data key="name">Erevan</data><data key="code">AM-ER</data><data key="wikidata">Q1953</data><data key="lon">44.52421</data><data key="lat">40.14281</data></node>
+    <node id="AM-GR"><data key="name">Gegharkunik</data><data key="code">AM-GR</data><data key="wikidata">Q199905</data><data key="lon">45.08894</data><data key="lat">40.31084</data></node>
+    <node id="AM-KT"><data key="name">Kotayk</data><data key="code">AM-KT</data><data key="wikidata">Q4511</data><data key="lon">44.71495</data><data key="lat">40.39055</data></node>
+    <node id="AM-LO"><data key="name">Lori</data><data key="code">AM-LO</data><data key="wikidata">Q200350</data><data key="lon">44.49948</data><data key="lat">40.94466</data></node>
+    <node id="AM-SH"><data key="name">Shirak</data><data key="code">AM-SH</data><data key="wikidata">Q201063</data><data key="lon">43.87107</data><data key="lat">40.78782</data></node>
+    <node id="AM-SU"><data key="name">Syunik</data><data key="code">AM-SU</data><data key="wikidata">Q2523428</data><data key="lon">46.08997</data><data key="lat">39.35677</data></node>
+    <node id="AM-TV"><data key="name">Tavush</data><data key="code">AM-TV</data><data key="wikidata">Q201140</data><data key="lon">45.10875</data><data key="lat">40.96466</data></node>
+    <node id="AM-VD"><data key="name">Vayots Dzor</data><data key="code">AM-VD</data><data key="wikidata">Q200124</data><data key="lon">45.39952</data><data key="lat">39.73962</data></node>
+    <edge source="AM-AG" target="AM-AV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AG" target="AM-ER"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AG" target="AM-KT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AG" target="AM-LO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AG" target="AM-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AR" target="AM-AV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AR" target="AM-ER"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AR" target="AM-GR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AR" target="AM-KT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AR" target="AM-VD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-AV" target="AM-ER"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-ER" target="AM-KT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-GR" target="AM-KT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-GR" target="AM-TV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-GR" target="AM-VD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-KT" target="AM-LO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-KT" target="AM-TV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-LO" target="AM-SH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-LO" target="AM-TV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AM-SU" target="AM-VD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

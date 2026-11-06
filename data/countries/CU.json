@@ -1,0 +1,484 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CU",
+ "kind": "country",
+ "name": "Cuba",
+ "level": "provinces",
+ "n": 16,
+ "m": 20,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CU-01",
+   "name": "Pinar del Río",
+   "wikidata": "Q115497",
+   "lon": -83.73428,
+   "lat": 22.39993
+  },
+  {
+   "code": "CU-03",
+   "name": "Ciudad de la Habana",
+   "wikidata": "Q12588",
+   "lon": -82.35055,
+   "lat": 23.07078
+  },
+  {
+   "code": "CU-04",
+   "name": "Matanzas",
+   "wikidata": "Q115438",
+   "lon": -81.08447,
+   "lat": 22.63014
+  },
+  {
+   "code": "CU-05",
+   "name": "Villa Clara",
+   "wikidata": "Q115434",
+   "lon": -79.85214,
+   "lat": 22.50482
+  },
+  {
+   "code": "CU-06",
+   "name": "Cienfuegos",
+   "wikidata": "Q115444",
+   "lon": -80.49284,
+   "lat": 22.20344
+  },
+  {
+   "code": "CU-07",
+   "name": "Sancti Spíritus",
+   "wikidata": "Q115441",
+   "lon": -79.35769,
+   "lat": 22.01837
+  },
+  {
+   "code": "CU-08",
+   "name": "Ciego de Ávila",
+   "wikidata": "Q220692",
+   "lon": -78.59612,
+   "lat": 21.9644
+  },
+  {
+   "code": "CU-09",
+   "name": "Camagüey",
+   "wikidata": "Q215147",
+   "lon": -77.83935,
+   "lat": 21.39624
+  },
+  {
+   "code": "CU-10",
+   "name": "Las Tunas",
+   "wikidata": "Q115334",
+   "lon": -76.8526,
+   "lat": 21.06759
+  },
+  {
+   "code": "CU-11",
+   "name": "Holguín",
+   "wikidata": "Q115302",
+   "lon": -76.23577,
+   "lat": 20.82345
+  },
+  {
+   "code": "CU-12",
+   "name": "Granma",
+   "wikidata": "Q115046",
+   "lon": -76.77843,
+   "lat": 20.30431
+  },
+  {
+   "code": "CU-13",
+   "name": "Santiago de Cuba",
+   "wikidata": "Q234200",
+   "lon": -75.95058,
+   "lat": 20.22663
+  },
+  {
+   "code": "CU-14",
+   "name": "Guantánamo",
+   "wikidata": "Q115319",
+   "lon": -74.80593,
+   "lat": 20.2142
+  },
+  {
+   "code": "CU-15",
+   "name": "Artemisa",
+   "wikidata": "Q115325",
+   "lon": -82.68578,
+   "lat": 22.84504
+  },
+  {
+   "code": "CU-16",
+   "name": "Mayabeque",
+   "wikidata": "Q115310",
+   "lon": -82.06548,
+   "lat": 22.87978
+  },
+  {
+   "code": "CU-99",
+   "name": "Isla de la Juventud",
+   "wikidata": "Q115027",
+   "lon": -82.82343,
+   "lat": 21.69434
+  }
+ ],
+ "edges": [
+  {
+   "u": "CU-01",
+   "v": "CU-15",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52031
+  },
+  {
+   "u": "CU-03",
+   "v": "CU-15",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24516
+  },
+  {
+   "u": "CU-03",
+   "v": "CU-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68591
+  },
+  {
+   "u": "CU-04",
+   "v": "CU-05",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 89154
+  },
+  {
+   "u": "CU-04",
+   "v": "CU-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 121783
+  },
+  {
+   "u": "CU-04",
+   "v": "CU-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81603
+  },
+  {
+   "u": "CU-05",
+   "v": "CU-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127122
+  },
+  {
+   "u": "CU-05",
+   "v": "CU-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 137361
+  },
+  {
+   "u": "CU-06",
+   "v": "CU-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15856
+  },
+  {
+   "u": "CU-07",
+   "v": "CU-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 126820
+  },
+  {
+   "u": "CU-08",
+   "v": "CU-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 126226
+  },
+  {
+   "u": "CU-09",
+   "v": "CU-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 177724
+  },
+  {
+   "u": "CU-10",
+   "v": "CU-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88515
+  },
+  {
+   "u": "CU-10",
+   "v": "CU-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75688
+  },
+  {
+   "u": "CU-11",
+   "v": "CU-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 75315
+  },
+  {
+   "u": "CU-11",
+   "v": "CU-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 141937
+  },
+  {
+   "u": "CU-11",
+   "v": "CU-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104239
+  },
+  {
+   "u": "CU-12",
+   "v": "CU-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 154984
+  },
+  {
+   "u": "CU-13",
+   "v": "CU-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 77170
+  },
+  {
+   "u": "CU-15",
+   "v": "CU-16",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32859
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CUB-ADM1-62585838",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

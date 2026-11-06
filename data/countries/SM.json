@@ -1,0 +1,309 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SM",
+ "kind": "country",
+ "name": "San Marino",
+ "level": "municipalities",
+ "n": 9,
+ "m": 15,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SM-01",
+   "name": "Acquaviva",
+   "wikidata": "Q206363",
+   "lon": 12.40604,
+   "lat": 43.94402
+  },
+  {
+   "code": "SM-02",
+   "name": "Chiesanuova",
+   "wikidata": "Q206980",
+   "lon": 12.41132,
+   "lat": 43.90518
+  },
+  {
+   "code": "SM-03",
+   "name": "Domagnano",
+   "wikidata": "Q202202",
+   "lon": 12.46936,
+   "lat": 43.95054
+  },
+  {
+   "code": "SM-04",
+   "name": "Faetano",
+   "wikidata": "Q206356",
+   "lon": 12.47442,
+   "lat": 43.93498
+  },
+  {
+   "code": "SM-05",
+   "name": "Fiorentino",
+   "wikidata": "Q206968",
+   "lon": 12.45187,
+   "lat": 43.91071
+  },
+  {
+   "code": "SM-06",
+   "name": "Borgo Maggiore",
+   "wikidata": "Q201368",
+   "lon": 12.4319,
+   "lat": 43.94388
+  },
+  {
+   "code": "SM-07",
+   "name": "San Marino",
+   "wikidata": "Q1848",
+   "lon": 12.41321,
+   "lat": 43.92261
+  },
+  {
+   "code": "SM-08",
+   "name": "Montegiardino",
+   "wikidata": "Q206962",
+   "lon": 12.46818,
+   "lat": 43.9103
+  },
+  {
+   "code": "SM-09",
+   "name": "Serravalle",
+   "wikidata": "Q185412",
+   "lon": 12.46728,
+   "lat": 43.96735
+  }
+ ],
+ "edges": [
+  {
+   "u": "SM-01",
+   "v": "SM-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3508
+  },
+  {
+   "u": "SM-01",
+   "v": "SM-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3616
+  },
+  {
+   "u": "SM-02",
+   "v": "SM-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1312
+  },
+  {
+   "u": "SM-02",
+   "v": "SM-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4517
+  },
+  {
+   "u": "SM-03",
+   "v": "SM-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3412
+  },
+  {
+   "u": "SM-03",
+   "v": "SM-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2912
+  },
+  {
+   "u": "SM-03",
+   "v": "SM-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4704
+  },
+  {
+   "u": "SM-04",
+   "v": "SM-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 351
+  },
+  {
+   "u": "SM-04",
+   "v": "SM-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1580
+  },
+  {
+   "u": "SM-04",
+   "v": "SM-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 828
+  },
+  {
+   "u": "SM-05",
+   "v": "SM-06",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2364
+  },
+  {
+   "u": "SM-05",
+   "v": "SM-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1298
+  },
+  {
+   "u": "SM-05",
+   "v": "SM-08",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2575
+  },
+  {
+   "u": "SM-06",
+   "v": "SM-07",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3645
+  },
+  {
+   "u": "SM-06",
+   "v": "SM-09",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3051
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "SMR-ADM1-276375",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

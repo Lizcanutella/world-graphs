@@ -1,0 +1,87 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "LU",
+ "kind": "country",
+ "name": "Luxembourg",
+ "level": "districts",
+ "n": 3,
+ "m": 3,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "LU-D",
+   "name": "Diekirch",
+   "wikidata": "Q208747",
+   "lon": 5.97373,
+   "lat": 49.93995
+  },
+  {
+   "code": "LU-G",
+   "name": "Grevenmacher",
+   "wikidata": "Q208284",
+   "lon": 6.35082,
+   "lat": 49.65105
+  },
+  {
+   "code": "LU-L",
+   "name": "Luxembourg",
+   "wikidata": "Q2032",
+   "lon": 6.09248,
+   "lat": 49.63919
+  }
+ ],
+ "edges": [
+  {
+   "u": "LU-D",
+   "v": "LU-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8987
+  },
+  {
+   "u": "LU-D",
+   "v": "LU-L",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38373
+  },
+  {
+   "u": "LU-G",
+   "v": "LU-L",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48884
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "LUX-ADM1-76397094",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

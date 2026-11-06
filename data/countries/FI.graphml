@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="FI" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="FI-02"><data key="name">South Karelia</data><data key="code">FI-02</data><data key="wikidata">Q5691</data><data key="lon">29.04992</data><data key="lat">61.25714</data></node>
+    <node id="FI-03"><data key="name">Southern Ostrobothnia</data><data key="code">FI-03</data><data key="wikidata">Q5692</data><data key="lon">23.10292</data><data key="lat">62.74759</data></node>
+    <node id="FI-04"><data key="name">Southern Savonia</data><data key="code">FI-04</data><data key="wikidata">Q5693</data><data key="lon">27.716</data><data key="lat">61.83267</data></node>
+    <node id="FI-05"><data key="name">Kainuu</data><data key="code">FI-05</data><data key="wikidata">Q5694</data><data key="lon">28.31465</data><data key="lat">64.5965</data></node>
+    <node id="FI-06"><data key="name">Tavastia Proper</data><data key="code">FI-06</data><data key="wikidata">Q5695</data><data key="lon">24.23789</data><data key="lat">60.94131</data></node>
+    <node id="FI-07"><data key="name">Central Ostrobothnia</data><data key="code">FI-07</data><data key="wikidata">Q5696</data><data key="lon">24.12646</data><data key="lat">63.64791</data></node>
+    <node id="FI-08"><data key="name">Central Finland</data><data key="code">FI-08</data><data key="wikidata">Q5697</data><data key="lon">25.10433</data><data key="lat">62.52511</data></node>
+    <node id="FI-09"><data key="name">Kymenlaakso</data><data key="code">FI-09</data><data key="wikidata">Q5698</data><data key="lon">26.74843</data><data key="lat">60.8552</data></node>
+    <node id="FI-10"><data key="name">Lapland</data><data key="code">FI-10</data><data key="wikidata">Q5700</data><data key="lon">25.51754</data><data key="lat">67.83707</data></node>
+    <node id="FI-11"><data key="name">Pirkanmaa</data><data key="code">FI-11</data><data key="wikidata">Q5701</data><data key="lon">23.18678</data><data key="lat">61.71664</data></node>
+    <node id="FI-12"><data key="name">Ostrobothnia</data><data key="code">FI-12</data><data key="wikidata">Q5702</data><data key="lon">21.88981</data><data key="lat">62.87202</data></node>
+    <node id="FI-13"><data key="name">North Karelia</data><data key="code">FI-13</data><data key="wikidata">Q5703</data><data key="lon">29.58182</data><data key="lat">62.80358</data></node>
+    <node id="FI-14"><data key="name">Northern Ostrobothnia</data><data key="code">FI-14</data><data key="wikidata">Q5704</data><data key="lon">26.41352</data><data key="lat">64.95651</data></node>
+    <node id="FI-15"><data key="name">Northern Savonia</data><data key="code">FI-15</data><data key="wikidata">Q5706</data><data key="lon">27.98994</data><data key="lat">63.22199</data></node>
+    <node id="FI-16"><data key="name">Päijät-Häme</data><data key="code">FI-16</data><data key="wikidata">Q5708</data><data key="lon">25.98846</data><data key="lat">61.48679</data></node>
+    <node id="FI-17"><data key="name">Satakunta</data><data key="code">FI-17</data><data key="wikidata">Q5709</data><data key="lon">22.14208</data><data key="lat">61.59669</data></node>
+    <node id="FI-18"><data key="name">Uusimaa</data><data key="code">FI-18</data><data key="wikidata">Q5711</data><data key="lon">24.62649</data><data key="lat">60.32038</data></node>
+    <node id="FI-19"><data key="name">Finland Proper</data><data key="code">FI-19</data><data key="wikidata">Q5712</data><data key="lon">22.87585</data><data key="lat">60.59044</data></node>
+    <edge source="FI-02" target="FI-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-02" target="FI-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-02" target="FI-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-03" target="FI-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-03" target="FI-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-03" target="FI-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-03" target="FI-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-03" target="FI-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-04" target="FI-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-04" target="FI-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-04" target="FI-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-04" target="FI-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-04" target="FI-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-05" target="FI-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-05" target="FI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-05" target="FI-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-06" target="FI-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-06" target="FI-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-06" target="FI-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-06" target="FI-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-07" target="FI-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-07" target="FI-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-07" target="FI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-08" target="FI-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-08" target="FI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-08" target="FI-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-08" target="FI-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-09" target="FI-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-09" target="FI-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-10" target="FI-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-11" target="FI-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-11" target="FI-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-11" target="FI-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-12" target="FI-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-13" target="FI-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-14" target="FI-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-16" target="FI-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-17" target="FI-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="FI-18" target="FI-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

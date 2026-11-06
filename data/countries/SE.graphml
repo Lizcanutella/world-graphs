@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SE-AB"><data key="name">Stockholm</data><data key="code">SE-AB</data><data key="wikidata">Q104231</data><data key="lon">18.10657</data><data key="lat">59.50005</data></node>
+    <node id="SE-AC"><data key="name">Västerbotten</data><data key="code">SE-AC</data><data key="wikidata">Q104877</data><data key="lon">18.03967</data><data key="lat">64.88884</data></node>
+    <node id="SE-BD"><data key="name">Norrbotten</data><data key="code">SE-BD</data><data key="wikidata">Q103686</data><data key="lon">20.04832</data><data key="lat">67.05112</data></node>
+    <node id="SE-C"><data key="name">Uppsala</data><data key="code">SE-C</data><data key="wikidata">Q104926</data><data key="lon">17.89382</data><data key="lat">60.06817</data></node>
+    <node id="SE-D"><data key="name">Södermanland</data><data key="code">SE-D</data><data key="wikidata">Q106915</data><data key="lon">16.50492</data><data key="lat">59.05977</data></node>
+    <node id="SE-E"><data key="name">Östergötland</data><data key="code">SE-E</data><data key="wikidata">Q104940</data><data key="lon">15.67934</data><data key="lat">58.36192</data></node>
+    <node id="SE-F"><data key="name">Jönköping</data><data key="code">SE-F</data><data key="wikidata">Q103672</data><data key="lon">14.645</data><data key="lat">57.5246</data></node>
+    <node id="SE-G"><data key="name">Kronoberg</data><data key="code">SE-G</data><data key="wikidata">Q104746</data><data key="lon">14.43516</data><data key="lat">56.81126</data></node>
+    <node id="SE-H"><data key="name">Kalmar</data><data key="code">SE-H</data><data key="wikidata">Q103707</data><data key="lon">16.0062</data><data key="lat">57.2197</data></node>
+    <node id="SE-I"><data key="name">Gotland</data><data key="code">SE-I</data><data key="wikidata">Q103738</data><data key="lon">18.53565</data><data key="lat">57.4158</data></node>
+    <node id="SE-K"><data key="name">Blekinge</data><data key="code">SE-K</data><data key="wikidata">Q102377</data><data key="lon">15.24764</data><data key="lat">56.26013</data></node>
+    <node id="SE-M"><data key="name">Skåne</data><data key="code">SE-M</data><data key="wikidata">Q103659</data><data key="lon">13.5589</data><data key="lat">55.94489</data></node>
+    <node id="SE-N"><data key="name">Halland</data><data key="code">SE-N</data><data key="wikidata">Q103691</data><data key="lon">13.02448</data><data key="lat">56.97824</data></node>
+    <node id="SE-O"><data key="name">Västra Götaland</data><data key="code">SE-O</data><data key="wikidata">Q103093</data><data key="lon">13.05884</data><data key="lat">58.20956</data></node>
+    <node id="SE-S"><data key="name">Värmland</data><data key="code">SE-S</data><data key="wikidata">Q106789</data><data key="lon">13.33693</data><data key="lat">59.97071</data></node>
+    <node id="SE-T"><data key="name">Orebro</data><data key="code">SE-T</data><data key="wikidata">Q104257</data><data key="lon">15.01235</data><data key="lat">59.39755</data></node>
+    <node id="SE-U"><data key="name">Västmanland</data><data key="code">SE-U</data><data key="wikidata">Q105075</data><data key="lon">16.17623</data><data key="lat">59.78759</data></node>
+    <node id="SE-W"><data key="name">Dalarna</data><data key="code">SE-W</data><data key="wikidata">Q103732</data><data key="lon">14.25032</data><data key="lat">61.07258</data></node>
+    <node id="SE-X"><data key="name">Gävleborg</data><data key="code">SE-X</data><data key="wikidata">Q103699</data><data key="lon">16.37095</data><data key="lat">61.28166</data></node>
+    <node id="SE-Y"><data key="name">Västernorrland</data><data key="code">SE-Y</data><data key="wikidata">Q104891</data><data key="lon">17.6611</data><data key="lat">63.08008</data></node>
+    <node id="SE-Z"><data key="name">Jämtland</data><data key="code">SE-Z</data><data key="wikidata">Q103679</data><data key="lon">14.1521</data><data key="lat">63.35637</data></node>
+    <edge source="SE-AB" target="SE-C"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-AB" target="SE-D"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-AC" target="SE-BD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-AC" target="SE-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-AC" target="SE-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-C" target="SE-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-C" target="SE-W"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="SE-C" target="SE-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-D" target="SE-E"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-D" target="SE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-D" target="SE-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-E" target="SE-F"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-E" target="SE-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-E" target="SE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-F" target="SE-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-F" target="SE-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-F" target="SE-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-F" target="SE-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-G" target="SE-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-G" target="SE-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-G" target="SE-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-G" target="SE-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-H" target="SE-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-K" target="SE-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-M" target="SE-N"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-N" target="SE-O"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-O" target="SE-S"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-O" target="SE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-S" target="SE-T"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-S" target="SE-W"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-T" target="SE-U"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-T" target="SE-W"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-U" target="SE-W"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-U" target="SE-X"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="SE-W" target="SE-X"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-W" target="SE-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-X" target="SE-Y"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-X" target="SE-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SE-Y" target="SE-Z"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

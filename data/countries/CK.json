@@ -1,0 +1,92 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CK",
+ "kind": "country",
+ "name": "Cook Islands",
+ "level": null,
+ "n": 11,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CK-X01~",
+   "name": "Atiu",
+   "wikidata": null,
+   "lon": -158.10479,
+   "lat": -19.99749
+  },
+  {
+   "code": "CK-X02~",
+   "name": "Aitutaki",
+   "wikidata": "Q223379",
+   "lon": -158.94341,
+   "lat": -19.25579
+  },
+  {
+   "code": "CK-X03~",
+   "name": "Mangaia",
+   "wikidata": null,
+   "lon": -157.93199,
+   "lat": -21.90639
+  },
+  {
+   "code": "CK-X04~",
+   "name": "Rarotonga",
+   "wikidata": null,
+   "lon": -159.7868,
+   "lat": -21.22153
+  },
+  {
+   "code": "CK-X05~",
+   "name": "Mitiaro",
+   "wikidata": null,
+   "lon": -157.72445,
+   "lat": -19.81024
+  },
+  {
+   "code": "CK-X06~",
+   "name": "Mauke",
+   "wikidata": null,
+   "lon": -157.33149,
+   "lat": -20.15797
+  },
+  {
+   "code": "CK-X07~",
+   "name": "Palmerston",
+   "wikidata": null,
+   "lon": -159.79008,
+   "lat": -18.8611
+  },
+  {
+   "code": "CK-X08~",
+   "name": "Pukapuka",
+   "wikidata": null,
+   "lon": -165.81719,
+   "lat": -10.88543
+  },
+  {
+   "code": "CK-X09~",
+   "name": "Rakahanga",
+   "wikidata": null,
+   "lon": -161.08155,
+   "lat": -10.03574
+  },
+  {
+   "code": "CK-X10~",
+   "name": "Manihiki",
+   "wikidata": null,
+   "lon": -160.96031,
+   "lat": -10.40244
+  },
+  {
+   "code": "CK-X11~",
+   "name": "Penrhyn",
+   "wikidata": null,
+   "lon": -157.98935,
+   "lat": -8.95875
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": null
+}

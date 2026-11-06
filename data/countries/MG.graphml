@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MG-A:Alaotra-Mangoro"><data key="name">Alaotra-Mangoro</data><data key="code">MG-A:Alaotra-Mangoro</data><data key="wikidata">Q639418</data><data key="lon">48.36341</data><data key="lat">-17.99577</data></node>
+    <node id="MG-A:Analanjirofo"><data key="name">Analanjirofo</data><data key="code">MG-A:Analanjirofo</data><data key="wikidata">Q639418</data><data key="lon">49.49535</data><data key="lat">-16.35197</data></node>
+    <node id="MG-A:Atsinanana"><data key="name">Atsinanana</data><data key="code">MG-A:Atsinanana</data><data key="wikidata">Q639418</data><data key="lon">48.89522</data><data key="lat">-18.99013</data></node>
+    <node id="MG-D:Diana"><data key="name">Diana</data><data key="code">MG-D:Diana</data><data key="wikidata">Q656073</data><data key="lon">49.13985</data><data key="lat">-13.09914</data></node>
+    <node id="MG-D:Sava"><data key="name">Sava</data><data key="code">MG-D:Sava</data><data key="wikidata">Q656073</data><data key="lon">49.71004</data><data key="lat">-14.33375</data></node>
+    <node id="MG-F:Amoron'i Mania"><data key="name">Amoron'i Mania</data><data key="code">MG-F:Amoron'i Mania</data><data key="wikidata">Q841197</data><data key="lon">46.808</data><data key="lat">-20.4586</data></node>
+    <node id="MG-F:Atsimo-Atsinanana"><data key="name">Atsimo-Atsinanana</data><data key="code">MG-F:Atsimo-Atsinanana</data><data key="wikidata">Q841197</data><data key="lon">47.29082</data><data key="lat">-23.23505</data></node>
+    <node id="MG-F:Haute Matsiatra"><data key="name">Haute Matsiatra</data><data key="code">MG-F:Haute Matsiatra</data><data key="wikidata">Q841197</data><data key="lon">46.48234</data><data key="lat">-21.51106</data></node>
+    <node id="MG-F:Ihorombe"><data key="name">Ihorombe</data><data key="code">MG-F:Ihorombe</data><data key="wikidata">Q841197</data><data key="lon">46.57723</data><data key="lat">-22.6867</data></node>
+    <node id="MG-F:Vatovavy-Fitovinany"><data key="name">Vatovavy-Fitovinany</data><data key="code">MG-F:Vatovavy-Fitovinany</data><data key="wikidata">Q841197</data><data key="lon">47.87097</data><data key="lat">-21.40224</data></node>
+    <node id="MG-M:Betsiboka"><data key="name">Betsiboka</data><data key="code">MG-M:Betsiboka</data><data key="wikidata">Q669259</data><data key="lon">47.26414</data><data key="lat">-17.12221</data></node>
+    <node id="MG-M:Boeny"><data key="name">Boeny</data><data key="code">MG-M:Boeny</data><data key="wikidata">Q669259</data><data key="lon">46.12239</data><data key="lat">-16.24933</data></node>
+    <node id="MG-M:Melaky"><data key="name">Melaky</data><data key="code">MG-M:Melaky</data><data key="wikidata">Q669259</data><data key="lon">44.97972</data><data key="lat">-17.74383</data></node>
+    <node id="MG-M:Sofia"><data key="name">Sofia</data><data key="code">MG-M:Sofia</data><data key="wikidata">Q669259</data><data key="lon">48.17176</data><data key="lat">-15.31294</data></node>
+    <node id="MG-T:Analamanga"><data key="name">Analamanga</data><data key="code">MG-T:Analamanga</data><data key="wikidata">Q489821</data><data key="lon">47.50233</data><data key="lat">-18.65787</data></node>
+    <node id="MG-T:Bongolava"><data key="name">Bongolava</data><data key="code">MG-T:Bongolava</data><data key="wikidata">Q489821</data><data key="lon">46.32258</data><data key="lat">-18.60323</data></node>
+    <node id="MG-T:Itasy"><data key="name">Itasy</data><data key="code">MG-T:Itasy</data><data key="wikidata">Q489821</data><data key="lon">46.95276</data><data key="lat">-19.06176</data></node>
+    <node id="MG-T:Vakinankaratra"><data key="name">Vakinankaratra</data><data key="code">MG-T:Vakinankaratra</data><data key="wikidata">Q489821</data><data key="lon">46.85622</data><data key="lat">-19.71678</data></node>
+    <node id="MG-U:Androy"><data key="name">Androy</data><data key="code">MG-U:Androy</data><data key="wikidata">Q162020</data><data key="lon">45.52937</data><data key="lat">-24.77098</data></node>
+    <node id="MG-U:Anosy"><data key="name">Anosy</data><data key="code">MG-U:Anosy</data><data key="wikidata">Q162020</data><data key="lon">46.03123</data><data key="lat">-23.92942</data></node>
+    <node id="MG-U:Atsimo-Andrefana"><data key="name">Atsimo-Andrefana</data><data key="code">MG-U:Atsimo-Andrefana</data><data key="wikidata">Q162020</data><data key="lon">44.42551</data><data key="lat">-23.11647</data></node>
+    <node id="MG-U:Menabe"><data key="name">Menabe</data><data key="code">MG-U:Menabe</data><data key="wikidata">Q162020</data><data key="lon">45.12642</data><data key="lat">-20.04738</data></node>
+    <edge source="MG-A:Alaotra-Mangoro" target="MG-A:Analanjirofo"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Alaotra-Mangoro" target="MG-A:Atsinanana"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Alaotra-Mangoro" target="MG-M:Betsiboka"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Alaotra-Mangoro" target="MG-M:Sofia"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Alaotra-Mangoro" target="MG-T:Analamanga"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Alaotra-Mangoro" target="MG-T:Vakinankaratra"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Analanjirofo" target="MG-A:Atsinanana"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Analanjirofo" target="MG-D:Sava"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Analanjirofo" target="MG-M:Sofia"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Atsinanana" target="MG-F:Amoron'i Mania"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Atsinanana" target="MG-F:Vatovavy-Fitovinany"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-A:Atsinanana" target="MG-T:Vakinankaratra"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-D:Diana" target="MG-D:Sava"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-D:Diana" target="MG-M:Sofia"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-D:Sava" target="MG-M:Sofia"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Amoron'i Mania" target="MG-F:Haute Matsiatra"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Amoron'i Mania" target="MG-F:Vatovavy-Fitovinany"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Amoron'i Mania" target="MG-T:Vakinankaratra"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Amoron'i Mania" target="MG-U:Atsimo-Andrefana"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Amoron'i Mania" target="MG-U:Menabe"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Atsimo-Atsinanana" target="MG-F:Haute Matsiatra"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Atsimo-Atsinanana" target="MG-F:Ihorombe"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Atsimo-Atsinanana" target="MG-F:Vatovavy-Fitovinany"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Atsimo-Atsinanana" target="MG-U:Anosy"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Haute Matsiatra" target="MG-F:Ihorombe"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Haute Matsiatra" target="MG-F:Vatovavy-Fitovinany"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Haute Matsiatra" target="MG-U:Atsimo-Andrefana"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Ihorombe" target="MG-U:Anosy"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-F:Ihorombe" target="MG-U:Atsimo-Andrefana"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Betsiboka" target="MG-M:Boeny"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Betsiboka" target="MG-M:Melaky"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Betsiboka" target="MG-M:Sofia"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Betsiboka" target="MG-T:Analamanga"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Betsiboka" target="MG-T:Bongolava"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Boeny" target="MG-M:Melaky"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Boeny" target="MG-M:Sofia"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Melaky" target="MG-T:Bongolava"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-M:Melaky" target="MG-U:Menabe"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Analamanga" target="MG-T:Bongolava"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Analamanga" target="MG-T:Itasy"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Analamanga" target="MG-T:Vakinankaratra"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Bongolava" target="MG-T:Itasy"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Bongolava" target="MG-T:Vakinankaratra"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Bongolava" target="MG-U:Menabe"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Itasy" target="MG-T:Vakinankaratra"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-T:Vakinankaratra" target="MG-U:Menabe"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-U:Androy" target="MG-U:Anosy"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-U:Androy" target="MG-U:Atsimo-Andrefana"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-U:Anosy" target="MG-U:Atsimo-Andrefana"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MG-U:Atsimo-Andrefana" target="MG-U:Menabe"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

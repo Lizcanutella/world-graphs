@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="PA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="PA-1"><data key="name">Bocas del Toro</data><data key="code">PA-1</data><data key="wikidata">Q217138</data><data key="lon">-82.64429</data><data key="lat">9.20527</data></node>
+    <node id="PA-2"><data key="name">Coclé</data><data key="code">PA-2</data><data key="wikidata">Q825799</data><data key="lon">-80.43547</data><data key="lat">8.56819</data></node>
+    <node id="PA-3"><data key="name">Colón</data><data key="code">PA-3</data><data key="wikidata">Q820514</data><data key="lon">-80.21007</data><data key="lat">9.12111</data></node>
+    <node id="PA-4"><data key="name">Chiriquí</data><data key="code">PA-4</data><data key="wikidata">Q739651</data><data key="lon">-82.51623</data><data key="lat">8.45981</data></node>
+    <node id="PA-5"><data key="name">Darién</data><data key="code">PA-5</data><data key="wikidata">Q688660</data><data key="lon">-78.01675</data><data key="lat">8.15552</data></node>
+    <node id="PA-6"><data key="name">Herrera</data><data key="code">PA-6</data><data key="wikidata">Q842886</data><data key="lon">-80.74948</data><data key="lat">7.83543</data></node>
+    <node id="PA-7"><data key="name">Los Santos</data><data key="code">PA-7</data><data key="wikidata">Q911278</data><data key="lon">-80.34254</data><data key="lat">7.61015</data></node>
+    <node id="PA-8"><data key="name">Panama</data><data key="code">PA-8</data><data key="wikidata">Q557506</data><data key="lon">-78.52712</data><data key="lat">8.91819</data></node>
+    <node id="PA-9"><data key="name">Veraguas</data><data key="code">PA-9</data><data key="wikidata">Q593137</data><data key="lon">-81.23885</data><data key="lat">8.04747</data></node>
+    <node id="PA-EM"><data key="name">Emberá</data><data key="code">PA-EM</data><data key="wikidata">Q1141041</data><data key="lon">-77.60886</data><data key="lat">8.43172</data></node>
+    <node id="PA-KY"><data key="name">Kuna Yala</data><data key="code">PA-KY</data><data key="wikidata">Q919017</data><data key="lon">-77.92504</data><data key="lat">9.05617</data></node>
+    <node id="PA-NB"><data key="name">Ngöbe Buglé</data><data key="code">PA-NB</data><data key="wikidata">Q1129783</data><data key="lon">-81.6822</data><data key="lat">8.73075</data></node>
+    <edge source="PA-1" target="PA-4"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-1" target="PA-NB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-2" target="PA-3"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-2" target="PA-6"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-2" target="PA-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-2" target="PA-9"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-3" target="PA-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-3" target="PA-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-3" target="PA-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-4" target="PA-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-4" target="PA-NB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-5" target="PA-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-5" target="PA-EM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-5" target="PA-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-6" target="PA-7"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-6" target="PA-9"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-7" target="PA-9"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-8" target="PA-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-9" target="PA-NB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="PA-EM" target="PA-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

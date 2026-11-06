@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CR-A"><data key="name">Alajuela</data><data key="code">CR-A</data><data key="wikidata">Q502188</data><data key="lon">-84.46842</data><data key="lat">10.46365</data></node>
+    <node id="CR-C"><data key="name">Cartago</data><data key="code">CR-C</data><data key="wikidata">Q502181</data><data key="lon">-83.7079</data><data key="lat">9.79651</data></node>
+    <node id="CR-G"><data key="name">Guanacaste</data><data key="code">CR-G</data><data key="wikidata">Q690026</data><data key="lon">-85.28585</data><data key="lat">10.4746</data></node>
+    <node id="CR-H"><data key="name">Heredia</data><data key="code">CR-H</data><data key="wikidata">Q502192</data><data key="lon">-84.01233</data><data key="lat">10.37151</data></node>
+    <node id="CR-L"><data key="name">Limón</data><data key="code">CR-L</data><data key="wikidata">Q642644</data><data key="lon">-83.36947</data><data key="lat">10.00359</data></node>
+    <node id="CR-P"><data key="name">Puntarenas</data><data key="code">CR-P</data><data key="wikidata">Q502170</data><data key="lon">-83.26923</data><data key="lat">9.18288</data></node>
+    <node id="CR-SJ"><data key="name">San José</data><data key="code">CR-SJ</data><data key="wikidata">Q647808</data><data key="lon">-84.05984</data><data key="lat">9.63225</data></node>
+    <edge source="CR-A" target="CR-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-A" target="CR-H"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-A" target="CR-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-A" target="CR-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-C" target="CR-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-C" target="CR-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-G" target="CR-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-H" target="CR-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-H" target="CR-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-L" target="CR-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-L" target="CR-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CR-P" target="CR-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

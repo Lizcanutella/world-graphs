@@ -1,0 +1,502 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TL",
+ "kind": "country",
+ "name": "Timor-Leste",
+ "level": "municipalities",
+ "n": 13,
+ "m": 22,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TL-AL",
+   "name": "Aileu",
+   "wikidata": "Q405100",
+   "lon": 125.64221,
+   "lat": -8.70929
+  },
+  {
+   "code": "TL-AN",
+   "name": "Ainaro",
+   "wikidata": "Q405926",
+   "lon": 125.49591,
+   "lat": -9.00415
+  },
+  {
+   "code": "TL-BA",
+   "name": "Baucau",
+   "wikidata": "Q811132",
+   "lon": 126.47161,
+   "lat": -8.56842
+  },
+  {
+   "code": "TL-BO",
+   "name": "Bobonaro",
+   "wikidata": "Q860913",
+   "lon": 125.12012,
+   "lat": -8.97493
+  },
+  {
+   "code": "TL-CO",
+   "name": "Cova Lima",
+   "wikidata": "Q165575",
+   "lon": 125.19818,
+   "lat": -9.25876
+  },
+  {
+   "code": "TL-DI",
+   "name": "Dili",
+   "wikidata": "Q860901",
+   "lon": 125.65908,
+   "lat": -8.55729
+  },
+  {
+   "code": "TL-ER",
+   "name": "Ermera",
+   "wikidata": "Q668171",
+   "lon": 125.35876,
+   "lat": -8.81553
+  },
+  {
+   "code": "TL-LA",
+   "name": "Lautém",
+   "wikidata": "Q686554",
+   "lon": 126.95591,
+   "lat": -8.53833
+  },
+  {
+   "code": "TL-LI",
+   "name": "Liquica",
+   "wikidata": "Q860897",
+   "lon": 125.27282,
+   "lat": -8.66333
+  },
+  {
+   "code": "TL-MF",
+   "name": "Manufahi",
+   "wikidata": "Q629934",
+   "lon": 125.7704,
+   "lat": -8.97356
+  },
+  {
+   "code": "TL-MT",
+   "name": "Manatuto",
+   "wikidata": "Q860630",
+   "lon": 125.92392,
+   "lat": -8.76613
+  },
+  {
+   "code": "TL-OE",
+   "name": "Ambeno",
+   "wikidata": "Q860639",
+   "lon": 124.21591,
+   "lat": -9.33949
+  },
+  {
+   "code": "TL-VI",
+   "name": "Viqueque",
+   "wikidata": "Q610726",
+   "lon": 126.31428,
+   "lat": -8.80393
+  }
+ ],
+ "edges": [
+  {
+   "u": "TL-AL",
+   "v": "TL-AN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28696
+  },
+  {
+   "u": "TL-AL",
+   "v": "TL-DI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29847
+  },
+  {
+   "u": "TL-AL",
+   "v": "TL-ER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31979
+  },
+  {
+   "u": "TL-AL",
+   "v": "TL-LI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3768
+  },
+  {
+   "u": "TL-AL",
+   "v": "TL-MF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14280
+  },
+  {
+   "u": "TL-AL",
+   "v": "TL-MT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20064
+  },
+  {
+   "u": "TL-AN",
+   "v": "TL-BO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5752
+  },
+  {
+   "u": "TL-AN",
+   "v": "TL-CO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28803
+  },
+  {
+   "u": "TL-AN",
+   "v": "TL-ER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18468
+  },
+  {
+   "u": "TL-AN",
+   "v": "TL-MF",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56423
+  },
+  {
+   "u": "TL-BA",
+   "v": "TL-LA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38912
+  },
+  {
+   "u": "TL-BA",
+   "v": "TL-MT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22589
+  },
+  {
+   "u": "TL-BA",
+   "v": "TL-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85289
+  },
+  {
+   "u": "TL-BO",
+   "v": "TL-CO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49238
+  },
+  {
+   "u": "TL-BO",
+   "v": "TL-ER",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42628
+  },
+  {
+   "u": "TL-BO",
+   "v": "TL-LI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8756
+  },
+  {
+   "u": "TL-DI",
+   "v": "TL-LI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6629
+  },
+  {
+   "u": "TL-DI",
+   "v": "TL-MT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15429
+  },
+  {
+   "u": "TL-ER",
+   "v": "TL-LI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37335
+  },
+  {
+   "u": "TL-LA",
+   "v": "TL-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7375
+  },
+  {
+   "u": "TL-MF",
+   "v": "TL-MT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46903
+  },
+  {
+   "u": "TL-MT",
+   "v": "TL-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45662
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TLS-ADM1-58719522",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

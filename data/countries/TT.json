@@ -1,0 +1,468 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TT",
+ "kind": "country",
+ "name": "Trinidad and Tobago",
+ "level": "regions",
+ "n": 16,
+ "m": 22,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TT-ARI",
+   "name": "Arima",
+   "wikidata": "Q661405",
+   "lon": -61.27814,
+   "lat": 10.62982
+  },
+  {
+   "code": "TT-CHA",
+   "name": "Chaguanas",
+   "wikidata": "Q1444575",
+   "lon": -61.41543,
+   "lat": 10.53037
+  },
+  {
+   "code": "TT-CTT",
+   "name": "Couva-Tabaquite-Talparo",
+   "wikidata": "Q2679127",
+   "lon": -61.34522,
+   "lat": 10.44097
+  },
+  {
+   "code": "TT-DMN",
+   "name": "Diego Martin",
+   "wikidata": "Q2679107",
+   "lon": -61.57081,
+   "lat": 10.7182
+  },
+  {
+   "code": "TT-ETO",
+   "name": "Eastern Tobago",
+   "wikidata": "Q185111",
+   "lon": -60.59341,
+   "lat": 11.27863
+  },
+  {
+   "code": "TT-PED",
+   "name": "Penal-Debe",
+   "wikidata": "Q2056273",
+   "lon": -61.42331,
+   "lat": 10.15938
+  },
+  {
+   "code": "TT-POS",
+   "name": "Port of Spain",
+   "wikidata": "Q39178",
+   "lon": -61.50985,
+   "lat": 10.65726
+  },
+  {
+   "code": "TT-PRT",
+   "name": "Princes Town",
+   "wikidata": "Q2228167",
+   "lon": -61.28017,
+   "lat": 10.15053
+  },
+  {
+   "code": "TT-PTF",
+   "name": "Point Fortin",
+   "wikidata": "Q786957",
+   "lon": -61.66339,
+   "lat": 10.17646
+  },
+  {
+   "code": "TT-RCM",
+   "name": "Rio Claro-Mayaro",
+   "wikidata": "Q2487249",
+   "lon": -61.11198,
+   "lat": 10.27601
+  },
+  {
+   "code": "TT-SFO",
+   "name": "San Fernando",
+   "wikidata": "Q1023712",
+   "lon": -61.45151,
+   "lat": 10.27574
+  },
+  {
+   "code": "TT-SGE",
+   "name": "Sangre Grande",
+   "wikidata": "Q290292",
+   "lon": -61.1252,
+   "lat": 10.65075
+  },
+  {
+   "code": "TT-SIP",
+   "name": "Siparia",
+   "wikidata": "Q2679119",
+   "lon": -61.57629,
+   "lat": 10.14512
+  },
+  {
+   "code": "TT-SJL",
+   "name": "San Juan-Laventille",
+   "wikidata": "Q979608",
+   "lon": -61.46322,
+   "lat": 10.67211
+  },
+  {
+   "code": "TT-TUP",
+   "name": "Tunapuna/Piarco",
+   "wikidata": "Q1899163",
+   "lon": -61.31956,
+   "lat": 10.67906
+  },
+  {
+   "code": "TT-WTO",
+   "name": "Western Tobago",
+   "wikidata": "Q185111",
+   "lon": -60.72673,
+   "lat": 11.2248
+  }
+ ],
+ "edges": [
+  {
+   "u": "TT-ARI",
+   "v": "TT-TUP",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13955,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "TT-CHA",
+   "v": "TT-CTT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16782
+  },
+  {
+   "u": "TT-CHA",
+   "v": "TT-SJL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7267
+  },
+  {
+   "u": "TT-CHA",
+   "v": "TT-TUP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4466
+  },
+  {
+   "u": "TT-CTT",
+   "v": "TT-PRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21263
+  },
+  {
+   "u": "TT-CTT",
+   "v": "TT-RCM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17590
+  },
+  {
+   "u": "TT-CTT",
+   "v": "TT-SFO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3510
+  },
+  {
+   "u": "TT-CTT",
+   "v": "TT-SGE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17796
+  },
+  {
+   "u": "TT-CTT",
+   "v": "TT-TUP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15072
+  },
+  {
+   "u": "TT-DMN",
+   "v": "TT-POS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4519
+  },
+  {
+   "u": "TT-DMN",
+   "v": "TT-SJL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9315
+  },
+  {
+   "u": "TT-ETO",
+   "v": "TT-WTO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18016,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tobago"
+    }
+   ]
+  },
+  {
+   "u": "TT-PED",
+   "v": "TT-PRT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25016
+  },
+  {
+   "u": "TT-PED",
+   "v": "TT-SFO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5516
+  },
+  {
+   "u": "TT-PED",
+   "v": "TT-SIP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22250
+  },
+  {
+   "u": "TT-POS",
+   "v": "TT-SJL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5565
+  },
+  {
+   "u": "TT-PRT",
+   "v": "TT-RCM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27894
+  },
+  {
+   "u": "TT-PRT",
+   "v": "TT-SFO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5831
+  },
+  {
+   "u": "TT-PTF",
+   "v": "TT-SIP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14568
+  },
+  {
+   "u": "TT-RCM",
+   "v": "TT-SGE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17503
+  },
+  {
+   "u": "TT-SGE",
+   "v": "TT-TUP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34474
+  },
+  {
+   "u": "TT-SJL",
+   "v": "TT-TUP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36349
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TTO-ADM1-22272344",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

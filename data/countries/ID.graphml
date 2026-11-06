@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ID" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ID-AC"><data key="name">Aceh</data><data key="code">ID-AC</data><data key="wikidata">Q1823</data><data key="lon">97.14874</data><data key="lat">3.92498</data></node>
+    <node id="ID-BA"><data key="name">Bali</data><data key="code">ID-BA</data><data key="wikidata">Q3125978</data><data key="lon">115.27453</data><data key="lat">-8.44248</data></node>
+    <node id="ID-BB"><data key="name">Bangka-Belitung</data><data key="code">ID-BB</data><data key="wikidata">Q1866</data><data key="lon">107.92649</data><data key="lat">-2.88417</data></node>
+    <node id="ID-BE"><data key="name">Bengkulu</data><data key="code">ID-BE</data><data key="wikidata">Q1890</data><data key="lon">102.4959</data><data key="lat">-3.57668</data></node>
+    <node id="ID-BT"><data key="name">Banten</data><data key="code">ID-BT</data><data key="wikidata">Q3540</data><data key="lon">106.12339</data><data key="lat">-6.45134</data></node>
+    <node id="ID-GO"><data key="name">Gorontalo</data><data key="code">ID-GO</data><data key="wikidata">Q5067</data><data key="lon">122.28156</data><data key="lat">0.64588</data></node>
+    <node id="ID-JA"><data key="name">Jambi</data><data key="code">ID-JA</data><data key="wikidata">Q2051</data><data key="lon">102.73685</data><data key="lat">-1.76095</data></node>
+    <node id="ID-JB"><data key="name">Jawa Barat</data><data key="code">ID-JB</data><data key="wikidata">Q3724</data><data key="lon">107.64167</data><data key="lat">-6.86591</data></node>
+    <node id="ID-JI"><data key="name">Jawa Timur</data><data key="code">ID-JI</data><data key="wikidata">Q3586</data><data key="lon">112.27646</data><data key="lat">-7.7562</data></node>
+    <node id="ID-JK"><data key="name">Jakarta Raya</data><data key="code">ID-JK</data><data key="wikidata">Q3630</data><data key="lon">106.84892</data><data key="lat">-6.22277</data></node>
+    <node id="ID-JT"><data key="name">Jawa Tengah</data><data key="code">ID-JT</data><data key="wikidata">Q3557</data><data key="lon">109.88285</data><data key="lat">-7.31413</data></node>
+    <node id="ID-KB"><data key="name">Kalimantan Barat</data><data key="code">ID-KB</data><data key="wikidata">Q3916</data><data key="lon">111.1114</data><data key="lat">-0.49562</data></node>
+    <node id="ID-KI"><data key="name">Kalimantan Timur</data><data key="code">ID-KI</data><data key="wikidata">Q3899</data><data key="lon">115.9328</data><data key="lat">1.02047</data></node>
+    <node id="ID-KR"><data key="name">Kepulauan Riau</data><data key="code">ID-KR</data><data key="wikidata">Q2223</data><data key="lon">108.21009</data><data key="lat">3.94424</data></node>
+    <node id="ID-KS"><data key="name">Kalimantan Selatan</data><data key="code">ID-KS</data><data key="wikidata">Q3906</data><data key="lon">115.51473</data><data key="lat">-2.77766</data></node>
+    <node id="ID-KT"><data key="name">Kalimantan Tengah</data><data key="code">ID-KT</data><data key="wikidata">Q3891</data><data key="lon">113.36298</data><data key="lat">-1.41655</data></node>
+    <node id="ID-LA"><data key="name">Lampung</data><data key="code">ID-LA</data><data key="wikidata">Q2110</data><data key="lon">105.10354</data><data key="lat">-4.84014</data></node>
+    <node id="ID-MA"><data key="name">Maluku</data><data key="code">ID-MA</data><data key="wikidata">Q5093</data><data key="lon">126.65301</data><data key="lat">-3.45867</data></node>
+    <node id="ID-MU"><data key="name">Maluku Utara</data><data key="code">ID-MU</data><data key="wikidata">Q5094</data><data key="lon">124.82762</data><data key="lat">-1.81736</data></node>
+    <node id="ID-NB"><data key="name">Nusa Tenggara Barat</data><data key="code">ID-NB</data><data key="wikidata">Q5062</data><data key="lon">117.2738</data><data key="lat">-8.59486</data></node>
+    <node id="ID-NT"><data key="name">Nusa Tenggara Timur</data><data key="code">ID-NT</data><data key="wikidata">Q5061</data><data key="lon">120.58467</data><data key="lat">-8.5084</data></node>
+    <node id="ID-PA"><data key="name">Papua</data><data key="code">ID-PA</data><data key="wikidata">Q5095</data><data key="lon">139.3833</data><data key="lat">-5.28765</data></node>
+    <node id="ID-PB"><data key="name">Papua Barat</data><data key="code">ID-PB</data><data key="wikidata">Q5096</data><data key="lon">130.0717</data><data key="lat">-1.87245</data></node>
+    <node id="ID-RI"><data key="name">Riau</data><data key="code">ID-RI</data><data key="wikidata">Q2175</data><data key="lon">101.48372</data><data key="lat">0.73347</data></node>
+    <node id="ID-SA"><data key="name">Sulawesi Utara</data><data key="code">ID-SA</data><data key="wikidata">Q5068</data><data key="lon">124.58129</data><data key="lat">1.00587</data></node>
+    <node id="ID-SB"><data key="name">Sumatera Barat</data><data key="code">ID-SB</data><data key="wikidata">Q2772</data><data key="lon">100.82169</data><data key="lat">-0.80179</data></node>
+    <node id="ID-SG"><data key="name">Sulawesi Tenggara</data><data key="code">ID-SG</data><data key="wikidata">Q5075</data><data key="lon">121.89115</data><data key="lat">-3.85833</data></node>
+    <node id="ID-SN"><data key="name">Sulawesi Selatan</data><data key="code">ID-SN</data><data key="wikidata">Q5078</data><data key="lon">119.95705</data><data key="lat">-3.78033</data></node>
+    <node id="ID-SR"><data key="name">Sulawesi Barat</data><data key="code">ID-SR</data><data key="wikidata">Q5082</data><data key="lon">119.38456</data><data key="lat">-2.20832</data></node>
+    <node id="ID-SS"><data key="name">Sumatera Selatan</data><data key="code">ID-SS</data><data key="wikidata">Q2271</data><data key="lon">104.38565</data><data key="lat">-3.31246</data></node>
+    <node id="ID-ST"><data key="name">Sulawesi Tengah</data><data key="code">ID-ST</data><data key="wikidata">Q5065</data><data key="lon">120.00407</data><data key="lat">-0.94716</data></node>
+    <node id="ID-SU"><data key="name">Sumatera Utara</data><data key="code">ID-SU</data><data key="wikidata">Q2140</data><data key="lon">99.20384</data><data key="lat">2.26449</data></node>
+    <node id="ID-YO"><data key="name">Yogyakarta</data><data key="code">ID-YO</data><data key="wikidata">Q3741</data><data key="lon">110.4153</data><data key="lat">-7.88125</data></node>
+    <edge source="ID-AC" target="ID-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-BE" target="ID-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-BE" target="ID-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-BE" target="ID-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-BE" target="ID-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-BT" target="ID-JB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-BT" target="ID-JK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-GO" target="ID-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-GO" target="ID-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-JA" target="ID-RI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-JA" target="ID-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-JA" target="ID-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-JB" target="ID-JK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-JB" target="ID-JT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-JI" target="ID-JT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-JT" target="ID-YO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-KB" target="ID-KI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-KB" target="ID-KT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-KI" target="ID-KS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-KI" target="ID-KT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-KS" target="ID-KT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-LA" target="ID-SS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-PA" target="ID-PB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-RI" target="ID-SB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-RI" target="ID-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-SB" target="ID-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-SG" target="ID-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-SG" target="ID-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-SN" target="ID-SR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-SN" target="ID-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ID-SR" target="ID-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

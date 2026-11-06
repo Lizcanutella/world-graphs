@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TM-A"><data key="name">Ahal</data><data key="code">TM-A</data><data key="wikidata">Q399899</data><data key="lon">59.34263</data><data key="lat">37.88014</data></node>
+    <node id="TM-B"><data key="name">Balkan</data><data key="code">TM-B</data><data key="wikidata">Q486073</data><data key="lon">55.25017</data><data key="lat">39.83582</data></node>
+    <node id="TM-D"><data key="name">Tashauz</data><data key="code">TM-D</data><data key="wikidata">Q487393</data><data key="lon">58.79243</data><data key="lat">41.1512</data></node>
+    <node id="TM-L"><data key="name">Chardzhou</data><data key="code">TM-L</data><data key="wikidata">Q487389</data><data key="lon">62.81075</data><data key="lat">39.09025</data></node>
+    <node id="TM-M"><data key="name">Mary</data><data key="code">TM-M</data><data key="wikidata">Q487401</data><data key="lon">62.35009</data><data key="lat">37.33338</data></node>
+    <edge source="TM-A" target="TM-B"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TM-A" target="TM-D"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TM-A" target="TM-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TM-A" target="TM-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TM-B" target="TM-D"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TM-D" target="TM-L"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TM-L" target="TM-M"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

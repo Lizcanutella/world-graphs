@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LA-AT"><data key="name">Attapu</data><data key="code">LA-AT</data><data key="wikidata">Q503004</data><data key="lon">107.09504</data><data key="lat">14.79556</data></node>
+    <node id="LA-BK"><data key="name">Bokeo</data><data key="code">LA-BK</data><data key="wikidata">Q334884</data><data key="lon">100.73955</data><data key="lat">20.3093</data></node>
+    <node id="LA-BL"><data key="name">Bolikhamxai</data><data key="code">LA-BL</data><data key="wikidata">Q2403514</data><data key="lon">103.96069</data><data key="lat">18.47506</data></node>
+    <node id="LA-CH"><data key="name">Champasak</data><data key="code">LA-CH</data><data key="wikidata">Q334888</data><data key="lon">105.8739</data><data key="lat">14.67837</data></node>
+    <node id="LA-HO"><data key="name">Houaphan</data><data key="code">LA-HO</data><data key="wikidata">Q502997</data><data key="lon">103.93622</data><data key="lat">20.28246</data></node>
+    <node id="LA-KH"><data key="name">Khammouan</data><data key="code">LA-KH</data><data key="wikidata">Q506641</data><data key="lon">105.23064</data><data key="lat">17.58022</data></node>
+    <node id="LA-LM"><data key="name">Louang Namtha</data><data key="code">LA-LM</data><data key="wikidata">Q948691</data><data key="lon">101.07009</data><data key="lat">20.92255</data></node>
+    <node id="LA-LP"><data key="name">Louangphrabang</data><data key="code">LA-LP</data><data key="wikidata">Q747881</data><data key="lon">102.65984</data><data key="lat">20.09563</data></node>
+    <node id="LA-OU"><data key="name">Oudômxai</data><data key="code">LA-OU</data><data key="wikidata">Q465961</data><data key="lon">101.87749</data><data key="lat">20.52637</data></node>
+    <node id="LA-PH"><data key="name">Phôngsali</data><data key="code">LA-PH</data><data key="wikidata">Q334868</data><data key="lon">102.19641</data><data key="lat">21.68227</data></node>
+    <node id="LA-SL"><data key="name">Saravan</data><data key="code">LA-SL</data><data key="wikidata">Q302656</data><data key="lon">106.33368</data><data key="lat">15.90444</data></node>
+    <node id="LA-SV"><data key="name">Savannakhét</data><data key="code">LA-SV</data><data key="wikidata">Q465940</data><data key="lon">105.70904</data><data key="lat">16.50372</data></node>
+    <node id="LA-VI"><data key="name">Vientiane</data><data key="code">LA-VI</data><data key="wikidata">Q720066</data><data key="lon">103.09343</data><data key="lat">18.6129</data></node>
+    <node id="LA-VT"><data key="name">Vientiane [prefecture]</data><data key="code">LA-VT</data><data key="wikidata">Q390377</data><data key="lon">102.62238</data><data key="lat">18.12225</data></node>
+    <node id="LA-XA"><data key="name">Xaignabouri</data><data key="code">LA-XA</data><data key="wikidata">Q465929</data><data key="lon">101.52502</data><data key="lat">18.69659</data></node>
+    <node id="LA-XE"><data key="name">Xékong</data><data key="code">LA-XE</data><data key="wikidata">Q585707</data><data key="lon">106.98316</data><data key="lat">15.61274</data></node>
+    <node id="LA-XI"><data key="name">Xiangkhoang</data><data key="code">LA-XI</data><data key="wikidata">Q465947</data><data key="lon">103.35934</data><data key="lat">19.41931</data></node>
+    <edge source="LA-AT" target="LA-CH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-AT" target="LA-XE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-BK" target="LA-LM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-BK" target="LA-OU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-BK" target="LA-XA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-BL" target="LA-KH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-BL" target="LA-VI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-BL" target="LA-VT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-BL" target="LA-XI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-CH" target="LA-SL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-CH" target="LA-XE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-HO" target="LA-LP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-HO" target="LA-XI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-KH" target="LA-SV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-LM" target="LA-OU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-LP" target="LA-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-LP" target="LA-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-LP" target="LA-VI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-LP" target="LA-XA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-LP" target="LA-XI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-OU" target="LA-PH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-OU" target="LA-XA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-SL" target="LA-SV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-SL" target="LA-XE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-VI" target="LA-VT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-VI" target="LA-XA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LA-VI" target="LA-XI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

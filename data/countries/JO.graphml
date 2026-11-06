@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="JO" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="JO-AJ"><data key="name">Ajlun</data><data key="code">JO-AJ</data><data key="wikidata">Q506658</data><data key="lon">35.72025</data><data key="lat">32.27352</data></node>
+    <node id="JO-AM"><data key="name">Amman</data><data key="code">JO-AM</data><data key="wikidata">Q472788</data><data key="lon">36.32744</data><data key="lat">31.63666</data></node>
+    <node id="JO-AQ"><data key="name">Aqaba</data><data key="code">JO-AQ</data><data key="wikidata">Q260796</data><data key="lon">35.19933</data><data key="lat">29.97516</data></node>
+    <node id="JO-AT"><data key="name">Tafilah</data><data key="code">JO-AT</data><data key="wikidata">Q750259</data><data key="lon">35.63985</data><data key="lat">30.80218</data></node>
+    <node id="JO-AZ"><data key="name">Zarqa</data><data key="code">JO-AZ</data><data key="wikidata">Q721445</data><data key="lon">36.8591</data><data key="lat">31.853</data></node>
+    <node id="JO-BA"><data key="name">Balqa</data><data key="code">JO-BA</data><data key="wikidata">Q721431</data><data key="lon">35.65166</data><data key="lat">31.93431</data></node>
+    <node id="JO-IR"><data key="name">Irbid</data><data key="code">JO-IR</data><data key="wikidata">Q721441</data><data key="lon">35.82812</data><data key="lat">32.46564</data></node>
+    <node id="JO-JA"><data key="name">Jarash</data><data key="code">JO-JA</data><data key="wikidata">Q750270</data><data key="lon">35.89122</data><data key="lat">32.2271</data></node>
+    <node id="JO-KA"><data key="name">Karak</data><data key="code">JO-KA</data><data key="wikidata">Q735245</data><data key="lon">35.81296</data><data key="lat">31.09927</data></node>
+    <node id="JO-MA"><data key="name">Mafraq</data><data key="code">JO-MA</data><data key="wikidata">Q854871</data><data key="lon">38.13099</data><data key="lat">32.54086</data></node>
+    <node id="JO-MD"><data key="name">Madaba</data><data key="code">JO-MD</data><data key="wikidata">Q750447</data><data key="lon">35.70461</data><data key="lat">31.58803</data></node>
+    <node id="JO-MN"><data key="name">Ma`an</data><data key="code">JO-MN</data><data key="wikidata">Q606340</data><data key="lon">36.4825</data><data key="lat">30.21782</data></node>
+    <edge source="JO-AJ" target="JO-BA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AJ" target="JO-IR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AJ" target="JO-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AM" target="JO-AZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AM" target="JO-BA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AM" target="JO-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AM" target="JO-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AM" target="JO-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AQ" target="JO-AT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AQ" target="JO-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AT" target="JO-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AT" target="JO-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AZ" target="JO-BA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AZ" target="JO-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-AZ" target="JO-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-BA" target="JO-IR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-BA" target="JO-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-BA" target="JO-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-IR" target="JO-JA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-IR" target="JO-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-JA" target="JO-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-KA" target="JO-MD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JO-KA" target="JO-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

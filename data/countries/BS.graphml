@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BS-AK"><data key="name">Acklins</data><data key="code">BS-AK</data><data key="wikidata">Q122687952</data><data key="lon">-73.94481</data><data key="lat">22.45045</data></node>
+    <node id="BS-BI"><data key="name">Bimini</data><data key="code">BS-BI</data><data key="wikidata">Q863476</data><data key="lon">-79.26415</data><data key="lat">25.7342</data></node>
+    <node id="BS-BP"><data key="name">Black Point</data><data key="code">BS-BP</data><data key="wikidata">Q2525298</data><data key="lon">-76.35599</data><data key="lat">24.03512</data></node>
+    <node id="BS-BY"><data key="name">Berry Islands</data><data key="code">BS-BY</data><data key="wikidata">Q827173</data><data key="lon">-77.85857</data><data key="lat">25.75875</data></node>
+    <node id="BS-CE"><data key="name">Central Eleuthera</data><data key="code">BS-CE</data><data key="wikidata">Q938518</data><data key="lon">-76.15194</data><data key="lat">25.14086</data></node>
+    <node id="BS-CI"><data key="name">Cat Island</data><data key="code">BS-CI</data><data key="wikidata">Q1050154</data><data key="lon">-75.51939</data><data key="lat">24.40335</data></node>
+    <node id="BS-CK"><data key="name">Crooked Island and Long Cay</data><data key="code">BS-CK</data><data key="wikidata">Q1140993</data><data key="lon">-74.23516</data><data key="lat">22.75257</data></node>
+    <node id="BS-CO"><data key="name">Central Abaco</data><data key="code">BS-CO</data><data key="wikidata">Q2525371</data><data key="lon">-77.11545</data><data key="lat">26.48994</data></node>
+    <node id="BS-CS"><data key="name">Central Andros</data><data key="code">BS-CS</data><data key="wikidata">Q2096558</data><data key="lon">-77.93863</data><data key="lat">24.46634</data></node>
+    <node id="BS-EG"><data key="name">East Grand Bahama</data><data key="code">BS-EG</data><data key="wikidata">Q2630334</data><data key="lon">-78.18107</data><data key="lat">26.68354</data></node>
+    <node id="BS-EX"><data key="name">Exuma</data><data key="code">BS-EX</data><data key="wikidata">Q1385577</data><data key="lon">-75.58682</data><data key="lat">23.43159</data></node>
+    <node id="BS-FP"><data key="name">City of Freeport</data><data key="code">BS-FP</data><data key="wikidata">Q867573</data><data key="lon">-78.63394</data><data key="lat">26.5232</data></node>
+    <node id="BS-HI"><data key="name">Harbour Island</data><data key="code">BS-HI</data><data key="wikidata">Q2357510</data><data key="lon">-76.76682</data><data key="lat">25.5466</data></node>
+    <node id="BS-IN"><data key="name">Inagua</data><data key="code">BS-IN</data><data key="wikidata">Q1353668</data><data key="lon">-73.31429</data><data key="lat">21.12577</data></node>
+    <node id="BS-LI"><data key="name">Long Island</data><data key="code">BS-LI</data><data key="wikidata">Q890879</data><data key="lon">-75.10092</data><data key="lat">23.27322</data></node>
+    <node id="BS-MC"><data key="name">Mangrove Cay</data><data key="code">BS-MC</data><data key="wikidata">Q2702334</data><data key="lon">-77.83042</data><data key="lat">24.14275</data></node>
+    <node id="BS-MG"><data key="name">Mayaguana</data><data key="code">BS-MG</data><data key="wikidata">Q21712462</data><data key="lon">-72.98359</data><data key="lat">22.3722</data></node>
+    <node id="BS-MI"><data key="name">Moore's Island</data><data key="code">BS-MI</data><data key="wikidata">Q2702345</data><data key="lon">-77.55586</data><data key="lat">26.30193</data></node>
+    <node id="BS-NE"><data key="name">North Eleuthera</data><data key="code">BS-NE</data><data key="wikidata">Q2705535</data><data key="lon">-76.58627</data><data key="lat">25.42524</data></node>
+    <node id="BS-NO"><data key="name">North Abaco</data><data key="code">BS-NO</data><data key="wikidata">Q623327</data><data key="lon">-77.44346</data><data key="lat">26.78919</data></node>
+    <node id="BS-NS"><data key="name">North Andros</data><data key="code">BS-NS</data><data key="wikidata">Q2699411</data><data key="lon">-78.05476</data><data key="lat">24.83246</data></node>
+    <node id="BS-RC"><data key="name">Rum Cay</data><data key="code">BS-RC</data><data key="wikidata">Q21713441</data><data key="lon">-74.86265</data><data key="lat">23.6892</data></node>
+    <node id="BS-RI"><data key="name">Ragged Island</data><data key="code">BS-RI</data><data key="wikidata">Q1532634</data><data key="lon">-75.74215</data><data key="lat">22.20118</data></node>
+    <node id="BS-SA"><data key="name">South Andros</data><data key="code">BS-SA</data><data key="wikidata">Q2408672</data><data key="lon">-77.67601</data><data key="lat">23.97512</data></node>
+    <node id="BS-SE"><data key="name">South Eleuthera</data><data key="code">BS-SE</data><data key="wikidata">Q2699715</data><data key="lon">-76.3001</data><data key="lat">24.81704</data></node>
+    <node id="BS-SO"><data key="name">South Abaco</data><data key="code">BS-SO</data><data key="wikidata">Q2703192</data><data key="lon">-77.22505</data><data key="lat">26.12181</data></node>
+    <node id="BS-SS"><data key="name">San Salvador</data><data key="code">BS-SS</data><data key="wikidata">Q845540</data><data key="lon">-74.47999</data><data key="lat">24.05008</data></node>
+    <node id="BS-SW"><data key="name">Spanish Wells</data><data key="code">BS-SW</data><data key="wikidata">Q1771681</data><data key="lon">-76.84149</data><data key="lat">25.52035</data></node>
+    <node id="BS-WG"><data key="name">West Grand Bahama</data><data key="code">BS-WG</data><data key="wikidata">Q2702338</data><data key="lon">-78.52231</data><data key="lat">26.656</data></node>
+    <node id="BS-X01~"><data key="name">New Providence</data><data key="code">BS-X01~</data><data key="wikidata">Q858513</data><data key="lon">-77.43633</data><data key="lat">25.02845</data></node>
+    <edge source="BS-CE" target="BS-NE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BS-CE" target="BS-SE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BS-CO" target="BS-NO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BS-CO" target="BS-SO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BS-CS" target="BS-NS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BS-EG" target="BS-WG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BS-FP" target="BS-WG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BS-MC" target="BS-SA"><data key="sources">natural_earth,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

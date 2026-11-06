@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SR-BR"><data key="name">Brokopondo</data><data key="code">SR-BR</data><data key="wikidata">Q847680</data><data key="lon">-55.31676</data><data key="lat">4.66696</data></node>
+    <node id="SR-CM"><data key="name">Commewijne</data><data key="code">SR-CM</data><data key="wikidata">Q952510</data><data key="lon">-54.93885</data><data key="lat">5.76298</data></node>
+    <node id="SR-CR"><data key="name">Coronie</data><data key="code">SR-CR</data><data key="wikidata">Q1130141</data><data key="lon">-56.26375</data><data key="lat">5.63498</data></node>
+    <node id="SR-MA"><data key="name">Marowijne</data><data key="code">SR-MA</data><data key="wikidata">Q1140897</data><data key="lon">-54.34311</data><data key="lat">5.57733</data></node>
+    <node id="SR-NI"><data key="name">Nickerie</data><data key="code">SR-NI</data><data key="wikidata">Q1147515</data><data key="lon">-56.84949</data><data key="lat">5.62958</data></node>
+    <node id="SR-PM"><data key="name">Paramaribo</data><data key="code">SR-PM</data><data key="wikidata">Q1130134</data><data key="lon">-55.17034</data><data key="lat">5.84195</data></node>
+    <node id="SR-PR"><data key="name">Para</data><data key="code">SR-PR</data><data key="wikidata">Q1140891</data><data key="lon">-55.33222</data><data key="lat">5.34365</data></node>
+    <node id="SR-SA"><data key="name">Saramacca</data><data key="code">SR-SA</data><data key="wikidata">Q1351157</data><data key="lon">-55.62051</data><data key="lat">5.70026</data></node>
+    <node id="SR-SI"><data key="name">Sipaliwini</data><data key="code">SR-SI</data><data key="wikidata">Q1130138</data><data key="lon">-55.96122</data><data key="lat">3.69155</data></node>
+    <node id="SR-WA"><data key="name">Wanica</data><data key="code">SR-WA</data><data key="wikidata">Q1147524</data><data key="lon">-55.2556</data><data key="lat">5.78582</data></node>
+    <edge source="SR-BR" target="SR-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-BR" target="SR-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-CM" target="SR-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-CM" target="SR-PM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-CM" target="SR-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-CM" target="SR-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-CR" target="SR-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-CR" target="SR-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-CR" target="SR-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-MA" target="SR-PR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-MA" target="SR-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-NI" target="SR-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-PM" target="SR-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-PR" target="SR-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-PR" target="SR-SI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-PR" target="SR-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SR-SA" target="SR-SI"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="SR-SA" target="SR-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

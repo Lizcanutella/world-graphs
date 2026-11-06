@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CF" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CF-AC"><data key="name">Ouham</data><data key="code">CF-AC</data><data key="wikidata">Q726620</data><data key="lon">17.74439</data><data key="lat">7.10015</data></node>
+    <node id="CF-BB"><data key="name">Bamingui-Bangoran</data><data key="code">CF-BB</data><data key="wikidata">Q741025</data><data key="lon">20.58091</data><data key="lat">8.39736</data></node>
+    <node id="CF-BGF"><data key="name">Bangui</data><data key="code">CF-BGF</data><data key="wikidata">Q3832</data><data key="lon">18.5385</data><data key="lat">4.37201</data></node>
+    <node id="CF-BK"><data key="name">Basse-Kotto</data><data key="code">CF-BK</data><data key="wikidata">Q810484</data><data key="lon">21.3646</data><data key="lat">4.97806</data></node>
+    <node id="CF-HK"><data key="name">Haute-Kotto</data><data key="code">CF-HK</data><data key="wikidata">Q848596</data><data key="lon">22.97168</data><data key="lat">7.36433</data></node>
+    <node id="CF-HM"><data key="name">Haut-Mbomou</data><data key="code">CF-HM</data><data key="wikidata">Q848578</data><data key="lon">25.3854</data><data key="lat">6.59465</data></node>
+    <node id="CF-HS"><data key="name">Mambéré-Kadéï</data><data key="code">CF-HS</data><data key="wikidata">Q848567</data><data key="lon">15.86407</data><data key="lat">4.52957</data></node>
+    <node id="CF-KB"><data key="name">Nana-Grébizi</data><data key="code">CF-KB</data><data key="wikidata">Q856227</data><data key="lon">19.24265</data><data key="lat">7.5133</data></node>
+    <node id="CF-KG"><data key="name">Kémo</data><data key="code">CF-KG</data><data key="wikidata">Q848572</data><data key="lon">19.14886</data><data key="lat">5.73685</data></node>
+    <node id="CF-LB"><data key="name">Lobaye</data><data key="code">CF-LB</data><data key="wikidata">Q821037</data><data key="lon">17.53501</data><data key="lat">4.27321</data></node>
+    <node id="CF-MB"><data key="name">Mbomou</data><data key="code">CF-MB</data><data key="wikidata">Q848582</data><data key="lon">23.42766</data><data key="lat">5.44132</data></node>
+    <node id="CF-MP"><data key="name">Ombella-M'Poko</data><data key="code">CF-MP</data><data key="wikidata">Q378970</data><data key="lon">18.18828</data><data key="lat">4.88271</data></node>
+    <node id="CF-NM"><data key="name">Nana-Mambéré</data><data key="code">CF-NM</data><data key="wikidata">Q742455</data><data key="lon">15.27779</data><data key="lat">5.8528</data></node>
+    <node id="CF-OP"><data key="name">Ouham-Pendé</data><data key="code">CF-OP</data><data key="wikidata">Q848591</data><data key="lon">15.96838</data><data key="lat">6.71795</data></node>
+    <node id="CF-SE"><data key="name">Sangha-Mbaéré</data><data key="code">CF-SE</data><data key="wikidata">Q856237</data><data key="lon">16.08865</data><data key="lat">3.23797</data></node>
+    <node id="CF-UK"><data key="name">Ouaka</data><data key="code">CF-UK</data><data key="wikidata">Q848560</data><data key="lon">20.82108</data><data key="lat">6.11275</data></node>
+    <node id="CF-VK"><data key="name">Vakaga</data><data key="code">CF-VK</data><data key="wikidata">Q848585</data><data key="lon">22.38218</data><data key="lat">9.78497</data></node>
+    <edge source="CF-AC" target="CF-KB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-AC" target="CF-KG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-AC" target="CF-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-AC" target="CF-OP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BB" target="CF-HK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BB" target="CF-KB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BB" target="CF-UK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BB" target="CF-VK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BGF" target="CF-MP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BK" target="CF-HK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BK" target="CF-MB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-BK" target="CF-UK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HK" target="CF-HM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HK" target="CF-MB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HK" target="CF-UK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HK" target="CF-VK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HM" target="CF-MB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HS" target="CF-LB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HS" target="CF-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HS" target="CF-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-HS" target="CF-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-KB" target="CF-KG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-KB" target="CF-UK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-KG" target="CF-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-KG" target="CF-UK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-LB" target="CF-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-LB" target="CF-SE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-MP" target="CF-NM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-MP" target="CF-OP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CF-NM" target="CF-OP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KR-11"><data key="name">Seoul</data><data key="code">KR-11</data><data key="wikidata">Q8684</data><data key="lon">126.95633</data><data key="lat">37.55461</data></node>
+    <node id="KR-26"><data key="name">Busan</data><data key="code">KR-26</data><data key="wikidata">Q16520</data><data key="lon">129.09003</data><data key="lat">35.15872</data></node>
+    <node id="KR-27"><data key="name">Daegu</data><data key="code">KR-27</data><data key="wikidata">Q20927</data><data key="lon">128.63596</data><data key="lat">35.89104</data></node>
+    <node id="KR-28"><data key="name">Incheon</data><data key="code">KR-28</data><data key="wikidata">Q20934</data><data key="lon">126.68673</data><data key="lat">37.46088</data></node>
+    <node id="KR-29"><data key="name">Gwangju</data><data key="code">KR-29</data><data key="wikidata">Q41283</data><data key="lon">126.91552</data><data key="lat">35.21356</data></node>
+    <node id="KR-30"><data key="name">Daejeon</data><data key="code">KR-30</data><data key="wikidata">Q20921</data><data key="lon">127.38469</data><data key="lat">36.35556</data></node>
+    <node id="KR-31"><data key="name">Ulsan</data><data key="code">KR-31</data><data key="wikidata">Q41278</data><data key="lon">129.18822</data><data key="lat">35.50046</data></node>
+    <node id="KR-41"><data key="name">Gyeonggi</data><data key="code">KR-41</data><data key="wikidata">Q20937</data><data key="lon">127.46677</data><data key="lat">37.54522</data></node>
+    <node id="KR-42"><data key="name">Gangwon</data><data key="code">KR-42</data><data key="wikidata">Q41071</data><data key="lon">128.30663</data><data key="lat">37.6169</data></node>
+    <node id="KR-43"><data key="name">North Chungcheong</data><data key="code">KR-43</data><data key="wikidata">Q41066</data><data key="lon">127.53833</data><data key="lat">36.60218</data></node>
+    <node id="KR-44"><data key="name">South Chungcheong</data><data key="code">KR-44</data><data key="wikidata">Q41070</data><data key="lon">126.79619</data><data key="lat">36.52267</data></node>
+    <node id="KR-45"><data key="name">North Jeolla</data><data key="code">KR-45</data><data key="wikidata">Q41157</data><data key="lon">127.13387</data><data key="lat">35.70301</data></node>
+    <node id="KR-46"><data key="name">South Jeolla</data><data key="code">KR-46</data><data key="wikidata">Q41161</data><data key="lon">127.0483</data><data key="lat">34.87708</data></node>
+    <node id="KR-47"><data key="name">North Gyeongsang</data><data key="code">KR-47</data><data key="wikidata">Q41154</data><data key="lon">128.622</data><data key="lat">36.31518</data></node>
+    <node id="KR-48"><data key="name">South Gyeongsang</data><data key="code">KR-48</data><data key="wikidata">Q41151</data><data key="lon">128.43559</data><data key="lat">35.35888</data></node>
+    <node id="KR-49"><data key="name">Jeju</data><data key="code">KR-49</data><data key="wikidata">Q41164</data><data key="lon">126.55689</data><data key="lat">33.38416</data></node>
+    <node id="KR-50"><data key="name">Sejong</data><data key="code">KR-50</data><data key="wikidata">Q20929</data><data key="lon">127.15238</data><data key="lat">36.58073</data></node>
+    <edge source="KR-11" target="KR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-26" target="KR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-27" target="KR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-28" target="KR-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-29" target="KR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-30" target="KR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-30" target="KR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-30" target="KR-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-31" target="KR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-31" target="KR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-41" target="KR-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-41" target="KR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-41" target="KR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-42" target="KR-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-42" target="KR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-43" target="KR-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-43" target="KR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-43" target="KR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-43" target="KR-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-44" target="KR-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-44" target="KR-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-45" target="KR-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-45" target="KR-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-45" target="KR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-46" target="KR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KR-47" target="KR-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

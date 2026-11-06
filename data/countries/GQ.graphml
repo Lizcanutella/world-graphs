@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GQ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GQ-AN"><data key="name">Annobón</data><data key="code">GQ-AN</data><data key="wikidata">Q3736616</data><data key="lon">5.63381</data><data key="lat">-1.45041</data></node>
+    <node id="GQ-BN"><data key="name">Bioko Norte</data><data key="code">GQ-BN</data><data key="wikidata">Q845834</data><data key="lon">8.79295</data><data key="lat">3.64568</data></node>
+    <node id="GQ-BS"><data key="name">Bioko Sur</data><data key="code">GQ-BS</data><data key="wikidata">Q845817</data><data key="lon">8.62919</data><data key="lat">3.4182</data></node>
+    <node id="GQ-CS"><data key="name">Centro Sur</data><data key="code">GQ-CS</data><data key="wikidata">Q845823</data><data key="lon">10.25269</data><data key="lat">1.58238</data></node>
+    <node id="GQ-KN"><data key="name">Kié-Ntem</data><data key="code">GQ-KN</data><data key="wikidata">Q853393</data><data key="lon">11.14508</data><data key="lat">1.94704</data></node>
+    <node id="GQ-LI"><data key="name">Litoral</data><data key="code">GQ-LI</data><data key="wikidata">Q203873</data><data key="lon">9.8037</data><data key="lat">1.6288</data></node>
+    <node id="GQ-WN"><data key="name">Wele-Nzás</data><data key="code">GQ-WN</data><data key="wikidata">Q853400</data><data key="lon">11.11294</data><data key="lat">1.50181</data></node>
+    <edge source="GQ-BN" target="GQ-BS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GQ-CS" target="GQ-KN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GQ-CS" target="GQ-LI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GQ-CS" target="GQ-WN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GQ-KN" target="GQ-WN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

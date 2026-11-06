@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CM-AD"><data key="name">Adamaoua</data><data key="code">CM-AD</data><data key="wikidata">Q351514</data><data key="lon">13.21312</data><data key="lat">7.0937</data></node>
+    <node id="CM-CE"><data key="name">Centre</data><data key="code">CM-CE</data><data key="wikidata">Q739951</data><data key="lon">11.86133</data><data key="lat">4.68956</data></node>
+    <node id="CM-EN"><data key="name">Extrême-Nord</data><data key="code">CM-EN</data><data key="wikidata">Q823976</data><data key="lon">14.85758</data><data key="lat">11.49983</data></node>
+    <node id="CM-ES"><data key="name">Est</data><data key="code">CM-ES</data><data key="wikidata">Q845168</data><data key="lon">13.80039</data><data key="lat">3.88536</data></node>
+    <node id="CM-LT"><data key="name">Littoral</data><data key="code">CM-LT</data><data key="wikidata">Q845172</data><data key="lon">10.24044</data><data key="lat">4.3147</data></node>
+    <node id="CM-NO"><data key="name">Nord</data><data key="code">CM-NO</data><data key="wikidata">Q502341</data><data key="lon">13.83599</data><data key="lat">8.63383</data></node>
+    <node id="CM-NW"><data key="name">Nord-Ouest</data><data key="code">CM-NW</data><data key="wikidata">Q823946</data><data key="lon">10.47915</data><data key="lat">6.42585</data></node>
+    <node id="CM-OU"><data key="name">Ouest</data><data key="code">CM-OU</data><data key="wikidata">Q165784</data><data key="lon">10.59636</data><data key="lat">5.59294</data></node>
+    <node id="CM-SU"><data key="name">Sud</data><data key="code">CM-SU</data><data key="wikidata">Q857122</data><data key="lon">11.35489</data><data key="lat">2.91277</data></node>
+    <node id="CM-SW"><data key="name">Sud-Ouest</data><data key="code">CM-SW</data><data key="wikidata">Q607499</data><data key="lon">9.29087</data><data key="lat">5.22087</data></node>
+    <edge source="CM-AD" target="CM-CE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-AD" target="CM-ES"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-AD" target="CM-NO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-AD" target="CM-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-AD" target="CM-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-CE" target="CM-ES"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-CE" target="CM-LT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-CE" target="CM-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-CE" target="CM-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-EN" target="CM-NO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-ES" target="CM-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-LT" target="CM-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-LT" target="CM-SU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-LT" target="CM-SW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-NW" target="CM-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-NW" target="CM-SW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CM-OU" target="CM-SW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

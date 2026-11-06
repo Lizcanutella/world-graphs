@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SK" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SK-BC"><data key="name">Banskobystrický</data><data key="code">SK-BC</data><data key="wikidata">Q183640</data><data key="lon">19.41976</data><data key="lat">48.50141</data></node>
+    <node id="SK-BL"><data key="name">Bratislavský</data><data key="code">SK-BL</data><data key="wikidata">Q183498</data><data key="lon">17.1831</data><data key="lat">48.33013</data></node>
+    <node id="SK-KI"><data key="name">Košický</data><data key="code">SK-KI</data><data key="wikidata">Q186295</data><data key="lon">21.28691</data><data key="lat">48.67465</data></node>
+    <node id="SK-NI"><data key="name">Nitriansky</data><data key="code">SK-NI</data><data key="wikidata">Q184548</data><data key="lon">18.34448</data><data key="lat">48.2322</data></node>
+    <node id="SK-PV"><data key="name">Prešov</data><data key="code">SK-PV</data><data key="wikidata">Q189001</data><data key="lon">21.1992</data><data key="lat">49.10535</data></node>
+    <node id="SK-TA"><data key="name">Trnavský</data><data key="code">SK-TA</data><data key="wikidata">Q181342</data><data key="lon">17.65577</data><data key="lat">48.31863</data></node>
+    <node id="SK-TC"><data key="name">Trenciansky</data><data key="code">SK-TC</data><data key="wikidata">Q183139</data><data key="lon">18.23918</data><data key="lat">48.9034</data></node>
+    <node id="SK-ZI"><data key="name">Žilinský</data><data key="code">SK-ZI</data><data key="wikidata">Q184228</data><data key="lon">19.20896</data><data key="lat">49.17283</data></node>
+    <edge source="SK-BC" target="SK-KI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-BC" target="SK-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-BC" target="SK-PV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-BC" target="SK-TC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-BC" target="SK-ZI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-BL" target="SK-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-KI" target="SK-PV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-NI" target="SK-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-NI" target="SK-TC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-PV" target="SK-ZI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-TA" target="SK-TC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SK-TC" target="SK-ZI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

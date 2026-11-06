@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LY" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LY-AJ"><data key="name">Ajdabiya</data><data key="code">LY-AJ</data><data key="wikidata">Q1640928</data><data key="lon">20.78359</data><data key="lat">29.02035</data></node>
+    <node id="LY-BA"><data key="name">Benghazi</data><data key="code">LY-BA</data><data key="wikidata">Q40816</data><data key="lon">20.1774</data><data key="lat">31.78195</data></node>
+    <node id="LY-BU"><data key="name">Al Butnan</data><data key="code">LY-BU</data><data key="wikidata">Q25931</data><data key="lon">23.87338</data><data key="lat">30.16346</data></node>
+    <node id="LY-GD"><data key="name">Ghadamis</data><data key="code">LY-GD</data><data key="wikidata">Q27659</data><data key="lon">10.78371</data><data key="lat">30.45393</data></node>
+    <node id="LY-GT"><data key="name">Ghat</data><data key="code">LY-GT</data><data key="wikidata">Q48236</data><data key="lon">10.4066</data><data key="lat">26.01561</data></node>
+    <node id="LY-JA"><data key="name">Al Jabal al Akhdar</data><data key="code">LY-JA</data><data key="wikidata">Q32841</data><data key="lon">21.7983</data><data key="lat">32.02519</data></node>
+    <node id="LY-JI"><data key="name">Al Jifarah</data><data key="code">LY-JI</data><data key="wikidata">Q329060</data><data key="lon">13.02794</data><data key="lat">32.51012</data></node>
+    <node id="LY-JU"><data key="name">Al Jufrah</data><data key="code">LY-JU</data><data key="wikidata">Q48247</data><data key="lon">17.52693</data><data key="lat">27.95581</data></node>
+    <node id="LY-KF"><data key="name">Al Kufrah</data><data key="code">LY-KF</data><data key="wikidata">Q48200</data><data key="lon">22.08059</data><data key="lat">23.30855</data></node>
+    <node id="LY-MB"><data key="name">Al Marqab</data><data key="code">LY-MB</data><data key="wikidata">Q209778</data><data key="lon">14.01966</data><data key="lat">32.35451</data></node>
+    <node id="LY-MI"><data key="name">Misratah</data><data key="code">LY-MI</data><data key="wikidata">Q32845</data><data key="lon">15.11836</data><data key="lat">30.96677</data></node>
+    <node id="LY-MJ"><data key="name">Al Marj</data><data key="code">LY-MJ</data><data key="wikidata">Q26023</data><data key="lon">21.00744</data><data key="lat">31.91751</data></node>
+    <node id="LY-MQ"><data key="name">Murzuq</data><data key="code">LY-MQ</data><data key="wikidata">Q48239</data><data key="lon">15.32548</data><data key="lat">24.48768</data></node>
+    <node id="LY-MZ"><data key="name">Mizdah</data><data key="code">LY-MZ</data><data key="wikidata">Q25632</data><data key="lon">13.28744</data><data key="lat">30.33381</data></node>
+    <node id="LY-NQ"><data key="name">An Nuqat al Khams</data><data key="code">LY-NQ</data><data key="wikidata">Q26161</data><data key="lon">11.99562</data><data key="lat">32.74574</data></node>
+    <node id="LY-QB"><data key="name">Al Qubbah</data><data key="code">LY-QB</data><data key="wikidata">Q26124</data><data key="lon">22.56214</data><data key="lat">31.86896</data></node>
+    <node id="LY-SB"><data key="name">Sabha</data><data key="code">LY-SB</data><data key="wikidata">Q26132</data><data key="lon">15.06865</data><data key="lat">27.03149</data></node>
+    <node id="LY-SR"><data key="name">Surt</data><data key="code">LY-SR</data><data key="wikidata">Q26417</data><data key="lon">17.596</data><data key="lat">29.87704</data></node>
+    <node id="LY-TN"><data key="name">Tajura' wa an Nawahi al Arba</data><data key="code">LY-TN</data><data key="wikidata">Q32837</data><data key="lon">13.48826</data><data key="lat">32.63013</data></node>
+    <node id="LY-WD"><data key="name">Wadi al Hayaa</data><data key="code">LY-WD</data><data key="wikidata">Q48233</data><data key="lon">12.80857</data><data key="lat">26.39216</data></node>
+    <node id="LY-WS"><data key="name">Ash Shati'</data><data key="code">LY-WS</data><data key="wikidata">Q48232</data><data key="lon">12.89308</data><data key="lat">27.89104</data></node>
+    <node id="LY-ZA"><data key="name">Az Zawiyah</data><data key="code">LY-ZA</data><data key="wikidata">Q26153</data><data key="lon">12.62698</data><data key="lat">32.5456</data></node>
+    <edge source="LY-AJ" target="LY-BA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-AJ" target="LY-BU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-AJ" target="LY-JA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-AJ" target="LY-JU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-AJ" target="LY-KF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-AJ" target="LY-MJ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-AJ" target="LY-QB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-AJ" target="LY-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-BA" target="LY-MJ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-BU" target="LY-QB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-GD" target="LY-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-GD" target="LY-NQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-GD" target="LY-WS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-GT" target="LY-MQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-GT" target="LY-WD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-GT" target="LY-WS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JA" target="LY-MJ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JA" target="LY-QB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JI" target="LY-MB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JI" target="LY-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JI" target="LY-TN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JI" target="LY-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JU" target="LY-KF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JU" target="LY-MI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JU" target="LY-MQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JU" target="LY-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JU" target="LY-SB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JU" target="LY-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-JU" target="LY-WS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-KF" target="LY-MQ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MB" target="LY-MI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MB" target="LY-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MB" target="LY-TN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MI" target="LY-MZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MI" target="LY-SR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MQ" target="LY-SB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MQ" target="LY-WD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MZ" target="LY-WS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-MZ" target="LY-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-NQ" target="LY-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-SB" target="LY-WD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-SB" target="LY-WS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-TN" target="LY-ZA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LY-WD" target="LY-WS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

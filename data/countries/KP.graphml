@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KP" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KP-01"><data key="name">P'yŏngyang</data><data key="code">KP-01</data><data key="wikidata">Q18808</data><data key="lon">125.97741</data><data key="lat">38.9958</data></node>
+    <node id="KP-02"><data key="name">P'yŏngan-namdo</data><data key="code">KP-02</data><data key="wikidata">Q109380</data><data key="lon">126.04888</data><data key="lat">39.49634</data></node>
+    <node id="KP-03"><data key="name">P'yŏngan-bukto</data><data key="code">KP-03</data><data key="wikidata">Q109348</data><data key="lon">125.24886</data><data key="lat">40.09145</data></node>
+    <node id="KP-04"><data key="name">Chagang-do</data><data key="code">KP-04</data><data key="wikidata">Q272406</data><data key="lon">126.64973</data><data key="lat">40.89583</data></node>
+    <node id="KP-05"><data key="name">Hwanghae-namdo</data><data key="code">KP-05</data><data key="wikidata">Q626052</data><data key="lon">125.42259</data><data key="lat">38.19205</data></node>
+    <node id="KP-06"><data key="name">Hwanghae-bukto</data><data key="code">KP-06</data><data key="wikidata">Q109342</data><data key="lon">126.20639</data><data key="lat">38.47002</data></node>
+    <node id="KP-07"><data key="name">Kangwŏn-do</data><data key="code">KP-07</data><data key="wikidata">Q41416</data><data key="lon">127.50833</data><data key="lat">38.79079</data></node>
+    <node id="KP-08"><data key="name">Hamgyŏng-namdo</data><data key="code">KP-08</data><data key="wikidata">Q109368</data><data key="lon">127.87746</data><data key="lat">40.18895</data></node>
+    <node id="KP-09"><data key="name">Hamgyŏng-bukto</data><data key="code">KP-09</data><data key="wikidata">Q109361</data><data key="lon">129.32229</data><data key="lat">41.78662</data></node>
+    <node id="KP-10"><data key="name">Ryanggang</data><data key="code">KP-10</data><data key="wikidata">Q110171</data><data key="lon">127.9701</data><data key="lat">41.2225</data></node>
+    <node id="KP-13"><data key="name">Rasŏn</data><data key="code">KP-13</data><data key="wikidata">Q221734</data><data key="lon">130.45383</data><data key="lat">42.39566</data></node>
+    <edge source="KP-01" target="KP-02"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KP-01" target="KP-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KP-02" target="KP-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-02" target="KP-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-02" target="KP-05"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="KP-02" target="KP-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-02" target="KP-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-02" target="KP-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-03" target="KP-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-04" target="KP-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-04" target="KP-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-05" target="KP-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-06" target="KP-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-07" target="KP-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-08" target="KP-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-08" target="KP-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-09" target="KP-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KP-09" target="KP-13"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,321 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AE",
+ "kind": "country",
+ "name": "United Arab Emirates",
+ "level": "emirate",
+ "n": 9,
+ "m": 15,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AE-AJ",
+   "name": "Ajman",
+   "wikidata": "Q159477",
+   "lon": 55.54661,
+   "lat": 25.41008
+  },
+  {
+   "code": "AE-AZ",
+   "name": "Abu Dhabi",
+   "wikidata": "Q187712",
+   "lon": 53.68348,
+   "lat": 23.79727
+  },
+  {
+   "code": "AE-DU",
+   "name": "Dubay",
+   "wikidata": "Q613",
+   "lon": 55.32913,
+   "lat": 24.95175
+  },
+  {
+   "code": "AE-FU",
+   "name": "Fujayrah",
+   "wikidata": "Q4091",
+   "lon": 56.23821,
+   "lat": 25.44067
+  },
+  {
+   "code": "AE-RK",
+   "name": "Ras Al Khaymah",
+   "wikidata": "Q170024",
+   "lon": 55.97393,
+   "lat": 25.70079
+  },
+  {
+   "code": "AE-SH",
+   "name": "Sharjah",
+   "wikidata": "Q188810",
+   "lon": 55.8026,
+   "lat": 25.1084
+  },
+  {
+   "code": "AE-UQ",
+   "name": "Umm Al Qaywayn",
+   "wikidata": "Q175021",
+   "lon": 55.72764,
+   "lat": 25.46266
+  },
+  {
+   "code": "AE-X01~",
+   "name": "Neutral Zone (Emirate) (AE-X01~)",
+   "wikidata": null,
+   "lon": 56.29236,
+   "lat": 24.93013
+  },
+  {
+   "code": "AE-X02~",
+   "name": "Neutral Zone (Emirate) (AE-X02~)",
+   "wikidata": null,
+   "lon": 56.05385,
+   "lat": 24.79598
+  }
+ ],
+ "edges": [
+  {
+   "u": "AE-AJ",
+   "v": "AE-FU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8053
+  },
+  {
+   "u": "AE-AJ",
+   "v": "AE-SH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47279
+  },
+  {
+   "u": "AE-AZ",
+   "v": "AE-DU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98212
+  },
+  {
+   "u": "AE-AZ",
+   "v": "AE-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13339
+  },
+  {
+   "u": "AE-DU",
+   "v": "AE-RK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6651
+  },
+  {
+   "u": "AE-DU",
+   "v": "AE-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 90725
+  },
+  {
+   "u": "AE-DU",
+   "v": "AE-X02~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10611
+  },
+  {
+   "u": "AE-FU",
+   "v": "AE-RK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 151776
+  },
+  {
+   "u": "AE-FU",
+   "v": "AE-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76084
+  },
+  {
+   "u": "AE-FU",
+   "v": "AE-X01~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5862
+  },
+  {
+   "u": "AE-RK",
+   "v": "AE-SH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69870
+  },
+  {
+   "u": "AE-RK",
+   "v": "AE-UQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42496
+  },
+  {
+   "u": "AE-RK",
+   "v": "AE-X02~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10676
+  },
+  {
+   "u": "AE-SH",
+   "v": "AE-UQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58933
+  },
+  {
+   "u": "AE-SH",
+   "v": "AE-X01~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7215
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ARE-ADM1-86790563",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

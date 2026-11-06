@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SL" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SL-E"><data key="name">Eastern</data><data key="code">SL-E</data><data key="wikidata">Q1050497</data><data key="lon">-10.85308</data><data key="lat">8.21359</data></node>
+    <node id="SL-N"><data key="name">Northern</data><data key="code">SL-N</data><data key="wikidata">Q912359</data><data key="lon">-11.87877</data><data key="lat">9.13212</data></node>
+    <node id="SL-S"><data key="name">Southern</data><data key="code">SL-S</data><data key="wikidata">Q772185</data><data key="lon">-11.99115</data><data key="lat">7.71302</data></node>
+    <node id="SL-W"><data key="name">Western</data><data key="code">SL-W</data><data key="wikidata">Q1050475</data><data key="lon">-13.06276</data><data key="lat">8.33528</data></node>
+    <edge source="SL-E" target="SL-N"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SL-E" target="SL-S"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SL-N" target="SL-S"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SL-N" target="SL-W"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SL-S" target="SL-W"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

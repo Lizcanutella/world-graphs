@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="JP" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="JP-01"><data key="name">Hokkaidō</data><data key="code">JP-01</data><data key="wikidata">Q1037393</data><data key="lon">143.33765</data><data key="lat">43.46212</data></node>
+    <node id="JP-02"><data key="name">Aomori</data><data key="code">JP-02</data><data key="wikidata">Q71699</data><data key="lon">140.49095</data><data key="lat">40.88024</data></node>
+    <node id="JP-03"><data key="name">Iwate</data><data key="code">JP-03</data><data key="wikidata">Q48326</data><data key="lon">141.37921</data><data key="lat">39.60536</data></node>
+    <node id="JP-04"><data key="name">Miyagi</data><data key="code">JP-04</data><data key="wikidata">Q47896</data><data key="lon">140.86882</data><data key="lat">38.37991</data></node>
+    <node id="JP-05"><data key="name">Akita</data><data key="code">JP-05</data><data key="wikidata">Q81863</data><data key="lon">140.4316</data><data key="lat">39.68516</data></node>
+    <node id="JP-06"><data key="name">Yamagata</data><data key="code">JP-06</data><data key="wikidata">Q125863</data><data key="lon">140.13348</data><data key="lat">38.42254</data></node>
+    <node id="JP-07"><data key="name">Fukushima</data><data key="code">JP-07</data><data key="wikidata">Q71707</data><data key="lon">140.12302</data><data key="lat">37.37836</data></node>
+    <node id="JP-08"><data key="name">Ibaraki</data><data key="code">JP-08</data><data key="wikidata">Q83273</data><data key="lon">140.26257</data><data key="lat">36.33218</data></node>
+    <node id="JP-09"><data key="name">Tochigi</data><data key="code">JP-09</data><data key="wikidata">Q44843</data><data key="lon">139.76579</data><data key="lat">36.66841</data></node>
+    <node id="JP-10"><data key="name">Gunma</data><data key="code">JP-10</data><data key="wikidata">Q129499</data><data key="lon">138.89308</data><data key="lat">36.50542</data></node>
+    <node id="JP-11"><data key="name">Saitama</data><data key="code">JP-11</data><data key="wikidata">Q128186</data><data key="lon">139.26774</data><data key="lat">36.00699</data></node>
+    <node id="JP-12"><data key="name">Chiba</data><data key="code">JP-12</data><data key="wikidata">Q80011</data><data key="lon">140.21653</data><data key="lat">35.48204</data></node>
+    <node id="JP-13"><data key="name">Tokyo</data><data key="code">JP-13</data><data key="wikidata">Q1490</data><data key="lon">139.47124</data><data key="lat">35.68489</data></node>
+    <node id="JP-14"><data key="name">Kanagawa</data><data key="code">JP-14</data><data key="wikidata">Q127513</data><data key="lon">139.31444</data><data key="lat">35.38393</data></node>
+    <node id="JP-15"><data key="name">Niigata</data><data key="code">JP-15</data><data key="wikidata">Q132705</data><data key="lon">139.15642</data><data key="lat">37.6365</data></node>
+    <node id="JP-16"><data key="name">Toyama</data><data key="code">JP-16</data><data key="wikidata">Q132929</data><data key="lon">137.2515</data><data key="lat">36.63309</data></node>
+    <node id="JP-17"><data key="name">Ishikawa</data><data key="code">JP-17</data><data key="wikidata">Q131281</data><data key="lon">136.97885</data><data key="lat">37.13241</data></node>
+    <node id="JP-18"><data key="name">Fukui</data><data key="code">JP-18</data><data key="wikidata">Q133879</data><data key="lon">136.42952</data><data key="lat">35.80352</data></node>
+    <node id="JP-19"><data key="name">Yamanashi</data><data key="code">JP-19</data><data key="wikidata">Q132720</data><data key="lon">138.66929</data><data key="lat">35.55602</data></node>
+    <node id="JP-20"><data key="name">Nagano</data><data key="code">JP-20</data><data key="wikidata">Q127877</data><data key="lon">138.07889</data><data key="lat">36.10255</data></node>
+    <node id="JP-21"><data key="name">Gifu</data><data key="code">JP-21</data><data key="wikidata">Q131277</data><data key="lon">137.04823</data><data key="lat">35.79632</data></node>
+    <node id="JP-22"><data key="name">Shizuoka</data><data key="code">JP-22</data><data key="wikidata">Q131320</data><data key="lon">138.18408</data><data key="lat">35.11171</data></node>
+    <node id="JP-23"><data key="name">Aichi</data><data key="code">JP-23</data><data key="wikidata">Q80434</data><data key="lon">137.25941</data><data key="lat">34.98079</data></node>
+    <node id="JP-24"><data key="name">Mie</data><data key="code">JP-24</data><data key="wikidata">Q128196</data><data key="lon">136.53738</data><data key="lat">34.46309</data></node>
+    <node id="JP-25"><data key="name">Shiga</data><data key="code">JP-25</data><data key="wikidata">Q131358</data><data key="lon">136.26842</data><data key="lat">35.2224</data></node>
+    <node id="JP-26"><data key="name">Kyōto</data><data key="code">JP-26</data><data key="wikidata">Q120730</data><data key="lon">135.49319</data><data key="lat">35.23421</data></node>
+    <node id="JP-27"><data key="name">Ōsaka</data><data key="code">JP-27</data><data key="wikidata">Q122723</data><data key="lon">135.53249</data><data key="lat">34.64656</data></node>
+    <node id="JP-28"><data key="name">Hyōgo</data><data key="code">JP-28</data><data key="wikidata">Q130290</data><data key="lon">134.83815</data><data key="lat">35.14788</data></node>
+    <node id="JP-29"><data key="name">Nara</data><data key="code">JP-29</data><data key="wikidata">Q131287</data><data key="lon">135.88439</data><data key="lat">34.29637</data></node>
+    <node id="JP-30"><data key="name">Wakayama</data><data key="code">JP-30</data><data key="wikidata">Q131314</data><data key="lon">135.33088</data><data key="lat">33.90366</data></node>
+    <node id="JP-31"><data key="name">Tottori</data><data key="code">JP-31</data><data key="wikidata">Q133935</data><data key="lon">133.62313</data><data key="lat">35.32561</data></node>
+    <node id="JP-32"><data key="name">Shimane</data><data key="code">JP-32</data><data key="wikidata">Q132751</data><data key="lon">132.4309</data><data key="lat">34.95443</data></node>
+    <node id="JP-33"><data key="name">Okayama</data><data key="code">JP-33</data><data key="wikidata">Q132936</data><data key="lon">133.78731</data><data key="lat">34.87487</data></node>
+    <node id="JP-34"><data key="name">Hiroshima</data><data key="code">JP-34</data><data key="wikidata">Q617375</data><data key="lon">132.7601</data><data key="lat">34.63176</data></node>
+    <node id="JP-35"><data key="name">Yamaguchi</data><data key="code">JP-35</data><data key="wikidata">Q127264</data><data key="lon">131.5331</data><data key="lat">34.22147</data></node>
+    <node id="JP-36"><data key="name">Tokushima</data><data key="code">JP-36</data><data key="wikidata">Q160734</data><data key="lon">134.17591</data><data key="lat">33.89098</data></node>
+    <node id="JP-37"><data key="name">Kagawa</data><data key="code">JP-37</data><data key="wikidata">Q161454</data><data key="lon">134.03602</data><data key="lat">34.19147</data></node>
+    <node id="JP-38"><data key="name">Ehime</data><data key="code">JP-38</data><data key="wikidata">Q123376</data><data key="lon">132.70558</data><data key="lat">33.51817</data></node>
+    <node id="JP-39"><data key="name">Kōchi</data><data key="code">JP-39</data><data key="wikidata">Q134093</data><data key="lon">133.05143</data><data key="lat">33.28315</data></node>
+    <node id="JP-40"><data key="name">Fukuoka</data><data key="code">JP-40</data><data key="wikidata">Q123258</data><data key="lon">130.48802</data><data key="lat">33.47341</data></node>
+    <node id="JP-41"><data key="name">Saga</data><data key="code">JP-41</data><data key="wikidata">Q160420</data><data key="lon">130.08621</data><data key="lat">33.2457</data></node>
+    <node id="JP-42"><data key="name">Nagasaki</data><data key="code">JP-42</data><data key="wikidata">Q169376</data><data key="lon">128.75906</data><data key="lat">32.68341</data></node>
+    <node id="JP-43"><data key="name">Kumamoto</data><data key="code">JP-43</data><data key="wikidata">Q130308</data><data key="lon">130.89265</data><data key="lat">32.64062</data></node>
+    <node id="JP-44"><data key="name">Ōita</data><data key="code">JP-44</data><data key="wikidata">Q133924</data><data key="lon">131.35273</data><data key="lat">33.20753</data></node>
+    <node id="JP-45"><data key="name">Miyazaki</data><data key="code">JP-45</data><data key="wikidata">Q130300</data><data key="lon">131.17954</data><data key="lat">32.09459</data></node>
+    <node id="JP-46"><data key="name">Kagoshima</data><data key="code">JP-46</data><data key="wikidata">Q15701</data><data key="lon">130.98328</data><data key="lat">31.58294</data></node>
+    <node id="JP-47"><data key="name">Okinawa</data><data key="code">JP-47</data><data key="wikidata">Q766445</data><data key="lon">129.3858</data><data key="lat">28.31367</data></node>
+    <edge source="JP-02" target="JP-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-02" target="JP-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-03" target="JP-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-03" target="JP-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-04" target="JP-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-04" target="JP-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-04" target="JP-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-05" target="JP-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-06" target="JP-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-06" target="JP-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-07" target="JP-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-07" target="JP-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-07" target="JP-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-07" target="JP-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-08" target="JP-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-08" target="JP-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-08" target="JP-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-09" target="JP-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-09" target="JP-11"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="JP-10" target="JP-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-10" target="JP-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-10" target="JP-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-11" target="JP-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-11" target="JP-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-11" target="JP-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-11" target="JP-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-12" target="JP-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-13" target="JP-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-13" target="JP-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-14" target="JP-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-14" target="JP-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-15" target="JP-16"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-15" target="JP-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-16" target="JP-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-16" target="JP-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-16" target="JP-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-17" target="JP-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-17" target="JP-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-18" target="JP-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-18" target="JP-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-18" target="JP-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-19" target="JP-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-19" target="JP-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-20" target="JP-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-20" target="JP-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-20" target="JP-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-21" target="JP-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-21" target="JP-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-21" target="JP-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-22" target="JP-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-23" target="JP-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-24" target="JP-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-24" target="JP-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-24" target="JP-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-24" target="JP-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-25" target="JP-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-26" target="JP-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-26" target="JP-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-26" target="JP-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-27" target="JP-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-27" target="JP-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-27" target="JP-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-28" target="JP-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-28" target="JP-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-29" target="JP-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-31" target="JP-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-31" target="JP-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-31" target="JP-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-32" target="JP-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-32" target="JP-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-33" target="JP-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-34" target="JP-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-36" target="JP-37"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-36" target="JP-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-36" target="JP-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-37" target="JP-38"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-38" target="JP-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-40" target="JP-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-40" target="JP-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-40" target="JP-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-41" target="JP-42"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-43" target="JP-44"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-43" target="JP-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-43" target="JP-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-44" target="JP-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="JP-45" target="JP-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

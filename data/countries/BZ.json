@@ -1,0 +1,225 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BZ",
+ "kind": "country",
+ "name": "Belize",
+ "level": "districts",
+ "n": 6,
+ "m": 9,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BZ-BZ",
+   "name": "Belize",
+   "wikidata": "Q506056",
+   "lon": -88.4342,
+   "lat": 17.54316
+  },
+  {
+   "code": "BZ-CY",
+   "name": "Cayo",
+   "wikidata": "Q508773",
+   "lon": -88.90217,
+   "lat": 16.92782
+  },
+  {
+   "code": "BZ-CZL",
+   "name": "Corozal",
+   "wikidata": "Q512273",
+   "lon": -88.32855,
+   "lat": 18.23156
+  },
+  {
+   "code": "BZ-OW",
+   "name": "Orange Walk",
+   "wikidata": "Q506036",
+   "lon": -88.86507,
+   "lat": 17.7843
+  },
+  {
+   "code": "BZ-SC",
+   "name": "Stann Creek",
+   "wikidata": "Q502652",
+   "lon": -88.46093,
+   "lat": 16.81773
+  },
+  {
+   "code": "BZ-TOL",
+   "name": "Toledo",
+   "wikidata": "Q506049",
+   "lon": -88.92475,
+   "lat": 16.28608
+  }
+ ],
+ "edges": [
+  {
+   "u": "BZ-BZ",
+   "v": "BZ-CY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52596
+  },
+  {
+   "u": "BZ-BZ",
+   "v": "BZ-CZL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12520
+  },
+  {
+   "u": "BZ-BZ",
+   "v": "BZ-OW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83475
+  },
+  {
+   "u": "BZ-BZ",
+   "v": "BZ-SC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34240
+  },
+  {
+   "u": "BZ-CY",
+   "v": "BZ-OW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60058
+  },
+  {
+   "u": "BZ-CY",
+   "v": "BZ-SC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59753
+  },
+  {
+   "u": "BZ-CY",
+   "v": "BZ-TOL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62045
+  },
+  {
+   "u": "BZ-CZL",
+   "v": "BZ-OW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47095
+  },
+  {
+   "u": "BZ-SC",
+   "v": "BZ-TOL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56869
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BLZ-ADM1-66346737",
+  "level": "ADM1",
+  "year": "2006",
+  "license": "Creative Commons Attribution 2.5 Generic"
+ }
+}

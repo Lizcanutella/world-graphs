@@ -1,0 +1,36 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SH",
+ "kind": "country",
+ "name": "Saint Helena, Ascension and Tristan da Cunha",
+ "level": "geographical entity",
+ "n": 3,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SH-AC",
+   "name": "Ascension",
+   "wikidata": "Q31890709",
+   "lon": -14.35937,
+   "lat": -7.93336
+  },
+  {
+   "code": "SH-HL",
+   "name": "Saint Helena",
+   "wikidata": "Q134978852",
+   "lon": -5.71285,
+   "lat": -15.95452
+  },
+  {
+   "code": "SH-TA",
+   "name": "Tristan da Cunha",
+   "wikidata": "Q34625512",
+   "lon": -12.26518,
+   "lat": -37.10133
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": null
+}

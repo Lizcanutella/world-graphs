@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="WS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="WS-AA"><data key="name">A'ana</data><data key="code">WS-AA</data><data key="wikidata">Q1154121</data><data key="lon">-171.92434</data><data key="lat">-13.89013</data></node>
+    <node id="WS-AL"><data key="name">Aiga-i-le-Tai</data><data key="code">WS-AL</data><data key="wikidata">Q1144488</data><data key="lon">-172.01591</data><data key="lat">-13.87182</data></node>
+    <node id="WS-AT"><data key="name">Atua</data><data key="code">WS-AT</data><data key="wikidata">Q1154332</data><data key="lon">-171.6262</data><data key="lat">-13.94963</data></node>
+    <node id="WS-FA"><data key="name">Fa'asaleleaga</data><data key="code">WS-FA</data><data key="wikidata">Q1154134</data><data key="lon">-172.2363</data><data key="lat">-13.67396</data></node>
+    <node id="WS-GE"><data key="name">Gaga'emauga</data><data key="code">WS-GE</data><data key="wikidata">Q1193143</data><data key="lon">-172.31761</data><data key="lat">-13.52597</data></node>
+    <node id="WS-GI"><data key="name">Gaga'ifomauga</data><data key="code">WS-GI</data><data key="wikidata">Q1193134</data><data key="lon">-172.51432</data><data key="lat">-13.56097</data></node>
+    <node id="WS-PA"><data key="name">Palauli</data><data key="code">WS-PA</data><data key="wikidata">Q1147216</data><data key="lon">-172.4809</data><data key="lat">-13.71872</data></node>
+    <node id="WS-SA"><data key="name">Satupa'itea</data><data key="code">WS-SA</data><data key="wikidata">Q651573</data><data key="lon">-172.6221</data><data key="lat">-13.64153</data></node>
+    <node id="WS-TU"><data key="name">Tuamasaga</data><data key="code">WS-TU</data><data key="wikidata">Q1144482</data><data key="lon">-171.75393</data><data key="lat">-13.91873</data></node>
+    <node id="WS-VF"><data key="name">Va'a-o-Fonoti</data><data key="code">WS-VF</data><data key="wikidata">Q1154109</data><data key="lon">-171.54035</data><data key="lat">-13.95924</data></node>
+    <node id="WS-VS"><data key="name">Vaisigano</data><data key="code">WS-VS</data><data key="wikidata">Q1193139</data><data key="lon">-172.70246</data><data key="lat">-13.55356</data></node>
+    <edge source="WS-AA" target="WS-AL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-AA" target="WS-GE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-AA" target="WS-TU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-AT" target="WS-TU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-AT" target="WS-VF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-FA" target="WS-GE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-FA" target="WS-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="WS-GE" target="WS-GI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-GE" target="WS-PA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-GE" target="WS-SA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-GE" target="WS-TU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-GI" target="WS-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="WS-GI" target="WS-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="WS-GI" target="WS-VS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="WS-PA" target="WS-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="WS-SA" target="WS-VS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

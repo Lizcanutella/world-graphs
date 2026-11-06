@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="ML" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="ML-1"><data key="name">Kayes</data><data key="code">ML-1</data><data key="wikidata">Q332113</data><data key="lon">-10.22993</data><data key="lat">13.79427</data></node>
+    <node id="ML-2"><data key="name">Koulikoro</data><data key="code">ML-2</data><data key="wikidata">Q287789</data><data key="lon">-7.59996</data><data key="lat">13.47519</data></node>
+    <node id="ML-3"><data key="name">Sikasso</data><data key="code">ML-3</data><data key="wikidata">Q461298</data><data key="lon">-6.86574</data><data key="lat">11.49244</data></node>
+    <node id="ML-4"><data key="name">Ségou</data><data key="code">ML-4</data><data key="wikidata">Q656845</data><data key="lon">-6.02086</data><data key="lat">14.10344</data></node>
+    <node id="ML-5"><data key="name">Mopti</data><data key="code">ML-5</data><data key="wikidata">Q214155</data><data key="lon">-3.65164</data><data key="lat">14.51404</data></node>
+    <node id="ML-6"><data key="name">Timbuktu</data><data key="code">ML-6</data><data key="wikidata">Q339462</data><data key="lon">-3.88801</data><data key="lat">20.05803</data></node>
+    <node id="ML-7"><data key="name">Gao</data><data key="code">ML-7</data><data key="wikidata">Q332392</data><data key="lon">1.74987</data><data key="lat">16.94004</data></node>
+    <node id="ML-8"><data key="name">Kidal</data><data key="code">ML-8</data><data key="wikidata">Q338988</data><data key="lon">0.71937</data><data key="lat">19.69323</data></node>
+    <node id="ML-BKO"><data key="name">Bamako</data><data key="code">ML-BKO</data><data key="wikidata">Q3703</data><data key="lon">-7.99946</data><data key="lat">12.62012</data></node>
+    <edge source="ML-1" target="ML-2"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-2" target="ML-3"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-2" target="ML-4"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-2" target="ML-BKO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-3" target="ML-4"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-4" target="ML-5"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-4" target="ML-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-5" target="ML-6"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-6" target="ML-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-6" target="ML-8"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="ML-7" target="ML-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

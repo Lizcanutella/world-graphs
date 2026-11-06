@@ -1,0 +1,639 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CZ",
+ "kind": "country",
+ "name": "Czechia",
+ "level": "regions",
+ "n": 14,
+ "m": 26,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CZ-JC",
+   "name": "Jihočeský",
+   "wikidata": "Q188373",
+   "lon": 14.59479,
+   "lat": 49.08548
+  },
+  {
+   "code": "CZ-JM",
+   "name": "Jihomoravský",
+   "wikidata": "Q192697",
+   "lon": 16.69721,
+   "lat": 49.11938
+  },
+  {
+   "code": "CZ-KA",
+   "name": "Karlovarský",
+   "wikidata": "Q191091",
+   "lon": 12.79121,
+   "lat": 50.17154
+  },
+  {
+   "code": "CZ-KR",
+   "name": "Královéhradecký",
+   "wikidata": "Q193295",
+   "lon": 15.68733,
+   "lat": 50.40124
+  },
+  {
+   "code": "CZ-LI",
+   "name": "Liberecký",
+   "wikidata": "Q193266",
+   "lon": 14.97793,
+   "lat": 50.74258
+  },
+  {
+   "code": "CZ-MO",
+   "name": "Moravskoslezský",
+   "wikidata": "Q190550",
+   "lon": 17.86093,
+   "lat": 49.84777
+  },
+  {
+   "code": "CZ-OL",
+   "name": "Olomoucký",
+   "wikidata": "Q193307",
+   "lon": 16.93426,
+   "lat": 49.84777
+  },
+  {
+   "code": "CZ-PA",
+   "name": "Pardubický",
+   "wikidata": "Q193317",
+   "lon": 16.11866,
+   "lat": 49.89269
+  },
+  {
+   "code": "CZ-PL",
+   "name": "Plzeňský",
+   "wikidata": "Q46070",
+   "lon": 13.17405,
+   "lat": 49.52287
+  },
+  {
+   "code": "CZ-PR",
+   "name": "Prague",
+   "wikidata": "Q1085",
+   "lon": 14.44626,
+   "lat": 50.06041
+  },
+  {
+   "code": "CZ-ST",
+   "name": "Středočeský",
+   "wikidata": "Q188399",
+   "lon": 13.83307,
+   "lat": 50.046
+  },
+  {
+   "code": "CZ-US",
+   "name": "Ústecký",
+   "wikidata": "Q192702",
+   "lon": 13.80664,
+   "lat": 50.56189
+  },
+  {
+   "code": "CZ-VY",
+   "name": "Vysočina",
+   "wikidata": "Q190930",
+   "lon": 15.63666,
+   "lat": 49.3933
+  },
+  {
+   "code": "CZ-ZL",
+   "name": "Zlínský",
+   "wikidata": "Q192536",
+   "lon": 17.64362,
+   "lat": 49.18099
+  }
+ ],
+ "edges": [
+  {
+   "u": "CZ-JC",
+   "v": "CZ-JM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7463,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-JC",
+   "v": "CZ-PL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67221,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-JC",
+   "v": "CZ-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 103075,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-JC",
+   "v": "CZ-VY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116675,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-JM",
+   "v": "CZ-OL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 84840,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-JM",
+   "v": "CZ-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31660,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-JM",
+   "v": "CZ-VY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 129389,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-JM",
+   "v": "CZ-ZL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83326,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-KA",
+   "v": "CZ-PL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78463,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-KA",
+   "v": "CZ-US",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49241,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-KR",
+   "v": "CZ-LI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80044,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-KR",
+   "v": "CZ-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111298,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-KR",
+   "v": "CZ-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62070,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-LI",
+   "v": "CZ-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59524,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-LI",
+   "v": "CZ-US",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59981,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-MO",
+   "v": "CZ-OL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 137692,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-MO",
+   "v": "CZ-ZL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45097,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-OL",
+   "v": "CZ-PA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 72895,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-OL",
+   "v": "CZ-ZL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85122,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-PA",
+   "v": "CZ-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35178,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-PA",
+   "v": "CZ-VY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81870,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-PL",
+   "v": "CZ-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 100342,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-PL",
+   "v": "CZ-US",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9906,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-PR",
+   "v": "CZ-ST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 96630,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-ST",
+   "v": "CZ-US",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 103286,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CZ-ST",
+   "v": "CZ-VY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73067,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CZE-ADM1-73172107",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

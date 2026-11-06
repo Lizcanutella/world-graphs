@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SS-BN"><data key="name">Northern Bahr el Ghazal</data><data key="code">SS-BN</data><data key="wikidata">Q491111</data><data key="lon">26.9748</data><data key="lat">8.88876</data></node>
+    <node id="SS-BW"><data key="name">Western Bahr el Ghazal</data><data key="code">SS-BW</data><data key="wikidata">Q332095</data><data key="lon">25.1454</data><data key="lat">8.48565</data></node>
+    <node id="SS-EC"><data key="name">Central Equatoria</data><data key="code">SS-EC</data><data key="wikidata">Q487709</data><data key="lon">31.4282</data><data key="lat">4.84742</data></node>
+    <node id="SS-EE"><data key="name">Eastern Equatoria</data><data key="code">SS-EE</data><data key="wikidata">Q488519</data><data key="lon">33.4896</data><data key="lat">4.7597</data></node>
+    <node id="SS-EW"><data key="name">Western Equatoria</data><data key="code">SS-EW</data><data key="wikidata">Q319979</data><data key="lon">29.1109</data><data key="lat">5.54411</data></node>
+    <node id="SS-JG"><data key="name">Jonglei</data><data key="code">SS-JG</data><data key="wikidata">Q488904</data><data key="lon">32.10292</data><data key="lat">7.65966</data></node>
+    <node id="SS-LK"><data key="name">Lakes</data><data key="code">SS-LK</data><data key="wikidata">Q491096</data><data key="lon">30.12517</data><data key="lat">6.75835</data></node>
+    <node id="SS-NU"><data key="name">Upper Nile</data><data key="code">SS-NU</data><data key="wikidata">Q487702</data><data key="lon">32.75371</data><data key="lat">10.11928</data></node>
+    <node id="SS-UY"><data key="name">Unity</data><data key="code">SS-UY</data><data key="wikidata">Q319965</data><data key="lon">29.81823</data><data key="lat">8.67784</data></node>
+    <node id="SS-WR"><data key="name">Warrap</data><data key="code">SS-WR</data><data key="wikidata">Q491138</data><data key="lon">28.93342</data><data key="lat">7.83766</data></node>
+    <edge source="SS-BN" target="SS-BW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-BN" target="SS-WR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-BW" target="SS-EW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-BW" target="SS-WR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-EC" target="SS-EE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-EC" target="SS-EW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-EC" target="SS-JG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-EC" target="SS-LK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-EE" target="SS-JG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-EW" target="SS-LK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-EW" target="SS-WR"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="SS-JG" target="SS-LK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-JG" target="SS-NU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-JG" target="SS-UY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-LK" target="SS-UY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-LK" target="SS-WR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-NU" target="SS-UY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SS-UY" target="SS-WR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

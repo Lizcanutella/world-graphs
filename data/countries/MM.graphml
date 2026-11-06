@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MM-01"><data key="name">Sagaing</data><data key="code">MM-01</data><data key="wikidata">Q847289</data><data key="lon">95.29572</data><data key="lat">24.48307</data></node>
+    <node id="MM-02"><data key="name">Bago</data><data key="code">MM-02</data><data key="wikidata">Q800124</data><data key="lon">96.27828</data><data key="lat">18.18747</data></node>
+    <node id="MM-03"><data key="name">Magway</data><data key="code">MM-03</data><data key="wikidata">Q833013</data><data key="lon">94.54773</data><data key="lat">20.53602</data></node>
+    <node id="MM-04"><data key="name">Mandalay</data><data key="code">MM-04</data><data key="wikidata">Q119494</data><data key="lon">95.82928</data><data key="lat">21.52475</data></node>
+    <node id="MM-05"><data key="name">Tanintharyi</data><data key="code">MM-05</data><data key="wikidata">Q843954</data><data key="lon">99.01772</data><data key="lat">12.54437</data></node>
+    <node id="MM-06"><data key="name">Yangon</data><data key="code">MM-06</data><data key="wikidata">Q856781</data><data key="lon">96.1202</data><data key="lat">17.03966</data></node>
+    <node id="MM-07"><data key="name">Ayeyarwady</data><data key="code">MM-07</data><data key="wikidata">Q47047</data><data key="lon">95.14401</data><data key="lat">17.09933</data></node>
+    <node id="MM-11"><data key="name">Kachin</data><data key="code">MM-11</data><data key="wikidata">Q140646</data><data key="lon">97.35555</data><data key="lat">26.09259</data></node>
+    <node id="MM-12"><data key="name">Kayah</data><data key="code">MM-12</data><data key="wikidata">Q652845</data><data key="lon">97.31494</data><data key="lat">19.24266</data></node>
+    <node id="MM-13"><data key="name">Kayin</data><data key="code">MM-13</data><data key="wikidata">Q495342</data><data key="lon">97.79209</data><data key="lat">17.35248</data></node>
+    <node id="MM-14"><data key="name">Chin</data><data key="code">MM-14</data><data key="wikidata">Q46910</data><data key="lon">93.60814</data><data key="lat">22.36721</data></node>
+    <node id="MM-15"><data key="name">Mon</data><data key="code">MM-15</data><data key="wikidata">Q818742</data><data key="lon">97.37174</data><data key="lat">17.09632</data></node>
+    <node id="MM-16"><data key="name">Rakhine</data><data key="code">MM-16</data><data key="wikidata">Q233838</data><data key="lon">94.22105</data><data key="lat">19.41118</data></node>
+    <node id="MM-17"><data key="name">Shan</data><data key="code">MM-17</data><data key="wikidata">Q456847</data><data key="lon">98.35301</data><data key="lat">21.71752</data></node>
+    <edge source="MM-01" target="MM-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-01" target="MM-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-01" target="MM-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-01" target="MM-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-01" target="MM-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-02" target="MM-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-02" target="MM-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-02" target="MM-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-02" target="MM-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-02" target="MM-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-02" target="MM-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-02" target="MM-16"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="MM-03" target="MM-04"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-03" target="MM-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-03" target="MM-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-04" target="MM-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-04" target="MM-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-05" target="MM-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-06" target="MM-07"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-07" target="MM-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-11" target="MM-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-12" target="MM-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-12" target="MM-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-13" target="MM-15"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-13" target="MM-17"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MM-14" target="MM-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

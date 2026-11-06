@@ -1,0 +1,608 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "LA",
+ "kind": "country",
+ "name": "Lao People's Democratic Republic",
+ "level": "provinces",
+ "n": 17,
+ "m": 27,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "LA-AT",
+   "name": "Attapu",
+   "wikidata": "Q503004",
+   "lon": 107.09504,
+   "lat": 14.79556
+  },
+  {
+   "code": "LA-BK",
+   "name": "Bokeo",
+   "wikidata": "Q334884",
+   "lon": 100.73955,
+   "lat": 20.3093
+  },
+  {
+   "code": "LA-BL",
+   "name": "Bolikhamxai",
+   "wikidata": "Q2403514",
+   "lon": 103.96069,
+   "lat": 18.47506
+  },
+  {
+   "code": "LA-CH",
+   "name": "Champasak",
+   "wikidata": "Q334888",
+   "lon": 105.8739,
+   "lat": 14.67837
+  },
+  {
+   "code": "LA-HO",
+   "name": "Houaphan",
+   "wikidata": "Q502997",
+   "lon": 103.93622,
+   "lat": 20.28246
+  },
+  {
+   "code": "LA-KH",
+   "name": "Khammouan",
+   "wikidata": "Q506641",
+   "lon": 105.23064,
+   "lat": 17.58022
+  },
+  {
+   "code": "LA-LM",
+   "name": "Louang Namtha",
+   "wikidata": "Q948691",
+   "lon": 101.07009,
+   "lat": 20.92255
+  },
+  {
+   "code": "LA-LP",
+   "name": "Louangphrabang",
+   "wikidata": "Q747881",
+   "lon": 102.65984,
+   "lat": 20.09563
+  },
+  {
+   "code": "LA-OU",
+   "name": "Oudômxai",
+   "wikidata": "Q465961",
+   "lon": 101.87749,
+   "lat": 20.52637
+  },
+  {
+   "code": "LA-PH",
+   "name": "Phôngsali",
+   "wikidata": "Q334868",
+   "lon": 102.19641,
+   "lat": 21.68227
+  },
+  {
+   "code": "LA-SL",
+   "name": "Saravan",
+   "wikidata": "Q302656",
+   "lon": 106.33368,
+   "lat": 15.90444
+  },
+  {
+   "code": "LA-SV",
+   "name": "Savannakhét",
+   "wikidata": "Q465940",
+   "lon": 105.70904,
+   "lat": 16.50372
+  },
+  {
+   "code": "LA-VI",
+   "name": "Vientiane",
+   "wikidata": "Q720066",
+   "lon": 103.09343,
+   "lat": 18.6129
+  },
+  {
+   "code": "LA-VT",
+   "name": "Vientiane [prefecture]",
+   "wikidata": "Q390377",
+   "lon": 102.62238,
+   "lat": 18.12225
+  },
+  {
+   "code": "LA-XA",
+   "name": "Xaignabouri",
+   "wikidata": "Q465929",
+   "lon": 101.52502,
+   "lat": 18.69659
+  },
+  {
+   "code": "LA-XE",
+   "name": "Xékong",
+   "wikidata": "Q585707",
+   "lon": 106.98316,
+   "lat": 15.61274
+  },
+  {
+   "code": "LA-XI",
+   "name": "Xiangkhoang",
+   "wikidata": "Q465947",
+   "lon": 103.35934,
+   "lat": 19.41931
+  }
+ ],
+ "edges": [
+  {
+   "u": "LA-AT",
+   "v": "LA-CH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 197634
+  },
+  {
+   "u": "LA-AT",
+   "v": "LA-XE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 115615
+  },
+  {
+   "u": "LA-BK",
+   "v": "LA-LM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 102344
+  },
+  {
+   "u": "LA-BK",
+   "v": "LA-OU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 93694
+  },
+  {
+   "u": "LA-BK",
+   "v": "LA-XA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40270
+  },
+  {
+   "u": "LA-BL",
+   "v": "LA-KH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 161549
+  },
+  {
+   "u": "LA-BL",
+   "v": "LA-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 186344
+  },
+  {
+   "u": "LA-BL",
+   "v": "LA-VT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39096
+  },
+  {
+   "u": "LA-BL",
+   "v": "LA-XI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63211
+  },
+  {
+   "u": "LA-CH",
+   "v": "LA-SL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 107437
+  },
+  {
+   "u": "LA-CH",
+   "v": "LA-XE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49099
+  },
+  {
+   "u": "LA-HO",
+   "v": "LA-LP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 121449
+  },
+  {
+   "u": "LA-HO",
+   "v": "LA-XI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 176767
+  },
+  {
+   "u": "LA-KH",
+   "v": "LA-SV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 226496
+  },
+  {
+   "u": "LA-LM",
+   "v": "LA-OU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 150447
+  },
+  {
+   "u": "LA-LP",
+   "v": "LA-OU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 165077
+  },
+  {
+   "u": "LA-LP",
+   "v": "LA-PH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85729
+  },
+  {
+   "u": "LA-LP",
+   "v": "LA-VI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136835
+  },
+  {
+   "u": "LA-LP",
+   "v": "LA-XA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 115049
+  },
+  {
+   "u": "LA-LP",
+   "v": "LA-XI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 99209
+  },
+  {
+   "u": "LA-OU",
+   "v": "LA-PH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61149
+  },
+  {
+   "u": "LA-OU",
+   "v": "LA-XA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 113764
+  },
+  {
+   "u": "LA-SL",
+   "v": "LA-SV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 209988
+  },
+  {
+   "u": "LA-SL",
+   "v": "LA-XE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 169941
+  },
+  {
+   "u": "LA-VI",
+   "v": "LA-VT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 132318,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "LA-VI",
+   "v": "LA-XA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 175710
+  },
+  {
+   "u": "LA-VI",
+   "v": "LA-XI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 149647
+  }
+ ],
+ "relabels": [
+  {
+   "ne_id": "1159315181",
+   "was": {
+    "iso_3166_2": "LA-VI",
+    "name": "Vientiane [prefecture]"
+   },
+   "set": {
+    "iso_3166_2": "LA-VT",
+    "name": "Vientiane [prefecture]"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  }
+ ],
+ "geoboundaries": {
+  "boundaryID": "LAO-ADM1-31783359",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

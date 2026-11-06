@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="UA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="UA-05"><data key="name">Vinnytsya</data><data key="code">UA-05</data><data key="wikidata">Q166709</data><data key="lon">28.51284</data><data key="lat">48.94019</data></node>
+    <node id="UA-07"><data key="name">Volyn</data><data key="code">UA-07</data><data key="wikidata">Q167859</data><data key="lon">24.93391</data><data key="lat">51.12352</data></node>
+    <node id="UA-09"><data key="name">Luhans'k</data><data key="code">UA-09</data><data key="wikidata">Q171965</data><data key="lon">38.88978</data><data key="lat">48.93761</data></node>
+    <node id="UA-12"><data key="name">Dnipropetrovs'k</data><data key="code">UA-12</data><data key="wikidata">Q170672</data><data key="lon">35.15636</data><data key="lat">48.34161</data></node>
+    <node id="UA-14"><data key="name">Donets'k</data><data key="code">UA-14</data><data key="wikidata">Q2012050</data><data key="lon">37.83904</data><data key="lat">48.05322</data></node>
+    <node id="UA-18"><data key="name">Zhytomyr</data><data key="code">UA-18</data><data key="wikidata">Q40637</data><data key="lon">28.34212</data><data key="lat">50.61685</data></node>
+    <node id="UA-21"><data key="name">Transcarpathia</data><data key="code">UA-21</data><data key="wikidata">Q170213</data><data key="lon">23.02592</data><data key="lat">48.49168</data></node>
+    <node id="UA-23"><data key="name">Zaporizhzhya</data><data key="code">UA-23</data><data key="wikidata">Q171334</data><data key="lon">35.67793</data><data key="lat">47.19218</data></node>
+    <node id="UA-26"><data key="name">Ivano-Frankivs'k</data><data key="code">UA-26</data><data key="wikidata">Q178269</data><data key="lon">24.67355</data><data key="lat">48.61822</data></node>
+    <node id="UA-30"><data key="name">Kiev City</data><data key="code">UA-30</data><data key="wikidata">Q1899</data><data key="lon">30.60422</data><data key="lat">50.34047</data></node>
+    <node id="UA-32"><data key="name">Kiev</data><data key="code">UA-32</data><data key="wikidata">Q170036</data><data key="lon">31.45955</data><data key="lat">50.3319</data></node>
+    <node id="UA-35"><data key="name">Kirovohrad</data><data key="code">UA-35</data><data key="wikidata">Q180981</data><data key="lon">31.73434</data><data key="lat">48.42111</data></node>
+    <node id="UA-46"><data key="name">L'viv</data><data key="code">UA-46</data><data key="wikidata">Q164193</data><data key="lon">23.89821</data><data key="lat">49.68451</data></node>
+    <node id="UA-48"><data key="name">Mykolayiv</data><data key="code">UA-48</data><data key="wikidata">Q181633</data><data key="lon">31.93337</data><data key="lat">47.41044</data></node>
+    <node id="UA-51"><data key="name">Odessa</data><data key="code">UA-51</data><data key="wikidata">Q171852</data><data key="lon">30.5648</data><data key="lat">46.71795</data></node>
+    <node id="UA-53"><data key="name">Poltava</data><data key="code">UA-53</data><data key="wikidata">Q169501</data><data key="lon">34.05744</data><data key="lat">49.6521</data></node>
+    <node id="UA-56"><data key="name">Rivne</data><data key="code">UA-56</data><data key="wikidata">Q174187</data><data key="lon">26.64762</data><data key="lat">50.97285</data></node>
+    <node id="UA-59"><data key="name">Sumy</data><data key="code">UA-59</data><data key="wikidata">Q170446</data><data key="lon">33.63769</data><data key="lat">51.23535</data></node>
+    <node id="UA-61"><data key="name">Ternopil'</data><data key="code">UA-61</data><data key="wikidata">Q173407</data><data key="lon">25.51821</data><data key="lat">49.38474</data></node>
+    <node id="UA-63"><data key="name">Kharkiv</data><data key="code">UA-63</data><data key="wikidata">Q170666</data><data key="lon">36.61931</data><data key="lat">49.47874</data></node>
+    <node id="UA-65"><data key="name">Kherson</data><data key="code">UA-65</data><data key="wikidata">Q163271</data><data key="lon">33.3686</data><data key="lat">46.6516</data></node>
+    <node id="UA-68"><data key="name">Khmel'nyts'kyy</data><data key="code">UA-68</data><data key="wikidata">Q171331</data><data key="lon">26.9388</data><data key="lat">49.52016</data></node>
+    <node id="UA-71"><data key="name">Cherkasy</data><data key="code">UA-71</data><data key="wikidata">Q161808</data><data key="lon">31.58532</data><data key="lat">49.35216</data></node>
+    <node id="UA-74"><data key="name">Chernihiv</data><data key="code">UA-74</data><data key="wikidata">Q167874</data><data key="lon">31.82271</data><data key="lat">51.35976</data></node>
+    <node id="UA-77"><data key="name">Chernivtsi</data><data key="code">UA-77</data><data key="wikidata">Q168856</data><data key="lon">25.71862</data><data key="lat">48.1932</data></node>
+    <edge source="UA-05" target="UA-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-05" target="UA-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-05" target="UA-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-05" target="UA-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-05" target="UA-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-05" target="UA-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-05" target="UA-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-07" target="UA-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-07" target="UA-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-09" target="UA-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-09" target="UA-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-12" target="UA-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-12" target="UA-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-12" target="UA-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-12" target="UA-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-12" target="UA-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-12" target="UA-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-12" target="UA-65"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="UA-14" target="UA-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-14" target="UA-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-18" target="UA-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-18" target="UA-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-18" target="UA-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-21" target="UA-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-21" target="UA-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-23" target="UA-65"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="UA-26" target="UA-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-26" target="UA-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-26" target="UA-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-30" target="UA-32"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="UA-32" target="UA-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-32" target="UA-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-32" target="UA-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-35" target="UA-48"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-35" target="UA-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-35" target="UA-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-35" target="UA-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-46" target="UA-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-46" target="UA-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-48" target="UA-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-48" target="UA-65"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="UA-53" target="UA-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-53" target="UA-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-53" target="UA-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-53" target="UA-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-56" target="UA-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-56" target="UA-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-59" target="UA-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-59" target="UA-74"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-61" target="UA-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-61" target="UA-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UA-68" target="UA-77"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

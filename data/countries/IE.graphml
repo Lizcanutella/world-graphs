@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="IE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="IE-CE"><data key="name">Clare</data><data key="code">IE-CE</data><data key="wikidata">Q181862</data><data key="lon">-8.92458</data><data key="lat">52.86115</data></node>
+    <node id="IE-CN"><data key="name">Cavan</data><data key="code">IE-CN</data><data key="wikidata">Q187402</data><data key="lon">-7.28044</data><data key="lat">54.03487</data></node>
+    <node id="IE-CO"><data key="name">Cork</data><data key="code">IE-CO</data><data key="wikidata">Q162475</data><data key="lon">-8.60021</data><data key="lat">51.91224</data></node>
+    <node id="IE-CW"><data key="name">Carlow</data><data key="code">IE-CW</data><data key="wikidata">Q181882</data><data key="lon">-6.81736</data><data key="lat">52.69529</data></node>
+    <node id="IE-D"><data key="name">Dublin</data><data key="code">IE-D</data><data key="wikidata">Q173500</data><data key="lon">-6.27165</data><data key="lat">53.36632</data></node>
+    <node id="IE-D:Dún Laoghaire–Rathdown"><data key="name">Dún Laoghaire–Rathdown</data><data key="code">IE-D:Dún Laoghaire–Rathdown</data><data key="wikidata">Q538417</data><data key="lon">-6.1937</data><data key="lat">53.25544</data></node>
+    <node id="IE-D:Fingal"><data key="name">Fingal</data><data key="code">IE-D:Fingal</data><data key="wikidata">Q520000</data><data key="lon">-6.21899</data><data key="lat">53.49741</data></node>
+    <node id="IE-D:South Dublin"><data key="name">South Dublin</data><data key="code">IE-D:South Dublin</data><data key="wikidata">Q822865</data><data key="lon">-6.39915</data><data key="lat">53.27394</data></node>
+    <node id="IE-DL"><data key="name">Donegal</data><data key="code">IE-DL</data><data key="wikidata">Q179424</data><data key="lon">-7.95052</data><data key="lat">54.92711</data></node>
+    <node id="IE-G"><data key="name">Galway</data><data key="code">IE-G</data><data key="wikidata">Q169923</data><data key="lon">-8.88165</data><data key="lat">53.34483</data></node>
+    <node id="IE-KE"><data key="name">Kildare</data><data key="code">IE-KE</data><data key="wikidata">Q173332</data><data key="lon">-6.80251</data><data key="lat">53.15782</data></node>
+    <node id="IE-KK"><data key="name">Kilkenny</data><data key="code">IE-KK</data><data key="wikidata">Q180231</data><data key="lon">-7.18594</data><data key="lat">52.56757</data></node>
+    <node id="IE-KY"><data key="name">Kerry</data><data key="code">IE-KY</data><data key="wikidata">Q184469</data><data key="lon">-9.50137</data><data key="lat">52.13184</data></node>
+    <node id="IE-LD"><data key="name">Longford</data><data key="code">IE-LD</data><data key="wikidata">Q186220</data><data key="lon">-7.69494</data><data key="lat">53.73013</data></node>
+    <node id="IE-LH"><data key="name">Louth</data><data key="code">IE-LH</data><data key="wikidata">Q183539</data><data key="lon">-6.52265</data><data key="lat">53.91102</data></node>
+    <node id="IE-LK"><data key="name">Limerick</data><data key="code">IE-LK</data><data key="wikidata">Q178283</data><data key="lon">-8.76938</data><data key="lat">52.51643</data></node>
+    <node id="IE-LM"><data key="name">Leitrim</data><data key="code">IE-LM</data><data key="wikidata">Q107397</data><data key="lon">-8.03418</data><data key="lat">54.13365</data></node>
+    <node id="IE-LS"><data key="name">Laoighis</data><data key="code">IE-LS</data><data key="wikidata">Q55299</data><data key="lon">-7.3857</data><data key="lat">52.99571</data></node>
+    <node id="IE-MH"><data key="name">Meath</data><data key="code">IE-MH</data><data key="wikidata">Q183544</data><data key="lon">-6.58577</data><data key="lat">53.64729</data></node>
+    <node id="IE-MN"><data key="name">Monaghan</data><data key="code">IE-MN</data><data key="wikidata">Q184760</data><data key="lon">-6.95063</data><data key="lat">54.15827</data></node>
+    <node id="IE-MO"><data key="name">Mayo</data><data key="code">IE-MO</data><data key="wikidata">Q178626</data><data key="lon">-9.29052</data><data key="lat">53.90535</data></node>
+    <node id="IE-OY"><data key="name">Offaly</data><data key="code">IE-OY</data><data key="wikidata">Q184445</data><data key="lon">-7.8272</data><data key="lat">53.14079</data></node>
+    <node id="IE-RN"><data key="name">Roscommon</data><data key="code">IE-RN</data><data key="wikidata">Q179437</data><data key="lon">-8.21697</data><data key="lat">53.69605</data></node>
+    <node id="IE-SO"><data key="name">Sligo</data><data key="code">IE-SO</data><data key="wikidata">Q179325</data><data key="lon">-8.73114</data><data key="lat">54.19351</data></node>
+    <node id="IE-TA:North Tipperary"><data key="name">North Tipperary</data><data key="code">IE-TA:North Tipperary</data><data key="wikidata">Q184618</data><data key="lon">-8.07315</data><data key="lat">52.84672</data></node>
+    <node id="IE-TA:South Tipperary"><data key="name">South Tipperary</data><data key="code">IE-TA:South Tipperary</data><data key="wikidata">Q184618</data><data key="lon">-7.92126</data><data key="lat">52.46998</data></node>
+    <node id="IE-WD"><data key="name">Waterford</data><data key="code">IE-WD</data><data key="wikidata">Q184594</data><data key="lon">-7.64986</data><data key="lat">52.15259</data></node>
+    <node id="IE-WH"><data key="name">Westmeath</data><data key="code">IE-WH</data><data key="wikidata">Q182633</data><data key="lon">-7.3303</data><data key="lat">53.56014</data></node>
+    <node id="IE-WW"><data key="name">Wicklow</data><data key="code">IE-WW</data><data key="wikidata">Q182591</data><data key="lon">-6.37781</data><data key="lat">52.95183</data></node>
+    <node id="IE-WX"><data key="name">Wexford</data><data key="code">IE-WX</data><data key="wikidata">Q184599</data><data key="lon">-6.60743</data><data key="lat">52.45981</data></node>
+    <edge source="IE-CE" target="IE-G"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CE" target="IE-LK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CE" target="IE-TA:North Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CN" target="IE-LD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CN" target="IE-LM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CN" target="IE-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CN" target="IE-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CN" target="IE-WH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CO" target="IE-KY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CO" target="IE-LK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CO" target="IE-TA:South Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CO" target="IE-WD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CW" target="IE-KE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CW" target="IE-KK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CW" target="IE-LS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CW" target="IE-WW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-CW" target="IE-WX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D" target="IE-D:Dún Laoghaire–Rathdown"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D" target="IE-D:Fingal"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D" target="IE-D:South Dublin"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D:Dún Laoghaire–Rathdown" target="IE-D:South Dublin"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D:Dún Laoghaire–Rathdown" target="IE-WW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D:Fingal" target="IE-D:South Dublin"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D:Fingal" target="IE-KE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D:Fingal" target="IE-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D:South Dublin" target="IE-KE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-D:South Dublin" target="IE-WW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-DL" target="IE-LM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-G" target="IE-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-G" target="IE-OY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-G" target="IE-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-G" target="IE-TA:North Tipperary"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KE" target="IE-LS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KE" target="IE-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KE" target="IE-OY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KE" target="IE-WW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KK" target="IE-LS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KK" target="IE-TA:North Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KK" target="IE-TA:South Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KK" target="IE-WD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KK" target="IE-WX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-KY" target="IE-LK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LD" target="IE-LM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LD" target="IE-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LD" target="IE-WH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LH" target="IE-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LH" target="IE-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LK" target="IE-TA:North Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LK" target="IE-TA:South Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LM" target="IE-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LM" target="IE-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LS" target="IE-OY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-LS" target="IE-TA:North Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-MH" target="IE-MN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-MH" target="IE-OY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-MH" target="IE-WH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-MO" target="IE-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-MO" target="IE-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-OY" target="IE-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-OY" target="IE-TA:North Tipperary"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-OY" target="IE-WH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-RN" target="IE-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-RN" target="IE-WH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-TA:North Tipperary" target="IE-TA:South Tipperary"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-TA:South Tipperary" target="IE-WD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IE-WW" target="IE-WX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

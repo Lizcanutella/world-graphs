@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GY" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GY-BA"><data key="name">Barima-Waini</data><data key="code">GY-BA</data><data key="wikidata">Q537740</data><data key="lon">-59.70957</data><data key="lat">7.75067</data></node>
+    <node id="GY-CU"><data key="name">Cuyuni-Mazaruni</data><data key="code">GY-CU</data><data key="wikidata">Q1146777</data><data key="lon">-59.87056</data><data key="lat">6.17726</data></node>
+    <node id="GY-DE"><data key="name">Demerara-Mahaica</data><data key="code">GY-DE</data><data key="wikidata">Q1185362</data><data key="lon">-58.11797</data><data key="lat">6.45514</data></node>
+    <node id="GY-EB"><data key="name">East Berbice-Corentyne</data><data key="code">GY-EB</data><data key="wikidata">Q1277758</data><data key="lon">-58.12882</data><data key="lat">3.89593</data></node>
+    <node id="GY-ES"><data key="name">Essequibo Islands-West Demerara</data><data key="code">GY-ES</data><data key="wikidata">Q1368802</data><data key="lon">-58.4249</data><data key="lat">6.51144</data></node>
+    <node id="GY-MA"><data key="name">Mahaica-Berbice</data><data key="code">GY-MA</data><data key="wikidata">Q1466671</data><data key="lon">-57.81965</data><data key="lat">6.27582</data></node>
+    <node id="GY-PM"><data key="name">Pomeroon-Supenaam</data><data key="code">GY-PM</data><data key="wikidata">Q680382</data><data key="lon">-58.8108</data><data key="lat">7.18028</data></node>
+    <node id="GY-PT"><data key="name">Potaro-Siparuni</data><data key="code">GY-PT</data><data key="wikidata">Q1454035</data><data key="lon">-59.41534</data><data key="lat">4.86226</data></node>
+    <node id="GY-UD"><data key="name">Upper Demerara-Berbice</data><data key="code">GY-UD</data><data key="wikidata">Q1309042</data><data key="lon">-58.15701</data><data key="lat">5.51988</data></node>
+    <node id="GY-UT"><data key="name">Upper Takutu-Upper Essequibo</data><data key="code">GY-UT</data><data key="wikidata">Q1516381</data><data key="lon">-58.98735</data><data key="lat">2.81506</data></node>
+    <edge source="GY-BA" target="GY-CU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-BA" target="GY-PM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-CU" target="GY-ES"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-CU" target="GY-PM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-CU" target="GY-PT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-CU" target="GY-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-DE" target="GY-ES"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-DE" target="GY-MA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-DE" target="GY-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-EB" target="GY-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-EB" target="GY-PT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-EB" target="GY-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-EB" target="GY-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-ES" target="GY-PM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-ES" target="GY-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-MA" target="GY-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-PT" target="GY-UD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GY-PT" target="GY-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

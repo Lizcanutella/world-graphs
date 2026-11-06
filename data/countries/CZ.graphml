@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CZ-JC"><data key="name">Jihočeský</data><data key="code">CZ-JC</data><data key="wikidata">Q188373</data><data key="lon">14.59479</data><data key="lat">49.08548</data></node>
+    <node id="CZ-JM"><data key="name">Jihomoravský</data><data key="code">CZ-JM</data><data key="wikidata">Q192697</data><data key="lon">16.69721</data><data key="lat">49.11938</data></node>
+    <node id="CZ-KA"><data key="name">Karlovarský</data><data key="code">CZ-KA</data><data key="wikidata">Q191091</data><data key="lon">12.79121</data><data key="lat">50.17154</data></node>
+    <node id="CZ-KR"><data key="name">Královéhradecký</data><data key="code">CZ-KR</data><data key="wikidata">Q193295</data><data key="lon">15.68733</data><data key="lat">50.40124</data></node>
+    <node id="CZ-LI"><data key="name">Liberecký</data><data key="code">CZ-LI</data><data key="wikidata">Q193266</data><data key="lon">14.97793</data><data key="lat">50.74258</data></node>
+    <node id="CZ-MO"><data key="name">Moravskoslezský</data><data key="code">CZ-MO</data><data key="wikidata">Q190550</data><data key="lon">17.86093</data><data key="lat">49.84777</data></node>
+    <node id="CZ-OL"><data key="name">Olomoucký</data><data key="code">CZ-OL</data><data key="wikidata">Q193307</data><data key="lon">16.93426</data><data key="lat">49.84777</data></node>
+    <node id="CZ-PA"><data key="name">Pardubický</data><data key="code">CZ-PA</data><data key="wikidata">Q193317</data><data key="lon">16.11866</data><data key="lat">49.89269</data></node>
+    <node id="CZ-PL"><data key="name">Plzeňský</data><data key="code">CZ-PL</data><data key="wikidata">Q46070</data><data key="lon">13.17405</data><data key="lat">49.52287</data></node>
+    <node id="CZ-PR"><data key="name">Prague</data><data key="code">CZ-PR</data><data key="wikidata">Q1085</data><data key="lon">14.44626</data><data key="lat">50.06041</data></node>
+    <node id="CZ-ST"><data key="name">Středočeský</data><data key="code">CZ-ST</data><data key="wikidata">Q188399</data><data key="lon">13.83307</data><data key="lat">50.046</data></node>
+    <node id="CZ-US"><data key="name">Ústecký</data><data key="code">CZ-US</data><data key="wikidata">Q192702</data><data key="lon">13.80664</data><data key="lat">50.56189</data></node>
+    <node id="CZ-VY"><data key="name">Vysočina</data><data key="code">CZ-VY</data><data key="wikidata">Q190930</data><data key="lon">15.63666</data><data key="lat">49.3933</data></node>
+    <node id="CZ-ZL"><data key="name">Zlínský</data><data key="code">CZ-ZL</data><data key="wikidata">Q192536</data><data key="lon">17.64362</data><data key="lat">49.18099</data></node>
+    <edge source="CZ-JC" target="CZ-JM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-JC" target="CZ-PL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-JC" target="CZ-ST"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-JC" target="CZ-VY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-JM" target="CZ-OL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-JM" target="CZ-PA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-JM" target="CZ-VY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-JM" target="CZ-ZL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-KA" target="CZ-PL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-KA" target="CZ-US"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-KR" target="CZ-LI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-KR" target="CZ-PA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-KR" target="CZ-ST"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-LI" target="CZ-ST"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-LI" target="CZ-US"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-MO" target="CZ-OL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-MO" target="CZ-ZL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-OL" target="CZ-PA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-OL" target="CZ-ZL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-PA" target="CZ-ST"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-PA" target="CZ-VY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-PL" target="CZ-ST"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-PL" target="CZ-US"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-PR" target="CZ-ST"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-ST" target="CZ-US"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CZ-ST" target="CZ-VY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

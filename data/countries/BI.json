@@ -1,0 +1,746 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BI",
+ "kind": "country",
+ "name": "Burundi",
+ "level": "provinces",
+ "n": 17,
+ "m": 34,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BI-BB",
+   "name": "Bubanza",
+   "wikidata": "Q460538",
+   "lon": 29.3954,
+   "lat": -3.11139
+  },
+  {
+   "code": "BI-BL",
+   "name": "Bujumbura Rural",
+   "wikidata": "Q645043",
+   "lon": 29.48758,
+   "lat": -3.49628
+  },
+  {
+   "code": "BI-BM",
+   "name": "Bujumbura Mairie",
+   "wikidata": "Q1816580",
+   "lon": 29.36773,
+   "lat": -3.43698
+  },
+  {
+   "code": "BI-BR",
+   "name": "Bururi",
+   "wikidata": "Q431385",
+   "lon": 29.64303,
+   "lat": -3.86431
+  },
+  {
+   "code": "BI-CA",
+   "name": "Cankuzo",
+   "wikidata": "Q645033",
+   "lon": 30.58753,
+   "lat": -3.14299
+  },
+  {
+   "code": "BI-CI",
+   "name": "Cibitoke",
+   "wikidata": "Q505596",
+   "lon": 29.2603,
+   "lat": -2.84334
+  },
+  {
+   "code": "BI-GI",
+   "name": "Gitega",
+   "wikidata": "Q720843",
+   "lon": 29.97656,
+   "lat": -3.44656
+  },
+  {
+   "code": "BI-KI",
+   "name": "Kirundo",
+   "wikidata": "Q600840",
+   "lon": 30.1661,
+   "lat": -2.54669
+  },
+  {
+   "code": "BI-KR",
+   "name": "Karuzi",
+   "wikidata": "Q735463",
+   "lon": 30.08528,
+   "lat": -3.13567
+  },
+  {
+   "code": "BI-KY",
+   "name": "Kayanza",
+   "wikidata": "Q720848",
+   "lon": 29.68821,
+   "lat": -2.99372
+  },
+  {
+   "code": "BI-MA",
+   "name": "Makamba",
+   "wikidata": "Q823740",
+   "lon": 29.78676,
+   "lat": -4.21121
+  },
+  {
+   "code": "BI-MU",
+   "name": "Muramvya",
+   "wikidata": "Q671086",
+   "lon": 29.68675,
+   "lat": -3.25006
+  },
+  {
+   "code": "BI-MW",
+   "name": "Mwaro",
+   "wikidata": "Q847718",
+   "lon": 29.68759,
+   "lat": -3.53428
+  },
+  {
+   "code": "BI-MY",
+   "name": "Muyinga",
+   "wikidata": "Q822571",
+   "lon": 30.31173,
+   "lat": -2.72469
+  },
+  {
+   "code": "BI-NG",
+   "name": "Ngozi",
+   "wikidata": "Q720852",
+   "lon": 29.85226,
+   "lat": -2.86569
+  },
+  {
+   "code": "BI-RT",
+   "name": "Rutana",
+   "wikidata": "Q822566",
+   "lon": 30.08563,
+   "lat": -3.88302
+  },
+  {
+   "code": "BI-RY",
+   "name": "Ruyigi",
+   "wikidata": "Q822578",
+   "lon": 30.35204,
+   "lat": -3.43483
+  }
+ ],
+ "edges": [
+  {
+   "u": "BI-BB",
+   "v": "BI-BL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36519
+  },
+  {
+   "u": "BI-BB",
+   "v": "BI-CI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44996
+  },
+  {
+   "u": "BI-BB",
+   "v": "BI-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21523
+  },
+  {
+   "u": "BI-BB",
+   "v": "BI-MU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23226
+  },
+  {
+   "u": "BI-BL",
+   "v": "BI-BM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 41546
+  },
+  {
+   "u": "BI-BL",
+   "v": "BI-BR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39865
+  },
+  {
+   "u": "BI-BL",
+   "v": "BI-MU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18748
+  },
+  {
+   "u": "BI-BL",
+   "v": "BI-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16927
+  },
+  {
+   "u": "BI-BR",
+   "v": "BI-GI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57125
+  },
+  {
+   "u": "BI-BR",
+   "v": "BI-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65771
+  },
+  {
+   "u": "BI-BR",
+   "v": "BI-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32768
+  },
+  {
+   "u": "BI-BR",
+   "v": "BI-RT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29663
+  },
+  {
+   "u": "BI-CA",
+   "v": "BI-KR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7057
+  },
+  {
+   "u": "BI-CA",
+   "v": "BI-MY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30951
+  },
+  {
+   "u": "BI-CA",
+   "v": "BI-RY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48848
+  },
+  {
+   "u": "BI-CI",
+   "v": "BI-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13207
+  },
+  {
+   "u": "BI-GI",
+   "v": "BI-KR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51747
+  },
+  {
+   "u": "BI-GI",
+   "v": "BI-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17033
+  },
+  {
+   "u": "BI-GI",
+   "v": "BI-MU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28683
+  },
+  {
+   "u": "BI-GI",
+   "v": "BI-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49051
+  },
+  {
+   "u": "BI-GI",
+   "v": "BI-NG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5263
+  },
+  {
+   "u": "BI-GI",
+   "v": "BI-RT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32802
+  },
+  {
+   "u": "BI-GI",
+   "v": "BI-RY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34195
+  },
+  {
+   "u": "BI-KI",
+   "v": "BI-MY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78391
+  },
+  {
+   "u": "BI-KI",
+   "v": "BI-NG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26465
+  },
+  {
+   "u": "BI-KR",
+   "v": "BI-MY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43860
+  },
+  {
+   "u": "BI-KR",
+   "v": "BI-NG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39398
+  },
+  {
+   "u": "BI-KR",
+   "v": "BI-RY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34625
+  },
+  {
+   "u": "BI-KY",
+   "v": "BI-MU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38548
+  },
+  {
+   "u": "BI-KY",
+   "v": "BI-NG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55949
+  },
+  {
+   "u": "BI-MA",
+   "v": "BI-RT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40277
+  },
+  {
+   "u": "BI-MU",
+   "v": "BI-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30026
+  },
+  {
+   "u": "BI-MY",
+   "v": "BI-NG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31486
+  },
+  {
+   "u": "BI-RT",
+   "v": "BI-RY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34284
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BDI-ADM1-87207978",
+  "level": "ADM1",
+  "year": "2014",
+  "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+ }
+}

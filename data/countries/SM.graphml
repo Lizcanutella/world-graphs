@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SM" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SM-01"><data key="name">Acquaviva</data><data key="code">SM-01</data><data key="wikidata">Q206363</data><data key="lon">12.40604</data><data key="lat">43.94402</data></node>
+    <node id="SM-02"><data key="name">Chiesanuova</data><data key="code">SM-02</data><data key="wikidata">Q206980</data><data key="lon">12.41132</data><data key="lat">43.90518</data></node>
+    <node id="SM-03"><data key="name">Domagnano</data><data key="code">SM-03</data><data key="wikidata">Q202202</data><data key="lon">12.46936</data><data key="lat">43.95054</data></node>
+    <node id="SM-04"><data key="name">Faetano</data><data key="code">SM-04</data><data key="wikidata">Q206356</data><data key="lon">12.47442</data><data key="lat">43.93498</data></node>
+    <node id="SM-05"><data key="name">Fiorentino</data><data key="code">SM-05</data><data key="wikidata">Q206968</data><data key="lon">12.45187</data><data key="lat">43.91071</data></node>
+    <node id="SM-06"><data key="name">Borgo Maggiore</data><data key="code">SM-06</data><data key="wikidata">Q201368</data><data key="lon">12.4319</data><data key="lat">43.94388</data></node>
+    <node id="SM-07"><data key="name">San Marino</data><data key="code">SM-07</data><data key="wikidata">Q1848</data><data key="lon">12.41321</data><data key="lat">43.92261</data></node>
+    <node id="SM-08"><data key="name">Montegiardino</data><data key="code">SM-08</data><data key="wikidata">Q206962</data><data key="lon">12.46818</data><data key="lat">43.9103</data></node>
+    <node id="SM-09"><data key="name">Serravalle</data><data key="code">SM-09</data><data key="wikidata">Q185412</data><data key="lon">12.46728</data><data key="lat">43.96735</data></node>
+    <edge source="SM-01" target="SM-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-01" target="SM-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-02" target="SM-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-02" target="SM-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-03" target="SM-04"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-03" target="SM-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-03" target="SM-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-04" target="SM-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-04" target="SM-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-04" target="SM-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-05" target="SM-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-05" target="SM-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-05" target="SM-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-06" target="SM-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SM-06" target="SM-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

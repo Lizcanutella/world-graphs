@@ -1,0 +1,511 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "GY",
+ "kind": "country",
+ "name": "Guyana",
+ "level": "regions",
+ "n": 10,
+ "m": 18,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "GY-BA",
+   "name": "Barima-Waini",
+   "wikidata": "Q537740",
+   "lon": -59.70957,
+   "lat": 7.75067
+  },
+  {
+   "code": "GY-CU",
+   "name": "Cuyuni-Mazaruni",
+   "wikidata": "Q1146777",
+   "lon": -59.87056,
+   "lat": 6.17726
+  },
+  {
+   "code": "GY-DE",
+   "name": "Demerara-Mahaica",
+   "wikidata": "Q1185362",
+   "lon": -58.11797,
+   "lat": 6.45514
+  },
+  {
+   "code": "GY-EB",
+   "name": "East Berbice-Corentyne",
+   "wikidata": "Q1277758",
+   "lon": -58.12882,
+   "lat": 3.89593
+  },
+  {
+   "code": "GY-ES",
+   "name": "Essequibo Islands-West Demerara",
+   "wikidata": "Q1368802",
+   "lon": -58.4249,
+   "lat": 6.51144
+  },
+  {
+   "code": "GY-MA",
+   "name": "Mahaica-Berbice",
+   "wikidata": "Q1466671",
+   "lon": -57.81965,
+   "lat": 6.27582
+  },
+  {
+   "code": "GY-PM",
+   "name": "Pomeroon-Supenaam",
+   "wikidata": "Q680382",
+   "lon": -58.8108,
+   "lat": 7.18028
+  },
+  {
+   "code": "GY-PT",
+   "name": "Potaro-Siparuni",
+   "wikidata": "Q1454035",
+   "lon": -59.41534,
+   "lat": 4.86226
+  },
+  {
+   "code": "GY-UD",
+   "name": "Upper Demerara-Berbice",
+   "wikidata": "Q1309042",
+   "lon": -58.15701,
+   "lat": 5.51988
+  },
+  {
+   "code": "GY-UT",
+   "name": "Upper Takutu-Upper Essequibo",
+   "wikidata": "Q1516381",
+   "lon": -58.98735,
+   "lat": 2.81506
+  }
+ ],
+ "edges": [
+  {
+   "u": "GY-BA",
+   "v": "GY-CU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 154007
+  },
+  {
+   "u": "GY-BA",
+   "v": "GY-PM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 97977
+  },
+  {
+   "u": "GY-CU",
+   "v": "GY-ES",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43943
+  },
+  {
+   "u": "GY-CU",
+   "v": "GY-PM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 63966
+  },
+  {
+   "u": "GY-CU",
+   "v": "GY-PT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 197333
+  },
+  {
+   "u": "GY-CU",
+   "v": "GY-UD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 130281
+  },
+  {
+   "u": "GY-DE",
+   "v": "GY-ES",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86983
+  },
+  {
+   "u": "GY-DE",
+   "v": "GY-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86889,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "GY-DE",
+   "v": "GY-UD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18562
+  },
+  {
+   "u": "GY-EB",
+   "v": "GY-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64674
+  },
+  {
+   "u": "GY-EB",
+   "v": "GY-PT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46144
+  },
+  {
+   "u": "GY-EB",
+   "v": "GY-UD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 175615
+  },
+  {
+   "u": "GY-EB",
+   "v": "GY-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 339767
+  },
+  {
+   "u": "GY-ES",
+   "v": "GY-PM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48402
+  },
+  {
+   "u": "GY-ES",
+   "v": "GY-UD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56726
+  },
+  {
+   "u": "GY-MA",
+   "v": "GY-UD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67075
+  },
+  {
+   "u": "GY-PT",
+   "v": "GY-UD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 142056
+  },
+  {
+   "u": "GY-PT",
+   "v": "GY-UT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 209113
+  }
+ ],
+ "relabels": [
+  {
+   "ne_id": "1159308871",
+   "was": {
+    "iso_3166_2": "GY-MA",
+    "name": "Mahaica-Berbice"
+   },
+   "set": {
+    "iso_3166_2": "GY-EB",
+    "name": "East Berbice-Corentyne"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159308889",
+   "was": {
+    "iso_3166_2": "GY-UT",
+    "name": "Upper Takutu-Upper Essequibo"
+   },
+   "set": {
+    "iso_3166_2": "GY-UD",
+    "name": "Upper Demerara-Berbice"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159308893",
+   "was": {
+    "iso_3166_2": "GY-EB",
+    "name": "East Berbice-Corentyne"
+   },
+   "set": {
+    "iso_3166_2": "GY-DE",
+    "name": "Demerara-Mahaica"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159308895",
+   "was": {
+    "iso_3166_2": "GY-DE",
+    "name": "Demerara-Mahaica"
+   },
+   "set": {
+    "iso_3166_2": "GY-ES",
+    "name": "Essequibo Islands-West Demerara"
+   },
+   "rule": "completes_permutation"
+  },
+  {
+   "ne_id": "1159308897",
+   "was": {
+    "iso_3166_2": "GY-ES",
+    "name": "Essequibo Islands-West Demerara"
+   },
+   "set": {
+    "iso_3166_2": "GY-MA",
+    "name": "Mahaica-Berbice"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159308901",
+   "was": {
+    "iso_3166_2": "GY-UD",
+    "name": "Upper Demerara-Berbice"
+   },
+   "set": {
+    "iso_3166_2": "GY-UT",
+    "name": "Upper Takutu-Upper Essequibo"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159308905",
+   "was": {
+    "iso_3166_2": "GY-PM",
+    "name": "Pomeroon-Supenaam"
+   },
+   "set": {
+    "iso_3166_2": "GY-CU",
+    "name": "Cuyuni-Mazaruni"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  },
+  {
+   "ne_id": "1159308907",
+   "was": {
+    "iso_3166_2": "GY-CU",
+    "name": "Cuyuni-Mazaruni"
+   },
+   "set": {
+    "iso_3166_2": "GY-PM",
+    "name": "Pomeroon-Supenaam"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  }
+ ],
+ "geoboundaries": {
+  "boundaryID": "GUY-ADM1-73500413",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

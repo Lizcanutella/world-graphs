@@ -1,0 +1,57 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TC",
+ "kind": "country",
+ "name": "Turks and Caicos Islands",
+ "level": null,
+ "n": 6,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TC-X01~",
+   "name": "Middle Caicos",
+   "wikidata": null,
+   "lon": -71.75744,
+   "lat": 21.80378
+  },
+  {
+   "code": "TC-X02~",
+   "name": "North Caicos",
+   "wikidata": null,
+   "lon": -71.93202,
+   "lat": 21.89378
+  },
+  {
+   "code": "TC-X03~",
+   "name": "Providenciales and West Caicos",
+   "wikidata": null,
+   "lon": -72.28442,
+   "lat": 21.80378
+  },
+  {
+   "code": "TC-X04~",
+   "name": "South Caicos and East Caicos",
+   "wikidata": null,
+   "lon": -71.49464,
+   "lat": 21.71414
+  },
+  {
+   "code": "TC-X05~",
+   "name": "Grand Turk",
+   "wikidata": null,
+   "lon": -71.13996,
+   "lat": 21.47254
+  },
+  {
+   "code": "TC-X06~",
+   "name": "Salt Cay",
+   "wikidata": null,
+   "lon": -71.20662,
+   "lat": 21.32795
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": null
+}

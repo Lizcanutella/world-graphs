@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="UY" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="UY-AR"><data key="name">Artigas</data><data key="code">UY-AR</data><data key="wikidata">Q16603</data><data key="lon">-57.04872</data><data key="lat">-30.58588</data></node>
+    <node id="UY-CA"><data key="name">Canelones</data><data key="code">UY-CA</data><data key="wikidata">Q16577</data><data key="lon">-55.96147</data><data key="lat">-34.5444</data></node>
+    <node id="UY-CL"><data key="name">Cerro Largo</data><data key="code">UY-CL</data><data key="wikidata">Q16575</data><data key="lon">-54.26924</data><data key="lat">-32.34606</data></node>
+    <node id="UY-CO"><data key="name">Colonia</data><data key="code">UY-CO</data><data key="wikidata">Q16580</data><data key="lon">-57.58616</data><data key="lat">-34.11876</data></node>
+    <node id="UY-DU"><data key="name">Durazno</data><data key="code">UY-DU</data><data key="wikidata">Q16591</data><data key="lon">-55.70216</data><data key="lat">-32.96809</data></node>
+    <node id="UY-FD"><data key="name">Florida</data><data key="code">UY-FD</data><data key="wikidata">Q16593</data><data key="lon">-55.86996</data><data key="lat">-33.7929</data></node>
+    <node id="UY-FS"><data key="name">Flores</data><data key="code">UY-FS</data><data key="wikidata">Q16578</data><data key="lon">-56.87025</data><data key="lat">-33.56446</data></node>
+    <node id="UY-LA"><data key="name">Lavalleja</data><data key="code">UY-LA</data><data key="wikidata">Q460435</data><data key="lon">-54.98987</data><data key="lat">-33.9794</data></node>
+    <node id="UY-MA"><data key="name">Maldonado</data><data key="code">UY-MA</data><data key="wikidata">Q331196</data><data key="lon">-54.76776</data><data key="lat">-34.45002</data></node>
+    <node id="UY-MO"><data key="name">Montevideo</data><data key="code">UY-MO</data><data key="wikidata">Q16594</data><data key="lon">-56.23456</data><data key="lat">-34.82537</data></node>
+    <node id="UY-PA"><data key="name">Paysandú</data><data key="code">UY-PA</data><data key="wikidata">Q16576</data><data key="lon">-57.21977</data><data key="lat">-32.03029</data></node>
+    <node id="UY-RN"><data key="name">Río Negro</data><data key="code">UY-RN</data><data key="wikidata">Q16596</data><data key="lon">-57.43445</data><data key="lat">-32.89854</data></node>
+    <node id="UY-RO"><data key="name">Rocha</data><data key="code">UY-RO</data><data key="wikidata">Q16582</data><data key="lon">-53.99539</data><data key="lat">-33.97735</data></node>
+    <node id="UY-RV"><data key="name">Rivera</data><data key="code">UY-RV</data><data key="wikidata">Q16609</data><data key="lon">-55.19447</data><data key="lat">-31.48366</data></node>
+    <node id="UY-SA"><data key="name">Salto</data><data key="code">UY-SA</data><data key="wikidata">Q16595</data><data key="lon">-57.0615</data><data key="lat">-31.31127</data></node>
+    <node id="UY-SJ"><data key="name">San José</data><data key="code">UY-SJ</data><data key="wikidata">Q16579</data><data key="lon">-56.75516</data><data key="lat">-34.32312</data></node>
+    <node id="UY-SO"><data key="name">Soriano</data><data key="code">UY-SO</data><data key="wikidata">Q16584</data><data key="lon">-57.83904</data><data key="lat">-33.49085</data></node>
+    <node id="UY-TA"><data key="name">Tacuarembó</data><data key="code">UY-TA</data><data key="wikidata">Q16587</data><data key="lon">-55.50441</data><data key="lat">-32.05143</data></node>
+    <node id="UY-TT"><data key="name">Treinta y Tres</data><data key="code">UY-TT</data><data key="wikidata">Q16610</data><data key="lon">-54.34947</data><data key="lat">-33.08214</data></node>
+    <edge source="UY-AR" target="UY-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CA" target="UY-FD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CA" target="UY-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CA" target="UY-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CA" target="UY-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CA" target="UY-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CL" target="UY-DU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CL" target="UY-RV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CL" target="UY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CL" target="UY-TT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CO" target="UY-FS"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CO" target="UY-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-CO" target="UY-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-DU" target="UY-FD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-DU" target="UY-FS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-DU" target="UY-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-DU" target="UY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-DU" target="UY-TT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-FD" target="UY-FS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-FD" target="UY-LA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-FD" target="UY-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-FD" target="UY-TT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-FS" target="UY-RN"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="UY-FS" target="UY-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-FS" target="UY-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-LA" target="UY-MA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-LA" target="UY-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-LA" target="UY-TT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-MA" target="UY-RO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-MO" target="UY-SJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-PA" target="UY-RN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-PA" target="UY-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-PA" target="UY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-RN" target="UY-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-RN" target="UY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-RO" target="UY-TT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-RV" target="UY-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-RV" target="UY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UY-SA" target="UY-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

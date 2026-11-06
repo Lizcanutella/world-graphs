@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LV" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LV-001"><data key="name">Aglonas</data><data key="code">LV-001</data><data key="wikidata">Q2045300</data><data key="lon">27.07953</data><data key="lat">56.08896</data></node>
+    <node id="LV-002"><data key="name">Aizkraukles</data><data key="code">LV-002</data><data key="wikidata">Q865676</data><data key="lon">25.23692</data><data key="lat">56.65043</data></node>
+    <node id="LV-003"><data key="name">Aizputes</data><data key="code">LV-003</data><data key="wikidata">Q2485015</data><data key="lon">21.5649</data><data key="lat">56.7089</data></node>
+    <node id="LV-004"><data key="name">Aknistes</data><data key="code">LV-004</data><data key="wikidata">Q865658</data><data key="lon">25.82106</data><data key="lat">56.13642</data></node>
+    <node id="LV-005"><data key="name">Alojas</data><data key="code">LV-005</data><data key="wikidata">Q2989420</data><data key="lon">24.79147</data><data key="lat">57.80484</data></node>
+    <node id="LV-006"><data key="name">Alsungas</data><data key="code">LV-006</data><data key="wikidata">Q1995769</data><data key="lon">21.58442</data><data key="lat">56.99196</data></node>
+    <node id="LV-007"><data key="name">Aluksne</data><data key="code">LV-007</data><data key="wikidata">Q3393445</data><data key="lon">27.11057</data><data key="lat">57.42719</data></node>
+    <node id="LV-008"><data key="name">Amatas</data><data key="code">LV-008</data><data key="wikidata">Q1892063</data><data key="lon">25.35957</data><data key="lat">57.11531</data></node>
+    <node id="LV-009"><data key="name">Apes</data><data key="code">LV-009</data><data key="wikidata">Q2343837</data><data key="lon">26.50589</data><data key="lat">57.45268</data></node>
+    <node id="LV-010"><data key="name">Auces</data><data key="code">LV-010</data><data key="wikidata">Q1934932</data><data key="lon">22.93634</data><data key="lat">56.45248</data></node>
+    <node id="LV-011"><data key="name">Ādaži</data><data key="code">LV-011</data><data key="wikidata">Q3019837</data><data key="lon">24.40696</data><data key="lat">57.10943</data></node>
+    <node id="LV-012"><data key="name">Babites</data><data key="code">LV-012</data><data key="wikidata">Q2079353</data><data key="lon">23.6795</data><data key="lat">56.89627</data></node>
+    <node id="LV-013"><data key="name">Baldones</data><data key="code">LV-013</data><data key="wikidata">Q2030886</data><data key="lon">24.35721</data><data key="lat">56.72838</data></node>
+    <node id="LV-014"><data key="name">Baltinavas</data><data key="code">LV-014</data><data key="wikidata">Q2361012</data><data key="lon">27.60287</data><data key="lat">56.925</data></node>
+    <node id="LV-015"><data key="name">Balvu</data><data key="code">LV-015</data><data key="wikidata">Q2018672</data><data key="lon">27.47464</data><data key="lat">57.03209</data></node>
+    <node id="LV-016"><data key="name">Bauska</data><data key="code">LV-016</data><data key="wikidata">Q2365998</data><data key="lon">24.31599</data><data key="lat">56.39198</data></node>
+    <node id="LV-017"><data key="name">Beverinas</data><data key="code">LV-017</data><data key="wikidata">Q2018692</data><data key="lon">25.637</data><data key="lat">57.52727</data></node>
+    <node id="LV-018"><data key="name">Brocenu</data><data key="code">LV-018</data><data key="wikidata">Q865717</data><data key="lon">22.65744</data><data key="lat">56.70315</data></node>
+    <node id="LV-019"><data key="name">Burtnieku</data><data key="code">LV-019</data><data key="wikidata">Q2079428</data><data key="lon">25.34416</data><data key="lat">57.69256</data></node>
+    <node id="LV-020"><data key="name">Carnikavas</data><data key="code">LV-020</data><data key="wikidata">Q2453125</data><data key="lon">24.27368</data><data key="lat">57.12596</data></node>
+    <node id="LV-021"><data key="name">Cesvaines</data><data key="code">LV-021</data><data key="wikidata">Q2327041</data><data key="lon">26.27806</data><data key="lat">57.01902</data></node>
+    <node id="LV-022"><data key="name">Cesu</data><data key="code">LV-022</data><data key="wikidata">Q1989164</data><data key="lon">25.40944</data><data key="lat">57.24057</data></node>
+    <node id="LV-023"><data key="name">Ciblas</data><data key="code">LV-023</data><data key="wikidata">Q1955102</data><data key="lon">27.78416</data><data key="lat">56.61164</data></node>
+    <node id="LV-024"><data key="name">Dagdas</data><data key="code">LV-024</data><data key="wikidata">Q2361131</data><data key="lon">27.64196</data><data key="lat">56.12133</data></node>
+    <node id="LV-026"><data key="name">Dobele</data><data key="code">LV-026</data><data key="wikidata">Q519580</data><data key="lon">23.13972</data><data key="lat">56.62649</data></node>
+    <node id="LV-027"><data key="name">Dundagas</data><data key="code">LV-027</data><data key="wikidata">Q2274832</data><data key="lon">22.42575</data><data key="lat">57.58325</data></node>
+    <node id="LV-028"><data key="name">Durbes</data><data key="code">LV-028</data><data key="wikidata">Q1962356</data><data key="lon">21.44308</data><data key="lat">56.62884</data></node>
+    <node id="LV-029"><data key="name">Engures</data><data key="code">LV-029</data><data key="wikidata">Q2079455</data><data key="lon">23.20644</data><data key="lat">57.11882</data></node>
+    <node id="LV-030"><data key="name">Erglu</data><data key="code">LV-030</data><data key="wikidata">Q2079406</data><data key="lon">25.65463</data><data key="lat">56.88232</data></node>
+    <node id="LV-031"><data key="name">Garkalnes</data><data key="code">LV-031</data><data key="wikidata">Q2171669</data><data key="lon">24.37303</data><data key="lat">57.02485</data></node>
+    <node id="LV-032"><data key="name">Grobinas</data><data key="code">LV-032</data><data key="wikidata">Q2320320</data><data key="lon">21.20461</data><data key="lat">56.50735</data></node>
+    <node id="LV-033"><data key="name">Gulbene</data><data key="code">LV-033</data><data key="wikidata">Q209187</data><data key="lon">26.61495</data><data key="lat">57.18582</data></node>
+    <node id="LV-034"><data key="name">Iecavas</data><data key="code">LV-034</data><data key="wikidata">Q2337266</data><data key="lon">24.17327</data><data key="lat">56.59758</data></node>
+    <node id="LV-035"><data key="name">Ikskiles</data><data key="code">LV-035</data><data key="wikidata">Q2337298</data><data key="lon">24.58468</data><data key="lat">56.8554</data></node>
+    <node id="LV-036"><data key="name">Ilukstes</data><data key="code">LV-036</data><data key="wikidata">Q2025473</data><data key="lon">26.13879</data><data key="lat">55.98493</data></node>
+    <node id="LV-037"><data key="name">Incukalna</data><data key="code">LV-037</data><data key="wikidata">Q2252820</data><data key="lon">24.63113</data><data key="lat">57.10247</data></node>
+    <node id="LV-038"><data key="name">Jaunjelgavas</data><data key="code">LV-038</data><data key="wikidata">Q2880128</data><data key="lon">25.28565</data><data key="lat">56.52518</data></node>
+    <node id="LV-039"><data key="name">Jaunpiebalgas</data><data key="code">LV-039</data><data key="wikidata">Q2306846</data><data key="lon">25.97224</data><data key="lat">57.14856</data></node>
+    <node id="LV-040"><data key="name">Jaunpils</data><data key="code">LV-040</data><data key="wikidata">Q2072154</data><data key="lon">22.93321</data><data key="lat">56.78289</data></node>
+    <node id="LV-043"><data key="name">Kandavas</data><data key="code">LV-043</data><data key="wikidata">Q2024643</data><data key="lon">22.6444</data><data key="lat">56.9623</data></node>
+    <node id="LV-044"><data key="name">Karsavas</data><data key="code">LV-044</data><data key="wikidata">Q2395952</data><data key="lon">27.66836</data><data key="lat">56.75139</data></node>
+    <node id="LV-045"><data key="name">Kocenu</data><data key="code">LV-045</data><data key="wikidata">Q2304840</data><data key="lon">25.21079</data><data key="lat">57.53161</data></node>
+    <node id="LV-046"><data key="name">Kokneses</data><data key="code">LV-046</data><data key="wikidata">Q865682</data><data key="lon">25.42911</data><data key="lat">56.70425</data></node>
+    <node id="LV-047"><data key="name">Kraslavas</data><data key="code">LV-047</data><data key="wikidata">Q1831695</data><data key="lon">27.3115</data><data key="lat">55.93692</data></node>
+    <node id="LV-048"><data key="name">Krimuldas</data><data key="code">LV-048</data><data key="wikidata">Q2302998</data><data key="lon">24.8154</data><data key="lat">57.27289</data></node>
+    <node id="LV-049"><data key="name">Krustpils</data><data key="code">LV-049</data><data key="wikidata">Q2277478</data><data key="lon">26.20208</data><data key="lat">56.53976</data></node>
+    <node id="LV-050"><data key="name">Kuldigas</data><data key="code">LV-050</data><data key="wikidata">Q2337188</data><data key="lon">22.03023</data><data key="lat">56.93231</data></node>
+    <node id="LV-051"><data key="name">Keguma</data><data key="code">LV-051</data><data key="wikidata">Q2072209</data><data key="lon">24.74697</data><data key="lat">56.68897</data></node>
+    <node id="LV-052"><data key="name">Kekavas</data><data key="code">LV-052</data><data key="wikidata">Q2268947</data><data key="lon">24.3171</data><data key="lat">56.80925</data></node>
+    <node id="LV-053"><data key="name">Lielvardes</data><data key="code">LV-053</data><data key="wikidata">Q279004</data><data key="lon">24.92291</data><data key="lat">56.71414</data></node>
+    <node id="LV-054"><data key="name">Limbaži</data><data key="code">LV-054</data><data key="wikidata">Q1579076</data><data key="lon">24.80172</data><data key="lat">57.49503</data></node>
+    <node id="LV-055"><data key="name">Ligatnes</data><data key="code">LV-055</data><data key="wikidata">Q1023736</data><data key="lon">25.07548</data><data key="lat">57.1798</data></node>
+    <node id="LV-056"><data key="name">Livanu</data><data key="code">LV-056</data><data key="wikidata">Q2277489</data><data key="lon">26.32089</data><data key="lat">56.35064</data></node>
+    <node id="LV-057"><data key="name">Lubanas</data><data key="code">LV-057</data><data key="wikidata">Q2072165</data><data key="lon">26.60987</data><data key="lat">56.89768</data></node>
+    <node id="LV-058"><data key="name">Ludzas</data><data key="code">LV-058</data><data key="wikidata">Q932445</data><data key="lon">27.82153</data><data key="lat">56.38115</data></node>
+    <node id="LV-059"><data key="name">Madona</data><data key="code">LV-059</data><data key="wikidata">Q2198472</data><data key="lon">26.12465</data><data key="lat">56.84346</data></node>
+    <node id="LV-060"><data key="name">Mazsalacas</data><data key="code">LV-060</data><data key="wikidata">Q2283334</data><data key="lon">24.98235</data><data key="lat">57.94043</data></node>
+    <node id="LV-061"><data key="name">Malpils</data><data key="code">LV-061</data><data key="wikidata">Q2304902</data><data key="lon">24.99213</data><data key="lat">57.01369</data></node>
+    <node id="LV-062"><data key="name">Marupes</data><data key="code">LV-062</data><data key="wikidata">Q2232018</data><data key="lon">23.93825</data><data key="lat">56.87559</data></node>
+    <node id="LV-063"><data key="name">Mersraga</data><data key="code">LV-063</data><data key="wikidata">Q2416186</data><data key="lon">23.04055</data><data key="lat">57.31546</data></node>
+    <node id="LV-064"><data key="name">Nauksenu</data><data key="code">LV-064</data><data key="wikidata">Q773027</data><data key="lon">25.50187</data><data key="lat">57.89815</data></node>
+    <node id="LV-065"><data key="name">Neretas</data><data key="code">LV-065</data><data key="wikidata">Q2161795</data><data key="lon">25.16312</data><data key="lat">56.32899</data></node>
+    <node id="LV-066"><data key="name">Nicas</data><data key="code">LV-066</data><data key="wikidata">Q1950456</data><data key="lon">21.0782</data><data key="lat">56.3369</data></node>
+    <node id="LV-067"><data key="name">Ogre</data><data key="code">LV-067</data><data key="wikidata">Q2321579</data><data key="lon">25.10205</data><data key="lat">56.8441</data></node>
+    <node id="LV-068"><data key="name">Olaines</data><data key="code">LV-068</data><data key="wikidata">Q2451375</data><data key="lon">23.9777</data><data key="lat">56.81212</data></node>
+    <node id="LV-069"><data key="name">Ozolnieku</data><data key="code">LV-069</data><data key="wikidata">Q2304926</data><data key="lon">23.95206</data><data key="lat">56.62143</data></node>
+    <node id="LV-070"><data key="name">Pargaujas</data><data key="code">LV-070</data><data key="wikidata">Q2304831</data><data key="lon">25.11472</data><data key="lat">57.36504</data></node>
+    <node id="LV-071"><data key="name">Pavilostas</data><data key="code">LV-071</data><data key="wikidata">Q1942469</data><data key="lon">21.18963</data><data key="lat">56.80103</data></node>
+    <node id="LV-072"><data key="name">Plavinu</data><data key="code">LV-072</data><data key="wikidata">Q865649</data><data key="lon">25.72199</data><data key="lat">56.70446</data></node>
+    <node id="LV-073"><data key="name">Preilu</data><data key="code">LV-073</data><data key="wikidata">Q2277469</data><data key="lon">26.70368</data><data key="lat">56.27922</data></node>
+    <node id="LV-074"><data key="name">Priekules</data><data key="code">LV-074</data><data key="wikidata">Q2304893</data><data key="lon">21.54822</data><data key="lat">56.42523</data></node>
+    <node id="LV-075"><data key="name">Priekulu</data><data key="code">LV-075</data><data key="wikidata">Q2299231</data><data key="lon">25.38228</data><data key="lat">57.34234</data></node>
+    <node id="LV-076"><data key="name">Raunas</data><data key="code">LV-076</data><data key="wikidata">Q2124808</data><data key="lon">25.87931</data><data key="lat">57.23245</data></node>
+    <node id="LV-078"><data key="name">Riebinu</data><data key="code">LV-078</data><data key="wikidata">Q2106159</data><data key="lon">26.81704</data><data key="lat">56.34758</data></node>
+    <node id="LV-079"><data key="name">Rojas</data><data key="code">LV-079</data><data key="wikidata">Q2302986</data><data key="lon">22.705</data><data key="lat">57.52216</data></node>
+    <node id="LV-080"><data key="name">Ropazu</data><data key="code">LV-080</data><data key="wikidata">Q11068461</data><data key="lon">24.59801</data><data key="lat">56.95534</data></node>
+    <node id="LV-081"><data key="name">Rucavas</data><data key="code">LV-081</data><data key="wikidata">Q2124995</data><data key="lon">21.19621</data><data key="lat">56.21496</data></node>
+    <node id="LV-082"><data key="name">Rugaju</data><data key="code">LV-082</data><data key="wikidata">Q1837354</data><data key="lon">27.05978</data><data key="lat">56.98818</data></node>
+    <node id="LV-083"><data key="name">Rundales</data><data key="code">LV-083</data><data key="wikidata">Q2122124</data><data key="lon">23.96958</data><data key="lat">56.40679</data></node>
+    <node id="LV-084"><data key="name">Rujienas</data><data key="code">LV-084</data><data key="wikidata">Q2299415</data><data key="lon">25.20897</data><data key="lat">57.92242</data></node>
+    <node id="LV-085"><data key="name">Salacgrivas</data><data key="code">LV-085</data><data key="wikidata">Q2251931</data><data key="lon">24.42236</data><data key="lat">57.67613</data></node>
+    <node id="LV-086"><data key="name">Salas</data><data key="code">LV-086</data><data key="wikidata">Q2375848</data><data key="lon">25.70301</data><data key="lat">56.47698</data></node>
+    <node id="LV-087"><data key="name">Salaspils</data><data key="code">LV-087</data><data key="wikidata">Q2140753</data><data key="lon">24.34883</data><data key="lat">56.87561</data></node>
+    <node id="LV-088"><data key="name">Saldus</data><data key="code">LV-088</data><data key="wikidata">Q2299261</data><data key="lon">22.31274</data><data key="lat">56.63211</data></node>
+    <node id="LV-089"><data key="name">Saulkrastu</data><data key="code">LV-089</data><data key="wikidata">Q371429</data><data key="lon">24.44035</data><data key="lat">57.26409</data></node>
+    <node id="LV-090"><data key="name">Sejas</data><data key="code">LV-090</data><data key="wikidata">Q2299447</data><data key="lon">24.54511</data><data key="lat">57.21666</data></node>
+    <node id="LV-091"><data key="name">Siguldas</data><data key="code">LV-091</data><data key="wikidata">Q2299251</data><data key="lon">25.00227</data><data key="lat">57.10178</data></node>
+    <node id="LV-092"><data key="name">Skriveru</data><data key="code">LV-092</data><data key="wikidata">Q2286864</data><data key="lon">25.09428</data><data key="lat">56.67608</data></node>
+    <node id="LV-093"><data key="name">Skrundas</data><data key="code">LV-093</data><data key="wikidata">Q2299239</data><data key="lon">21.95901</data><data key="lat">56.66562</data></node>
+    <node id="LV-094"><data key="name">Smiltenes</data><data key="code">LV-094</data><data key="wikidata">Q1959984</data><data key="lon">26.00806</data><data key="lat">57.41391</data></node>
+    <node id="LV-095"><data key="name">Stopinu</data><data key="code">LV-095</data><data key="wikidata">Q2299214</data><data key="lon">24.31443</data><data key="lat">56.93569</data></node>
+    <node id="LV-096"><data key="name">Strencu</data><data key="code">LV-096</data><data key="wikidata">Q2299223</data><data key="lon">25.82146</data><data key="lat">57.61483</data></node>
+    <node id="LV-097"><data key="name">Talsi</data><data key="code">LV-097</data><data key="wikidata">Q2302964</data><data key="lon">22.65785</data><data key="lat">57.25074</data></node>
+    <node id="LV-098"><data key="name">Tervetes</data><data key="code">LV-098</data><data key="wikidata">Q2269685</data><data key="lon">23.29471</data><data key="lat">56.45021</data></node>
+    <node id="LV-099"><data key="name">Tukums</data><data key="code">LV-099</data><data key="wikidata">Q369007</data><data key="lon">22.99859</data><data key="lat">56.98017</data></node>
+    <node id="LV-100"><data key="name">Vainodes</data><data key="code">LV-100</data><data key="wikidata">Q511151</data><data key="lon">21.829</data><data key="lat">56.45539</data></node>
+    <node id="LV-101"><data key="name">Valkas</data><data key="code">LV-101</data><data key="wikidata">Q1945263</data><data key="lon">25.99109</data><data key="lat">57.71537</data></node>
+    <node id="LV-102"><data key="name">Varaklanu</data><data key="code">LV-102</data><data key="wikidata">Q432596</data><data key="lon">26.59031</data><data key="lat">56.63324</data></node>
+    <node id="LV-103"><data key="name">Varkavas</data><data key="code">LV-103</data><data key="wikidata">Q1023757</data><data key="lon">26.49849</data><data key="lat">56.20756</data></node>
+    <node id="LV-104"><data key="name">Vecpiebalgas</data><data key="code">LV-104</data><data key="wikidata">Q1920815</data><data key="lon">25.71038</data><data key="lat">57.11688</data></node>
+    <node id="LV-105"><data key="name">Vecumnieku</data><data key="code">LV-105</data><data key="wikidata">Q2299436</data><data key="lon">24.69809</data><data key="lat">56.51981</data></node>
+    <node id="LV-107"><data key="name">Viesites</data><data key="code">LV-107</data><data key="wikidata">Q2093996</data><data key="lon">25.52655</data><data key="lat">56.30457</data></node>
+    <node id="LV-108"><data key="name">Vilakas</data><data key="code">LV-108</data><data key="wikidata">Q1869075</data><data key="lon">27.62811</data><data key="lat">57.19585</data></node>
+    <node id="LV-109"><data key="name">Vilanu</data><data key="code">LV-109</data><data key="wikidata">Q2018681</data><data key="lon">26.86712</data><data key="lat">56.57022</data></node>
+    <node id="LV-110"><data key="name">Zilupes</data><data key="code">LV-110</data><data key="wikidata">Q3274762</data><data key="lon">28.15542</data><data key="lat">56.29162</data></node>
+    <node id="LV-DGV"><data key="name">Daugavpils</data><data key="code">LV-DGV</data><data key="wikidata">Q80021</data><data key="lon">26.61669</data><data key="lat">55.92989</data></node>
+    <node id="LV-JEL"><data key="name">Jelgava</data><data key="code">LV-JEL</data><data key="wikidata">Q179830</data><data key="lon">23.64943</data><data key="lat">56.61188</data></node>
+    <node id="LV-JKB"><data key="name">Jekabpils</data><data key="code">LV-JKB</data><data key="wikidata">Q191120</data><data key="lon">25.95918</data><data key="lat">56.30764</data></node>
+    <node id="LV-JUR"><data key="name">Jurmala</data><data key="code">LV-JUR</data><data key="wikidata">Q178382</data><data key="lon">23.71222</data><data key="lat">56.96478</data></node>
+    <node id="LV-LPX"><data key="name">Liepāja</data><data key="code">LV-LPX</data><data key="wikidata">Q167668</data><data key="lon">21.03953</data><data key="lat">56.5658</data></node>
+    <node id="LV-REZ:Rezekne"><data key="name">Rezekne</data><data key="code">LV-REZ:Rezekne</data><data key="wikidata">Q180379</data><data key="lon">27.31854</data><data key="lat">56.51804</data></node>
+    <node id="LV-REZ:Rezeknes"><data key="name">Rezeknes</data><data key="code">LV-REZ:Rezeknes</data><data key="wikidata">Q180379</data><data key="lon">27.14889</data><data key="lat">56.50417</data></node>
+    <node id="LV-RIX"><data key="name">Riga</data><data key="code">LV-RIX</data><data key="wikidata">Q1773</data><data key="lon">24.15337</data><data key="lat">56.9819</data></node>
+    <node id="LV-VEN"><data key="name">Ventspils</data><data key="code">LV-VEN</data><data key="wikidata">Q104036</data><data key="lon">21.86631</data><data key="lat">57.29766</data></node>
+    <node id="LV-VMR"><data key="name">Valmiera</data><data key="code">LV-VMR</data><data key="wikidata">Q108037</data><data key="lon">25.41483</data><data key="lat">57.53257</data></node>
+    <edge source="LV-001" target="LV-024"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-001" target="LV-047"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-001" target="LV-078"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-001" target="LV-DGV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-001" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-002" target="LV-038"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-002" target="LV-046"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-002" target="LV-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-002" target="LV-092"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-003" target="LV-028"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-003" target="LV-050"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-003" target="LV-071"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-003" target="LV-074"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-003" target="LV-093"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-003" target="LV-100"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-004" target="LV-036"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-004" target="LV-107"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-004" target="LV-JKB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-005" target="LV-019"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-005" target="LV-045"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-005" target="LV-054"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-005" target="LV-060"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-005" target="LV-085"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-006" target="LV-050"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-006" target="LV-071"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-006" target="LV-VEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-007" target="LV-009"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-007" target="LV-015"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-007" target="LV-033"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-007" target="LV-108"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-008" target="LV-022"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-008" target="LV-030"><data key="sources">natural_earth</data><data key="rule">review</data><data key="corroborated">false</data></edge>
+    <edge source="LV-008" target="LV-055"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-008" target="LV-061"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-008" target="LV-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-008" target="LV-070"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-008" target="LV-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-008" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-009" target="LV-033"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-009" target="LV-094"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-009" target="LV-101"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-010" target="LV-018"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-010" target="LV-026"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-010" target="LV-088"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-010" target="LV-098"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-011" target="LV-020"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-011" target="LV-031"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-011" target="LV-037"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="LV-011" target="LV-089"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-011" target="LV-090"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-012" target="LV-062"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-012" target="LV-068"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-012" target="LV-099"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-012" target="LV-JEL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-012" target="LV-JUR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-012" target="LV-RIX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-013" target="LV-034"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-013" target="LV-051"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-013" target="LV-052"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-013" target="LV-068"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-013" target="LV-105"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-014" target="LV-015"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LV-014" target="LV-044"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LV-014" target="LV-108"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LV-015" target="LV-033"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-015" target="LV-044"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-015" target="LV-057"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-015" target="LV-059"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-015" target="LV-082"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-015" target="LV-108"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-015" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-016" target="LV-034"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-016" target="LV-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-016" target="LV-083"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-016" target="LV-105"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-017" target="LV-019"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-017" target="LV-045"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-017" target="LV-075"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-017" target="LV-094"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-017" target="LV-096"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-017" target="LV-VMR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-018" target="LV-026"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-018" target="LV-040"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-018" target="LV-043"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-018" target="LV-088"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-019" target="LV-045"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-019" target="LV-060"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-019" target="LV-064"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-019" target="LV-084"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-019" target="LV-096"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-019" target="LV-101"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-019" target="LV-VMR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-020" target="LV-031"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-020" target="LV-089"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-020" target="LV-RIX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-021" target="LV-033"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-021" target="LV-059"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-022" target="LV-070"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-022" target="LV-075"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-022" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-023" target="LV-044"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-023" target="LV-058"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-023" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-024" target="LV-047"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-024" target="LV-058"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-024" target="LV-110"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-024" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-026" target="LV-040"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-026" target="LV-098"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-026" target="LV-099"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-026" target="LV-JEL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-027" target="LV-079"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LV-027" target="LV-097"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-027" target="LV-VEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-028" target="LV-032"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-028" target="LV-071"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-028" target="LV-074"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-029" target="LV-063"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-029" target="LV-099"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-029" target="LV-JUR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-030" target="LV-046"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-030" target="LV-059"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-030" target="LV-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-030" target="LV-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-030" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-031" target="LV-037"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-031" target="LV-080"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-031" target="LV-095"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-031" target="LV-RIX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-032" target="LV-066"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-032" target="LV-071"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-032" target="LV-074"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-032" target="LV-081"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-032" target="LV-LPX"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LV-033" target="LV-039"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-033" target="LV-057"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-033" target="LV-059"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-033" target="LV-076"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-033" target="LV-082"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-033" target="LV-094"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-034" target="LV-068"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-034" target="LV-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-034" target="LV-105"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-035" target="LV-051"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-035" target="LV-052"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-035" target="LV-067"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-035" target="LV-080"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-035" target="LV-087"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-036" target="LV-DGV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-036" target="LV-JKB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-037" target="LV-048"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-037" target="LV-080"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-037" target="LV-090"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-037" target="LV-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-046"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-051"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-065"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-086"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-092"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-105"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-038" target="LV-107"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-039" target="LV-059"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-039" target="LV-076"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-039" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-040" target="LV-043"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-040" target="LV-099"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-043" target="LV-050"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-043" target="LV-088"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-043" target="LV-097"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-043" target="LV-099"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-044" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-045" target="LV-054"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-045" target="LV-070"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-045" target="LV-075"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-045" target="LV-VMR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-046" target="LV-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-046" target="LV-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-047" target="LV-DGV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-048" target="LV-054"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-048" target="LV-055"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-048" target="LV-070"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-048" target="LV-090"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-048" target="LV-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-049" target="LV-056"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-049" target="LV-059"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-049" target="LV-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-049" target="LV-078"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-049" target="LV-086"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-049" target="LV-102"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-049" target="LV-JKB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-050" target="LV-071"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-050" target="LV-088"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-050" target="LV-093"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-050" target="LV-097"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-050" target="LV-VEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-051" target="LV-052"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-051" target="LV-053"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-051" target="LV-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-051" target="LV-092"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-051" target="LV-105"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-052" target="LV-068"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-052" target="LV-069"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="LV-052" target="LV-087"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-052" target="LV-RIX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-053" target="LV-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-053" target="LV-092"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-054" target="LV-070"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-054" target="LV-085"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-054" target="LV-089"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-054" target="LV-090"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-055" target="LV-070"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-055" target="LV-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-056" target="LV-073"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-056" target="LV-078"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-056" target="LV-103"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-056" target="LV-DGV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-056" target="LV-JKB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-057" target="LV-059"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-057" target="LV-082"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-058" target="LV-110"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-058" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-059" target="LV-072"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-059" target="LV-102"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-059" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-059" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-060" target="LV-084"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-061" target="LV-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-061" target="LV-080"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-061" target="LV-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-062" target="LV-068"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-062" target="LV-RIX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-063" target="LV-097"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-063" target="LV-099"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-064" target="LV-084"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-064" target="LV-101"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-065" target="LV-105"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-065" target="LV-107"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-066" target="LV-081"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-066" target="LV-LPX"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="LV-067" target="LV-080"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-067" target="LV-092"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-067" target="LV-104"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="LV-068" target="LV-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-068" target="LV-JEL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-068" target="LV-RIX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-069" target="LV-083"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="LV-069" target="LV-JEL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-070" target="LV-075"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-071" target="LV-VEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-072" target="LV-086"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-073" target="LV-078"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-073" target="LV-103"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-073" target="LV-DGV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-074" target="LV-081"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-074" target="LV-100"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-075" target="LV-076"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-075" target="LV-094"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="LV-075" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-076" target="LV-094"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-076" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-078" target="LV-102"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-078" target="LV-109"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-078" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-079" target="LV-097"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-080" target="LV-087"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-080" target="LV-091"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-080" target="LV-095"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-083" target="LV-JEL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-086" target="LV-107"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-086" target="LV-JKB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-087" target="LV-095"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-087" target="LV-RIX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-088" target="LV-093"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-088" target="LV-100"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-089" target="LV-090"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-093" target="LV-100"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-094" target="LV-096"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-094" target="LV-101"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-094" target="LV-104"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-095" target="LV-RIX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-096" target="LV-101"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-097" target="LV-099"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-097" target="LV-VEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-098" target="LV-JEL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-099" target="LV-JEL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-099" target="LV-JUR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-102" target="LV-109"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-103" target="LV-DGV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-107" target="LV-JKB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-109" target="LV-REZ:Rezeknes"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-DGV" target="LV-JKB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LV-JUR" target="LV-RIX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="LV-REZ:Rezekne" target="LV-REZ:Rezeknes"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

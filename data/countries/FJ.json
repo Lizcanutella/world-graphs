@@ -1,0 +1,74 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "FJ",
+ "kind": "country",
+ "name": "Fiji",
+ "level": "division",
+ "n": 5,
+ "m": 1,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "FJ-C",
+   "name": "Central",
+   "wikidata": "Q1053789",
+   "lon": 178.28985,
+   "lat": -17.91025
+  },
+  {
+   "code": "FJ-E",
+   "name": "Eastern",
+   "wikidata": "Q182169",
+   "lon": -178.29926,
+   "lat": -17.92592
+  },
+  {
+   "code": "FJ-N",
+   "name": "Northern",
+   "wikidata": "Q1062430",
+   "lon": 179.20293,
+   "lat": -16.57802
+  },
+  {
+   "code": "FJ-R",
+   "name": "Rotuma",
+   "wikidata": "Q459763",
+   "lon": 177.06793,
+   "lat": -12.49818
+  },
+  {
+   "code": "FJ-W",
+   "name": "Western",
+   "wikidata": "Q1062451",
+   "lon": 177.70206,
+   "lat": -17.76124
+  }
+ ],
+ "edges": [
+  {
+   "u": "FJ-C",
+   "v": "FJ-W",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 189662
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "FJI-ADM1-53030831",
+  "level": "ADM1",
+  "year": "2006",
+  "license": "Creative Commons Attribution 2.5 Generic"
+ }
+}

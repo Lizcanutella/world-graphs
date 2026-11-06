@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SG-01"><data key="name">Central Singapore</data><data key="code">SG-01</data><data key="wikidata">Q2544592</data><data key="lon">103.84903</data><data key="lat">1.34689</data></node>
+    <node id="SG-02"><data key="name">North East</data><data key="code">SG-02</data><data key="wikidata">Q3710534</data><data key="lon">103.93095</data><data key="lat">1.38476</data></node>
+    <node id="SG-03"><data key="name">North West</data><data key="code">SG-03</data><data key="wikidata">Q5784118</data><data key="lon">103.80014</data><data key="lat">1.38799</data></node>
+    <node id="SG-04"><data key="name">South East</data><data key="code">SG-04</data><data key="wikidata">Q1687545</data><data key="lon">103.93013</data><data key="lat">1.34819</data></node>
+    <node id="SG-05"><data key="name">South West</data><data key="code">SG-05</data><data key="wikidata">Q5784126</data><data key="lon">103.71759</data><data key="lat">1.34948</data></node>
+    <edge source="SG-01" target="SG-02"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SG-01" target="SG-03"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SG-01" target="SG-04"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SG-01" target="SG-05"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SG-02" target="SG-04"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SG-03" target="SG-05"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

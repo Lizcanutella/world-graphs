@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MA-01"><data key="name">Tanger - Tétouan</data><data key="code">MA-01</data><data key="wikidata">Q389777</data><data key="lon">-5.51399</data><data key="lat">35.32241</data></node>
+    <node id="MA-02"><data key="name">Gharb - Chrarda - Béni Hssen</data><data key="code">MA-02</data><data key="wikidata">Q477968</data><data key="lon">-5.85664</data><data key="lat">34.55431</data></node>
+    <node id="MA-03"><data key="name">Taza - Al Hoceima - Taounate</data><data key="code">MA-03</data><data key="wikidata">Q818390</data><data key="lon">-4.33017</data><data key="lat">34.38901</data></node>
+    <node id="MA-04"><data key="name">Oriental</data><data key="code">MA-04</data><data key="wikidata">Q648160</data><data key="lon">-2.4084</data><data key="lat">33.60736</data></node>
+    <node id="MA-05"><data key="name">Fès - Boulemane</data><data key="code">MA-05</data><data key="wikidata">Q648249</data><data key="lon">-4.06097</data><data key="lat">33.48588</data></node>
+    <node id="MA-06"><data key="name">Meknès - Tafilalet</data><data key="code">MA-06</data><data key="wikidata">Q497006</data><data key="lon">-4.6083</data><data key="lat">32.25364</data></node>
+    <node id="MA-07"><data key="name">Rabat - Salé - Zemmour - Zaer</data><data key="code">MA-07</data><data key="wikidata">Q477961</data><data key="lon">-6.38544</data><data key="lat">33.69608</data></node>
+    <node id="MA-08"><data key="name">Grand Casablanca</data><data key="code">MA-08</data><data key="wikidata">Q478222</data><data key="lon">-7.60449</data><data key="lat">33.5438</data></node>
+    <node id="MA-09"><data key="name">Chaouia - Ouardigha</data><data key="code">MA-09</data><data key="wikidata">Q390331</data><data key="lon">-7.17994</data><data key="lat">33.11715</data></node>
+    <node id="MA-10"><data key="name">Doukkala - Abda</data><data key="code">MA-10</data><data key="wikidata">Q390366</data><data key="lon">-8.64707</data><data key="lat">32.61125</data></node>
+    <node id="MA-11"><data key="name">Marrakech - Tensift - Al Haouz</data><data key="code">MA-11</data><data key="wikidata">Q477940</data><data key="lon">-7.72838</data><data key="lat">31.83391</data></node>
+    <node id="MA-12"><data key="name">Tadla - Azilal</data><data key="code">MA-12</data><data key="wikidata">Q477942</data><data key="lon">-6.4673</data><data key="lat">32.08379</data></node>
+    <node id="MA-13"><data key="name">Souss - Massa - Draâ</data><data key="code">MA-13</data><data key="wikidata">Q264529</data><data key="lon">-7.45935</data><data key="lat">30.52615</data></node>
+    <node id="MA-14"><data key="name">Guelmim - Es-Semara</data><data key="code">MA-14</data><data key="wikidata">Q529796</data><data key="lon">-10.19988</data><data key="lat">28.23541</data></node>
+    <node id="MA-15"><data key="name">Laâyoune - Boujdour - Sakia El Hamra</data><data key="code">MA-15</data><data key="wikidata">Q818739</data><data key="lon">-13.42323</data><data key="lat">26.28909</data></node>
+    <node id="MA-16"><data key="name">Oued el Dahab</data><data key="code">MA-16</data><data key="wikidata">Q2410368</data><data key="lon">-15.13687</data><data key="lat">23.00336</data></node>
+    <edge source="MA-01" target="MA-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-01" target="MA-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-02" target="MA-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-02" target="MA-05"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="MA-02" target="MA-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-02" target="MA-07"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-03" target="MA-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-03" target="MA-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-04" target="MA-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-04" target="MA-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-05" target="MA-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-06" target="MA-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-06" target="MA-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-06" target="MA-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-06" target="MA-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-07" target="MA-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-08" target="MA-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MA-09" target="MA-10"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-09" target="MA-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-09" target="MA-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-10" target="MA-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-11" target="MA-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-11" target="MA-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-12" target="MA-13"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MA-13" target="MA-14"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MA-14" target="MA-15"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MA-15" target="MA-16"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

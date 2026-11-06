@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="EG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="EG-ALX"><data key="name">Al Iskandariyah</data><data key="code">EG-ALX</data><data key="wikidata">Q29943</data><data key="lon">29.75536</data><data key="lat">30.85401</data></node>
+    <node id="EG-ASN"><data key="name">Aswan</data><data key="code">EG-ASN</data><data key="wikidata">Q29937</data><data key="lon">33.0717</data><data key="lat">23.63232</data></node>
+    <node id="EG-AST"><data key="name">Asyut</data><data key="code">EG-AST</data><data key="wikidata">Q29965</data><data key="lon">31.11334</data><data key="lat">27.23432</data></node>
+    <node id="EG-BA"><data key="name">Al Bahr al Ahmar</data><data key="code">EG-BA</data><data key="wikidata">Q30831</data><data key="lon">33.67391</data><data key="lat">25.67758</data></node>
+    <node id="EG-BH"><data key="name">Al Buhayrah</data><data key="code">EG-BH</data><data key="wikidata">Q30630</data><data key="lon">30.40215</data><data key="lat">30.69645</data></node>
+    <node id="EG-BNS"><data key="name">Bani Suwayf</data><data key="code">EG-BNS</data><data key="wikidata">Q30683</data><data key="lon">30.93033</data><data key="lat">29.06075</data></node>
+    <node id="EG-C"><data key="name">Al Qahirah</data><data key="code">EG-C</data><data key="wikidata">Q30805</data><data key="lon">31.57251</data><data key="lat">30.0429</data></node>
+    <node id="EG-DK"><data key="name">Ad Daqahliyah</data><data key="code">EG-DK</data><data key="wikidata">Q31068</data><data key="lon">31.49762</data><data key="lat">31.04968</data></node>
+    <node id="EG-DT"><data key="name">Dumyat</data><data key="code">EG-DT</data><data key="wikidata">Q30644</data><data key="lon">31.67607</data><data key="lat">31.34807</data></node>
+    <node id="EG-FYM"><data key="name">Al Fayyum</data><data key="code">EG-FYM</data><data key="wikidata">Q30656</data><data key="lon">30.57174</data><data key="lat">29.33158</data></node>
+    <node id="EG-GH"><data key="name">Al Gharbiyah</data><data key="code">EG-GH</data><data key="wikidata">Q30835</data><data key="lon">31.01769</data><data key="lat">30.84878</data></node>
+    <node id="EG-GZ"><data key="name">Al Jizah</data><data key="code">EG-GZ</data><data key="wikidata">Q30832</data><data key="lon">29.4134</data><data key="lat">29.01707</data></node>
+    <node id="EG-IS"><data key="name">Al Isma`iliyah</data><data key="code">EG-IS</data><data key="wikidata">Q31067</data><data key="lon">32.35823</data><data key="lat">30.65208</data></node>
+    <node id="EG-JS"><data key="name">Janub Sina'</data><data key="code">EG-JS</data><data key="wikidata">Q30815</data><data key="lon">33.90179</data><data key="lat">28.82453</data></node>
+    <node id="EG-KB"><data key="name">Al Qalyubiyah</data><data key="code">EG-KB</data><data key="wikidata">Q31075</data><data key="lon">31.21305</data><data key="lat">30.35165</data></node>
+    <node id="EG-KFS"><data key="name">Kafr ash Shaykh</data><data key="code">EG-KFS</data><data key="wikidata">Q30946</data><data key="lon">30.90158</data><data key="lat">31.29961</data></node>
+    <node id="EG-KN"><data key="name">Qina</data><data key="code">EG-KN</data><data key="wikidata">Q31065</data><data key="lon">32.73655</data><data key="lat">25.70601</data></node>
+    <node id="EG-LX"><data key="name">Luxor</data><data key="code">EG-LX</data><data key="wikidata">Q30797</data><data key="lon">32.64963</data><data key="lat">25.70601</data></node>
+    <node id="EG-MN"><data key="name">Al Minya</data><data key="code">EG-MN</data><data key="wikidata">Q30675</data><data key="lon">30.10273</data><data key="lat">28.1811</data></node>
+    <node id="EG-MNF"><data key="name">Al Minufiyah</data><data key="code">EG-MNF</data><data key="wikidata">Q30786</data><data key="lon">30.99253</data><data key="lat">30.44473</data></node>
+    <node id="EG-MT"><data key="name">Matruh</data><data key="code">EG-MT</data><data key="wikidata">Q30682</data><data key="lon">27.37192</data><data key="lat">29.65891</data></node>
+    <node id="EG-PTS"><data key="name">Bur Sa`id</data><data key="code">EG-PTS</data><data key="wikidata">Q31079</data><data key="lon">32.39035</data><data key="lat">31.13382</data></node>
+    <node id="EG-SHG"><data key="name">Suhaj</data><data key="code">EG-SHG</data><data key="wikidata">Q30669</data><data key="lon">31.75865</data><data key="lat">26.53303</data></node>
+    <node id="EG-SHR"><data key="name">Ash Sharqiyah</data><data key="code">EG-SHR</data><data key="wikidata">Q31074</data><data key="lon">31.72634</data><data key="lat">30.65451</data></node>
+    <node id="EG-SIN"><data key="name">Shamal Sina'</data><data key="code">EG-SIN</data><data key="wikidata">Q30662</data><data key="lon">33.62651</data><data key="lat">30.40492</data></node>
+    <node id="EG-SUZ"><data key="name">As Suways</data><data key="code">EG-SUZ</data><data key="wikidata">Q31070</data><data key="lon">32.13327</data><data key="lat">29.6068</data></node>
+    <node id="EG-WAD"><data key="name">Al Wadi at Jadid</data><data key="code">EG-WAD</data><data key="wikidata">Q30650</data><data key="lon">28.92956</data><data key="lat">24.79939</data></node>
+    <edge source="EG-ALX" target="EG-BH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-ALX" target="EG-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-ASN" target="EG-BA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-ASN" target="EG-KN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-ASN" target="EG-WAD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-AST" target="EG-BA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-AST" target="EG-MN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-AST" target="EG-SHG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-AST" target="EG-WAD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BA" target="EG-BNS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BA" target="EG-KN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BA" target="EG-MN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BA" target="EG-SHG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BA" target="EG-SUZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BH" target="EG-GH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BH" target="EG-GZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BH" target="EG-KFS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BH" target="EG-MNF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BH" target="EG-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BNS" target="EG-FYM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BNS" target="EG-GZ"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-BNS" target="EG-MN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-C" target="EG-GZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-C" target="EG-IS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-C" target="EG-KB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-C" target="EG-SHR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-C" target="EG-SUZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-DK" target="EG-DT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-DK" target="EG-GH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-DK" target="EG-KB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-DK" target="EG-KFS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-DK" target="EG-PTS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-DK" target="EG-SHR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-FYM" target="EG-GZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GH" target="EG-KB"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GH" target="EG-KFS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GH" target="EG-MNF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GZ" target="EG-KB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GZ" target="EG-MN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GZ" target="EG-MNF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GZ" target="EG-MT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GZ" target="EG-SUZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-GZ" target="EG-WAD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-IS" target="EG-PTS"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-IS" target="EG-SHR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-IS" target="EG-SIN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-IS" target="EG-SUZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-JS" target="EG-SIN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-JS" target="EG-SUZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-KB" target="EG-MNF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-KB" target="EG-SHR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-KN" target="EG-LX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-KN" target="EG-SHG"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-KN" target="EG-WAD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-MN" target="EG-WAD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-MT" target="EG-WAD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="EG-PTS" target="EG-SHR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-PTS" target="EG-SIN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-SHG" target="EG-WAD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="EG-SIN" target="EG-SUZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

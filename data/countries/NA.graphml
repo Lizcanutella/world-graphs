@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NA-CA"><data key="name">Caprivi</data><data key="code">NA-CA</data><data key="wikidata">Q473190</data><data key="lon">22.96279</data><data key="lat">-17.97477</data></node>
+    <node id="NA-ER"><data key="name">Erongo</data><data key="code">NA-ER</data><data key="wikidata">Q648753</data><data key="lon">15.37285</data><data key="lat">-22.15183</data></node>
+    <node id="NA-HA"><data key="name">Hardap</data><data key="code">NA-HA</data><data key="wikidata">Q752676</data><data key="lon">17.29398</data><data key="lat">-24.5191</data></node>
+    <node id="NA-KA"><data key="name">Karas</data><data key="code">NA-KA</data><data key="wikidata">Q573467</data><data key="lon">17.60821</data><data key="lat">-26.98618</data></node>
+    <node id="NA-KH"><data key="name">Khomas</data><data key="code">NA-KH</data><data key="wikidata">Q834508</data><data key="lon">17.11194</data><data key="lat">-22.87059</data></node>
+    <node id="NA-KU"><data key="name">Kunene</data><data key="code">NA-KU</data><data key="wikidata">Q834513</data><data key="lon">13.44926</data><data key="lat">-19.0545</data></node>
+    <node id="NA-OD"><data key="name">Otjozondjupa</data><data key="code">NA-OD</data><data key="wikidata">Q876506</data><data key="lon">17.26493</data><data key="lat">-20.57285</data></node>
+    <node id="NA-OH"><data key="name">Omaheke</data><data key="code">NA-OH</data><data key="wikidata">Q838775</data><data key="lon">19.02216</data><data key="lat">-22.05336</data></node>
+    <node id="NA-OK"><data key="name">Kavango</data><data key="code">NA-OK</data><data key="wikidata">Q13156669</data><data key="lon">19.49723</data><data key="lat">-18.17488</data></node>
+    <node id="NA-ON"><data key="name">Oshana</data><data key="code">NA-ON</data><data key="wikidata">Q534528</data><data key="lon">15.75608</data><data key="lat">-18.51256</data></node>
+    <node id="NA-OS"><data key="name">Omusati</data><data key="code">NA-OS</data><data key="wikidata">Q764385</data><data key="lon">14.91461</data><data key="lat">-18.35177</data></node>
+    <node id="NA-OT"><data key="name">Oshikoto</data><data key="code">NA-OT</data><data key="wikidata">Q876512</data><data key="lon">17.00833</data><data key="lat">-18.60109</data></node>
+    <node id="NA-OW"><data key="name">Ohangwena</data><data key="code">NA-OW</data><data key="wikidata">Q845702</data><data key="lon">16.82159</data><data key="lat">-17.63846</data></node>
+    <edge source="NA-CA" target="NA-OK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-ER" target="NA-HA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-ER" target="NA-KH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-ER" target="NA-KU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-ER" target="NA-OD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-HA" target="NA-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-HA" target="NA-KH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-HA" target="NA-OH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-KH" target="NA-OD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-KH" target="NA-OH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-KU" target="NA-OD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-KU" target="NA-ON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-KU" target="NA-OS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-KU" target="NA-OT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-OD" target="NA-OH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-OD" target="NA-OK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-OD" target="NA-OT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-OK" target="NA-OT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-OK" target="NA-OW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-ON" target="NA-OS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-ON" target="NA-OT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-ON" target="NA-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-OS" target="NA-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NA-OT" target="NA-OW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,397 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CA",
+ "kind": "country",
+ "name": "Canada",
+ "level": "provinces",
+ "n": 13,
+ "m": 16,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CA-AB",
+   "name": "Alberta",
+   "wikidata": "Q1951",
+   "lon": -114.99996,
+   "lat": 54.47793
+  },
+  {
+   "code": "CA-BC",
+   "name": "British Columbia",
+   "wikidata": "Q1973",
+   "lon": -124.99691,
+   "lat": 54.49824
+  },
+  {
+   "code": "CA-MB",
+   "name": "Manitoba",
+   "wikidata": "Q1948",
+   "lon": -98.31011,
+   "lat": 54.49663
+  },
+  {
+   "code": "CA-NB",
+   "name": "New Brunswick",
+   "wikidata": "Q1965",
+   "lon": -66.25739,
+   "lat": 46.56615
+  },
+  {
+   "code": "CA-NL",
+   "name": "Newfoundland and Labrador",
+   "wikidata": "Q2003",
+   "lon": -56.73888,
+   "lat": 49.12338
+  },
+  {
+   "code": "CA-NS",
+   "name": "Nova Scotia",
+   "wikidata": "Q1952",
+   "lon": -64.32758,
+   "lat": 44.73904
+  },
+  {
+   "code": "CA-NT",
+   "name": "Northwest Territories",
+   "wikidata": "Q2007",
+   "lon": -127.68011,
+   "lat": 65.29655
+  },
+  {
+   "code": "CA-NU",
+   "name": "Nunavut",
+   "wikidata": "Q2023",
+   "lon": -92.32373,
+   "lat": 66.00111
+  },
+  {
+   "code": "CA-ON",
+   "name": "Ontario",
+   "wikidata": "Q1904",
+   "lon": -83.96215,
+   "lat": 49.38617
+  },
+  {
+   "code": "CA-PE",
+   "name": "Prince Edward Island",
+   "wikidata": "Q1978",
+   "lon": -63.61596,
+   "lat": 46.5088
+  },
+  {
+   "code": "CA-QC",
+   "name": "Québec",
+   "wikidata": "Q176",
+   "lon": -71.8313,
+   "lat": 53.90672
+  },
+  {
+   "code": "CA-SK",
+   "name": "Saskatchewan",
+   "wikidata": "Q1989",
+   "lon": -106.19078,
+   "lat": 54.49244
+  },
+  {
+   "code": "CA-YT",
+   "name": "Yukon",
+   "wikidata": "Q2009",
+   "lon": -136.80907,
+   "lat": 64.82894
+  }
+ ],
+ "edges": [
+  {
+   "u": "CA-AB",
+   "v": "CA-BC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1634160
+  },
+  {
+   "u": "CA-AB",
+   "v": "CA-NT",
+   "rule": "ne_and_p47",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 557996
+  },
+  {
+   "u": "CA-AB",
+   "v": "CA-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1186735
+  },
+  {
+   "u": "CA-BC",
+   "v": "CA-NT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 213108
+  },
+  {
+   "u": "CA-BC",
+   "v": "CA-YT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 846462
+  },
+  {
+   "u": "CA-MB",
+   "v": "CA-NU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 375313
+  },
+  {
+   "u": "CA-MB",
+   "v": "CA-ON",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 979686
+  },
+  {
+   "u": "CA-MB",
+   "v": "CA-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1137927
+  },
+  {
+   "u": "CA-NB",
+   "v": "CA-NS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27622
+  },
+  {
+   "u": "CA-NB",
+   "v": "CA-QC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 249762
+  },
+  {
+   "u": "CA-NL",
+   "v": "CA-NU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8532
+  },
+  {
+   "u": "CA-NL",
+   "v": "CA-QC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3507396
+  },
+  {
+   "u": "CA-NT",
+   "v": "CA-NU",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2420114
+  },
+  {
+   "u": "CA-NT",
+   "v": "CA-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 402580
+  },
+  {
+   "u": "CA-NT",
+   "v": "CA-YT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1864334
+  },
+  {
+   "u": "CA-ON",
+   "v": "CA-QC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1033654
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "CAN-ADM1-82249235",
+  "level": "ADM1",
+  "year": "2023",
+  "license": "Open Government Canada 2.0"
+ }
+}

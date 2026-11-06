@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TT-ARI"><data key="name">Arima</data><data key="code">TT-ARI</data><data key="wikidata">Q661405</data><data key="lon">-61.27814</data><data key="lat">10.62982</data></node>
+    <node id="TT-CHA"><data key="name">Chaguanas</data><data key="code">TT-CHA</data><data key="wikidata">Q1444575</data><data key="lon">-61.41543</data><data key="lat">10.53037</data></node>
+    <node id="TT-CTT"><data key="name">Couva-Tabaquite-Talparo</data><data key="code">TT-CTT</data><data key="wikidata">Q2679127</data><data key="lon">-61.34522</data><data key="lat">10.44097</data></node>
+    <node id="TT-DMN"><data key="name">Diego Martin</data><data key="code">TT-DMN</data><data key="wikidata">Q2679107</data><data key="lon">-61.57081</data><data key="lat">10.7182</data></node>
+    <node id="TT-ETO"><data key="name">Eastern Tobago</data><data key="code">TT-ETO</data><data key="wikidata">Q185111</data><data key="lon">-60.59341</data><data key="lat">11.27863</data></node>
+    <node id="TT-PED"><data key="name">Penal-Debe</data><data key="code">TT-PED</data><data key="wikidata">Q2056273</data><data key="lon">-61.42331</data><data key="lat">10.15938</data></node>
+    <node id="TT-POS"><data key="name">Port of Spain</data><data key="code">TT-POS</data><data key="wikidata">Q39178</data><data key="lon">-61.50985</data><data key="lat">10.65726</data></node>
+    <node id="TT-PRT"><data key="name">Princes Town</data><data key="code">TT-PRT</data><data key="wikidata">Q2228167</data><data key="lon">-61.28017</data><data key="lat">10.15053</data></node>
+    <node id="TT-PTF"><data key="name">Point Fortin</data><data key="code">TT-PTF</data><data key="wikidata">Q786957</data><data key="lon">-61.66339</data><data key="lat">10.17646</data></node>
+    <node id="TT-RCM"><data key="name">Rio Claro-Mayaro</data><data key="code">TT-RCM</data><data key="wikidata">Q2487249</data><data key="lon">-61.11198</data><data key="lat">10.27601</data></node>
+    <node id="TT-SFO"><data key="name">San Fernando</data><data key="code">TT-SFO</data><data key="wikidata">Q1023712</data><data key="lon">-61.45151</data><data key="lat">10.27574</data></node>
+    <node id="TT-SGE"><data key="name">Sangre Grande</data><data key="code">TT-SGE</data><data key="wikidata">Q290292</data><data key="lon">-61.1252</data><data key="lat">10.65075</data></node>
+    <node id="TT-SIP"><data key="name">Siparia</data><data key="code">TT-SIP</data><data key="wikidata">Q2679119</data><data key="lon">-61.57629</data><data key="lat">10.14512</data></node>
+    <node id="TT-SJL"><data key="name">San Juan-Laventille</data><data key="code">TT-SJL</data><data key="wikidata">Q979608</data><data key="lon">-61.46322</data><data key="lat">10.67211</data></node>
+    <node id="TT-TUP"><data key="name">Tunapuna/Piarco</data><data key="code">TT-TUP</data><data key="wikidata">Q1899163</data><data key="lon">-61.31956</data><data key="lat">10.67906</data></node>
+    <node id="TT-WTO"><data key="name">Western Tobago</data><data key="code">TT-WTO</data><data key="wikidata">Q185111</data><data key="lon">-60.72673</data><data key="lat">11.2248</data></node>
+    <edge source="TT-ARI" target="TT-TUP"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TT-CHA" target="TT-CTT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-CHA" target="TT-SJL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-CHA" target="TT-TUP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-CTT" target="TT-PRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-CTT" target="TT-RCM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-CTT" target="TT-SFO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-CTT" target="TT-SGE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-CTT" target="TT-TUP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-DMN" target="TT-POS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-DMN" target="TT-SJL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-ETO" target="TT-WTO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TT-PED" target="TT-PRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-PED" target="TT-SFO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-PED" target="TT-SIP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-POS" target="TT-SJL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-PRT" target="TT-RCM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-PRT" target="TT-SFO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-PTF" target="TT-SIP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-RCM" target="TT-SGE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-SGE" target="TT-TUP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TT-SJL" target="TT-TUP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

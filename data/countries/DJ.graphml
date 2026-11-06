@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="DJ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="DJ-AR"><data key="name">Arta</data><data key="code">DJ-AR</data><data key="wikidata">Q705941</data><data key="lon">42.67965</data><data key="lat">11.45794</data></node>
+    <node id="DJ-AS"><data key="name">Ali Sabieh</data><data key="code">DJ-AS</data><data key="wikidata">Q821008</data><data key="lon">42.87398</data><data key="lat">11.2426</data></node>
+    <node id="DJ-DI"><data key="name">Dikhil</data><data key="code">DJ-DI</data><data key="wikidata">Q283979</data><data key="lon">42.10252</data><data key="lat">11.3945</data></node>
+    <node id="DJ-DJ"><data key="name">Djibouti</data><data key="code">DJ-DJ</data><data key="wikidata">Q3604</data><data key="lon">43.04537</data><data key="lat">11.55992</data></node>
+    <node id="DJ-OB"><data key="name">Obock</data><data key="code">DJ-OB</data><data key="wikidata">Q844929</data><data key="lon">43.03942</data><data key="lat">12.27243</data></node>
+    <node id="DJ-TA"><data key="name">Tadjourah</data><data key="code">DJ-TA</data><data key="wikidata">Q645896</data><data key="lon">42.50877</data><data key="lat">12.03322</data></node>
+    <edge source="DJ-AR" target="DJ-AS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DJ-AR" target="DJ-DI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DJ-AR" target="DJ-DJ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DJ-AR" target="DJ-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DJ-AS" target="DJ-DI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DJ-DI" target="DJ-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DJ-OB" target="DJ-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

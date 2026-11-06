@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AE-AJ"><data key="name">Ajman</data><data key="code">AE-AJ</data><data key="wikidata">Q159477</data><data key="lon">55.54661</data><data key="lat">25.41008</data></node>
+    <node id="AE-AZ"><data key="name">Abu Dhabi</data><data key="code">AE-AZ</data><data key="wikidata">Q187712</data><data key="lon">53.68348</data><data key="lat">23.79727</data></node>
+    <node id="AE-DU"><data key="name">Dubay</data><data key="code">AE-DU</data><data key="wikidata">Q613</data><data key="lon">55.32913</data><data key="lat">24.95175</data></node>
+    <node id="AE-FU"><data key="name">Fujayrah</data><data key="code">AE-FU</data><data key="wikidata">Q4091</data><data key="lon">56.23821</data><data key="lat">25.44067</data></node>
+    <node id="AE-RK"><data key="name">Ras Al Khaymah</data><data key="code">AE-RK</data><data key="wikidata">Q170024</data><data key="lon">55.97393</data><data key="lat">25.70079</data></node>
+    <node id="AE-SH"><data key="name">Sharjah</data><data key="code">AE-SH</data><data key="wikidata">Q188810</data><data key="lon">55.8026</data><data key="lat">25.1084</data></node>
+    <node id="AE-UQ"><data key="name">Umm Al Qaywayn</data><data key="code">AE-UQ</data><data key="wikidata">Q175021</data><data key="lon">55.72764</data><data key="lat">25.46266</data></node>
+    <node id="AE-X01~"><data key="name">Neutral Zone (Emirate) (AE-X01~)</data><data key="code">AE-X01~</data><data key="wikidata"></data><data key="lon">56.29236</data><data key="lat">24.93013</data></node>
+    <node id="AE-X02~"><data key="name">Neutral Zone (Emirate) (AE-X02~)</data><data key="code">AE-X02~</data><data key="wikidata"></data><data key="lon">56.05385</data><data key="lat">24.79598</data></node>
+    <edge source="AE-AJ" target="AE-FU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AE-AJ" target="AE-SH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="AE-AZ" target="AE-DU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-AZ" target="AE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-DU" target="AE-RK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-DU" target="AE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-DU" target="AE-X02~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AE-FU" target="AE-RK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-FU" target="AE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-FU" target="AE-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AE-RK" target="AE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-RK" target="AE-UQ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-RK" target="AE-X02~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AE-SH" target="AE-UQ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AE-SH" target="AE-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="SC" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="SC-01"><data key="name">Anse aux Pins</data><data key="code">SC-01</data><data key="wikidata">Q569458</data><data key="lon">55.52123</data><data key="lat">-4.68502</data></node>
+    <node id="SC-02"><data key="name">Anse Boileau</data><data key="code">SC-02</data><data key="wikidata">Q569453</data><data key="lon">55.4923</data><data key="lat">-4.70968</data></node>
+    <node id="SC-03"><data key="name">Anse Etoile</data><data key="code">SC-03</data><data key="wikidata">Q387293</data><data key="lon">55.45098</data><data key="lat">-4.59182</data></node>
+    <node id="SC-04"><data key="name">Au Cap</data><data key="code">SC-04</data><data key="wikidata">Q2667004</data><data key="lon">55.51425</data><data key="lat">-4.71085</data></node>
+    <node id="SC-05"><data key="name">Anse Royale</data><data key="code">SC-05</data><data key="wikidata">Q3241674</data><data key="lon">55.51121</data><data key="lat">-4.74683</data></node>
+    <node id="SC-06"><data key="name">Baie Lazare</data><data key="code">SC-06</data><data key="wikidata">Q2494551</data><data key="lon">55.48535</data><data key="lat">-4.75104</data></node>
+    <node id="SC-07"><data key="name">Baie Sainte Anne</data><data key="code">SC-07</data><data key="wikidata">Q803716</data><data key="lon">55.73941</data><data key="lat">-4.31979</data></node>
+    <node id="SC-08"><data key="name">Beau Vallon</data><data key="code">SC-08</data><data key="wikidata">Q7479348</data><data key="lon">55.42941</data><data key="lat">-4.60649</data></node>
+    <node id="SC-09"><data key="name">Bel Air</data><data key="code">SC-09</data><data key="wikidata">Q815077</data><data key="lon">55.45187</data><data key="lat">-4.64162</data></node>
+    <node id="SC-10"><data key="name">Bel Ombre</data><data key="code">SC-10</data><data key="wikidata">Q3245439</data><data key="lon">55.40471</data><data key="lat">-4.62551</data></node>
+    <node id="SC-11"><data key="name">Cascade</data><data key="code">SC-11</data><data key="wikidata">Q1928685</data><data key="lon">55.49752</data><data key="lat">-4.66421</data></node>
+    <node id="SC-12"><data key="name">Glacis</data><data key="code">SC-12</data><data key="wikidata">Q3241696</data><data key="lon">55.44831</data><data key="lat">-4.5728</data></node>
+    <node id="SC-13"><data key="name">Grand'Anse</data><data key="code">SC-13</data><data key="wikidata">Q3241690</data><data key="lon">55.47308</data><data key="lat">-4.68311</data></node>
+    <node id="SC-14"><data key="name">Grand'Anse Praslin</data><data key="code">SC-14</data><data key="wikidata">Q1231388</data><data key="lon">55.71783</data><data key="lat">-4.32708</data></node>
+    <node id="SC-15"><data key="name">La Digue and Inner Islands</data><data key="code">SC-15</data><data key="wikidata">Q1094917</data><data key="lon">55.24422</data><data key="lat">-4.47182</data></node>
+    <node id="SC-16"><data key="name">English River</data><data key="code">SC-16</data><data key="wikidata">Q1819963</data><data key="lon">55.45263</data><data key="lat">-4.60967</data></node>
+    <node id="SC-17"><data key="name">Mont Buxton</data><data key="code">SC-17</data><data key="wikidata">Q3241682</data><data key="lon">55.44168</data><data key="lat">-4.61066</data></node>
+    <node id="SC-18"><data key="name">Mont Fleuri</data><data key="code">SC-18</data><data key="wikidata">Q1945413</data><data key="lon">55.50452</data><data key="lat">-4.60559</data></node>
+    <node id="SC-19"><data key="name">Plaisance</data><data key="code">SC-19</data><data key="wikidata">Q2199897</data><data key="lon">55.46802</data><data key="lat">-4.65391</data></node>
+    <node id="SC-20"><data key="name">Pointe La Rue</data><data key="code">SC-20</data><data key="wikidata">Q2877260</data><data key="lon">55.51521</data><data key="lat">-4.67269</data></node>
+    <node id="SC-21"><data key="name">Port Glaud</data><data key="code">SC-21</data><data key="wikidata">Q1808165</data><data key="lon">55.42329</data><data key="lat">-4.65178</data></node>
+    <node id="SC-22"><data key="name">Saint Louis</data><data key="code">SC-22</data><data key="wikidata">Q2278695</data><data key="lon">55.43906</data><data key="lat">-4.6223</data></node>
+    <node id="SC-23"><data key="name">Takamaka</data><data key="code">SC-23</data><data key="wikidata">Q2287379</data><data key="lon">55.51498</data><data key="lat">-4.78676</data></node>
+    <node id="SC-24"><data key="name">Les Mamelles</data><data key="code">SC-24</data><data key="wikidata">Q2280357</data><data key="lon">55.48093</data><data key="lat">-4.65676</data></node>
+    <node id="SC-25"><data key="name">Roche Caïman</data><data key="code">SC-25</data><data key="wikidata">Q2718315</data><data key="lon">55.48341</data><data key="lat">-4.64949</data></node>
+    <node id="SC-X02~"><data key="name">Outer Islands</data><data key="code">SC-X02~</data><data key="wikidata"></data><data key="lon">46.3496</data><data key="lat">-9.34161</data></node>
+    <edge source="SC-01" target="SC-04"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SC-01" target="SC-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SC-01" target="SC-20"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="SC-02" target="SC-04"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-02" target="SC-05"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-02" target="SC-06"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-02" target="SC-11"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-02" target="SC-13"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-03" target="SC-08"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-03" target="SC-12"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-03" target="SC-16"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-04" target="SC-05"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-04" target="SC-11"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-05" target="SC-06"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-05" target="SC-23"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-06" target="SC-23"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-07" target="SC-14"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-08" target="SC-10"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-08" target="SC-12"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-08" target="SC-17"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-08" target="SC-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-09" target="SC-16"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-09" target="SC-18"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-09" target="SC-19"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-09" target="SC-21"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-09" target="SC-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-10" target="SC-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="SC-11" target="SC-13"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-11" target="SC-20"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-11" target="SC-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-11" target="SC-25"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-13" target="SC-19"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-13" target="SC-21"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-13" target="SC-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-16" target="SC-17"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-17" target="SC-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-18" target="SC-19"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-19" target="SC-24"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-19" target="SC-25"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-21" target="SC-22"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="SC-24" target="SC-25"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

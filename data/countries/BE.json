@@ -1,0 +1,458 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BE",
+ "kind": "country",
+ "name": "Belgium",
+ "level": "provinces",
+ "n": 11,
+ "m": 20,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BE-BRU",
+   "name": "Brussels",
+   "wikidata": "Q240",
+   "lon": 4.37451,
+   "lat": 50.84642
+  },
+  {
+   "code": "BE-VAN",
+   "name": "Antwerp",
+   "wikidata": "Q1116",
+   "lon": 4.76166,
+   "lat": 51.23279
+  },
+  {
+   "code": "BE-VBR",
+   "name": "Flemish Brabant",
+   "wikidata": "Q1118",
+   "lon": 4.78687,
+   "lat": 50.87247
+  },
+  {
+   "code": "BE-VLI",
+   "name": "Limburg",
+   "wikidata": "Q1095",
+   "lon": 5.42921,
+   "lat": 50.99345
+  },
+  {
+   "code": "BE-VOV",
+   "name": "East Flanders",
+   "wikidata": "Q1114",
+   "lon": 3.81561,
+   "lat": 51.04696
+  },
+  {
+   "code": "BE-VWV",
+   "name": "West Flanders",
+   "wikidata": "Q1113",
+   "lon": 2.9879,
+   "lat": 51.02997
+  },
+  {
+   "code": "BE-WBR",
+   "name": "Walloon Brabant",
+   "wikidata": "Q1122",
+   "lon": 4.54598,
+   "lat": 50.67838
+  },
+  {
+   "code": "BE-WHT",
+   "name": "Hainaut",
+   "wikidata": "Q1129",
+   "lon": 4.11837,
+   "lat": 50.35424
+  },
+  {
+   "code": "BE-WLG",
+   "name": "Liege",
+   "wikidata": "Q1127",
+   "lon": 5.77259,
+   "lat": 50.46085
+  },
+  {
+   "code": "BE-WLX",
+   "name": "Luxembourg",
+   "wikidata": "Q1126",
+   "lon": 5.44866,
+   "lat": 49.96269
+  },
+  {
+   "code": "BE-WNA",
+   "name": "Namur",
+   "wikidata": "Q1125",
+   "lon": 4.80892,
+   "lat": 50.21305
+  }
+ ],
+ "edges": [
+  {
+   "u": "BE-BRU",
+   "v": "BE-VBR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58339
+  },
+  {
+   "u": "BE-VAN",
+   "v": "BE-VBR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71834
+  },
+  {
+   "u": "BE-VAN",
+   "v": "BE-VLI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40134
+  },
+  {
+   "u": "BE-VAN",
+   "v": "BE-VOV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38672
+  },
+  {
+   "u": "BE-VBR",
+   "v": "BE-VLI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76197
+  },
+  {
+   "u": "BE-VBR",
+   "v": "BE-VOV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62231
+  },
+  {
+   "u": "BE-VBR",
+   "v": "BE-WBR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 98600
+  },
+  {
+   "u": "BE-VBR",
+   "v": "BE-WHT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20890
+  },
+  {
+   "u": "BE-VBR",
+   "v": "BE-WLG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8958
+  },
+  {
+   "u": "BE-VLI",
+   "v": "BE-WLG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73775
+  },
+  {
+   "u": "BE-VOV",
+   "v": "BE-VWV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83418
+  },
+  {
+   "u": "BE-VOV",
+   "v": "BE-WHT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43892
+  },
+  {
+   "u": "BE-VWV",
+   "v": "BE-WHT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56354
+  },
+  {
+   "u": "BE-WBR",
+   "v": "BE-WHT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62795
+  },
+  {
+   "u": "BE-WBR",
+   "v": "BE-WLG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14560
+  },
+  {
+   "u": "BE-WBR",
+   "v": "BE-WNA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44460
+  },
+  {
+   "u": "BE-WHT",
+   "v": "BE-WNA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 108731
+  },
+  {
+   "u": "BE-WLG",
+   "v": "BE-WLX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 106123
+  },
+  {
+   "u": "BE-WLG",
+   "v": "BE-WNA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58976
+  },
+  {
+   "u": "BE-WLX",
+   "v": "BE-WNA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 127651
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BEL-ADM2-21686613",
+  "level": "ADM2",
+  "year": "2015",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

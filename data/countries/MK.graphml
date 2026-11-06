@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MK" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MK-01"><data key="name">Aerodrom</data><data key="code">MK-01</data><data key="wikidata">Q1992708</data><data key="lon">21.49691</data><data key="lat">41.94973</data></node>
+    <node id="MK-02"><data key="name">Aračinovo</data><data key="code">MK-02</data><data key="wikidata">Q597345</data><data key="lon">21.58489</data><data key="lat">42.02851</data></node>
+    <node id="MK-03"><data key="name">Berovo</data><data key="code">MK-03</data><data key="wikidata">Q793727</data><data key="lon">22.80373</data><data key="lat">41.66423</data></node>
+    <node id="MK-04"><data key="name">Bitola</data><data key="code">MK-04</data><data key="wikidata">Q159380</data><data key="lon">21.25711</data><data key="lat">41.03951</data></node>
+    <node id="MK-05"><data key="name">Bogdanci</data><data key="code">MK-05</data><data key="wikidata">Q1992752</data><data key="lon">22.59386</data><data key="lat">41.18827</data></node>
+    <node id="MK-06"><data key="name">Bogovinje</data><data key="code">MK-06</data><data key="wikidata">Q9035785</data><data key="lon">20.85806</data><data key="lat">41.92984</data></node>
+    <node id="MK-07"><data key="name">Bosilovo</data><data key="code">MK-07</data><data key="wikidata">Q1779775</data><data key="lon">22.76432</data><data key="lat">41.48045</data></node>
+    <node id="MK-08"><data key="name">Brvenica</data><data key="code">MK-08</data><data key="wikidata">Q1057563</data><data key="lon">21.00984</data><data key="lat">41.87128</data></node>
+    <node id="MK-09"><data key="name">Butel</data><data key="code">MK-09</data><data key="wikidata">Q935620</data><data key="lon">21.45596</data><data key="lat">42.07339</data></node>
+    <node id="MK-10"><data key="name">Valandovo</data><data key="code">MK-10</data><data key="wikidata">Q2018965</data><data key="lon">22.48475</data><data key="lat">41.33073</data></node>
+    <node id="MK-11"><data key="name">Vasilevo</data><data key="code">MK-11</data><data key="wikidata">Q2018980</data><data key="lon">22.66935</data><data key="lat">41.54558</data></node>
+    <node id="MK-12"><data key="name">Vevčani</data><data key="code">MK-12</data><data key="wikidata">Q2029825</data><data key="lon">20.56197</data><data key="lat">41.23276</data></node>
+    <node id="MK-13"><data key="name">Veles</data><data key="code">MK-13</data><data key="wikidata">Q2088561</data><data key="lon">21.72291</data><data key="lat">41.75633</data></node>
+    <node id="MK-14"><data key="name">Vinica</data><data key="code">MK-14</data><data key="wikidata">Q2479526</data><data key="lon">22.569</data><data key="lat">41.8558</data></node>
+    <node id="MK-15"><data key="name">Vraneštica</data><data key="code">MK-15</data><data key="wikidata">Q1998500</data><data key="lon">21.04881</data><data key="lat">41.49722</data></node>
+    <node id="MK-16"><data key="name">Vrapcište</data><data key="code">MK-16</data><data key="wikidata">Q1996740</data><data key="lon">20.83429</data><data key="lat">41.86289</data></node>
+    <node id="MK-17"><data key="name">Gazi Baba</data><data key="code">MK-17</data><data key="wikidata">Q2019836</data><data key="lon">21.50354</data><data key="lat">42.00697</data></node>
+    <node id="MK-18"><data key="name">Gevgelija</data><data key="code">MK-18</data><data key="wikidata">Q2018974</data><data key="lon">22.38077</data><data key="lat">41.24553</data></node>
+    <node id="MK-19"><data key="name">Gostivar</data><data key="code">MK-19</data><data key="wikidata">Q521112</data><data key="lon">20.93049</data><data key="lat">41.74593</data></node>
+    <node id="MK-20"><data key="name">Gradsko</data><data key="code">MK-20</data><data key="wikidata">Q1992701</data><data key="lon">21.87615</data><data key="lat">41.6033</data></node>
+    <node id="MK-21"><data key="name">Debar</data><data key="code">MK-21</data><data key="wikidata">Q1344996</data><data key="lon">20.4952</data><data key="lat">41.50386</data></node>
+    <node id="MK-22"><data key="name">Debarca</data><data key="code">MK-22</data><data key="wikidata">Q1323340</data><data key="lon">20.97929</data><data key="lat">41.24256</data></node>
+    <node id="MK-23"><data key="name">Delčevo</data><data key="code">MK-23</data><data key="wikidata">Q1323322</data><data key="lon">22.73634</data><data key="lat">41.93174</data></node>
+    <node id="MK-24"><data key="name">Demir Kapija</data><data key="code">MK-24</data><data key="wikidata">Q2370973</data><data key="lon">22.23329</data><data key="lat">41.38515</data></node>
+    <node id="MK-25"><data key="name">Demir Hisar</data><data key="code">MK-25</data><data key="wikidata">Q856278</data><data key="lon">21.15481</data><data key="lat">41.25456</data></node>
+    <node id="MK-26"><data key="name">Dojran</data><data key="code">MK-26</data><data key="wikidata">Q1996413</data><data key="lon">22.68981</data><data key="lat">41.21557</data></node>
+    <node id="MK-27"><data key="name">Dolneni</data><data key="code">MK-27</data><data key="wikidata">Q1992691</data><data key="lon">21.40156</data><data key="lat">41.47107</data></node>
+    <node id="MK-28"><data key="name">Drugovo</data><data key="code">MK-28</data><data key="wikidata">Q1996439</data><data key="lon">20.83865</data><data key="lat">41.47138</data></node>
+    <node id="MK-29"><data key="name">Gjorče Petrov</data><data key="code">MK-29</data><data key="wikidata">Q924278</data><data key="lon">21.32707</data><data key="lat">42.03936</data></node>
+    <node id="MK-30"><data key="name">Želino</data><data key="code">MK-30</data><data key="wikidata">Q1996410</data><data key="lon">21.11851</data><data key="lat">41.9147</data></node>
+    <node id="MK-31"><data key="name">Zajas</data><data key="code">MK-31</data><data key="wikidata">Q2018939</data><data key="lon">20.9085</data><data key="lat">41.59684</data></node>
+    <node id="MK-32"><data key="name">Zelenikovo</data><data key="code">MK-32</data><data key="wikidata">Q9050283</data><data key="lon">21.56617</data><data key="lat">41.81804</data></node>
+    <node id="MK-33"><data key="name">Zrnovci</data><data key="code">MK-33</data><data key="wikidata">Q950881</data><data key="lon">22.40311</data><data key="lat">41.83117</data></node>
+    <node id="MK-34"><data key="name">Ilinden</data><data key="code">MK-34</data><data key="wikidata">Q657754</data><data key="lon">21.60749</data><data key="lat">41.97888</data></node>
+    <node id="MK-35"><data key="name">Jegunovce</data><data key="code">MK-35</data><data key="wikidata">Q431908</data><data key="lon">21.16953</data><data key="lat">42.08928</data></node>
+    <node id="MK-36"><data key="name">Kavadartsi</data><data key="code">MK-36</data><data key="wikidata">Q1155055</data><data key="lon">21.98552</data><data key="lat">41.30546</data></node>
+    <node id="MK-37"><data key="name">Karbinci</data><data key="code">MK-37</data><data key="wikidata">Q1346554</data><data key="lon">22.29207</data><data key="lat">41.78462</data></node>
+    <node id="MK-38"><data key="name">Karpoš</data><data key="code">MK-38</data><data key="wikidata">Q1463246</data><data key="lon">21.39295</data><data key="lat">41.98895</data></node>
+    <node id="MK-39"><data key="name">Kisela Voda</data><data key="code">MK-39</data><data key="wikidata">Q1386136</data><data key="lon">21.48066</data><data key="lat">41.93363</data></node>
+    <node id="MK-40"><data key="name">Kičevo</data><data key="code">MK-40</data><data key="wikidata">Q2018957</data><data key="lon">20.95211</data><data key="lat">41.5116</data></node>
+    <node id="MK-41"><data key="name">Konče</data><data key="code">MK-41</data><data key="wikidata">Q1992728</data><data key="lon">22.38938</data><data key="lat">41.51158</data></node>
+    <node id="MK-42"><data key="name">Kočani</data><data key="code">MK-42</data><data key="wikidata">Q1819289</data><data key="lon">22.40087</data><data key="lat">41.9729</data></node>
+    <node id="MK-43"><data key="name">Kratovo</data><data key="code">MK-43</data><data key="wikidata">Q1992716</data><data key="lon">22.14369</data><data key="lat">42.07407</data></node>
+    <node id="MK-44"><data key="name">Kriva Palanka</data><data key="code">MK-44</data><data key="wikidata">Q1422453</data><data key="lon">22.30341</data><data key="lat">42.2423</data></node>
+    <node id="MK-45"><data key="name">Krivogaštani</data><data key="code">MK-45</data><data key="wikidata">Q2018930</data><data key="lon">21.37725</data><data key="lat">41.31646</data></node>
+    <node id="MK-46"><data key="name">Kruševo</data><data key="code">MK-46</data><data key="wikidata">Q2476159</data><data key="lon">21.26349</data><data key="lat">41.34299</data></node>
+    <node id="MK-47"><data key="name">Kumanovo</data><data key="code">MK-47</data><data key="wikidata">Q2352376</data><data key="lon">21.78943</data><data key="lat">42.09958</data></node>
+    <node id="MK-48"><data key="name">Lipkovo</data><data key="code">MK-48</data><data key="wikidata">Q2041236</data><data key="lon">21.57766</data><data key="lat">42.14315</data></node>
+    <node id="MK-49"><data key="name">Lozovo</data><data key="code">MK-49</data><data key="wikidata">Q1996470</data><data key="lon">21.90923</data><data key="lat">41.74288</data></node>
+    <node id="MK-50"><data key="name">Mavrovo and Rostusa</data><data key="code">MK-50</data><data key="wikidata">Q1323332</data><data key="lon">20.66785</data><data key="lat">41.63695</data></node>
+    <node id="MK-51"><data key="name">Makedonska Kamenica</data><data key="code">MK-51</data><data key="wikidata">Q2041219</data><data key="lon">22.54501</data><data key="lat">42.04344</data></node>
+    <node id="MK-52"><data key="name">Brod</data><data key="code">MK-52</data><data key="wikidata">Q2364199</data><data key="lon">21.22098</data><data key="lat">41.63428</data></node>
+    <node id="MK-53"><data key="name">Mogila</data><data key="code">MK-53</data><data key="wikidata">Q1839369</data><data key="lon">21.43149</data><data key="lat">41.17023</data></node>
+    <node id="MK-54"><data key="name">Negotino</data><data key="code">MK-54</data><data key="wikidata">Q3246545</data><data key="lon">22.16917</data><data key="lat">41.50032</data></node>
+    <node id="MK-55"><data key="name">Novaci</data><data key="code">MK-55</data><data key="wikidata">Q2088022</data><data key="lon">21.64481</data><data key="lat">41.0156</data></node>
+    <node id="MK-56"><data key="name">Novo Selo</data><data key="code">MK-56</data><data key="wikidata">Q1946579</data><data key="lon">22.87747</data><data key="lat">41.42936</data></node>
+    <node id="MK-57"><data key="name">Oslomej</data><data key="code">MK-57</data><data key="wikidata">Q2001785</data><data key="lon">21.04097</data><data key="lat">41.57611</data></node>
+    <node id="MK-58"><data key="name">Ohrid</data><data key="code">MK-58</data><data key="wikidata">Q1125333</data><data key="lon">20.78701</data><data key="lat">41.07818</data></node>
+    <node id="MK-60"><data key="name">Pehčevo</data><data key="code">MK-60</data><data key="wikidata">Q426114</data><data key="lon">22.85318</data><data key="lat">41.77302</data></node>
+    <node id="MK-61"><data key="name">Plasnica</data><data key="code">MK-61</data><data key="wikidata">Q2018921</data><data key="lon">21.11566</data><data key="lat">41.44281</data></node>
+    <node id="MK-62"><data key="name">Prilep</data><data key="code">MK-62</data><data key="wikidata">Q6312454</data><data key="lon">21.62133</data><data key="lat">41.26855</data></node>
+    <node id="MK-63"><data key="name">Probištip</data><data key="code">MK-63</data><data key="wikidata">Q2270414</data><data key="lon">22.14225</data><data key="lat">41.94719</data></node>
+    <node id="MK-64"><data key="name">Radoviš</data><data key="code">MK-64</data><data key="wikidata">Q2738284</data><data key="lon">22.46495</data><data key="lat">41.63871</data></node>
+    <node id="MK-65"><data key="name">Rankovce</data><data key="code">MK-65</data><data key="wikidata">Q1475001</data><data key="lon">22.11095</data><data key="lat">42.20725</data></node>
+    <node id="MK-66"><data key="name">Resen</data><data key="code">MK-66</data><data key="wikidata">Q740591</data><data key="lon">20.99149</data><data key="lat">41.02956</data></node>
+    <node id="MK-67"><data key="name">Rosoman</data><data key="code">MK-67</data><data key="wikidata">Q2088585</data><data key="lon">21.89962</data><data key="lat">41.49288</data></node>
+    <node id="MK-68"><data key="name">Saraj</data><data key="code">MK-68</data><data key="wikidata">Q1309481</data><data key="lon">21.23316</data><data key="lat">41.99191</data></node>
+    <node id="MK-69"><data key="name">Sveti Nikole</data><data key="code">MK-69</data><data key="wikidata">Q2308277</data><data key="lon">21.9587</data><data key="lat">41.86168</data></node>
+    <node id="MK-70"><data key="name">Sopište</data><data key="code">MK-70</data><data key="wikidata">Q2282240</data><data key="lon">21.29851</data><data key="lat">41.8402</data></node>
+    <node id="MK-71"><data key="name">Staro Nagoričane</data><data key="code">MK-71</data><data key="wikidata">Q2128903</data><data key="lon">21.89926</data><data key="lat">42.21587</data></node>
+    <node id="MK-72"><data key="name">Struga</data><data key="code">MK-72</data><data key="wikidata">Q749618</data><data key="lon">20.67352</data><data key="lat">41.25151</data></node>
+    <node id="MK-73"><data key="name">Strumitsa</data><data key="code">MK-73</data><data key="wikidata">Q2308287</data><data key="lon">22.63233</data><data key="lat">41.4018</data></node>
+    <node id="MK-74"><data key="name">Studeničani</data><data key="code">MK-74</data><data key="wikidata">Q2088034</data><data key="lon">21.40028</data><data key="lat">41.79657</data></node>
+    <node id="MK-75"><data key="name">Tearce</data><data key="code">MK-75</data><data key="wikidata">Q2282274</data><data key="lon">21.04569</data><data key="lat">42.08861</data></node>
+    <node id="MK-76"><data key="name">Tetovo</data><data key="code">MK-76</data><data key="wikidata">Q3245456</data><data key="lon">20.87973</data><data key="lat">42.0274</data></node>
+    <node id="MK-77"><data key="name">Centar</data><data key="code">MK-77</data><data key="wikidata">Q1463152</data><data key="lon">21.42136</data><data key="lat">41.97009</data></node>
+    <node id="MK-78"><data key="name">Centar župa</data><data key="code">MK-78</data><data key="wikidata">Q1779085</data><data key="lon">20.57092</data><data key="lat">41.46163</data></node>
+    <node id="MK-79"><data key="name">Čair</data><data key="code">MK-79</data><data key="wikidata">Q1419314</data><data key="lon">21.43664</data><data key="lat">41.99369</data></node>
+    <node id="MK-80"><data key="name">Čaška</data><data key="code">MK-80</data><data key="wikidata">Q1994547</data><data key="lon">21.59318</data><data key="lat">41.58475</data></node>
+    <node id="MK-81"><data key="name">Češinovo-Obleševo</data><data key="code">MK-81</data><data key="wikidata">Q281898</data><data key="lon">22.26818</data><data key="lat">41.86805</data></node>
+    <node id="MK-82"><data key="name">Čučer Sandevo</data><data key="code">MK-82</data><data key="wikidata">Q629720</data><data key="lon">21.37943</data><data key="lat">42.13211</data></node>
+    <node id="MK-83"><data key="name">Štip</data><data key="code">MK-83</data><data key="wikidata">Q2423082</data><data key="lon">22.16937</data><data key="lat">41.70659</data></node>
+    <node id="MK-84"><data key="name">Šuto Orizari</data><data key="code">MK-84</data><data key="wikidata">Q1020859</data><data key="lon">21.40535</data><data key="lat">42.03016</data></node>
+    <node id="MK-85"><data key="name">Skopje</data><data key="code">MK-85</data><data key="wikidata"></data><data key="lon">21.68793</data><data key="lat">41.89337</data></node>
+    <edge source="MK-01" target="MK-17"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-01" target="MK-39"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-01" target="MK-74"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-01" target="MK-77"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-01" target="MK-79"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-02" target="MK-17"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-02" target="MK-34"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-02" target="MK-47"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-02" target="MK-48"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-03" target="MK-07"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-03" target="MK-11"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-03" target="MK-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-03" target="MK-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-03" target="MK-56"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-03" target="MK-60"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-03" target="MK-64"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-04" target="MK-25"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-04" target="MK-46"><data key="sources">natural_earth</data><data key="rule">ne_short</data><data key="corroborated">false</data></edge>
+    <edge source="MK-04" target="MK-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-04" target="MK-55"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-04" target="MK-66"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-05" target="MK-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-05" target="MK-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-05" target="MK-26"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-06" target="MK-08"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-06" target="MK-16"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-06" target="MK-76"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-07" target="MK-11"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-07" target="MK-56"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-07" target="MK-73"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-08" target="MK-16"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-08" target="MK-19"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-08" target="MK-30"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-08" target="MK-52"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-08" target="MK-76"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-09" target="MK-17"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-09" target="MK-38"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-09" target="MK-48"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-09" target="MK-79"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-09" target="MK-82"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-09" target="MK-84"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-10" target="MK-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-10" target="MK-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-10" target="MK-26"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-10" target="MK-41"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-10" target="MK-73"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-11" target="MK-41"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-11" target="MK-64"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-11" target="MK-73"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-12" target="MK-72"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-13" target="MK-20"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-13" target="MK-32"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-13" target="MK-49"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-13" target="MK-69"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-13" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-13" target="MK-85"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-14" target="MK-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-14" target="MK-33"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-14" target="MK-37"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-14" target="MK-42"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-14" target="MK-51"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-14" target="MK-64"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-15" target="MK-28"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-15" target="MK-40"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-15" target="MK-52"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-15" target="MK-57"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-15" target="MK-61"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-16" target="MK-19"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-17" target="MK-34"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-17" target="MK-48"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-17" target="MK-74"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-17" target="MK-79"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-17" target="MK-85"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-18" target="MK-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-18" target="MK-36"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-19" target="MK-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-19" target="MK-50"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-19" target="MK-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-19" target="MK-57"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-20" target="MK-49"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-20" target="MK-54"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-20" target="MK-67"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-20" target="MK-80"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-20" target="MK-83"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-21" target="MK-28"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-21" target="MK-50"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-21" target="MK-72"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-21" target="MK-78"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-22" target="MK-25"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-22" target="MK-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-22" target="MK-58"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-22" target="MK-72"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-23" target="MK-51"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-23" target="MK-60"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-24" target="MK-36"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-24" target="MK-41"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-24" target="MK-54"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-25" target="MK-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-25" target="MK-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-25" target="MK-58"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-25" target="MK-66"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-27" target="MK-45"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-27" target="MK-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-27" target="MK-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-27" target="MK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-27" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-28" target="MK-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-28" target="MK-40"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-28" target="MK-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-28" target="MK-50"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-28" target="MK-61"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-28" target="MK-72"><data key="sources">natural_earth</data><data key="rule">review</data><data key="corroborated">false</data></edge>
+    <edge source="MK-29" target="MK-38"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-29" target="MK-68"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-29" target="MK-82"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-30" target="MK-35"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-30" target="MK-52"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-30" target="MK-68"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-30" target="MK-70"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-30" target="MK-76"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-31" target="MK-40"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-31" target="MK-50"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-31" target="MK-57"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-32" target="MK-74"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-32" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-32" target="MK-85"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-33" target="MK-37"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-33" target="MK-42"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-33" target="MK-81"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-34" target="MK-47"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-34" target="MK-85"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-35" target="MK-68"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-35" target="MK-75"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-35" target="MK-76"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-36" target="MK-54"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-36" target="MK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-36" target="MK-67"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-36" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-37" target="MK-63"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-37" target="MK-64"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-37" target="MK-81"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-37" target="MK-83"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-38" target="MK-39"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-38" target="MK-68"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-38" target="MK-70"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-38" target="MK-77"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-38" target="MK-79"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-38" target="MK-82"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-39" target="MK-70"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-39" target="MK-74"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-39" target="MK-77"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-40" target="MK-57"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-41" target="MK-54"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-41" target="MK-64"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-41" target="MK-73"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-41" target="MK-83"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-42" target="MK-43"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-42" target="MK-44"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-42" target="MK-51"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-42" target="MK-63"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-42" target="MK-81"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-43" target="MK-44"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-43" target="MK-47"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-43" target="MK-63"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-43" target="MK-65"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-43" target="MK-69"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-43" target="MK-71"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-44" target="MK-51"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-44" target="MK-65"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-45" target="MK-46"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-45" target="MK-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-45" target="MK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-46" target="MK-52"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-46" target="MK-53"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-46" target="MK-61"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-47" target="MK-48"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-47" target="MK-69"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-47" target="MK-71"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-47" target="MK-85"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-48" target="MK-82"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-49" target="MK-69"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-49" target="MK-83"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-52" target="MK-57"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-52" target="MK-61"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-52" target="MK-70"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-52" target="MK-74"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-52" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-53" target="MK-55"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-53" target="MK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-54" target="MK-67"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-54" target="MK-83"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-55" target="MK-62"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-56" target="MK-73"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-58" target="MK-66"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-62" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-63" target="MK-69"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-63" target="MK-81"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-63" target="MK-83"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-64" target="MK-83"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-65" target="MK-71"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-67" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-68" target="MK-70"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-69" target="MK-83"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-69" target="MK-85"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-70" target="MK-74"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-72" target="MK-78"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-74" target="MK-80"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MK-74" target="MK-85"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-75" target="MK-76"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-77" target="MK-79"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MK-82" target="MK-84"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

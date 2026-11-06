@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these graphs, please cite them as below."
+title: "Region adjacency graphs: land-border graphs of the world's countries and subdivisions, with provenance"
+version: 0.2.0
+date-released: 2026-11-05
+license: CC-BY-4.0
+repository-code: "https://github.com/Lizcanutella/world-graphs"
+type: dataset
+authors:
+  - family-names: Lizcano
+    given-names: Mateo
+keywords:
+  - adjacency graph
+  - administrative boundaries
+  - planar graphs
+  - Natural Earth
+  - Wikidata

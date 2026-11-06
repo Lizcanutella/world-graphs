@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KZ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KZ-AKM"><data key="name">Aqmola</data><data key="code">KZ-AKM</data><data key="wikidata">Q485056</data><data key="lon">69.87397</data><data key="lat">51.85048</data></node>
+    <node id="KZ-AKT"><data key="name">Aqtöbe</data><data key="code">KZ-AKT</data><data key="wikidata">Q485437</data><data key="lon">59.3612</data><data key="lat">48.26035</data></node>
+    <node id="KZ-ALA"><data key="name">Almaty City</data><data key="code">KZ-ALA</data><data key="wikidata">Q35493</data><data key="lon">76.94233</data><data key="lat">43.31076</data></node>
+    <node id="KZ-ALM"><data key="name">Almaty</data><data key="code">KZ-ALM</data><data key="wikidata">Q186466</data><data key="lon">77.38942</data><data key="lat">44.75786</data></node>
+    <node id="KZ-AST"><data key="name">Astana</data><data key="code">KZ-AST</data><data key="wikidata">Q1520</data><data key="lon">71.437</data><data key="lat">51.13631</data></node>
+    <node id="KZ-ATY"><data key="name">Atyrau</data><data key="code">KZ-ATY</data><data key="wikidata">Q427658</data><data key="lon">51.71138</data><data key="lat">47.46935</data></node>
+    <node id="KZ-KAR"><data key="name">Qaraghandy</data><data key="code">KZ-KAR</data><data key="wikidata">Q485429</data><data key="lon">70.91384</data><data key="lat">48.59249</data></node>
+    <node id="KZ-KUS"><data key="name">Qostanay</data><data key="code">KZ-KUS</data><data key="wikidata">Q485605</data><data key="lon">63.53442</data><data key="lat">51.42902</data></node>
+    <node id="KZ-KZY"><data key="name">Qyzylorda</data><data key="code">KZ-KZY</data><data key="wikidata">Q485322</data><data key="lon">63.61247</data><data key="lat">45.0504</data></node>
+    <node id="KZ-MAN"><data key="name">Mangghystau</data><data key="code">KZ-MAN</data><data key="wikidata">Q238931</data><data key="lon">53.48369</data><data key="lat">43.87202</data></node>
+    <node id="KZ-PAV"><data key="name">Pavlodar</data><data key="code">KZ-PAV</data><data key="wikidata">Q486144</data><data key="lon">76.43423</data><data key="lat">52.23459</data></node>
+    <node id="KZ-SEV"><data key="name">North Kazakhstan</data><data key="code">KZ-SEV</data><data key="wikidata">Q485088</data><data key="lon">69.75104</data><data key="lat">53.81958</data></node>
+    <node id="KZ-VOS"><data key="name">East Kazakhstan</data><data key="code">KZ-VOS</data><data key="wikidata">Q36156</data><data key="lon">80.39446</data><data key="lat">48.62503</data></node>
+    <node id="KZ-YUZ"><data key="name">South Kazakhstan</data><data key="code">KZ-YUZ</data><data key="wikidata">Q815330</data><data key="lon">68.75859</data><data key="lat">43.29335</data></node>
+    <node id="KZ-ZAP"><data key="name">West Kazakhstan</data><data key="code">KZ-ZAP</data><data key="wikidata">Q486007</data><data key="lon">51.48858</data><data key="lat">49.85226</data></node>
+    <node id="KZ-ZHA"><data key="name">Zhambyl</data><data key="code">KZ-ZHA</data><data key="wikidata">Q486657</data><data key="lon">72.59639</data><data key="lat">44.123</data></node>
+    <edge source="KZ-AKM" target="KZ-AST"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKM" target="KZ-KAR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKM" target="KZ-KUS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKM" target="KZ-PAV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKM" target="KZ-SEV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKT" target="KZ-ATY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKT" target="KZ-KAR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKT" target="KZ-KUS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKT" target="KZ-KZY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKT" target="KZ-MAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-AKT" target="KZ-ZAP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-ALA" target="KZ-ALM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="KZ-ALM" target="KZ-KAR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-ALM" target="KZ-VOS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-ALM" target="KZ-ZHA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-ATY" target="KZ-MAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-ATY" target="KZ-ZAP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KAR" target="KZ-KUS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KAR" target="KZ-KZY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KAR" target="KZ-PAV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KAR" target="KZ-VOS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KAR" target="KZ-YUZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KAR" target="KZ-ZHA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KUS" target="KZ-SEV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-KZY" target="KZ-YUZ"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-PAV" target="KZ-SEV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-PAV" target="KZ-VOS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KZ-YUZ" target="KZ-ZHA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

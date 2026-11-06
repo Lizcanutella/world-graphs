@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BF" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BF-BAL"><data key="name">Balé</data><data key="code">BF-BAL</data><data key="wikidata">Q805913</data><data key="lon">-3.05996</data><data key="lat">11.66422</data></node>
+    <node id="BF-BAM"><data key="name">Bam</data><data key="code">BF-BAM</data><data key="wikidata">Q620710</data><data key="lon">-1.59272</data><data key="lat">13.43924</data></node>
+    <node id="BF-BAN"><data key="name">Banwa</data><data key="code">BF-BAN</data><data key="wikidata">Q674664</data><data key="lon">-4.19127</data><data key="lat">12.21721</data></node>
+    <node id="BF-BAZ"><data key="name">Bazéga</data><data key="code">BF-BAZ</data><data key="wikidata">Q619764</data><data key="lon">-1.4551</data><data key="lat">11.89031</data></node>
+    <node id="BF-BGR"><data key="name">Bougouriba</data><data key="code">BF-BGR</data><data key="wikidata">Q676641</data><data key="lon">-3.41007</data><data key="lat">10.89767</data></node>
+    <node id="BF-BLG"><data key="name">Boulgou</data><data key="code">BF-BLG</data><data key="wikidata">Q895097</data><data key="lon">-0.33816</data><data key="lat">11.46323</data></node>
+    <node id="BF-BLK"><data key="name">Boulkiemdé</data><data key="code">BF-BLK</data><data key="wikidata">Q895102</data><data key="lon">-2.23597</data><data key="lat">12.30505</data></node>
+    <node id="BF-COM"><data key="name">Komoé</data><data key="code">BF-COM</data><data key="wikidata">Q1074496</data><data key="lon">-4.4314</data><data key="lat">10.23231</data></node>
+    <node id="BF-GAN"><data key="name">Ganzourgou</data><data key="code">BF-GAN</data><data key="wikidata">Q182889</data><data key="lon">-0.79427</data><data key="lat">12.25845</data></node>
+    <node id="BF-GNA"><data key="name">Gnagna</data><data key="code">BF-GNA</data><data key="wikidata">Q1074144</data><data key="lon">-0.025</data><data key="lat">12.90523</data></node>
+    <node id="BF-GOU"><data key="name">Gourma</data><data key="code">BF-GOU</data><data key="wikidata">Q432317</data><data key="lon">0.5635</data><data key="lat">12.2222</data></node>
+    <node id="BF-HOU"><data key="name">Houet</data><data key="code">BF-HOU</data><data key="wikidata">Q1074161</data><data key="lon">-4.31774</data><data key="lat">11.38336</data></node>
+    <node id="BF-IOB"><data key="name">Ioba</data><data key="code">BF-IOB</data><data key="wikidata">Q1074154</data><data key="lon">-2.93155</data><data key="lat">11.01702</data></node>
+    <node id="BF-KAD"><data key="name">Kadiogo</data><data key="code">BF-KAD</data><data key="wikidata">Q1074530</data><data key="lon">-1.52975</data><data key="lat">12.3595</data></node>
+    <node id="BF-KEN"><data key="name">Kénédougou</data><data key="code">BF-KEN</data><data key="wikidata">Q1150901</data><data key="lon">-4.95295</data><data key="lat">11.4283</data></node>
+    <node id="BF-KMD"><data key="name">Komondjari</data><data key="code">BF-KMD</data><data key="wikidata">Q1074479</data><data key="lon">0.72133</data><data key="lat">12.7069</data></node>
+    <node id="BF-KMP"><data key="name">Kompienga</data><data key="code">BF-KMP</data><data key="wikidata">Q1142059</data><data key="lon">0.97662</data><data key="lat">11.4242</data></node>
+    <node id="BF-KOP"><data key="name">Koulpélogo</data><data key="code">BF-KOP</data><data key="wikidata">Q934923</data><data key="lon">0.20645</data><data key="lat">11.41023</data></node>
+    <node id="BF-KOS"><data key="name">Kossi</data><data key="code">BF-KOS</data><data key="wikidata">Q1074485</data><data key="lon">-3.84796</data><data key="lat">12.9351</data></node>
+    <node id="BF-KOT"><data key="name">Kouritenga</data><data key="code">BF-KOT</data><data key="wikidata">Q1141767</data><data key="lon">-0.23737</data><data key="lat">12.17796</data></node>
+    <node id="BF-KOW"><data key="name">Kourwéogo</data><data key="code">BF-KOW</data><data key="wikidata">Q661376</data><data key="lon">-1.73217</data><data key="lat">12.5843</data></node>
+    <node id="BF-LER"><data key="name">Léraba</data><data key="code">BF-LER</data><data key="wikidata">Q977607</data><data key="lon">-5.21381</data><data key="lat">10.66479</data></node>
+    <node id="BF-LOR"><data key="name">Loroum</data><data key="code">BF-LOR</data><data key="wikidata">Q1142054</data><data key="lon">-2.0649</data><data key="lat">13.90719</data></node>
+    <node id="BF-MOU"><data key="name">Mou Houn</data><data key="code">BF-MOU</data><data key="wikidata">Q1142050</data><data key="lon">-3.33593</data><data key="lat">12.23353</data></node>
+    <node id="BF-NAM"><data key="name">Namentenga</data><data key="code">BF-NAM</data><data key="wikidata">Q1142044</data><data key="lon">-0.4808</data><data key="lat">13.19627</data></node>
+    <node id="BF-NAO"><data key="name">Nahouri</data><data key="code">BF-NAO</data><data key="wikidata">Q1142003</data><data key="lon">-1.26532</data><data key="lat">11.24484</data></node>
+    <node id="BF-NAY"><data key="name">Nayala</data><data key="code">BF-NAY</data><data key="wikidata">Q1141776</data><data key="lon">-2.97048</data><data key="lat">12.67305</data></node>
+    <node id="BF-NOU"><data key="name">Noumbiel</data><data key="code">BF-NOU</data><data key="wikidata">Q646647</data><data key="lon">-2.94424</data><data key="lat">9.74903</data></node>
+    <node id="BF-OUB"><data key="name">Oubritenga</data><data key="code">BF-OUB</data><data key="wikidata">Q1142026</data><data key="lon">-1.25379</data><data key="lat">12.59338</data></node>
+    <node id="BF-OUD"><data key="name">Oudalan</data><data key="code">BF-OUD</data><data key="wikidata">Q514173</data><data key="lon">-0.33487</data><data key="lat">14.62877</data></node>
+    <node id="BF-PAS"><data key="name">Passoré</data><data key="code">BF-PAS</data><data key="wikidata">Q1142008</data><data key="lon">-2.24936</data><data key="lat">12.88492</data></node>
+    <node id="BF-PON"><data key="name">Poni</data><data key="code">BF-PON</data><data key="wikidata">Q953657</data><data key="lon">-3.28331</data><data key="lat">10.29566</data></node>
+    <node id="BF-SEN"><data key="name">Séno</data><data key="code">BF-SEN</data><data key="wikidata">Q1061214</data><data key="lon">-0.10293</data><data key="lat">13.96483</data></node>
+    <node id="BF-SIS"><data key="name">Sissili</data><data key="code">BF-SIS</data><data key="wikidata">Q964281</data><data key="lon">-2.36037</data><data key="lat">11.44376</data></node>
+    <node id="BF-SMT"><data key="name">Sanmatenga</data><data key="code">BF-SMT</data><data key="wikidata">Q1142039</data><data key="lon">-0.97158</data><data key="lat">13.24188</data></node>
+    <node id="BF-SNG"><data key="name">Sanguié</data><data key="code">BF-SNG</data><data key="wikidata">Q1142014</data><data key="lon">-2.6209</data><data key="lat">12.20462</data></node>
+    <node id="BF-SOM"><data key="name">Soum</data><data key="code">BF-SOM</data><data key="wikidata">Q385973</data><data key="lon">-1.32426</data><data key="lat">14.27218</data></node>
+    <node id="BF-SOR"><data key="name">Sourou</data><data key="code">BF-SOR</data><data key="wikidata">Q558703</data><data key="lon">-2.94829</data><data key="lat">13.2453</data></node>
+    <node id="BF-TAP"><data key="name">Tapoa</data><data key="code">BF-TAP</data><data key="wikidata">Q621983</data><data key="lon">1.76745</data><data key="lat">12.12383</data></node>
+    <node id="BF-TUI"><data key="name">Tuy</data><data key="code">BF-TUI</data><data key="wikidata">Q627844</data><data key="lon">-3.36146</data><data key="lat">11.40689</data></node>
+    <node id="BF-YAG"><data key="name">Yagha</data><data key="code">BF-YAG</data><data key="wikidata">Q1074466</data><data key="lon">0.61924</data><data key="lat">13.4173</data></node>
+    <node id="BF-YAT"><data key="name">Yatenga</data><data key="code">BF-YAT</data><data key="wikidata">Q1074521</data><data key="lon">-2.50436</data><data key="lat">13.5785</data></node>
+    <node id="BF-ZIR"><data key="name">Ziro</data><data key="code">BF-ZIR</data><data key="wikidata">Q206019</data><data key="lon">-1.89407</data><data key="lat">11.64173</data></node>
+    <node id="BF-ZON"><data key="name">Zondoma</data><data key="code">BF-ZON</data><data key="wikidata">Q219859</data><data key="lon">-2.2937</data><data key="lat">13.17868</data></node>
+    <node id="BF-ZOU"><data key="name">Zoundwéogo</data><data key="code">BF-ZOU</data><data key="wikidata">Q227059</data><data key="lon">-1.0706</data><data key="lat">11.55519</data></node>
+    <edge source="BF-BAL" target="BF-IOB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BF-BAL" target="BF-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAL" target="BF-SIS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAL" target="BF-SNG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAL" target="BF-TUI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAM" target="BF-LOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAM" target="BF-PAS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAM" target="BF-SMT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAM" target="BF-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAM" target="BF-YAT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAN" target="BF-HOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAN" target="BF-KOS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAN" target="BF-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAZ" target="BF-BLK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAZ" target="BF-GAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAZ" target="BF-KAD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAZ" target="BF-ZIR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BAZ" target="BF-ZOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BGR" target="BF-COM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BGR" target="BF-HOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BGR" target="BF-IOB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BF-BGR" target="BF-PON"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BGR" target="BF-TUI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLG" target="BF-GAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLG" target="BF-GOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLG" target="BF-KOP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLG" target="BF-KOT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLG" target="BF-NAO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLG" target="BF-ZOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLK" target="BF-KAD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLK" target="BF-KOW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLK" target="BF-PAS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLK" target="BF-SIS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLK" target="BF-SNG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-BLK" target="BF-ZIR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-COM" target="BF-HOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-COM" target="BF-KEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-COM" target="BF-LER"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-COM" target="BF-PON"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GAN" target="BF-KAD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GAN" target="BF-KOT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GAN" target="BF-NAM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GAN" target="BF-OUB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GAN" target="BF-SMT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GAN" target="BF-ZOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GNA" target="BF-GOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GNA" target="BF-KMD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GNA" target="BF-KOT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GNA" target="BF-NAM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GNA" target="BF-SEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GNA" target="BF-YAG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GOU" target="BF-KMD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GOU" target="BF-KMP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GOU" target="BF-KOP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GOU" target="BF-KOT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-GOU" target="BF-TAP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-HOU" target="BF-KEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-HOU" target="BF-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-HOU" target="BF-TUI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-IOB" target="BF-PON"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BF-IOB" target="BF-SIS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BF-IOB" target="BF-TUI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BF-KAD" target="BF-KOW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KAD" target="BF-OUB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KEN" target="BF-LER"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KMD" target="BF-TAP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KMD" target="BF-YAG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KMP" target="BF-KOP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KMP" target="BF-TAP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KOS" target="BF-MOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KOS" target="BF-NAY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KOS" target="BF-SOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KOT" target="BF-NAM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KOW" target="BF-OUB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-KOW" target="BF-PAS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-LOR" target="BF-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-LOR" target="BF-YAT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-MOU" target="BF-NAY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-MOU" target="BF-SNG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-MOU" target="BF-TUI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAM" target="BF-SEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAM" target="BF-SMT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAO" target="BF-SIS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAO" target="BF-ZIR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAO" target="BF-ZOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAY" target="BF-PAS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAY" target="BF-SNG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NAY" target="BF-SOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-NOU" target="BF-PON"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BF-OUB" target="BF-PAS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-OUB" target="BF-SMT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-OUD" target="BF-SEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-OUD" target="BF-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-PAS" target="BF-SMT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-PAS" target="BF-SNG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-PAS" target="BF-SOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-PAS" target="BF-YAT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-PAS" target="BF-ZON"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-SEN" target="BF-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-SEN" target="BF-YAG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-SIS" target="BF-SNG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-SIS" target="BF-ZIR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-SMT" target="BF-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-SOR" target="BF-YAT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-SOR" target="BF-ZON"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-YAT" target="BF-ZON"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BF-ZIR" target="BF-ZOU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

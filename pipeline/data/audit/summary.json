@@ -1,0 +1,37 @@
+{
+ "bands_m": {
+  "none": 100.0,
+  "border": 500.0
+ },
+ "q_min": 0.8,
+ "countries": 211,
+ "countries_with_gb": 197,
+ "totals": {
+  "agree_edge": 7249,
+  "ne_edges": 8744,
+  "ne_edges_checked": 7343,
+  "p47_only_edges": 5311,
+  "p47_only_checked": 4946,
+  "p47_only_ne_only": 15,
+  "agree_non": 382,
+  "short": 30,
+  "ne_only": 75,
+  "gb_only": 136,
+  "unchecked": 1783
+ },
+ "flagged_units": {
+  "area": 93,
+  "shape": 128,
+  "label": 116,
+  "unidentified": 562,
+  "code": 189,
+  "merged": 1
+ },
+ "disagreements_by_p47": {
+  "ne_only / p47 sides with gb": 57,
+  "gb_only / p47 sides with gb": 72,
+  "ne_only / p47 sides with ne": 18,
+  "gb_only / p47 sides with ne": 64
+ },
+ "disagreements_touching_flagged_units": 60
+}

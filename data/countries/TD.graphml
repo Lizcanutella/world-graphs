@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TD" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TD-BA"><data key="name">Batha</data><data key="code">TD-BA</data><data key="wikidata">Q180414</data><data key="lon">18.89245</data><data key="lat">14.76993</data></node>
+    <node id="TD-BG"><data key="name">Barh El Gazel</data><data key="code">TD-BG</data><data key="wikidata">Q1050621</data><data key="lon">16.94389</data><data key="lat">14.69454</data></node>
+    <node id="TD-BO"><data key="name">Borkou</data><data key="code">TD-BO</data><data key="wikidata">Q1139666</data><data key="lon">18.31207</data><data key="lat">18.98295</data></node>
+    <node id="TD-CB"><data key="name">Chari-Baguirmi</data><data key="code">TD-CB</data><data key="wikidata">Q843975</data><data key="lon">16.33431</data><data key="lat">11.13599</data></node>
+    <node id="TD-GR"><data key="name">Guéra</data><data key="code">TD-GR</data><data key="wikidata">Q175706</data><data key="lon">18.05639</data><data key="lat">11.44134</data></node>
+    <node id="TD-HL"><data key="name">Hadjer-Lamis</data><data key="code">TD-HL</data><data key="wikidata">Q1042437</data><data key="lon">15.46109</data><data key="lat">12.44872</data></node>
+    <node id="TD-KA"><data key="name">Kanem</data><data key="code">TD-KA</data><data key="wikidata">Q849841</data><data key="lon">15.02364</data><data key="lat">15.03933</data></node>
+    <node id="TD-LC"><data key="name">Lac</data><data key="code">TD-LC</data><data key="wikidata">Q867869</data><data key="lon">14.16689</data><data key="lat">13.75991</data></node>
+    <node id="TD-LO"><data key="name">Logone Occidental</data><data key="code">TD-LO</data><data key="wikidata">Q305257</data><data key="lon">15.94279</data><data key="lat">8.74931</data></node>
+    <node id="TD-LR"><data key="name">Logone Oriental</data><data key="code">TD-LR</data><data key="wikidata">Q167514</data><data key="lon">16.46559</data><data key="lat">8.30048</data></node>
+    <node id="TD-MA"><data key="name">Mandoul</data><data key="code">TD-MA</data><data key="wikidata">Q597410</data><data key="lon">17.54652</data><data key="lat">8.71266</data></node>
+    <node id="TD-MC"><data key="name">Moyen-Chari</data><data key="code">TD-MC</data><data key="wikidata">Q177799</data><data key="lon">18.82057</data><data key="lat">9.30958</data></node>
+    <node id="TD-ME"><data key="name">Mayo-Kebbi Est</data><data key="code">TD-ME</data><data key="wikidata">Q911421</data><data key="lon">15.83376</data><data key="lat">10.18585</data></node>
+    <node id="TD-MO"><data key="name">Mayo-Kebbi Ouest</data><data key="code">TD-MO</data><data key="wikidata">Q910393</data><data key="lon">14.85959</data><data key="lat">9.20662</data></node>
+    <node id="TD-ND"><data key="name">Ville de N'Djamena</data><data key="code">TD-ND</data><data key="wikidata">Q3659</data><data key="lon">15.06749</data><data key="lat">12.12379</data></node>
+    <node id="TD-OD"><data key="name">Ouaddaï</data><data key="code">TD-OD</data><data key="wikidata">Q841338</data><data key="lon">21.24132</data><data key="lat">13.5677</data></node>
+    <node id="TD-SA"><data key="name">Salamat</data><data key="code">TD-SA</data><data key="wikidata">Q385584</data><data key="lon">20.68613</data><data key="lat">10.60993</data></node>
+    <node id="TD-SI"><data key="name">Sila</data><data key="code">TD-SI</data><data key="wikidata">Q1149611</data><data key="lon">21.47613</data><data key="lat">12.01242</data></node>
+    <node id="TD-TA"><data key="name">Tandjilé</data><data key="code">TD-TA</data><data key="wikidata">Q867856</data><data key="lon">16.54406</data><data key="lat">9.62107</data></node>
+    <node id="TD-TI"><data key="name">Tibesti</data><data key="code">TD-TI</data><data key="wikidata">Q737711</data><data key="lon">16.6237</data><data key="lat">20.30159</data></node>
+    <node id="TD-WF"><data key="name">Wadi Fira</data><data key="code">TD-WF</data><data key="wikidata">Q860813</data><data key="lon">21.36232</data><data key="lat">14.94685</data></node>
+    <node id="TD-X01~"><data key="name">Ennedi</data><data key="code">TD-X01~</data><data key="wikidata">Q748093</data><data key="lon">22.11203</data><data key="lat">18.45092</data></node>
+    <edge source="TD-BA" target="TD-BG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BA" target="TD-BO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TD-BA" target="TD-GR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BA" target="TD-HL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BA" target="TD-OD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BA" target="TD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BA" target="TD-WF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BG" target="TD-BO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TD-BG" target="TD-HL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BG" target="TD-KA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-BO" target="TD-KA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TD-BO" target="TD-TI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TD-BO" target="TD-WF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TD-BO" target="TD-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TD-CB" target="TD-GR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-CB" target="TD-HL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-CB" target="TD-MC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-CB" target="TD-ME"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-CB" target="TD-ND"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="TD-CB" target="TD-TA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-GR" target="TD-HL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-GR" target="TD-MC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-GR" target="TD-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-GR" target="TD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-HL" target="TD-KA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-HL" target="TD-LC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-KA" target="TD-LC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-LO" target="TD-LR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-LO" target="TD-MO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-LO" target="TD-TA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-LR" target="TD-MA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-LR" target="TD-MO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-LR" target="TD-TA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-MA" target="TD-MC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-MA" target="TD-TA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-MC" target="TD-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-MC" target="TD-TA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-ME" target="TD-MO"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-ME" target="TD-TA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-MO" target="TD-TA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-OD" target="TD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-OD" target="TD-WF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-SA" target="TD-SI"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TD-WF" target="TD-X01~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

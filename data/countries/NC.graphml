@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NC" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NC-X01~"><data key="name">Îles Loyauté</data><data key="code">NC-X01~</data><data key="wikidata">Q18655787</data><data key="lon">167.17945</data><data key="lat">-20.92742</data></node>
+    <node id="NC-X02~"><data key="name">Sud</data><data key="code">NC-X02~</data><data key="wikidata">Q965632</data><data key="lon">166.1825</data><data key="lat">-21.85499</data></node>
+    <node id="NC-X03~"><data key="name">Nord</data><data key="code">NC-X03~</data><data key="wikidata">Q1612920</data><data key="lon">164.85725</data><data key="lat">-20.83856</data></node>
+    <edge source="NC-X02~" target="NC-X03~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

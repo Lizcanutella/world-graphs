@@ -1,0 +1,390 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AI",
+ "kind": "country",
+ "name": "Anguilla",
+ "level": "districts",
+ "n": 14,
+ "m": 23,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AI-X01~",
+   "name": "Blowing Point",
+   "wikidata": null,
+   "lon": -63.09225,
+   "lat": 18.19335
+  },
+  {
+   "code": "AI-X02~",
+   "name": "East End",
+   "wikidata": null,
+   "lon": -62.94775,
+   "lat": 18.28551
+  },
+  {
+   "code": "AI-X03~",
+   "name": "George Hill",
+   "wikidata": null,
+   "lon": -63.06798,
+   "lat": 18.20897
+  },
+  {
+   "code": "AI-X04~",
+   "name": "Island Harbour",
+   "wikidata": null,
+   "lon": -63.0027,
+   "lat": 18.27018
+  },
+  {
+   "code": "AI-X05~",
+   "name": "North Hill",
+   "wikidata": null,
+   "lon": -63.06514,
+   "lat": 18.22324
+  },
+  {
+   "code": "AI-X06~",
+   "name": "North Side",
+   "wikidata": null,
+   "lon": -63.04431,
+   "lat": 18.2528
+  },
+  {
+   "code": "AI-X07~",
+   "name": "Sandy Ground",
+   "wikidata": null,
+   "lon": -63.08006,
+   "lat": 18.21911
+  },
+  {
+   "code": "AI-X08~",
+   "name": "Sandy Hill",
+   "wikidata": null,
+   "lon": -63.01109,
+   "lat": 18.2395
+  },
+  {
+   "code": "AI-X09~",
+   "name": "South Hill",
+   "wikidata": null,
+   "lon": -63.10875,
+   "lat": 18.20143
+  },
+  {
+   "code": "AI-X10~",
+   "name": "Stoney Ground",
+   "wikidata": null,
+   "lon": -63.02316,
+   "lat": 18.25181
+  },
+  {
+   "code": "AI-X11~",
+   "name": "The Farrington",
+   "wikidata": null,
+   "lon": -63.04769,
+   "lat": 18.21399
+  },
+  {
+   "code": "AI-X12~",
+   "name": "The Quarter",
+   "wikidata": null,
+   "lon": -63.03899,
+   "lat": 18.23009
+  },
+  {
+   "code": "AI-X13~",
+   "name": "The Valley",
+   "wikidata": null,
+   "lon": -63.05852,
+   "lat": 18.23596
+  },
+  {
+   "code": "AI-X14~",
+   "name": "West End",
+   "wikidata": null,
+   "lon": -63.13562,
+   "lat": 18.19086
+  }
+ ],
+ "edges": [
+  {
+   "u": "AI-X01~",
+   "v": "AI-X03~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2678
+  },
+  {
+   "u": "AI-X01~",
+   "v": "AI-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5932
+  },
+  {
+   "u": "AI-X01~",
+   "v": "AI-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1509
+  },
+  {
+   "u": "AI-X02~",
+   "v": "AI-X04~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2446
+  },
+  {
+   "u": "AI-X02~",
+   "v": "AI-X08~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3388
+  },
+  {
+   "u": "AI-X02~",
+   "v": "AI-X10~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3307
+  },
+  {
+   "u": "AI-X03~",
+   "v": "AI-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1428
+  },
+  {
+   "u": "AI-X03~",
+   "v": "AI-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 738
+  },
+  {
+   "u": "AI-X05~",
+   "v": "AI-X07~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1125
+  },
+  {
+   "u": "AI-X05~",
+   "v": "AI-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1627
+  },
+  {
+   "u": "AI-X05~",
+   "v": "AI-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1732
+  },
+  {
+   "u": "AI-X05~",
+   "v": "AI-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2771
+  },
+  {
+   "u": "AI-X06~",
+   "v": "AI-X10~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5509
+  },
+  {
+   "u": "AI-X06~",
+   "v": "AI-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1793
+  },
+  {
+   "u": "AI-X07~",
+   "v": "AI-X09~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2322
+  },
+  {
+   "u": "AI-X08~",
+   "v": "AI-X10~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4949
+  },
+  {
+   "u": "AI-X08~",
+   "v": "AI-X11~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1538
+  },
+  {
+   "u": "AI-X08~",
+   "v": "AI-X12~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 957
+  },
+  {
+   "u": "AI-X09~",
+   "v": "AI-X14~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2711
+  },
+  {
+   "u": "AI-X10~",
+   "v": "AI-X12~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1747
+  },
+  {
+   "u": "AI-X10~",
+   "v": "AI-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 550
+  },
+  {
+   "u": "AI-X11~",
+   "v": "AI-X12~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1354
+  },
+  {
+   "u": "AI-X12~",
+   "v": "AI-X13~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 685
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": null
+}

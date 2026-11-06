@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AS" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AS-X01~"><data key="name">Eastern</data><data key="code">AS-X01~</data><data key="wikidata"></data><data key="lon">-170.68364</data><data key="lat">-14.28297</data></node>
+    <node id="AS-X02~"><data key="name">Manu's</data><data key="code">AS-X02~</data><data key="wikidata"></data><data key="lon">-169.48593</data><data key="lat">-14.24704</data></node>
+    <node id="AS-X03~"><data key="name">Rose Atoll</data><data key="code">AS-X03~</data><data key="wikidata"></data><data key="lon">-168.16424</data><data key="lat">-14.52829</data></node>
+    <node id="AS-X04~"><data key="name">Swain's Island</data><data key="code">AS-X04~</data><data key="wikidata"></data><data key="lon">-171.07962</data><data key="lat">-11.05641</data></node>
+    <node id="AS-X05~"><data key="name">Western</data><data key="code">AS-X05~</data><data key="wikidata"></data><data key="lon">-170.75813</data><data key="lat">-14.33335</data></node>
+    <edge source="AS-X01~" target="AS-X05~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

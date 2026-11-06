@@ -1,0 +1,683 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KZ",
+ "kind": "country",
+ "name": "Kazakhstan",
+ "level": "regions",
+ "n": 16,
+ "m": 28,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KZ-AKM",
+   "name": "Aqmola",
+   "wikidata": "Q485056",
+   "lon": 69.87397,
+   "lat": 51.85048
+  },
+  {
+   "code": "KZ-AKT",
+   "name": "Aqtöbe",
+   "wikidata": "Q485437",
+   "lon": 59.3612,
+   "lat": 48.26035
+  },
+  {
+   "code": "KZ-ALA",
+   "name": "Almaty City",
+   "wikidata": "Q35493",
+   "lon": 76.94233,
+   "lat": 43.31076
+  },
+  {
+   "code": "KZ-ALM",
+   "name": "Almaty",
+   "wikidata": "Q186466",
+   "lon": 77.38942,
+   "lat": 44.75786
+  },
+  {
+   "code": "KZ-AST",
+   "name": "Astana",
+   "wikidata": "Q1520",
+   "lon": 71.437,
+   "lat": 51.13631
+  },
+  {
+   "code": "KZ-ATY",
+   "name": "Atyrau",
+   "wikidata": "Q427658",
+   "lon": 51.71138,
+   "lat": 47.46935
+  },
+  {
+   "code": "KZ-KAR",
+   "name": "Qaraghandy",
+   "wikidata": "Q485429",
+   "lon": 70.91384,
+   "lat": 48.59249
+  },
+  {
+   "code": "KZ-KUS",
+   "name": "Qostanay",
+   "wikidata": "Q485605",
+   "lon": 63.53442,
+   "lat": 51.42902
+  },
+  {
+   "code": "KZ-KZY",
+   "name": "Qyzylorda",
+   "wikidata": "Q485322",
+   "lon": 63.61247,
+   "lat": 45.0504
+  },
+  {
+   "code": "KZ-MAN",
+   "name": "Mangghystau",
+   "wikidata": "Q238931",
+   "lon": 53.48369,
+   "lat": 43.87202
+  },
+  {
+   "code": "KZ-PAV",
+   "name": "Pavlodar",
+   "wikidata": "Q486144",
+   "lon": 76.43423,
+   "lat": 52.23459
+  },
+  {
+   "code": "KZ-SEV",
+   "name": "North Kazakhstan",
+   "wikidata": "Q485088",
+   "lon": 69.75104,
+   "lat": 53.81958
+  },
+  {
+   "code": "KZ-VOS",
+   "name": "East Kazakhstan",
+   "wikidata": "Q36156",
+   "lon": 80.39446,
+   "lat": 48.62503
+  },
+  {
+   "code": "KZ-YUZ",
+   "name": "South Kazakhstan",
+   "wikidata": "Q815330",
+   "lon": 68.75859,
+   "lat": 43.29335
+  },
+  {
+   "code": "KZ-ZAP",
+   "name": "West Kazakhstan",
+   "wikidata": "Q486007",
+   "lon": 51.48858,
+   "lat": 49.85226
+  },
+  {
+   "code": "KZ-ZHA",
+   "name": "Zhambyl",
+   "wikidata": "Q486657",
+   "lon": 72.59639,
+   "lat": 44.123
+  }
+ ],
+ "edges": [
+  {
+   "u": "KZ-AKM",
+   "v": "KZ-AST",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 95335,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKM",
+   "v": "KZ-KAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 730903,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKM",
+   "v": "KZ-KUS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 434438,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKM",
+   "v": "KZ-PAV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 199338,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKM",
+   "v": "KZ-SEV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 902720,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKT",
+   "v": "KZ-ATY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 506710,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKT",
+   "v": "KZ-KAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 163567,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKT",
+   "v": "KZ-KUS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 535648,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKT",
+   "v": "KZ-KZY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 496309,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKT",
+   "v": "KZ-MAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 104418,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-AKT",
+   "v": "KZ-ZAP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 192887,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-ALA",
+   "v": "KZ-ALM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 66960
+  },
+  {
+   "u": "KZ-ALM",
+   "v": "KZ-KAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 125888,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-ALM",
+   "v": "KZ-VOS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 328562
+  },
+  {
+   "u": "KZ-ALM",
+   "v": "KZ-ZHA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 377533
+  },
+  {
+   "u": "KZ-ATY",
+   "v": "KZ-MAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 340399,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-ATY",
+   "v": "KZ-ZAP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 596703,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KAR",
+   "v": "KZ-KUS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 469720,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KAR",
+   "v": "KZ-KZY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 411482,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KAR",
+   "v": "KZ-PAV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 514159,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KAR",
+   "v": "KZ-VOS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 559050,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KAR",
+   "v": "KZ-YUZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 146953,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KAR",
+   "v": "KZ-ZHA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 347474,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KUS",
+   "v": "KZ-SEV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 315680,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-KZY",
+   "v": "KZ-YUZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 602593,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-PAV",
+   "v": "KZ-SEV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 226788,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-PAV",
+   "v": "KZ-VOS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 335332,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "KZ-YUZ",
+   "v": "KZ-ZHA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 482088
+  }
+ ],
+ "relabels": [
+  {
+   "ne_id": "1159314735",
+   "was": {
+    "iso_3166_2": "KZ-ALA",
+    "name": "Almaty"
+   },
+   "set": {
+    "iso_3166_2": "KZ-ALM",
+    "name": "Almaty"
+   },
+   "rule": "gb_and_wikidata_against_ne"
+  }
+ ],
+ "geoboundaries": {
+  "boundaryID": "KAZ-ADM1-16772668",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

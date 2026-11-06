@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MN-035"><data key="name">Orhon</data><data key="code">MN-035</data><data key="wikidata">Q234710</data><data key="lon">104.2855</data><data key="lat">49.01882</data></node>
+    <node id="MN-037"><data key="name">Darhan-Uul</data><data key="code">MN-037</data><data key="wikidata">Q18827</data><data key="lon">106.34861</data><data key="lat">49.45072</data></node>
+    <node id="MN-039"><data key="name">Hentiy</data><data key="code">MN-039</data><data key="wikidata">Q239040</data><data key="lon">110.45148</data><data key="lat">47.75435</data></node>
+    <node id="MN-041"><data key="name">Hövsgöl</data><data key="code">MN-041</data><data key="wikidata">Q244788</data><data key="lon">100.28626</data><data key="lat">50.20094</data></node>
+    <node id="MN-043"><data key="name">Hovd</data><data key="code">MN-043</data><data key="wikidata">Q194098</data><data key="lon">92.78604</data><data key="lat">46.98664</data></node>
+    <node id="MN-046"><data key="name">Uvs</data><data key="code">MN-046</data><data key="wikidata">Q192942</data><data key="lon">92.8614</data><data key="lat">49.6298</data></node>
+    <node id="MN-047"><data key="name">Töv</data><data key="code">MN-047</data><data key="wikidata">Q276195</data><data key="lon">105.61432</data><data key="lat">47.76053</data></node>
+    <node id="MN-049"><data key="name">Selenge</data><data key="code">MN-049</data><data key="wikidata">Q234680</data><data key="lon">107.53099</data><data key="lat">49.49088</data></node>
+    <node id="MN-051"><data key="name">Sühbaatar</data><data key="code">MN-051</data><data key="wikidata">Q244804</data><data key="lon">113.89859</data><data key="lat">46.28193</data></node>
+    <node id="MN-053"><data key="name">Ömnögovi</data><data key="code">MN-053</data><data key="wikidata">Q235579</data><data key="lon">103.75005</data><data key="lat">43.39123</data></node>
+    <node id="MN-055"><data key="name">Övörhangay</data><data key="code">MN-055</data><data key="wikidata">Q234713</data><data key="lon">102.68734</data><data key="lat">45.75832</data></node>
+    <node id="MN-057"><data key="name">Dzavhan</data><data key="code">MN-057</data><data key="wikidata">Q167764</data><data key="lon">96.22863</data><data key="lat">48.29943</data></node>
+    <node id="MN-059"><data key="name">Dundgovi</data><data key="code">MN-059</data><data key="wikidata">Q211835</data><data key="lon">106.08164</data><data key="lat">45.48401</data></node>
+    <node id="MN-061"><data key="name">Dornod</data><data key="code">MN-061</data><data key="wikidata">Q207795</data><data key="lon">114.16538</data><data key="lat">48.29452</data></node>
+    <node id="MN-063"><data key="name">Dornogovi</data><data key="code">MN-063</data><data key="wikidata">Q213272</data><data key="lon">109.69246</data><data key="lat">44.72143</data></node>
+    <node id="MN-064"><data key="name">Govĭ-Sümber</data><data key="code">MN-064</data><data key="wikidata">Q236333</data><data key="lon">108.34339</data><data key="lat">47.73378</data></node>
+    <node id="MN-065"><data key="name">Govi-Altay</data><data key="code">MN-065</data><data key="wikidata">Q192945</data><data key="lon">95.75374</data><data key="lat">45.20349</data></node>
+    <node id="MN-067"><data key="name">Bulgan</data><data key="code">MN-067</data><data key="wikidata">Q209774</data><data key="lon">103.21423</data><data key="lat">48.82351</data></node>
+    <node id="MN-069"><data key="name">Bayanhongor</data><data key="code">MN-069</data><data key="wikidata">Q276200</data><data key="lon">99.75755</data><data key="lat">45.13284</data></node>
+    <node id="MN-071"><data key="name">Bayan-Ölgiy</data><data key="code">MN-071</data><data key="wikidata">Q191792</data><data key="lon">89.67721</data><data key="lat">48.28453</data></node>
+    <node id="MN-073"><data key="name">Arhangay</data><data key="code">MN-073</data><data key="wikidata">Q207809</data><data key="lon">100.50021</data><data key="lat">48.0287</data></node>
+    <node id="MN-1"><data key="name">Ulaanbaatar</data><data key="code">MN-1</data><data key="wikidata">Q23430</data><data key="lon">106.96674</data><data key="lat">47.94974</data></node>
+    <edge source="MN-035" target="MN-049"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-035" target="MN-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-037" target="MN-049"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-039" target="MN-047"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-039" target="MN-049"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-039" target="MN-051"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-039" target="MN-061"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-039" target="MN-063"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-039" target="MN-064"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MN-039" target="MN-1"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="MN-041" target="MN-057"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-041" target="MN-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-041" target="MN-073"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-043" target="MN-046"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-043" target="MN-057"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-043" target="MN-065"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-043" target="MN-071"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-046" target="MN-057"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-046" target="MN-071"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-047" target="MN-049"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-047" target="MN-055"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-047" target="MN-059"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-047" target="MN-063"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-047" target="MN-064"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MN-047" target="MN-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-047" target="MN-1"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-049" target="MN-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-051" target="MN-061"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-051" target="MN-063"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-053" target="MN-055"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-053" target="MN-059"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-053" target="MN-063"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-053" target="MN-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-055" target="MN-059"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-055" target="MN-067"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-055" target="MN-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-055" target="MN-073"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-057" target="MN-065"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-057" target="MN-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-057" target="MN-073"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-059" target="MN-063"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-065" target="MN-069"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-067" target="MN-073"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MN-069" target="MN-073"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

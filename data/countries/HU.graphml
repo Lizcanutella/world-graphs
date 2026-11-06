@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="HU" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="HU-BA"><data key="name">Baranya</data><data key="code">HU-BA</data><data key="wikidata">Q186195</data><data key="lon">17.89625</data><data key="lat">46.07884</data></node>
+    <node id="HU-BC"><data key="name">Békéscsaba</data><data key="code">HU-BC</data><data key="wikidata">Q178878</data><data key="lon">21.0873</data><data key="lat">46.7533</data></node>
+    <node id="HU-BE"><data key="name">Békés</data><data key="code">HU-BE</data><data key="wikidata">Q191616</data><data key="lon">20.78761</data><data key="lat">46.72959</data></node>
+    <node id="HU-BK"><data key="name">Bács-Kiskun</data><data key="code">HU-BK</data><data key="wikidata">Q181018</data><data key="lon">19.36579</data><data key="lat">46.52292</data></node>
+    <node id="HU-BU"><data key="name">Budapest</data><data key="code">HU-BU</data><data key="wikidata">Q1781</data><data key="lon">19.13949</data><data key="lat">47.46684</data></node>
+    <node id="HU-BZ"><data key="name">Borsod-Abaúj-Zemplén</data><data key="code">HU-BZ</data><data key="wikidata">Q188895</data><data key="lon">21.15139</data><data key="lat">48.12061</data></node>
+    <node id="HU-CS"><data key="name">Csongrád</data><data key="code">HU-CS</data><data key="wikidata">Q193031</data><data key="lon">20.03613</data><data key="lat">46.46558</data></node>
+    <node id="HU-DE"><data key="name">Debrecen</data><data key="code">HU-DE</data><data key="wikidata">Q79880</data><data key="lon">21.64108</data><data key="lat">47.56097</data></node>
+    <node id="HU-DU"><data key="name">Dunaújváros</data><data key="code">HU-DU</data><data key="wikidata">Q187812</data><data key="lon">18.89849</data><data key="lat">46.92873</data></node>
+    <node id="HU-ED"><data key="name">Érd</data><data key="code">HU-ED</data><data key="wikidata">Q193050</data><data key="lon">18.90007</data><data key="lat">47.37824</data></node>
+    <node id="HU-EG"><data key="name">Eger</data><data key="code">HU-EG</data><data key="wikidata">Q167109</data><data key="lon">20.38449</data><data key="lat">47.92522</data></node>
+    <node id="HU-FE"><data key="name">Fejér</data><data key="code">HU-FE</data><data key="wikidata">Q187693</data><data key="lon">18.72424</data><data key="lat">47.12555</data></node>
+    <node id="HU-GS"><data key="name">Gyor-Moson-Sopron</data><data key="code">HU-GS</data><data key="wikidata">Q187753</data><data key="lon">17.3253</data><data key="lat">47.71071</data></node>
+    <node id="HU-GY"><data key="name">Gyôr</data><data key="code">HU-GY</data><data key="wikidata">Q134494</data><data key="lon">17.673</data><data key="lat">47.65631</data></node>
+    <node id="HU-HB"><data key="name">Hajdú-Bihar</data><data key="code">HU-HB</data><data key="wikidata">Q185368</data><data key="lon">21.26173</data><data key="lat">47.44853</data></node>
+    <node id="HU-HE"><data key="name">Heves</data><data key="code">HU-HE</data><data key="wikidata">Q191604</data><data key="lon">20.08887</data><data key="lat">47.77362</data></node>
+    <node id="HU-HV"><data key="name">Hódmezôvásárhely</data><data key="code">HU-HV</data><data key="wikidata">Q124375</data><data key="lon">20.40013</data><data key="lat">46.3976</data></node>
+    <node id="HU-JN"><data key="name">Jász-Nagykun-Szolnok</data><data key="code">HU-JN</data><data key="wikidata">Q189655</data><data key="lon">20.62653</data><data key="lat">47.22415</data></node>
+    <node id="HU-KE"><data key="name">Komárom-Esztergom</data><data key="code">HU-KE</data><data key="wikidata">Q190018</data><data key="lon">18.14643</data><data key="lat">47.58991</data></node>
+    <node id="HU-KM"><data key="name">Kecskemét</data><data key="code">HU-KM</data><data key="wikidata">Q171357</data><data key="lon">19.6719</data><data key="lat">46.88715</data></node>
+    <node id="HU-KV"><data key="name">Kaposvár</data><data key="code">HU-KV</data><data key="wikidata">Q184998</data><data key="lon">17.79649</data><data key="lat">46.34483</data></node>
+    <node id="HU-MI"><data key="name">Miskolc</data><data key="code">HU-MI</data><data key="wikidata">Q102397</data><data key="lon">20.67846</data><data key="lat">48.10737</data></node>
+    <node id="HU-NK"><data key="name">Nagykanizsa</data><data key="code">HU-NK</data><data key="wikidata">Q14424</data><data key="lon">16.97809</data><data key="lat">46.47506</data></node>
+    <node id="HU-NO"><data key="name">Nógrád</data><data key="code">HU-NO</data><data key="wikidata">Q194273</data><data key="lon">19.45323</data><data key="lat">47.96201</data></node>
+    <node id="HU-NY"><data key="name">Nyíregyháza</data><data key="code">HU-NY</data><data key="wikidata">Q171223</data><data key="lon">21.76314</data><data key="lat">47.94353</data></node>
+    <node id="HU-PE"><data key="name">Pest</data><data key="code">HU-PE</data><data key="wikidata">Q188612</data><data key="lon">19.53057</data><data key="lat">47.49965</data></node>
+    <node id="HU-PS"><data key="name">Pécs</data><data key="code">HU-PS</data><data key="wikidata">Q45779</data><data key="lon">18.24956</data><data key="lat">46.07606</data></node>
+    <node id="HU-SD"><data key="name">Szeged</data><data key="code">HU-SD</data><data key="wikidata">Q81581</data><data key="lon">20.17074</data><data key="lat">46.24591</data></node>
+    <node id="HU-SF"><data key="name">Székesfehérvár</data><data key="code">HU-SF</data><data key="wikidata">Q130212</data><data key="lon">18.45955</data><data key="lat">47.18445</data></node>
+    <node id="HU-SH"><data key="name">Szombathely</data><data key="code">HU-SH</data><data key="wikidata">Q42007</data><data key="lon">16.61891</data><data key="lat">47.22622</data></node>
+    <node id="HU-SK"><data key="name">Szolnok</data><data key="code">HU-SK</data><data key="wikidata">Q181276</data><data key="lon">20.16799</data><data key="lat">47.22809</data></node>
+    <node id="HU-SN"><data key="name">Sopron</data><data key="code">HU-SN</data><data key="wikidata">Q168648</data><data key="lon">16.59713</data><data key="lat">47.69439</data></node>
+    <node id="HU-SO"><data key="name">Somogy</data><data key="code">HU-SO</data><data key="wikidata">Q190522</data><data key="lon">17.39283</data><data key="lat">46.39939</data></node>
+    <node id="HU-SS"><data key="name">Szekszárd</data><data key="code">HU-SS</data><data key="wikidata">Q189761</data><data key="lon">18.71203</data><data key="lat">46.35763</data></node>
+    <node id="HU-ST"><data key="name">Salgótarján</data><data key="code">HU-ST</data><data key="wikidata">Q189769</data><data key="lon">19.80716</data><data key="lat">48.11002</data></node>
+    <node id="HU-SZ"><data key="name">Szabolcs-Szatmár-Bereg</data><data key="code">HU-SZ</data><data key="wikidata">Q190518</data><data key="lon">22.36421</data><data key="lat">48.00096</data></node>
+    <node id="HU-TB"><data key="name">Tatabánya</data><data key="code">HU-TB</data><data key="wikidata">Q187821</data><data key="lon">18.44995</data><data key="lat">47.56579</data></node>
+    <node id="HU-TO"><data key="name">Tolna</data><data key="code">HU-TO</data><data key="wikidata">Q191625</data><data key="lon">18.48876</data><data key="lat">46.47162</data></node>
+    <node id="HU-VA"><data key="name">Vas</data><data key="code">HU-VA</data><data key="wikidata">Q187677</data><data key="lon">16.83842</data><data key="lat">47.0751</data></node>
+    <node id="HU-VE"><data key="name">Veszprém (County)</data><data key="code">HU-VE</data><data key="wikidata">Q188890</data><data key="lon">17.5259</data><data key="lat">47.08217</data></node>
+    <node id="HU-VM"><data key="name">Veszprém (Urban county)</data><data key="code">HU-VM</data><data key="wikidata">Q146317</data><data key="lon">17.91828</data><data key="lat">47.10838</data></node>
+    <node id="HU-ZA"><data key="name">Zala</data><data key="code">HU-ZA</data><data key="wikidata">Q185374</data><data key="lon">16.77532</data><data key="lat">46.6747</data></node>
+    <node id="HU-ZE"><data key="name">Zalaegerszeg</data><data key="code">HU-ZE</data><data key="wikidata">Q60037</data><data key="lon">16.8369</data><data key="lat">46.85752</data></node>
+    <edge source="HU-BA" target="HU-BK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BA" target="HU-PS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BA" target="HU-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BA" target="HU-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BC" target="HU-BE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BE" target="HU-CS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BE" target="HU-HB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BE" target="HU-HV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BE" target="HU-JN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BK" target="HU-CS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BK" target="HU-DU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BK" target="HU-FE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BK" target="HU-JN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BK" target="HU-KM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BK" target="HU-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BK" target="HU-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BU" target="HU-ED"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BU" target="HU-PE"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BZ" target="HU-EG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BZ" target="HU-HB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BZ" target="HU-HE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BZ" target="HU-JN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BZ" target="HU-MI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-BZ" target="HU-NO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-BZ" target="HU-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-CS" target="HU-HV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-CS" target="HU-JN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-CS" target="HU-SD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-DE" target="HU-HB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-DU" target="HU-FE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-ED" target="HU-FE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-ED" target="HU-PE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-EG" target="HU-HE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-FE" target="HU-KE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-FE" target="HU-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-FE" target="HU-SF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-FE" target="HU-SO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-FE" target="HU-TB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-FE" target="HU-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-FE" target="HU-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-GS" target="HU-GY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-GS" target="HU-KE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-GS" target="HU-SN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-GS" target="HU-VA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-GS" target="HU-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-HB" target="HU-JN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-HB" target="HU-SZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-HE" target="HU-JN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-HE" target="HU-MI"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-HE" target="HU-NO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-HE" target="HU-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-HV" target="HU-SD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-JN" target="HU-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-JN" target="HU-SK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-KE" target="HU-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-KE" target="HU-TB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-KE" target="HU-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-KM" target="HU-PE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-KV" target="HU-SO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-NK" target="HU-SO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-NK" target="HU-ZA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-NO" target="HU-PE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-NO" target="HU-ST"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-NY" target="HU-SZ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-PE" target="HU-SK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-SH" target="HU-VA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-SO" target="HU-TO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-SO" target="HU-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-SO" target="HU-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-SS" target="HU-TO"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-VA" target="HU-VE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-VA" target="HU-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-VE" target="HU-VM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="HU-VE" target="HU-ZA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="HU-ZA" target="HU-ZE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

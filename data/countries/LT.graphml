@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="LT" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="LT-AL"><data key="name">Alytaus</data><data key="code">LT-AL</data><data key="wikidata">Q669470</data><data key="lon">24.05729</data><data key="lat">54.22124</data></node>
+    <node id="LT-KL"><data key="name">Klaipedos</data><data key="code">LT-KL</data><data key="wikidata">Q475207</data><data key="lon">21.4369</data><data key="lat">55.71037</data></node>
+    <node id="LT-KU"><data key="name">Kauno</data><data key="code">LT-KU</data><data key="wikidata">Q853861</data><data key="lon">24.07653</data><data key="lat">55.01983</data></node>
+    <node id="LT-MR"><data key="name">Marijampoles</data><data key="code">LT-MR</data><data key="wikidata">Q853948</data><data key="lon">23.19157</data><data key="lat">54.66548</data></node>
+    <node id="LT-PN"><data key="name">Panevezio</data><data key="code">LT-PN</data><data key="wikidata">Q188085</data><data key="lon">24.99937</data><data key="lat">55.9148</data></node>
+    <node id="LT-SA"><data key="name">Šiauliai</data><data key="code">LT-SA</data><data key="wikidata">Q186410</data><data key="lon">23.37945</data><data key="lat">55.9431</data></node>
+    <node id="LT-TA"><data key="name">Taurages</data><data key="code">LT-TA</data><data key="wikidata">Q188960</data><data key="lon">22.41494</data><data key="lat">55.3726</data></node>
+    <node id="LT-TE"><data key="name">Telšiai</data><data key="code">LT-TE</data><data key="wikidata">Q188963</data><data key="lon">22.12269</data><data key="lat">56.01219</data></node>
+    <node id="LT-UT"><data key="name">Utenos</data><data key="code">LT-UT</data><data key="wikidata">Q188659</data><data key="lon">25.60155</data><data key="lat">55.50421</data></node>
+    <node id="LT-VL"><data key="name">Vilniaus</data><data key="code">LT-VL</data><data key="wikidata">Q188061</data><data key="lon">25.22502</data><data key="lat">54.82466</data></node>
+    <edge source="LT-AL" target="LT-KU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-AL" target="LT-MR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-AL" target="LT-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-KL" target="LT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-KL" target="LT-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-KU" target="LT-MR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-KU" target="LT-PN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-KU" target="LT-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-KU" target="LT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-KU" target="LT-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-MR" target="LT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-PN" target="LT-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-PN" target="LT-UT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-PN" target="LT-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-SA" target="LT-TA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-SA" target="LT-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-TA" target="LT-TE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="LT-UT" target="LT-VL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,346 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "BS",
+ "kind": "country",
+ "name": "Bahamas",
+ "level": "districts",
+ "n": 30,
+ "m": 8,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "BS-AK",
+   "name": "Acklins",
+   "wikidata": "Q122687952",
+   "lon": -73.94481,
+   "lat": 22.45045
+  },
+  {
+   "code": "BS-BI",
+   "name": "Bimini",
+   "wikidata": "Q863476",
+   "lon": -79.26415,
+   "lat": 25.7342
+  },
+  {
+   "code": "BS-BP",
+   "name": "Black Point",
+   "wikidata": "Q2525298",
+   "lon": -76.35599,
+   "lat": 24.03512
+  },
+  {
+   "code": "BS-BY",
+   "name": "Berry Islands",
+   "wikidata": "Q827173",
+   "lon": -77.85857,
+   "lat": 25.75875
+  },
+  {
+   "code": "BS-CE",
+   "name": "Central Eleuthera",
+   "wikidata": "Q938518",
+   "lon": -76.15194,
+   "lat": 25.14086
+  },
+  {
+   "code": "BS-CI",
+   "name": "Cat Island",
+   "wikidata": "Q1050154",
+   "lon": -75.51939,
+   "lat": 24.40335
+  },
+  {
+   "code": "BS-CK",
+   "name": "Crooked Island and Long Cay",
+   "wikidata": "Q1140993",
+   "lon": -74.23516,
+   "lat": 22.75257
+  },
+  {
+   "code": "BS-CO",
+   "name": "Central Abaco",
+   "wikidata": "Q2525371",
+   "lon": -77.11545,
+   "lat": 26.48994
+  },
+  {
+   "code": "BS-CS",
+   "name": "Central Andros",
+   "wikidata": "Q2096558",
+   "lon": -77.93863,
+   "lat": 24.46634
+  },
+  {
+   "code": "BS-EG",
+   "name": "East Grand Bahama",
+   "wikidata": "Q2630334",
+   "lon": -78.18107,
+   "lat": 26.68354
+  },
+  {
+   "code": "BS-EX",
+   "name": "Exuma",
+   "wikidata": "Q1385577",
+   "lon": -75.58682,
+   "lat": 23.43159
+  },
+  {
+   "code": "BS-FP",
+   "name": "City of Freeport",
+   "wikidata": "Q867573",
+   "lon": -78.63394,
+   "lat": 26.5232
+  },
+  {
+   "code": "BS-HI",
+   "name": "Harbour Island",
+   "wikidata": "Q2357510",
+   "lon": -76.76682,
+   "lat": 25.5466
+  },
+  {
+   "code": "BS-IN",
+   "name": "Inagua",
+   "wikidata": "Q1353668",
+   "lon": -73.31429,
+   "lat": 21.12577
+  },
+  {
+   "code": "BS-LI",
+   "name": "Long Island",
+   "wikidata": "Q890879",
+   "lon": -75.10092,
+   "lat": 23.27322
+  },
+  {
+   "code": "BS-MC",
+   "name": "Mangrove Cay",
+   "wikidata": "Q2702334",
+   "lon": -77.83042,
+   "lat": 24.14275
+  },
+  {
+   "code": "BS-MG",
+   "name": "Mayaguana",
+   "wikidata": "Q21712462",
+   "lon": -72.98359,
+   "lat": 22.3722
+  },
+  {
+   "code": "BS-MI",
+   "name": "Moore's Island",
+   "wikidata": "Q2702345",
+   "lon": -77.55586,
+   "lat": 26.30193
+  },
+  {
+   "code": "BS-NE",
+   "name": "North Eleuthera",
+   "wikidata": "Q2705535",
+   "lon": -76.58627,
+   "lat": 25.42524
+  },
+  {
+   "code": "BS-NO",
+   "name": "North Abaco",
+   "wikidata": "Q623327",
+   "lon": -77.44346,
+   "lat": 26.78919
+  },
+  {
+   "code": "BS-NS",
+   "name": "North Andros",
+   "wikidata": "Q2699411",
+   "lon": -78.05476,
+   "lat": 24.83246
+  },
+  {
+   "code": "BS-RC",
+   "name": "Rum Cay",
+   "wikidata": "Q21713441",
+   "lon": -74.86265,
+   "lat": 23.6892
+  },
+  {
+   "code": "BS-RI",
+   "name": "Ragged Island",
+   "wikidata": "Q1532634",
+   "lon": -75.74215,
+   "lat": 22.20118
+  },
+  {
+   "code": "BS-SA",
+   "name": "South Andros",
+   "wikidata": "Q2408672",
+   "lon": -77.67601,
+   "lat": 23.97512
+  },
+  {
+   "code": "BS-SE",
+   "name": "South Eleuthera",
+   "wikidata": "Q2699715",
+   "lon": -76.3001,
+   "lat": 24.81704
+  },
+  {
+   "code": "BS-SO",
+   "name": "South Abaco",
+   "wikidata": "Q2703192",
+   "lon": -77.22505,
+   "lat": 26.12181
+  },
+  {
+   "code": "BS-SS",
+   "name": "San Salvador",
+   "wikidata": "Q845540",
+   "lon": -74.47999,
+   "lat": 24.05008
+  },
+  {
+   "code": "BS-SW",
+   "name": "Spanish Wells",
+   "wikidata": "Q1771681",
+   "lon": -76.84149,
+   "lat": 25.52035
+  },
+  {
+   "code": "BS-WG",
+   "name": "West Grand Bahama",
+   "wikidata": "Q2702338",
+   "lon": -78.52231,
+   "lat": 26.656
+  },
+  {
+   "code": "BS-X01~",
+   "name": "New Providence",
+   "wikidata": "Q858513",
+   "lon": -77.43633,
+   "lat": 25.02845
+  }
+ ],
+ "edges": [
+  {
+   "u": "BS-CE",
+   "v": "BS-NE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2451
+  },
+  {
+   "u": "BS-CE",
+   "v": "BS-SE",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1803
+  },
+  {
+   "u": "BS-CO",
+   "v": "BS-NO",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4836
+  },
+  {
+   "u": "BS-CO",
+   "v": "BS-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21338
+  },
+  {
+   "u": "BS-CS",
+   "v": "BS-NS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46804
+  },
+  {
+   "u": "BS-EG",
+   "v": "BS-WG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14564
+  },
+  {
+   "u": "BS-FP",
+   "v": "BS-WG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10039
+  },
+  {
+   "u": "BS-MC",
+   "v": "BS-SA",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "hand",
+     "reason": "no sea between them on NE's coastline (10 km shared); geoBoundaries' 64 m gap is within generalisation"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10066,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/South_Andros"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "BHS-ADM1-57655419",
+  "level": "ADM1",
+  "year": "09-09-2017 to 24-08-2020",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+ }
+}

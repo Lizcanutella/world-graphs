@@ -1,0 +1,317 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PK",
+ "kind": "country",
+ "name": "Pakistan",
+ "level": "provinces",
+ "n": 8,
+ "m": 14,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PK-BA",
+   "name": "Baluchistan",
+   "wikidata": "Q163239",
+   "lon": 65.62406,
+   "lat": 28.47831
+  },
+  {
+   "code": "PK-GB",
+   "name": "Northern Areas",
+   "wikidata": "Q200697",
+   "lon": 74.84323,
+   "lat": 35.76764
+  },
+  {
+   "code": "PK-IS",
+   "name": "F.C.T.",
+   "wikidata": "Q848613",
+   "lon": 73.05372,
+   "lat": 33.65079
+  },
+  {
+   "code": "PK-JK",
+   "name": "Azad Kashmir",
+   "wikidata": "Q200130",
+   "lon": 73.90159,
+   "lat": 33.97826
+  },
+  {
+   "code": "PK-KP",
+   "name": "K.P.",
+   "wikidata": "Q183314",
+   "lon": 72.43926,
+   "lat": 34.07323
+  },
+  {
+   "code": "PK-PB",
+   "name": "Punjab",
+   "wikidata": "Q4478",
+   "lon": 72.26854,
+   "lat": 30.86499
+  },
+  {
+   "code": "PK-SD",
+   "name": "Sind",
+   "wikidata": "Q37211",
+   "lon": 68.7628,
+   "lat": 26.14586
+  },
+  {
+   "code": "PK-TA",
+   "name": "F.A.T.A.",
+   "wikidata": "Q208270",
+   "lon": 69.98167,
+   "lat": 33.00282
+  }
+ ],
+ "edges": [
+  {
+   "u": "PK-BA",
+   "v": "PK-KP",
+   "rule": "gb_and_p47",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "PK-BA",
+   "v": "PK-PB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 363890
+  },
+  {
+   "u": "PK-BA",
+   "v": "PK-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 590976
+  },
+  {
+   "u": "PK-BA",
+   "v": "PK-TA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 239798
+  },
+  {
+   "u": "PK-GB",
+   "v": "PK-JK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 140469,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gilgit-Baltistan"
+    }
+   ]
+  },
+  {
+   "u": "PK-GB",
+   "v": "PK-KP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 462756
+  },
+  {
+   "u": "PK-IS",
+   "v": "PK-KP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20991
+  },
+  {
+   "u": "PK-IS",
+   "v": "PK-PB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 115188
+  },
+  {
+   "u": "PK-JK",
+   "v": "PK-KP",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 171570
+  },
+  {
+   "u": "PK-JK",
+   "v": "PK-PB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 191011,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Azad_Kashmir"
+    }
+   ]
+  },
+  {
+   "u": "PK-KP",
+   "v": "PK-PB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 671109
+  },
+  {
+   "u": "PK-KP",
+   "v": "PK-TA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 789268
+  },
+  {
+   "u": "PK-PB",
+   "v": "PK-SD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 120420
+  },
+  {
+   "u": "PK-PB",
+   "v": "PK-TA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32598
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "PAK-ADM1-70912109",
+  "level": "ADM1",
+  "year": "2019",
+  "license": "Public Domain"
+ }
+}

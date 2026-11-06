@@ -1,0 +1,55 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TO",
+ "kind": "country",
+ "name": "Tonga",
+ "level": "division",
+ "n": 5,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TO-01",
+   "name": "Eua",
+   "wikidata": "Q4533167",
+   "lon": -174.94438,
+   "lat": -21.36635
+  },
+  {
+   "code": "TO-02",
+   "name": "Ha'apai",
+   "wikidata": null,
+   "lon": -175.07001,
+   "lat": -19.76601
+  },
+  {
+   "code": "TO-03",
+   "name": "Niuas",
+   "wikidata": "Q1200954",
+   "lon": -175.65038,
+   "lat": -15.59181
+  },
+  {
+   "code": "TO-04",
+   "name": "Tongatapu",
+   "wikidata": "Q10383165",
+   "lon": -175.28329,
+   "lat": -21.16607
+  },
+  {
+   "code": "TO-05",
+   "name": "Vava'u",
+   "wikidata": null,
+   "lon": -174.04511,
+   "lat": -18.63567
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TON-ADM1-12702645",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

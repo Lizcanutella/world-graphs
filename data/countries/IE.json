@@ -1,0 +1,1401 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "IE",
+ "kind": "country",
+ "name": "Ireland",
+ "level": "counties",
+ "n": 30,
+ "m": 66,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "IE-CE",
+   "name": "Clare",
+   "wikidata": "Q181862",
+   "lon": -8.92458,
+   "lat": 52.86115
+  },
+  {
+   "code": "IE-CN",
+   "name": "Cavan",
+   "wikidata": "Q187402",
+   "lon": -7.28044,
+   "lat": 54.03487
+  },
+  {
+   "code": "IE-CO",
+   "name": "Cork",
+   "wikidata": "Q162475",
+   "lon": -8.60021,
+   "lat": 51.91224
+  },
+  {
+   "code": "IE-CW",
+   "name": "Carlow",
+   "wikidata": "Q181882",
+   "lon": -6.81736,
+   "lat": 52.69529
+  },
+  {
+   "code": "IE-D",
+   "name": "Dublin",
+   "wikidata": "Q173500",
+   "lon": -6.27165,
+   "lat": 53.36632
+  },
+  {
+   "code": "IE-D:Dún Laoghaire–Rathdown",
+   "name": "Dún Laoghaire–Rathdown",
+   "wikidata": "Q538417",
+   "lon": -6.1937,
+   "lat": 53.25544
+  },
+  {
+   "code": "IE-D:Fingal",
+   "name": "Fingal",
+   "wikidata": "Q520000",
+   "lon": -6.21899,
+   "lat": 53.49741
+  },
+  {
+   "code": "IE-D:South Dublin",
+   "name": "South Dublin",
+   "wikidata": "Q822865",
+   "lon": -6.39915,
+   "lat": 53.27394
+  },
+  {
+   "code": "IE-DL",
+   "name": "Donegal",
+   "wikidata": "Q179424",
+   "lon": -7.95052,
+   "lat": 54.92711
+  },
+  {
+   "code": "IE-G",
+   "name": "Galway",
+   "wikidata": "Q169923",
+   "lon": -8.88165,
+   "lat": 53.34483
+  },
+  {
+   "code": "IE-KE",
+   "name": "Kildare",
+   "wikidata": "Q173332",
+   "lon": -6.80251,
+   "lat": 53.15782
+  },
+  {
+   "code": "IE-KK",
+   "name": "Kilkenny",
+   "wikidata": "Q180231",
+   "lon": -7.18594,
+   "lat": 52.56757
+  },
+  {
+   "code": "IE-KY",
+   "name": "Kerry",
+   "wikidata": "Q184469",
+   "lon": -9.50137,
+   "lat": 52.13184
+  },
+  {
+   "code": "IE-LD",
+   "name": "Longford",
+   "wikidata": "Q186220",
+   "lon": -7.69494,
+   "lat": 53.73013
+  },
+  {
+   "code": "IE-LH",
+   "name": "Louth",
+   "wikidata": "Q183539",
+   "lon": -6.52265,
+   "lat": 53.91102
+  },
+  {
+   "code": "IE-LK",
+   "name": "Limerick",
+   "wikidata": "Q178283",
+   "lon": -8.76938,
+   "lat": 52.51643
+  },
+  {
+   "code": "IE-LM",
+   "name": "Leitrim",
+   "wikidata": "Q107397",
+   "lon": -8.03418,
+   "lat": 54.13365
+  },
+  {
+   "code": "IE-LS",
+   "name": "Laoighis",
+   "wikidata": "Q55299",
+   "lon": -7.3857,
+   "lat": 52.99571
+  },
+  {
+   "code": "IE-MH",
+   "name": "Meath",
+   "wikidata": "Q183544",
+   "lon": -6.58577,
+   "lat": 53.64729
+  },
+  {
+   "code": "IE-MN",
+   "name": "Monaghan",
+   "wikidata": "Q184760",
+   "lon": -6.95063,
+   "lat": 54.15827
+  },
+  {
+   "code": "IE-MO",
+   "name": "Mayo",
+   "wikidata": "Q178626",
+   "lon": -9.29052,
+   "lat": 53.90535
+  },
+  {
+   "code": "IE-OY",
+   "name": "Offaly",
+   "wikidata": "Q184445",
+   "lon": -7.8272,
+   "lat": 53.14079
+  },
+  {
+   "code": "IE-RN",
+   "name": "Roscommon",
+   "wikidata": "Q179437",
+   "lon": -8.21697,
+   "lat": 53.69605
+  },
+  {
+   "code": "IE-SO",
+   "name": "Sligo",
+   "wikidata": "Q179325",
+   "lon": -8.73114,
+   "lat": 54.19351
+  },
+  {
+   "code": "IE-TA:North Tipperary",
+   "name": "North Tipperary",
+   "wikidata": "Q184618",
+   "lon": -8.07315,
+   "lat": 52.84672
+  },
+  {
+   "code": "IE-TA:South Tipperary",
+   "name": "South Tipperary",
+   "wikidata": "Q184618",
+   "lon": -7.92126,
+   "lat": 52.46998
+  },
+  {
+   "code": "IE-WD",
+   "name": "Waterford",
+   "wikidata": "Q184594",
+   "lon": -7.64986,
+   "lat": 52.15259
+  },
+  {
+   "code": "IE-WH",
+   "name": "Westmeath",
+   "wikidata": "Q182633",
+   "lon": -7.3303,
+   "lat": 53.56014
+  },
+  {
+   "code": "IE-WW",
+   "name": "Wicklow",
+   "wikidata": "Q182591",
+   "lon": -6.37781,
+   "lat": 52.95183
+  },
+  {
+   "code": "IE-WX",
+   "name": "Wexford",
+   "wikidata": "Q184599",
+   "lon": -6.60743,
+   "lat": 52.45981
+  }
+ ],
+ "edges": [
+  {
+   "u": "IE-CE",
+   "v": "IE-G",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70184
+  },
+  {
+   "u": "IE-CE",
+   "v": "IE-LK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28404
+  },
+  {
+   "u": "IE-CE",
+   "v": "IE-TA:North Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32312
+  },
+  {
+   "u": "IE-CN",
+   "v": "IE-LD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27638
+  },
+  {
+   "u": "IE-CN",
+   "v": "IE-LM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64843
+  },
+  {
+   "u": "IE-CN",
+   "v": "IE-MH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59349
+  },
+  {
+   "u": "IE-CN",
+   "v": "IE-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49369
+  },
+  {
+   "u": "IE-CN",
+   "v": "IE-WH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3780
+  },
+  {
+   "u": "IE-CO",
+   "v": "IE-KY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 117585
+  },
+  {
+   "u": "IE-CO",
+   "v": "IE-LK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86988
+  },
+  {
+   "u": "IE-CO",
+   "v": "IE-TA:South Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11096
+  },
+  {
+   "u": "IE-CO",
+   "v": "IE-WD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39227
+  },
+  {
+   "u": "IE-CW",
+   "v": "IE-KE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17472
+  },
+  {
+   "u": "IE-CW",
+   "v": "IE-KK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44569
+  },
+  {
+   "u": "IE-CW",
+   "v": "IE-LS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14977
+  },
+  {
+   "u": "IE-CW",
+   "v": "IE-WW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51405
+  },
+  {
+   "u": "IE-CW",
+   "v": "IE-WX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41303
+  },
+  {
+   "u": "IE-D",
+   "v": "IE-D:Dún Laoghaire–Rathdown",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6288
+  },
+  {
+   "u": "IE-D",
+   "v": "IE-D:Fingal",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20711
+  },
+  {
+   "u": "IE-D",
+   "v": "IE-D:South Dublin",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11715
+  },
+  {
+   "u": "IE-D:Dún Laoghaire–Rathdown",
+   "v": "IE-D:South Dublin",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10734
+  },
+  {
+   "u": "IE-D:Dún Laoghaire–Rathdown",
+   "v": "IE-WW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14819
+  },
+  {
+   "u": "IE-D:Fingal",
+   "v": "IE-D:South Dublin",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9982
+  },
+  {
+   "u": "IE-D:Fingal",
+   "v": "IE-KE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 2312
+  },
+  {
+   "u": "IE-D:Fingal",
+   "v": "IE-MH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45789
+  },
+  {
+   "u": "IE-D:South Dublin",
+   "v": "IE-KE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20922
+  },
+  {
+   "u": "IE-D:South Dublin",
+   "v": "IE-WW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17190
+  },
+  {
+   "u": "IE-DL",
+   "v": "IE-LM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8970
+  },
+  {
+   "u": "IE-G",
+   "v": "IE-MO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79840
+  },
+  {
+   "u": "IE-G",
+   "v": "IE-OY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17812
+  },
+  {
+   "u": "IE-G",
+   "v": "IE-RN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 94650
+  },
+  {
+   "u": "IE-G",
+   "v": "IE-TA:North Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27325
+  },
+  {
+   "u": "IE-KE",
+   "v": "IE-LS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40836
+  },
+  {
+   "u": "IE-KE",
+   "v": "IE-MH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50126
+  },
+  {
+   "u": "IE-KE",
+   "v": "IE-OY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39508
+  },
+  {
+   "u": "IE-KE",
+   "v": "IE-WW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45499
+  },
+  {
+   "u": "IE-KK",
+   "v": "IE-LS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56873
+  },
+  {
+   "u": "IE-KK",
+   "v": "IE-TA:North Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6020
+  },
+  {
+   "u": "IE-KK",
+   "v": "IE-TA:South Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54382
+  },
+  {
+   "u": "IE-KK",
+   "v": "IE-WD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32020
+  },
+  {
+   "u": "IE-KK",
+   "v": "IE-WX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24868
+  },
+  {
+   "u": "IE-KY",
+   "v": "IE-LK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39389
+  },
+  {
+   "u": "IE-LD",
+   "v": "IE-LM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32366
+  },
+  {
+   "u": "IE-LD",
+   "v": "IE-RN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39126
+  },
+  {
+   "u": "IE-LD",
+   "v": "IE-WH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62967
+  },
+  {
+   "u": "IE-LH",
+   "v": "IE-MH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43880
+  },
+  {
+   "u": "IE-LH",
+   "v": "IE-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24407
+  },
+  {
+   "u": "IE-LK",
+   "v": "IE-TA:North Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27157
+  },
+  {
+   "u": "IE-LK",
+   "v": "IE-TA:South Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68876
+  },
+  {
+   "u": "IE-LM",
+   "v": "IE-RN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53194
+  },
+  {
+   "u": "IE-LM",
+   "v": "IE-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54563
+  },
+  {
+   "u": "IE-LS",
+   "v": "IE-OY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71617
+  },
+  {
+   "u": "IE-LS",
+   "v": "IE-TA:North Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24493
+  },
+  {
+   "u": "IE-MH",
+   "v": "IE-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4504
+  },
+  {
+   "u": "IE-MH",
+   "v": "IE-OY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9210
+  },
+  {
+   "u": "IE-MH",
+   "v": "IE-WH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68816
+  },
+  {
+   "u": "IE-MO",
+   "v": "IE-RN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51765
+  },
+  {
+   "u": "IE-MO",
+   "v": "IE-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71798
+  },
+  {
+   "u": "IE-OY",
+   "v": "IE-RN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12518
+  },
+  {
+   "u": "IE-OY",
+   "v": "IE-TA:North Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78580
+  },
+  {
+   "u": "IE-OY",
+   "v": "IE-WH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65978
+  },
+  {
+   "u": "IE-RN",
+   "v": "IE-SO",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54792
+  },
+  {
+   "u": "IE-RN",
+   "v": "IE-WH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18096
+  },
+  {
+   "u": "IE-TA:North Tipperary",
+   "v": "IE-TA:South Tipperary",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65144,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/County_Tipperary"
+    }
+   ]
+  },
+  {
+   "u": "IE-TA:South Tipperary",
+   "v": "IE-WD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 70125
+  },
+  {
+   "u": "IE-WW",
+   "v": "IE-WX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41606
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "IRL-ADM2-5873133",
+  "level": "ADM2",
+  "year": "2015",
+  "license": "Creative Commons Attribution 4.0 (CC BY 4.0)"
+ }
+}

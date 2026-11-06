@@ -1,0 +1,125 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "TG",
+ "kind": "country",
+ "name": "Togo",
+ "level": "regions",
+ "n": 5,
+ "m": 4,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "TG-C",
+   "name": "Centre",
+   "wikidata": "Q316220",
+   "lon": 1.03204,
+   "lat": 8.59774
+  },
+  {
+   "code": "TG-K",
+   "name": "Kara",
+   "wikidata": "Q316216",
+   "lon": 0.77743,
+   "lat": 9.52876
+  },
+  {
+   "code": "TG-M",
+   "name": "Maritime",
+   "wikidata": "Q316291",
+   "lon": 1.19698,
+   "lat": 6.50597
+  },
+  {
+   "code": "TG-P",
+   "name": "Plateaux",
+   "wikidata": "Q316306",
+   "lon": 1.06367,
+   "lat": 7.44658
+  },
+  {
+   "code": "TG-S",
+   "name": "Savanes",
+   "wikidata": "Q279945",
+   "lon": 0.44543,
+   "lat": 10.49988
+  }
+ ],
+ "edges": [
+  {
+   "u": "TG-C",
+   "v": "TG-K",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 138579
+  },
+  {
+   "u": "TG-C",
+   "v": "TG-P",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 157899
+  },
+  {
+   "u": "TG-K",
+   "v": "TG-S",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 111462
+  },
+  {
+   "u": "TG-M",
+   "v": "TG-P",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 126737
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "TGO-ADM1-44829518",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

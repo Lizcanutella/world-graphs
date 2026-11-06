@@ -1,0 +1,204 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KW",
+ "kind": "country",
+ "name": "Kuwait",
+ "level": "governorates",
+ "n": 6,
+ "m": 10,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KW-AH",
+   "name": "Al Ahmadi",
+   "wikidata": "Q552354",
+   "lon": 47.87976,
+   "lat": 28.89923
+  },
+  {
+   "code": "KW-FA",
+   "name": "Al Farwaniyah",
+   "wikidata": "Q1072757",
+   "lon": 47.93892,
+   "lat": 29.2567
+  },
+  {
+   "code": "KW-HA",
+   "name": "Hawalli",
+   "wikidata": "Q747432",
+   "lon": 48.04308,
+   "lat": 29.33686
+  },
+  {
+   "code": "KW-JA",
+   "name": "Al Jahrah",
+   "wikidata": "Q405701",
+   "lon": 47.40688,
+   "lat": 29.53544
+  },
+  {
+   "code": "KW-KU",
+   "name": "Al Asimah",
+   "wikidata": "Q1046645",
+   "lon": 48.33917,
+   "lat": 29.43017
+  },
+  {
+   "code": "KW-MU",
+   "name": "Mubarak Al-Kabeer",
+   "wikidata": "Q913370",
+   "lon": 48.05971,
+   "lat": 29.26103
+  }
+ ],
+ "edges": [
+  {
+   "u": "KW-AH",
+   "v": "KW-FA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25721
+  },
+  {
+   "u": "KW-AH",
+   "v": "KW-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58750
+  },
+  {
+   "u": "KW-AH",
+   "v": "KW-MU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6981
+  },
+  {
+   "u": "KW-FA",
+   "v": "KW-HA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4212
+  },
+  {
+   "u": "KW-FA",
+   "v": "KW-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6457
+  },
+  {
+   "u": "KW-FA",
+   "v": "KW-KU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12563
+  },
+  {
+   "u": "KW-FA",
+   "v": "KW-MU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9990
+  },
+  {
+   "u": "KW-HA",
+   "v": "KW-KU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6017
+  },
+  {
+   "u": "KW-HA",
+   "v": "KW-MU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8583
+  },
+  {
+   "u": "KW-JA",
+   "v": "KW-KU",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1596
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "KWT-ADM1-60633882",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

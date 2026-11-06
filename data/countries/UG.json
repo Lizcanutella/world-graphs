@@ -1,0 +1,4698 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "UG",
+ "kind": "country",
+ "name": "Uganda",
+ "level": "districts",
+ "n": 111,
+ "m": 268,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "UG-101",
+   "name": "Kalangala",
+   "wikidata": "Q867219",
+   "lon": 32.48943,
+   "lat": -0.4351
+  },
+  {
+   "code": "UG-102",
+   "name": "Kampala",
+   "wikidata": "Q926417",
+   "lon": 32.61773,
+   "lat": 0.37496
+  },
+  {
+   "code": "UG-103",
+   "name": "Kiboga",
+   "wikidata": "Q892064",
+   "lon": 31.88338,
+   "lat": 0.88781
+  },
+  {
+   "code": "UG-104",
+   "name": "Luweero",
+   "wikidata": "Q1364817",
+   "lon": 32.62713,
+   "lat": 0.79879
+  },
+  {
+   "code": "UG-105",
+   "name": "Masaka",
+   "wikidata": "Q1032233",
+   "lon": 31.75362,
+   "lat": -0.48543
+  },
+  {
+   "code": "UG-106",
+   "name": "Mpigi",
+   "wikidata": "Q1362109",
+   "lon": 32.26283,
+   "lat": 0.15837
+  },
+  {
+   "code": "UG-107",
+   "name": "Mubende",
+   "wikidata": "Q891962",
+   "lon": 31.58126,
+   "lat": 0.52002
+  },
+  {
+   "code": "UG-108",
+   "name": "Mukono",
+   "wikidata": "Q1151066",
+   "lon": 32.83269,
+   "lat": 0.47093
+  },
+  {
+   "code": "UG-109",
+   "name": "Nakasongola",
+   "wikidata": "Q976859",
+   "lon": 32.46522,
+   "lat": 1.32431
+  },
+  {
+   "code": "UG-110",
+   "name": "Rakai",
+   "wikidata": "Q976873",
+   "lon": 31.4568,
+   "lat": -0.73405
+  },
+  {
+   "code": "UG-111",
+   "name": "Sembabule",
+   "wikidata": "Q976883",
+   "lon": 31.36237,
+   "lat": -0.04054
+  },
+  {
+   "code": "UG-112",
+   "name": "Kayunga",
+   "wikidata": "Q1207391",
+   "lon": 32.86139,
+   "lat": 1.02195
+  },
+  {
+   "code": "UG-113",
+   "name": "Wakiso",
+   "wikidata": "Q976848",
+   "lon": 32.52909,
+   "lat": 0.26906
+  },
+  {
+   "code": "UG-114",
+   "name": "Mityana",
+   "wikidata": "Q1230005",
+   "lon": 32.0967,
+   "lat": 0.46785
+  },
+  {
+   "code": "UG-115",
+   "name": "Nakaseke",
+   "wikidata": "Q432438",
+   "lon": 32.20054,
+   "lat": 1.01412
+  },
+  {
+   "code": "UG-116",
+   "name": "Lyantonde",
+   "wikidata": "Q1375878",
+   "lon": 31.16434,
+   "lat": -0.29528
+  },
+  {
+   "code": "UG-117",
+   "name": "Buikwe",
+   "wikidata": "Q3321631",
+   "lon": 33.10234,
+   "lat": 0.33819
+  },
+  {
+   "code": "UG-118",
+   "name": "Bukomansimbi",
+   "wikidata": "Q3321599",
+   "lon": 31.6457,
+   "lat": -0.09851
+  },
+  {
+   "code": "UG-119",
+   "name": "Butambala",
+   "wikidata": "Q3321622",
+   "lon": 32.01104,
+   "lat": 0.13062
+  },
+  {
+   "code": "UG-120",
+   "name": "Buvuma",
+   "wikidata": "Q3321608",
+   "lon": 33.29281,
+   "lat": 0.19351
+  },
+  {
+   "code": "UG-121",
+   "name": "Gomba",
+   "wikidata": "Q3321637",
+   "lon": 31.70431,
+   "lat": 0.19175
+  },
+  {
+   "code": "UG-122",
+   "name": "Kalungu",
+   "wikidata": "Q3321614",
+   "lon": 31.81838,
+   "lat": -0.09851
+  },
+  {
+   "code": "UG-123",
+   "name": "Kyankwanzi",
+   "wikidata": "Q534203",
+   "lon": 31.68965,
+   "lat": 1.0995
+  },
+  {
+   "code": "UG-124",
+   "name": "Lwengo",
+   "wikidata": "Q1114954",
+   "lon": 31.42588,
+   "lat": -0.42869
+  },
+  {
+   "code": "UG-201",
+   "name": "Bugiri",
+   "wikidata": "Q1229798",
+   "lon": 33.7637,
+   "lat": 0.52258
+  },
+  {
+   "code": "UG-202",
+   "name": "Busia",
+   "wikidata": "Q1229800",
+   "lon": 33.99574,
+   "lat": 0.39476
+  },
+  {
+   "code": "UG-203",
+   "name": "Iganga",
+   "wikidata": "Q1229869",
+   "lon": 33.59037,
+   "lat": 0.65354
+  },
+  {
+   "code": "UG-204",
+   "name": "Jinja",
+   "wikidata": "Q983748",
+   "lon": 33.33857,
+   "lat": 0.51312
+  },
+  {
+   "code": "UG-205",
+   "name": "Kamuli",
+   "wikidata": "Q164474",
+   "lon": 33.12931,
+   "lat": 0.92757
+  },
+  {
+   "code": "UG-206",
+   "name": "Kapchorwa",
+   "wikidata": "Q1229921",
+   "lon": 34.47874,
+   "lat": 1.26688
+  },
+  {
+   "code": "UG-207",
+   "name": "Katakwi",
+   "wikidata": "Q1229930",
+   "lon": 34.05357,
+   "lat": 1.9686
+  },
+  {
+   "code": "UG-208",
+   "name": "Kumi",
+   "wikidata": "Q1151062",
+   "lon": 33.94574,
+   "lat": 1.46311
+  },
+  {
+   "code": "UG-209",
+   "name": "Mbale",
+   "wikidata": "Q581822",
+   "lon": 34.19339,
+   "lat": 1.01131
+  },
+  {
+   "code": "UG-210",
+   "name": "Pallisa",
+   "wikidata": "Q1375843",
+   "lon": 33.74988,
+   "lat": 1.21732
+  },
+  {
+   "code": "UG-211",
+   "name": "Soroti",
+   "wikidata": "Q1091337",
+   "lon": 33.59871,
+   "lat": 1.80036
+  },
+  {
+   "code": "UG-212",
+   "name": "Tororo",
+   "wikidata": "Q1186541",
+   "lon": 34.09065,
+   "lat": 0.73524
+  },
+  {
+   "code": "UG-213",
+   "name": "Kaberamaido",
+   "wikidata": "Q1229906",
+   "lon": 33.27748,
+   "lat": 1.78376
+  },
+  {
+   "code": "UG-214",
+   "name": "Mayuge",
+   "wikidata": "Q1364824",
+   "lon": 33.55842,
+   "lat": 0.31494
+  },
+  {
+   "code": "UG-215",
+   "name": "Sironko",
+   "wikidata": "Q1375835",
+   "lon": 34.33321,
+   "lat": 1.16554
+  },
+  {
+   "code": "UG-216",
+   "name": "Amuria",
+   "wikidata": "Q1375762",
+   "lon": 33.62898,
+   "lat": 2.06454
+  },
+  {
+   "code": "UG-217",
+   "name": "Budaka",
+   "wikidata": "Q1362085",
+   "lon": 33.9661,
+   "lat": 1.04252
+  },
+  {
+   "code": "UG-218",
+   "name": "Bukwa",
+   "wikidata": "Q1375868",
+   "lon": 34.69353,
+   "lat": 1.26054
+  },
+  {
+   "code": "UG-219",
+   "name": "Butaleja",
+   "wikidata": "Q1375755",
+   "lon": 33.86846,
+   "lat": 0.85922
+  },
+  {
+   "code": "UG-220",
+   "name": "Kaliro",
+   "wikidata": "Q1375859",
+   "lon": 33.48635,
+   "lat": 1.07363
+  },
+  {
+   "code": "UG-221",
+   "name": "Manafwa",
+   "wikidata": "Q1375789",
+   "lon": 34.3077,
+   "lat": 0.87509
+  },
+  {
+   "code": "UG-222",
+   "name": "Namutumba",
+   "wikidata": "Q1375819",
+   "lon": 33.6543,
+   "lat": 0.89659
+  },
+  {
+   "code": "UG-223",
+   "name": "Bududa",
+   "wikidata": "Q1365449",
+   "lon": 34.38711,
+   "lat": 1.05441
+  },
+  {
+   "code": "UG-224",
+   "name": "Bukedea",
+   "wikidata": "Q1375812",
+   "lon": 34.13101,
+   "lat": 1.37339
+  },
+  {
+   "code": "UG-225",
+   "name": "Bulambuli",
+   "wikidata": "Q1114868",
+   "lon": 34.29128,
+   "lat": 1.36458
+  },
+  {
+   "code": "UG-226",
+   "name": "Buyende",
+   "wikidata": "Q1114938",
+   "lon": 33.17916,
+   "lat": 1.19543
+  },
+  {
+   "code": "UG-227",
+   "name": "Kibuku",
+   "wikidata": "Q1114885",
+   "lon": 33.77449,
+   "lat": 1.04461
+  },
+  {
+   "code": "UG-228",
+   "name": "Kween",
+   "wikidata": "Q3321998",
+   "lon": 34.64058,
+   "lat": 1.38497
+  },
+  {
+   "code": "UG-229",
+   "name": "Luuka",
+   "wikidata": "Q1114977",
+   "lon": 33.35665,
+   "lat": 0.80708
+  },
+  {
+   "code": "UG-230",
+   "name": "Namayingo",
+   "wikidata": "Q1114915",
+   "lon": 33.81836,
+   "lat": 0.3126
+  },
+  {
+   "code": "UG-231",
+   "name": "Ngora",
+   "wikidata": "Q1114903",
+   "lon": 33.76319,
+   "lat": 1.46311
+  },
+  {
+   "code": "UG-232",
+   "name": "Serere",
+   "wikidata": "Q1114927",
+   "lon": 33.48091,
+   "lat": 1.48088
+  },
+  {
+   "code": "UG-301",
+   "name": "Adjumani",
+   "wikidata": "Q1229734",
+   "lon": 31.79084,
+   "lat": 3.23352
+  },
+  {
+   "code": "UG-302",
+   "name": "Apac",
+   "wikidata": "Q1229750",
+   "lon": 32.64523,
+   "lat": 1.9142
+  },
+  {
+   "code": "UG-303",
+   "name": "Arua",
+   "wikidata": "Q1229758",
+   "lon": 31.11562,
+   "lat": 2.96433
+  },
+  {
+   "code": "UG-304",
+   "name": "Gulu",
+   "wikidata": "Q1028215",
+   "lon": 32.40515,
+   "lat": 2.89751
+  },
+  {
+   "code": "UG-305",
+   "name": "Kitgum",
+   "wikidata": "Q500162",
+   "lon": 33.27022,
+   "lat": 3.39477
+  },
+  {
+   "code": "UG-306",
+   "name": "Kotido",
+   "wikidata": "Q1318843",
+   "lon": 34.0449,
+   "lat": 2.96366
+  },
+  {
+   "code": "UG-307",
+   "name": "Lira",
+   "wikidata": "Q206519",
+   "lon": 32.87373,
+   "lat": 2.32628
+  },
+  {
+   "code": "UG-308",
+   "name": "Moroto",
+   "wikidata": "Q1375850",
+   "lon": 34.72576,
+   "lat": 2.6229
+  },
+  {
+   "code": "UG-309",
+   "name": "Moyo",
+   "wikidata": "Q2183668",
+   "lon": 31.58494,
+   "lat": 3.48166
+  },
+  {
+   "code": "UG-310",
+   "name": "Nebbi",
+   "wikidata": "Q1375825",
+   "lon": 31.27829,
+   "lat": 2.47602
+  },
+  {
+   "code": "UG-311",
+   "name": "Nakapiripirit",
+   "wikidata": "Q1375853",
+   "lon": 34.61524,
+   "lat": 2.02182
+  },
+  {
+   "code": "UG-312",
+   "name": "Pader",
+   "wikidata": "Q1230035",
+   "lon": 32.93252,
+   "lat": 2.86564
+  },
+  {
+   "code": "UG-313",
+   "name": "Yumbe",
+   "wikidata": "Q1362587",
+   "lon": 31.25476,
+   "lat": 3.44127
+  },
+  {
+   "code": "UG-314",
+   "name": "Amolatar",
+   "wikidata": "Q1318822",
+   "lon": 32.79392,
+   "lat": 1.64939
+  },
+  {
+   "code": "UG-315",
+   "name": "Kaabong",
+   "wikidata": "Q1229881",
+   "lon": 34.00639,
+   "lat": 3.65103
+  },
+  {
+   "code": "UG-316",
+   "name": "Koboko",
+   "wikidata": "Q1318857",
+   "lon": 30.946,
+   "lat": 3.52637
+  },
+  {
+   "code": "UG-317",
+   "name": "Abim",
+   "wikidata": "Q1375780",
+   "lon": 33.72159,
+   "lat": 2.82516
+  },
+  {
+   "code": "UG-318",
+   "name": "Dokolo",
+   "wikidata": "Q1318872",
+   "lon": 33.12931,
+   "lat": 1.9081
+  },
+  {
+   "code": "UG-319",
+   "name": "Amuru",
+   "wikidata": "Q1375771",
+   "lon": 32.07124,
+   "lat": 3.09637
+  },
+  {
+   "code": "UG-320",
+   "name": "Maracha",
+   "wikidata": "Q588927",
+   "lon": 30.91793,
+   "lat": 3.25603
+  },
+  {
+   "code": "UG-321",
+   "name": "Oyam",
+   "wikidata": "Q1318833",
+   "lon": 32.42225,
+   "lat": 2.29682
+  },
+  {
+   "code": "UG-322",
+   "name": "Agago",
+   "wikidata": "Q3536053",
+   "lon": 33.3463,
+   "lat": 2.94198
+  },
+  {
+   "code": "UG-323",
+   "name": "Alebtong",
+   "wikidata": "Q3536082",
+   "lon": 33.28205,
+   "lat": 2.24711
+  },
+  {
+   "code": "UG-324",
+   "name": "Amudat",
+   "wikidata": "Q3536116",
+   "lon": 34.89134,
+   "lat": 1.82368
+  },
+  {
+   "code": "UG-325",
+   "name": "Buhweju",
+   "wikidata": "Q3537661",
+   "lon": 30.31873,
+   "lat": -0.34975
+  },
+  {
+   "code": "UG-326",
+   "name": "Kole",
+   "wikidata": "Q3539151",
+   "lon": 32.69649,
+   "lat": 2.28342
+  },
+  {
+   "code": "UG-327",
+   "name": "Lamwo",
+   "wikidata": "Q3539277",
+   "lon": 32.65965,
+   "lat": 3.51234
+  },
+  {
+   "code": "UG-328",
+   "name": "Napak",
+   "wikidata": "Q3539495",
+   "lon": 34.20744,
+   "lat": 2.3821
+  },
+  {
+   "code": "UG-329",
+   "name": "Nwoya",
+   "wikidata": "Q3539572",
+   "lon": 31.92622,
+   "lat": 2.49361
+  },
+  {
+   "code": "UG-330",
+   "name": "Otuke",
+   "wikidata": "Q3539602",
+   "lon": 33.31721,
+   "lat": 2.47979
+  },
+  {
+   "code": "UG-331",
+   "name": "Zombo",
+   "wikidata": "Q3539730",
+   "lon": 30.90237,
+   "lat": 2.53111
+  },
+  {
+   "code": "UG-401",
+   "name": "Bundibugyo",
+   "wikidata": "Q1362129",
+   "lon": 30.03698,
+   "lat": 0.67523
+  },
+  {
+   "code": "UG-402",
+   "name": "Bushenyi",
+   "wikidata": "Q1229797",
+   "lon": 30.13432,
+   "lat": -0.49087
+  },
+  {
+   "code": "UG-403",
+   "name": "Hoima",
+   "wikidata": "Q1186535",
+   "lon": 31.16636,
+   "lat": 1.42075
+  },
+  {
+   "code": "UG-404",
+   "name": "Kabale",
+   "wikidata": "Q3526470",
+   "lon": 30.01048,
+   "lat": -1.23837
+  },
+  {
+   "code": "UG-405",
+   "name": "Kabarole",
+   "wikidata": "Q1229910",
+   "lon": 30.2593,
+   "lat": 0.60374
+  },
+  {
+   "code": "UG-406",
+   "name": "Kasese",
+   "wikidata": "Q1229919",
+   "lon": 29.96849,
+   "lat": 0.08604
+  },
+  {
+   "code": "UG-407",
+   "name": "Kibale",
+   "wikidata": "Q604966",
+   "lon": 31.01074,
+   "lat": 0.91002
+  },
+  {
+   "code": "UG-408",
+   "name": "Kisoro",
+   "wikidata": "Q580538",
+   "lon": 29.67432,
+   "lat": -1.19055
+  },
+  {
+   "code": "UG-409",
+   "name": "Masindi",
+   "wikidata": "Q1032238",
+   "lon": 31.72199,
+   "lat": 1.83464
+  },
+  {
+   "code": "UG-410",
+   "name": "Mbarara",
+   "wikidata": "Q1091595",
+   "lon": 30.78478,
+   "lat": -0.31339
+  },
+  {
+   "code": "UG-411",
+   "name": "Ntungamo",
+   "wikidata": "Q204642",
+   "lon": 30.29215,
+   "lat": -0.95477
+  },
+  {
+   "code": "UG-412",
+   "name": "Rukungiri",
+   "wikidata": "Q289419",
+   "lon": 29.92682,
+   "lat": -0.73785
+  },
+  {
+   "code": "UG-413",
+   "name": "Kamwenge",
+   "wikidata": "Q1318806",
+   "lon": 30.47793,
+   "lat": 0.18492
+  },
+  {
+   "code": "UG-414",
+   "name": "Kanungu",
+   "wikidata": "Q1032245",
+   "lon": 29.71928,
+   "lat": -0.75133
+  },
+  {
+   "code": "UG-415",
+   "name": "Kyenjojo",
+   "wikidata": "Q1318815",
+   "lon": 30.67916,
+   "lat": 0.6072
+  },
+  {
+   "code": "UG-416",
+   "name": "Ibanda",
+   "wikidata": "Q1318877",
+   "lon": 30.51436,
+   "lat": -0.04608
+  },
+  {
+   "code": "UG-417",
+   "name": "Isingiro",
+   "wikidata": "Q1318887",
+   "lon": 30.89286,
+   "lat": -0.82731
+  },
+  {
+   "code": "UG-419",
+   "name": "Buliisa",
+   "wikidata": "Q1229793",
+   "lon": 31.48745,
+   "lat": 2.0096
+  },
+  {
+   "code": "UG-420",
+   "name": "Kiryandongo",
+   "wikidata": "Q3539116",
+   "lon": 32.0944,
+   "lat": 2.00615
+  },
+  {
+   "code": "UG-421",
+   "name": "Kyegegwa",
+   "wikidata": "Q3539256",
+   "lon": 31.00186,
+   "lat": 0.43494
+  },
+  {
+   "code": "UG-422",
+   "name": "Mitooma",
+   "wikidata": "Q3539414",
+   "lon": 30.03537,
+   "lat": -0.62743
+  },
+  {
+   "code": "UG-423",
+   "name": "Ntoroko",
+   "wikidata": "Q3539547",
+   "lon": 30.35826,
+   "lat": 0.98041
+  },
+  {
+   "code": "UG-424",
+   "name": "Rubirizi",
+   "wikidata": "Q3539648",
+   "lon": 30.07038,
+   "lat": -0.24993
+  },
+  {
+   "code": "UG-425",
+   "name": "Sheema",
+   "wikidata": "Q3539711",
+   "lon": 30.37615,
+   "lat": -0.60504
+  }
+ ],
+ "edges": [
+  {
+   "u": "UG-102",
+   "v": "UG-108",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25223
+  },
+  {
+   "u": "UG-102",
+   "v": "UG-113",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52999
+  },
+  {
+   "u": "UG-103",
+   "v": "UG-107",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41897
+  },
+  {
+   "u": "UG-103",
+   "v": "UG-114",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27859
+  },
+  {
+   "u": "UG-103",
+   "v": "UG-115",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60431
+  },
+  {
+   "u": "UG-103",
+   "v": "UG-123",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42921
+  },
+  {
+   "u": "UG-104",
+   "v": "UG-108",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38842,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Luweero_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-104",
+   "v": "UG-109",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67490
+  },
+  {
+   "u": "UG-104",
+   "v": "UG-112",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26224
+  },
+  {
+   "u": "UG-104",
+   "v": "UG-113",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39854
+  },
+  {
+   "u": "UG-104",
+   "v": "UG-115",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73863
+  },
+  {
+   "u": "UG-105",
+   "v": "UG-110",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35980
+  },
+  {
+   "u": "UG-105",
+   "v": "UG-122",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29028
+  },
+  {
+   "u": "UG-105",
+   "v": "UG-124",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29862,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lwengo_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-106",
+   "v": "UG-113",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 74496
+  },
+  {
+   "u": "UG-106",
+   "v": "UG-114",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18561
+  },
+  {
+   "u": "UG-106",
+   "v": "UG-119",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 58991
+  },
+  {
+   "u": "UG-106",
+   "v": "UG-122",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15955
+  },
+  {
+   "u": "UG-107",
+   "v": "UG-111",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40774
+  },
+  {
+   "u": "UG-107",
+   "v": "UG-114",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61222
+  },
+  {
+   "u": "UG-107",
+   "v": "UG-121",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64604
+  },
+  {
+   "u": "UG-107",
+   "v": "UG-123",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26843
+  },
+  {
+   "u": "UG-107",
+   "v": "UG-407",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42508
+  },
+  {
+   "u": "UG-107",
+   "v": "UG-421",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 62499
+  },
+  {
+   "u": "UG-108",
+   "v": "UG-112",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 40227
+  },
+  {
+   "u": "UG-108",
+   "v": "UG-113",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6222
+  },
+  {
+   "u": "UG-108",
+   "v": "UG-117",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 56360,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mukono_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-109",
+   "v": "UG-112",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31841
+  },
+  {
+   "u": "UG-109",
+   "v": "UG-115",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68118
+  },
+  {
+   "u": "UG-109",
+   "v": "UG-302",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15406
+  },
+  {
+   "u": "UG-109",
+   "v": "UG-314",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9729
+  },
+  {
+   "u": "UG-109",
+   "v": "UG-409",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25695
+  },
+  {
+   "u": "UG-110",
+   "v": "UG-116",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17255,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rakai_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-110",
+   "v": "UG-124",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 55709,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rakai_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-110",
+   "v": "UG-410",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15314
+  },
+  {
+   "u": "UG-110",
+   "v": "UG-417",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49684
+  },
+  {
+   "u": "UG-111",
+   "v": "UG-116",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 51802
+  },
+  {
+   "u": "UG-111",
+   "v": "UG-118",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 37406,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sembabule_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-111",
+   "v": "UG-121",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34198
+  },
+  {
+   "u": "UG-111",
+   "v": "UG-124",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 41493
+  },
+  {
+   "u": "UG-111",
+   "v": "UG-410",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34771
+  },
+  {
+   "u": "UG-111",
+   "v": "UG-421",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1020
+  },
+  {
+   "u": "UG-112",
+   "v": "UG-117",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8959,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kayunga_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-112",
+   "v": "UG-204",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14477
+  },
+  {
+   "u": "UG-112",
+   "v": "UG-205",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61281
+  },
+  {
+   "u": "UG-112",
+   "v": "UG-226",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19161
+  },
+  {
+   "u": "UG-113",
+   "v": "UG-114",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16870
+  },
+  {
+   "u": "UG-113",
+   "v": "UG-115",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12963
+  },
+  {
+   "u": "UG-114",
+   "v": "UG-115",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14888
+  },
+  {
+   "u": "UG-114",
+   "v": "UG-119",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14076,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mityana_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-114",
+   "v": "UG-121",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39492
+  },
+  {
+   "u": "UG-115",
+   "v": "UG-123",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32762,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kyankwanzi_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-115",
+   "v": "UG-409",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20268
+  },
+  {
+   "u": "UG-116",
+   "v": "UG-124",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24156
+  },
+  {
+   "u": "UG-116",
+   "v": "UG-410",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 55918
+  },
+  {
+   "u": "UG-117",
+   "v": "UG-204",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29086
+  },
+  {
+   "u": "UG-118",
+   "v": "UG-121",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6454
+  },
+  {
+   "u": "UG-118",
+   "v": "UG-122",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38054
+  },
+  {
+   "u": "UG-118",
+   "v": "UG-124",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12674,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bukomansimbi_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-119",
+   "v": "UG-121",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 46038
+  },
+  {
+   "u": "UG-119",
+   "v": "UG-122",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9572
+  },
+  {
+   "u": "UG-121",
+   "v": "UG-122",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17414
+  },
+  {
+   "u": "UG-123",
+   "v": "UG-403",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30281
+  },
+  {
+   "u": "UG-123",
+   "v": "UG-407",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57767
+  },
+  {
+   "u": "UG-123",
+   "v": "UG-409",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 36003
+  },
+  {
+   "u": "UG-201",
+   "v": "UG-202",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13222
+  },
+  {
+   "u": "UG-201",
+   "v": "UG-203",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35443
+  },
+  {
+   "u": "UG-201",
+   "v": "UG-212",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17506
+  },
+  {
+   "u": "UG-201",
+   "v": "UG-214",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20220
+  },
+  {
+   "u": "UG-201",
+   "v": "UG-219",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 3146
+  },
+  {
+   "u": "UG-201",
+   "v": "UG-222",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27842
+  },
+  {
+   "u": "UG-201",
+   "v": "UG-230",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28790
+  },
+  {
+   "u": "UG-202",
+   "v": "UG-212",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19852
+  },
+  {
+   "u": "UG-202",
+   "v": "UG-230",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30870
+  },
+  {
+   "u": "UG-203",
+   "v": "UG-204",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12918
+  },
+  {
+   "u": "UG-203",
+   "v": "UG-214",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4887
+  },
+  {
+   "u": "UG-203",
+   "v": "UG-220",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12278
+  },
+  {
+   "u": "UG-203",
+   "v": "UG-222",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22287
+  },
+  {
+   "u": "UG-203",
+   "v": "UG-229",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 41836,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Iganga_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-204",
+   "v": "UG-205",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22057
+  },
+  {
+   "u": "UG-204",
+   "v": "UG-214",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18413,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jinja_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-204",
+   "v": "UG-229",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 40872
+  },
+  {
+   "u": "UG-205",
+   "v": "UG-226",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49668
+  },
+  {
+   "u": "UG-205",
+   "v": "UG-229",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33091
+  },
+  {
+   "u": "UG-206",
+   "v": "UG-215",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6863,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kapchorwa_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-206",
+   "v": "UG-218",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12070
+  },
+  {
+   "u": "UG-206",
+   "v": "UG-225",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 52544
+  },
+  {
+   "u": "UG-206",
+   "v": "UG-228",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 36862,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kapchorwa_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-207",
+   "v": "UG-208",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35656
+  },
+  {
+   "u": "UG-207",
+   "v": "UG-211",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4545
+  },
+  {
+   "u": "UG-207",
+   "v": "UG-216",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 73907
+  },
+  {
+   "u": "UG-207",
+   "v": "UG-231",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10346
+  },
+  {
+   "u": "UG-207",
+   "v": "UG-311",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35756
+  },
+  {
+   "u": "UG-207",
+   "v": "UG-328",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 56812
+  },
+  {
+   "u": "UG-208",
+   "v": "UG-210",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17820
+  },
+  {
+   "u": "UG-208",
+   "v": "UG-224",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56936,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "UG-208",
+   "v": "UG-231",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43184
+  },
+  {
+   "u": "UG-208",
+   "v": "UG-311",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10475
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-210",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7345
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-212",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12571
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-215",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25702
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-217",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12210
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-219",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19266
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-221",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23626
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-223",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14946
+  },
+  {
+   "u": "UG-209",
+   "v": "UG-224",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 4844
+  },
+  {
+   "u": "UG-210",
+   "v": "UG-217",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26335
+  },
+  {
+   "u": "UG-210",
+   "v": "UG-220",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31528
+  },
+  {
+   "u": "UG-210",
+   "v": "UG-224",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23018
+  },
+  {
+   "u": "UG-210",
+   "v": "UG-226",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7495
+  },
+  {
+   "u": "UG-210",
+   "v": "UG-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31945
+  },
+  {
+   "u": "UG-210",
+   "v": "UG-231",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27352
+  },
+  {
+   "u": "UG-210",
+   "v": "UG-232",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18915
+  },
+  {
+   "u": "UG-211",
+   "v": "UG-213",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24589
+  },
+  {
+   "u": "UG-211",
+   "v": "UG-216",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69019
+  },
+  {
+   "u": "UG-211",
+   "v": "UG-231",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15846
+  },
+  {
+   "u": "UG-211",
+   "v": "UG-232",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38992
+  },
+  {
+   "u": "UG-212",
+   "v": "UG-219",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37509
+  },
+  {
+   "u": "UG-212",
+   "v": "UG-221",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17432
+  },
+  {
+   "u": "UG-213",
+   "v": "UG-216",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17881
+  },
+  {
+   "u": "UG-213",
+   "v": "UG-232",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28500
+  },
+  {
+   "u": "UG-213",
+   "v": "UG-314",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19836
+  },
+  {
+   "u": "UG-213",
+   "v": "UG-318",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57290
+  },
+  {
+   "u": "UG-213",
+   "v": "UG-323",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9413
+  },
+  {
+   "u": "UG-215",
+   "v": "UG-223",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17388
+  },
+  {
+   "u": "UG-215",
+   "v": "UG-224",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11021
+  },
+  {
+   "u": "UG-215",
+   "v": "UG-225",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36289
+  },
+  {
+   "u": "UG-216",
+   "v": "UG-323",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57258
+  },
+  {
+   "u": "UG-216",
+   "v": "UG-328",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35457
+  },
+  {
+   "u": "UG-216",
+   "v": "UG-330",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12123
+  },
+  {
+   "u": "UG-217",
+   "v": "UG-219",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28842
+  },
+  {
+   "u": "UG-217",
+   "v": "UG-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30862,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Budaka_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-218",
+   "v": "UG-228",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34441
+  },
+  {
+   "u": "UG-218",
+   "v": "UG-324",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6795
+  },
+  {
+   "u": "UG-219",
+   "v": "UG-222",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30573
+  },
+  {
+   "u": "UG-219",
+   "v": "UG-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11499
+  },
+  {
+   "u": "UG-220",
+   "v": "UG-222",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25632
+  },
+  {
+   "u": "UG-220",
+   "v": "UG-226",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26808
+  },
+  {
+   "u": "UG-220",
+   "v": "UG-229",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28308
+  },
+  {
+   "u": "UG-221",
+   "v": "UG-223",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26058
+  },
+  {
+   "u": "UG-222",
+   "v": "UG-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22234
+  },
+  {
+   "u": "UG-224",
+   "v": "UG-225",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37163
+  },
+  {
+   "u": "UG-225",
+   "v": "UG-228",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16646
+  },
+  {
+   "u": "UG-225",
+   "v": "UG-311",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17061
+  },
+  {
+   "u": "UG-226",
+   "v": "UG-229",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16641
+  },
+  {
+   "u": "UG-226",
+   "v": "UG-232",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10683
+  },
+  {
+   "u": "UG-228",
+   "v": "UG-311",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31361
+  },
+  {
+   "u": "UG-228",
+   "v": "UG-324",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18185
+  },
+  {
+   "u": "UG-231",
+   "v": "UG-232",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36306
+  },
+  {
+   "u": "UG-301",
+   "v": "UG-303",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22054
+  },
+  {
+   "u": "UG-301",
+   "v": "UG-309",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88185
+  },
+  {
+   "u": "UG-301",
+   "v": "UG-319",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 131101
+  },
+  {
+   "u": "UG-302",
+   "v": "UG-307",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9524
+  },
+  {
+   "u": "UG-302",
+   "v": "UG-314",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31070
+  },
+  {
+   "u": "UG-302",
+   "v": "UG-318",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47783
+  },
+  {
+   "u": "UG-302",
+   "v": "UG-321",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31435
+  },
+  {
+   "u": "UG-302",
+   "v": "UG-326",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31970
+  },
+  {
+   "u": "UG-302",
+   "v": "UG-409",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 1994
+  },
+  {
+   "u": "UG-302",
+   "v": "UG-420",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66543
+  },
+  {
+   "u": "UG-303",
+   "v": "UG-310",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48012
+  },
+  {
+   "u": "UG-303",
+   "v": "UG-313",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 67193
+  },
+  {
+   "u": "UG-303",
+   "v": "UG-319",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20275
+  },
+  {
+   "u": "UG-303",
+   "v": "UG-320",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 44621
+  },
+  {
+   "u": "UG-303",
+   "v": "UG-331",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 44142
+  },
+  {
+   "u": "UG-304",
+   "v": "UG-312",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76270
+  },
+  {
+   "u": "UG-304",
+   "v": "UG-319",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 69929
+  },
+  {
+   "u": "UG-304",
+   "v": "UG-321",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44045
+  },
+  {
+   "u": "UG-304",
+   "v": "UG-327",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 24635
+  },
+  {
+   "u": "UG-304",
+   "v": "UG-329",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44231
+  },
+  {
+   "u": "UG-305",
+   "v": "UG-306",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29470
+  },
+  {
+   "u": "UG-305",
+   "v": "UG-312",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 58451
+  },
+  {
+   "u": "UG-305",
+   "v": "UG-315",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52654
+  },
+  {
+   "u": "UG-305",
+   "v": "UG-322",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 75266
+  },
+  {
+   "u": "UG-305",
+   "v": "UG-327",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 135640
+  },
+  {
+   "u": "UG-306",
+   "v": "UG-308",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31832
+  },
+  {
+   "u": "UG-306",
+   "v": "UG-315",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 84327
+  },
+  {
+   "u": "UG-306",
+   "v": "UG-317",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 94466
+  },
+  {
+   "u": "UG-306",
+   "v": "UG-322",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8094
+  },
+  {
+   "u": "UG-306",
+   "v": "UG-328",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54996
+  },
+  {
+   "u": "UG-307",
+   "v": "UG-312",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 36666
+  },
+  {
+   "u": "UG-307",
+   "v": "UG-318",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25302
+  },
+  {
+   "u": "UG-307",
+   "v": "UG-321",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13454
+  },
+  {
+   "u": "UG-307",
+   "v": "UG-323",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 60605,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lira_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-307",
+   "v": "UG-326",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 44033
+  },
+  {
+   "u": "UG-307",
+   "v": "UG-330",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11159,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lira_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-308",
+   "v": "UG-311",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 42558,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Moroto_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-308",
+   "v": "UG-315",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18565
+  },
+  {
+   "u": "UG-308",
+   "v": "UG-324",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14187,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Moroto_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-308",
+   "v": "UG-328",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 73844,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Moroto_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-309",
+   "v": "UG-313",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 68725,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Moyo_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-310",
+   "v": "UG-319",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23133
+  },
+  {
+   "u": "UG-310",
+   "v": "UG-329",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32597
+  },
+  {
+   "u": "UG-310",
+   "v": "UG-331",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27173
+  },
+  {
+   "u": "UG-311",
+   "v": "UG-324",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 76970
+  },
+  {
+   "u": "UG-311",
+   "v": "UG-328",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 106734,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Nakapiripirit_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-312",
+   "v": "UG-321",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12722
+  },
+  {
+   "u": "UG-312",
+   "v": "UG-322",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 78658,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pader_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-312",
+   "v": "UG-327",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 30891,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pader_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-312",
+   "v": "UG-330",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 15693
+  },
+  {
+   "u": "UG-313",
+   "v": "UG-316",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 46713
+  },
+  {
+   "u": "UG-314",
+   "v": "UG-318",
+   "rule": "hand",
+   "sources": [
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "hand",
+     "reason": "collapsed_border: NE point contact; gB border and a Wikipedia neighbour list agree"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 0
+  },
+  {
+   "u": "UG-316",
+   "v": "UG-320",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20898
+  },
+  {
+   "u": "UG-317",
+   "v": "UG-322",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 70186
+  },
+  {
+   "u": "UG-317",
+   "v": "UG-328",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 56931
+  },
+  {
+   "u": "UG-317",
+   "v": "UG-330",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20369
+  },
+  {
+   "u": "UG-318",
+   "v": "UG-323",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28202
+  },
+  {
+   "u": "UG-319",
+   "v": "UG-327",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34176
+  },
+  {
+   "u": "UG-319",
+   "v": "UG-329",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 97044,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Amuru_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-321",
+   "v": "UG-326",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54522
+  },
+  {
+   "u": "UG-321",
+   "v": "UG-329",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36371
+  },
+  {
+   "u": "UG-321",
+   "v": "UG-420",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23471
+  },
+  {
+   "u": "UG-322",
+   "v": "UG-330",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 49899
+  },
+  {
+   "u": "UG-323",
+   "v": "UG-330",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 71090
+  },
+  {
+   "u": "UG-325",
+   "v": "UG-402",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22671,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Buhweju_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-325",
+   "v": "UG-410",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22567
+  },
+  {
+   "u": "UG-325",
+   "v": "UG-416",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25649
+  },
+  {
+   "u": "UG-325",
+   "v": "UG-424",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35066,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Buhweju_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-325",
+   "v": "UG-425",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18865,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Buhweju_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-328",
+   "v": "UG-330",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11080
+  },
+  {
+   "u": "UG-329",
+   "v": "UG-409",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24328,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Nwoya_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-329",
+   "v": "UG-419",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22274
+  },
+  {
+   "u": "UG-329",
+   "v": "UG-420",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 64144
+  },
+  {
+   "u": "UG-401",
+   "v": "UG-405",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 50016
+  },
+  {
+   "u": "UG-401",
+   "v": "UG-423",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32805
+  },
+  {
+   "u": "UG-402",
+   "v": "UG-412",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12544,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bushenyi_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-402",
+   "v": "UG-422",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32135
+  },
+  {
+   "u": "UG-402",
+   "v": "UG-424",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28874
+  },
+  {
+   "u": "UG-402",
+   "v": "UG-425",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 30710
+  },
+  {
+   "u": "UG-403",
+   "v": "UG-407",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 84580
+  },
+  {
+   "u": "UG-403",
+   "v": "UG-409",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 53196
+  },
+  {
+   "u": "UG-403",
+   "v": "UG-419",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10943
+  },
+  {
+   "u": "UG-404",
+   "v": "UG-408",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34631
+  },
+  {
+   "u": "UG-404",
+   "v": "UG-411",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34159
+  },
+  {
+   "u": "UG-404",
+   "v": "UG-412",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19319,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kabale_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-404",
+   "v": "UG-414",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22964
+  },
+  {
+   "u": "UG-405",
+   "v": "UG-406",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 53537,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kasese_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-405",
+   "v": "UG-407",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6560
+  },
+  {
+   "u": "UG-405",
+   "v": "UG-413",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 49864
+  },
+  {
+   "u": "UG-405",
+   "v": "UG-415",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54075
+  },
+  {
+   "u": "UG-405",
+   "v": "UG-423",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 57068,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kabarole_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-406",
+   "v": "UG-413",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38579
+  },
+  {
+   "u": "UG-406",
+   "v": "UG-424",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 41797
+  },
+  {
+   "u": "UG-407",
+   "v": "UG-415",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 52647
+  },
+  {
+   "u": "UG-407",
+   "v": "UG-421",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 32414
+  },
+  {
+   "u": "UG-407",
+   "v": "UG-423",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3179,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kibaale_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-408",
+   "v": "UG-414",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25233
+  },
+  {
+   "u": "UG-409",
+   "v": "UG-419",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 88916,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Masindi_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-409",
+   "v": "UG-420",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 105514
+  },
+  {
+   "u": "UG-410",
+   "v": "UG-411",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44693
+  },
+  {
+   "u": "UG-410",
+   "v": "UG-413",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23744
+  },
+  {
+   "u": "UG-410",
+   "v": "UG-416",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 79272,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mbarara_district"
+    }
+   ]
+  },
+  {
+   "u": "UG-410",
+   "v": "UG-417",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81785
+  },
+  {
+   "u": "UG-410",
+   "v": "UG-421",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16609
+  },
+  {
+   "u": "UG-410",
+   "v": "UG-425",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 43132
+  },
+  {
+   "u": "UG-411",
+   "v": "UG-412",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41087
+  },
+  {
+   "u": "UG-411",
+   "v": "UG-417",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33380
+  },
+  {
+   "u": "UG-411",
+   "v": "UG-422",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16255
+  },
+  {
+   "u": "UG-411",
+   "v": "UG-425",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10811
+  },
+  {
+   "u": "UG-412",
+   "v": "UG-414",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 81544
+  },
+  {
+   "u": "UG-412",
+   "v": "UG-422",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38583
+  },
+  {
+   "u": "UG-412",
+   "v": "UG-424",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11142
+  },
+  {
+   "u": "UG-413",
+   "v": "UG-415",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 73896,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kamwenge_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-413",
+   "v": "UG-416",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 78283
+  },
+  {
+   "u": "UG-413",
+   "v": "UG-421",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 33354,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kamwenge_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-413",
+   "v": "UG-424",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8506
+  },
+  {
+   "u": "UG-415",
+   "v": "UG-421",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 44813,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kyenjojo_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-416",
+   "v": "UG-424",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14089,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ibanda_District"
+    }
+   ]
+  },
+  {
+   "u": "UG-422",
+   "v": "UG-425",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11184,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mitooma_District"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "UGA-ADM3-73843447",
+  "level": "ADM3",
+  "year": "2020",
+  "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+ }
+}

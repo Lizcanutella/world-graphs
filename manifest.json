@@ -1,0 +1,2185 @@
+{
+ "schema": "region-adjacency/2",
+ "version": "0.2.0",
+ "exported": "2026-11-05",
+ "previous": "0.1.0",
+ "graphs": 213,
+ "edges": 9418,
+ "uncorroborated_edges": 1168,
+ "verified": [
+  "CO"
+ ],
+ "country_edge_rules": {
+  "gb_and_p47": 40,
+  "hand": 32,
+  "ne_and_gb": 6991,
+  "ne_and_p47": 16,
+  "ne_short": 6,
+  "ne_uncheckable": 1686,
+  "review": 4
+ },
+ "sources": {
+  "pipeline": "wg (fetch, pairs, decide, export)",
+  "sources_lock_sha256": "03645f0b0962862f48d2e979073cd2a3c68965b50c5219b3265d3f26fab3a2f1",
+  "decisions_sha256": "201ef28ba20dd546be118ec2784b9cb83d13a7ed3cfdea63ea9e2a4614ba942f",
+  "natural_earth": {
+   "ne_10m_admin_0_countries": "5.1.1",
+   "ne_10m_admin_1_states_provinces": "5.1.1",
+   "ne_10m_lakes": "5.0.0",
+   "ne_10m_ocean": "5.1.1"
+  },
+  "geoboundaries_commits": [
+   "41af8f1",
+   "90a1d52",
+   "9469f09",
+   "f549eab"
+  ],
+  "wikidata": {
+   "p300_codes": "2026-11-04T13:04:31+00:00"
+  },
+  "wikidata_p47_snapshot": {
+   "fetched": "2026-09-18T17:28:19+00:00",
+   "sha256": "926442a77734eb98658cc554c39380c899dec65faa917254393efe94c6107d90",
+   "n_pairs": 8893
+  },
+  "world_graphs": "carried over from 0.1.0",
+  "min_lake_km2": 500.0,
+  "eps_m": 100.0
+ },
+ "index": [
+  {
+   "id": "natural_earth",
+   "kind": "world",
+   "n": 249,
+   "m": 328,
+   "uncorroborated_edges": 9,
+   "verified": false
+  },
+  {
+   "id": "un195",
+   "kind": "world",
+   "n": 195,
+   "m": 315,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "AD",
+   "kind": "country",
+   "n": 7,
+   "m": 11,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "AE",
+   "kind": "country",
+   "n": 9,
+   "m": 15,
+   "uncorroborated_edges": 5,
+   "verified": false
+  },
+  {
+   "id": "AF",
+   "kind": "country",
+   "n": 34,
+   "m": 79,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "AG",
+   "kind": "country",
+   "n": 8,
+   "m": 9,
+   "uncorroborated_edges": 5,
+   "verified": false
+  },
+  {
+   "id": "AI",
+   "kind": "country",
+   "n": 14,
+   "m": 23,
+   "uncorroborated_edges": 23,
+   "verified": false
+  },
+  {
+   "id": "AL",
+   "kind": "country",
+   "n": 12,
+   "m": 22,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "AM",
+   "kind": "country",
+   "n": 11,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "AO",
+   "kind": "country",
+   "n": 18,
+   "m": 34,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "AR",
+   "kind": "country",
+   "n": 24,
+   "m": 44,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "AS",
+   "kind": "country",
+   "n": 5,
+   "m": 1,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "AT",
+   "kind": "country",
+   "n": 9,
+   "m": 13,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "AU",
+   "kind": "country",
+   "n": 12,
+   "m": 11,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "AX",
+   "kind": "country",
+   "n": 11,
+   "m": 1,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "AZ",
+   "kind": "country",
+   "n": 76,
+   "m": 159,
+   "uncorroborated_edges": 86,
+   "verified": false
+  },
+  {
+   "id": "BA",
+   "kind": "country",
+   "n": 18,
+   "m": 39,
+   "uncorroborated_edges": 6,
+   "verified": false
+  },
+  {
+   "id": "BB",
+   "kind": "country",
+   "n": 11,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BD",
+   "kind": "country",
+   "n": 7,
+   "m": 10,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BE",
+   "kind": "country",
+   "n": 11,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BF",
+   "kind": "country",
+   "n": 45,
+   "m": 107,
+   "uncorroborated_edges": 6,
+   "verified": false
+  },
+  {
+   "id": "BG",
+   "kind": "country",
+   "n": 28,
+   "m": 61,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "BH",
+   "kind": "country",
+   "n": 5,
+   "m": 4,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BI",
+   "kind": "country",
+   "n": 17,
+   "m": 34,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "BJ",
+   "kind": "country",
+   "n": 12,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BM",
+   "kind": "country",
+   "n": 11,
+   "m": 10,
+   "uncorroborated_edges": 10,
+   "verified": false
+  },
+  {
+   "id": "BN",
+   "kind": "country",
+   "n": 4,
+   "m": 2,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BO",
+   "kind": "country",
+   "n": 9,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BR",
+   "kind": "country",
+   "n": 27,
+   "m": 51,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BS",
+   "kind": "country",
+   "n": 30,
+   "m": 8,
+   "uncorroborated_edges": 4,
+   "verified": false
+  },
+  {
+   "id": "BT",
+   "kind": "country",
+   "n": 20,
+   "m": 42,
+   "uncorroborated_edges": 8,
+   "verified": false
+  },
+  {
+   "id": "BW",
+   "kind": "country",
+   "n": 15,
+   "m": 24,
+   "uncorroborated_edges": 9,
+   "verified": false
+  },
+  {
+   "id": "BY",
+   "kind": "country",
+   "n": 7,
+   "m": 11,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "BZ",
+   "kind": "country",
+   "n": 6,
+   "m": 9,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CA",
+   "kind": "country",
+   "n": 13,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CD",
+   "kind": "country",
+   "n": 11,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CF",
+   "kind": "country",
+   "n": 17,
+   "m": 30,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CG",
+   "kind": "country",
+   "n": 12,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CH",
+   "kind": "country",
+   "n": 26,
+   "m": 57,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CI",
+   "kind": "country",
+   "n": 19,
+   "m": 43,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "CK",
+   "kind": "country",
+   "n": 11,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CL",
+   "kind": "country",
+   "n": 16,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CM",
+   "kind": "country",
+   "n": 10,
+   "m": 17,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CN",
+   "kind": "country",
+   "n": 32,
+   "m": 68,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CO",
+   "kind": "country",
+   "n": 33,
+   "m": 73,
+   "uncorroborated_edges": 0,
+   "verified": true
+  },
+  {
+   "id": "CR",
+   "kind": "country",
+   "n": 7,
+   "m": 12,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CU",
+   "kind": "country",
+   "n": 16,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CV",
+   "kind": "country",
+   "n": 22,
+   "m": 24,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CY",
+   "kind": "country",
+   "n": 5,
+   "m": 6,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "CZ",
+   "kind": "country",
+   "n": 14,
+   "m": 26,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "DE",
+   "kind": "country",
+   "n": 16,
+   "m": 29,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "DJ",
+   "kind": "country",
+   "n": 6,
+   "m": 7,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "DK",
+   "kind": "country",
+   "n": 5,
+   "m": 3,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "DM",
+   "kind": "country",
+   "n": 10,
+   "m": 17,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "DO",
+   "kind": "country",
+   "n": 32,
+   "m": 71,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "DZ",
+   "kind": "country",
+   "n": 48,
+   "m": 118,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "EC",
+   "kind": "country",
+   "n": 24,
+   "m": 54,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "EE",
+   "kind": "country",
+   "n": 15,
+   "m": 25,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "EG",
+   "kind": "country",
+   "n": 27,
+   "m": 60,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "ER",
+   "kind": "country",
+   "n": 6,
+   "m": 9,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "ES",
+   "kind": "country",
+   "n": 52,
+   "m": 111,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "ET",
+   "kind": "country",
+   "n": 11,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "FI",
+   "kind": "country",
+   "n": 18,
+   "m": 39,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "FJ",
+   "kind": "country",
+   "n": 5,
+   "m": 1,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "FM",
+   "kind": "country",
+   "n": 4,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "FR",
+   "kind": "country",
+   "n": 101,
+   "m": 238,
+   "uncorroborated_edges": 3,
+   "verified": false
+  },
+  {
+   "id": "GA",
+   "kind": "country",
+   "n": 9,
+   "m": 15,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GB",
+   "kind": "country",
+   "n": 232,
+   "m": 545,
+   "uncorroborated_edges": 199,
+   "verified": false
+  },
+  {
+   "id": "GD",
+   "kind": "country",
+   "n": 7,
+   "m": 9,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GE",
+   "kind": "country",
+   "n": 12,
+   "m": 21,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GH",
+   "kind": "country",
+   "n": 10,
+   "m": 18,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GL",
+   "kind": "country",
+   "n": 6,
+   "m": 7,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "GM",
+   "kind": "country",
+   "n": 6,
+   "m": 5,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GN",
+   "kind": "country",
+   "n": 34,
+   "m": 73,
+   "uncorroborated_edges": 3,
+   "verified": false
+  },
+  {
+   "id": "GQ",
+   "kind": "country",
+   "n": 7,
+   "m": 5,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GR",
+   "kind": "country",
+   "n": 14,
+   "m": 13,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GT",
+   "kind": "country",
+   "n": 22,
+   "m": 50,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GW",
+   "kind": "country",
+   "n": 9,
+   "m": 12,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "GY",
+   "kind": "country",
+   "n": 10,
+   "m": 18,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "HK",
+   "kind": "country",
+   "n": 18,
+   "m": 31,
+   "uncorroborated_edges": 31,
+   "verified": false
+  },
+  {
+   "id": "HN",
+   "kind": "country",
+   "n": 18,
+   "m": 34,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "HR",
+   "kind": "country",
+   "n": 21,
+   "m": 37,
+   "uncorroborated_edges": 2,
+   "verified": false
+  },
+  {
+   "id": "HT",
+   "kind": "country",
+   "n": 10,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "HU",
+   "kind": "country",
+   "n": 43,
+   "m": 75,
+   "uncorroborated_edges": 34,
+   "verified": false
+  },
+  {
+   "id": "ID",
+   "kind": "country",
+   "n": 33,
+   "m": 31,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "IE",
+   "kind": "country",
+   "n": 30,
+   "m": 66,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "IL",
+   "kind": "country",
+   "n": 6,
+   "m": 6,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "IN",
+   "kind": "country",
+   "n": 36,
+   "m": 66,
+   "uncorroborated_edges": 2,
+   "verified": false
+  },
+  {
+   "id": "IQ",
+   "kind": "country",
+   "n": 18,
+   "m": 39,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "IR",
+   "kind": "country",
+   "n": 31,
+   "m": 73,
+   "uncorroborated_edges": 9,
+   "verified": false
+  },
+  {
+   "id": "IS",
+   "kind": "country",
+   "n": 9,
+   "m": 15,
+   "uncorroborated_edges": 2,
+   "verified": false
+  },
+  {
+   "id": "IT",
+   "kind": "country",
+   "n": 110,
+   "m": 245,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "JM",
+   "kind": "country",
+   "n": 14,
+   "m": 23,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "JO",
+   "kind": "country",
+   "n": 12,
+   "m": 23,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "JP",
+   "kind": "country",
+   "n": 47,
+   "m": 86,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "KE",
+   "kind": "country",
+   "n": 8,
+   "m": 13,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "KG",
+   "kind": "country",
+   "n": 8,
+   "m": 11,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "KH",
+   "kind": "country",
+   "n": 24,
+   "m": 41,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "KM",
+   "kind": "country",
+   "n": 3,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "KN",
+   "kind": "country",
+   "n": 14,
+   "m": 19,
+   "uncorroborated_edges": 5,
+   "verified": false
+  },
+  {
+   "id": "KP",
+   "kind": "country",
+   "n": 11,
+   "m": 18,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "KR",
+   "kind": "country",
+   "n": 17,
+   "m": 26,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "KW",
+   "kind": "country",
+   "n": 6,
+   "m": 10,
+   "uncorroborated_edges": 4,
+   "verified": false
+  },
+  {
+   "id": "KZ",
+   "kind": "country",
+   "n": 16,
+   "m": 28,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "LA",
+   "kind": "country",
+   "n": 17,
+   "m": 27,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "LB",
+   "kind": "country",
+   "n": 6,
+   "m": 8,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "LC",
+   "kind": "country",
+   "n": 11,
+   "m": 19,
+   "uncorroborated_edges": 7,
+   "verified": false
+  },
+  {
+   "id": "LI",
+   "kind": "country",
+   "n": 11,
+   "m": 24,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "LK",
+   "kind": "country",
+   "n": 25,
+   "m": 58,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "LR",
+   "kind": "country",
+   "n": 15,
+   "m": 26,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "LS",
+   "kind": "country",
+   "n": 10,
+   "m": 17,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "LT",
+   "kind": "country",
+   "n": 10,
+   "m": 18,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "LU",
+   "kind": "country",
+   "n": 3,
+   "m": 3,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "LV",
+   "kind": "country",
+   "n": 115,
+   "m": 294,
+   "uncorroborated_edges": 8,
+   "verified": false
+  },
+  {
+   "id": "LY",
+   "kind": "country",
+   "n": 22,
+   "m": 44,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MA",
+   "kind": "country",
+   "n": 16,
+   "m": 27,
+   "uncorroborated_edges": 3,
+   "verified": false
+  },
+  {
+   "id": "MD",
+   "kind": "country",
+   "n": 39,
+   "m": 90,
+   "uncorroborated_edges": 13,
+   "verified": false
+  },
+  {
+   "id": "ME",
+   "kind": "country",
+   "n": 21,
+   "m": 41,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MG",
+   "kind": "country",
+   "n": 22,
+   "m": 50,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MH",
+   "kind": "country",
+   "n": 2,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MK",
+   "kind": "country",
+   "n": 84,
+   "m": 211,
+   "uncorroborated_edges": 137,
+   "verified": false
+  },
+  {
+   "id": "ML",
+   "kind": "country",
+   "n": 9,
+   "m": 11,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MM",
+   "kind": "country",
+   "n": 14,
+   "m": 26,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MN",
+   "kind": "country",
+   "n": 22,
+   "m": 44,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MP",
+   "kind": "country",
+   "n": 4,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MR",
+   "kind": "country",
+   "n": 13,
+   "m": 21,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MS",
+   "kind": "country",
+   "n": 3,
+   "m": 3,
+   "uncorroborated_edges": 3,
+   "verified": false
+  },
+  {
+   "id": "MT",
+   "kind": "country",
+   "n": 68,
+   "m": 162,
+   "uncorroborated_edges": 84,
+   "verified": false
+  },
+  {
+   "id": "MU",
+   "kind": "country",
+   "n": 16,
+   "m": 30,
+   "uncorroborated_edges": 11,
+   "verified": false
+  },
+  {
+   "id": "MV",
+   "kind": "country",
+   "n": 21,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MW",
+   "kind": "country",
+   "n": 27,
+   "m": 52,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MX",
+   "kind": "country",
+   "n": 32,
+   "m": 67,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MY",
+   "kind": "country",
+   "n": 16,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "MZ",
+   "kind": "country",
+   "n": 10,
+   "m": 15,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NA",
+   "kind": "country",
+   "n": 13,
+   "m": 24,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NC",
+   "kind": "country",
+   "n": 3,
+   "m": 1,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "NE",
+   "kind": "country",
+   "n": 8,
+   "m": 11,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NG",
+   "kind": "country",
+   "n": 37,
+   "m": 86,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NI",
+   "kind": "country",
+   "n": 17,
+   "m": 35,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NL",
+   "kind": "country",
+   "n": 15,
+   "m": 23,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NO",
+   "kind": "country",
+   "n": 21,
+   "m": 31,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NP",
+   "kind": "country",
+   "n": 14,
+   "m": 21,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "NR",
+   "kind": "country",
+   "n": 14,
+   "m": 24,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "NZ",
+   "kind": "country",
+   "n": 23,
+   "m": 23,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "OM",
+   "kind": "country",
+   "n": 11,
+   "m": 17,
+   "uncorroborated_edges": 12,
+   "verified": false
+  },
+  {
+   "id": "PA",
+   "kind": "country",
+   "n": 12,
+   "m": 20,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PE",
+   "kind": "country",
+   "n": 26,
+   "m": 54,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PF",
+   "kind": "country",
+   "n": 5,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PG",
+   "kind": "country",
+   "n": 20,
+   "m": 32,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PH",
+   "kind": "country",
+   "n": 115,
+   "m": 191,
+   "uncorroborated_edges": 67,
+   "verified": false
+  },
+  {
+   "id": "PK",
+   "kind": "country",
+   "n": 8,
+   "m": 14,
+   "uncorroborated_edges": 2,
+   "verified": false
+  },
+  {
+   "id": "PL",
+   "kind": "country",
+   "n": 16,
+   "m": 34,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PM",
+   "kind": "country",
+   "n": 2,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PS",
+   "kind": "country",
+   "n": 2,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PT",
+   "kind": "country",
+   "n": 20,
+   "m": 33,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "PW",
+   "kind": "country",
+   "n": 16,
+   "m": 15,
+   "uncorroborated_edges": 15,
+   "verified": false
+  },
+  {
+   "id": "PY",
+   "kind": "country",
+   "n": 18,
+   "m": 39,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "QA",
+   "kind": "country",
+   "n": 7,
+   "m": 11,
+   "uncorroborated_edges": 2,
+   "verified": false
+  },
+  {
+   "id": "RO",
+   "kind": "country",
+   "n": 42,
+   "m": 102,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "RS",
+   "kind": "country",
+   "n": 25,
+   "m": 53,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "RU",
+   "kind": "country",
+   "n": 85,
+   "m": 189,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "RW",
+   "kind": "country",
+   "n": 5,
+   "m": 8,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SA",
+   "kind": "country",
+   "n": 13,
+   "m": 26,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SB",
+   "kind": "country",
+   "n": 10,
+   "m": 1,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SC",
+   "kind": "country",
+   "n": 26,
+   "m": 41,
+   "uncorroborated_edges": 37,
+   "verified": false
+  },
+  {
+   "id": "SD",
+   "kind": "country",
+   "n": 17,
+   "m": 33,
+   "uncorroborated_edges": 5,
+   "verified": false
+  },
+  {
+   "id": "SE",
+   "kind": "country",
+   "n": 21,
+   "m": 39,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SG",
+   "kind": "country",
+   "n": 5,
+   "m": 6,
+   "uncorroborated_edges": 6,
+   "verified": false
+  },
+  {
+   "id": "SH",
+   "kind": "country",
+   "n": 3,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SI",
+   "kind": "country",
+   "n": 193,
+   "m": 492,
+   "uncorroborated_edges": 88,
+   "verified": false
+  },
+  {
+   "id": "SK",
+   "kind": "country",
+   "n": 8,
+   "m": 12,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SL",
+   "kind": "country",
+   "n": 4,
+   "m": 5,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SM",
+   "kind": "country",
+   "n": 9,
+   "m": 15,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SN",
+   "kind": "country",
+   "n": 14,
+   "m": 21,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SO",
+   "kind": "country",
+   "n": 13,
+   "m": 21,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "SR",
+   "kind": "country",
+   "n": 10,
+   "m": 18,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SS",
+   "kind": "country",
+   "n": 10,
+   "m": 18,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "ST",
+   "kind": "country",
+   "n": 2,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SV",
+   "kind": "country",
+   "n": 14,
+   "m": 26,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "SY",
+   "kind": "country",
+   "n": 15,
+   "m": 26,
+   "uncorroborated_edges": 3,
+   "verified": false
+  },
+  {
+   "id": "SZ",
+   "kind": "country",
+   "n": 4,
+   "m": 5,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TC",
+   "kind": "country",
+   "n": 6,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TD",
+   "kind": "country",
+   "n": 22,
+   "m": 44,
+   "uncorroborated_edges": 7,
+   "verified": false
+  },
+  {
+   "id": "TF",
+   "kind": "country",
+   "n": 4,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TG",
+   "kind": "country",
+   "n": 5,
+   "m": 4,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TH",
+   "kind": "country",
+   "n": 77,
+   "m": 176,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TJ",
+   "kind": "country",
+   "n": 5,
+   "m": 5,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "TL",
+   "kind": "country",
+   "n": 13,
+   "m": 22,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TM",
+   "kind": "country",
+   "n": 5,
+   "m": 7,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TN",
+   "kind": "country",
+   "n": 23,
+   "m": 47,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TO",
+   "kind": "country",
+   "n": 5,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TR",
+   "kind": "country",
+   "n": 81,
+   "m": 199,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TT",
+   "kind": "country",
+   "n": 16,
+   "m": 22,
+   "uncorroborated_edges": 2,
+   "verified": false
+  },
+  {
+   "id": "TW",
+   "kind": "country",
+   "n": 21,
+   "m": 33,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "TZ",
+   "kind": "country",
+   "n": 30,
+   "m": 57,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "UA",
+   "kind": "country",
+   "n": 25,
+   "m": 52,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "UG",
+   "kind": "country",
+   "n": 111,
+   "m": 268,
+   "uncorroborated_edges": 141,
+   "verified": false
+  },
+  {
+   "id": "UM",
+   "kind": "country",
+   "n": 8,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "US",
+   "kind": "country",
+   "n": 51,
+   "m": 107,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "UY",
+   "kind": "country",
+   "n": 19,
+   "m": 39,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "UZ",
+   "kind": "country",
+   "n": 14,
+   "m": 19,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "VC",
+   "kind": "country",
+   "n": 6,
+   "m": 7,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "VE",
+   "kind": "country",
+   "n": 25,
+   "m": 50,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "VI",
+   "kind": "country",
+   "n": 3,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "VN",
+   "kind": "country",
+   "n": 63,
+   "m": 134,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "VU",
+   "kind": "country",
+   "n": 6,
+   "m": 0,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "WF",
+   "kind": "country",
+   "n": 3,
+   "m": 1,
+   "uncorroborated_edges": 1,
+   "verified": false
+  },
+  {
+   "id": "WS",
+   "kind": "country",
+   "n": 11,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "XK",
+   "kind": "country",
+   "n": 30,
+   "m": 69,
+   "uncorroborated_edges": 32,
+   "verified": false
+  },
+  {
+   "id": "YE",
+   "kind": "country",
+   "n": 21,
+   "m": 46,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "ZA",
+   "kind": "country",
+   "n": 9,
+   "m": 17,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "ZM",
+   "kind": "country",
+   "n": 10,
+   "m": 16,
+   "uncorroborated_edges": 0,
+   "verified": false
+  },
+  {
+   "id": "ZW",
+   "kind": "country",
+   "n": 10,
+   "m": 19,
+   "uncorroborated_edges": 0,
+   "verified": false
+  }
+ ],
+ "sha256": {
+  "data/countries/AD.graphml": "9344ac1955aabe607d5e4671a6b64206125c1a2ecd185f2d4727be632b6138a8",
+  "data/countries/AD.json": "b8a5737fe271fd569e4d80b158de965775d8770bdba5e5518d3e90edbb886585",
+  "data/countries/AE.graphml": "621cda1abca6ec609d4ad1231e71a8fe26de394d44d33e3bc300ca07568d9657",
+  "data/countries/AE.json": "8b0f936f6a6ae48d422caf1843212839adf19ec09a58b650b95f66ad02afeebc",
+  "data/countries/AF.graphml": "d3658affbc875b69edc91f37968f8ef9b2e05072379cf88d974734cc69ac3c76",
+  "data/countries/AF.json": "a16dae041fa762ee77d1fdf63a000b52c5899c5c14e6f3e703c46e82c1265a91",
+  "data/countries/AG.graphml": "7e5273e2a30d50671938bdbf4b48c2fb2a5faeeb3690da538b538481eeafaf8b",
+  "data/countries/AG.json": "cc7ee2a2078a22d51df282816af1e348ff05a2b27851b1f1c4bd0fb112c8635a",
+  "data/countries/AI.graphml": "d826692e826eaf1ade5522d094ddf45df008e4be3afc81bc2cc760653714bda2",
+  "data/countries/AI.json": "8da92789e4a4425fb1b22ca46d2eee89bd78df6635449005d06ed332912c3a1d",
+  "data/countries/AL.graphml": "044e6bc0aa16aa9ffbeebf09b06dd727b938397c7a37169d55ccc834d91a0f26",
+  "data/countries/AL.json": "de21b0957d804a5b60667652a6a0eb7328ec2e31c91f81fefb385523f088706c",
+  "data/countries/AM.graphml": "7f0b687df7e536aa70b99a71f51a6d99c587cff6f3579717a5522eb57c2c8df0",
+  "data/countries/AM.json": "53984e179649a1823ac602f053db02122b1a5ead0a8635392a641c3feb7b4e6d",
+  "data/countries/AO.graphml": "d1941dc0fa1dc560d71a7d9de28045657a381a051ce0c3aaffcbbe7e401fb974",
+  "data/countries/AO.json": "cb02a9a098b0c195d314c510776782d04cce4eb020d1657afc212128afd7034f",
+  "data/countries/AR.graphml": "8673dfc85cc1ab122f53e741c16fc022e14caf06ad3f4c1d71ed98adcff95144",
+  "data/countries/AR.json": "a3c0717f9a9de0be3b9d9d1d5c4b26881f9443d979953cc945b43ddbc4c94e88",
+  "data/countries/AS.graphml": "87ed98791a619d62a12bad65d5a5cb47fa9cdfcd4b22f714eb4df403ccf6465b",
+  "data/countries/AS.json": "e6efb9a4e36fa10866dcb2a2fead089b550eb534ae7cc57618074feeddcd9b32",
+  "data/countries/AT.graphml": "6b0045dbcf733ea643e5047b80ff1e4900a3afd3352bc610051689556aca0ea9",
+  "data/countries/AT.json": "b710674d80b3397e060ed1add63e2fcdfc911daae7f6bd0e51e727e4e201dcb7",
+  "data/countries/AU.graphml": "416f3166e6826c9e06e0c3e8272db9b3e9229adf8973d17f955b0ad20fab22d1",
+  "data/countries/AU.json": "e9d8e819ddf6ccae168bb3bd0b1f6638003022d11b26dcfccd484d4285ea47ab",
+  "data/countries/AX.graphml": "24d9397bccedd3ef3cedd4280de6e0a24df2492d6ff91c2894b1d95a6b130a75",
+  "data/countries/AX.json": "6c271c84b7c5aa2375c192cbabfd53e4a2112e85f6cc08130e1fa15d786e8f81",
+  "data/countries/AZ.graphml": "17612708bf409ea8def4685910783f2c9507fd9566d18da117866568c360f88d",
+  "data/countries/AZ.json": "2b25f338f8035d91d963737e4bf7470da07b3a3e8aa19ca456510c36e4fa7eb1",
+  "data/countries/BA.graphml": "200bb7d18de7f0ae2bf75c5a8dc12a22238616c665842ea7e5ccbd116ae04e5a",
+  "data/countries/BA.json": "0c9a7d17c1a08144e3dc7811a8ec28829a0cbbd2cdedc51d70fb20d941b9c373",
+  "data/countries/BB.graphml": "c801878293e697833b2dc19a8a18f680d3cf735be9fb6112ca17822537e2b9b4",
+  "data/countries/BB.json": "659807b12fb7a494cdea7ceed45cd6f0728508a3b108c586aa9e7985670e30b3",
+  "data/countries/BD.graphml": "7d5ec8940f525dce2fbd8146f5b34c8c94ed8731fd22cf697afe068c30f0268a",
+  "data/countries/BD.json": "8f8fb13cfe303dae579f353b254d1fe55164732546cac0773d9ab9a3755e045e",
+  "data/countries/BE.graphml": "eb223c672dda0d0061a943bec1b803868c4aa913115704bff14e08977bbbb7d9",
+  "data/countries/BE.json": "725155bbe74993f0bc578f3f1bcee7583616cb7c2502b0ecee53ef18b477402e",
+  "data/countries/BF.graphml": "6a5c562affdabf56f92f17dff786826b0be7e45e0ec6afbac94bb56ed26688df",
+  "data/countries/BF.json": "18d38bd21570e19ded21fc207be4a826951daab60a072c8f859f794958eef1f5",
+  "data/countries/BG.graphml": "292c1f1a9e12c5cbae2c0a3378b5a2538d2a52b0caaee75c4c4c04790538d012",
+  "data/countries/BG.json": "cd044ba24df093fae355428460784431b87c5311bf240eff8b3a680dc9587f63",
+  "data/countries/BH.graphml": "698de3d89190d04bf1c55c8bc29c62b9b363178c8fee1ae7efb0ac0f66970e89",
+  "data/countries/BH.json": "ba9c6cd27bbc5147a12a48207f80af616998bc3fe19b431c5a970257e2ca4595",
+  "data/countries/BI.graphml": "e99788a74241c759afcc6b1def625c93ab2fb78f1b6d3df4e3e3e600bc9db560",
+  "data/countries/BI.json": "ac3ea3b5baf0aa9d287c0dc917571ed1f0c4ef0f5e8c3f6337f87cf7a1078312",
+  "data/countries/BJ.graphml": "39875a5f75c541acbf1d18c1f59472100a96d1cdfc9d344b6790fef4c97be93a",
+  "data/countries/BJ.json": "6d35bee52adeb95a8a168024f91a0328943dfaa4fea0a57024dd56625ceb23f0",
+  "data/countries/BM.graphml": "cfb8b8eafec2b7b4c4566d9c510a06e9ee98b5aaa9697f8732f140a1568bd6f7",
+  "data/countries/BM.json": "dfc3b191478b27aa633313827fdc6d3992a73cfe831ed5aa622e48a108d07635",
+  "data/countries/BN.graphml": "8a0fec80316e220784ca78b64c8ff08d6296547479e48736b55b234f497c7022",
+  "data/countries/BN.json": "6a09a45e218754a45b48b2aaaafcbb3b4e773b3779865da7af9b4a1af6368563",
+  "data/countries/BO.graphml": "ff061f7489e74cc3ecf929c2e0cc7d6a4aa01df4792e6fd30fbf2b2b7ea9c944",
+  "data/countries/BO.json": "495ff73b2cb5e6da4fcb8e75d0cdda9bd57a940fa6896569cf178937b7cacd46",
+  "data/countries/BR.graphml": "e4d4aa4bd4d2fd5cb040cbbe63a5297a952845bb6348862b7fbb5ff950563e86",
+  "data/countries/BR.json": "b1deb311d8a96d09154446f846c561eea0e20f35bd6edf617842fd50c0551d4c",
+  "data/countries/BS.graphml": "1830a2d5031344b3ff4046cea8f30c96212f2d98b1099853e3c2640da87c1f12",
+  "data/countries/BS.json": "120460a486fdca32622c6fce40bc040af7f0c9c1f7141f143179ef9174ef7769",
+  "data/countries/BT.graphml": "4cb54b6c8a0c494b3a218480897b62ab6593b6c057affe68f5084d24fde4f3ce",
+  "data/countries/BT.json": "fc0c04adeb5c911782cbbfe54523f5572925ce5a4e7e2e66aa4afd543b7d4d97",
+  "data/countries/BW.graphml": "20d6c41b2564535a3224b62d9b3c6b8d1befc9fa39837a19377cd658a6b41380",
+  "data/countries/BW.json": "eeeeb848fcff4174943ef8829ead9d19a5c8caa1069f427fb0dcdafae1cc6463",
+  "data/countries/BY.graphml": "7c1cb98bb1e3908b1db57d2e04f24947d27eef574fbf9e394af32c0938da27fe",
+  "data/countries/BY.json": "70b737ca03d81e43f1521a4a116fed08f4bb54508444dcc960576289e7447816",
+  "data/countries/BZ.graphml": "d63cc05ab40187252ec5c35aea5e13c8a464571299236ae43cdd5cf96c690263",
+  "data/countries/BZ.json": "92c184d9fde34459488e1d2c656b13b9acdb1ffcc5eb8528645bc8ec83a6a790",
+  "data/countries/CA.graphml": "c57a1849e8364a04fc627ec33c762e0c7878fca7173f46e8a4224ed0c0086163",
+  "data/countries/CA.json": "5625f90a6a16d15952bfd0f28c4430c66268b6b76840dc8632682b6107dd23b7",
+  "data/countries/CD.graphml": "18fb2103dab9e2783420ef1e116f008a2e77bff2e23b31c1f946cf93065e3450",
+  "data/countries/CD.json": "f69187fb74a1d36d53915441c8e6a0b29157658b8bc4ae75749ed3866f70221a",
+  "data/countries/CF.graphml": "3276720f5b54eb84f3f9727eb467c2e8c26bc6ded640be2c1b7351d27b18411b",
+  "data/countries/CF.json": "3c8367e58c0d7c61497bf16ac0fbe2db317736510b3d3414a6e406a437660022",
+  "data/countries/CG.graphml": "1e83d8d195fd1e266a13ff374d0670ce5e007ac98d08caae5197af30eb912e9a",
+  "data/countries/CG.json": "0838a077d1592b032cffff044a117a4e02aea50a9b4d6fc65e5b8c9bee83ad84",
+  "data/countries/CH.graphml": "d01344bacaf5844b3f4e7539e414f20a053277caeb9dfbb25746c3e426544a10",
+  "data/countries/CH.json": "17ace82644c07da77ff58697082daea7218242df938d4b69478c58cd1eafbf1d",
+  "data/countries/CI.graphml": "b14c455be67ce0bb51d55af1528b819e911a9fbea539a0b3f7a952aea023ce0a",
+  "data/countries/CI.json": "5308beed6094d01714975ff41184f4224bb7b441451ab070721bfb3147392d3c",
+  "data/countries/CK.graphml": "a3c5cfb4707954da7447911c624e954d77b7db92d070e9525978300ddde9e32e",
+  "data/countries/CK.json": "a83d75d6e59d4a4acec6bf1d5184d50b6b1d95b8b00b0af4e48532e165440a31",
+  "data/countries/CL.graphml": "89ada6ba3dc8e45fd7355a2cc8c9b27d14f372fef0012ecd7dc147761533be7e",
+  "data/countries/CL.json": "36b230932f5c4fae46fc13b4d184a9ecae8c64c995f11982e1f3e712e60d6242",
+  "data/countries/CM.graphml": "2529cb7f87fb39655cfd4b6b37f6bcd663870f013f46d5776f00b959fc7ba017",
+  "data/countries/CM.json": "bd427ef58ab1ea361d56d7aca558397234858569958f38c97c4ae6ccbb9767ae",
+  "data/countries/CN.graphml": "4b777a1d2a7420124589a3ec38f2a9cb595c32158ce3e5f3159d59c28f1a0824",
+  "data/countries/CN.json": "a828238503720492689f766465af3945876d87906f5699f9f0d9cb625b3221af",
+  "data/countries/CO.graphml": "c73d88afbea748529b6dff64ab9318669389b6cf6a217414ba339bd26c645dcb",
+  "data/countries/CO.json": "7bd622b414d079cb0813e96ec0f460de8418d94d762b8aabf7304495276dcec1",
+  "data/countries/CR.graphml": "ba6645a85d13b87a6efb06ea8e2c35eb0a3a33364b6b9d4badf6cd1aec64a4a6",
+  "data/countries/CR.json": "7ec171828cc4d272fb4e47fef75560ae508b0f4c86e1ea0b00433fa309ff7a8a",
+  "data/countries/CU.graphml": "b3094ac70de5cbdd6f7363f4dcda85b334ed6e478bc70427c7b2bb9a909d7097",
+  "data/countries/CU.json": "fbefd12f1365893752d83e8ac54dcea95b72e1ba7b64f50ba0bbd890a8deb3ca",
+  "data/countries/CV.graphml": "57a013592cfb4531ae17b687313cc3456a22b6de6d5de2fceb4c3ffb3afe517b",
+  "data/countries/CV.json": "7e98d967a946eba370c24d1354e1d6d520e895d909b6b761daa680a983dd1fd0",
+  "data/countries/CY.graphml": "2ca38665a06dee46acb534fa8bbb6fdc83fa5032b3464f7e96df510ba6e971a7",
+  "data/countries/CY.json": "73e4ace867a32c0f2ca862a7288b26a133b6cc4bcd088b2cb1f64b73dc3a79b7",
+  "data/countries/CZ.graphml": "21b24e9dcda5fd8ea61bc100ccdcb31b40e136d056477fb298a554525c39b0c0",
+  "data/countries/CZ.json": "8602be5e4ba15a0aadc3bfcac46242ba6f72ce6e2d3faaa2e659501887b40a88",
+  "data/countries/DE.graphml": "0c5670ff596121ac55e97c18cddbcb6bc92c7fcf3a5d599745d6029803987c1f",
+  "data/countries/DE.json": "fda26ae3d40a8405a4c9618662b230f2048ba7e3bb39e96452a20677f27b472e",
+  "data/countries/DJ.graphml": "7023daa2571f8f56c0950a3d9a7e080c8a0bb0854d8282bdbd53d61b9d9fe85a",
+  "data/countries/DJ.json": "233a77b5f911f9f8188a4bd7d82ebe317a7eccf6f3c52d9d38e0de9b8b16735a",
+  "data/countries/DK.graphml": "cab217e38f27ce109ca22db5f95cfbacba3c242859366efac44dff5100a1e63c",
+  "data/countries/DK.json": "c8067ac173ebf6228972092317830a94ed6acdd1fe0aa7d16d8c9055d5b6b5a2",
+  "data/countries/DM.graphml": "ab6d40e8da45836219f1234f36656ecfc6ff99ba38116e03113ed7e45f403ddf",
+  "data/countries/DM.json": "3eaf7c5286eaa1f614672220a0fff01e24e842997c00562ad3d8f20d4ae74602",
+  "data/countries/DO.graphml": "93633d16063b65fa10fd03eb78c25a60a059020a2de8bb2b7e5f742f3e7c8e16",
+  "data/countries/DO.json": "e6a1c63931a615f71b1dcc3403203f459b119f80e871dfe06a0bdb3be117a44b",
+  "data/countries/DZ.graphml": "4a2a56d78a79e3e56e0aa69a1891fe37988db02d12f60e67148b5350469c6b01",
+  "data/countries/DZ.json": "9ccb0f037f07f9023322ee0a6c95b4422e7a154147ee6c5751834741a4900ecb",
+  "data/countries/EC.graphml": "88ee195a8ae62a09709be97e40d1ccbcec9b3afa4e70c923547a23c0cd79fa85",
+  "data/countries/EC.json": "8a4500bfb9880c7cd0d779403fc94e5fd081b7ed441c81e0d77934cbf4659832",
+  "data/countries/EE.graphml": "e38169e01d80856aaf6424160de11acfe6a6bc460d4d9c424c3488f53c498a07",
+  "data/countries/EE.json": "2c591e92f6494df452ab1ea74e21774c56f17911f0938811654a0ab36b5e9306",
+  "data/countries/EG.graphml": "7ccdb2d1a3ce14b4ff961e47b766a1b5c466a93a301bb7c33f494f1fcc4a2024",
+  "data/countries/EG.json": "0f4481a7db4f40aa99d3b173d49694893182e3de3bbf173a3f65f481379ea905",
+  "data/countries/ER.graphml": "1875fe9fbbc8c8b90f5e45739b09ee0f8c288a77c26930799a506a9bbfa0db41",
+  "data/countries/ER.json": "5faac992be1a0a7cb34f30ee4ac905577ea4c278dee9578d21e6d4ad4ba10d12",
+  "data/countries/ES.graphml": "93485a4b6400d29c6a2d8030ad1527448a9b9a534fda8314a3b8f32662d532b7",
+  "data/countries/ES.json": "d1e90e79ae5786bae64511662e8916db5ed41d914c74bae266bae01aabe46026",
+  "data/countries/ET.graphml": "a591cd40771f8dab7c701f89a0b2ae7d54e25ee889bbce1168d71817e95394a4",
+  "data/countries/ET.json": "44d7666ed1f54658b63127c922beebe15d74d4421f6503948827d6230785a398",
+  "data/countries/FI.graphml": "826304bcc0156072c623a27a9c0169809f9464afbcd1cb6d39356aeaa71223a2",
+  "data/countries/FI.json": "b1090707a02f2406bfd0c9cbe0634e1033d9a854e05b86c36603e1077891231e",
+  "data/countries/FJ.graphml": "819994e863c22f1b85e3dc5695112dd7c495d9b4eac9eaba84239aaa8335f8ef",
+  "data/countries/FJ.json": "c4f12a6ff3c24e65b00086914a55f0500e75d1ba3986a67a2350a516c951a73d",
+  "data/countries/FM.graphml": "bc2a680e0350f3f1ee5fcf39483d821c0e7eed5efb041355213d942cd8b5baa3",
+  "data/countries/FM.json": "2dfb5dc6ce89e2fc6f8ce6fc19c21868a3a9e059d85398b61007fb25826a8f65",
+  "data/countries/FR.graphml": "748199db412956212548bb29caa38fe7d7c5197501be3c00232f17b9477fe873",
+  "data/countries/FR.json": "b71ef0af0bacd66ca74c5a6311134839f2bb86237e0d0c3d6efa3c0dc169ac5a",
+  "data/countries/GA.graphml": "8b982dd4450ac14ce062f1c167006e1ec524e6e60dc7ed3f19b4ed100f22f4e0",
+  "data/countries/GA.json": "94127f3021ae117dd9a2420cfd2262e3bceffcba317d4081c40a03f3db012c5c",
+  "data/countries/GB.graphml": "ea67574c75152943c6e75509b882074eb6a925bad830b36319a8bbd06161b43e",
+  "data/countries/GB.json": "e638e7698df6efbc279bf2e7f1cb78b923494d1b31600191f2bedae904d18f4d",
+  "data/countries/GD.graphml": "8231222c3518df87f9f775d6f3fa1cece6db9e2594a5d7f430713d72b8253c0e",
+  "data/countries/GD.json": "4d45005742a9c57fdbbd75e05b01e7d44255fb009043ae838cb4e82e60af192b",
+  "data/countries/GE.graphml": "f1317c446a863e5b22ae781bb45af87f8d7c820f8b26beebbe3368c8f0886bfd",
+  "data/countries/GE.json": "62bbc586731d61a11af5a90d979294ac17c88f9088e13e7460a3741d84feb043",
+  "data/countries/GH.graphml": "1cc28c5ec65072ab108a5a0172fc7834a3a7087702badae1f6b890533bf8413e",
+  "data/countries/GH.json": "c399646c143985e27b4e7756e00491be2ddb9b1d603bd513d015772727076367",
+  "data/countries/GL.graphml": "e16eee75e96efbea3220694d975e7774bd5b50d8079c8b1a06deb2cfe8c58697",
+  "data/countries/GL.json": "f97924a261494b3f5443f9c3f487c13cd25d7abc698cd5fdb11cfaf4b2fd9e30",
+  "data/countries/GM.graphml": "b5b9ba85a4411035cbf42a6a8af27dd7c9d867ff022a3025295551437898ad21",
+  "data/countries/GM.json": "9c288b45c39f41b9e132b97c88019afe0558ffdfbce8d530f2b785bbc429918a",
+  "data/countries/GN.graphml": "0840057cc3dbd45e9999e5655de0fbe6985ae673537957b2ef3792850530f70f",
+  "data/countries/GN.json": "208b481066c3021856d5edcc4738c940f401addee730afa98989862b71847815",
+  "data/countries/GQ.graphml": "6c778ae394055270c13830af32eb51943cf7d2696e4486cda0b0cf3a62af0445",
+  "data/countries/GQ.json": "f9c587efe18aa3653aa853cddd183eaf2c4aa0ef381000e975c1ef8b6e7acb39",
+  "data/countries/GR.graphml": "32d1b549e5fb97b78690fe212085b1db4a0693dae560d44a252f1744d16ffb7a",
+  "data/countries/GR.json": "09a258d57fe546646094689c9bf03db6f068eb8ce1cbfc2c83e54c6781eeb072",
+  "data/countries/GT.graphml": "12837e1b1944c7d1c5b53ccfc00d4974bb78ac9f12777f78a848baa3c8aa633d",
+  "data/countries/GT.json": "9890d1c6df965ea33154771483166df786f6323695cdf892222b0003e39c8cbc",
+  "data/countries/GW.graphml": "a59fddcb7ed2c4cb48de5cb6971ccd59b53e037399983816501eddb5dc4a9a1c",
+  "data/countries/GW.json": "3d938066bf9adfa207ca559a5178bbb40c5cdad22beadd55e3e755d48422006f",
+  "data/countries/GY.graphml": "6bd7e5b6cb4f62d0d838aafd8aad99ecd126650f23d039a8c32f92f0d6840b12",
+  "data/countries/GY.json": "a08492daebf22e8f08c6117ecb4c130916b68ce320a8a79fe425f84f9bde26db",
+  "data/countries/HK.graphml": "fd4e64f4d54a9335b1da06c1373dc748105f1150779bd41e061de6f18f9ba9d3",
+  "data/countries/HK.json": "1d4daf0309f40274f9754a4b562389576719deec7da048f975a7f6828ddbbed5",
+  "data/countries/HN.graphml": "161271ab7602a0105edd31487c348b36b4c641f88173bade3220ab125e602479",
+  "data/countries/HN.json": "48a35b6a82a3417847b241afa5f3ae1184dc7d46c47836a5838a13c855b887b6",
+  "data/countries/HR.graphml": "5c4008ef55fb85ea2423822d2fb393103d52d800fa896e9ecfed9785a934b8e2",
+  "data/countries/HR.json": "0a377d326e0a62b84673893810b54b7ac3833de0428482339a001615b0098e0b",
+  "data/countries/HT.graphml": "dbb39d9968ba919a6d195d01f575362b0b8f6cbb96dc9fee615ae2e45b96d1e7",
+  "data/countries/HT.json": "6cd4cb5487990aec4f215531d1aa7f9a5405834f4f930ad93e099d9da7099436",
+  "data/countries/HU.graphml": "cbe8f12ecf3c0e6618e4aa39fbf191a86450f6610b8adb569644c92ba50942e9",
+  "data/countries/HU.json": "0a224f849f1f2ee545c777f168bb56e1c631207aa1caa22132a2b1fa27907ffc",
+  "data/countries/ID.graphml": "5f29cacbe1b9923ff7c1cb3374a6f45fc72643fbb2b80f1c2543a2721f9b1ebf",
+  "data/countries/ID.json": "4cc14f5d973f25b54c8e3c3ab919c7c2bc959fbcf20132f56926b7e83102a645",
+  "data/countries/IE.graphml": "0b8f951c8eca8b6942663b026453d4a2dc9735b59c82ed595142ab26a08ce1f8",
+  "data/countries/IE.json": "a15ccaeb49eaa3ae82c2e81177e74be3fc372020c5606506ecd3ee40bb7a157c",
+  "data/countries/IL.graphml": "80c111022beecab7986cfd9adbeaa0300919815ca50bf5bb3a715ef041ce69ae",
+  "data/countries/IL.json": "8b205ce9b302018632b5a892bb45581f37497d51cd5cf7ab37e635451ba59ed2",
+  "data/countries/IN.graphml": "6b33a091688d520018dbd845eba5665c55f5b19b7a6cdb2a30d6dd0e8a266528",
+  "data/countries/IN.json": "ccaac19386e2a22cf9880a2846a5c10d35e702adee24775782ba8effcf93e184",
+  "data/countries/IQ.graphml": "fb3ecbdfd4d5573278a1bd9907d2d3845eb3eed3bc8ecdd0eacf74605ccec456",
+  "data/countries/IQ.json": "3d6befafa86402054986eee5ebeebc961b78953048a35f2dc600cfe22557a0f2",
+  "data/countries/IR.graphml": "d73682289cb8f7389fc5f9d78a693ad4b9db10423cf99d0c974169aef4d66ad5",
+  "data/countries/IR.json": "1ff04f8746e51b4a10ef6c82c8560ba11539c309ff19ba301b28f03b13c13523",
+  "data/countries/IS.graphml": "bcdba0b1e0308f97d3ecd679ea5b7f5698039d9fef0e6bfa482cedb734c380aa",
+  "data/countries/IS.json": "54f7f04c037fff9beda815b07163907358f08515995a72e28e59ec03b64704da",
+  "data/countries/IT.graphml": "9cf4490d24507a42e38aa2b608189ef24c69b032207fb3be226da46dab0c2184",
+  "data/countries/IT.json": "f95c6876eb6819d4ee9f62cde3be9a91989514cd3c965b9a291ba719d3b289fc",
+  "data/countries/JM.graphml": "6aacf205d7d2502fee2316512a68b88d7bc8026e32dbc5be3c615f4c31fe7d8e",
+  "data/countries/JM.json": "076cff0e930115bcecabc23cc358e3a0b482ace01d9cc7a19f93a7342b1c53eb",
+  "data/countries/JO.graphml": "d21d4a16aa7548634eb7b641042dc67842e783fb6f4096150308f5ae73c3005d",
+  "data/countries/JO.json": "b34df52b879845ba6248eca17b99fa796c0c3f0b1b45d94926b07adc07670cbf",
+  "data/countries/JP.graphml": "303787f330dcd76974c2feb61ce564232d3d0adcf3c4e3a5224b15aa7b2f5146",
+  "data/countries/JP.json": "1456c9203baf56af4f66ee4db5415a9bc12b111080e20a6891f3c247fdcc9704",
+  "data/countries/KE.graphml": "4fef165592068d33aa8e023ce697bffe39116818b2dc5694ee7451198b0b45e0",
+  "data/countries/KE.json": "37b67e21e79f1e2d53cfd71cb67d89d369aef8797e7371e1957e0dc34523d72f",
+  "data/countries/KG.graphml": "710ceb33c3575dc8427784d3bf6a4f82a8c55d50b1f8571c3d6faad80fb9f8ac",
+  "data/countries/KG.json": "86ca0bb970e1f826d1d826879d56df743a8ce082142c711638f9c4d7e5b1841c",
+  "data/countries/KH.graphml": "ed007ae2d315cb6995a67e755794bb4d68ff3813bb7a646ca3ac9c3a1a7bb18e",
+  "data/countries/KH.json": "5966b119e1e4026f3caf83dbf2bb40918150d2c97a715f6f0121ea713e12ed5e",
+  "data/countries/KM.graphml": "940d1cb72e7b423071436abd2378079bd0c6463ca7aa9f42488fb5f99f350b11",
+  "data/countries/KM.json": "adfc476b11be79aef2dc0a8dc2680da3b699885d5dfb8231f2611a62b45b9d0e",
+  "data/countries/KN.graphml": "d2bcf9fe65be0c7a7667515b8d4793077bb20541b60fdd6226304f0639879d79",
+  "data/countries/KN.json": "72932d2c1bc612d15cd571b65b6e9a36971228857233297a38cdf98657f6fb20",
+  "data/countries/KP.graphml": "e8c92050639bef674e0b40711b8fbaf9759faea47e330b60eed3eab10982fd1e",
+  "data/countries/KP.json": "431d071af0a1436646f96b9a978e8adf45c391289b29bd5bfdd9c1d348a14180",
+  "data/countries/KR.graphml": "4501946504b8cb6d5b7e6b6b365fafaa669a8f3fb4b0df18510502a0508cfd22",
+  "data/countries/KR.json": "3250ee7b48a5adbcf0dfea072f67feaace2d71dbac81291e601bba2c19e78fbe",
+  "data/countries/KW.graphml": "9f7d7036887356ede0ecf4e190adc4836737e24cd3ddb95ac05653c49829e1e1",
+  "data/countries/KW.json": "6de3f70d58a1115d6140210234a26df817e90d63d71a89865162eca087bf1d57",
+  "data/countries/KZ.graphml": "a20a1f171183d6d0294bd11991bee3ec987892cb574f52f794866a4f2d11b2d0",
+  "data/countries/KZ.json": "ccc922f24b9057f60de9959c07425085d3832e26de53aa27795fea7c4df05f38",
+  "data/countries/LA.graphml": "2a31b23dcca7ea5f7b175de09a8ad8e52a8aa126a7c7f3589778a1f5ef13f1dd",
+  "data/countries/LA.json": "7c8c0e9ecbee76977ef36eebc9474926957666170279ea1ce72607e7d5192437",
+  "data/countries/LB.graphml": "03c56a01f2b9e59d727e77ef4310f1a42ded8732780dbaf1d57ee4a0fd488989",
+  "data/countries/LB.json": "5302fd464ed321d03c725b9b1373cdcc439969701051abcc536e3086fc4cab1e",
+  "data/countries/LC.graphml": "7a782e00571622ad0cb23c498bfc55f5a1c4bb8c91fe9f365d8e9db4df304b35",
+  "data/countries/LC.json": "5c2cc8e6aadb9f2ac509c563a65a8694c700fe8d691ae45c27065bedad57210f",
+  "data/countries/LI.graphml": "ddf56601c63d6fb5b1898a21ab51662de29104e50b6abb7307fcc3bece4dcbed",
+  "data/countries/LI.json": "cec02f2f70e91f3027c8303eb753c50d51d09741b5f8d771e100295ebb3b1f81",
+  "data/countries/LK.graphml": "96b44a0832de797e765ec3651e8d62f29ed435e401d031e6c667bc9d22f8f456",
+  "data/countries/LK.json": "933b77d2ffca1fa2f308b15a54fead0dea4c505906a8c09ac343c9a88f08e092",
+  "data/countries/LR.graphml": "4194ab5aebb3959bdcba8f3275263dffa78e9537d45825b405d1482277212494",
+  "data/countries/LR.json": "906babd68e67d6306b1fe8448958a1353bc95cc5b30c4535f18df21d24fc75b6",
+  "data/countries/LS.graphml": "eb98c88b9a4b7d3fa7be8e56ef4d55871cb75c476b5206cd15243660d8903da1",
+  "data/countries/LS.json": "0163a41da61a8dd2785dd3c3aa07a585d568e4f9adbca2caf43f19706c5e319f",
+  "data/countries/LT.graphml": "a684269b123e05f37facd8c135e9200cf26f307611c3f9c05041a441c3390ba1",
+  "data/countries/LT.json": "a495a9c1251606ce9fd69ac4dd2e2d927cf17e2d39082c21ffef39ef982443d1",
+  "data/countries/LU.graphml": "78cae97ab971f48e649c5f2ff2180f6dd6a8b4160ff1f043ba909654ba7fd36a",
+  "data/countries/LU.json": "782f17c90fe2b77c9cb9df3a17b182e74dc6e62defff9b3581eb654583aa9ac6",
+  "data/countries/LV.graphml": "308f056e96e74ab864f36032cbba95f1090ff19de4ea9c318c3ac098f5405fec",
+  "data/countries/LV.json": "ccdc4b1cb622c6ceeb930ec23bfd7c5363f415d9b35966b9bf0ee2277883890e",
+  "data/countries/LY.graphml": "d8d64a652e803c041c3bd0c7543f5d72d991e3b0045035a7bad0dfa9f044ce8d",
+  "data/countries/LY.json": "bc3365c42ef38d373f408c7261733efecb06ef115511278793aeec911eec5ac0",
+  "data/countries/MA.graphml": "8a23cb8833ff06fe88bc93dcdf322e0b74c6b0da0c7fa0768cfa0040ea5fef6a",
+  "data/countries/MA.json": "65bde0ef3acc11e33b86c2cd5e6f2fb4916ecedbf577d66f5d4979d619bfc60d",
+  "data/countries/MD.graphml": "fba78399d9bbb5ec9ba37e1951cb97c094f00f1bd629bf3a0153392b3107fa67",
+  "data/countries/MD.json": "f34591d801551c217c3db2f82b93bbaa16481c56d881d158472e23ee90618892",
+  "data/countries/ME.graphml": "e2384839ecbfc0c50b74ecfa6a4f8a9421b1d4f4e8b24fbe3d71d8bd8c07afb4",
+  "data/countries/ME.json": "81cae0b14e5c2c7e088fb31cef5d9ca839fb0ef89424b02cee3f2e52d9069ca7",
+  "data/countries/MG.graphml": "d8617e8b6c98e5084d346c3dfe88df61e71eb9d7943a45be371cb85c8570ecb1",
+  "data/countries/MG.json": "68f0019047d4b237b4bb0e75cb58521df5f9a567aea2c1b0026cfe460add0a83",
+  "data/countries/MH.graphml": "02375f898e4a8935084e49c95e492cd0980c5f2c804a766bec632077645e3eff",
+  "data/countries/MH.json": "b4e2144fc1b6d7e7fc86568b9d7ebf4497f0440308663bb59221f259284c2f5e",
+  "data/countries/MK.graphml": "16f77d5c6cb3beacfd76f8d89f2d885205e8698f5d28b9d1412c86683f4f2982",
+  "data/countries/MK.json": "cc15b74260b480c8c8cda73d845a06df45885f616fcb2bc1a60c6394009bd5b3",
+  "data/countries/ML.graphml": "d574533bebec9f9da6590475884677bd6b667a1cafeb44cc1030591150b3543a",
+  "data/countries/ML.json": "ff3273a56b2afa70a509b91e681bdcde58bfdd3ec45e302aa021bac369b30551",
+  "data/countries/MM.graphml": "c3d65f2bce73b28375f6c6dfd75b3ed72f200eb009fc60a1109c33902d9aa92e",
+  "data/countries/MM.json": "a8be5d6955599cb728556ef6fd5b4722221fcbe32905d8816850ba5e7c0acc39",
+  "data/countries/MN.graphml": "1d1a0bfb691aaf42ad16e11f35d5773cee780ec2d3461ad67cc74fac3717c4fa",
+  "data/countries/MN.json": "a03a2f043af49ae803b1c15ba4e8c6ea7efbda69c25be2d8757780d82058ce69",
+  "data/countries/MP.graphml": "1a6591b4cd7ea1e59463dc6545f81b3aff4fab6939f5f3d9b584ea33f765fe6b",
+  "data/countries/MP.json": "189379b139e69cd8e0c69dd59f899d9ebf9d6d3880ef06655cf8e1b7f1f09511",
+  "data/countries/MR.graphml": "ae0b827ec48a6fdd9273077894a9a592f49994cc971e52173fb28405e1a94952",
+  "data/countries/MR.json": "63e40054d0a986281250b39facaf937d94d75dc650611105b290bdda3398de23",
+  "data/countries/MS.graphml": "c95a888bf7f5544beca8c12128c65ca55119ce3fc84ba21c0730698c072b12fa",
+  "data/countries/MS.json": "a5233d0ef3d8c0b038e2cfefb552e7fcd246eb1c51ca9d48f3e2afb3302da886",
+  "data/countries/MT.graphml": "b523f1720a1c0d9ff9533c25cc5a2f2aab56ed0dcbfe912b84ea6d75e57a362a",
+  "data/countries/MT.json": "6a03feb5044241925359ac4f42e71639f64f3a1a512c4fe540272a2717045f14",
+  "data/countries/MU.graphml": "57190e280e625b057d66b0ab5f8247b0d511a9a60fbd952e555970d6cda91b5e",
+  "data/countries/MU.json": "36ffc12dac6db33448f362f98fc75188a96eaf0459dcbddf014cddf1b77d517b",
+  "data/countries/MV.graphml": "76d43ab985d15c659c2c5a8ef90fe17695d07b4271b91815071c45fafe8b59fa",
+  "data/countries/MV.json": "a0549c3e3fb6591aee1b608f95f6e1976bf6b385757665cb633b443f50f59ff0",
+  "data/countries/MW.graphml": "c6a8a341b9f30d20aa5312db0b2987bc2c20ccf3e6e3304ae4a58f30909055c0",
+  "data/countries/MW.json": "279ba47959ba1a4a56e756fbab502e0b0debf103aff498c442f99658f95afc76",
+  "data/countries/MX.graphml": "050b9b93e61a6b0730537d3825017fbaec755b27af22e036720793a26e4572f0",
+  "data/countries/MX.json": "b8a7de0a9a3446e6061c4eade2d0d61d30cdafbee09566d275e24755bbfd6811",
+  "data/countries/MY.graphml": "dbb8a0d608a90fc22b124b47ac6ca37f8e2ba6517bc98de5a0842f0b22408f68",
+  "data/countries/MY.json": "d8bf7a42ef61d32d316042506286e0447bc627a29420e90cba7f017cb1f4e34d",
+  "data/countries/MZ.graphml": "7580116bf65948ae305e7825bdb8e1bac64eebeb39a81b79efec8122854dc4c7",
+  "data/countries/MZ.json": "cec0f6deda8b91b5cb825690fe591b83b7845a1e512cadc160186dd2a0f65aba",
+  "data/countries/NA.graphml": "2fb18028026a6beec17b8034d02d9ade9a4b58837a00b28564e8135eecb3c3d3",
+  "data/countries/NA.json": "9a95db4d3db96596be6b1f0186bd727d47e3e6fdc9fffcd286b5792610153374",
+  "data/countries/NC.graphml": "3b25a88b147639d01abf07dd50032f7681928afd7807911057d13a37d66779c2",
+  "data/countries/NC.json": "f36d47cc59aefe6d486246403b06e4c6ac19f9a8367bac3ccdad2343a4bf9550",
+  "data/countries/NE.graphml": "57315d6f9eafb68b7a50c0255d181470b66247c4e4a0d1d80efb16f79812220e",
+  "data/countries/NE.json": "9f37def971e387599608956e2c828ebce90351b20ce8822159028c388141842b",
+  "data/countries/NG.graphml": "6c91cf04db446143f9684879ffd72cb05315982401f3155b0004690f0f3722a2",
+  "data/countries/NG.json": "9b1c082e2397adc374aa3d87fd59796a253ed18d4f6ac3a25189adc4fa3698e8",
+  "data/countries/NI.graphml": "530272bb64334403b3d40b980ca27ce8d6654befbda8c6e34e2b51c4f115d180",
+  "data/countries/NI.json": "57e80428be9fc213dc7fd8fbdb4b745d867cd60f6862c6452aa6c7a53b79fd6d",
+  "data/countries/NL.graphml": "0ae9e301fc8d959c21ede7fde654a636e5942b9a0049fc1c35f33be675035d02",
+  "data/countries/NL.json": "795570f22c328c5a496bd361bd672aaf582afee5aa0b61e31c2eca4637f250f3",
+  "data/countries/NO.graphml": "35bbe1fca80824575312c3c712beea73c75994422558dd851b2ce1fb11f0921f",
+  "data/countries/NO.json": "57b1abd8754749ec43b3f50166084a7bb6cf5337cd04b36da9920cc6f44a93ab",
+  "data/countries/NP.graphml": "cb4c5d5a8d742c3c2cb69fb17e11b50935702aef6309dfbe1894f8a693d432ef",
+  "data/countries/NP.json": "8112476622c5b86c7ce20b87bfb463dc3b443f7abedc7c80e09529177f713d04",
+  "data/countries/NR.graphml": "d08383a964e06c0c884d43b6a824288c49291af3e09da7e9c2b3a195031850b9",
+  "data/countries/NR.json": "0e9565cc3d27b690782617feacc84ad6eab07fb8ad1862d12d18ac82ee538e79",
+  "data/countries/NZ.graphml": "3096baf421708cba265ba45665d6ff4a5e51fd7435b158438226e687e46e7d93",
+  "data/countries/NZ.json": "26d0fde9e21e02cdf4dd5a0d4e55dec61d5b90ddfacf7047a4a0f2b3af5a1811",
+  "data/countries/OM.graphml": "a48f497c87250ba9f7195c8dc6a3d04395d80c468a11d2339e21479eb94e9d3f",
+  "data/countries/OM.json": "fa6dc288bacc30e5a4167c3fe5ce7eb5f0fe2d0a98ea1f8ceab8da9a7d4f1156",
+  "data/countries/PA.graphml": "63a4a354d338498b08d974f4686d2e0f3bbe3c7710eabc1151edbea3ba28d5f0",
+  "data/countries/PA.json": "79dd176e3d685512e446cd507459346a3eb910bb0dffedeb4fb0f8b0abc0d24b",
+  "data/countries/PE.graphml": "6ac89933d4ffd5e9cc7479ec616e537cbd0f38572a18fa42853607aa2c5d27a1",
+  "data/countries/PE.json": "f92f45146e2f5ebfdab54f4240f2fa68d6d794a36865f3addd44cf43e19efb96",
+  "data/countries/PF.graphml": "cbe9626f1ce38dec648cada2db4a49f5587b80e3461f0fd609008e87d05b2303",
+  "data/countries/PF.json": "b13d46ea4b8cba62560e2981a285307587539a21dbcdc5b361c720e704422f2b",
+  "data/countries/PG.graphml": "139576d1b7897baec71cd63a98b4439e2608ba605a7e87c6dc6b49672d0aae4c",
+  "data/countries/PG.json": "8bc91055e5c877aa156dfe7347968746e21212d0843a286488b8cd6133f9688b",
+  "data/countries/PH.graphml": "ec86fecea122e5016b7676baa72e545dd2d9c28e39eddd3fea76c45249058f2e",
+  "data/countries/PH.json": "a1c31313e9205165e5322977f129b5f34a4489809edffea38d396ad99c797618",
+  "data/countries/PK.graphml": "86319475ddb73be194d62f0d0e249c0599fdba8d893d8b8ecd1a6615b26dd384",
+  "data/countries/PK.json": "5f7f9bb9040166569d6be28c381f7b631a8f7a0464d81355777b032c565cbaff",
+  "data/countries/PL.graphml": "b72ce1d4268060f351e60efc2ef2106fea9a232b5b4fed6ceda8f64c15412477",
+  "data/countries/PL.json": "2fe25e7f8331d6dc82d03c0660f859d01f0bd3141b62d8d9cd737ba10f82aa87",
+  "data/countries/PM.graphml": "c02c7f94c425de11628b3cb47cff250baac5541615394bb45dd1dff0cb6b4603",
+  "data/countries/PM.json": "a45a284e61a015883ef008e66d8c6a4b8591507e1881985d61c7412ac4a95310",
+  "data/countries/PS.graphml": "ca040a7b96a3c58ae0ce3b0b64cf9b5566decd9868906c8c75602f282c72a39c",
+  "data/countries/PS.json": "9cb363462b27a4165b7dc574de5ffe451d56c1fb5cccc56b45b5700902f5ac18",
+  "data/countries/PT.graphml": "7ef56a3bc924ff8782c68a83da013928562925a5a4ed956a298d0885b9612577",
+  "data/countries/PT.json": "bd87c3372ed2c65d64c0762610bef7dfdac6569db8c073a125bfb13755ddef5e",
+  "data/countries/PW.graphml": "d2b965071ea6442ae8a3c2a04924fd7780e2b3d8893a927ce1d1f8690cfd77d1",
+  "data/countries/PW.json": "45bf1442b06df3e93737c09c5d84f335b0b0371856dfb897caa3b302543df5fc",
+  "data/countries/PY.graphml": "c4d4c8b4daa019784e57d7ff635e9601d3eefd2f67b2481cd21101dea5a6956b",
+  "data/countries/PY.json": "e4f70542e28fc3ff23934c2aac792ffe244047b3e3064a06230766445bafe32f",
+  "data/countries/QA.graphml": "8d665475aae3bafd9e64fefa319c11ea50fd9e388d48cfe345632636f912e568",
+  "data/countries/QA.json": "bd417da8b57850190715e7d738a2b28da079a2153bc7c3b57002cd06c7078c68",
+  "data/countries/RO.graphml": "101492ac5a3815387b7cadba160cc28b7c12e0695367bcd2163d837c4a883c0d",
+  "data/countries/RO.json": "64aa5382c72ae6394526f31a1493bf79980980b97e698434cd83fb20afd2f2df",
+  "data/countries/RS.graphml": "8ee2f906fdadcd08e090ec9c1bfc3c782657e444d57cb7678c469d360798a6e0",
+  "data/countries/RS.json": "f9fffd688cffedb18888e1c24e69bd65521043d9d6985dc26c030c33f74b5500",
+  "data/countries/RU.graphml": "bab3ed8c86b0d42610a981218867556e5c8dc5bf54491d6535e2c30ffb3c0150",
+  "data/countries/RU.json": "4fa4023fee2d3db5504c33e42b23ab2ad299e66b97bda14a34d9ddbf9ae8500e",
+  "data/countries/RW.graphml": "8ecc8f468698a0ba37f532107c6e21fcad9ffe087347b36a56405e315a241faa",
+  "data/countries/RW.json": "2cbf7dbc450ca6cbf4aad62b329dcce8bd48702710939234a24a2e7797f32d6d",
+  "data/countries/SA.graphml": "949bf9f5e9f2e67031730a02ab4063570c5ea721ad6a422b04d7acf80cf7785c",
+  "data/countries/SA.json": "84b0f787b1a316f47923bbee578653316e2ce379ad4f3a03398b9d1d91b72551",
+  "data/countries/SB.graphml": "5b8f3b338139953c4d17d76491aac9d64e5a04299279c421174d46107e09ec58",
+  "data/countries/SB.json": "cb354bdc87b7a117fd7976605df71fb1b5fd732914e7f5f34de1cf843c9e638a",
+  "data/countries/SC.graphml": "b18e05f51d14d66f0e5c9efa39a415c5072b4e746e7937ac04e29102e6961ef7",
+  "data/countries/SC.json": "dbb81eed92b0ae01668e4f751f5190dbefc4e9c21a53cc7f81238b88778c976b",
+  "data/countries/SD.graphml": "6d6885b7c36af22b97dc6f1c131de4cbbcf3b9f32258736d8d8b05e450d5f80f",
+  "data/countries/SD.json": "97cd4d2ed2350081a33cabd0fb252e56ed640d19c99617ec004366ad4ad9bbf3",
+  "data/countries/SE.graphml": "8afbcb7885e82d4e13cb2fa2e458553e91596c5f0dc4d99080656a4586e8af3d",
+  "data/countries/SE.json": "27a45d66fe196c49db081ab826b382927f0b9aac2656c9141eda99ce5f411448",
+  "data/countries/SG.graphml": "e2d2d71137ea6949f81873c1219b8f8e63c361304688454ccacd692566329e7c",
+  "data/countries/SG.json": "68717b93e4fdd0f938c4e9df45d3173a8b1424c23a2e49dcef1c944c50abe177",
+  "data/countries/SH.graphml": "6d2bae8aea28c0e4f4e59d1d40075420a296af9c776abaffda265e26826c467e",
+  "data/countries/SH.json": "15976e2cd6a500378607f34c31473ae762bfd7b9b869610ea247e14b66f004c6",
+  "data/countries/SI.graphml": "6b00c82d215ff60f12cc184a6264d8d2a13ed6cc2fa99e14fbc65cc58476764b",
+  "data/countries/SI.json": "648375d23e69e786071ec53fde2c6985ead19645beee3348870bf2a133f1b13f",
+  "data/countries/SK.graphml": "9053db8958340d78d2269cf604f159f80f57fc7bb8de8b963d0d49e48e40480c",
+  "data/countries/SK.json": "188c705a63561cc08f8b81d603ff342aa94f2f2a6400770f25561e93a6e8ed5c",
+  "data/countries/SL.graphml": "fc0f3212db04480dd2d2df22a69b02ed00bf791270a91524de0456c7ff6d4f2b",
+  "data/countries/SL.json": "3f10afab0d4b7c814cdc7f2a75baa0f72994a757ddfd3385b231df934f5167c4",
+  "data/countries/SM.graphml": "48125c3e3285d7e60f61d63026884269433419f5c358d866f749bb612fa02554",
+  "data/countries/SM.json": "80938331f95310f74070547fa62e6acc2750db57d00b3a17d65aac6d413cc13d",
+  "data/countries/SN.graphml": "5eb49d1e42148d01e67e4fdb31de3f7f4277ea28b5b50a19974e7d42d83189d9",
+  "data/countries/SN.json": "d72fcad19773e70553fd815ca6ea96e9dfdac688cf5b024c793473f9dac4d5f4",
+  "data/countries/SO.graphml": "0e2547ce9973a2a4a5f49b920d6e97b9f2697de00ce6764031e7d4fda47205f3",
+  "data/countries/SO.json": "afc1c958942c85975732f851637c034900d25bd001841dfddc93ce7281b3427f",
+  "data/countries/SR.graphml": "30744799d5299bdd7a07316c937377fde7869ab36d21bf452b6497e2a6db1c03",
+  "data/countries/SR.json": "f9e62976b63e8e12b7e53235c36d6ea6d1aa7ddeed50c27c1ce4eb8f4e8b471e",
+  "data/countries/SS.graphml": "2e2fb6fbdafe127abca02745ced75b818c47b150ae47d1a71c7faaf09741d005",
+  "data/countries/SS.json": "2de558fe2012e2e0adb115d9111af56ca7df7ccf15cf9e95ade0960eb919744d",
+  "data/countries/ST.graphml": "74f2d4fea4a955c3ac19312fa7c5b7f68d6b9e0ae66c24561109ae40c6ece0eb",
+  "data/countries/ST.json": "246b6c1d4b8383257dc989e3b6883b6de051a5dd9e82f6eb431134f6f53142cd",
+  "data/countries/SV.graphml": "520e52c33c90f51526daf24a371ead835fc6c82ddc57fd9b4558d39159290237",
+  "data/countries/SV.json": "9528a2e04be9a9ea2145567abc46446f6967e6f61b84abea53007d11a25ede11",
+  "data/countries/SY.graphml": "d3f177610d3f175a900b62646902f5117da8bca7148cd2a763a2dec46a2c9868",
+  "data/countries/SY.json": "12c6777f3571995032445acb2983bf99013cbcf5913cb9988391d7dc94c885f8",
+  "data/countries/SZ.graphml": "fe1806df2b84502bee457c3a0ed750885b0d26cc5d207159319c447492653bf5",
+  "data/countries/SZ.json": "929a077a91ceb7abca8ae09baec47420a379234b3da39826d372f6b3a8a28a44",
+  "data/countries/TC.graphml": "135ee33cd6a62bb3eeb5b0674795c5c82f63fe8ebb1a0fb8d24bce2ac872ee6e",
+  "data/countries/TC.json": "415c6a3ecbd41ade86209e2324fcdad1d29de8901cdad89973b1466e57470913",
+  "data/countries/TD.graphml": "73cf9ccf3bffa86572eafaf0e62c81166b2bae9a50bf40db1a2f280e3d4e01d8",
+  "data/countries/TD.json": "3413bd68953d6bec7f04b5af7bba6807e7d89c42a66c40dd73ae494a1aa04966",
+  "data/countries/TF.graphml": "4ccef2c20e53b1d87e2a34bdbf4437c00b102478623aaab6ba8a2bf86c374766",
+  "data/countries/TF.json": "8de8a70aa53623aa6a8e81eaa558dae6967eae1644f787be2fc1705a27e9d5b3",
+  "data/countries/TG.graphml": "9a1081e2fada03532eb7e41a9472ad0dc174eccebec22aacba97261619af1147",
+  "data/countries/TG.json": "468f2419e206af49c0b537241ff55fdfe63d28028ed8f959c61b70d61544b3b0",
+  "data/countries/TH.graphml": "39f35f04a5b1144355f9413ff823cb8d8965c73a73e03b7dcbd9a50031eb4a82",
+  "data/countries/TH.json": "0fd4e9cbd3198f455da7215c880b3acd48e4757d5eb433c6038e0fe8429a7975",
+  "data/countries/TJ.graphml": "96f69105d945ad6a69c5e08d2f19b511a41396d052e0dfef1303a51d3dffa6cd",
+  "data/countries/TJ.json": "930c068e74e70e510c9eb5c9a6df31ebd9a50b8b866c1289284e1529393bec02",
+  "data/countries/TL.graphml": "e1dfd10fd2e55e68c41bb7f9af391112c1f06bed65086c44f566cd638d6bb837",
+  "data/countries/TL.json": "dbbb77b59acfb8e15c474b49ac381b619c7c45cdbaa5799c306f966b8e78cdc6",
+  "data/countries/TM.graphml": "e2c0900125032a17e36094d313c6e693f3e798bf5f96ea42f97d51183ab6df14",
+  "data/countries/TM.json": "74bce5d971c1d29acbfaf62e7006179abea8bb60b673f984c7281dd46971d8fd",
+  "data/countries/TN.graphml": "ebb8222156cb8ecfe8dba2d7891b77e135633457830680a920a98abad2f2104f",
+  "data/countries/TN.json": "cb1f5041adfaf7ed336f46e8d6a2c32441654f7437b94c8a500c51e5af7ba70f",
+  "data/countries/TO.graphml": "5e43d9b89224abdf2aed3d57645136fb58c96e0d2159d86bb6bf21967f321dc2",
+  "data/countries/TO.json": "891e4f9d3c0b5f430caab3d6c029c99fbd1301048784e32975a0f039bf87daf7",
+  "data/countries/TR.graphml": "5ab0de265eacf2fee64197e54837a5f825750315ae6a4fcd88d3ed47c061b3c1",
+  "data/countries/TR.json": "55e8eef1a743958aeef6e2ed97a6001c86d3fd668a805ecefc2f3e01ae44f7b2",
+  "data/countries/TT.graphml": "2a8fca2955cfcb788253ed5c2bc82c502d71bc1bb75a7613e8fa4c6fb50f9a4b",
+  "data/countries/TT.json": "474041653ac7a1ec264b7daf2df5db20663aabb888b3a665f36aa3b5f2d8f20a",
+  "data/countries/TW.graphml": "7799b88a5f0490db65cf7171d728784cfe8e965407261b1e4fee15e1e01c1e7b",
+  "data/countries/TW.json": "51744593bbdaa04d9eee0368409b25553993643b002ccddb21a7832e125a3496",
+  "data/countries/TZ.graphml": "bbee407d10d3fb56b0e9d314804ca17ef460f4d5fcd1aa381273736808ac8e7b",
+  "data/countries/TZ.json": "1492cbda0ece2464b53bf5552a9158b78e96e3d31232ff18a0aca7cc5ea45b49",
+  "data/countries/UA.graphml": "78d5b3d48cc688621b28c9312c21d0be61f25e1c847b3c2a0a7c7582ffbb466d",
+  "data/countries/UA.json": "b2a78c27708dd005b5fef028506ba6223c227027988ae1214a1b6c521e4efa95",
+  "data/countries/UG.graphml": "8c825eb2e3ef3d718085c5b8d24260636f78314f300933f9dcac91113b3a76ba",
+  "data/countries/UG.json": "a065ff7ca7ff5c576b65c33b8ca716724768d8c8034153eb5d4308a1cc3d5ccf",
+  "data/countries/UM.graphml": "c173e92008899fbde8b74a5b146f0cbe1403cd781e2c4f84ad4d6bd64a0f609e",
+  "data/countries/UM.json": "88bd3a3e6607428e670eb3181cfe58da9abc2b964cf816ebea77523556e07634",
+  "data/countries/US.graphml": "1e06c600499dee51360a671bfc44d8beeea72a547f908e95454e579ec2151336",
+  "data/countries/US.json": "a0ae88d66f0d1615847418c45bc1ede23ec30cebdd440d6a815094749df32f37",
+  "data/countries/UY.graphml": "f0e24ef295bea81ae9d646fe1462f5e85e360567a817e5774c225193bcc44c73",
+  "data/countries/UY.json": "1e6392f5ba281e872315d994ab860d15804e9973bec4919b48ecda6274652ce8",
+  "data/countries/UZ.graphml": "329e82316953b47c19e02521f19051bc8efc141f0dbfc99393ef15e93e14ab8a",
+  "data/countries/UZ.json": "921f3c4445a553afa18802d58ef8d8124f73e5bdfd1d55f3cdf5209a2713aeb9",
+  "data/countries/VC.graphml": "16c1c39423a7d347e1bf60821a1b12d1561b9a96af96ad51deba2c9d261eca59",
+  "data/countries/VC.json": "07b313af37fe70f97468631e5297496b0d996298631f2878ad8b677942a5244d",
+  "data/countries/VE.graphml": "7375b400561861e7aed3d2d78a99dad134d64e67e262d49f710476dac742c96f",
+  "data/countries/VE.json": "5682cace38b153d85bb9861f7303d98d0a25490cbf8b6aa797623123443cfade",
+  "data/countries/VI.graphml": "1be234be1523880e96c97b3521059c079fca55970010be2ac1a4d30a9ad0c349",
+  "data/countries/VI.json": "9cf4b9df0e0ecda042272507d4e51bb806443854d2b95d9b94f4818e1022a5db",
+  "data/countries/VN.graphml": "2e86ad50c63169ee290db40b6faf056fc5cc03240d668498c4581b9b60c2d79e",
+  "data/countries/VN.json": "b9c669da614992e29933a1f520c65b72d48038c20395add9e442e96e309dde04",
+  "data/countries/VU.graphml": "7ea409cb8129e0dafbf07b507159d2724044f587aecef5ca5c6b54a0930ebe0d",
+  "data/countries/VU.json": "0fe0abf3b1d846ee01a075a578ee6339f7916f4e1057ab35e8d08689d4395d01",
+  "data/countries/WF.graphml": "cb177c89bffdce76eb65e0161022c0859653410d41a6a3d5d7664f5bbfa5fab1",
+  "data/countries/WF.json": "9965e8da605c61f5440c4b82312a74d9f28a9e56fb772f70aa639f70c1852770",
+  "data/countries/WS.graphml": "0edc62d4fd4458138f66a745e2283b1b7e39dc2345b36b599eab2505ab6aeca9",
+  "data/countries/WS.json": "ac4a4957691940b69c78d94aec360f706d784c26b5fd7bfa67a89364d6a1bfdc",
+  "data/countries/XK.graphml": "fda63cce2cd84e3a0e4d1bca31c451bd75e83616d1aa0ded6c1aa26e2e6348f3",
+  "data/countries/XK.json": "ed0b0c796667c5be91ea279a2ebdcd986376dd2d25168bbc715274788db9af0d",
+  "data/countries/YE.graphml": "702465906003a5109b9e90d85fb999d6ceced955a95310185579e35761dbca8f",
+  "data/countries/YE.json": "406af2ad10d99f43c68d060fe67a87e06f12ce3b44fb39fece0b32968c3040cb",
+  "data/countries/ZA.graphml": "bb5cdf010756f31773aac8eae7d69ffe9832711242f91f1cc4d790da8c6d6763",
+  "data/countries/ZA.json": "d687c639ac08d19de09e447bb4939a89d320205cdd0554a1b4f30b38635940de",
+  "data/countries/ZM.graphml": "10d43088f4275fa3c8480cb4e2dbbf4b947b0c70e07f47cc2fad5a834a1228cb",
+  "data/countries/ZM.json": "8e3a2e0d0d9ceac9debb1984777cf420bc02ff8bfe6fb63da4becae92705ffbc",
+  "data/countries/ZW.graphml": "5377c5fe382227a89becf5386cb07434510b596656447b12e761acbe75b030d7",
+  "data/countries/ZW.json": "140bbc656acbc516c7f48dda8c22617b9b9e6b3931a15cb2e22417132a43e6a3",
+  "data/edges.csv": "8156a17c44084893a764d44f45d02b49f06e6a5a3178636f15d5ed8100a03b00",
+  "data/nodes.csv": "5949bd350e2b90256ea7cfa507fa19c38a570dd98fc1b1176d9dc25cdc6c3025",
+  "data/world/natural_earth.graphml": "2d5652b9e24740b1404cb2969962268d0f713ff1e6b7c0a631a8262b7a063e08",
+  "data/world/natural_earth.json": "4814212818a0ad834ff053c032a7bc37398b7638796b76283369a9e90cc5491a",
+  "data/world/un195.graphml": "9c3e9fe68eaf777edb831e1a39f64707c2076142c1b23e509bd0dee1811b2848",
+  "data/world/un195.json": "f4df0da48653411dd57e2927045e11342bd345e2cc6fbf950be6e62dd2eb24c0"
+ }
+}

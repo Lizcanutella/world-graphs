@@ -1,0 +1,205 @@
+{
+ "description": "Manual check (2026-10-02) of the strongest point-contact candidates from pc_wikipedia.json. A first pass by a helper model was re-checked by hand; verdicts below are the corrected ones. Quotes are verbatim from the cited articles.",
+ "pairs": [
+  {
+   "iso": "BR",
+   "u": "BR-DF",
+   "v": "BR-MG",
+   "verdict": "confirmed",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Federal_District_(Brazil)",
+     "quote": "The Federal District shares a small border with [[Minas Gerais]] and is otherwise surrounded by the state of [[Goiás]]."
+    }
+   ],
+   "wikidata_p47": true
+  },
+  {
+   "iso": "XK",
+   "u": "XK-X08~",
+   "v": "XK-X17~",
+   "labels": [
+    "Klina",
+    "Orahovac"
+   ],
+   "verdict": "confirmed",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Rahovec",
+     "quote": "To the north, it shortly borders [[Klina]], to the northeast [[Malisheva]], to the southeast [[Suhareka]] and [[Mamusha]], to the south [[Prizren]], and to the west [[Gjakova]]."
+    }
+   ],
+   "opposite_diagonal": "Đakovica–Mališevo: not listed"
+  },
+  {
+   "iso": "TH",
+   "u": "TH-16",
+   "v": "TH-36",
+   "labels": [
+    "Lop Buri",
+    "Chaiyaphum"
+   ],
+   "verdict": "confirmed",
+   "evidence": [
+    {
+     "url": "https://th.wikipedia.org/wiki/จังหวัดลพบุรี",
+     "quote": "จังหวัดลพบุรีมีพื้นที่ติดต่อกับจังหวัดต่าง ๆ 8 จังหวัดดังนี้ ทิศเหนือ ติดกับ[[จังหวัดเพชรบูรณ์]] ทิศตะวันออก ติดกับ[[จังหวัดชัยภูมิ]]และ[[จังหวัดนครราชสีมา]]"
+    }
+   ],
+   "wikidata_p47": true,
+   "opposite_diagonal": "Nakhon Ratchasima–Phetchabun: neither lists the other"
+  },
+  {
+   "iso": "TR",
+   "u": "TR-47",
+   "v": "TR-56",
+   "labels": [
+    "Mardin",
+    "Siirt"
+   ],
+   "verdict": "confirmed",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Siirt_Province",
+     "quote": "The province borders [[Bitlis Province|Bitlis]] to the north, [[Batman Province|Batman]] to the west, [[Mardin Province|Mardin]] to the southwest, [[Şırnak Province|Şırnak]] to the south, and [[Van Province|Van]] to the east."
+    }
+   ],
+   "wikidata_p47": true,
+   "opposite_diagonal": "Batman–Şırnak: no neighbour list found"
+  },
+  {
+   "iso": "QA",
+   "u": "QA-DA",
+   "v": "QA-US",
+   "labels": [
+    "Ad Dawhah",
+    "Umm Salal"
+   ],
+   "verdict": "confirmed",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Umm_Salal",
+     "quote": "Umm Salal shares land borders with [[Ad-Dawhah (municipality)|Doha]] to the southeast, [[Al Rayyan]] to the south, [[Al-Shahaniya]] to the west, [[Al Khor]] to the north, and [[Al Daayen]] to the east."
+    }
+   ],
+   "opposite_diagonal": "Al Rayyan–Al Daayen: both complete lists omit each other"
+  },
+  {
+   "iso": "SI",
+   "u": "SI-034",
+   "v": "SI-190",
+   "labels": [
+    "Hrastnik",
+    "Žalec"
+   ],
+   "verdict": "confirmed",
+   "evidence": [
+    {
+     "url": "https://sl.wikipedia.org/wiki/Občina_Hrastnik",
+     "quote": "Na zahodu meji na občino [[Občina Trbovlje|Trbovlje]], na jugu na [[občina Radeče|Radeče]], na vzhodu na [[Občina Laško|Laško]], ter na severu na [[Občina Žalec|Žalec]]."
+    },
+    {
+     "url": "https://sl.wikipedia.org/wiki/Občina_Žalec",
+     "quote": "Občina meji na severu na [[Mestna občina Velenje|mestno občino Velenje]], na vzhodu na občino [[Dobrna]] in Mestno občino [[Celje]], na jugu na občini [[Laško]] in [[Hrastnik]], na zahodu pa na občini [[Prebold]] in [[Polzela]]."
+    }
+   ],
+   "opposite_diagonal": "Laško–Trbovlje: not listed"
+  },
+  {
+   "iso": "AD",
+   "u": "AD-03",
+   "v": "AD-05",
+   "labels": [
+    "Encamp",
+    "Ordino"
+   ],
+   "verdict": "confirmed",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Ordino",
+     "quote": "The parish has borders with France ([[Occitania]]) and also with the parishes of [[La Massana]], [[Canillo]], and [[Encamp]]."
+    }
+   ],
+   "wikidata_p47": true
+  },
+  {
+   "iso": "BT",
+   "u": "BT-34",
+   "v": "BT-43",
+   "labels": [
+    "Zhemgang",
+    "Pemagatshel"
+   ],
+   "verdict": "confirmed (one-sided)",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Zhemgang_District",
+     "quote": "It is bordered by [[Sarpang District|Sarpang]], [[Trongsa District|Trongsa]], [[Bumthang District|Bumthang]], [[Mongar District|Mongar]] and [[Pemagatshel District]]s, and borders [[Assam]] in [[India]] to the south."
+    }
+   ],
+   "opposite_diagonal": "Mongar–Samdrup Jongkhar: no neighbour lists found"
+  },
+  {
+   "iso": "LV",
+   "u": "LV-011",
+   "v": "LV-037",
+   "labels": [
+    "Ādaži",
+    "Inčukalns"
+   ],
+   "verdict": "confirmed (pre-2021 units)",
+   "evidence": [
+    {
+     "url": "https://lv.wikipedia.org/wiki/%C4%80da%C5%BEu_novads_%282006%E2%80%942021%29",
+     "quote": "Robežojās ar [[Saulkrastu novads|Saulkrastu]] un [[Sējas novads|Sējas]] novadiem ziemeļos, [[Carnikavas novads|Carnikavas novadu]] ziemeļrietumos, [[Inčukalna novads|Inčukalna novadu]] austrumos un [[Garkalnes novads|Garkalnes novadu]] dienvidos."
+    }
+   ],
+   "wikidata_p47": true,
+   "note": "article on the 2006-2021 municipality, matching NE's units; Ādaži borders Inčukalns, and Garkalne lies south of Ādaži, so the opposite diagonal Garkalne-Sēja is not the border"
+  },
+  {
+   "iso": "MX",
+   "u": "MX-JAL",
+   "v": "MX-SLP",
+   "verdict": "conflicting",
+   "evidence": [
+    {
+     "url": "https://es.wikipedia.org/wiki/Jalisco",
+     "quote": "Se encuentra limitado al norte por los Estados de Zacatecas, Aguascalientes; al noroeste con Nayarit; al noreste con Guanajuato y San Luis Potosí; al sur con Colima; al sureste con Michoacán y al suroeste con el océano Pacífico."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jalisco",
+     "quote": "It is located in western Mexico and is bordered by six states, [[Nayarit]], [[Zacatecas]], [[Aguascalientes]], [[Guanajuato]], [[Michoacán]], and [[Colima]]."
+    }
+   ]
+  },
+  {
+   "iso": "GT",
+   "u": "GT-BV",
+   "v": "GT-CM",
+   "verdict": "conflicting",
+   "evidence": [
+    {
+     "url": "https://es.wikipedia.org/wiki/Departamento_de_Chimaltenango",
+     "quote": "Limita al norte con los departamentos de [[El Quiché]] y [[Baja Verapaz]]; al este con [[Guatemala (Departamento)|Guatemala]] y [[Sacatepéquez]]"
+    },
+    {
+     "url": "https://es.wikipedia.org/wiki/Departamento_de_Baja_Verapaz",
+     "quote": "Limita al norte con el departamento de [[Alta Verapaz]]; al sur con el departamento de [[Departamento de Guatemala|Guatemala]]; al este con el departamento de [[El Progreso (Guatemala)|El Progreso]]; y al oeste con el departamento de [[Departamento de Quiché|Q"
+    }
+   ]
+  },
+  {
+   "iso": "MX",
+   "u": "MX-COA",
+   "v": "MX-SLP",
+   "verdict": "point contact (keep as non-edge)",
+   "evidence": [
+    {
+     "url": "https://es.wikipedia.org/wiki/Coahuila",
+     "quote": "limitando al norte con el [[río Bravo]] que lo separa de [[Estados Unidos]], al este con [[Nuevo León]], al sur con [[Zacatecas]], en un vértice al sureste con [[San Luis Potosí]]"
+    }
+   ]
+  }
+ ]
+}

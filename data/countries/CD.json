@@ -1,0 +1,469 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "CD",
+ "kind": "country",
+ "name": "Congo, The Democratic Republic of the",
+ "level": "provinces",
+ "n": 11,
+ "m": 20,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "CD-BC",
+   "name": "Bas-Congo",
+   "wikidata": "Q1043494",
+   "lon": 14.39297,
+   "lat": -5.1918
+  },
+  {
+   "code": "CD-BN",
+   "name": "Bandundu",
+   "wikidata": "Q671442",
+   "lon": 18.30407,
+   "lat": -4.42541
+  },
+  {
+   "code": "CD-EQ",
+   "name": "Équateur",
+   "wikidata": "Q988104",
+   "lon": 20.31475,
+   "lat": 1.31582
+  },
+  {
+   "code": "CD-KA",
+   "name": "Katanga",
+   "wikidata": "Q217242",
+   "lon": 25.09699,
+   "lat": -9.22011
+  },
+  {
+   "code": "CD-KE",
+   "name": "Kasaï-Oriental",
+   "wikidata": "Q80953",
+   "lon": 23.9827,
+   "lat": -4.83911
+  },
+  {
+   "code": "CD-KN",
+   "name": "Kinshasa City",
+   "wikidata": "Q3838",
+   "lon": 15.84609,
+   "lat": -4.48143
+  },
+  {
+   "code": "CD-KW",
+   "name": "Kasaï-Occidental",
+   "wikidata": "Q130576",
+   "lon": 21.65943,
+   "lat": -5.1293
+  },
+  {
+   "code": "CD-MA",
+   "name": "Maniema",
+   "wikidata": "Q130566",
+   "lon": 25.96527,
+   "lat": -2.55127
+  },
+  {
+   "code": "CD-NK",
+   "name": "Nord-Kivu",
+   "wikidata": "Q130625",
+   "lon": 28.53522,
+   "lat": -0.55562
+  },
+  {
+   "code": "CD-OR",
+   "name": "Orientale",
+   "wikidata": "Q831370",
+   "lon": 26.52763,
+   "lat": 1.63561
+  },
+  {
+   "code": "CD-SK",
+   "name": "Sud-Kivu",
+   "wikidata": "Q488326",
+   "lon": 28.1484,
+   "lat": -3.33362
+  }
+ ],
+ "edges": [
+  {
+   "u": "CD-BC",
+   "v": "CD-BN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 101101
+  },
+  {
+   "u": "CD-BC",
+   "v": "CD-KN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 222164
+  },
+  {
+   "u": "CD-BN",
+   "v": "CD-EQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 757514
+  },
+  {
+   "u": "CD-BN",
+   "v": "CD-KN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 179665
+  },
+  {
+   "u": "CD-BN",
+   "v": "CD-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 633726
+  },
+  {
+   "u": "CD-EQ",
+   "v": "CD-KE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 424191
+  },
+  {
+   "u": "CD-EQ",
+   "v": "CD-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 118511
+  },
+  {
+   "u": "CD-EQ",
+   "v": "CD-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1342642,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Orientale_Province"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Orientale_Province"
+    }
+   ]
+  },
+  {
+   "u": "CD-KA",
+   "v": "CD-KE",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 745453,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CD-KA",
+   "v": "CD-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 166922
+  },
+  {
+   "u": "CD-KA",
+   "v": "CD-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 283356
+  },
+  {
+   "u": "CD-KA",
+   "v": "CD-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32173
+  },
+  {
+   "u": "CD-KE",
+   "v": "CD-KW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 898227,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CD-KE",
+   "v": "CD-MA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 600296,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "CD-KE",
+   "v": "CD-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17172,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kasaï-Oriental_(former_province)"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Orientale_Province"
+    }
+   ]
+  },
+  {
+   "u": "CD-MA",
+   "v": "CD-NK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 253367
+  },
+  {
+   "u": "CD-MA",
+   "v": "CD-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 665767
+  },
+  {
+   "u": "CD-MA",
+   "v": "CD-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 581569
+  },
+  {
+   "u": "CD-NK",
+   "v": "CD-OR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 497368
+  },
+  {
+   "u": "CD-NK",
+   "v": "CD-SK",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 190875
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "COD-ADM1-28894549",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

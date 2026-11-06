@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GD" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GD-01"><data key="name">Saint Andrew</data><data key="code">GD-01</data><data key="wikidata">Q977183</data><data key="lon">-61.64813</data><data key="lat">12.12418</data></node>
+    <node id="GD-02"><data key="name">Saint David</data><data key="code">GD-02</data><data key="wikidata">Q2087806</data><data key="lon">-61.6611</data><data key="lat">12.05565</data></node>
+    <node id="GD-03"><data key="name">Saint George</data><data key="code">GD-03</data><data key="wikidata">Q576651</data><data key="lon">-61.72156</data><data key="lat">12.05459</data></node>
+    <node id="GD-04"><data key="name">Saint John</data><data key="code">GD-04</data><data key="wikidata">Q1476289</data><data key="lon">-61.70314</data><data key="lat">12.14245</data></node>
+    <node id="GD-05"><data key="name">Saint Mark</data><data key="code">GD-05</data><data key="wikidata">Q1291077</data><data key="lon">-61.68326</data><data key="lat">12.19184</data></node>
+    <node id="GD-06"><data key="name">Saint Patrick</data><data key="code">GD-06</data><data key="wikidata">Q1476309</data><data key="lon">-61.63666</data><data key="lat">12.20672</data></node>
+    <node id="GD-10"><data key="name">Carriacou and Petite Martinique</data><data key="code">GD-10</data><data key="wikidata">Q3044818</data><data key="lon">-61.44166</data><data key="lat">12.48741</data></node>
+    <edge source="GD-01" target="GD-02"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GD-01" target="GD-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GD-01" target="GD-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GD-01" target="GD-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GD-01" target="GD-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GD-02" target="GD-03"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GD-03" target="GD-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GD-04" target="GD-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GD-05" target="GD-06"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

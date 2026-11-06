@@ -1,0 +1,626 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "EE",
+ "kind": "country",
+ "name": "Estonia",
+ "level": "counties",
+ "n": 15,
+ "m": 25,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "EE-37",
+   "name": "Harju",
+   "wikidata": "Q180200",
+   "lon": 24.99961,
+   "lat": 59.33015
+  },
+  {
+   "code": "EE-39",
+   "name": "Hiiu",
+   "wikidata": "Q1466462",
+   "lon": 22.68858,
+   "lat": 58.8899
+  },
+  {
+   "code": "EE-44",
+   "name": "Ida-Viru",
+   "wikidata": "Q189963",
+   "lon": 27.39233,
+   "lat": 59.18021
+  },
+  {
+   "code": "EE-49",
+   "name": "Jõgeva",
+   "wikidata": "Q189974",
+   "lon": 26.45489,
+   "lat": 58.71321
+  },
+  {
+   "code": "EE-51",
+   "name": "Järva",
+   "wikidata": "Q188068",
+   "lon": 25.72976,
+   "lat": 58.95237
+  },
+  {
+   "code": "EE-57",
+   "name": "Lääne",
+   "wikidata": "Q189968",
+   "lon": 23.79083,
+   "lat": 58.89584
+  },
+  {
+   "code": "EE-59",
+   "name": "Lääne-Viru",
+   "wikidata": "Q189952",
+   "lon": 26.33197,
+   "lat": 59.25917
+  },
+  {
+   "code": "EE-65",
+   "name": "Põlva",
+   "wikidata": "Q191813",
+   "lon": 27.07231,
+   "lat": 58.04667
+  },
+  {
+   "code": "EE-67",
+   "name": "Pärnu",
+   "wikidata": "Q185036",
+   "lon": 24.85923,
+   "lat": 58.30642
+  },
+  {
+   "code": "EE-70",
+   "name": "Rapla",
+   "wikidata": "Q192352",
+   "lon": 24.69693,
+   "lat": 58.948
+  },
+  {
+   "code": "EE-74",
+   "name": "Saare",
+   "wikidata": "Q203272",
+   "lon": 22.33749,
+   "lat": 58.27652
+  },
+  {
+   "code": "EE-78",
+   "name": "Tartu",
+   "wikidata": "Q192370",
+   "lon": 26.75103,
+   "lat": 58.39386
+  },
+  {
+   "code": "EE-82",
+   "name": "Valga",
+   "wikidata": "Q192362",
+   "lon": 26.08633,
+   "lat": 57.86665
+  },
+  {
+   "code": "EE-84",
+   "name": "Viljandi",
+   "wikidata": "Q192061",
+   "lon": 25.59338,
+   "lat": 58.31993
+  },
+  {
+   "code": "EE-86",
+   "name": "Võru",
+   "wikidata": "Q188076",
+   "lon": 26.96737,
+   "lat": 57.74035
+  }
+ ],
+ "edges": [
+  {
+   "u": "EE-37",
+   "v": "EE-51",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65935,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-37",
+   "v": "EE-57",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44710,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-37",
+   "v": "EE-59",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36128,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-37",
+   "v": "EE-70",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 102906,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-44",
+   "v": "EE-49",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22379,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-44",
+   "v": "EE-59",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88625,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-49",
+   "v": "EE-51",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36315,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-49",
+   "v": "EE-59",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38065,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-49",
+   "v": "EE-78",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 79402,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-49",
+   "v": "EE-84",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39114,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-51",
+   "v": "EE-59",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55627,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-51",
+   "v": "EE-67",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14494,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-51",
+   "v": "EE-70",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35539,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-51",
+   "v": "EE-84",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33002,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-57",
+   "v": "EE-67",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49094,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-57",
+   "v": "EE-70",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41580,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-65",
+   "v": "EE-78",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69604,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-65",
+   "v": "EE-82",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 19441,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-65",
+   "v": "EE-86",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80140,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-67",
+   "v": "EE-70",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80028,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-67",
+   "v": "EE-84",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 102484,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-78",
+   "v": "EE-82",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37274,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-78",
+   "v": "EE-84",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42214,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-82",
+   "v": "EE-84",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47220,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  },
+  {
+   "u": "EE-82",
+   "v": "EE-86",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 59231,
+   "prior_evidence": [
+    {
+     "source": "wikidata_item"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "EST-ADM1-21999144",
+  "level": "ADM1",
+  "year": "2016",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

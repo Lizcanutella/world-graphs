@@ -1,0 +1,57 @@
+name: Verify a graph
+description: You checked a whole graph against a map. Tell us what you found, correct or not.
+title: "[verify] "
+labels: ["verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A verified graph has had every edge, and every pair of regions that looks close, checked by a person.
+        Open the graph in the viewer (Graph only and Export graph as help), compare it with a reference map, and fill in the list below.
+        A maintainer reviews each report before the graph is marked `verified` in the dataset.
+  - type: input
+    id: graph
+    attributes:
+      label: Graph
+      placeholder: CO (Colombia)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Dataset version
+      description: From manifest.json, or the release you downloaded.
+      placeholder: 0.2.0
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: What I checked
+      options:
+        - label: Every edge joins two regions that share a land border.
+          required: true
+        - label: Every pair of regions that share a land border is joined.
+          required: true
+        - label: The dashed (geometry only) edges.
+        - label: Corners where three or four regions meet, and borders along rivers, lakes or the coast.
+        - label: Region names and codes.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Reference maps and sources
+      description: What you compared the graph with (links).
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - The graph is correct
+        - I found problems (listed below)
+    validations:
+      required: true
+  - type: textarea
+    id: problems
+    attributes:
+      label: Problems found
+      description: One line per problem, with the region codes and a source.

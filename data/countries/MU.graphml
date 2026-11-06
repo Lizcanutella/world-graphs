@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MU" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MU-AG"><data key="name">Agaléga</data><data key="code">MU-AG</data><data key="wikidata">Q196042</data><data key="lon">56.54778</data><data key="lat">-10.36749</data></node>
+    <node id="MU-BL"><data key="name">Rivière Noire</data><data key="code">MU-BL</data><data key="wikidata">Q873740</data><data key="lon">57.41803</data><data key="lat">-20.33377</data></node>
+    <node id="MU-BR"><data key="name">Beau Bassin-Rose Hill</data><data key="code">MU-BR</data><data key="wikidata">Q813337</data><data key="lon">57.47289</data><data key="lat">-20.23123</data></node>
+    <node id="MU-CU"><data key="name">Curepipe</data><data key="code">MU-CU</data><data key="wikidata">Q1002525</data><data key="lon">57.52072</data><data key="lat">-20.31838</data></node>
+    <node id="MU-FL"><data key="name">Flacq</data><data key="code">MU-FL</data><data key="wikidata">Q911651</data><data key="lon">57.72425</data><data key="lat">-20.21713</data></node>
+    <node id="MU-GP"><data key="name">Grand Port</data><data key="code">MU-GP</data><data key="wikidata">Q911635</data><data key="lon">57.63442</data><data key="lat">-20.39444</data></node>
+    <node id="MU-MO"><data key="name">Moka</data><data key="code">MU-MO</data><data key="wikidata">Q911643</data><data key="lon">57.59061</data><data key="lat">-20.26396</data></node>
+    <node id="MU-PA"><data key="name">Pamplemousses</data><data key="code">MU-PA</data><data key="wikidata">Q934126</data><data key="lon">57.56368</data><data key="lat">-20.09631</data></node>
+    <node id="MU-PL"><data key="name">Port Louis</data><data key="code">MU-PL</data><data key="wikidata">Q960645</data><data key="lon">57.53018</data><data key="lat">-20.16157</data></node>
+    <node id="MU-PL:Port Louis city"><data key="name">Port Louis city</data><data key="code">MU-PL:Port Louis city</data><data key="wikidata">Q3929</data><data key="lon">57.50401</data><data key="lat">-20.14472</data></node>
+    <node id="MU-PW"><data key="name">Plaines Wilhems</data><data key="code">MU-PW</data><data key="wikidata">Q1053595</data><data key="lon">57.55529</data><data key="lat">-20.30585</data></node>
+    <node id="MU-QB"><data key="name">Quatre Bornes</data><data key="code">MU-QB</data><data key="wikidata">Q1341194</data><data key="lon">57.48141</data><data key="lat">-20.26635</data></node>
+    <node id="MU-RO"><data key="name">Rodrigues</data><data key="code">MU-RO</data><data key="wikidata">Q208668</data><data key="lon">63.4033</data><data key="lat">-19.72039</data></node>
+    <node id="MU-RR"><data key="name">Rivière du Rempart</data><data key="code">MU-RR</data><data key="wikidata">Q1053565</data><data key="lon">57.65938</data><data key="lat">-20.07122</data></node>
+    <node id="MU-SA"><data key="name">Savanne</data><data key="code">MU-SA</data><data key="wikidata">Q1053600</data><data key="lon">57.50791</data><data key="lat">-20.45565</data></node>
+    <node id="MU-VP"><data key="name">Vacoas-Phoenix</data><data key="code">MU-VP</data><data key="wikidata">Q676724</data><data key="lon">57.49062</data><data key="lat">-20.30066</data></node>
+    <edge source="MU-BL" target="MU-BR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-BL" target="MU-PL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-BL" target="MU-PL:Port Louis city"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-BL" target="MU-PW"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-BL" target="MU-QB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-BL" target="MU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-BL" target="MU-VP"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-BR" target="MU-PW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-BR" target="MU-QB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-CU" target="MU-PW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-CU" target="MU-VP"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-FL" target="MU-GP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-FL" target="MU-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-FL" target="MU-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-FL" target="MU-RR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-GP" target="MU-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-GP" target="MU-PW"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-GP" target="MU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-MO" target="MU-PA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-MO" target="MU-PL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-MO" target="MU-PW"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-PA" target="MU-PL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-PA" target="MU-PL:Port Louis city"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-PA" target="MU-RR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MU-PL" target="MU-PL:Port Louis city"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-PL" target="MU-PW"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-PW" target="MU-QB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-PW" target="MU-SA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="MU-PW" target="MU-VP"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="MU-QB" target="MU-VP"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

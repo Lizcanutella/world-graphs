@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MH" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MH-L"><data key="name">Railik Chain</data><data key="code">MH-L</data><data key="wikidata"></data><data key="lon">166.86686</data><data key="lat">11.15721</data></node>
+    <node id="MH-T"><data key="name">Ratak Chain</data><data key="code">MH-T</data><data key="wikidata">Q700048</data><data key="lon">171.98215</data><data key="lat">6.0586</data></node>
+  </graph>
+</graphml>

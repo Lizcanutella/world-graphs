@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GB" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GB-ABD"><data key="name">Aberdeenshire</data><data key="code">GB-ABD</data><data key="wikidata">Q189912</data><data key="lon">-2.76627</data><data key="lat">57.22201</data></node>
+    <node id="GB-ABE"><data key="name">Aberdeen</data><data key="code">GB-ABE</data><data key="wikidata">Q36405</data><data key="lon">-2.17149</data><data key="lat">57.15906</data></node>
+    <node id="GB-AGB"><data key="name">Argyll and Bute</data><data key="code">GB-AGB</data><data key="wikidata">Q202174</data><data key="lon">-5.86423</data><data key="lat">56.45795</data></node>
+    <node id="GB-AGY"><data key="name">Anglesey</data><data key="code">GB-AGY</data><data key="wikidata">Q168159</data><data key="lon">-4.32168</data><data key="lat">53.2792</data></node>
+    <node id="GB-ANS"><data key="name">Angus</data><data key="code">GB-ANS</data><data key="wikidata">Q202177</data><data key="lon">-2.89042</data><data key="lat">56.72931</data></node>
+    <node id="GB-ANT"><data key="name">Antrim</data><data key="code">GB-ANT</data><data key="wikidata">Q609214</data><data key="lon">-6.25514</data><data key="lat">54.6823</data></node>
+    <node id="GB-ARD"><data key="name">Ards</data><data key="code">GB-ARD</data><data key="wikidata">Q640080</data><data key="lon">-5.73754</data><data key="lat">54.50072</data></node>
+    <node id="GB-ARM"><data key="name">Armagh</data><data key="code">GB-ARM</data><data key="wikidata">Q676704</data><data key="lon">-6.62027</data><data key="lat">54.31667</data></node>
+    <node id="GB-BAS"><data key="name">Bath and North East Somerset</data><data key="code">GB-BAS</data><data key="wikidata">Q810793</data><data key="lon">-2.49198</data><data key="lat">51.34609</data></node>
+    <node id="GB-BBD"><data key="name">Blackburn with Darwen</data><data key="code">GB-BBD</data><data key="wikidata">Q880782</data><data key="lon">-2.45277</data><data key="lat">53.70152</data></node>
+    <node id="GB-BDF"><data key="name">Bedford</data><data key="code">GB-BDF</data><data key="wikidata">Q894077</data><data key="lon">-0.46518</data><data key="lat">52.18558</data></node>
+    <node id="GB-BDG"><data key="name">Barking and Dagenham</data><data key="code">GB-BDG</data><data key="wikidata">Q205358</data><data key="lon">0.14808</data><data key="lat">51.5484</data></node>
+    <node id="GB-BEN"><data key="name">Brent</data><data key="code">GB-BEN</data><data key="wikidata">Q207201</data><data key="lon">-0.26924</data><data key="lat">51.55959</data></node>
+    <node id="GB-BEX"><data key="name">Bexley</data><data key="code">GB-BEX</data><data key="wikidata">Q207208</data><data key="lon">0.14815</data><data key="lat">51.45411</data></node>
+    <node id="GB-BFS"><data key="name">Belfast</data><data key="code">GB-BFS</data><data key="wikidata">Q1140130</data><data key="lon">-5.92528</data><data key="lat">54.59944</data></node>
+    <node id="GB-BGE"><data key="name">Bridgend</data><data key="code">GB-BGE</data><data key="wikidata">Q697126</data><data key="lon">-3.57397</data><data key="lat">51.53057</data></node>
+    <node id="GB-BGW"><data key="name">Blaenau Gwent</data><data key="code">GB-BGW</data><data key="wikidata">Q596885</data><data key="lon">-3.18137</data><data key="lat">51.76123</data></node>
+    <node id="GB-BIR"><data key="name">Birmingham</data><data key="code">GB-BIR</data><data key="wikidata">Q20986424</data><data key="lon">-1.87192</data><data key="lat">52.4881</data></node>
+    <node id="GB-BKM"><data key="name">Buckinghamshire</data><data key="code">GB-BKM</data><data key="wikidata">Q21694636</data><data key="lon">-0.88387</data><data key="lat">51.77634</data></node>
+    <node id="GB-BLA"><data key="name">Ballymena</data><data key="code">GB-BLA</data><data key="wikidata">Q805424</data><data key="lon">-6.26939</data><data key="lat">54.90174</data></node>
+    <node id="GB-BLY"><data key="name">Ballymoney</data><data key="code">GB-BLY</data><data key="wikidata">Q805427</data><data key="lon">-6.38843</data><data key="lat">55.0323</data></node>
+    <node id="GB-BMH"><data key="name">Bournemouth</data><data key="code">GB-BMH</data><data key="wikidata">Q20989094</data><data key="lon">-1.86895</data><data key="lat">50.73294</data></node>
+    <node id="GB-BNB"><data key="name">Banbridge</data><data key="code">GB-BNB</data><data key="wikidata">Q806141</data><data key="lon">-6.17096</data><data key="lat">54.34773</data></node>
+    <node id="GB-BNE"><data key="name">Barnet</data><data key="code">GB-BNE</data><data key="wikidata">Q151048</data><data key="lon">-0.2037</data><data key="lat">51.61782</data></node>
+    <node id="GB-BNH"><data key="name">Brighton and Hove</data><data key="code">GB-BNH</data><data key="wikidata">Q1022488</data><data key="lon">-0.12756</data><data key="lat">50.83952</data></node>
+    <node id="GB-BNS"><data key="name">Barnsley</data><data key="code">GB-BNS</data><data key="wikidata">Q1857382</data><data key="lon">-1.49606</data><data key="lat">53.50562</data></node>
+    <node id="GB-BOL"><data key="name">Bolton</data><data key="code">GB-BOL</data><data key="wikidata">Q1364541</data><data key="lon">-2.4585</data><data key="lat">53.59369</data></node>
+    <node id="GB-BPL"><data key="name">Blackpool</data><data key="code">GB-BPL</data><data key="wikidata">Q20989106</data><data key="lon">-3.00117</data><data key="lat">53.82772</data></node>
+    <node id="GB-BRC"><data key="name">Bracknell Forest</data><data key="code">GB-BRC</data><data key="wikidata">Q896725</data><data key="lon">-0.75124</data><data key="lat">51.40093</data></node>
+    <node id="GB-BRD"><data key="name">Bradford</data><data key="code">GB-BRD</data><data key="wikidata">Q2834810</data><data key="lon">-1.80859</data><data key="lat">53.83823</data></node>
+    <node id="GB-BRY"><data key="name">Bromley</data><data key="code">GB-BRY</data><data key="wikidata">Q208201</data><data key="lon">0.07221</data><data key="lat">51.36224</data></node>
+    <node id="GB-BST"><data key="name">Bristol</data><data key="code">GB-BST</data><data key="wikidata">Q21693433</data><data key="lon">-2.58438</data><data key="lat">51.4584</data></node>
+    <node id="GB-BUR"><data key="name">Bury</data><data key="code">GB-BUR</data><data key="wikidata">Q512036</data><data key="lon">-2.30196</data><data key="lat">53.56778</data></node>
+    <node id="GB-CAM"><data key="name">Cambridgeshire</data><data key="code">GB-CAM</data><data key="wikidata">Q23112</data><data key="lon">-0.0349</data><data key="lat">52.36063</data></node>
+    <node id="GB-CAY"><data key="name">Caerphilly</data><data key="code">GB-CAY</data><data key="wikidata">Q748065</data><data key="lon">-3.17296</data><data key="lat">51.66411</data></node>
+    <node id="GB-CBF"><data key="name">Central Bedfordshire</data><data key="code">GB-CBF</data><data key="wikidata">Q1053723</data><data key="lon">-0.43281</data><data key="lat">52.00034</data></node>
+    <node id="GB-CGN"><data key="name">Ceredigion</data><data key="code">GB-CGN</data><data key="wikidata">Q217829</data><data key="lon">-3.9492</data><data key="lat">52.29258</data></node>
+    <node id="GB-CGV"><data key="name">Craigavon</data><data key="code">GB-CGV</data><data key="wikidata">Q427201</data><data key="lon">-6.40336</data><data key="lat">54.49453</data></node>
+    <node id="GB-CHE"><data key="name">Cheshire East</data><data key="code">GB-CHE</data><data key="wikidata">Q1070590</data><data key="lon">-2.31258</data><data key="lat">53.16174</data></node>
+    <node id="GB-CHW"><data key="name">Cheshire West and Chester</data><data key="code">GB-CHW</data><data key="wikidata">Q1070591</data><data key="lon">-2.72307</data><data key="lat">53.14891</data></node>
+    <node id="GB-CKF"><data key="name">Carrickfergus</data><data key="code">GB-CKF</data><data key="wikidata">Q1045012</data><data key="lon">-5.80687</data><data key="lat">54.7356</data></node>
+    <node id="GB-CKT"><data key="name">Mid Ulster</data><data key="code">GB-CKT</data><data key="wikidata">Q1129644</data><data key="lon">-6.69485</data><data key="lat">54.64154</data></node>
+    <node id="GB-CLD"><data key="name">Calderdale</data><data key="code">GB-CLD</data><data key="wikidata">Q1026448</data><data key="lon">-1.94856</data><data key="lat">53.74701</data></node>
+    <node id="GB-CLK"><data key="name">Clackmannanshire</data><data key="code">GB-CLK</data><data key="wikidata">Q207268</data><data key="lon">-3.74449</data><data key="lat">56.14812</data></node>
+    <node id="GB-CLR"><data key="name">Coleraine</data><data key="code">GB-CLR</data><data key="wikidata">Q991411</data><data key="lon">-6.70389</data><data key="lat">55.06563</data></node>
+    <node id="GB-CMA"><data key="name">Cumbria</data><data key="code">GB-CMA</data><data key="wikidata">Q23066</data><data key="lon">-2.93707</data><data key="lat">54.61535</data></node>
+    <node id="GB-CMD"><data key="name">Camden</data><data key="code">GB-CMD</data><data key="wikidata">Q202088</data><data key="lon">-0.14723</data><data key="lat">51.53525</data></node>
+    <node id="GB-CMN"><data key="name">Carmarthenshire</data><data key="code">GB-CMN</data><data key="wikidata">Q217840</data><data key="lon">-4.21568</data><data key="lat">51.89363</data></node>
+    <node id="GB-CON"><data key="name">Cornwall</data><data key="code">GB-CON</data><data key="wikidata">Q22338583</data><data key="lon">-4.63066</data><data key="lat">50.43989</data></node>
+    <node id="GB-COV"><data key="name">Coventry</data><data key="code">GB-COV</data><data key="wikidata">Q20986417</data><data key="lon">-1.53135</data><data key="lat">52.40647</data></node>
+    <node id="GB-CRF"><data key="name">Cardiff</data><data key="code">GB-CRF</data><data key="wikidata">Q24342199</data><data key="lon">-3.18748</data><data key="lat">51.50404</data></node>
+    <node id="GB-CRY"><data key="name">Croydon</data><data key="code">GB-CRY</data><data key="wikidata">Q26888</data><data key="lon">-0.05845</data><data key="lat">51.35131</data></node>
+    <node id="GB-CSR"><data key="name">Castlereagh</data><data key="code">GB-CSR</data><data key="wikidata">Q1049680</data><data key="lon">-5.86813</data><data key="lat">54.55065</data></node>
+    <node id="GB-CWY"><data key="name">Conwy</data><data key="code">GB-CWY</data><data key="wikidata">Q817971</data><data key="lon">-3.73963</data><data key="lat">53.13702</data></node>
+    <node id="GB-DAL"><data key="name">Darlington</data><data key="code">GB-DAL</data><data key="wikidata">Q1171024</data><data key="lon">-1.52845</data><data key="lat">54.51786</data></node>
+    <node id="GB-DBY"><data key="name">Derbyshire</data><data key="code">GB-DBY</data><data key="wikidata">Q11775003</data><data key="lon">-1.54332</data><data key="lat">53.10439</data></node>
+    <node id="GB-DEN"><data key="name">Denbighshire</data><data key="code">GB-DEN</data><data key="wikidata">Q650682</data><data key="lon">-3.35921</data><data key="lat">53.10288</data></node>
+    <node id="GB-DER"><data key="name">Derby</data><data key="code">GB-DER</data><data key="wikidata">Q21885980</data><data key="lon">-1.47185</data><data key="lat">52.88445</data></node>
+    <node id="GB-DEV"><data key="name">Devon</data><data key="code">GB-DEV</data><data key="wikidata">Q21694695</data><data key="lon">-3.65867</data><data key="lat">50.72996</data></node>
+    <node id="GB-DGN"><data key="name">Dungannon</data><data key="code">GB-DGN</data><data key="wikidata">Q1198466</data><data key="lon">-6.9571</data><data key="lat">54.44882</data></node>
+    <node id="GB-DGY"><data key="name">Dumfries and Galloway</data><data key="code">GB-DGY</data><data key="wikidata">Q126514</data><data key="lon">-3.84433</data><data key="lat">55.04873</data></node>
+    <node id="GB-DNC"><data key="name">Doncaster</data><data key="code">GB-DNC</data><data key="wikidata">Q1925846</data><data key="lon">-1.11925</data><data key="lat">53.523</data></node>
+    <node id="GB-DND"><data key="name">Dundee</data><data key="code">GB-DND</data><data key="wikidata">Q2357511</data><data key="lon">-2.95119</data><data key="lat">56.48229</data></node>
+    <node id="GB-DOR"><data key="name">Dorset</data><data key="code">GB-DOR</data><data key="wikidata">Q23159</data><data key="lon">-2.34852</data><data key="lat">50.80411</data></node>
+    <node id="GB-DOW"><data key="name">Down</data><data key="code">GB-DOW</data><data key="wikidata">Q1198492</data><data key="lon">-5.75597</data><data key="lat">54.33421</data></node>
+    <node id="GB-DRY"><data key="name">Derry</data><data key="code">GB-DRY</data><data key="wikidata">Q1200370</data><data key="lon">-7.24539</data><data key="lat">54.93897</data></node>
+    <node id="GB-DUD"><data key="name">Dudley</data><data key="code">GB-DUD</data><data key="wikidata">Q1617704</data><data key="lon">-2.12879</data><data key="lat">52.49487</data></node>
+    <node id="GB-DUR"><data key="name">Durham</data><data key="code">GB-DUR</data><data key="wikidata">Q1137286</data><data key="lon">-1.82276</data><data key="lat">54.67396</data></node>
+    <node id="GB-EAL"><data key="name">Ealing</data><data key="code">GB-EAL</data><data key="wikidata">Q207218</data><data key="lon">-0.30318</data><data key="lat">51.51861</data></node>
+    <node id="GB-EAY"><data key="name">East Ayrshire</data><data key="code">GB-EAY</data><data key="wikidata">Q209135</data><data key="lon">-4.24408</data><data key="lat">55.44988</data></node>
+    <node id="GB-EDH"><data key="name">Edinburgh</data><data key="code">GB-EDH</data><data key="wikidata">Q23436</data><data key="lon">-3.26325</data><data key="lat">55.90894</data></node>
+    <node id="GB-EDU"><data key="name">East Dunbartonshire</data><data key="code">GB-EDU</data><data key="wikidata">Q211889</data><data key="lon">-4.20037</data><data key="lat">55.95819</data></node>
+    <node id="GB-ELN"><data key="name">East Lothian</data><data key="code">GB-ELN</data><data key="wikidata">Q207257</data><data key="lon">-2.71555</data><data key="lat">55.93859</data></node>
+    <node id="GB-ELS"><data key="name">Eilean Siar</data><data key="code">GB-ELS</data><data key="wikidata">Q80967</data><data key="lon">-6.655</data><data key="lat">58.12269</data></node>
+    <node id="GB-ENF"><data key="name">Enfield</data><data key="code">GB-ENF</data><data key="wikidata">Q210531</data><data key="lon">-0.07705</data><data key="lat">51.64147</data></node>
+    <node id="GB-ERW"><data key="name">East Renfrewshire</data><data key="code">GB-ERW</data><data key="wikidata">Q211925</data><data key="lon">-4.38329</data><data key="lat">55.75505</data></node>
+    <node id="GB-ERY"><data key="name">East Riding of Yorkshire</data><data key="code">GB-ERY</data><data key="wikidata">Q21695028</data><data key="lon">-0.52027</data><data key="lat">53.85174</data></node>
+    <node id="GB-ESS"><data key="name">Essex</data><data key="code">GB-ESS</data><data key="wikidata">Q21272241</data><data key="lon">0.53744</data><data key="lat">51.79652</data></node>
+    <node id="GB-ESX"><data key="name">East Sussex</data><data key="code">GB-ESX</data><data key="wikidata">Q21694646</data><data key="lon">0.3612</data><data key="lat">50.94676</data></node>
+    <node id="GB-FAL"><data key="name">Falkirk</data><data key="code">GB-FAL</data><data key="wikidata">Q216802</data><data key="lon">-3.77756</data><data key="lat">55.97661</data></node>
+    <node id="GB-FER"><data key="name">Fermanagh</data><data key="code">GB-FER</data><data key="wikidata">Q1198461</data><data key="lon">-7.65785</data><data key="lat">54.36066</data></node>
+    <node id="GB-FIF"><data key="name">Fife</data><data key="code">GB-FIF</data><data key="wikidata">Q201149</data><data key="lon">-2.99184</data><data key="lat">56.24257</data></node>
+    <node id="GB-FLN"><data key="name">Flintshire</data><data key="code">GB-FLN</data><data key="wikidata">Q505610</data><data key="lon">-3.13977</data><data key="lat">53.21009</data></node>
+    <node id="GB-GAT"><data key="name">Gateshead</data><data key="code">GB-GAT</data><data key="wikidata">Q929034</data><data key="lon">-1.6693</data><data key="lat">54.94685</data></node>
+    <node id="GB-GLG"><data key="name">Glasgow</data><data key="code">GB-GLG</data><data key="wikidata">Q4093</data><data key="lon">-4.21748</data><data key="lat">55.84651</data></node>
+    <node id="GB-GLS"><data key="name">Gloucestershire</data><data key="code">GB-GLS</data><data key="wikidata">Q21694733</data><data key="lon">-2.14408</data><data key="lat">51.84118</data></node>
+    <node id="GB-GRE"><data key="name">Greenwich</data><data key="code">GB-GRE</data><data key="wikidata">Q693450</data><data key="lon">0.05117</data><data key="lat">51.46245</data></node>
+    <node id="GB-GWN"><data key="name">Gwynedd</data><data key="code">GB-GWN</data><data key="wikidata">Q109128</data><data key="lon">-3.7899</data><data key="lat">52.89646</data></node>
+    <node id="GB-HAL"><data key="name">Halton</data><data key="code">GB-HAL</data><data key="wikidata">Q376141</data><data key="lon">-2.67606</data><data key="lat">53.33952</data></node>
+    <node id="GB-HAM"><data key="name">Hampshire</data><data key="code">GB-HAM</data><data key="wikidata">Q23204</data><data key="lon">-1.23776</data><data key="lat">51.04882</data></node>
+    <node id="GB-HAV"><data key="name">Havering</data><data key="code">GB-HAV</data><data key="wikidata">Q215038</data><data key="lon">0.25734</data><data key="lat">51.5553</data></node>
+    <node id="GB-HCK"><data key="name">Hackney</data><data key="code">GB-HCK</data><data key="wikidata">Q205679</data><data key="lon">-0.04046</data><data key="lat">51.54475</data></node>
+    <node id="GB-HEF"><data key="name">Herefordshire</data><data key="code">GB-HEF</data><data key="wikidata">Q23129</data><data key="lon">-2.73052</data><data key="lat">52.10335</data></node>
+    <node id="GB-HIL"><data key="name">Hillingdon</data><data key="code">GB-HIL</data><data key="wikidata">Q205690</data><data key="lon">-0.42706</data><data key="lat">51.54151</data></node>
+    <node id="GB-HLD"><data key="name">Highland</data><data key="code">GB-HLD</data><data key="wikidata">Q208279</data><data key="lon">-5.07124</data><data key="lat">57.58698</data></node>
+    <node id="GB-HMF"><data key="name">Hammersmith and Fulham</data><data key="code">GB-HMF</data><data key="wikidata">Q40478</data><data key="lon">-0.22311</data><data key="lat">51.496</data></node>
+    <node id="GB-HNS"><data key="name">Hounslow</data><data key="code">GB-HNS</data><data key="wikidata">Q214162</data><data key="lon">-0.37288</data><data key="lat">51.45474</data></node>
+    <node id="GB-HPL"><data key="name">Hartlepool</data><data key="code">GB-HPL</data><data key="wikidata">Q2594690</data><data key="lon">-1.25486</data><data key="lat">54.6684</data></node>
+    <node id="GB-HRT"><data key="name">Hertfordshire</data><data key="code">GB-HRT</data><data key="wikidata">Q3410</data><data key="lon">-0.09377</data><data key="lat">51.83175</data></node>
+    <node id="GB-HRW"><data key="name">Harrow</data><data key="code">GB-HRW</data><data key="wikidata">Q210476</data><data key="lon">-0.3335</data><data key="lat">51.59522</data></node>
+    <node id="GB-HRY"><data key="name">Haringey</data><data key="code">GB-HRY</data><data key="wikidata">Q213560</data><data key="lon">-0.09627</data><data key="lat">51.58435</data></node>
+    <node id="GB-IOS"><data key="name">Isles of Scilly</data><data key="code">GB-IOS</data><data key="wikidata">Q180209</data><data key="lon">-6.2972</data><data key="lat">49.91838</data></node>
+    <node id="GB-IOW"><data key="name">Isle of Wight</data><data key="code">GB-IOW</data><data key="wikidata">Q9679</data><data key="lon">-1.32313</data><data key="lat">50.67542</data></node>
+    <node id="GB-ISL"><data key="name">Islington</data><data key="code">GB-ISL</data><data key="wikidata">Q205817</data><data key="lon">-0.09545</data><data key="lat">51.54716</data></node>
+    <node id="GB-IVC"><data key="name">Inverclyde</data><data key="code">GB-IVC</data><data key="wikidata">Q208271</data><data key="lon">-4.75085</data><data key="lat">55.90607</data></node>
+    <node id="GB-KEC"><data key="name">Kensington and Chelsea</data><data key="code">GB-KEC</data><data key="wikidata">Q188801</data><data key="lon">-0.18687</data><data key="lat">51.49598</data></node>
+    <node id="GB-KEN"><data key="name">Kent</data><data key="code">GB-KEN</data><data key="wikidata">Q21694674</data><data key="lon">0.72973</data><data key="lat">51.19674</data></node>
+    <node id="GB-KHL"><data key="name">Kingston upon Hull</data><data key="code">GB-KHL</data><data key="wikidata">Q128147</data><data key="lon">-0.37091</data><data key="lat">53.7581</data></node>
+    <node id="GB-KIR"><data key="name">Kirklees</data><data key="code">GB-KIR</data><data key="wikidata">Q918975</data><data key="lon">-1.8061</data><data key="lat">53.64424</data></node>
+    <node id="GB-KTT"><data key="name">Kingston upon Thames</data><data key="code">GB-KTT</data><data key="wikidata">Q32508</data><data key="lon">-0.27002</data><data key="lat">51.37875</data></node>
+    <node id="GB-KWL"><data key="name">Knowsley</data><data key="code">GB-KWL</data><data key="wikidata">Q1228523</data><data key="lon">-2.84574</data><data key="lat">53.42488</data></node>
+    <node id="GB-LAN"><data key="name">Lancashire</data><data key="code">GB-LAN</data><data key="wikidata">Q21279371</data><data key="lon">-2.51993</data><data key="lat">53.87564</data></node>
+    <node id="GB-LBH"><data key="name">Lambeth</data><data key="code">GB-LBH</data><data key="wikidata">Q202059</data><data key="lon">-0.11232</data><data key="lat">51.45691</data></node>
+    <node id="GB-LCE"><data key="name">Leicester</data><data key="code">GB-LCE</data><data key="wikidata">Q83065</data><data key="lon">-1.11887</data><data key="lat">52.60682</data></node>
+    <node id="GB-LDS"><data key="name">Leeds</data><data key="code">GB-LDS</data><data key="wikidata">Q774015</data><data key="lon">-1.4914</data><data key="lat">53.80653</data></node>
+    <node id="GB-LEC"><data key="name">Leicestershire</data><data key="code">GB-LEC</data><data key="wikidata">Q21272890</data><data key="lon">-1.18271</data><data key="lat">52.66467</data></node>
+    <node id="GB-LEW"><data key="name">Lewisham</data><data key="code">GB-LEW</data><data key="wikidata">Q215030</data><data key="lon">-0.00776</data><data key="lat">51.44992</data></node>
+    <node id="GB-LIN"><data key="name">Lincolnshire</data><data key="code">GB-LIN</data><data key="wikidata">Q21269047</data><data key="lon">-0.17956</data><data key="lat">53.12895</data></node>
+    <node id="GB-LIV"><data key="name">Liverpool</data><data key="code">GB-LIV</data><data key="wikidata">Q21665571</data><data key="lon">-2.9491</data><data key="lat">53.41305</data></node>
+    <node id="GB-LMV"><data key="name">Limavady</data><data key="code">GB-LMV</data><data key="wikidata">Q1198505</data><data key="lon">-6.97549</data><data key="lat">55.00383</data></node>
+    <node id="GB-LND"><data key="name">City</data><data key="code">GB-LND</data><data key="wikidata">Q23311</data><data key="lon">-0.08546</data><data key="lat">51.517</data></node>
+    <node id="GB-LRN"><data key="name">Larne</data><data key="code">GB-LRN</data><data key="wikidata">Q1198470</data><data key="lon">-5.94453</data><data key="lat">54.90204</data></node>
+    <node id="GB-LSB"><data key="name">Lisburn</data><data key="code">GB-LSB</data><data key="wikidata">Q210647</data><data key="lon">-6.06269</data><data key="lat">54.49784</data></node>
+    <node id="GB-LUT"><data key="name">Luton</data><data key="code">GB-LUT</data><data key="wikidata">Q21683239</data><data key="lon">-0.41123</data><data key="lat">51.87213</data></node>
+    <node id="GB-MAN"><data key="name">Manchester</data><data key="code">GB-MAN</data><data key="wikidata">Q21525592</data><data key="lon">-2.27038</data><data key="lat">53.44481</data></node>
+    <node id="GB-MDB"><data key="name">Middlesbrough</data><data key="code">GB-MDB</data><data key="wikidata">Q2673020</data><data key="lon">-1.25151</data><data key="lat">54.53533</data></node>
+    <node id="GB-MDW"><data key="name">Medway</data><data key="code">GB-MDW</data><data key="wikidata">Q797782</data><data key="lon">0.53515</data><data key="lat">51.40082</data></node>
+    <node id="GB-MFT"><data key="name">Magherafelt</data><data key="code">GB-MFT</data><data key="wikidata">Q1198482</data><data key="lon">-6.68952</data><data key="lat">54.82164</data></node>
+    <node id="GB-MIK"><data key="name">Milton Keynes</data><data key="code">GB-MIK</data><data key="wikidata">Q894090</data><data key="lon">-0.72341</data><data key="lat">52.068</data></node>
+    <node id="GB-MLN"><data key="name">Midlothian</data><data key="code">GB-MLN</data><data key="wikidata">Q206934</data><data key="lon">-3.07912</data><data key="lat">55.8276</data></node>
+    <node id="GB-MON"><data key="name">Monmouthshire</data><data key="code">GB-MON</data><data key="wikidata">Q207176</data><data key="lon">-2.86144</data><data key="lat">51.77532</data></node>
+    <node id="GB-MRT"><data key="name">Merton</data><data key="code">GB-MRT</data><data key="wikidata">Q32504</data><data key="lon">-0.18228</data><data key="lat">51.4073</data></node>
+    <node id="GB-MRY"><data key="name">Moray</data><data key="code">GB-MRY</data><data key="wikidata">Q211106</data><data key="lon">-3.19888</data><data key="lat">57.40296</data></node>
+    <node id="GB-MTY"><data key="name">Merthyr Tydfil</data><data key="code">GB-MTY</data><data key="wikidata">Q3306663</data><data key="lon">-3.36039</data><data key="lat">51.73204</data></node>
+    <node id="GB-MYL"><data key="name">Moyle</data><data key="code">GB-MYL</data><data key="wikidata">Q1198496</data><data key="lon">-6.13404</data><data key="lat">55.11628</data></node>
+    <node id="GB-NAY"><data key="name">North Ayshire</data><data key="code">GB-NAY</data><data key="wikidata">Q206926</data><data key="lon">-4.72136</data><data key="lat">55.72492</data></node>
+    <node id="GB-NBL"><data key="name">Northumberland</data><data key="code">GB-NBL</data><data key="wikidata">Q23079</data><data key="lon">-2.07687</data><data key="lat">55.28992</data></node>
+    <node id="GB-NDN"><data key="name">North Down</data><data key="code">GB-NDN</data><data key="wikidata">Q1156987</data><data key="lon">-5.71988</data><data key="lat">54.64774</data></node>
+    <node id="GB-NEL"><data key="name">North East Lincolnshire</data><data key="code">GB-NEL</data><data key="wikidata">Q1342914</data><data key="lon">-0.09234</data><data key="lat">53.53003</data></node>
+    <node id="GB-NET"><data key="name">Newcastle upon Tyne</data><data key="code">GB-NET</data><data key="wikidata">Q21012735</data><data key="lon">-1.64872</data><data key="lat">55.00919</data></node>
+    <node id="GB-NFK"><data key="name">Norfolk</data><data key="code">GB-NFK</data><data key="wikidata">Q23109</data><data key="lon">0.95223</data><data key="lat">52.66562</data></node>
+    <node id="GB-NGM"><data key="name">Nottingham</data><data key="code">GB-NGM</data><data key="wikidata">Q21885994</data><data key="lon">-1.16594</data><data key="lat">52.92959</data></node>
+    <node id="GB-NLK"><data key="name">North Lanarkshire</data><data key="code">GB-NLK</data><data key="wikidata">Q207111</data><data key="lon">-3.97534</data><data key="lat">55.88009</data></node>
+    <node id="GB-NLN"><data key="name">North Lincolnshire</data><data key="code">GB-NLN</data><data key="wikidata">Q175945</data><data key="lon">-0.57627</data><data key="lat">53.58229</data></node>
+    <node id="GB-NSM"><data key="name">North Somerset</data><data key="code">GB-NSM</data><data key="wikidata">Q178196</data><data key="lon">-2.79773</data><data key="lat">51.39128</data></node>
+    <node id="GB-NTA"><data key="name">Newtownabbey</data><data key="code">GB-NTA</data><data key="wikidata">Q1198475</data><data key="lon">-5.97524</data><data key="lat">54.71993</data></node>
+    <node id="GB-NTH"><data key="name">Northamptonshire</data><data key="code">GB-NTH</data><data key="wikidata">Q23115</data><data key="lon">-0.84251</data><data key="lat">52.30754</data></node>
+    <node id="GB-NTL"><data key="name">Neath Port Talbot</data><data key="code">GB-NTL</data><data key="wikidata">Q748078</data><data key="lon">-3.70548</data><data key="lat">51.66287</data></node>
+    <node id="GB-NTT"><data key="name">Nottinghamshire</data><data key="code">GB-NTT</data><data key="wikidata">Q21272736</data><data key="lon">-1.0091</data><data key="lat">53.12435</data></node>
+    <node id="GB-NTY"><data key="name">North Tyneside</data><data key="code">GB-NTY</data><data key="wikidata">Q1120443</data><data key="lon">-1.51077</data><data key="lat">55.02882</data></node>
+    <node id="GB-NWM"><data key="name">Newham</data><data key="code">GB-NWM</data><data key="wikidata">Q208139</data><data key="lon">0.03841</data><data key="lat">51.52706</data></node>
+    <node id="GB-NWP"><data key="name">Newport</data><data key="code">GB-NWP</data><data key="wikidata">Q5283458</data><data key="lon">-2.97149</data><data key="lat">51.57634</data></node>
+    <node id="GB-NYK"><data key="name">North Yorkshire</data><data key="code">GB-NYK</data><data key="wikidata">Q21241814</data><data key="lon">-1.49653</data><data key="lat">54.09231</data></node>
+    <node id="GB-NYM"><data key="name">Newry and Mourne</data><data key="code">GB-NYM</data><data key="wikidata">Q606825</data><data key="lon">-6.25326</data><data key="lat">54.15573</data></node>
+    <node id="GB-OLD"><data key="name">Oldham</data><data key="code">GB-OLD</data><data key="wikidata">Q1278608</data><data key="lon">-2.04063</data><data key="lat">53.54986</data></node>
+    <node id="GB-OMH"><data key="name">Omagh</data><data key="code">GB-OMH</data><data key="wikidata">Q505691</data><data key="lon">-7.31922</data><data key="lat">54.59021</data></node>
+    <node id="GB-ORK"><data key="name">Orkney</data><data key="code">GB-ORK</data><data key="wikidata">Q100166</data><data key="lon">-3.28802</data><data key="lat">58.85643</data></node>
+    <node id="GB-OXF"><data key="name">Oxfordshire</data><data key="code">GB-OXF</data><data key="wikidata">Q23169</data><data key="lon">-1.39556</data><data key="lat">51.80549</data></node>
+    <node id="GB-PEM"><data key="name">Pembrokeshire</data><data key="code">GB-PEM</data><data key="wikidata">Q213361</data><data key="lon">-4.92442</data><data key="lat">51.85493</data></node>
+    <node id="GB-PKN"><data key="name">Perthshire and Kinross</data><data key="code">GB-PKN</data><data key="wikidata">Q207679</data><data key="lon">-3.74968</data><data key="lat">56.53619</data></node>
+    <node id="GB-PLY"><data key="name">Plymouth</data><data key="code">GB-PLY</data><data key="wikidata">Q21674890</data><data key="lon">-4.10929</data><data key="lat">50.39508</data></node>
+    <node id="GB-POL"><data key="name">Poole</data><data key="code">GB-POL</data><data key="wikidata">Q21683234</data><data key="lon">-1.97343</data><data key="lat">50.73422</data></node>
+    <node id="GB-POR"><data key="name">Portsmouth</data><data key="code">GB-POR</data><data key="wikidata">Q21683233</data><data key="lon">-1.06134</data><data key="lat">50.81942</data></node>
+    <node id="GB-POW"><data key="name">Powys</data><data key="code">GB-POW</data><data key="wikidata">Q156150</data><data key="lon">-3.36041</data><data key="lat">52.31035</data></node>
+    <node id="GB-PTE"><data key="name">Peterborough</data><data key="code">GB-PTE</data><data key="wikidata">Q12956645</data><data key="lon">-0.27299</data><data key="lat">52.58459</data></node>
+    <node id="GB-RCC"><data key="name">Redcar and Cleveland</data><data key="code">GB-RCC</data><data key="wikidata">Q1434448</data><data key="lon">-1.03154</data><data key="lat">54.57095</data></node>
+    <node id="GB-RCH"><data key="name">Rochdale</data><data key="code">GB-RCH</data><data key="wikidata">Q1892596</data><data key="lon">-2.14943</data><data key="lat">53.60012</data></node>
+    <node id="GB-RCT"><data key="name">Rhondda, Cynon, Taff</data><data key="code">GB-RCT</data><data key="wikidata">Q817960</data><data key="lon">-3.44025</data><data key="lat">51.66287</data></node>
+    <node id="GB-RDB"><data key="name">Redbridge</data><data key="code">GB-RDB</data><data key="wikidata">Q208955</data><data key="lon">0.07912</data><data key="lat">51.57915</data></node>
+    <node id="GB-RDG"><data key="name">Reading</data><data key="code">GB-RDG</data><data key="wikidata">Q21496716</data><data key="lon">-1.02748</data><data key="lat">51.44351</data></node>
+    <node id="GB-RFW"><data key="name">Renfrewshire</data><data key="code">GB-RFW</data><data key="wikidata">Q211091</data><data key="lon">-4.4766</data><data key="lat">55.84711</data></node>
+    <node id="GB-RIC"><data key="name">Richmond upon Thames</data><data key="code">GB-RIC</data><data key="wikidata">Q32515</data><data key="lon">-0.30043</data><data key="lat">51.43554</data></node>
+    <node id="GB-ROT"><data key="name">Rotherham</data><data key="code">GB-ROT</data><data key="wikidata">Q1878732</data><data key="lon">-1.27721</data><data key="lat">53.39153</data></node>
+    <node id="GB-RUT"><data key="name">Rutland</data><data key="code">GB-RUT</data><data key="wikidata">Q23107</data><data key="lon">-0.65439</data><data key="lat">52.63007</data></node>
+    <node id="GB-SAW"><data key="name">Sandwell</data><data key="code">GB-SAW</data><data key="wikidata">Q285964</data><data key="lon">-2.01593</data><data key="lat">52.50587</data></node>
+    <node id="GB-SAY"><data key="name">South Ayrshire</data><data key="code">GB-SAY</data><data key="wikidata">Q209131</data><data key="lon">-4.64344</data><data key="lat">55.28893</data></node>
+    <node id="GB-SCB"><data key="name">Scottish Borders</data><data key="code">GB-SCB</data><data key="wikidata">Q211113</data><data key="lon">-2.8602</data><data key="lat">55.52641</data></node>
+    <node id="GB-SFK"><data key="name">Suffolk</data><data key="code">GB-SFK</data><data key="wikidata">Q23111</data><data key="lon">0.99916</data><data key="lat">52.24224</data></node>
+    <node id="GB-SFT"><data key="name">Sefton</data><data key="code">GB-SFT</data><data key="wikidata">Q1546645</data><data key="lon">-3.03964</data><data key="lat">53.60358</data></node>
+    <node id="GB-SGC"><data key="name">South Gloucestershire</data><data key="code">GB-SGC</data><data key="wikidata">Q1369280</data><data key="lon">-2.46435</data><data key="lat">51.53923</data></node>
+    <node id="GB-SHF"><data key="name">Sheffield</data><data key="code">GB-SHF</data><data key="wikidata">Q12956644</data><data key="lon">-1.54801</data><data key="lat">53.3955</data></node>
+    <node id="GB-SHN"><data key="name">Merseyside</data><data key="code">GB-SHN</data><data key="wikidata">Q179206</data><data key="lon">-2.69581</data><data key="lat">53.45426</data></node>
+    <node id="GB-SHR"><data key="name">Shropshire</data><data key="code">GB-SHR</data><data key="wikidata">Q21694759</data><data key="lon">-2.77563</data><data key="lat">52.64609</data></node>
+    <node id="GB-SKP"><data key="name">Stockport</data><data key="code">GB-SKP</data><data key="wikidata">Q1752424</data><data key="lon">-2.12121</data><data key="lat">53.3862</data></node>
+    <node id="GB-SLF"><data key="name">Salford</data><data key="code">GB-SLF</data><data key="wikidata">Q1142118</data><data key="lon">-2.39758</data><data key="lat">53.48796</data></node>
+    <node id="GB-SLG"><data key="name">Slough</data><data key="code">GB-SLG</data><data key="wikidata">Q21163036</data><data key="lon">-0.55076</data><data key="lat">51.48155</data></node>
+    <node id="GB-SLK"><data key="name">South Lanarkshire</data><data key="code">GB-SLK</data><data key="wikidata">Q209142</data><data key="lon">-3.73253</data><data key="lat">55.56002</data></node>
+    <node id="GB-SND"><data key="name">Sunderland</data><data key="code">GB-SND</data><data key="wikidata">Q1280897</data><data key="lon">-1.47164</data><data key="lat">54.85929</data></node>
+    <node id="GB-SOL"><data key="name">Solihull</data><data key="code">GB-SOL</data><data key="wikidata">Q1925858</data><data key="lon">-1.70782</data><data key="lat">52.41462</data></node>
+    <node id="GB-SOM"><data key="name">Somerset</data><data key="code">GB-SOM</data><data key="wikidata">Q21694741</data><data key="lon">-2.9944</data><data key="lat">51.07358</data></node>
+    <node id="GB-SOS"><data key="name">Southend-on-Sea</data><data key="code">GB-SOS</data><data key="wikidata">Q203995</data><data key="lon">0.71425</data><data key="lat">51.55551</data></node>
+    <node id="GB-SRY"><data key="name">Surrey</data><data key="code">GB-SRY</data><data key="wikidata">Q23276</data><data key="lon">-0.33611</data><data key="lat">51.27938</data></node>
+    <node id="GB-STB"><data key="name">Strabane</data><data key="code">GB-STB</data><data key="wikidata">Q1198500</data><data key="lon">-7.28182</data><data key="lat">54.77188</data></node>
+    <node id="GB-STE"><data key="name">Stoke-on-Trent</data><data key="code">GB-STE</data><data key="wikidata">Q21891722</data><data key="lon">-2.17314</data><data key="lat">53.02519</data></node>
+    <node id="GB-STG"><data key="name">Stirling</data><data key="code">GB-STG</data><data key="wikidata">Q217838</data><data key="lon">-4.32165</data><data key="lat">56.2496</data></node>
+    <node id="GB-STH"><data key="name">Southampton</data><data key="code">GB-STH</data><data key="wikidata">Q21683230</data><data key="lon">-1.3612</data><data key="lat">50.90012</data></node>
+    <node id="GB-STN"><data key="name">Sutton</data><data key="code">GB-STN</data><data key="wikidata">Q320378</data><data key="lon">-0.16447</data><data key="lat">51.35366</data></node>
+    <node id="GB-STS"><data key="name">Staffordshire</data><data key="code">GB-STS</data><data key="wikidata">Q21694786</data><data key="lon">-1.99093</data><data key="lat">52.81618</data></node>
+    <node id="GB-STT"><data key="name">Stockton-on-Tees</data><data key="code">GB-STT</data><data key="wikidata">Q894094</data><data key="lon">-1.36343</data><data key="lat">54.53977</data></node>
+    <node id="GB-STY"><data key="name">South Tyneside</data><data key="code">GB-STY</data><data key="wikidata">Q1541228</data><data key="lon">-1.44613</data><data key="lat">54.95647</data></node>
+    <node id="GB-SWA"><data key="name">Swansea</data><data key="code">GB-SWA</data><data key="wikidata">Q10996863</data><data key="lon">-3.96934</data><data key="lat">51.65363</data></node>
+    <node id="GB-SWD"><data key="name">Swindon</data><data key="code">GB-SWD</data><data key="wikidata">Q894093</data><data key="lon">-1.74964</data><data key="lat">51.57063</data></node>
+    <node id="GB-SWK"><data key="name">Southwark</data><data key="code">GB-SWK</data><data key="wikidata">Q730706</data><data key="lon">-0.0642</data><data key="lat">51.46624</data></node>
+    <node id="GB-TAM"><data key="name">Tameside</data><data key="code">GB-TAM</data><data key="wikidata">Q1423078</data><data key="lon">-2.10327</data><data key="lat">53.45132</data></node>
+    <node id="GB-TFW"><data key="name">Telford and Wrekin</data><data key="code">GB-TFW</data><data key="wikidata">Q1425298</data><data key="lon">-2.48228</data><data key="lat">52.70371</data></node>
+    <node id="GB-THR"><data key="name">Thurrock</data><data key="code">GB-THR</data><data key="wikidata">Q1549155</data><data key="lon">0.34838</data><data key="lat">51.50219</data></node>
+    <node id="GB-TOB"><data key="name">Torbay</data><data key="code">GB-TOB</data><data key="wikidata">Q1136118</data><data key="lon">-3.60014</data><data key="lat">50.43986</data></node>
+    <node id="GB-TOF"><data key="name">Torfaen</data><data key="code">GB-TOF</data><data key="wikidata">Q643919</data><data key="lon">-3.04458</data><data key="lat">51.69784</data></node>
+    <node id="GB-TRF"><data key="name">Trafford</data><data key="code">GB-TRF</data><data key="wikidata">Q915954</data><data key="lon">-2.37883</data><data key="lat">53.41299</data></node>
+    <node id="GB-TWH"><data key="name">Tower Hamlets</data><data key="code">GB-TWH</data><data key="wikidata">Q208152</data><data key="lon">-0.03008</data><data key="lat">51.51153</data></node>
+    <node id="GB-VGL"><data key="name">Vale of Glamorgan</data><data key="code">GB-VGL</data><data key="wikidata">Q844784</data><data key="lon">-3.34466</data><data key="lat">51.45119</data></node>
+    <node id="GB-WAR"><data key="name">Warwickshire</data><data key="code">GB-WAR</data><data key="wikidata">Q23140</data><data key="lon">-1.54734</data><data key="lat">52.31535</data></node>
+    <node id="GB-WBK"><data key="name">West Berkshire</data><data key="code">GB-WBK</data><data key="wikidata">Q1473780</data><data key="lon">-1.30405</data><data key="lat">51.44273</data></node>
+    <node id="GB-WDU"><data key="name">West Dunbartonshire</data><data key="code">GB-WDU</data><data key="wikidata">Q208121</data><data key="lon">-4.4814</data><data key="lat">55.96594</data></node>
+    <node id="GB-WFT"><data key="name">Waltham Forest</data><data key="code">GB-WFT</data><data key="wikidata">Q40608</data><data key="lon">-0.00488</data><data key="lat">51.59965</data></node>
+    <node id="GB-WGN"><data key="name">Wigan</data><data key="code">GB-WGN</data><data key="wikidata">Q684307</data><data key="lon">-2.61667</data><data key="lat">53.52244</data></node>
+    <node id="GB-WIL"><data key="name">Wiltshire</data><data key="code">GB-WIL</data><data key="wikidata">Q21694746</data><data key="lon">-1.89852</data><data key="lat">51.3206</data></node>
+    <node id="GB-WKF"><data key="name">Wakefield</data><data key="code">GB-WKF</data><data key="wikidata">Q763171</data><data key="lon">-1.42576</data><data key="lat">53.65497</data></node>
+    <node id="GB-WLL"><data key="name">Walsall</data><data key="code">GB-WLL</data><data key="wikidata">Q178356</data><data key="lon">-1.96733</data><data key="lat">52.61037</data></node>
+    <node id="GB-WLN"><data key="name">West Lothian</data><data key="code">GB-WLN</data><data key="wikidata">Q204940</data><data key="lon">-3.60412</data><data key="lat">55.88667</data></node>
+    <node id="GB-WLV"><data key="name">Wolverhampton</data><data key="code">GB-WLV</data><data key="wikidata">Q21885975</data><data key="lon">-2.11119</data><data key="lat">52.59452</data></node>
+    <node id="GB-WND"><data key="name">Wandsworth</data><data key="code">GB-WND</data><data key="wikidata">Q210563</data><data key="lon">-0.19364</data><data key="lat">51.45451</data></node>
+    <node id="GB-WNM"><data key="name">Royal Borough of Windsor and Maidenhead</data><data key="code">GB-WNM</data><data key="wikidata">Q1368496</data><data key="lon">-0.69</data><data key="lat">51.46694</data></node>
+    <node id="GB-WOK"><data key="name">Wokingham</data><data key="code">GB-WOK</data><data key="wikidata">Q1758432</data><data key="lon">-0.89313</data><data key="lat">51.44569</data></node>
+    <node id="GB-WOR"><data key="name">Worcestershire</data><data key="code">GB-WOR</data><data key="wikidata">Q23135</data><data key="lon">-2.16153</data><data key="lat">52.20048</data></node>
+    <node id="GB-WRL"><data key="name">Wirral</data><data key="code">GB-WRL</data><data key="wikidata">Q11365639</data><data key="lon">-3.06091</data><data key="lat">53.34803</data></node>
+    <node id="GB-WRT"><data key="name">Warrington</data><data key="code">GB-WRT</data><data key="wikidata">Q894095</data><data key="lon">-2.55877</data><data key="lat">53.38703</data></node>
+    <node id="GB-WRX"><data key="name">Wrexham</data><data key="code">GB-WRX</data><data key="wikidata">Q843868</data><data key="lon">-2.91598</data><data key="lat">52.96104</data></node>
+    <node id="GB-WSM"><data key="name">Westminster</data><data key="code">GB-WSM</data><data key="wikidata">Q179351</data><data key="lon">-0.1463</data><data key="lat">51.50514</data></node>
+    <node id="GB-WSX"><data key="name">West Sussex</data><data key="code">GB-WSX</data><data key="wikidata">Q23287</data><data key="lon">-0.51275</data><data key="lat">50.94661</data></node>
+    <node id="GB-YOR"><data key="name">York</data><data key="code">GB-YOR</data><data key="wikidata">Q20986421</data><data key="lon">-1.07949</data><data key="lat">53.9572</data></node>
+    <node id="GB-ZET"><data key="name">Shetland Islands</data><data key="code">GB-ZET</data><data key="wikidata">Q47134</data><data key="lon">-1.53457</data><data key="lat">60.24769</data></node>
+    <edge source="GB-ABD" target="GB-ABE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ABD" target="GB-ANS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ABD" target="GB-HLD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ABD" target="GB-MRY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ABD" target="GB-PKN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-AGB" target="GB-HLD"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-AGB" target="GB-PKN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-AGB" target="GB-STG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-AGB" target="GB-WDU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANS" target="GB-DND"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANS" target="GB-PKN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ANT" target="GB-BFS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANT" target="GB-BLA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANT" target="GB-CGV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANT" target="GB-CKT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANT" target="GB-LSB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANT" target="GB-MFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ANT" target="GB-NTA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ARD" target="GB-CSR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ARD" target="GB-DOW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ARD" target="GB-NDN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ARM" target="GB-BNB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ARM" target="GB-CGV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ARM" target="GB-DGN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ARM" target="GB-NYM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BAS" target="GB-BST"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BAS" target="GB-NSM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BAS" target="GB-SGC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BAS" target="GB-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BAS" target="GB-WIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BBD" target="GB-BOL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BBD" target="GB-BUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BBD" target="GB-LAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BDF" target="GB-CAM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BDF" target="GB-CBF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BDF" target="GB-MIK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BDF" target="GB-NTH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BDG" target="GB-BEX"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BDG" target="GB-GRE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BDG" target="GB-HAV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BDG" target="GB-NWM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BDG" target="GB-RDB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BEN" target="GB-BNE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEN" target="GB-CMD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEN" target="GB-EAL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEN" target="GB-HMF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEN" target="GB-HRW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEN" target="GB-KEC"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEN" target="GB-WSM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEX" target="GB-BRY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEX" target="GB-GRE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEX" target="GB-HAV"><data key="sources">natural_earth,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEX" target="GB-KEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BEX" target="GB-THR"><data key="sources">natural_earth,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BFS" target="GB-CSR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BFS" target="GB-LSB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BFS" target="GB-NDN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BFS" target="GB-NTA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BGE" target="GB-NTL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BGE" target="GB-RCT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BGE" target="GB-VGL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BGW" target="GB-CAY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BGW" target="GB-MON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BGW" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BGW" target="GB-TOF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BIR" target="GB-DUD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BIR" target="GB-SAW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BIR" target="GB-SOL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BIR" target="GB-STS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BIR" target="GB-WAR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BIR" target="GB-WLL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BIR" target="GB-WOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-CBF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-HIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-HRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-MIK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-NTH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-OXF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-SLG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BKM" target="GB-WNM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BKM" target="GB-WOK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BLA" target="GB-BLY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BLA" target="GB-LRN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BLA" target="GB-MFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BLA" target="GB-MYL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BLA" target="GB-NTA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BLY" target="GB-CLR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BLY" target="GB-MFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BLY" target="GB-MYL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BMH" target="GB-DOR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BMH" target="GB-POL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BNB" target="GB-CGV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BNB" target="GB-DOW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BNB" target="GB-LSB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BNB" target="GB-NYM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BNE" target="GB-CMD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNE" target="GB-ENF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNE" target="GB-HRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNE" target="GB-HRW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNE" target="GB-HRY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNH" target="GB-ESX"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNH" target="GB-WSX"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNS" target="GB-DBY"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNS" target="GB-DNC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNS" target="GB-KIR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNS" target="GB-ROT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BNS" target="GB-SHF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BNS" target="GB-WKF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BOL" target="GB-BUR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BOL" target="GB-LAN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BOL" target="GB-SLF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BOL" target="GB-WGN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BPL" target="GB-LAN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRC" target="GB-HAM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRC" target="GB-SRY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRC" target="GB-WNM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRC" target="GB-WOK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRD" target="GB-CLD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRD" target="GB-KIR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRD" target="GB-LDS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRD" target="GB-NYK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRY" target="GB-CRY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BRY" target="GB-GRE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BRY" target="GB-KEN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BRY" target="GB-LBH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BRY" target="GB-LEW"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BRY" target="GB-SRY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BRY" target="GB-SWK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BST" target="GB-NSM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BST" target="GB-SGC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-BUR" target="GB-LAN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BUR" target="GB-MAN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BUR" target="GB-RCH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-BUR" target="GB-SLF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-CBF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-ESS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-HRT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-LIN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-NFK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-NTH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-PTE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAM" target="GB-SFK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAY" target="GB-CRF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAY" target="GB-MTY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAY" target="GB-NWP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAY" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAY" target="GB-RCT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CAY" target="GB-TOF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CBF" target="GB-HRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CBF" target="GB-LUT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CBF" target="GB-MIK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CGN" target="GB-CMN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CGN" target="GB-GWN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CGN" target="GB-PEM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CGN" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CGV" target="GB-CKT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CGV" target="GB-DGN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CGV" target="GB-LSB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CHE" target="GB-CHW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHE" target="GB-DBY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHE" target="GB-MAN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CHE" target="GB-SHR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHE" target="GB-SKP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHE" target="GB-STE"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CHE" target="GB-STS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHE" target="GB-TRF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CHE" target="GB-WRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHW" target="GB-FLN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHW" target="GB-HAL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHW" target="GB-SHR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHW" target="GB-WRL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHW" target="GB-WRT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CHW" target="GB-WRX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CKF" target="GB-LRN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CKF" target="GB-NTA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CKT" target="GB-DGN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CKT" target="GB-MFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CKT" target="GB-OMH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CLD" target="GB-KIR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CLD" target="GB-LAN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CLD" target="GB-NYK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CLD" target="GB-RCH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CLK" target="GB-FIF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CLK" target="GB-PKN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CLK" target="GB-STG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CLR" target="GB-LMV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CLR" target="GB-MFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CLR" target="GB-MYL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CMA" target="GB-DGY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMA" target="GB-DUR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMA" target="GB-LAN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMA" target="GB-NBL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMA" target="GB-NYK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMA" target="GB-SCB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMD" target="GB-HRY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMD" target="GB-ISL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMD" target="GB-LBH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CMD" target="GB-LND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMD" target="GB-SWK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CMD" target="GB-WSM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMN" target="GB-NTL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMN" target="GB-PEM"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMN" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CMN" target="GB-SWA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CON" target="GB-DEV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-COV" target="GB-SOL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-COV" target="GB-WAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CRF" target="GB-NWP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CRF" target="GB-RCT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CRF" target="GB-VGL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CRY" target="GB-LBH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CRY" target="GB-MRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CRY" target="GB-SRY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CRY" target="GB-STN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CSR" target="GB-DOW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CSR" target="GB-LSB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CSR" target="GB-NDN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-CWY" target="GB-DEN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-CWY" target="GB-GWN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DAL" target="GB-DUR"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DAL" target="GB-NYK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DAL" target="GB-STT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DBY" target="GB-DER"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DBY" target="GB-KIR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DBY" target="GB-LEC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DBY" target="GB-NTT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DBY" target="GB-OLD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DBY" target="GB-ROT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DBY" target="GB-SHF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DBY" target="GB-SKP"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DBY" target="GB-STS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DBY" target="GB-TAM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DEN" target="GB-FLN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DEN" target="GB-GWN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DEN" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DEN" target="GB-WRX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DEV" target="GB-DOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DEV" target="GB-PLY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DEV" target="GB-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DEV" target="GB-TOB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DGN" target="GB-FER"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DGN" target="GB-OMH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DGY" target="GB-EAY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DGY" target="GB-SAY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DGY" target="GB-SCB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DGY" target="GB-SLK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DNC" target="GB-ERY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DNC" target="GB-NLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DNC" target="GB-NTT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DNC" target="GB-NYK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DNC" target="GB-ROT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DNC" target="GB-WKF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DND" target="GB-PKN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DOR" target="GB-HAM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DOR" target="GB-POL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DOR" target="GB-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DOR" target="GB-WIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DOW" target="GB-LSB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DOW" target="GB-NYM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DRY" target="GB-LMV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DRY" target="GB-STB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DUD" target="GB-SAW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DUD" target="GB-STS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DUD" target="GB-WLV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DUD" target="GB-WOR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-DUR" target="GB-GAT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DUR" target="GB-HPL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DUR" target="GB-NBL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DUR" target="GB-NYK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DUR" target="GB-SND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-DUR" target="GB-STT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EAL" target="GB-HIL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-EAL" target="GB-HMF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-EAL" target="GB-HNS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-EAL" target="GB-HRW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-EAY" target="GB-ERW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-EAY" target="GB-NAY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-EAY" target="GB-SAY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EAY" target="GB-SLK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EDH" target="GB-MLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EDH" target="GB-SCB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EDH" target="GB-WLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EDU" target="GB-GLG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-EDU" target="GB-NLK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EDU" target="GB-STG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-EDU" target="GB-WDU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ELN" target="GB-MLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ELN" target="GB-SCB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ENF" target="GB-ESS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ENF" target="GB-HRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ENF" target="GB-HRY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ENF" target="GB-WFT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ERW" target="GB-GLG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ERW" target="GB-NAY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ERW" target="GB-RFW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ERW" target="GB-SLK"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ERY" target="GB-KHL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ERY" target="GB-NLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ERY" target="GB-NYK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ERY" target="GB-YOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESS" target="GB-HAV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESS" target="GB-HRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESS" target="GB-RDB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESS" target="GB-SFK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESS" target="GB-SOS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESS" target="GB-THR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESS" target="GB-WFT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESX" target="GB-KEN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESX" target="GB-SRY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ESX" target="GB-WSX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-FAL" target="GB-NLK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-FAL" target="GB-STG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-FAL" target="GB-WLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-FER" target="GB-OMH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-FER" target="GB-STB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-FIF" target="GB-PKN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-FLN" target="GB-WRX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GAT" target="GB-NBL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GAT" target="GB-NET"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GAT" target="GB-SND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GAT" target="GB-STY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLG" target="GB-NLK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-GLG" target="GB-RFW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-GLG" target="GB-SLK"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLG" target="GB-WDU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-GLS" target="GB-HEF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLS" target="GB-MON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLS" target="GB-OXF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLS" target="GB-SGC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLS" target="GB-SWD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-GLS" target="GB-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLS" target="GB-WIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GLS" target="GB-WOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GRE" target="GB-LEW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-GRE" target="GB-NWM"><data key="sources">natural_earth,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GB-GRE" target="GB-TWH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-GWN" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HAL" target="GB-KWL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HAL" target="GB-SHN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HAL" target="GB-WRT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HAM" target="GB-POR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HAM" target="GB-SRY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HAM" target="GB-STH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HAM" target="GB-WBK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HAM" target="GB-WIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HAM" target="GB-WOK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HAM" target="GB-WSX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HAV" target="GB-RDB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HAV" target="GB-THR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HCK" target="GB-HRY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HCK" target="GB-ISL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HCK" target="GB-LND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HCK" target="GB-NWM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HCK" target="GB-TWH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HCK" target="GB-WFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HEF" target="GB-MON"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HEF" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HEF" target="GB-SHR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HEF" target="GB-WOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HIL" target="GB-HNS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HIL" target="GB-HRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HIL" target="GB-HRW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HIL" target="GB-SRY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HLD" target="GB-MRY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HLD" target="GB-PKN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HMF" target="GB-HNS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HMF" target="GB-KEC"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HMF" target="GB-RIC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HMF" target="GB-WND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HNS" target="GB-RIC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HNS" target="GB-SRY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HPL" target="GB-RCC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HPL" target="GB-STT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HRT" target="GB-HRW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HRT" target="GB-LUT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-HRY" target="GB-ISL"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-HRY" target="GB-WFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-ISL" target="GB-LND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-IVC" target="GB-NAY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-IVC" target="GB-RFW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KEC" target="GB-WND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KEC" target="GB-WSM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KEN" target="GB-MDW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KEN" target="GB-SRY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KEN" target="GB-THR"><data key="sources">natural_earth,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KIR" target="GB-LDS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KIR" target="GB-OLD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KIR" target="GB-RCH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KIR" target="GB-WKF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KTT" target="GB-MRT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KTT" target="GB-RIC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KTT" target="GB-SRY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KTT" target="GB-STN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KTT" target="GB-WND"><data key="sources">wikidata_p47,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="GB-KWL" target="GB-LAN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KWL" target="GB-LIV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KWL" target="GB-SFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-KWL" target="GB-SHN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LAN" target="GB-NYK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LAN" target="GB-RCH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LAN" target="GB-SFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LAN" target="GB-SHN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LAN" target="GB-WGN"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LBH" target="GB-MRT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LBH" target="GB-SWK"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LBH" target="GB-WND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LBH" target="GB-WSM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LCE" target="GB-LEC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LDS" target="GB-NYK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LDS" target="GB-WKF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LEC" target="GB-LIN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LEC" target="GB-NTH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LEC" target="GB-NTT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LEC" target="GB-RUT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LEC" target="GB-STS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LEC" target="GB-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LEW" target="GB-SWK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LIN" target="GB-NEL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LIN" target="GB-NFK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LIN" target="GB-NLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LIN" target="GB-NTT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LIN" target="GB-PTE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LIN" target="GB-RUT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LIV" target="GB-SFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LMV" target="GB-MFT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LMV" target="GB-STB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LND" target="GB-SWK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LND" target="GB-TWH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-LRN" target="GB-MYL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-LRN" target="GB-NTA"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-MAN" target="GB-OLD"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MAN" target="GB-RCH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MAN" target="GB-SKP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MAN" target="GB-SLF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MAN" target="GB-TAM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MAN" target="GB-TRF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MDB" target="GB-NYK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-MDB" target="GB-RCC"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-MDB" target="GB-STT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-MFT" target="GB-OMH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-MFT" target="GB-STB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-MIK" target="GB-NTH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MLN" target="GB-SCB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MON" target="GB-NWP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MON" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MON" target="GB-TOF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MRT" target="GB-STN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MRT" target="GB-WND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MTY" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-MTY" target="GB-RCT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NAY" target="GB-RFW"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-NAY" target="GB-SAY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-NBL" target="GB-NET"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NBL" target="GB-NTY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NBL" target="GB-SCB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NEL" target="GB-NLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NET" target="GB-NTY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NET" target="GB-STY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NFK" target="GB-SFK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NGM" target="GB-NTT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-NLK" target="GB-SLK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NLK" target="GB-STG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NLK" target="GB-WLN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NLN" target="GB-NTT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NSM" target="GB-SOM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTH" target="GB-OXF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTH" target="GB-PTE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTH" target="GB-RUT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTH" target="GB-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTL" target="GB-POW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTL" target="GB-RCT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTL" target="GB-SWA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NTT" target="GB-ROT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-NTY" target="GB-STY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NWM" target="GB-RDB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NWM" target="GB-TWH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-NWM" target="GB-WFT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NWP" target="GB-TOF"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NYK" target="GB-RCC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NYK" target="GB-STT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-NYK" target="GB-WKF"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-NYK" target="GB-YOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-OLD" target="GB-RCH"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-OLD" target="GB-TAM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-OMH" target="GB-STB"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-OXF" target="GB-RDG"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-OXF" target="GB-SWD"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-OXF" target="GB-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-OXF" target="GB-WBK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-OXF" target="GB-WOK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-PKN" target="GB-STG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-POW" target="GB-RCT"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-POW" target="GB-SHR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-POW" target="GB-WRX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-RCC" target="GB-STT"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-RCT" target="GB-VGL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-RDB" target="GB-WFT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-RDG" target="GB-WBK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-RDG" target="GB-WOK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-RFW" target="GB-WDU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-RIC" target="GB-SRY"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-RIC" target="GB-WND"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-ROT" target="GB-SHF"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SAW" target="GB-WLL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SAW" target="GB-WLV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SCB" target="GB-SLK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SCB" target="GB-WLN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SGC" target="GB-WIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SHN" target="GB-WGN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SHN" target="GB-WRT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SHR" target="GB-STS"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SHR" target="GB-TFW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SHR" target="GB-WOR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SHR" target="GB-WRX"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SKP" target="GB-TAM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SLF" target="GB-TRF"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SLF" target="GB-WGN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SLF" target="GB-WRT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SLG" target="GB-SRY"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SLG" target="GB-WNM"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SLK" target="GB-WLN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SND" target="GB-STY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SOL" target="GB-WAR"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SOM" target="GB-WIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SRY" target="GB-STN"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SRY" target="GB-WNM"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SRY" target="GB-WSX"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-STE" target="GB-STS"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-STG" target="GB-WDU"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-STS" target="GB-TFW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-STS" target="GB-WAR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-STS" target="GB-WLL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-STS" target="GB-WLV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-STS" target="GB-WOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-SWD" target="GB-WBK"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SWD" target="GB-WIL"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-SWK" target="GB-TWH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-TRF" target="GB-WRT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-WAR" target="GB-WOR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-WBK" target="GB-WIL"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-WBK" target="GB-WOK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GB-WGN" target="GB-WRT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-WLL" target="GB-WLV"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="GB-WND" target="GB-WSM"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="GB-WNM" target="GB-WOK"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

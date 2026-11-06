@@ -1,0 +1,41 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "VI",
+ "kind": "country",
+ "name": "Virgin Islands, U.S.",
+ "level": null,
+ "n": 3,
+ "m": 0,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "VI-X01~",
+   "name": "Saint Croix",
+   "wikidata": null,
+   "lon": -64.75742,
+   "lat": 17.73298
+  },
+  {
+   "code": "VI-X02~",
+   "name": "Saint Thomas",
+   "wikidata": null,
+   "lon": -64.92603,
+   "lat": 18.34408
+  },
+  {
+   "code": "VI-X03~",
+   "name": "Saint John",
+   "wikidata": "Q548816",
+   "lon": -64.75052,
+   "lat": 18.33843
+  }
+ ],
+ "edges": [],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "VIR-ADM3-14107722",
+  "level": "ADM3",
+  "year": "2021",
+  "license": "Public Domain"
+ }
+}

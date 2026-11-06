@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="IR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="IR-01"><data key="name">East Azarbaijan</data><data key="code">IR-01</data><data key="wikidata">Q176081</data><data key="lon">46.64275</data><data key="lat">37.96161</data></node>
+    <node id="IR-02"><data key="name">West Azarbaijan</data><data key="code">IR-02</data><data key="wikidata">Q134411</data><data key="lon">44.69502</data><data key="lat">37.87464</data></node>
+    <node id="IR-03"><data key="name">Ardebil</data><data key="code">IR-03</data><data key="wikidata">Q134228</data><data key="lon">47.93052</data><data key="lat">38.43205</data></node>
+    <node id="IR-04"><data key="name">Esfahan</data><data key="code">IR-04</data><data key="wikidata">Q1367759</data><data key="lon">51.47759</data><data key="lat">32.6641</data></node>
+    <node id="IR-05"><data key="name">Ilam</data><data key="code">IR-05</data><data key="wikidata">Q170570</data><data key="lon">46.82898</data><data key="lat">33.07586</data></node>
+    <node id="IR-06"><data key="name">Bushehr</data><data key="code">IR-06</data><data key="wikidata">Q132945</data><data key="lon">51.47915</data><data key="lat">28.78583</data></node>
+    <node id="IR-07:Alborz"><data key="name">Alborz</data><data key="code">IR-07:Alborz</data><data key="wikidata">Q392522</data><data key="lon">50.81282</data><data key="lat">35.94753</data></node>
+    <node id="IR-07:Tehran"><data key="name">Tehran</data><data key="code">IR-07:Tehran</data><data key="wikidata">Q590866</data><data key="lon">51.35697</data><data key="lat">35.48432</data></node>
+    <node id="IR-08"><data key="name">Chahar Mahall and Bakhtiari</data><data key="code">IR-08</data><data key="wikidata">Q171702</data><data key="lon">50.70727</data><data key="lat">31.87504</data></node>
+    <node id="IR-10"><data key="name">Khuzestan</data><data key="code">IR-10</data><data key="wikidata">Q241119</data><data key="lon">49.00067</data><data key="lat">31.51728</data></node>
+    <node id="IR-11"><data key="name">Zanjan</data><data key="code">IR-11</data><data key="wikidata">Q146726</data><data key="lon">48.5707</data><data key="lat">36.39313</data></node>
+    <node id="IR-12"><data key="name">Semnan</data><data key="code">IR-12</data><data key="wikidata">Q168949</data><data key="lon">55.00112</data><data key="lat">35.84089</data></node>
+    <node id="IR-13"><data key="name">Sistan and Baluchestan</data><data key="code">IR-13</data><data key="wikidata">Q939575</data><data key="lon">60.78212</data><data key="lat">28.25239</data></node>
+    <node id="IR-14"><data key="name">Fars</data><data key="code">IR-14</data><data key="wikidata">Q1004666</data><data key="lon">53.13708</data><data key="lat">29.4205</data></node>
+    <node id="IR-15"><data key="name">Kerman</data><data key="code">IR-15</data><data key="wikidata">Q165352</data><data key="lon">57.20863</data><data key="lat">29.02133</data></node>
+    <node id="IR-16"><data key="name">Kordestan</data><data key="code">IR-16</data><data key="wikidata">Q134386</data><data key="lon">46.90767</data><data key="lat">35.61846</data></node>
+    <node id="IR-17"><data key="name">Kermanshah</data><data key="code">IR-17</data><data key="wikidata">Q174010</data><data key="lon">46.72067</data><data key="lat">34.46238</data></node>
+    <node id="IR-18"><data key="name">Kohgiluyeh and Buyer Ahmad</data><data key="code">IR-18</data><data key="wikidata">Q180068</data><data key="lon">50.88754</data><data key="lat">30.81532</data></node>
+    <node id="IR-19"><data key="name">Gilan</data><data key="code">IR-19</data><data key="wikidata">Q928828</data><data key="lon">49.0458</data><data key="lat">37.50491</data></node>
+    <node id="IR-20"><data key="name">Lorestan</data><data key="code">IR-20</data><data key="wikidata">Q1131727</data><data key="lon">48.45224</data><data key="lat">33.48492</data></node>
+    <node id="IR-21"><data key="name">Mazandaran</data><data key="code">IR-21</data><data key="wikidata">Q308864</data><data key="lon">52.32273</data><data key="lat">36.39341</data></node>
+    <node id="IR-22"><data key="name">Markazi</data><data key="code">IR-22</data><data key="wikidata">Q134417</data><data key="lon">49.48442</data><data key="lat">34.59098</data></node>
+    <node id="IR-23"><data key="name">Hormozgan</data><data key="code">IR-23</data><data key="wikidata">Q633659</data><data key="lon">55.07472</data><data key="lat">27.17223</data></node>
+    <node id="IR-24"><data key="name">Hamadan</data><data key="code">IR-24</data><data key="wikidata">Q187373</data><data key="lon">48.4612</data><data key="lat">34.85712</data></node>
+    <node id="IR-25"><data key="name">Yazd</data><data key="code">IR-25</data><data key="wikidata">Q170568</data><data key="lon">55.51471</data><data key="lat">32.50004</data></node>
+    <node id="IR-26"><data key="name">Qom</data><data key="code">IR-26</data><data key="wikidata">Q131664</data><data key="lon">50.98325</data><data key="lat">34.6476</data></node>
+    <node id="IR-27"><data key="name">Golestan</data><data key="code">IR-27</data><data key="wikidata">Q170041</data><data key="lon">54.85802</data><data key="lat">37.29087</data></node>
+    <node id="IR-28"><data key="name">Qazvin</data><data key="code">IR-28</data><data key="wikidata">Q1105893</data><data key="lon">50.00794</data><data key="lat">36.13702</data></node>
+    <node id="IR-29"><data key="name">South Khorasan</data><data key="code">IR-29</data><data key="wikidata">Q171551</data><data key="lon">59.51471</data><data key="lat">32.32506</data></node>
+    <node id="IR-30"><data key="name">Razavi Khorasan</data><data key="code">IR-30</data><data key="wikidata">Q587090</data><data key="lon">59.03413</data><data key="lat">35.34384</data></node>
+    <node id="IR-31"><data key="name">North Khorasan</data><data key="code">IR-31</data><data key="wikidata">Q180075</data><data key="lon">57.07843</data><data key="lat">37.4645</data></node>
+    <edge source="IR-01" target="IR-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-01" target="IR-03"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-01" target="IR-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-02" target="IR-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-02" target="IR-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-03" target="IR-11"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-03" target="IR-19"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-04" target="IR-08"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-04" target="IR-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-04" target="IR-14"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-04" target="IR-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-04" target="IR-20"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-04" target="IR-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-04" target="IR-25"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-04" target="IR-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-05" target="IR-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-05" target="IR-17"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-05" target="IR-20"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-06" target="IR-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-06" target="IR-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-06" target="IR-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-06" target="IR-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Alborz" target="IR-07:Tehran"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Alborz" target="IR-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Alborz" target="IR-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Alborz" target="IR-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Tehran" target="IR-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Tehran" target="IR-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Tehran" target="IR-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-07:Tehran" target="IR-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-08" target="IR-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-08" target="IR-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-10" target="IR-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-10" target="IR-20"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-11" target="IR-16"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-11" target="IR-19"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-11" target="IR-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-11" target="IR-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-12" target="IR-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-12" target="IR-25"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-12" target="IR-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-12" target="IR-27"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-12" target="IR-30"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-12" target="IR-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-13" target="IR-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-13" target="IR-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-13" target="IR-29"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-14" target="IR-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-14" target="IR-18"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-14" target="IR-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-14" target="IR-25"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-15" target="IR-23"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-15" target="IR-25"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-15" target="IR-29"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-16" target="IR-17"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-16" target="IR-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-17" target="IR-20"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-17" target="IR-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-19" target="IR-21"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-19" target="IR-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-20" target="IR-22"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-20" target="IR-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-21" target="IR-27"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-21" target="IR-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-22" target="IR-24"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-22" target="IR-26"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-22" target="IR-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-24" target="IR-28"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-25" target="IR-29"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-25" target="IR-30"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-27" target="IR-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IR-29" target="IR-30"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IR-30" target="IR-31"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

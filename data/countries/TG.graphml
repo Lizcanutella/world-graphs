@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="TG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="TG-C"><data key="name">Centre</data><data key="code">TG-C</data><data key="wikidata">Q316220</data><data key="lon">1.03204</data><data key="lat">8.59774</data></node>
+    <node id="TG-K"><data key="name">Kara</data><data key="code">TG-K</data><data key="wikidata">Q316216</data><data key="lon">0.77743</data><data key="lat">9.52876</data></node>
+    <node id="TG-M"><data key="name">Maritime</data><data key="code">TG-M</data><data key="wikidata">Q316291</data><data key="lon">1.19698</data><data key="lat">6.50597</data></node>
+    <node id="TG-P"><data key="name">Plateaux</data><data key="code">TG-P</data><data key="wikidata">Q316306</data><data key="lon">1.06367</data><data key="lat">7.44658</data></node>
+    <node id="TG-S"><data key="name">Savanes</data><data key="code">TG-S</data><data key="wikidata">Q279945</data><data key="lon">0.44543</data><data key="lat">10.49988</data></node>
+    <edge source="TG-C" target="TG-K"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TG-C" target="TG-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TG-K" target="TG-S"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="TG-M" target="TG-P"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

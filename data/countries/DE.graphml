@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="DE" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="DE-BB"><data key="name">Brandenburg</data><data key="code">DE-BB</data><data key="wikidata">Q1208</data><data key="lon">12.68092</data><data key="lat">52.44566</data></node>
+    <node id="DE-BE"><data key="name">Berlin</data><data key="code">DE-BE</data><data key="wikidata">Q64</data><data key="lon">13.39245</data><data key="lat">52.50261</data></node>
+    <node id="DE-BW"><data key="name">Baden-Württemberg</data><data key="code">DE-BW</data><data key="wikidata">Q985</data><data key="lon">9.06858</data><data key="lat">48.66433</data></node>
+    <node id="DE-BY"><data key="name">Bayern</data><data key="code">DE-BY</data><data key="wikidata">Q980</data><data key="lon">12.04258</data><data key="lat">48.9165</data></node>
+    <node id="DE-HB"><data key="name">Bremen</data><data key="code">DE-HB</data><data key="wikidata">Q1209</data><data key="lon">8.80174</data><data key="lat">53.12468</data></node>
+    <node id="DE-HE"><data key="name">Hessen</data><data key="code">DE-HE</data><data key="wikidata">Q1199</data><data key="lon">9.03087</data><data key="lat">50.52548</data></node>
+    <node id="DE-HH"><data key="name">Hamburg</data><data key="code">DE-HH</data><data key="wikidata">Q1055</data><data key="lon">9.98051</data><data key="lat">53.56786</data></node>
+    <node id="DE-MV"><data key="name">Mecklenburg-Vorpommern</data><data key="code">DE-MV</data><data key="wikidata">Q1196</data><data key="lon">12.35149</data><data key="lat">53.79903</data></node>
+    <node id="DE-NI"><data key="name">Niedersachsen</data><data key="code">DE-NI</data><data key="wikidata">Q1197</data><data key="lon">8.82792</data><data key="lat">52.59233</data></node>
+    <node id="DE-NW"><data key="name">Nordrhein-Westfalen</data><data key="code">DE-NW</data><data key="wikidata">Q1198</data><data key="lon">7.55627</data><data key="lat">51.42402</data></node>
+    <node id="DE-RP"><data key="name">Rheinland-Pfalz</data><data key="code">DE-RP</data><data key="wikidata">Q1200</data><data key="lon">7.26225</data><data key="lat">49.94685</data></node>
+    <node id="DE-SH"><data key="name">Schleswig-Holstein</data><data key="code">DE-SH</data><data key="wikidata">Q1194</data><data key="lon">9.95843</data><data key="lat">54.13255</data></node>
+    <node id="DE-SL"><data key="name">Saarland</data><data key="code">DE-SL</data><data key="wikidata">Q1201</data><data key="lon">6.97809</data><data key="lat">49.36573</data></node>
+    <node id="DE-SN"><data key="name">Sachsen</data><data key="code">DE-SN</data><data key="wikidata">Q1202</data><data key="lon">13.50844</data><data key="lat">50.91446</data></node>
+    <node id="DE-ST"><data key="name">Sachsen-Anhalt</data><data key="code">DE-ST</data><data key="wikidata">Q1206</data><data key="lon">11.55406</data><data key="lat">51.98814</data></node>
+    <node id="DE-TH"><data key="name">Thüringen</data><data key="code">DE-TH</data><data key="wikidata">Q1205</data><data key="lon">11.30073</data><data key="lat">50.92294</data></node>
+    <edge source="DE-BB" target="DE-BE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BB" target="DE-MV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BB" target="DE-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BB" target="DE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BB" target="DE-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BW" target="DE-BY"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BW" target="DE-HE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BW" target="DE-RP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BY" target="DE-HE"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BY" target="DE-SN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-BY" target="DE-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-HB" target="DE-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-HE" target="DE-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-HE" target="DE-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-HE" target="DE-RP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-HE" target="DE-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-HH" target="DE-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-HH" target="DE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-MV" target="DE-NI"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-MV" target="DE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-NI" target="DE-NW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-NI" target="DE-SH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-NI" target="DE-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-NI" target="DE-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-NW" target="DE-RP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-RP" target="DE-SL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-SN" target="DE-ST"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-SN" target="DE-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="DE-ST" target="DE-TH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

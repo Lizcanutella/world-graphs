@@ -1,0 +1,752 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PT",
+ "kind": "country",
+ "name": "Portugal",
+ "level": "districts",
+ "n": 20,
+ "m": 33,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PT-01",
+   "name": "Aveiro",
+   "wikidata": "Q210527",
+   "lon": -8.47386,
+   "lat": 40.68245
+  },
+  {
+   "code": "PT-02",
+   "name": "Beja",
+   "wikidata": "Q321455",
+   "lon": -7.93748,
+   "lat": 37.82954
+  },
+  {
+   "code": "PT-03",
+   "name": "Braga",
+   "wikidata": "Q326203",
+   "lon": -8.31489,
+   "lat": 41.55675
+  },
+  {
+   "code": "PT-04",
+   "name": "Bragança",
+   "wikidata": "Q373528",
+   "lon": -6.76067,
+   "lat": 41.51872
+  },
+  {
+   "code": "PT-05",
+   "name": "Castelo Branco",
+   "wikidata": "Q273529",
+   "lon": -7.4306,
+   "lat": 39.98567
+  },
+  {
+   "code": "PT-06",
+   "name": "Coimbra",
+   "wikidata": "Q244517",
+   "lon": -8.3469,
+   "lat": 40.21471
+  },
+  {
+   "code": "PT-07",
+   "name": "Évora",
+   "wikidata": "Q274118",
+   "lon": -7.96513,
+   "lat": 38.60107
+  },
+  {
+   "code": "PT-08",
+   "name": "Faro",
+   "wikidata": "Q244521",
+   "lon": -8.15408,
+   "lat": 37.24804
+  },
+  {
+   "code": "PT-09",
+   "name": "Guarda",
+   "wikidata": "Q273533",
+   "lon": -7.20041,
+   "lat": 40.7124
+  },
+  {
+   "code": "PT-10",
+   "name": "Leiria",
+   "wikidata": "Q244512",
+   "lon": -8.88004,
+   "lat": 39.64875
+  },
+  {
+   "code": "PT-11",
+   "name": "Lisboa",
+   "wikidata": "Q207199",
+   "lon": -9.19632,
+   "lat": 39.00192
+  },
+  {
+   "code": "PT-12",
+   "name": "Portalegre",
+   "wikidata": "Q225189",
+   "lon": -7.73031,
+   "lat": 39.22133
+  },
+  {
+   "code": "PT-13",
+   "name": "Porto",
+   "wikidata": "Q322792",
+   "lon": -8.30333,
+   "lat": 41.23414
+  },
+  {
+   "code": "PT-14",
+   "name": "Santarém",
+   "wikidata": "Q244510",
+   "lon": -8.53512,
+   "lat": 39.28776
+  },
+  {
+   "code": "PT-15",
+   "name": "Setúbal",
+   "wikidata": "Q274109",
+   "lon": -8.46485,
+   "lat": 38.28991
+  },
+  {
+   "code": "PT-16",
+   "name": "Viana do Castelo",
+   "wikidata": "Q326214",
+   "lon": -8.53234,
+   "lat": 41.87712
+  },
+  {
+   "code": "PT-17",
+   "name": "Vila Real",
+   "wikidata": "Q379372",
+   "lon": -7.54294,
+   "lat": 41.53341
+  },
+  {
+   "code": "PT-18",
+   "name": "Viseu",
+   "wikidata": "Q273525",
+   "lon": -7.93291,
+   "lat": 40.76967
+  },
+  {
+   "code": "PT-20",
+   "name": "Azores",
+   "wikidata": "Q25263",
+   "lon": -25.4669,
+   "lat": 37.80081
+  },
+  {
+   "code": "PT-30",
+   "name": "Madeira",
+   "wikidata": "Q26253",
+   "lon": -16.95071,
+   "lat": 32.75674
+  }
+ ],
+ "edges": [
+  {
+   "u": "PT-01",
+   "v": "PT-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 74789
+  },
+  {
+   "u": "PT-01",
+   "v": "PT-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42435
+  },
+  {
+   "u": "PT-01",
+   "v": "PT-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 123331
+  },
+  {
+   "u": "PT-02",
+   "v": "PT-07",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 113796
+  },
+  {
+   "u": "PT-02",
+   "v": "PT-08",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 136547
+  },
+  {
+   "u": "PT-02",
+   "v": "PT-15",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 130525
+  },
+  {
+   "u": "PT-03",
+   "v": "PT-13",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 87461
+  },
+  {
+   "u": "PT-03",
+   "v": "PT-16",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65877
+  },
+  {
+   "u": "PT-03",
+   "v": "PT-17",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83069
+  },
+  {
+   "u": "PT-04",
+   "v": "PT-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44936
+  },
+  {
+   "u": "PT-04",
+   "v": "PT-17",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 89741
+  },
+  {
+   "u": "PT-04",
+   "v": "PT-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 13777
+  },
+  {
+   "u": "PT-05",
+   "v": "PT-06",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 65884
+  },
+  {
+   "u": "PT-05",
+   "v": "PT-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 108098
+  },
+  {
+   "u": "PT-05",
+   "v": "PT-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 21695
+  },
+  {
+   "u": "PT-05",
+   "v": "PT-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28203
+  },
+  {
+   "u": "PT-05",
+   "v": "PT-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 81044
+  },
+  {
+   "u": "PT-06",
+   "v": "PT-09",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37713
+  },
+  {
+   "u": "PT-06",
+   "v": "PT-10",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 119051
+  },
+  {
+   "u": "PT-06",
+   "v": "PT-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54094
+  },
+  {
+   "u": "PT-07",
+   "v": "PT-12",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 134386
+  },
+  {
+   "u": "PT-07",
+   "v": "PT-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 78706
+  },
+  {
+   "u": "PT-07",
+   "v": "PT-15",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 97162
+  },
+  {
+   "u": "PT-09",
+   "v": "PT-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 123288
+  },
+  {
+   "u": "PT-10",
+   "v": "PT-11",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 43126
+  },
+  {
+   "u": "PT-10",
+   "v": "PT-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 124526
+  },
+  {
+   "u": "PT-11",
+   "v": "PT-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 85220
+  },
+  {
+   "u": "PT-11",
+   "v": "PT-15",
+   "rule": "ne_and_p47",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 1739
+  },
+  {
+   "u": "PT-12",
+   "v": "PT-14",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 102024
+  },
+  {
+   "u": "PT-13",
+   "v": "PT-17",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 27355
+  },
+  {
+   "u": "PT-13",
+   "v": "PT-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34917
+  },
+  {
+   "u": "PT-14",
+   "v": "PT-15",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50868
+  },
+  {
+   "u": "PT-17",
+   "v": "PT-18",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42510
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "PRT-ADM1-24955722",
+  "level": "ADM1",
+  "year": "2016",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "LB",
+ "kind": "country",
+ "name": "Lebanon",
+ "level": "governorates",
+ "n": 6,
+ "m": 8,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "LB-AS",
+   "name": "North Lebanon",
+   "wikidata": "Q390267",
+   "lon": 36.01638,
+   "lat": 34.41887
+  },
+  {
+   "code": "LB-BA",
+   "name": "Beirut",
+   "wikidata": "Q651688",
+   "lon": 35.50995,
+   "lat": 33.88906
+  },
+  {
+   "code": "LB-BI",
+   "name": "Beqaa",
+   "wikidata": "Q319632",
+   "lon": 36.11378,
+   "lat": 33.96109
+  },
+  {
+   "code": "LB-JA",
+   "name": "South Lebanon",
+   "wikidata": "Q223643",
+   "lon": 35.28856,
+   "lat": 33.33957
+  },
+  {
+   "code": "LB-JL",
+   "name": "Mount Lebanon",
+   "wikidata": "Q216945",
+   "lon": 35.67143,
+   "lat": 33.86315
+  },
+  {
+   "code": "LB-NA",
+   "name": "An Nabatiyah",
+   "wikidata": "Q458417",
+   "lon": 35.48434,
+   "lat": 33.2789
+  }
+ ],
+ "edges": [
+  {
+   "u": "LB-AS",
+   "v": "LB-BI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51794
+  },
+  {
+   "u": "LB-AS",
+   "v": "LB-JL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36936
+  },
+  {
+   "u": "LB-BA",
+   "v": "LB-JL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9397
+  },
+  {
+   "u": "LB-BI",
+   "v": "LB-JA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 8820
+  },
+  {
+   "u": "LB-BI",
+   "v": "LB-JL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88924
+  },
+  {
+   "u": "LB-BI",
+   "v": "LB-NA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25242
+  },
+  {
+   "u": "LB-JA",
+   "v": "LB-JL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33880
+  },
+  {
+   "u": "LB-JA",
+   "v": "LB-NA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 116088
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "LBN-ADM1-68408151",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Public Domain"
+ }
+}

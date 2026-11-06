@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BA" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BA-BIH:Bosnian Podrinje"><data key="name">Bosnian Podrinje</data><data key="code">BA-BIH:Bosnian Podrinje</data><data key="wikidata">Q18256</data><data key="lon">18.82579</data><data key="lat">43.67255</data></node>
+    <node id="BA-BIH:Central Bosnia"><data key="name">Central Bosnia</data><data key="code">BA-BIH:Central Bosnia</data><data key="wikidata">Q18262</data><data key="lon">17.58982</data><data key="lat">44.12088</data></node>
+    <node id="BA-BIH:Herzegovina-Neretva"><data key="name">Herzegovina-Neretva</data><data key="code">BA-BIH:Herzegovina-Neretva</data><data key="wikidata">Q18273</data><data key="lon">17.84607</data><data key="lat">43.2292</data></node>
+    <node id="BA-BIH:Sarajevo"><data key="name">Sarajevo</data><data key="code">BA-BIH:Sarajevo</data><data key="wikidata">Q18276</data><data key="lon">18.32844</data><data key="lat">43.84258</data></node>
+    <node id="BA-BIH:Tuzla"><data key="name">Tuzla</data><data key="code">BA-BIH:Tuzla</data><data key="wikidata">Q18250</data><data key="lon">18.65815</data><data key="lat">44.53517</data></node>
+    <node id="BA-BIH:Una-Sana"><data key="name">Una-Sana</data><data key="code">BA-BIH:Una-Sana</data><data key="wikidata">Q18248</data><data key="lon">16.27012</data><data key="lat">44.77778</data></node>
+    <node id="BA-BIH:West Bosnia"><data key="name">West Bosnia</data><data key="code">BA-BIH:West Bosnia</data><data key="wikidata"></data><data key="lon">16.90661</data><data key="lat">43.98613</data></node>
+    <node id="BA-BIH:West Herzegovina"><data key="name">West Herzegovina</data><data key="code">BA-BIH:West Herzegovina</data><data key="wikidata">Q18275</data><data key="lon">17.49385</data><data key="lat">43.3604</data></node>
+    <node id="BA-BIH:Zenica-Doboj"><data key="name">Zenica-Doboj</data><data key="code">BA-BIH:Zenica-Doboj</data><data key="wikidata">Q18253</data><data key="lon">18.14165</data><data key="lat">44.31094</data></node>
+    <node id="BA-BRC"><data key="name">Brčko Distrikt</data><data key="code">BA-BRC</data><data key="wikidata">Q194483</data><data key="lon">18.84331</data><data key="lat">44.81965</data></node>
+    <node id="BA-SRP"><data key="name">Posavina</data><data key="code">BA-SRP</data><data key="wikidata">Q18249</data><data key="lon">18.30028</data><data key="lat">45.07846</data></node>
+    <node id="BA-X01~"><data key="name">Doboj</data><data key="code">BA-X01~</data><data key="wikidata"></data><data key="lon">18.02337</data><data key="lat">44.85425</data></node>
+    <node id="BA-X02~"><data key="name">Banja Luka</data><data key="code">BA-X02~</data><data key="wikidata"></data><data key="lon">17.35051</data><data key="lat">44.67902</data></node>
+    <node id="BA-X03~"><data key="name">Bijeljina</data><data key="code">BA-X03~</data><data key="wikidata"></data><data key="lon">19.06579</data><data key="lat">44.7308</data></node>
+    <node id="BA-X04~"><data key="name">Vlasenica</data><data key="code">BA-X04~</data><data key="wikidata"></data><data key="lon">19.05524</data><data key="lat">44.2551</data></node>
+    <node id="BA-X05~"><data key="name">Sarajevo-romanija</data><data key="code">BA-X05~</data><data key="wikidata"></data><data key="lon">18.86169</data><data key="lat">43.89667</data></node>
+    <node id="BA-X06~"><data key="name">Foča</data><data key="code">BA-X06~</data><data key="wikidata"></data><data key="lon">19.09918</data><data key="lat">43.59245</data></node>
+    <node id="BA-X07~"><data key="name">Trebinje</data><data key="code">BA-X07~</data><data key="wikidata"></data><data key="lon">18.24077</data><data key="lat">43.00287</data></node>
+    <edge source="BA-BIH:Bosnian Podrinje" target="BA-BIH:Sarajevo"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BA-BIH:Bosnian Podrinje" target="BA-X05~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BA-BIH:Bosnian Podrinje" target="BA-X06~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BA-BIH:Central Bosnia" target="BA-BIH:Herzegovina-Neretva"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Central Bosnia" target="BA-BIH:Sarajevo"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Central Bosnia" target="BA-BIH:West Bosnia"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Central Bosnia" target="BA-BIH:Zenica-Doboj"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Central Bosnia" target="BA-X02~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Herzegovina-Neretva" target="BA-BIH:Sarajevo"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Herzegovina-Neretva" target="BA-BIH:West Bosnia"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Herzegovina-Neretva" target="BA-BIH:West Herzegovina"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Herzegovina-Neretva" target="BA-X06~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Herzegovina-Neretva" target="BA-X07~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Sarajevo" target="BA-BIH:Zenica-Doboj"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Sarajevo" target="BA-X05~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Sarajevo" target="BA-X06~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Tuzla" target="BA-BIH:Zenica-Doboj"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Tuzla" target="BA-BRC"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Tuzla" target="BA-X01~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Tuzla" target="BA-X03~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Tuzla" target="BA-X04~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Una-Sana" target="BA-BIH:West Bosnia"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Una-Sana" target="BA-X02~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:West Bosnia" target="BA-BIH:West Herzegovina"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:West Bosnia" target="BA-X02~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Zenica-Doboj" target="BA-X01~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Zenica-Doboj" target="BA-X02~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Zenica-Doboj" target="BA-X04~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BIH:Zenica-Doboj" target="BA-X05~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BRC" target="BA-SRP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="BA-BRC" target="BA-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BA-BRC" target="BA-X03~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BA-SRP" target="BA-X01~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="BA-X01~" target="BA-X02~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-X03~" target="BA-X04~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-X04~" target="BA-X05~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-X04~" target="BA-X06~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-X05~" target="BA-X06~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BA-X06~" target="BA-X07~"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="BJ" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="BJ-AK"><data key="name">Atakora</data><data key="code">BJ-AK</data><data key="wikidata">Q29154</data><data key="lon">1.52587</data><data key="lat">10.70976</data></node>
+    <node id="BJ-AL"><data key="name">Alibori</data><data key="code">BJ-AL</data><data key="wikidata">Q29165</data><data key="lon">2.76488</data><data key="lat">11.46938</data></node>
+    <node id="BJ-AQ"><data key="name">Atlantique</data><data key="code">BJ-AQ</data><data key="wikidata">Q29147</data><data key="lon">2.21486</data><data key="lat">6.60478</data></node>
+    <node id="BJ-BO"><data key="name">Borgou</data><data key="code">BJ-BO</data><data key="wikidata">Q29136</data><data key="lon">2.73894</data><data key="lat">9.69578</data></node>
+    <node id="BJ-CO"><data key="name">Collines</data><data key="code">BJ-CO</data><data key="wikidata">Q29141</data><data key="lon">2.1637</data><data key="lat">8.08979</data></node>
+    <node id="BJ-DO"><data key="name">Donga</data><data key="code">BJ-DO</data><data key="wikidata">Q29161</data><data key="lon">1.71661</data><data key="lat">9.24555</data></node>
+    <node id="BJ-KO"><data key="name">Kouffo</data><data key="code">BJ-KO</data><data key="wikidata">Q29173</data><data key="lon">1.75038</data><data key="lat">7.11449</data></node>
+    <node id="BJ-LI"><data key="name">Littoral</data><data key="code">BJ-LI</data><data key="wikidata">Q29158</data><data key="lon">2.4271</data><data key="lat">6.36647</data></node>
+    <node id="BJ-MO"><data key="name">Mono</data><data key="code">BJ-MO</data><data key="wikidata">Q29135</data><data key="lon">1.84395</data><data key="lat">6.47869</data></node>
+    <node id="BJ-OU"><data key="name">Ouémé</data><data key="code">BJ-OU</data><data key="wikidata">Q29169</data><data key="lon">2.51055</data><data key="lat">6.71298</data></node>
+    <node id="BJ-PL"><data key="name">Plateau</data><data key="code">BJ-PL</data><data key="wikidata">Q32108</data><data key="lon">2.64604</data><data key="lat">7.07761</data></node>
+    <node id="BJ-ZO"><data key="name">Zou</data><data key="code">BJ-ZO</data><data key="wikidata">Q29172</data><data key="lon">2.12853</data><data key="lat">7.2673</data></node>
+    <edge source="BJ-AK" target="BJ-AL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AK" target="BJ-BO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AK" target="BJ-DO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AL" target="BJ-BO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AQ" target="BJ-KO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AQ" target="BJ-LI"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AQ" target="BJ-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AQ" target="BJ-OU"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-AQ" target="BJ-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-BO" target="BJ-CO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-BO" target="BJ-DO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-CO" target="BJ-DO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-CO" target="BJ-PL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-CO" target="BJ-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-KO" target="BJ-MO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-KO" target="BJ-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-LI" target="BJ-OU"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-OU" target="BJ-PL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-OU" target="BJ-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="BJ-PL" target="BJ-ZO"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

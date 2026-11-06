@@ -1,0 +1,337 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "PW",
+ "kind": "country",
+ "name": "Palau",
+ "level": "states",
+ "n": 16,
+ "m": 15,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "PW-002",
+   "name": "Aimeliik",
+   "wikidata": "Q405589",
+   "lon": 134.53058,
+   "lat": 7.43511
+  },
+  {
+   "code": "PW-004",
+   "name": "Airai",
+   "wikidata": "Q407967",
+   "lon": 134.55593,
+   "lat": 7.39461
+  },
+  {
+   "code": "PW-010",
+   "name": "Angaur",
+   "wikidata": "Q530813",
+   "lon": 134.15758,
+   "lat": 6.91413
+  },
+  {
+   "code": "PW-050",
+   "name": "Hatobohei",
+   "wikidata": "Q3516752",
+   "lon": 131.16173,
+   "lat": 3.04029
+  },
+  {
+   "code": "PW-100",
+   "name": "Kayangel",
+   "wikidata": "Q871222",
+   "lon": 134.7072,
+   "lat": 8.06817
+  },
+  {
+   "code": "PW-150",
+   "name": "Koror",
+   "wikidata": "Q189426",
+   "lon": 134.44393,
+   "lat": 7.2695
+  },
+  {
+   "code": "PW-212",
+   "name": "Melekeok",
+   "wikidata": "Q12898552",
+   "lon": 134.61327,
+   "lat": 7.51812
+  },
+  {
+   "code": "PW-214",
+   "name": "Ngaraard",
+   "wikidata": "Q1154127",
+   "lon": 134.64976,
+   "lat": 7.63396
+  },
+  {
+   "code": "PW-218",
+   "name": "Ngarchelong",
+   "wikidata": "Q1070185",
+   "lon": 134.64031,
+   "lat": 7.70808
+  },
+  {
+   "code": "PW-222",
+   "name": "Ngardmau",
+   "wikidata": "Q1144496",
+   "lon": 134.58829,
+   "lat": 7.59498
+  },
+  {
+   "code": "PW-224",
+   "name": "Ngatpang",
+   "wikidata": "Q430385",
+   "lon": 134.53508,
+   "lat": 7.47643
+  },
+  {
+   "code": "PW-226",
+   "name": "Ngchesar",
+   "wikidata": "Q1070180",
+   "lon": 134.59306,
+   "lat": 7.45769
+  },
+  {
+   "code": "PW-227",
+   "name": "Ngeremlengui",
+   "wikidata": "Q975076",
+   "lon": 134.5592,
+   "lat": 7.53126
+  },
+  {
+   "code": "PW-228",
+   "name": "Ngiwal",
+   "wikidata": "Q1154101",
+   "lon": 134.63259,
+   "lat": 7.56523
+  },
+  {
+   "code": "PW-350",
+   "name": "Peleliu",
+   "wikidata": "Q497981",
+   "lon": 134.26074,
+   "lat": 7.02704
+  },
+  {
+   "code": "PW-370",
+   "name": "Sonsorol",
+   "wikidata": "Q866699",
+   "lon": 132.22065,
+   "lat": 5.29829
+  }
+ ],
+ "edges": [
+  {
+   "u": "PW-002",
+   "v": "PW-004",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7882
+  },
+  {
+   "u": "PW-002",
+   "v": "PW-224",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10641
+  },
+  {
+   "u": "PW-004",
+   "v": "PW-226",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3369
+  },
+  {
+   "u": "PW-212",
+   "v": "PW-226",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5341
+  },
+  {
+   "u": "PW-212",
+   "v": "PW-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3607,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Melekeok"
+    }
+   ]
+  },
+  {
+   "u": "PW-212",
+   "v": "PW-228",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2369
+  },
+  {
+   "u": "PW-214",
+   "v": "PW-218",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2769
+  },
+  {
+   "u": "PW-214",
+   "v": "PW-222",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2853,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ngaraard"
+    }
+   ]
+  },
+  {
+   "u": "PW-214",
+   "v": "PW-228",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3944,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ngaraard"
+    }
+   ]
+  },
+  {
+   "u": "PW-222",
+   "v": "PW-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9571
+  },
+  {
+   "u": "PW-222",
+   "v": "PW-228",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3024,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ngardmau"
+    }
+   ]
+  },
+  {
+   "u": "PW-224",
+   "v": "PW-226",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4932
+  },
+  {
+   "u": "PW-224",
+   "v": "PW-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8732
+  },
+  {
+   "u": "PW-226",
+   "v": "PW-227",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4508
+  },
+  {
+   "u": "PW-227",
+   "v": "PW-228",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3663
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "PLW-ADM1-51375826",
+  "level": "ADM1",
+  "year": "2017",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

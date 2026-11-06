@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="AU" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="AU-ACT"><data key="name">Australian Capital Territory</data><data key="code">AU-ACT</data><data key="wikidata">Q3258</data><data key="lon">148.95678</data><data key="lat">-35.5391</data></node>
+    <node id="AU-NSW"><data key="name">New South Wales</data><data key="code">AU-NSW</data><data key="wikidata">Q3224</data><data key="lon">146.45277</data><data key="lat">-32.82896</data></node>
+    <node id="AU-NSW:Lord Howe Island"><data key="name">Lord Howe Island</data><data key="code">AU-NSW:Lord Howe Island</data><data key="wikidata">Q3224</data><data key="lon">159.08899</data><data key="lat">-31.55568</data></node>
+    <node id="AU-NT"><data key="name">Northern Territory</data><data key="code">AU-NT</data><data key="wikidata">Q3235</data><data key="lon">133.50015</data><data key="lat">-18.48474</data></node>
+    <node id="AU-QLD"><data key="name">Queensland</data><data key="code">AU-QLD</data><data key="wikidata">Q36074</data><data key="lon">143.0629</data><data key="lat">-19.93226</data></node>
+    <node id="AU-SA"><data key="name">South Australia</data><data key="code">AU-SA</data><data key="wikidata">Q35715</data><data key="lon">138.63148</data><data key="lat">-32.03558</data></node>
+    <node id="AU-TAS"><data key="name">Tasmania</data><data key="code">AU-TAS</data><data key="wikidata">Q34366</data><data key="lon">146.66833</data><data key="lat">-42.14027</data></node>
+    <node id="AU-VIC"><data key="name">Victoria</data><data key="code">AU-VIC</data><data key="wikidata">Q36687</data><data key="lon">144.56051</data><data key="lat">-36.56741</data></node>
+    <node id="AU-WA"><data key="name">Western Australia</data><data key="code">AU-WA</data><data key="wikidata">Q3206</data><data key="lon">121.19798</data><data key="lat">-24.4358</data></node>
+    <node id="AU-X02~"><data key="name">Jervis Bay Territory</data><data key="code">AU-X02~</data><data key="wikidata">Q15577</data><data key="lon">150.69838</data><data key="lat">-35.15753</data></node>
+    <node id="AU-X03~"><data key="name">Macquarie Island</data><data key="code">AU-X03~</data><data key="wikidata">Q46650</data><data key="lon">158.8919</data><data key="lat">-54.60849</data></node>
+    <node id="AU-X04~"><data key="name">Ashmore and Cartier Islands</data><data key="code">AU-X04~</data><data key="wikidata"></data><data key="lon">123.58635</data><data key="lat">-12.43255</data></node>
+    <edge source="AU-ACT" target="AU-NSW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-NSW" target="AU-QLD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-NSW" target="AU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-NSW" target="AU-VIC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-NSW" target="AU-X02~"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="AU-NT" target="AU-QLD"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-NT" target="AU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-NT" target="AU-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-QLD" target="AU-SA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-SA" target="AU-VIC"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="AU-SA" target="AU-WA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

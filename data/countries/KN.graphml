@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="KN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="KN-01"><data key="name">Christ Church Nichola Town</data><data key="code">KN-01</data><data key="wikidata">Q176164</data><data key="lon">-62.76077</data><data key="lat">17.35763</data></node>
+    <node id="KN-02"><data key="name">Saint Anne Sandy Point</data><data key="code">KN-02</data><data key="wikidata">Q1473654</data><data key="lon">-62.8346</data><data key="lat">17.35769</data></node>
+    <node id="KN-03"><data key="name">Saint George Basseterre</data><data key="code">KN-03</data><data key="wikidata">Q1540744</data><data key="lon">-62.66993</data><data key="lat">17.26956</data></node>
+    <node id="KN-04"><data key="name">Saint George Gingerland</data><data key="code">KN-04</data><data key="wikidata">Q1472520</data><data key="lon">-62.55523</data><data key="lat">17.12535</data></node>
+    <node id="KN-05"><data key="name">Saint James Windward</data><data key="code">KN-05</data><data key="wikidata">Q1342139</data><data key="lon">-62.56634</data><data key="lat">17.16961</data></node>
+    <node id="KN-06"><data key="name">Saint John Capesterre</data><data key="code">KN-06</data><data key="wikidata">Q668498</data><data key="lon">-62.79474</data><data key="lat">17.38367</data></node>
+    <node id="KN-07"><data key="name">Saint John Figtree</data><data key="code">KN-07</data><data key="wikidata">Q657318</data><data key="lon">-62.59356</data><data key="lat">17.11624</data></node>
+    <node id="KN-08"><data key="name">Saint Mary Cayon</data><data key="code">KN-08</data><data key="wikidata">Q1538034</data><data key="lon">-62.72732</data><data key="lat">17.3492</data></node>
+    <node id="KN-09"><data key="name">Saint Paul Capesterre</data><data key="code">KN-09</data><data key="wikidata">Q952735</data><data key="lon">-62.83668</data><data key="lat">17.38715</data></node>
+    <node id="KN-10"><data key="name">Saint Paul Charlestown</data><data key="code">KN-10</data><data key="wikidata">Q1752127</data><data key="lon">-62.60675</data><data key="lat">17.13544</data></node>
+    <node id="KN-11"><data key="name">Saint Peter Basseterre</data><data key="code">KN-11</data><data key="wikidata">Q1725609</data><data key="lon">-62.70847</data><data key="lat">17.31968</data></node>
+    <node id="KN-12"><data key="name">Saint Thomas Lowland</data><data key="code">KN-12</data><data key="wikidata">Q1752122</data><data key="lon">-62.60481</data><data key="lat">17.16139</data></node>
+    <node id="KN-13"><data key="name">Saint Thomas Middle Island</data><data key="code">KN-13</data><data key="wikidata">Q1752101</data><data key="lon">-62.79818</data><data key="lat">17.3333</data></node>
+    <node id="KN-14"><data key="name">Trinity Palmetto Point</data><data key="code">KN-14</data><data key="wikidata">Q376738</data><data key="lon">-62.74865</data><data key="lat">17.31125</data></node>
+    <edge source="KN-01" target="KN-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KN-01" target="KN-08"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-01" target="KN-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KN-01" target="KN-14"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="KN-02" target="KN-09"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-02" target="KN-13"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-03" target="KN-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-03" target="KN-14"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="KN-04" target="KN-05"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KN-04" target="KN-07"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-05" target="KN-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KN-06" target="KN-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KN-06" target="KN-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="KN-07" target="KN-10"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-08" target="KN-11"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-08" target="KN-14"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="KN-10" target="KN-12"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="KN-11" target="KN-14"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="KN-13" target="KN-14"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

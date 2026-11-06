@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="UG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="UG-101"><data key="name">Kalangala</data><data key="code">UG-101</data><data key="wikidata">Q867219</data><data key="lon">32.48943</data><data key="lat">-0.4351</data></node>
+    <node id="UG-102"><data key="name">Kampala</data><data key="code">UG-102</data><data key="wikidata">Q926417</data><data key="lon">32.61773</data><data key="lat">0.37496</data></node>
+    <node id="UG-103"><data key="name">Kiboga</data><data key="code">UG-103</data><data key="wikidata">Q892064</data><data key="lon">31.88338</data><data key="lat">0.88781</data></node>
+    <node id="UG-104"><data key="name">Luweero</data><data key="code">UG-104</data><data key="wikidata">Q1364817</data><data key="lon">32.62713</data><data key="lat">0.79879</data></node>
+    <node id="UG-105"><data key="name">Masaka</data><data key="code">UG-105</data><data key="wikidata">Q1032233</data><data key="lon">31.75362</data><data key="lat">-0.48543</data></node>
+    <node id="UG-106"><data key="name">Mpigi</data><data key="code">UG-106</data><data key="wikidata">Q1362109</data><data key="lon">32.26283</data><data key="lat">0.15837</data></node>
+    <node id="UG-107"><data key="name">Mubende</data><data key="code">UG-107</data><data key="wikidata">Q891962</data><data key="lon">31.58126</data><data key="lat">0.52002</data></node>
+    <node id="UG-108"><data key="name">Mukono</data><data key="code">UG-108</data><data key="wikidata">Q1151066</data><data key="lon">32.83269</data><data key="lat">0.47093</data></node>
+    <node id="UG-109"><data key="name">Nakasongola</data><data key="code">UG-109</data><data key="wikidata">Q976859</data><data key="lon">32.46522</data><data key="lat">1.32431</data></node>
+    <node id="UG-110"><data key="name">Rakai</data><data key="code">UG-110</data><data key="wikidata">Q976873</data><data key="lon">31.4568</data><data key="lat">-0.73405</data></node>
+    <node id="UG-111"><data key="name">Sembabule</data><data key="code">UG-111</data><data key="wikidata">Q976883</data><data key="lon">31.36237</data><data key="lat">-0.04054</data></node>
+    <node id="UG-112"><data key="name">Kayunga</data><data key="code">UG-112</data><data key="wikidata">Q1207391</data><data key="lon">32.86139</data><data key="lat">1.02195</data></node>
+    <node id="UG-113"><data key="name">Wakiso</data><data key="code">UG-113</data><data key="wikidata">Q976848</data><data key="lon">32.52909</data><data key="lat">0.26906</data></node>
+    <node id="UG-114"><data key="name">Mityana</data><data key="code">UG-114</data><data key="wikidata">Q1230005</data><data key="lon">32.0967</data><data key="lat">0.46785</data></node>
+    <node id="UG-115"><data key="name">Nakaseke</data><data key="code">UG-115</data><data key="wikidata">Q432438</data><data key="lon">32.20054</data><data key="lat">1.01412</data></node>
+    <node id="UG-116"><data key="name">Lyantonde</data><data key="code">UG-116</data><data key="wikidata">Q1375878</data><data key="lon">31.16434</data><data key="lat">-0.29528</data></node>
+    <node id="UG-117"><data key="name">Buikwe</data><data key="code">UG-117</data><data key="wikidata">Q3321631</data><data key="lon">33.10234</data><data key="lat">0.33819</data></node>
+    <node id="UG-118"><data key="name">Bukomansimbi</data><data key="code">UG-118</data><data key="wikidata">Q3321599</data><data key="lon">31.6457</data><data key="lat">-0.09851</data></node>
+    <node id="UG-119"><data key="name">Butambala</data><data key="code">UG-119</data><data key="wikidata">Q3321622</data><data key="lon">32.01104</data><data key="lat">0.13062</data></node>
+    <node id="UG-120"><data key="name">Buvuma</data><data key="code">UG-120</data><data key="wikidata">Q3321608</data><data key="lon">33.29281</data><data key="lat">0.19351</data></node>
+    <node id="UG-121"><data key="name">Gomba</data><data key="code">UG-121</data><data key="wikidata">Q3321637</data><data key="lon">31.70431</data><data key="lat">0.19175</data></node>
+    <node id="UG-122"><data key="name">Kalungu</data><data key="code">UG-122</data><data key="wikidata">Q3321614</data><data key="lon">31.81838</data><data key="lat">-0.09851</data></node>
+    <node id="UG-123"><data key="name">Kyankwanzi</data><data key="code">UG-123</data><data key="wikidata">Q534203</data><data key="lon">31.68965</data><data key="lat">1.0995</data></node>
+    <node id="UG-124"><data key="name">Lwengo</data><data key="code">UG-124</data><data key="wikidata">Q1114954</data><data key="lon">31.42588</data><data key="lat">-0.42869</data></node>
+    <node id="UG-201"><data key="name">Bugiri</data><data key="code">UG-201</data><data key="wikidata">Q1229798</data><data key="lon">33.7637</data><data key="lat">0.52258</data></node>
+    <node id="UG-202"><data key="name">Busia</data><data key="code">UG-202</data><data key="wikidata">Q1229800</data><data key="lon">33.99574</data><data key="lat">0.39476</data></node>
+    <node id="UG-203"><data key="name">Iganga</data><data key="code">UG-203</data><data key="wikidata">Q1229869</data><data key="lon">33.59037</data><data key="lat">0.65354</data></node>
+    <node id="UG-204"><data key="name">Jinja</data><data key="code">UG-204</data><data key="wikidata">Q983748</data><data key="lon">33.33857</data><data key="lat">0.51312</data></node>
+    <node id="UG-205"><data key="name">Kamuli</data><data key="code">UG-205</data><data key="wikidata">Q164474</data><data key="lon">33.12931</data><data key="lat">0.92757</data></node>
+    <node id="UG-206"><data key="name">Kapchorwa</data><data key="code">UG-206</data><data key="wikidata">Q1229921</data><data key="lon">34.47874</data><data key="lat">1.26688</data></node>
+    <node id="UG-207"><data key="name">Katakwi</data><data key="code">UG-207</data><data key="wikidata">Q1229930</data><data key="lon">34.05357</data><data key="lat">1.9686</data></node>
+    <node id="UG-208"><data key="name">Kumi</data><data key="code">UG-208</data><data key="wikidata">Q1151062</data><data key="lon">33.94574</data><data key="lat">1.46311</data></node>
+    <node id="UG-209"><data key="name">Mbale</data><data key="code">UG-209</data><data key="wikidata">Q581822</data><data key="lon">34.19339</data><data key="lat">1.01131</data></node>
+    <node id="UG-210"><data key="name">Pallisa</data><data key="code">UG-210</data><data key="wikidata">Q1375843</data><data key="lon">33.74988</data><data key="lat">1.21732</data></node>
+    <node id="UG-211"><data key="name">Soroti</data><data key="code">UG-211</data><data key="wikidata">Q1091337</data><data key="lon">33.59871</data><data key="lat">1.80036</data></node>
+    <node id="UG-212"><data key="name">Tororo</data><data key="code">UG-212</data><data key="wikidata">Q1186541</data><data key="lon">34.09065</data><data key="lat">0.73524</data></node>
+    <node id="UG-213"><data key="name">Kaberamaido</data><data key="code">UG-213</data><data key="wikidata">Q1229906</data><data key="lon">33.27748</data><data key="lat">1.78376</data></node>
+    <node id="UG-214"><data key="name">Mayuge</data><data key="code">UG-214</data><data key="wikidata">Q1364824</data><data key="lon">33.55842</data><data key="lat">0.31494</data></node>
+    <node id="UG-215"><data key="name">Sironko</data><data key="code">UG-215</data><data key="wikidata">Q1375835</data><data key="lon">34.33321</data><data key="lat">1.16554</data></node>
+    <node id="UG-216"><data key="name">Amuria</data><data key="code">UG-216</data><data key="wikidata">Q1375762</data><data key="lon">33.62898</data><data key="lat">2.06454</data></node>
+    <node id="UG-217"><data key="name">Budaka</data><data key="code">UG-217</data><data key="wikidata">Q1362085</data><data key="lon">33.9661</data><data key="lat">1.04252</data></node>
+    <node id="UG-218"><data key="name">Bukwa</data><data key="code">UG-218</data><data key="wikidata">Q1375868</data><data key="lon">34.69353</data><data key="lat">1.26054</data></node>
+    <node id="UG-219"><data key="name">Butaleja</data><data key="code">UG-219</data><data key="wikidata">Q1375755</data><data key="lon">33.86846</data><data key="lat">0.85922</data></node>
+    <node id="UG-220"><data key="name">Kaliro</data><data key="code">UG-220</data><data key="wikidata">Q1375859</data><data key="lon">33.48635</data><data key="lat">1.07363</data></node>
+    <node id="UG-221"><data key="name">Manafwa</data><data key="code">UG-221</data><data key="wikidata">Q1375789</data><data key="lon">34.3077</data><data key="lat">0.87509</data></node>
+    <node id="UG-222"><data key="name">Namutumba</data><data key="code">UG-222</data><data key="wikidata">Q1375819</data><data key="lon">33.6543</data><data key="lat">0.89659</data></node>
+    <node id="UG-223"><data key="name">Bududa</data><data key="code">UG-223</data><data key="wikidata">Q1365449</data><data key="lon">34.38711</data><data key="lat">1.05441</data></node>
+    <node id="UG-224"><data key="name">Bukedea</data><data key="code">UG-224</data><data key="wikidata">Q1375812</data><data key="lon">34.13101</data><data key="lat">1.37339</data></node>
+    <node id="UG-225"><data key="name">Bulambuli</data><data key="code">UG-225</data><data key="wikidata">Q1114868</data><data key="lon">34.29128</data><data key="lat">1.36458</data></node>
+    <node id="UG-226"><data key="name">Buyende</data><data key="code">UG-226</data><data key="wikidata">Q1114938</data><data key="lon">33.17916</data><data key="lat">1.19543</data></node>
+    <node id="UG-227"><data key="name">Kibuku</data><data key="code">UG-227</data><data key="wikidata">Q1114885</data><data key="lon">33.77449</data><data key="lat">1.04461</data></node>
+    <node id="UG-228"><data key="name">Kween</data><data key="code">UG-228</data><data key="wikidata">Q3321998</data><data key="lon">34.64058</data><data key="lat">1.38497</data></node>
+    <node id="UG-229"><data key="name">Luuka</data><data key="code">UG-229</data><data key="wikidata">Q1114977</data><data key="lon">33.35665</data><data key="lat">0.80708</data></node>
+    <node id="UG-230"><data key="name">Namayingo</data><data key="code">UG-230</data><data key="wikidata">Q1114915</data><data key="lon">33.81836</data><data key="lat">0.3126</data></node>
+    <node id="UG-231"><data key="name">Ngora</data><data key="code">UG-231</data><data key="wikidata">Q1114903</data><data key="lon">33.76319</data><data key="lat">1.46311</data></node>
+    <node id="UG-232"><data key="name">Serere</data><data key="code">UG-232</data><data key="wikidata">Q1114927</data><data key="lon">33.48091</data><data key="lat">1.48088</data></node>
+    <node id="UG-301"><data key="name">Adjumani</data><data key="code">UG-301</data><data key="wikidata">Q1229734</data><data key="lon">31.79084</data><data key="lat">3.23352</data></node>
+    <node id="UG-302"><data key="name">Apac</data><data key="code">UG-302</data><data key="wikidata">Q1229750</data><data key="lon">32.64523</data><data key="lat">1.9142</data></node>
+    <node id="UG-303"><data key="name">Arua</data><data key="code">UG-303</data><data key="wikidata">Q1229758</data><data key="lon">31.11562</data><data key="lat">2.96433</data></node>
+    <node id="UG-304"><data key="name">Gulu</data><data key="code">UG-304</data><data key="wikidata">Q1028215</data><data key="lon">32.40515</data><data key="lat">2.89751</data></node>
+    <node id="UG-305"><data key="name">Kitgum</data><data key="code">UG-305</data><data key="wikidata">Q500162</data><data key="lon">33.27022</data><data key="lat">3.39477</data></node>
+    <node id="UG-306"><data key="name">Kotido</data><data key="code">UG-306</data><data key="wikidata">Q1318843</data><data key="lon">34.0449</data><data key="lat">2.96366</data></node>
+    <node id="UG-307"><data key="name">Lira</data><data key="code">UG-307</data><data key="wikidata">Q206519</data><data key="lon">32.87373</data><data key="lat">2.32628</data></node>
+    <node id="UG-308"><data key="name">Moroto</data><data key="code">UG-308</data><data key="wikidata">Q1375850</data><data key="lon">34.72576</data><data key="lat">2.6229</data></node>
+    <node id="UG-309"><data key="name">Moyo</data><data key="code">UG-309</data><data key="wikidata">Q2183668</data><data key="lon">31.58494</data><data key="lat">3.48166</data></node>
+    <node id="UG-310"><data key="name">Nebbi</data><data key="code">UG-310</data><data key="wikidata">Q1375825</data><data key="lon">31.27829</data><data key="lat">2.47602</data></node>
+    <node id="UG-311"><data key="name">Nakapiripirit</data><data key="code">UG-311</data><data key="wikidata">Q1375853</data><data key="lon">34.61524</data><data key="lat">2.02182</data></node>
+    <node id="UG-312"><data key="name">Pader</data><data key="code">UG-312</data><data key="wikidata">Q1230035</data><data key="lon">32.93252</data><data key="lat">2.86564</data></node>
+    <node id="UG-313"><data key="name">Yumbe</data><data key="code">UG-313</data><data key="wikidata">Q1362587</data><data key="lon">31.25476</data><data key="lat">3.44127</data></node>
+    <node id="UG-314"><data key="name">Amolatar</data><data key="code">UG-314</data><data key="wikidata">Q1318822</data><data key="lon">32.79392</data><data key="lat">1.64939</data></node>
+    <node id="UG-315"><data key="name">Kaabong</data><data key="code">UG-315</data><data key="wikidata">Q1229881</data><data key="lon">34.00639</data><data key="lat">3.65103</data></node>
+    <node id="UG-316"><data key="name">Koboko</data><data key="code">UG-316</data><data key="wikidata">Q1318857</data><data key="lon">30.946</data><data key="lat">3.52637</data></node>
+    <node id="UG-317"><data key="name">Abim</data><data key="code">UG-317</data><data key="wikidata">Q1375780</data><data key="lon">33.72159</data><data key="lat">2.82516</data></node>
+    <node id="UG-318"><data key="name">Dokolo</data><data key="code">UG-318</data><data key="wikidata">Q1318872</data><data key="lon">33.12931</data><data key="lat">1.9081</data></node>
+    <node id="UG-319"><data key="name">Amuru</data><data key="code">UG-319</data><data key="wikidata">Q1375771</data><data key="lon">32.07124</data><data key="lat">3.09637</data></node>
+    <node id="UG-320"><data key="name">Maracha</data><data key="code">UG-320</data><data key="wikidata">Q588927</data><data key="lon">30.91793</data><data key="lat">3.25603</data></node>
+    <node id="UG-321"><data key="name">Oyam</data><data key="code">UG-321</data><data key="wikidata">Q1318833</data><data key="lon">32.42225</data><data key="lat">2.29682</data></node>
+    <node id="UG-322"><data key="name">Agago</data><data key="code">UG-322</data><data key="wikidata">Q3536053</data><data key="lon">33.3463</data><data key="lat">2.94198</data></node>
+    <node id="UG-323"><data key="name">Alebtong</data><data key="code">UG-323</data><data key="wikidata">Q3536082</data><data key="lon">33.28205</data><data key="lat">2.24711</data></node>
+    <node id="UG-324"><data key="name">Amudat</data><data key="code">UG-324</data><data key="wikidata">Q3536116</data><data key="lon">34.89134</data><data key="lat">1.82368</data></node>
+    <node id="UG-325"><data key="name">Buhweju</data><data key="code">UG-325</data><data key="wikidata">Q3537661</data><data key="lon">30.31873</data><data key="lat">-0.34975</data></node>
+    <node id="UG-326"><data key="name">Kole</data><data key="code">UG-326</data><data key="wikidata">Q3539151</data><data key="lon">32.69649</data><data key="lat">2.28342</data></node>
+    <node id="UG-327"><data key="name">Lamwo</data><data key="code">UG-327</data><data key="wikidata">Q3539277</data><data key="lon">32.65965</data><data key="lat">3.51234</data></node>
+    <node id="UG-328"><data key="name">Napak</data><data key="code">UG-328</data><data key="wikidata">Q3539495</data><data key="lon">34.20744</data><data key="lat">2.3821</data></node>
+    <node id="UG-329"><data key="name">Nwoya</data><data key="code">UG-329</data><data key="wikidata">Q3539572</data><data key="lon">31.92622</data><data key="lat">2.49361</data></node>
+    <node id="UG-330"><data key="name">Otuke</data><data key="code">UG-330</data><data key="wikidata">Q3539602</data><data key="lon">33.31721</data><data key="lat">2.47979</data></node>
+    <node id="UG-331"><data key="name">Zombo</data><data key="code">UG-331</data><data key="wikidata">Q3539730</data><data key="lon">30.90237</data><data key="lat">2.53111</data></node>
+    <node id="UG-401"><data key="name">Bundibugyo</data><data key="code">UG-401</data><data key="wikidata">Q1362129</data><data key="lon">30.03698</data><data key="lat">0.67523</data></node>
+    <node id="UG-402"><data key="name">Bushenyi</data><data key="code">UG-402</data><data key="wikidata">Q1229797</data><data key="lon">30.13432</data><data key="lat">-0.49087</data></node>
+    <node id="UG-403"><data key="name">Hoima</data><data key="code">UG-403</data><data key="wikidata">Q1186535</data><data key="lon">31.16636</data><data key="lat">1.42075</data></node>
+    <node id="UG-404"><data key="name">Kabale</data><data key="code">UG-404</data><data key="wikidata">Q3526470</data><data key="lon">30.01048</data><data key="lat">-1.23837</data></node>
+    <node id="UG-405"><data key="name">Kabarole</data><data key="code">UG-405</data><data key="wikidata">Q1229910</data><data key="lon">30.2593</data><data key="lat">0.60374</data></node>
+    <node id="UG-406"><data key="name">Kasese</data><data key="code">UG-406</data><data key="wikidata">Q1229919</data><data key="lon">29.96849</data><data key="lat">0.08604</data></node>
+    <node id="UG-407"><data key="name">Kibale</data><data key="code">UG-407</data><data key="wikidata">Q604966</data><data key="lon">31.01074</data><data key="lat">0.91002</data></node>
+    <node id="UG-408"><data key="name">Kisoro</data><data key="code">UG-408</data><data key="wikidata">Q580538</data><data key="lon">29.67432</data><data key="lat">-1.19055</data></node>
+    <node id="UG-409"><data key="name">Masindi</data><data key="code">UG-409</data><data key="wikidata">Q1032238</data><data key="lon">31.72199</data><data key="lat">1.83464</data></node>
+    <node id="UG-410"><data key="name">Mbarara</data><data key="code">UG-410</data><data key="wikidata">Q1091595</data><data key="lon">30.78478</data><data key="lat">-0.31339</data></node>
+    <node id="UG-411"><data key="name">Ntungamo</data><data key="code">UG-411</data><data key="wikidata">Q204642</data><data key="lon">30.29215</data><data key="lat">-0.95477</data></node>
+    <node id="UG-412"><data key="name">Rukungiri</data><data key="code">UG-412</data><data key="wikidata">Q289419</data><data key="lon">29.92682</data><data key="lat">-0.73785</data></node>
+    <node id="UG-413"><data key="name">Kamwenge</data><data key="code">UG-413</data><data key="wikidata">Q1318806</data><data key="lon">30.47793</data><data key="lat">0.18492</data></node>
+    <node id="UG-414"><data key="name">Kanungu</data><data key="code">UG-414</data><data key="wikidata">Q1032245</data><data key="lon">29.71928</data><data key="lat">-0.75133</data></node>
+    <node id="UG-415"><data key="name">Kyenjojo</data><data key="code">UG-415</data><data key="wikidata">Q1318815</data><data key="lon">30.67916</data><data key="lat">0.6072</data></node>
+    <node id="UG-416"><data key="name">Ibanda</data><data key="code">UG-416</data><data key="wikidata">Q1318877</data><data key="lon">30.51436</data><data key="lat">-0.04608</data></node>
+    <node id="UG-417"><data key="name">Isingiro</data><data key="code">UG-417</data><data key="wikidata">Q1318887</data><data key="lon">30.89286</data><data key="lat">-0.82731</data></node>
+    <node id="UG-419"><data key="name">Buliisa</data><data key="code">UG-419</data><data key="wikidata">Q1229793</data><data key="lon">31.48745</data><data key="lat">2.0096</data></node>
+    <node id="UG-420"><data key="name">Kiryandongo</data><data key="code">UG-420</data><data key="wikidata">Q3539116</data><data key="lon">32.0944</data><data key="lat">2.00615</data></node>
+    <node id="UG-421"><data key="name">Kyegegwa</data><data key="code">UG-421</data><data key="wikidata">Q3539256</data><data key="lon">31.00186</data><data key="lat">0.43494</data></node>
+    <node id="UG-422"><data key="name">Mitooma</data><data key="code">UG-422</data><data key="wikidata">Q3539414</data><data key="lon">30.03537</data><data key="lat">-0.62743</data></node>
+    <node id="UG-423"><data key="name">Ntoroko</data><data key="code">UG-423</data><data key="wikidata">Q3539547</data><data key="lon">30.35826</data><data key="lat">0.98041</data></node>
+    <node id="UG-424"><data key="name">Rubirizi</data><data key="code">UG-424</data><data key="wikidata">Q3539648</data><data key="lon">30.07038</data><data key="lat">-0.24993</data></node>
+    <node id="UG-425"><data key="name">Sheema</data><data key="code">UG-425</data><data key="wikidata">Q3539711</data><data key="lon">30.37615</data><data key="lat">-0.60504</data></node>
+    <edge source="UG-102" target="UG-108"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-102" target="UG-113"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-103" target="UG-107"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-103" target="UG-114"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-103" target="UG-115"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-103" target="UG-123"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-104" target="UG-108"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-104" target="UG-109"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-104" target="UG-112"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-104" target="UG-113"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-104" target="UG-115"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-105" target="UG-110"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-105" target="UG-122"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-105" target="UG-124"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-106" target="UG-113"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-106" target="UG-114"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-106" target="UG-119"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-106" target="UG-122"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-107" target="UG-111"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-107" target="UG-114"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-107" target="UG-121"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-107" target="UG-123"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-107" target="UG-407"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-107" target="UG-421"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-108" target="UG-112"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-108" target="UG-113"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-108" target="UG-117"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-109" target="UG-112"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-109" target="UG-115"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-109" target="UG-302"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-109" target="UG-314"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-109" target="UG-409"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-110" target="UG-116"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-110" target="UG-124"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-110" target="UG-410"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-110" target="UG-417"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-111" target="UG-116"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-111" target="UG-118"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-111" target="UG-121"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-111" target="UG-124"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-111" target="UG-410"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-111" target="UG-421"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-112" target="UG-117"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-112" target="UG-204"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-112" target="UG-205"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-112" target="UG-226"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-113" target="UG-114"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-113" target="UG-115"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-114" target="UG-115"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-114" target="UG-119"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-114" target="UG-121"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-115" target="UG-123"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-115" target="UG-409"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-116" target="UG-124"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-116" target="UG-410"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-117" target="UG-204"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-118" target="UG-121"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-118" target="UG-122"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-118" target="UG-124"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-119" target="UG-121"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-119" target="UG-122"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-121" target="UG-122"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-123" target="UG-403"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-123" target="UG-407"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-123" target="UG-409"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-201" target="UG-202"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-201" target="UG-203"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-201" target="UG-212"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-201" target="UG-214"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-201" target="UG-219"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-201" target="UG-222"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-201" target="UG-230"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-202" target="UG-212"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-202" target="UG-230"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-203" target="UG-204"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-203" target="UG-214"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-203" target="UG-220"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-203" target="UG-222"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-203" target="UG-229"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-204" target="UG-205"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-204" target="UG-214"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-204" target="UG-229"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-205" target="UG-226"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-205" target="UG-229"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-206" target="UG-215"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-206" target="UG-218"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-206" target="UG-225"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-206" target="UG-228"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-207" target="UG-208"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-207" target="UG-211"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-207" target="UG-216"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-207" target="UG-231"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-207" target="UG-311"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-207" target="UG-328"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-208" target="UG-210"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-208" target="UG-224"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-208" target="UG-231"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-208" target="UG-311"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-209" target="UG-210"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-209" target="UG-212"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-209" target="UG-215"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-209" target="UG-217"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-209" target="UG-219"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-209" target="UG-221"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-209" target="UG-223"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-209" target="UG-224"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-210" target="UG-217"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-210" target="UG-220"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-210" target="UG-224"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-210" target="UG-226"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-210" target="UG-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-210" target="UG-231"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-210" target="UG-232"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-211" target="UG-213"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-211" target="UG-216"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-211" target="UG-231"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-211" target="UG-232"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-212" target="UG-219"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-212" target="UG-221"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-213" target="UG-216"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-213" target="UG-232"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-213" target="UG-314"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-213" target="UG-318"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-213" target="UG-323"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-215" target="UG-223"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-215" target="UG-224"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-215" target="UG-225"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-216" target="UG-323"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-216" target="UG-328"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-216" target="UG-330"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-217" target="UG-219"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-217" target="UG-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-218" target="UG-228"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-218" target="UG-324"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-219" target="UG-222"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-219" target="UG-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-220" target="UG-222"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-220" target="UG-226"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-220" target="UG-229"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-221" target="UG-223"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-222" target="UG-227"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-224" target="UG-225"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-225" target="UG-228"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-225" target="UG-311"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-226" target="UG-229"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-226" target="UG-232"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-228" target="UG-311"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-228" target="UG-324"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-231" target="UG-232"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-301" target="UG-303"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-301" target="UG-309"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-301" target="UG-319"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-302" target="UG-307"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-302" target="UG-314"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-302" target="UG-318"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-302" target="UG-321"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-302" target="UG-326"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-302" target="UG-409"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-302" target="UG-420"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-303" target="UG-310"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-303" target="UG-313"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-303" target="UG-319"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-303" target="UG-320"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-303" target="UG-331"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-304" target="UG-312"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-304" target="UG-319"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-304" target="UG-321"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-304" target="UG-327"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-304" target="UG-329"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-305" target="UG-306"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-305" target="UG-312"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-305" target="UG-315"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-305" target="UG-322"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-305" target="UG-327"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-306" target="UG-308"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-306" target="UG-315"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-306" target="UG-317"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-306" target="UG-322"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-306" target="UG-328"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-307" target="UG-312"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-307" target="UG-318"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-307" target="UG-321"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-307" target="UG-323"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-307" target="UG-326"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-307" target="UG-330"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-308" target="UG-311"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-308" target="UG-315"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-308" target="UG-324"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-308" target="UG-328"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-309" target="UG-313"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-310" target="UG-319"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-310" target="UG-329"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-310" target="UG-331"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-311" target="UG-324"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-311" target="UG-328"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-312" target="UG-321"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-312" target="UG-322"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-312" target="UG-327"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-312" target="UG-330"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-313" target="UG-316"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-314" target="UG-318"><data key="sources">geoboundaries,hand</data><data key="rule">hand</data><data key="corroborated">true</data></edge>
+    <edge source="UG-316" target="UG-320"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-317" target="UG-322"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-317" target="UG-328"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-317" target="UG-330"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-318" target="UG-323"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-319" target="UG-327"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-319" target="UG-329"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-321" target="UG-326"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-321" target="UG-329"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-321" target="UG-420"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-322" target="UG-330"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-323" target="UG-330"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-325" target="UG-402"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-325" target="UG-410"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-325" target="UG-416"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-325" target="UG-424"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-325" target="UG-425"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-328" target="UG-330"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-329" target="UG-409"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-329" target="UG-419"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-329" target="UG-420"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-401" target="UG-405"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-401" target="UG-423"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-402" target="UG-412"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-402" target="UG-422"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-402" target="UG-424"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-402" target="UG-425"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-403" target="UG-407"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-403" target="UG-409"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-403" target="UG-419"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-404" target="UG-408"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-404" target="UG-411"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-404" target="UG-412"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-404" target="UG-414"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-405" target="UG-406"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-405" target="UG-407"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-405" target="UG-413"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-405" target="UG-415"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-405" target="UG-423"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-406" target="UG-413"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-406" target="UG-424"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-407" target="UG-415"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-407" target="UG-421"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-407" target="UG-423"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-408" target="UG-414"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-409" target="UG-419"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-409" target="UG-420"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-410" target="UG-411"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-410" target="UG-413"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-410" target="UG-416"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-410" target="UG-417"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-410" target="UG-421"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-410" target="UG-425"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-411" target="UG-412"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-411" target="UG-417"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="UG-411" target="UG-422"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-411" target="UG-425"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-412" target="UG-414"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-412" target="UG-422"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-412" target="UG-424"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-413" target="UG-415"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-413" target="UG-416"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-413" target="UG-421"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-413" target="UG-424"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-415" target="UG-421"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-416" target="UG-424"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="UG-422" target="UG-425"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+  </graph>
+</graphml>

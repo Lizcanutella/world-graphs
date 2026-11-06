@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CK" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CK-X01~"><data key="name">Atiu</data><data key="code">CK-X01~</data><data key="wikidata"></data><data key="lon">-158.10479</data><data key="lat">-19.99749</data></node>
+    <node id="CK-X02~"><data key="name">Aitutaki</data><data key="code">CK-X02~</data><data key="wikidata">Q223379</data><data key="lon">-158.94341</data><data key="lat">-19.25579</data></node>
+    <node id="CK-X03~"><data key="name">Mangaia</data><data key="code">CK-X03~</data><data key="wikidata"></data><data key="lon">-157.93199</data><data key="lat">-21.90639</data></node>
+    <node id="CK-X04~"><data key="name">Rarotonga</data><data key="code">CK-X04~</data><data key="wikidata"></data><data key="lon">-159.7868</data><data key="lat">-21.22153</data></node>
+    <node id="CK-X05~"><data key="name">Mitiaro</data><data key="code">CK-X05~</data><data key="wikidata"></data><data key="lon">-157.72445</data><data key="lat">-19.81024</data></node>
+    <node id="CK-X06~"><data key="name">Mauke</data><data key="code">CK-X06~</data><data key="wikidata"></data><data key="lon">-157.33149</data><data key="lat">-20.15797</data></node>
+    <node id="CK-X07~"><data key="name">Palmerston</data><data key="code">CK-X07~</data><data key="wikidata"></data><data key="lon">-159.79008</data><data key="lat">-18.8611</data></node>
+    <node id="CK-X08~"><data key="name">Pukapuka</data><data key="code">CK-X08~</data><data key="wikidata"></data><data key="lon">-165.81719</data><data key="lat">-10.88543</data></node>
+    <node id="CK-X09~"><data key="name">Rakahanga</data><data key="code">CK-X09~</data><data key="wikidata"></data><data key="lon">-161.08155</data><data key="lat">-10.03574</data></node>
+    <node id="CK-X10~"><data key="name">Manihiki</data><data key="code">CK-X10~</data><data key="wikidata"></data><data key="lon">-160.96031</data><data key="lat">-10.40244</data></node>
+    <node id="CK-X11~"><data key="name">Penrhyn</data><data key="code">CK-X11~</data><data key="wikidata"></data><data key="lon">-157.98935</data><data key="lat">-8.95875</data></node>
+  </graph>
+</graphml>

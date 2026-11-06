@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="GH" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="GH-AA"><data key="name">Greater Accra</data><data key="code">GH-AA</data><data key="wikidata">Q431729</data><data key="lon">-0.03414</data><data key="lat">5.74907</data></node>
+    <node id="GH-AH"><data key="name">Ashanti</data><data key="code">GH-AH</data><data key="wikidata">Q398417</data><data key="lon">-1.6193</data><data key="lat">6.73751</data></node>
+    <node id="GH-BA"><data key="name">Brong Ahafo</data><data key="code">GH-BA</data><data key="wikidata">Q397737</data><data key="lon">-2.17872</data><data key="lat">7.58529</data></node>
+    <node id="GH-CP"><data key="name">Central</data><data key="code">GH-CP</data><data key="wikidata">Q846323</data><data key="lon">-1.14709</data><data key="lat">5.6564</data></node>
+    <node id="GH-EP"><data key="name">Eastern</data><data key="code">GH-EP</data><data key="wikidata">Q405670</data><data key="lon">-0.54784</data><data key="lat">6.46223</data></node>
+    <node id="GH-NP"><data key="name">Northern</data><data key="code">GH-NP</data><data key="wikidata">Q502215</data><data key="lon">-1.22415</data><data key="lat">9.4231</data></node>
+    <node id="GH-TV"><data key="name">Volta</data><data key="code">GH-TV</data><data key="wikidata">Q712832</data><data key="lon">0.44995</data><data key="lat">7.2666</data></node>
+    <node id="GH-UE"><data key="name">Upper East</data><data key="code">GH-UE</data><data key="wikidata">Q712828</data><data key="lon">-0.82417</data><data key="lat">10.73009</data></node>
+    <node id="GH-UW"><data key="name">Upper West</data><data key="code">GH-UW</data><data key="wikidata">Q715805</data><data key="lon">-2.20464</data><data key="lat">10.33278</data></node>
+    <node id="GH-WP"><data key="name">Western</data><data key="code">GH-WP</data><data key="wikidata">Q870155</data><data key="lon">-2.43876</data><data key="lat">5.89376</data></node>
+    <edge source="GH-AA" target="GH-CP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-AA" target="GH-EP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-AA" target="GH-TV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-AH" target="GH-BA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-AH" target="GH-CP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-AH" target="GH-EP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-AH" target="GH-WP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-BA" target="GH-EP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-BA" target="GH-NP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-BA" target="GH-TV"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="GH-BA" target="GH-WP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-CP" target="GH-EP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-CP" target="GH-WP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-EP" target="GH-TV"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-NP" target="GH-TV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-NP" target="GH-UE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-NP" target="GH-UW"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="GH-UE" target="GH-UW"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="MR" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="MR-01"><data key="name">Hodh ech Chargui</data><data key="code">MR-01</data><data key="wikidata">Q12621</data><data key="lon">-7.05359</data><data key="lat">19.32874</data></node>
+    <node id="MR-02"><data key="name">Hodh el Gharbi</data><data key="code">MR-02</data><data key="wikidata">Q850435</data><data key="lon">-9.73333</data><data key="lat">16.55386</data></node>
+    <node id="MR-03"><data key="name">Assaba</data><data key="code">MR-03</data><data key="wikidata">Q738546</data><data key="lon">-11.85654</data><data key="lat">16.71504</data></node>
+    <node id="MR-04"><data key="name">Gorgol</data><data key="code">MR-04</data><data key="wikidata">Q859831</data><data key="lon">-12.69665</data><data key="lat">16.00233</data></node>
+    <node id="MR-05"><data key="name">Brakna</data><data key="code">MR-05</data><data key="wikidata">Q12632</data><data key="lon">-13.26029</data><data key="lat">17.31549</data></node>
+    <node id="MR-06"><data key="name">Trarza</data><data key="code">MR-06</data><data key="wikidata">Q859581</data><data key="lon">-15.11235</data><data key="lat">17.40359</data></node>
+    <node id="MR-07"><data key="name">Adrar</data><data key="code">MR-07</data><data key="wikidata">Q366626</data><data key="lon">-9.43971</data><data key="lat">21.42347</data></node>
+    <node id="MR-08"><data key="name">Dakhlet Nouadhibou</data><data key="code">MR-08</data><data key="wikidata">Q859573</data><data key="lon">-16.04967</data><data key="lat">20.36347</data></node>
+    <node id="MR-09"><data key="name">Tagant</data><data key="code">MR-09</data><data key="wikidata">Q843903</data><data key="lon">-10.5941</data><data key="lat">18.43397</data></node>
+    <node id="MR-10"><data key="name">Guidimaka</data><data key="code">MR-10</data><data key="wikidata">Q768119</data><data key="lon">-12.20461</data><data key="lat">15.40154</data></node>
+    <node id="MR-11"><data key="name">Tiris Zemmour</data><data key="code">MR-11</data><data key="wikidata">Q859567</data><data key="lon">-9.26246</data><data key="lat">24.30393</data></node>
+    <node id="MR-12"><data key="name">Inchiri</data><data key="code">MR-12</data><data key="wikidata">Q850022</data><data key="lon">-15.04707</data><data key="lat">20.16449</data></node>
+    <node id="MR-NKC"><data key="name">Nouakchott</data><data key="code">MR-NKC</data><data key="wikidata">Q3688</data><data key="lon">-15.90515</data><data key="lat">18.05079</data></node>
+    <edge source="MR-01" target="MR-02"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-01" target="MR-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-01" target="MR-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-02" target="MR-03"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-02" target="MR-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-03" target="MR-04"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-03" target="MR-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-03" target="MR-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-03" target="MR-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-04" target="MR-05"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-04" target="MR-10"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-05" target="MR-06"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-05" target="MR-09"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-06" target="MR-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-06" target="MR-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-06" target="MR-NKC"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-07" target="MR-08"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-07" target="MR-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-07" target="MR-11"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-07" target="MR-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="MR-08" target="MR-12"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,608 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "KR",
+ "kind": "country",
+ "name": "Korea, Republic of",
+ "level": "provinces",
+ "n": 17,
+ "m": 26,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "KR-11",
+   "name": "Seoul",
+   "wikidata": "Q8684",
+   "lon": 126.95633,
+   "lat": 37.55461
+  },
+  {
+   "code": "KR-26",
+   "name": "Busan",
+   "wikidata": "Q16520",
+   "lon": 129.09003,
+   "lat": 35.15872
+  },
+  {
+   "code": "KR-27",
+   "name": "Daegu",
+   "wikidata": "Q20927",
+   "lon": 128.63596,
+   "lat": 35.89104
+  },
+  {
+   "code": "KR-28",
+   "name": "Incheon",
+   "wikidata": "Q20934",
+   "lon": 126.68673,
+   "lat": 37.46088
+  },
+  {
+   "code": "KR-29",
+   "name": "Gwangju",
+   "wikidata": "Q41283",
+   "lon": 126.91552,
+   "lat": 35.21356
+  },
+  {
+   "code": "KR-30",
+   "name": "Daejeon",
+   "wikidata": "Q20921",
+   "lon": 127.38469,
+   "lat": 36.35556
+  },
+  {
+   "code": "KR-31",
+   "name": "Ulsan",
+   "wikidata": "Q41278",
+   "lon": 129.18822,
+   "lat": 35.50046
+  },
+  {
+   "code": "KR-41",
+   "name": "Gyeonggi",
+   "wikidata": "Q20937",
+   "lon": 127.46677,
+   "lat": 37.54522
+  },
+  {
+   "code": "KR-42",
+   "name": "Gangwon",
+   "wikidata": "Q41071",
+   "lon": 128.30663,
+   "lat": 37.6169
+  },
+  {
+   "code": "KR-43",
+   "name": "North Chungcheong",
+   "wikidata": "Q41066",
+   "lon": 127.53833,
+   "lat": 36.60218
+  },
+  {
+   "code": "KR-44",
+   "name": "South Chungcheong",
+   "wikidata": "Q41070",
+   "lon": 126.79619,
+   "lat": 36.52267
+  },
+  {
+   "code": "KR-45",
+   "name": "North Jeolla",
+   "wikidata": "Q41157",
+   "lon": 127.13387,
+   "lat": 35.70301
+  },
+  {
+   "code": "KR-46",
+   "name": "South Jeolla",
+   "wikidata": "Q41161",
+   "lon": 127.0483,
+   "lat": 34.87708
+  },
+  {
+   "code": "KR-47",
+   "name": "North Gyeongsang",
+   "wikidata": "Q41154",
+   "lon": 128.622,
+   "lat": 36.31518
+  },
+  {
+   "code": "KR-48",
+   "name": "South Gyeongsang",
+   "wikidata": "Q41151",
+   "lon": 128.43559,
+   "lat": 35.35888
+  },
+  {
+   "code": "KR-49",
+   "name": "Jeju",
+   "wikidata": "Q41164",
+   "lon": 126.55689,
+   "lat": 33.38416
+  },
+  {
+   "code": "KR-50",
+   "name": "Sejong",
+   "wikidata": "Q20929",
+   "lon": 127.15238,
+   "lat": 36.58073
+  }
+ ],
+ "edges": [
+  {
+   "u": "KR-11",
+   "v": "KR-41",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 112296
+  },
+  {
+   "u": "KR-26",
+   "v": "KR-48",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37367
+  },
+  {
+   "u": "KR-27",
+   "v": "KR-47",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 91648
+  },
+  {
+   "u": "KR-28",
+   "v": "KR-41",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 34857
+  },
+  {
+   "u": "KR-29",
+   "v": "KR-46",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44979
+  },
+  {
+   "u": "KR-30",
+   "v": "KR-43",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23375
+  },
+  {
+   "u": "KR-30",
+   "v": "KR-44",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50503
+  },
+  {
+   "u": "KR-30",
+   "v": "KR-50",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12341
+  },
+  {
+   "u": "KR-31",
+   "v": "KR-47",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52852
+  },
+  {
+   "u": "KR-31",
+   "v": "KR-48",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44259
+  },
+  {
+   "u": "KR-41",
+   "v": "KR-42",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 213566
+  },
+  {
+   "u": "KR-41",
+   "v": "KR-43",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45952
+  },
+  {
+   "u": "KR-41",
+   "v": "KR-44",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28781
+  },
+  {
+   "u": "KR-42",
+   "v": "KR-43",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 134724
+  },
+  {
+   "u": "KR-42",
+   "v": "KR-47",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 140943
+  },
+  {
+   "u": "KR-43",
+   "v": "KR-44",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 88630
+  },
+  {
+   "u": "KR-43",
+   "v": "KR-45",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 28646
+  },
+  {
+   "u": "KR-43",
+   "v": "KR-47",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 218557
+  },
+  {
+   "u": "KR-43",
+   "v": "KR-50",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33833
+  },
+  {
+   "u": "KR-44",
+   "v": "KR-45",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 96111
+  },
+  {
+   "u": "KR-44",
+   "v": "KR-50",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55611
+  },
+  {
+   "u": "KR-45",
+   "v": "KR-46",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 154917
+  },
+  {
+   "u": "KR-45",
+   "v": "KR-47",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14365
+  },
+  {
+   "u": "KR-45",
+   "v": "KR-48",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83775
+  },
+  {
+   "u": "KR-46",
+   "v": "KR-48",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 41484
+  },
+  {
+   "u": "KR-47",
+   "v": "KR-48",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 133729
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "KOR-ADM1-68945753",
+  "level": "ADM1",
+  "year": "2021",
+  "license": "Public Domain"
+ }
+}

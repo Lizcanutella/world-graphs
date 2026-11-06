@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="IN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="IN-AN"><data key="name">Andaman and Nicobar</data><data key="code">IN-AN</data><data key="wikidata">Q40888</data><data key="lon">92.85591</data><data key="lat">12.54316</data></node>
+    <node id="IN-AP"><data key="name">Andhra Pradesh</data><data key="code">IN-AP</data><data key="wikidata">Q1159</data><data key="lon">79.40694</data><data key="lat">15.89637</data></node>
+    <node id="IN-AR"><data key="name">Arunachal Pradesh</data><data key="code">IN-AR</data><data key="wikidata">Q1162</data><data key="lon">95.03727</data><data key="lat">28.00896</data></node>
+    <node id="IN-AS"><data key="name">Assam</data><data key="code">IN-AS</data><data key="wikidata">Q1164</data><data key="lon">90.76039</data><data key="lat">26.06422</data></node>
+    <node id="IN-BR"><data key="name">Bihar</data><data key="code">IN-BR</data><data key="wikidata">Q1165</data><data key="lon">86.09705</data><data key="lat">25.91041</data></node>
+    <node id="IN-CH"><data key="name">Chandigarh</data><data key="code">IN-CH</data><data key="wikidata">Q120971341</data><data key="lon">76.76778</data><data key="lat">30.73912</data></node>
+    <node id="IN-CT"><data key="name">Chhattisgarh</data><data key="code">IN-CT</data><data key="wikidata">Q1168</data><data key="lon">81.50766</data><data key="lat">20.95681</data></node>
+    <node id="IN-DH"><data key="name">Dadra and Nagar Haveli and Daman and Diu</data><data key="code">IN-DH</data><data key="wikidata">Q77997266</data><data key="lon">72.98817</data><data key="lat">20.18205</data></node>
+    <node id="IN-DL"><data key="name">Delhi</data><data key="code">IN-DL</data><data key="wikidata">Q9357528</data><data key="lon">77.12377</data><data key="lat">28.65346</data></node>
+    <node id="IN-GA"><data key="name">Goa</data><data key="code">IN-GA</data><data key="wikidata">Q1171</data><data key="lon">74.0969</data><data key="lat">15.33281</data></node>
+    <node id="IN-GJ"><data key="name">Gujarat</data><data key="code">IN-GJ</data><data key="wikidata">Q1061</data><data key="lon">71.94877</data><data key="lat">22.39073</data></node>
+    <node id="IN-HP"><data key="name">Himachal Pradesh</data><data key="code">IN-HP</data><data key="wikidata">Q1177</data><data key="lon">77.30708</data><data key="lat">31.81028</data></node>
+    <node id="IN-HR"><data key="name">Haryana</data><data key="code">IN-HR</data><data key="wikidata">Q1174</data><data key="lon">76.0498</data><data key="lat">29.30749</data></node>
+    <node id="IN-JH"><data key="name">Jharkhand</data><data key="code">IN-JH</data><data key="wikidata">Q1184</data><data key="lon">85.13107</data><data key="lat">23.65755</data></node>
+    <node id="IN-JK"><data key="name">Jammu and Kashmir</data><data key="code">IN-JK</data><data key="wikidata">Q66278313</data><data key="lon">75.29348</data><data key="lat">33.52045</data></node>
+    <node id="IN-KA"><data key="name">Karnataka</data><data key="code">IN-KA</data><data key="wikidata">Q1185</data><data key="lon">75.50578</data><data key="lat">15.04364</data></node>
+    <node id="IN-KL"><data key="name">Kerala</data><data key="code">IN-KL</data><data key="wikidata">Q1186</data><data key="lon">76.42927</data><data key="lat">10.54042</data></node>
+    <node id="IN-LA"><data key="name">Ladakh</data><data key="code">IN-LA</data><data key="wikidata">Q200667</data><data key="lon">77.43999</data><data key="lat">33.89763</data></node>
+    <node id="IN-LD"><data key="name">Lakshadweep</data><data key="code">IN-LD</data><data key="wikidata">Q26927</data><data key="lon">72.18384</data><data key="lat">10.84241</data></node>
+    <node id="IN-MH"><data key="name">Maharashtra</data><data key="code">IN-MH</data><data key="wikidata">Q1191</data><data key="lon">75.43015</data><data key="lat">18.81975</data></node>
+    <node id="IN-ML"><data key="name">Meghalaya</data><data key="code">IN-ML</data><data key="wikidata">Q1195</data><data key="lon">91.27339</data><data key="lat">25.54857</data></node>
+    <node id="IN-MN"><data key="name">Manipur</data><data key="code">IN-MN</data><data key="wikidata">Q1193</data><data key="lon">93.84883</data><data key="lat">24.75659</data></node>
+    <node id="IN-MP"><data key="name">Madhya Pradesh</data><data key="code">IN-MP</data><data key="wikidata">Q1188</data><data key="lon">79.3877</data><data key="lat">23.96954</data></node>
+    <node id="IN-MZ"><data key="name">Mizoram</data><data key="code">IN-MZ</data><data key="wikidata">Q1502</data><data key="lon">92.8546</data><data key="lat">23.21873</data></node>
+    <node id="IN-NL"><data key="name">Nagaland</data><data key="code">IN-NL</data><data key="wikidata">Q1599</data><data key="lon">94.54726</data><data key="lat">26.11768</data></node>
+    <node id="IN-OR"><data key="name">Odisha</data><data key="code">IN-OR</data><data key="wikidata">Q22048</data><data key="lon">84.46158</data><data key="lat">20.16637</data></node>
+    <node id="IN-PB"><data key="name">Punjab</data><data key="code">IN-PB</data><data key="wikidata">Q22424</data><data key="lon">75.59325</data><data key="lat">31.03568</data></node>
+    <node id="IN-PY"><data key="name">Puducherry</data><data key="code">IN-PY</data><data key="wikidata">Q66743</data><data key="lon">79.7894</data><data key="lat">10.89764</data></node>
+    <node id="IN-RJ"><data key="name">Rajasthan</data><data key="code">IN-RJ</data><data key="wikidata">Q1437</data><data key="lon">73.80675</data><data key="lat">26.62245</data></node>
+    <node id="IN-SK"><data key="name">Sikkim</data><data key="code">IN-SK</data><data key="wikidata">Q1505</data><data key="lon">88.43138</data><data key="lat">27.60412</data></node>
+    <node id="IN-TG"><data key="name">Telangana</data><data key="code">IN-TG</data><data key="wikidata">Q677037</data><data key="lon">79.2634</data><data key="lat">17.85983</data></node>
+    <node id="IN-TN"><data key="name">Tamil Nadu</data><data key="code">IN-TN</data><data key="wikidata">Q1445</data><data key="lon">78.35704</data><data key="lat">10.80576</data></node>
+    <node id="IN-TR"><data key="name">Tripura</data><data key="code">IN-TR</data><data key="wikidata">Q1363</data><data key="lon">91.7074</data><data key="lat">23.74244</data></node>
+    <node id="IN-UP"><data key="name">Uttar Pradesh</data><data key="code">IN-UP</data><data key="wikidata">Q1498</data><data key="lon">80.7715</data><data key="lat">27.15735</data></node>
+    <node id="IN-UT"><data key="name">Uttarakhand</data><data key="code">IN-UT</data><data key="wikidata">Q1499</data><data key="lon">79.30911</data><data key="lat">30.09721</data></node>
+    <node id="IN-WB"><data key="name">West Bengal</data><data key="code">IN-WB</data><data key="wikidata">Q1356</data><data key="lon">88.05632</data><data key="lat">24.39436</data></node>
+    <edge source="IN-AP" target="IN-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AP" target="IN-OR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AP" target="IN-PY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AP" target="IN-TG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AP" target="IN-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AR" target="IN-AS"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AR" target="IN-NL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AS" target="IN-ML"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AS" target="IN-MN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AS" target="IN-MZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AS" target="IN-NL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AS" target="IN-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-AS" target="IN-WB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-BR" target="IN-JH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-BR" target="IN-UP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-BR" target="IN-WB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CH" target="IN-HR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CH" target="IN-PB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CT" target="IN-JH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CT" target="IN-MH"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CT" target="IN-MP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CT" target="IN-OR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CT" target="IN-TG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-CT" target="IN-UP"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-DH" target="IN-GJ"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IN-DH" target="IN-MH"><data key="sources">natural_earth</data><data key="rule">ne_uncheckable</data><data key="corroborated">false</data></edge>
+    <edge source="IN-DL" target="IN-HR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-DL" target="IN-UP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-GA" target="IN-KA"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-GA" target="IN-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-GJ" target="IN-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-GJ" target="IN-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-GJ" target="IN-RJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HP" target="IN-HR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HP" target="IN-JK"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HP" target="IN-LA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HP" target="IN-PB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HP" target="IN-UP"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HP" target="IN-UT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HR" target="IN-PB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HR" target="IN-RJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-HR" target="IN-UP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-JH" target="IN-OR"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-JH" target="IN-UP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-JH" target="IN-WB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-JK" target="IN-LA"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IN-JK" target="IN-PB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-KA" target="IN-KL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-KA" target="IN-MH"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-KA" target="IN-TG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-KA" target="IN-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-KL" target="IN-PY"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IN-KL" target="IN-TN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-MH" target="IN-MP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-MH" target="IN-TG"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-MN" target="IN-MZ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-MN" target="IN-NL"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-MP" target="IN-RJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-MP" target="IN-UP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-MZ" target="IN-TR"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-OR" target="IN-WB"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-PB" target="IN-RJ"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-PY" target="IN-TN"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="IN-RJ" target="IN-UP"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-SK" target="IN-WB"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="IN-UP" target="IN-UT"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

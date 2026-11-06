@@ -1,0 +1,3060 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "AZ",
+ "kind": "country",
+ "name": "Azerbaijan",
+ "level": "rayon",
+ "n": 76,
+ "m": 159,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "AZ-ABS",
+   "name": "Abşeron",
+   "wikidata": "Q179538",
+   "lon": 49.18556,
+   "lat": 40.29674
+  },
+  {
+   "code": "AZ-AGA",
+   "name": "Ağstafa",
+   "wikidata": "Q275744",
+   "lon": 45.5404,
+   "lat": 41.196
+  },
+  {
+   "code": "AZ-AGC",
+   "name": "Ağcabədi",
+   "wikidata": "Q330818",
+   "lon": 47.37754,
+   "lat": 39.97781
+  },
+  {
+   "code": "AZ-AGM",
+   "name": "Ağdam",
+   "wikidata": "Q201647",
+   "lon": 46.90448,
+   "lat": 40.01187
+  },
+  {
+   "code": "AZ-AGS",
+   "name": "Ağdaş",
+   "wikidata": "Q275784",
+   "lon": 47.40777,
+   "lat": 40.54551
+  },
+  {
+   "code": "AZ-AGU",
+   "name": "Ağsu",
+   "wikidata": "Q330800",
+   "lon": 48.30979,
+   "lat": 40.53647
+  },
+  {
+   "code": "AZ-AST",
+   "name": "Astara",
+   "wikidata": "Q269680",
+   "lon": 48.71312,
+   "lat": 38.50491
+  },
+  {
+   "code": "AZ-BA",
+   "name": "Bakı",
+   "wikidata": "Q9248",
+   "lon": 49.42533,
+   "lat": 40.1182
+  },
+  {
+   "code": "AZ-BAB",
+   "name": "Babək",
+   "wikidata": "Q643895",
+   "lon": 45.34264,
+   "lat": 39.28223
+  },
+  {
+   "code": "AZ-BAL",
+   "name": "Balakən",
+   "wikidata": "Q330850",
+   "lon": 46.39917,
+   "lat": 41.7227
+  },
+  {
+   "code": "AZ-BAR",
+   "name": "Bərdə",
+   "wikidata": "Q330857",
+   "lon": 47.21522,
+   "lat": 40.35511
+  },
+  {
+   "code": "AZ-BEY",
+   "name": "Beyləqan",
+   "wikidata": "Q330807",
+   "lon": 47.62431,
+   "lat": 39.86343
+  },
+  {
+   "code": "AZ-BIL",
+   "name": "Biləsuvar",
+   "wikidata": "Q330834",
+   "lon": 48.46307,
+   "lat": 39.52826
+  },
+  {
+   "code": "AZ-CAB",
+   "name": "Cəbrayıl",
+   "wikidata": "Q457491",
+   "lon": 46.92785,
+   "lat": 39.31595
+  },
+  {
+   "code": "AZ-CAL",
+   "name": "Cəlilabad",
+   "wikidata": "Q372795",
+   "lon": 48.43907,
+   "lat": 39.19462
+  },
+  {
+   "code": "AZ-CUL",
+   "name": "Culfa",
+   "wikidata": "Q644035",
+   "lon": 45.66397,
+   "lat": 39.14845
+  },
+  {
+   "code": "AZ-DAS",
+   "name": "Daşkəsən",
+   "wikidata": "Q457494",
+   "lon": 45.99592,
+   "lat": 40.46528
+  },
+  {
+   "code": "AZ-FUZ",
+   "name": "Füzuli",
+   "wikidata": "Q331687",
+   "lon": 47.3455,
+   "lat": 39.55181
+  },
+  {
+   "code": "AZ-GA",
+   "name": "Gəncə",
+   "wikidata": "Q131290",
+   "lon": 46.35795,
+   "lat": 40.6795
+  },
+  {
+   "code": "AZ-GAD",
+   "name": "Gədəbəy",
+   "wikidata": "Q330749",
+   "lon": 45.67771,
+   "lat": 40.56178
+  },
+  {
+   "code": "AZ-GOR",
+   "name": "Goranboy",
+   "wikidata": "Q330843",
+   "lon": 46.69252,
+   "lat": 40.5776
+  },
+  {
+   "code": "AZ-GOY",
+   "name": "Göyçay",
+   "wikidata": "Q477163",
+   "lon": 47.80732,
+   "lat": 40.55594
+  },
+  {
+   "code": "AZ-GYG",
+   "name": "Xanlar",
+   "wikidata": "Q388087",
+   "lon": 46.34291,
+   "lat": 40.55211
+  },
+  {
+   "code": "AZ-HAC",
+   "name": "Hajigabul",
+   "wikidata": "Q476690",
+   "lon": 48.93408,
+   "lat": 40.08183
+  },
+  {
+   "code": "AZ-IMI",
+   "name": "İmişli",
+   "wikidata": "Q343908",
+   "lon": 47.98586,
+   "lat": 39.85294
+  },
+  {
+   "code": "AZ-ISM",
+   "name": "İsmayıllı",
+   "wikidata": "Q344252",
+   "lon": 48.15714,
+   "lat": 40.78291
+  },
+  {
+   "code": "AZ-KAL",
+   "name": "Kəlbəcər",
+   "wikidata": "Q457513",
+   "lon": 46.31835,
+   "lat": 40.05814
+  },
+  {
+   "code": "AZ-KAN",
+   "name": "Kangarli",
+   "wikidata": "Q734030",
+   "lon": 45.16757,
+   "lat": 39.44888
+  },
+  {
+   "code": "AZ-KUR",
+   "name": "Kürdəmir",
+   "wikidata": "Q688589",
+   "lon": 48.17842,
+   "lat": 40.28931
+  },
+  {
+   "code": "AZ-LA",
+   "name": "Lənkəran (District) (AZ-LA)",
+   "wikidata": "Q228811",
+   "lon": 48.75856,
+   "lat": 38.74173
+  },
+  {
+   "code": "AZ-LAN",
+   "name": "Lənkəran (District) (AZ-LAN)",
+   "wikidata": null,
+   "lon": 46.296,
+   "lat": 39.70107
+  },
+  {
+   "code": "AZ-LER",
+   "name": "Lerik",
+   "wikidata": "Q688626",
+   "lon": 48.45685,
+   "lat": 38.70591
+  },
+  {
+   "code": "AZ-MAS",
+   "name": "Masallı",
+   "wikidata": "Q476695",
+   "lon": 48.69916,
+   "lat": 38.9909
+  },
+  {
+   "code": "AZ-MI",
+   "name": "Mingəçevir",
+   "wikidata": "Q230932",
+   "lon": 46.9883,
+   "lat": 40.7572
+  },
+  {
+   "code": "AZ-NA",
+   "name": "Naftalan",
+   "wikidata": "Q21979624",
+   "lon": 46.82721,
+   "lat": 40.50863
+  },
+  {
+   "code": "AZ-NEF",
+   "name": "Neftçala",
+   "wikidata": "Q688633",
+   "lon": 48.99779,
+   "lat": 39.33952
+  },
+  {
+   "code": "AZ-NX",
+   "name": "Naxçıvan",
+   "wikidata": "Q230104",
+   "lon": 45.41721,
+   "lat": 39.21418
+  },
+  {
+   "code": "AZ-OGU",
+   "name": "Oğuz",
+   "wikidata": "Q643989",
+   "lon": 47.45976,
+   "lat": 41.03496
+  },
+  {
+   "code": "AZ-ORD",
+   "name": "Ordubad",
+   "wikidata": "Q512623",
+   "lon": 45.88186,
+   "lat": 39.07349
+  },
+  {
+   "code": "AZ-QAB",
+   "name": "Qəbələ",
+   "wikidata": "Q593872",
+   "lon": 47.78734,
+   "lat": 40.92584
+  },
+  {
+   "code": "AZ-QAX",
+   "name": "Qax",
+   "wikidata": "Q330796",
+   "lon": 46.751,
+   "lat": 41.24411
+  },
+  {
+   "code": "AZ-QAZ",
+   "name": "Qazax",
+   "wikidata": "Q389381",
+   "lon": 45.27218,
+   "lat": 41.17237
+  },
+  {
+   "code": "AZ-QBA",
+   "name": "Quba",
+   "wikidata": "Q457499",
+   "lon": 48.34568,
+   "lat": 41.19772
+  },
+  {
+   "code": "AZ-QBI",
+   "name": "Qubadli",
+   "wikidata": "Q644048",
+   "lon": 46.6222,
+   "lat": 39.30153
+  },
+  {
+   "code": "AZ-QOB",
+   "name": "Qobustan",
+   "wikidata": "Q457508",
+   "lon": 48.96784,
+   "lat": 40.52549
+  },
+  {
+   "code": "AZ-QUS",
+   "name": "Qusar",
+   "wikidata": "Q386506",
+   "lon": 48.24191,
+   "lat": 41.4394
+  },
+  {
+   "code": "AZ-SA",
+   "name": "Şəki",
+   "wikidata": "Q234783",
+   "lon": 47.0759,
+   "lat": 41.11851
+  },
+  {
+   "code": "AZ-SAB",
+   "name": "Sabirabad",
+   "wikidata": "Q382132",
+   "lon": 48.81258,
+   "lat": 39.86264
+  },
+  {
+   "code": "AZ-SAD",
+   "name": "Sədərək",
+   "wikidata": "Q641468",
+   "lon": 44.82623,
+   "lat": 39.6799
+  },
+  {
+   "code": "AZ-SAH",
+   "name": "Şahbuz",
+   "wikidata": "Q388081",
+   "lon": 45.58065,
+   "lat": 39.42858
+  },
+  {
+   "code": "AZ-SAL",
+   "name": "Salyan",
+   "wikidata": "Q457485",
+   "lon": 49.11571,
+   "lat": 39.63784
+  },
+  {
+   "code": "AZ-SAR",
+   "name": "Şərur",
+   "wikidata": "Q390820",
+   "lon": 45.02348,
+   "lat": 39.57981
+  },
+  {
+   "code": "AZ-SAT",
+   "name": "Saatlı",
+   "wikidata": "Q601105",
+   "lon": 48.45475,
+   "lat": 39.81114
+  },
+  {
+   "code": "AZ-SBN",
+   "name": "Dəvəçi",
+   "wikidata": "Q387994",
+   "lon": 48.79274,
+   "lat": 41.11602
+  },
+  {
+   "code": "AZ-SIY",
+   "name": "Siyəzən",
+   "wikidata": "Q820940",
+   "lon": 49.04772,
+   "lat": 41.02744
+  },
+  {
+   "code": "AZ-SKR",
+   "name": "Şəmkir",
+   "wikidata": "Q467491",
+   "lon": 45.99705,
+   "lat": 40.84349
+  },
+  {
+   "code": "AZ-SM",
+   "name": "Sumqayıt",
+   "wikidata": "Q179833",
+   "lon": 49.61347,
+   "lat": 40.60014
+  },
+  {
+   "code": "AZ-SMI",
+   "name": "Şamaxı",
+   "wikidata": "Q330839",
+   "lon": 48.56851,
+   "lat": 40.60301
+  },
+  {
+   "code": "AZ-SMX",
+   "name": "Samux",
+   "wikidata": "Q498437",
+   "lon": 46.39243,
+   "lat": 40.95106
+  },
+  {
+   "code": "AZ-SR",
+   "name": "Shirvan",
+   "wikidata": "Q241116",
+   "lon": 48.91516,
+   "lat": 39.94522
+  },
+  {
+   "code": "AZ-SUS",
+   "name": "Şuşa (District)",
+   "wikidata": "Q388960",
+   "lon": 46.66856,
+   "lat": 39.68057
+  },
+  {
+   "code": "AZ-TAR",
+   "name": "Tərtər",
+   "wikidata": "Q477168",
+   "lon": 46.78824,
+   "lat": 40.25227
+  },
+  {
+   "code": "AZ-TOV",
+   "name": "Tovuz",
+   "wikidata": "Q388980",
+   "lon": 45.65144,
+   "lat": 40.92047
+  },
+  {
+   "code": "AZ-UCA",
+   "name": "Ucar",
+   "wikidata": "Q476703",
+   "lon": 47.75031,
+   "lat": 40.40695
+  },
+  {
+   "code": "AZ-X01~",
+   "name": "Şuşa (Municipality)",
+   "wikidata": "Q388960",
+   "lon": 46.75319,
+   "lat": 39.75916
+  },
+  {
+   "code": "AZ-XA",
+   "name": "Stepanakert",
+   "wikidata": "Q129352",
+   "lon": 46.76747,
+   "lat": 39.8343
+  },
+  {
+   "code": "AZ-XAC",
+   "name": "Xaçmaz",
+   "wikidata": "Q6398826",
+   "lon": 48.70161,
+   "lat": 41.59528
+  },
+  {
+   "code": "AZ-XCI",
+   "name": "Xocalı",
+   "wikidata": "Q330790",
+   "lon": 46.63222,
+   "lat": 39.8219
+  },
+  {
+   "code": "AZ-XIZ",
+   "name": "Xizı",
+   "wikidata": "Q476708",
+   "lon": 49.20233,
+   "lat": 40.73875
+  },
+  {
+   "code": "AZ-XVD",
+   "name": "Xocavənd",
+   "wikidata": "Q330813",
+   "lon": 46.94528,
+   "lat": 39.63241
+  },
+  {
+   "code": "AZ-YAR",
+   "name": "Yardımlı",
+   "wikidata": "Q127255",
+   "lon": 48.20267,
+   "lat": 38.87065
+  },
+  {
+   "code": "AZ-YEV:Yevlakh",
+   "name": "Yevlakh",
+   "wikidata": "Q175459",
+   "lon": 47.14073,
+   "lat": 40.60216
+  },
+  {
+   "code": "AZ-YEV:Yevlakh Rayon",
+   "name": "Yevlakh Rayon",
+   "wikidata": "Q458524",
+   "lon": 47.02152,
+   "lat": 40.6956
+  },
+  {
+   "code": "AZ-ZAN",
+   "name": "Zəngilan",
+   "wikidata": "Q249252",
+   "lon": 46.62636,
+   "lat": 39.06206
+  },
+  {
+   "code": "AZ-ZAQ",
+   "name": "Zaqatala",
+   "wikidata": "Q147553",
+   "lon": 46.73872,
+   "lat": 41.59672
+  },
+  {
+   "code": "AZ-ZAR",
+   "name": "Zərdab",
+   "wikidata": "Q249293",
+   "lon": 47.71349,
+   "lat": 40.24466
+  }
+ ],
+ "edges": [
+  {
+   "u": "AZ-ABS",
+   "v": "AZ-BA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 139936
+  },
+  {
+   "u": "AZ-ABS",
+   "v": "AZ-HAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61750,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Absheron_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Absheron_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-ABS",
+   "v": "AZ-QOB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 46221
+  },
+  {
+   "u": "AZ-ABS",
+   "v": "AZ-SM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 22798
+  },
+  {
+   "u": "AZ-ABS",
+   "v": "AZ-XIZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26434
+  },
+  {
+   "u": "AZ-AGA",
+   "v": "AZ-QAZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 55610
+  },
+  {
+   "u": "AZ-AGA",
+   "v": "AZ-TOV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 49051
+  },
+  {
+   "u": "AZ-AGC",
+   "v": "AZ-AGM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 61295
+  },
+  {
+   "u": "AZ-AGC",
+   "v": "AZ-BAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28294
+  },
+  {
+   "u": "AZ-AGC",
+   "v": "AZ-BEY",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62321
+  },
+  {
+   "u": "AZ-AGC",
+   "v": "AZ-FUZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13661,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Ağcabədi_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AGC",
+   "v": "AZ-XVD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20111,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Ağcabədi_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AGC",
+   "v": "AZ-ZAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 36265
+  },
+  {
+   "u": "AZ-AGM",
+   "v": "AZ-BAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12168
+  },
+  {
+   "u": "AZ-AGM",
+   "v": "AZ-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 5818
+  },
+  {
+   "u": "AZ-AGM",
+   "v": "AZ-TAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45681
+  },
+  {
+   "u": "AZ-AGM",
+   "v": "AZ-XCI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 38984
+  },
+  {
+   "u": "AZ-AGM",
+   "v": "AZ-XVD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 42006
+  },
+  {
+   "u": "AZ-AGS",
+   "v": "AZ-BAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 56908
+  },
+  {
+   "u": "AZ-AGS",
+   "v": "AZ-GOY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14165,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Ağdaş_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Agdash_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AGS",
+   "v": "AZ-QAB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15950,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Ağdaş_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AGS",
+   "v": "AZ-SA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23154
+  },
+  {
+   "u": "AZ-AGS",
+   "v": "AZ-UCA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25697,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Ağdaş_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AGS",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26365,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Agdash_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Agdash_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AGS",
+   "v": "AZ-ZAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12550
+  },
+  {
+   "u": "AZ-AGU",
+   "v": "AZ-HAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6607
+  },
+  {
+   "u": "AZ-AGU",
+   "v": "AZ-ISM",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 45488
+  },
+  {
+   "u": "AZ-AGU",
+   "v": "AZ-KUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 56187,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Ağsu_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Agsu_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AGU",
+   "v": "AZ-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 75446
+  },
+  {
+   "u": "AZ-AST",
+   "v": "AZ-LA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15106,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Astara_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-AST",
+   "v": "AZ-LER",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 20992,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Astara_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Astara_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-BA",
+   "v": "AZ-HAC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16994
+  },
+  {
+   "u": "AZ-BA",
+   "v": "AZ-SAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16461
+  },
+  {
+   "u": "AZ-BA",
+   "v": "AZ-SM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 4002,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Sumqayıt"
+    }
+   ]
+  },
+  {
+   "u": "AZ-BAB",
+   "v": "AZ-CUL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35752
+  },
+  {
+   "u": "AZ-BAB",
+   "v": "AZ-KAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 43096
+  },
+  {
+   "u": "AZ-BAB",
+   "v": "AZ-NX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34809,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Babək_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-BAB",
+   "v": "AZ-SAH",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34679
+  },
+  {
+   "u": "AZ-BAL",
+   "v": "AZ-ZAQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53109
+  },
+  {
+   "u": "AZ-BAR",
+   "v": "AZ-TAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31807
+  },
+  {
+   "u": "AZ-BAR",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28505
+  },
+  {
+   "u": "AZ-BAR",
+   "v": "AZ-ZAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12634
+  },
+  {
+   "u": "AZ-BEY",
+   "v": "AZ-FUZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24863,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Beyləqan_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-BEY",
+   "v": "AZ-IMI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 69054
+  },
+  {
+   "u": "AZ-BEY",
+   "v": "AZ-ZAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6876
+  },
+  {
+   "u": "AZ-BIL",
+   "v": "AZ-CAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 62116
+  },
+  {
+   "u": "AZ-BIL",
+   "v": "AZ-IMI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44504
+  },
+  {
+   "u": "AZ-BIL",
+   "v": "AZ-SAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16737,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Biləsuvar_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Bilasuvar_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-BIL",
+   "v": "AZ-SAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23394
+  },
+  {
+   "u": "AZ-BIL",
+   "v": "AZ-SAT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 22472,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Biləsuvar_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Bilasuvar_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-CAB",
+   "v": "AZ-FUZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23225,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jabrayil_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-CAB",
+   "v": "AZ-QBI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26028,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jabrayil_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-CAB",
+   "v": "AZ-XVD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 49730
+  },
+  {
+   "u": "AZ-CAB",
+   "v": "AZ-ZAN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8053,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jabrayil_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-CAL",
+   "v": "AZ-MAS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 35750,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Cəlilabad_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-CAL",
+   "v": "AZ-NEF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31166
+  },
+  {
+   "u": "AZ-CAL",
+   "v": "AZ-YAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 17412,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Cəlilabad_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-CUL",
+   "v": "AZ-NX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8753,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Culfa_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-CUL",
+   "v": "AZ-ORD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47028
+  },
+  {
+   "u": "AZ-CUL",
+   "v": "AZ-SAH",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23202
+  },
+  {
+   "u": "AZ-DAS",
+   "v": "AZ-GAD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33734
+  },
+  {
+   "u": "AZ-DAS",
+   "v": "AZ-GYG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 50137
+  },
+  {
+   "u": "AZ-DAS",
+   "v": "AZ-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 26557
+  },
+  {
+   "u": "AZ-DAS",
+   "v": "AZ-SKR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20509
+  },
+  {
+   "u": "AZ-FUZ",
+   "v": "AZ-XVD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 67210
+  },
+  {
+   "u": "AZ-GA",
+   "v": "AZ-GYG",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 24140
+  },
+  {
+   "u": "AZ-GA",
+   "v": "AZ-SMX",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8877
+  },
+  {
+   "u": "AZ-GAD",
+   "v": "AZ-SKR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 35529
+  },
+  {
+   "u": "AZ-GAD",
+   "v": "AZ-TOV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 53601
+  },
+  {
+   "u": "AZ-GOR",
+   "v": "AZ-GYG",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 51469
+  },
+  {
+   "u": "AZ-GOR",
+   "v": "AZ-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 20130
+  },
+  {
+   "u": "AZ-GOR",
+   "v": "AZ-NA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 7877,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "AZ-GOR",
+   "v": "AZ-SMX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 32463
+  },
+  {
+   "u": "AZ-GOR",
+   "v": "AZ-TAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 39426
+  },
+  {
+   "u": "AZ-GOR",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 68956
+  },
+  {
+   "u": "AZ-GOY",
+   "v": "AZ-ISM",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38578
+  },
+  {
+   "u": "AZ-GOY",
+   "v": "AZ-KUR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10042,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Göyçay_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Goychay_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-GOY",
+   "v": "AZ-QAB",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 13017
+  },
+  {
+   "u": "AZ-GOY",
+   "v": "AZ-UCA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38945,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Göyçay_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-GYG",
+   "v": "AZ-KAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14281
+  },
+  {
+   "u": "AZ-GYG",
+   "v": "AZ-SKR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29958
+  },
+  {
+   "u": "AZ-GYG",
+   "v": "AZ-SMX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18154
+  },
+  {
+   "u": "AZ-HAC",
+   "v": "AZ-KUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16107,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hajigabul_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Hajigabul_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-HAC",
+   "v": "AZ-QOB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 9419
+  },
+  {
+   "u": "AZ-HAC",
+   "v": "AZ-SAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 44501
+  },
+  {
+   "u": "AZ-HAC",
+   "v": "AZ-SAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 40707,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hajigabul_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Hajigabul_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-HAC",
+   "v": "AZ-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29684,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Shamakhi_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-HAC",
+   "v": "AZ-SR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15404
+  },
+  {
+   "u": "AZ-IMI",
+   "v": "AZ-KUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57482
+  },
+  {
+   "u": "AZ-IMI",
+   "v": "AZ-SAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 10271
+  },
+  {
+   "u": "AZ-IMI",
+   "v": "AZ-SAT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48852
+  },
+  {
+   "u": "AZ-IMI",
+   "v": "AZ-ZAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6640
+  },
+  {
+   "u": "AZ-ISM",
+   "v": "AZ-KUR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 7224
+  },
+  {
+   "u": "AZ-ISM",
+   "v": "AZ-QAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57834
+  },
+  {
+   "u": "AZ-ISM",
+   "v": "AZ-QBA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 33627,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ismayilli_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-ISM",
+   "v": "AZ-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 21575
+  },
+  {
+   "u": "AZ-KAL",
+   "v": "AZ-LAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 57965
+  },
+  {
+   "u": "AZ-KAL",
+   "v": "AZ-TAR",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47702,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Kəlbəcər_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-KAL",
+   "v": "AZ-XCI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25142
+  },
+  {
+   "u": "AZ-KAN",
+   "v": "AZ-SAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23025
+  },
+  {
+   "u": "AZ-KUR",
+   "v": "AZ-SAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16512
+  },
+  {
+   "u": "AZ-KUR",
+   "v": "AZ-UCA",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15608
+  },
+  {
+   "u": "AZ-KUR",
+   "v": "AZ-ZAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27405
+  },
+  {
+   "u": "AZ-LA",
+   "v": "AZ-LER",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 39319
+  },
+  {
+   "u": "AZ-LA",
+   "v": "AZ-MAS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54690,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lankaran_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-LA",
+   "v": "AZ-NEF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 44498,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lankaran_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-LAN",
+   "v": "AZ-QBI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 16207
+  },
+  {
+   "u": "AZ-LAN",
+   "v": "AZ-SUS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 41837
+  },
+  {
+   "u": "AZ-LAN",
+   "v": "AZ-XCI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 25186
+  },
+  {
+   "u": "AZ-LAN",
+   "v": "AZ-XVD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18227
+  },
+  {
+   "u": "AZ-LER",
+   "v": "AZ-MAS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9237
+  },
+  {
+   "u": "AZ-LER",
+   "v": "AZ-YAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 38911,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Lerik_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-MAS",
+   "v": "AZ-NEF",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10308,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Masallı_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Neftchala_Rayon"
+    }
+   ]
+  },
+  {
+   "u": "AZ-MAS",
+   "v": "AZ-YAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9199
+  },
+  {
+   "u": "AZ-MI",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 26598,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "AZ-NEF",
+   "v": "AZ-SAL",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 65596,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Neftçala_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Neftchala_Rayon"
+    }
+   ]
+  },
+  {
+   "u": "AZ-OGU",
+   "v": "AZ-QAB",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48174,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Oğuz_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-OGU",
+   "v": "AZ-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 66896,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Oğuz_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QAB",
+   "v": "AZ-QBA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 14648,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Qəbələ_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QAB",
+   "v": "AZ-QUS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11050,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Qəbələ_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QAB",
+   "v": "AZ-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 6115
+  },
+  {
+   "u": "AZ-QAX",
+   "v": "AZ-SA",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83710
+  },
+  {
+   "u": "AZ-QAX",
+   "v": "AZ-SMX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 23016,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Qax_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QAX",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 15667,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Qakh_District"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Qakh_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QAX",
+   "v": "AZ-ZAQ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 47494
+  },
+  {
+   "u": "AZ-QBA",
+   "v": "AZ-QUS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 65628
+  },
+  {
+   "u": "AZ-QBA",
+   "v": "AZ-SBN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 58585,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Şabran_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QBA",
+   "v": "AZ-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 25472,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Shamakhi_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QBA",
+   "v": "AZ-XAC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 23466,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Xaçmaz_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QBI",
+   "v": "AZ-XVD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 17302,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Qubadlı_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QBI",
+   "v": "AZ-ZAN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 31618
+  },
+  {
+   "u": "AZ-QOB",
+   "v": "AZ-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 62148
+  },
+  {
+   "u": "AZ-QOB",
+   "v": "AZ-XIZ",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48840,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Xızı_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-QUS",
+   "v": "AZ-XAC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 34587,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Qusar_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-SA",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 31207,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Shaki_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-SAB",
+   "v": "AZ-SAL",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 52838
+  },
+  {
+   "u": "AZ-SAB",
+   "v": "AZ-SAT",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 83034
+  },
+  {
+   "u": "AZ-SAB",
+   "v": "AZ-SR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 10001,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Sabirabad_rayonu"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Sabirabad_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-SAD",
+   "v": "AZ-SAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 16943
+  },
+  {
+   "u": "AZ-SAL",
+   "v": "AZ-SR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 2393,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Salyan_District_(Azerbaijan)"
+    },
+    {
+     "source": "review",
+     "url": "https://en.wikipedia.org/wiki/Salyan_District,_Azerbaijan"
+    }
+   ]
+  },
+  {
+   "u": "AZ-SBN",
+   "v": "AZ-SIY",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 58170
+  },
+  {
+   "u": "AZ-SBN",
+   "v": "AZ-SMI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 9667
+  },
+  {
+   "u": "AZ-SBN",
+   "v": "AZ-XAC",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 28816
+  },
+  {
+   "u": "AZ-SBN",
+   "v": "AZ-XIZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6761
+  },
+  {
+   "u": "AZ-SIY",
+   "v": "AZ-XIZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 54413
+  },
+  {
+   "u": "AZ-SKR",
+   "v": "AZ-SMX",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 37443
+  },
+  {
+   "u": "AZ-SKR",
+   "v": "AZ-TOV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 60178
+  },
+  {
+   "u": "AZ-SM",
+   "v": "AZ-XIZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 5868
+  },
+  {
+   "u": "AZ-SMI",
+   "v": "AZ-XIZ",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11491,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://az.wikipedia.org/wiki/Xızı_rayonu"
+    }
+   ]
+  },
+  {
+   "u": "AZ-SMX",
+   "v": "AZ-TOV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 11131
+  },
+  {
+   "u": "AZ-SUS",
+   "v": "AZ-X01~",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 6874
+  },
+  {
+   "u": "AZ-SUS",
+   "v": "AZ-XCI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 29157
+  },
+  {
+   "u": "AZ-SUS",
+   "v": "AZ-XVD",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8725
+  },
+  {
+   "u": "AZ-TAR",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8268,
+   "prior_evidence": [
+    {
+     "source": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tartar_District"
+    }
+   ]
+  },
+  {
+   "u": "AZ-UCA",
+   "v": "AZ-ZAR",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 39815
+  },
+  {
+   "u": "AZ-X01~",
+   "v": "AZ-XCI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3587
+  },
+  {
+   "u": "AZ-XA",
+   "v": "AZ-XCI",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 19145,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  },
+  {
+   "u": "AZ-XCI",
+   "v": "AZ-XVD",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 29391
+  },
+  {
+   "u": "AZ-YEV:Yevlakh",
+   "v": "AZ-YEV:Yevlakh Rayon",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 27700,
+   "prior_evidence": [
+    {
+     "source": "geometry_enclave"
+    }
+   ]
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "AZE-ADM2-54616110",
+  "level": "ADM2",
+  "year": "2020",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 Unported"
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "SG",
+ "kind": "country",
+ "name": "Singapore",
+ "level": "districts",
+ "n": 5,
+ "m": 6,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "SG-01",
+   "name": "Central Singapore",
+   "wikidata": "Q2544592",
+   "lon": 103.84903,
+   "lat": 1.34689
+  },
+  {
+   "code": "SG-02",
+   "name": "North East",
+   "wikidata": "Q3710534",
+   "lon": 103.93095,
+   "lat": 1.38476
+  },
+  {
+   "code": "SG-03",
+   "name": "North West",
+   "wikidata": "Q5784118",
+   "lon": 103.80014,
+   "lat": 1.38799
+  },
+  {
+   "code": "SG-04",
+   "name": "South East",
+   "wikidata": "Q1687545",
+   "lon": 103.93013,
+   "lat": 1.34819
+  },
+  {
+   "code": "SG-05",
+   "name": "South West",
+   "wikidata": "Q5784126",
+   "lon": 103.71759,
+   "lat": 1.34948
+  }
+ ],
+ "edges": [
+  {
+   "u": "SG-01",
+   "v": "SG-02",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 3182
+  },
+  {
+   "u": "SG-01",
+   "v": "SG-03",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 18166
+  },
+  {
+   "u": "SG-01",
+   "v": "SG-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 11227
+  },
+  {
+   "u": "SG-01",
+   "v": "SG-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 8405
+  },
+  {
+   "u": "SG-02",
+   "v": "SG-04",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 12100
+  },
+  {
+   "u": "SG-03",
+   "v": "SG-05",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    }
+   ],
+   "corroborated": false,
+   "ne_border_m": 14966
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "SGP-ADM1-49756563",
+  "level": "ADM1",
+  "year": "2016",
+  "license": "Open Data Commons Open Database License 1.0"
+ }
+}

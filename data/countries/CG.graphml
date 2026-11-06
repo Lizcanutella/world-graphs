@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="CG" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="CG-11"><data key="name">Bouenza</data><data key="code">CG-11</data><data key="wikidata">Q827015</data><data key="lon">13.51293</data><data key="lat">-4.11215</data></node>
+    <node id="CG-12"><data key="name">Pool</data><data key="code">CG-12</data><data key="wikidata">Q864647</data><data key="lon">14.70586</data><data key="lat">-3.81276</data></node>
+    <node id="CG-13"><data key="name">Sangha</data><data key="code">CG-13</data><data key="wikidata">Q775410</data><data key="lon">15.61446</data><data key="lat">1.38397</data></node>
+    <node id="CG-14"><data key="name">Plateaux</data><data key="code">CG-14</data><data key="wikidata">Q765370</data><data key="lon">15.4322</data><data key="lat">-2.01024</data></node>
+    <node id="CG-15"><data key="name">Cuvette-Ouest</data><data key="code">CG-15</data><data key="wikidata">Q125711</data><data key="lon">14.55181</data><data key="lat">0.09547</data></node>
+    <node id="CG-16"><data key="name">Pointe Noire</data><data key="code">CG-16</data><data key="wikidata">Q7208306</data><data key="lon">11.8781</data><data key="lat">-4.82613</data></node>
+    <node id="CG-2"><data key="name">Lékoumou</data><data key="code">CG-2</data><data key="wikidata">Q862753</data><data key="lon">13.63341</data><data key="lat">-3.06715</data></node>
+    <node id="CG-5"><data key="name">Kouilou</data><data key="code">CG-5</data><data key="wikidata">Q855327</data><data key="lon">11.99795</data><data key="lat">-4.26061</data></node>
+    <node id="CG-7"><data key="name">Likouala</data><data key="code">CG-7</data><data key="wikidata">Q863554</data><data key="lon">17.36901</data><data key="lat">1.47942</data></node>
+    <node id="CG-8"><data key="name">Cuvette</data><data key="code">CG-8</data><data key="wikidata">Q780884</data><data key="lon">16.32262</data><data key="lat">-0.7906</data></node>
+    <node id="CG-9"><data key="name">Niari</data><data key="code">CG-9</data><data key="wikidata">Q969317</data><data key="lon">12.30749</data><data key="lat">-3.34762</data></node>
+    <node id="CG-BZV"><data key="name">Brazzaville</data><data key="code">CG-BZV</data><data key="wikidata">Q3844</data><data key="lon">15.44591</data><data key="lat">-3.98224</data></node>
+    <edge source="CG-11" target="CG-12"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-11" target="CG-2"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-11" target="CG-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-12" target="CG-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-12" target="CG-2"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-12" target="CG-BZV"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-13" target="CG-15"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-13" target="CG-7"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-13" target="CG-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-14" target="CG-2"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-14" target="CG-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-15" target="CG-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-16" target="CG-5"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-2" target="CG-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-5" target="CG-9"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="CG-7" target="CG-8"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

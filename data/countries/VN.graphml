@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="VN" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="VN-01"><data key="name">Lai Chau</data><data key="code">VN-01</data><data key="wikidata">Q36409</data><data key="lon">103.29613</data><data key="lat">22.33816</data></node>
+    <node id="VN-02"><data key="name">Lào Cai</data><data key="code">VN-02</data><data key="wikidata">Q36446</data><data key="lon">104.17934</data><data key="lat">22.27748</data></node>
+    <node id="VN-03"><data key="name">Hà Giang</data><data key="code">VN-03</data><data key="wikidata">Q36685</data><data key="lon">104.96595</data><data key="lat">22.76984</data></node>
+    <node id="VN-04"><data key="name">Cao Bằng</data><data key="code">VN-04</data><data key="wikidata">Q36865</data><data key="lon">106.11417</data><data key="lat">22.73733</data></node>
+    <node id="VN-05"><data key="name">Son La</data><data key="code">VN-05</data><data key="wikidata">Q33379</data><data key="lon">104.12998</data><data key="lat">21.31547</data></node>
+    <node id="VN-06"><data key="name">Yên Bái</data><data key="code">VN-06</data><data key="wikidata">Q36349</data><data key="lon">104.52354</data><data key="lat">21.80022</data></node>
+    <node id="VN-07"><data key="name">Tuyên Quang</data><data key="code">VN-07</data><data key="wikidata">Q2332060</data><data key="lon">105.20582</data><data key="lat">22.06669</data></node>
+    <node id="VN-09"><data key="name">Lạng Sơn</data><data key="code">VN-09</data><data key="wikidata">Q33403</data><data key="lon">106.56884</data><data key="lat">21.90552</data></node>
+    <node id="VN-13"><data key="name">Quảng Ninh</data><data key="code">VN-13</data><data key="wikidata">Q33396</data><data key="lon">107.17916</data><data key="lat">21.26999</data></node>
+    <node id="VN-14"><data key="name">Hòa Bình</data><data key="code">VN-14</data><data key="wikidata">Q36015</data><data key="lon">105.24424</data><data key="lat">20.70704</data></node>
+    <node id="VN-18"><data key="name">Ninh Bình</data><data key="code">VN-18</data><data key="wikidata">Q36900</data><data key="lon">105.95503</data><data key="lat">20.20059</data></node>
+    <node id="VN-20"><data key="name">Thái Bình</data><data key="code">VN-20</data><data key="wikidata">Q36681</data><data key="lon">106.38346</data><data key="lat">20.49345</data></node>
+    <node id="VN-21"><data key="name">Thanh Hóa</data><data key="code">VN-21</data><data key="wikidata">Q36512</data><data key="lon">105.51324</data><data key="lat">19.95562</data></node>
+    <node id="VN-22"><data key="name">Nghệ An</data><data key="code">VN-22</data><data key="wikidata">Q36587</data><data key="lon">104.84151</data><data key="lat">19.28409</data></node>
+    <node id="VN-23"><data key="name">Ha Tinh</data><data key="code">VN-23</data><data key="wikidata">Q33351</data><data key="lon">105.59923</data><data key="lat">18.33645</data></node>
+    <node id="VN-24"><data key="name">Quảng Bình</data><data key="code">VN-24</data><data key="wikidata">Q23533</data><data key="lon">106.27038</data><data key="lat">17.50627</data></node>
+    <node id="VN-25"><data key="name">Quảng Trị</data><data key="code">VN-25</data><data key="wikidata">Q36579</data><data key="lon">106.96058</data><data key="lat">16.71221</data></node>
+    <node id="VN-26"><data key="name">Thừa Thiên - Huế</data><data key="code">VN-26</data><data key="wikidata">Q36399</data><data key="lon">107.44358</data><data key="lat">16.38331</data></node>
+    <node id="VN-27"><data key="name">Quàng Nam</data><data key="code">VN-27</data><data key="wikidata">Q33356</data><data key="lon">107.99131</data><data key="lat">15.5235</data></node>
+    <node id="VN-28"><data key="name">Kon Tum</data><data key="code">VN-28</data><data key="wikidata">Q36315</data><data key="lon">108.06903</data><data key="lat">14.66539</data></node>
+    <node id="VN-29"><data key="name">Quảng Ngãi</data><data key="code">VN-29</data><data key="wikidata">Q33304</data><data key="lon">108.62165</data><data key="lat">15.03026</data></node>
+    <node id="VN-30"><data key="name">Gia Lai</data><data key="code">VN-30</data><data key="wikidata">Q36662</data><data key="lon">108.10858</data><data key="lat">13.81471</data></node>
+    <node id="VN-31"><data key="name">Bình Định</data><data key="code">VN-31</data><data key="wikidata">Q36693</data><data key="lon">108.93054</data><data key="lat">14.11451</data></node>
+    <node id="VN-32"><data key="name">Phú Yên</data><data key="code">VN-32</data><data key="wikidata">Q36725</data><data key="lon">109.09181</data><data key="lat">13.22707</data></node>
+    <node id="VN-33"><data key="name">Đắk Lắk</data><data key="code">VN-33</data><data key="wikidata">Q36690</data><data key="lon">108.27493</data><data key="lat">12.76305</data></node>
+    <node id="VN-34"><data key="name">Khánh Hòa</data><data key="code">VN-34</data><data key="wikidata">Q33369</data><data key="lon">108.95184</data><data key="lat">12.3181</data></node>
+    <node id="VN-35"><data key="name">Lâm Đồng</data><data key="code">VN-35</data><data key="wikidata">Q36721</data><data key="lon">108.07691</data><data key="lat">11.75338</data></node>
+    <node id="VN-36"><data key="name">Ninh Thuận</data><data key="code">VN-36</data><data key="wikidata">Q36903</data><data key="lon">108.95816</data><data key="lat">11.74725</data></node>
+    <node id="VN-37"><data key="name">Tây Ninh</data><data key="code">VN-37</data><data key="wikidata">Q36608</data><data key="lon">106.10392</data><data key="lat">11.37154</data></node>
+    <node id="VN-39"><data key="name">Đông Nam Bộ</data><data key="code">VN-39</data><data key="wikidata">Q33271</data><data key="lon">107.20383</data><data key="lat">11.07106</data></node>
+    <node id="VN-40"><data key="name">Bình Thuận</data><data key="code">VN-40</data><data key="wikidata">Q36869</data><data key="lon">107.96629</data><data key="lat">11.07107</data></node>
+    <node id="VN-41"><data key="name">Long An</data><data key="code">VN-41</data><data key="wikidata">Q26573</data><data key="lon">106.13159</data><data key="lat">10.71652</data></node>
+    <node id="VN-43"><data key="name">Bà Rịa - Vũng Tàu</data><data key="code">VN-43</data><data key="wikidata">Q36874</data><data key="lon">107.30795</data><data key="lat">10.5905</data></node>
+    <node id="VN-44"><data key="name">An Giang</data><data key="code">VN-44</data><data key="wikidata">Q36592</data><data key="lon">105.16191</data><data key="lat">10.57146</data></node>
+    <node id="VN-45"><data key="name">Ðong Tháp</data><data key="code">VN-45</data><data key="wikidata">Q36676</data><data key="lon">105.60277</data><data key="lat">10.64275</data></node>
+    <node id="VN-46"><data key="name">Tiền Giang</data><data key="code">VN-46</data><data key="wikidata">Q36666</data><data key="lon">106.1764</data><data key="lat">10.4347</data></node>
+    <node id="VN-47"><data key="name">Kiên Giang</data><data key="code">VN-47</data><data key="wikidata">Q36576</data><data key="lon">105.30528</data><data key="lat">9.96341</data></node>
+    <node id="VN-49"><data key="name">Vĩnh Long</data><data key="code">VN-49</data><data key="wikidata">Q7333405</data><data key="lon">105.98561</data><data key="lat">10.08887</data></node>
+    <node id="VN-50"><data key="name">Bến Tre</data><data key="code">VN-50</data><data key="wikidata">Q33366</data><data key="lon">106.57367</data><data key="lat">10.07945</data></node>
+    <node id="VN-51"><data key="name">Trà Vinh</data><data key="code">VN-51</data><data key="wikidata">Q36615</data><data key="lon">106.28089</data><data key="lat">9.81916</data></node>
+    <node id="VN-52"><data key="name">Sóc Trăng</data><data key="code">VN-52</data><data key="wikidata">Q33272</data><data key="lon">105.87224</data><data key="lat">9.57579</data></node>
+    <node id="VN-53"><data key="name">Đông Bắc</data><data key="code">VN-53</data><data key="wikidata">Q36404</data><data key="lon">105.87647</data><data key="lat">22.25603</data></node>
+    <node id="VN-54"><data key="name">Bắc Giang</data><data key="code">VN-54</data><data key="wikidata">Q36367</data><data key="lon">106.48733</data><data key="lat">21.38031</data></node>
+    <node id="VN-55"><data key="name">Bạc Liêu</data><data key="code">VN-55</data><data key="wikidata">Q36658</data><data key="lon">105.58066</data><data key="lat">9.3088</data></node>
+    <node id="VN-56"><data key="name">Bắc Ninh</data><data key="code">VN-56</data><data key="wikidata">Q33408</data><data key="lon">106.1181</data><data key="lat">21.11818</data></node>
+    <node id="VN-57"><data key="name">Bình Dương</data><data key="code">VN-57</data><data key="wikidata">Q36866</data><data key="lon">106.65521</data><data key="lat">11.2137</data></node>
+    <node id="VN-58"><data key="name">Bình Phước</data><data key="code">VN-58</data><data key="wikidata">Q36672</data><data key="lon">106.90682</data><data key="lat">11.79334</data></node>
+    <node id="VN-59"><data key="name">Cà Mau</data><data key="code">VN-59</data><data key="wikidata">Q33354</data><data key="lon">105.10621</data><data key="lat">9.0519</data></node>
+    <node id="VN-61"><data key="name">Hải Dương</data><data key="code">VN-61</data><data key="wikidata">Q36729</data><data key="lon">106.37255</data><data key="lat">20.96864</data></node>
+    <node id="VN-63"><data key="name">Hà Nam</data><data key="code">VN-63</data><data key="wikidata">Q36413</data><data key="lon">105.98813</data><data key="lat">20.51824</data></node>
+    <node id="VN-66"><data key="name">Đồng Bằng Sông Hồng</data><data key="code">VN-66</data><data key="wikidata">Q36235</data><data key="lon">106.02484</data><data key="lat">20.80547</data></node>
+    <node id="VN-67"><data key="name">Nam Định</data><data key="code">VN-67</data><data key="wikidata">Q36907</data><data key="lon">106.35314</data><data key="lat">20.22784</data></node>
+    <node id="VN-68"><data key="name">Phú Thọ</data><data key="code">VN-68</data><data key="wikidata">Q36610</data><data key="lon">105.11103</data><data key="lat">21.31033</data></node>
+    <node id="VN-69"><data key="name">Thái Nguyên</data><data key="code">VN-69</data><data key="wikidata">Q26575</data><data key="lon">105.88731</data><data key="lat">21.68105</data></node>
+    <node id="VN-70"><data key="name">Vĩnh Phúc</data><data key="code">VN-70</data><data key="wikidata">Q27566</data><data key="lon">105.61194</data><data key="lat">21.32599</data></node>
+    <node id="VN-71"><data key="name">Điện Biên</data><data key="code">VN-71</data><data key="wikidata">Q36955</data><data key="lon">103.26404</data><data key="lat">21.69258</data></node>
+    <node id="VN-72"><data key="name">Đắk Nông</data><data key="code">VN-72</data><data key="wikidata">Q36723</data><data key="lon">107.66314</data><data key="lat">12.23662</data></node>
+    <node id="VN-73"><data key="name">Hau Giang</data><data key="code">VN-73</data><data key="wikidata">Q36320</data><data key="lon">105.69162</data><data key="lat">9.84598</data></node>
+    <node id="VN-CT"><data key="name">Can Tho</data><data key="code">VN-CT</data><data key="wikidata">Q216075</data><data key="lon">105.63887</data><data key="lat">10.24494</data></node>
+    <node id="VN-DN"><data key="name">Đà Nẵng</data><data key="code">VN-DN</data><data key="wikidata">Q25282</data><data key="lon">108.02003</data><data key="lat">16.09577</data></node>
+    <node id="VN-HN"><data key="name">Ha Noi</data><data key="code">VN-HN</data><data key="wikidata">Q1858</data><data key="lon">105.71756</data><data key="lat">20.96841</data></node>
+    <node id="VN-HP"><data key="name">Hải Phòng</data><data key="code">VN-HP</data><data key="wikidata">Q72818</data><data key="lon">106.63788</data><data key="lat">20.81127</data></node>
+    <node id="VN-SG"><data key="name">Hồ Chí Minh city</data><data key="code">VN-SG</data><data key="wikidata">Q1854</data><data key="lon">106.70273</data><data key="lat">10.79973</data></node>
+    <edge source="VN-01" target="VN-02"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-01" target="VN-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-01" target="VN-71"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-02" target="VN-03"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-02" target="VN-05"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="VN-02" target="VN-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-03" target="VN-04"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-03" target="VN-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-03" target="VN-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-04" target="VN-07"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="VN-04" target="VN-09"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-04" target="VN-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-05" target="VN-06"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-05" target="VN-14"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-05" target="VN-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-05" target="VN-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-05" target="VN-71"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-06" target="VN-07"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-06" target="VN-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-07" target="VN-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-07" target="VN-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-07" target="VN-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-07" target="VN-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-09" target="VN-13"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-09" target="VN-53"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-09" target="VN-54"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-09" target="VN-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-13" target="VN-54"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-13" target="VN-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-13" target="VN-HP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-14" target="VN-18"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-14" target="VN-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-14" target="VN-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-14" target="VN-68"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-14" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-18" target="VN-21"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-18" target="VN-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-18" target="VN-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-20" target="VN-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-20" target="VN-63"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-20" target="VN-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-20" target="VN-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-20" target="VN-HP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-21" target="VN-22"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-22" target="VN-23"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-23" target="VN-24"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-24" target="VN-25"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-25" target="VN-26"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-26" target="VN-27"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-26" target="VN-DN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-27" target="VN-28"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-27" target="VN-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-27" target="VN-DN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-28" target="VN-29"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-28" target="VN-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-29" target="VN-30"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-29" target="VN-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-30" target="VN-31"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-30" target="VN-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-30" target="VN-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-31" target="VN-32"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-32" target="VN-33"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-32" target="VN-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-33" target="VN-34"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-33" target="VN-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-33" target="VN-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-34" target="VN-35"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-34" target="VN-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-35" target="VN-36"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-35" target="VN-39"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-35" target="VN-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-35" target="VN-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-35" target="VN-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-36" target="VN-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-37" target="VN-41"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-37" target="VN-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-37" target="VN-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-37" target="VN-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-39" target="VN-40"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-39" target="VN-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-39" target="VN-57"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-39" target="VN-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-39" target="VN-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-40" target="VN-43"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-41" target="VN-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-41" target="VN-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-41" target="VN-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-43" target="VN-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-44" target="VN-45"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-44" target="VN-47"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-44" target="VN-CT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-45" target="VN-46"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-45" target="VN-49"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="VN-45" target="VN-CT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-46" target="VN-49"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-46" target="VN-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-46" target="VN-SG"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="VN-47" target="VN-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-47" target="VN-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-47" target="VN-73"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-47" target="VN-CT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-49" target="VN-50"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-49" target="VN-51"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-49" target="VN-73"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-49" target="VN-CT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-50" target="VN-51"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="VN-51" target="VN-52"><data key="sources">geoboundaries,wikidata_p47</data><data key="rule">gb_and_p47</data><data key="corroborated">true</data></edge>
+    <edge source="VN-52" target="VN-55"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-52" target="VN-73"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-53" target="VN-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-54" target="VN-56"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-54" target="VN-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-54" target="VN-69"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-54" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-55" target="VN-59"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-55" target="VN-73"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-56" target="VN-61"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-56" target="VN-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-56" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-57" target="VN-58"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-57" target="VN-SG"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-58" target="VN-72"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-61" target="VN-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-61" target="VN-HP"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+    <edge source="VN-63" target="VN-66"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-63" target="VN-67"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-63" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-66" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-68" target="VN-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-68" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-69" target="VN-70"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-69" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-70" target="VN-HN"><data key="sources">natural_earth,geoboundaries,wikidata_p47</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="VN-73" target="VN-CT"><data key="sources">natural_earth,wikidata_p47</data><data key="rule">ne_uncheckable</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>

@@ -1,0 +1,427 @@
+{
+ "schema": "region-adjacency/2",
+ "id": "ZW",
+ "kind": "country",
+ "name": "Zimbabwe",
+ "level": "provinces",
+ "n": 10,
+ "m": 19,
+ "verified": false,
+ "nodes": [
+  {
+   "code": "ZW-BU",
+   "name": "Bulawayo",
+   "wikidata": "Q24045859",
+   "lon": 28.54541,
+   "lat": -20.13867
+  },
+  {
+   "code": "ZW-HA",
+   "name": "Harare",
+   "wikidata": "Q16928358",
+   "lon": 31.06316,
+   "lat": -17.8603
+  },
+  {
+   "code": "ZW-MA",
+   "name": "Manicaland",
+   "wikidata": "Q465847",
+   "lon": 32.04285,
+   "lat": -19.29293
+  },
+  {
+   "code": "ZW-MC",
+   "name": "Mashonaland Central",
+   "wikidata": "Q596156",
+   "lon": 31.59778,
+   "lat": -16.68919
+  },
+  {
+   "code": "ZW-ME",
+   "name": "Mashonaland East",
+   "wikidata": "Q465853",
+   "lon": 31.62702,
+   "lat": -17.97758
+  },
+  {
+   "code": "ZW-MI",
+   "name": "Midlands",
+   "wikidata": "Q456556",
+   "lon": 29.85698,
+   "lat": -19.07395
+  },
+  {
+   "code": "ZW-MN",
+   "name": "Matabeleland North",
+   "wikidata": "Q456562",
+   "lon": 27.38735,
+   "lat": -18.68447
+  },
+  {
+   "code": "ZW-MS",
+   "name": "Matabeleland South",
+   "wikidata": "Q498355",
+   "lon": 28.64146,
+   "lat": -20.91862
+  },
+  {
+   "code": "ZW-MV",
+   "name": "Masvingo",
+   "wikidata": "Q498351",
+   "lon": 31.3351,
+   "lat": -20.78279
+  },
+  {
+   "code": "ZW-MW",
+   "name": "Mashonaland West",
+   "wikidata": "Q457189",
+   "lon": 29.84285,
+   "lat": -17.23654
+  }
+ ],
+ "edges": [
+  {
+   "u": "ZW-BU",
+   "v": "ZW-MN",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 93863
+  },
+  {
+   "u": "ZW-BU",
+   "v": "ZW-MS",
+   "rule": "ne_uncheckable",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 12745
+  },
+  {
+   "u": "ZW-HA",
+   "v": "ZW-MC",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 18108
+  },
+  {
+   "u": "ZW-HA",
+   "v": "ZW-ME",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 86901
+  },
+  {
+   "u": "ZW-HA",
+   "v": "ZW-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 36311
+  },
+  {
+   "u": "ZW-MA",
+   "v": "ZW-ME",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 401487
+  },
+  {
+   "u": "ZW-MA",
+   "v": "ZW-MV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 314245
+  },
+  {
+   "u": "ZW-MC",
+   "v": "ZW-ME",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 270265
+  },
+  {
+   "u": "ZW-MC",
+   "v": "ZW-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 387208
+  },
+  {
+   "u": "ZW-ME",
+   "v": "ZW-MI",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 80617
+  },
+  {
+   "u": "ZW-ME",
+   "v": "ZW-MV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 54804
+  },
+  {
+   "u": "ZW-ME",
+   "v": "ZW-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 169401
+  },
+  {
+   "u": "ZW-MI",
+   "v": "ZW-MN",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 411085
+  },
+  {
+   "u": "ZW-MI",
+   "v": "ZW-MS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 281223
+  },
+  {
+   "u": "ZW-MI",
+   "v": "ZW-MV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 364695
+  },
+  {
+   "u": "ZW-MI",
+   "v": "ZW-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 402096
+  },
+  {
+   "u": "ZW-MN",
+   "v": "ZW-MS",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 392219
+  },
+  {
+   "u": "ZW-MN",
+   "v": "ZW-MW",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 48306
+  },
+  {
+   "u": "ZW-MS",
+   "v": "ZW-MV",
+   "rule": "ne_and_gb",
+   "sources": [
+    {
+     "source": "natural_earth"
+    },
+    {
+     "source": "geoboundaries"
+    },
+    {
+     "source": "wikidata_p47"
+    }
+   ],
+   "corroborated": true,
+   "ne_border_m": 229524
+  }
+ ],
+ "relabels": [],
+ "geoboundaries": {
+  "boundaryID": "ZWE-ADM1-88200057",
+  "level": "ADM1",
+  "year": "2020",
+  "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)"
+ }
+}

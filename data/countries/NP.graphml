@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="code" for="node" attr.name="code" attr.type="string"/>
+  <key id="wikidata" for="node" attr.name="wikidata" attr.type="string"/>
+  <key id="lon" for="node" attr.name="lon" attr.type="double"/>
+  <key id="lat" for="node" attr.name="lat" attr.type="double"/>
+  <key id="sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="rule" for="edge" attr.name="rule" attr.type="string"/>
+  <key id="corroborated" for="edge" attr.name="corroborated" attr.type="boolean"/>
+  <key id="verified" for="graph" attr.name="verified" attr.type="boolean"/>
+  <graph id="NP" edgedefault="undirected">
+    <data key="verified">false</data>
+    <node id="NP-BA"><data key="name">Bagmati</data><data key="code">NP-BA</data><data key="wikidata">Q9046</data><data key="lon">85.39401</data><data key="lat">27.84579</data></node>
+    <node id="NP-BH"><data key="name">Bheri</data><data key="code">NP-BH</data><data key="wikidata">Q9060</data><data key="lon">81.56825</data><data key="lat">28.48586</data></node>
+    <node id="NP-DH"><data key="name">Dhawalagiri</data><data key="code">NP-DH</data><data key="wikidata">Q9088</data><data key="lon">83.46502</data><data key="lat">28.64458</data></node>
+    <node id="NP-GA"><data key="name">Gandaki</data><data key="code">NP-GA</data><data key="wikidata">Q9133</data><data key="lon">84.40212</data><data key="lat">28.34659</data></node>
+    <node id="NP-JA"><data key="name">Janakpur</data><data key="code">NP-JA</data><data key="wikidata">Q9152</data><data key="lon">85.96711</data><data key="lat">27.3598</data></node>
+    <node id="NP-KA"><data key="name">Karnali</data><data key="code">NP-KA</data><data key="wikidata">Q9164</data><data key="lon">82.51564</data><data key="lat">29.56348</data></node>
+    <node id="NP-KO"><data key="name">Bhojpur</data><data key="code">NP-KO</data><data key="wikidata">Q9170</data><data key="lon">87.30845</data><data key="lat">27.14644</data></node>
+    <node id="NP-LU"><data key="name">Lumbini</data><data key="code">NP-LU</data><data key="wikidata">Q9172</data><data key="lon">83.56148</data><data key="lat">27.79345</data></node>
+    <node id="NP-MA"><data key="name">Mahakali</data><data key="code">NP-MA</data><data key="wikidata">Q9178</data><data key="lon">80.53386</data><data key="lat">29.3868</data></node>
+    <node id="NP-ME"><data key="name">Mechi</data><data key="code">NP-ME</data><data key="wikidata">Q9180</data><data key="lon">87.82021</data><data key="lat">27.13219</data></node>
+    <node id="NP-NA"><data key="name">Narayani</data><data key="code">NP-NA</data><data key="wikidata">Q9183</data><data key="lon">85.02424</data><data key="lat">27.31181</data></node>
+    <node id="NP-RA"><data key="name">Rapti</data><data key="code">NP-RA</data><data key="wikidata">Q9185</data><data key="lon">82.51051</data><data key="lat">28.33408</data></node>
+    <node id="NP-SA"><data key="name">Sagarmatha</data><data key="code">NP-SA</data><data key="wikidata">Q9195</data><data key="lon">86.56784</data><data key="lat">27.25947</data></node>
+    <node id="NP-SE"><data key="name">Seti</data><data key="code">NP-SE</data><data key="wikidata">Q9196</data><data key="lon">81.09739</data><data key="lat">29.23203</data></node>
+    <edge source="NP-BA" target="NP-GA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-BA" target="NP-JA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-BA" target="NP-NA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-BH" target="NP-KA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-BH" target="NP-RA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-BH" target="NP-SE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-DH" target="NP-GA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-DH" target="NP-KA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-DH" target="NP-LU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-DH" target="NP-RA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-GA" target="NP-LU"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-GA" target="NP-NA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-JA" target="NP-NA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-JA" target="NP-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-KA" target="NP-RA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-KA" target="NP-SE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-KO" target="NP-ME"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-KO" target="NP-SA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-LU" target="NP-NA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-LU" target="NP-RA"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+    <edge source="NP-MA" target="NP-SE"><data key="sources">natural_earth,geoboundaries</data><data key="rule">ne_and_gb</data><data key="corroborated">true</data></edge>
+  </graph>
+</graphml>
